@@ -1,0 +1,304 @@
+
+/*
+==============================================
+CSS STYLES 
+==============================================
+*/
+
+/*
+==============================================
+1.0 Global Styles & Variables
+==============================================
+*/
+
+
+$purple: rgba(124, 85, 251, 1.00); 
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i&display=swap');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+  	background: url("../img/solid-splash-bg.svg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: "Lato", "Arial", sans-serif;
+  	margin: 0;
+  	padding: 0;
+}
+
+a {
+	color: $purple;
+	text-decoration: none;
+}
+
+
+
+/*
+==============================================
+2.0 Content Styles
+==============================================
+*/
+
+
+.content-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 80vh;
+	justify-content: center;
+	align-content: center;	
+	margin: 0 auto;
+	position: relative;
+}
+
+.solid-logo {
+	align-content: center;
+	align-self: center;
+	visibility: hidden;	
+	height: auto;
+
+	svg {
+	    height: 100%;
+	    display:block;
+	    width: 100%;
+	    
+
+	    @media (max-width: 500px) {
+	    	height: 75%;
+	    	width: 100%;
+		}
+
+	}
+}
+
+
+
+
+a.button {
+	display: flex;
+	background: $purple;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	margin: 0 auto;
+	justify-content: center;
+	font-family: "Lato", Arial, sans-serif;
+	font-size: 1.25rem;
+	max-width: 350px;
+	width: auto;
+	padding: .75rem;
+	padding-bottom: .75rem;
+	cursor: pointer;
+	box-shadow: 0px 0px 4px 5px rgba(124, 85, 251, .18);
+	transition: all 0.25s ease-in-out;
+		-webkit-transition: all 0.25s ease-in-out;
+		-moz-transition: all 0.25s ease-in-out;
+
+
+
+	&:hover {
+		background: darken($purple, 5%);
+		transition: all 0.25s ease-in-out;
+		-webkit-transition: all 0.25s ease-in-out;
+		-moz-transition: all 0.25s ease-in-out;
+	}
+		span.icon {
+			margin-right: 1rem;
+
+			img {
+				max-width: 50px;
+				width: 100%;
+			}
+		}
+
+		 @media (max-width: 500px) {
+	    	font-size: 1rem;
+	    	padding: .5rem;
+	    	max-width: 225px;
+
+	    	span.icon {
+
+			img {
+				max-width: 30px;
+				width: 100%;
+			}
+		}
+
+		}
+}
+
+
+footer {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	padding: 2rem 0;
+	align-items: center;
+	background: rgba(255,255,255,0.1);
+	position: fixed;
+	bottom: 0;
+	max-width: 100%;
+	width: 100%;
+
+	@media (max-width: 500px) {
+		justify-content: space-around;
+
+		.footer-logo {
+			display: none;
+		}
+
+
+
+	}
+
+	.footer-logo {
+		padding-left: 2rem;
+		img {
+			max-width: 60px;
+			width: 100%;
+			cursor: pointer;	
+		}
+
+		a {
+			cursor: pointer;
+		}
+
+
+	}
+
+	.contact {
+		padding-right: 2rem;
+
+		@media (max-width: 500px) {
+			padding-right: 0rem;
+		}
+		
+		a {
+			text-decoration: none;
+			color: $purple;
+			background: rgba($purple, 0.075);
+			border-radius: 2px;
+			padding: .5rem;
+			box-shadow: inset 0px -2px 0px 0px lighten($purple, 5%);
+			transition: all 0.25s ease-in-out;
+				-webkit-transition: all 0.25s ease-in-out;
+
+
+			&:hover {
+				text-decoration: none;
+				color: #fff;
+				box-shadow: inset 0px -120px 0px 0px  lighten($purple, 5%);
+				transition: all 0.25s ease-in-out;
+				-webkit-transition: all 0.25s ease-in-out;
+			}
+		}
+	}
+}
+
+
+
+/*
+==============================================
+3.0 Animations
+==============================================
+*/
+
+
+/*
+==============================================
+fadeIn
+==============================================
+*/
+
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0.0;		
+	}
+	
+	100% {
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0.0;		
+	}
+	
+	100% {
+		opacity: 1;	
+	}		
+}
+
+
+/*
+==============================================
+fadeInDelay
+==============================================
+*/
+
+.fadeInDelay{
+	animation-name: fadeInDelay;
+	-webkit-animation-name: fadeInDelay;	
+
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+	
+	visibility: visible !important;	
+	
+}
+
+@keyframes fadeInDelay {
+	0% {
+		opacity: 0.0;		
+	}
+	
+	50% {
+		opacity: 0.0;		
+	}
+	
+	100% {
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeInDelay {
+	0% {
+		opacity: 0.0;		
+	}
+
+	50% {
+		opacity: 0.0;		
+	}
+	
+	
+	100% {
+		opacity: 1;	
+	}		
+}
+
