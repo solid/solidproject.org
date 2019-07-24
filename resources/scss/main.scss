@@ -13,7 +13,9 @@ CSS STYLES
 
 
 $purple: rgba(124, 85, 251, 1.00); 
-
+$teal: rgba(1, 225, 154, 1.00); 
+$orange: rgba(253, 171, 0, 1.00);
+$blue: rgba(24, 169, 230, 1.00);
 
 
 
@@ -100,7 +102,7 @@ a {
 
 a.button {
 	display: flex;
-	background: $purple;
+	background: #fff;
 	color: #fff;
 	text-decoration: none;
 	border-radius: 50px;
@@ -123,10 +125,42 @@ a.button {
 		-webkit-transition: all 0.25s ease-in-out;
 		-moz-transition: all 0.25s ease-in-out;
 
+	&__purple {
+		background: $purple;
 
+		&:hover{
+			background: darken($purple, 5%);	
+		}
+	}
+
+	&__teal {
+		background: $teal;
+
+		&:hover{
+			background: darken($teal, 5%);	
+		}
+
+	}
+
+	&__orange {
+		background: $orange;
+
+		&:hover{
+			background: darken($orange, 5%);	
+		}
+
+	}
+
+	&__blue {
+		background: $blue;
+
+		&:hover{
+			background: darken($blue, 5%);	
+		}
+
+	}
 
 	&:hover {
-		background: darken($purple, 5%);
 		transition: all 0.25s ease-in-out;
 		-webkit-transition: all 0.25s ease-in-out;
 		-moz-transition: all 0.25s ease-in-out;
@@ -156,6 +190,29 @@ a.button {
 		}
 }
 
+
+.cta-block {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    a.button {
+    	    width: 46%;
+    		margin: .5rem 0;
+    }
+
+    @media (max-width: 700px) {
+    	width: 90%;
+    	justify-content: space-around;
+
+    	a.button {
+    		width: 100%;
+    	}
+    }
+
+}
 
 footer {
 	display: flex;
