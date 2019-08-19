@@ -1,0 +1,46 @@
+.solid-footer {
+    background-color: $secondary-color;
+    padding: 30px 20px;
+
+    .solid-footer-menu {
+        @include grid-container;
+        color: $white;
+        li {
+            text-align: center;
+        }
+
+        h3 {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: $white;
+            font-weight: 100;
+           
+        }
+
+        h3,
+        a {
+            @include relative-font-size(1.1);
+        }
+    }
+
+    @include media-query($on-palm) {
+        .solid-footer-menu {
+            padding-left: 30px;
+            padding-right: 30px;
+            & > li {
+                @include grid-column(6);
+            }
+        }
+    }
+
+    @include media-query($on-laptop) {
+        .solid-footer-menu {
+            & > li {
+                @include grid-column(3);
+            }
+        }
+    }
+}

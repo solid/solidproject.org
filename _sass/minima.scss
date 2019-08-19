@@ -26,6 +26,7 @@ $table-text-align: left !default;
 // Width of the content area
 $content-width: 800px !default;
 
+$on-mobile: 375px !default;
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
@@ -37,7 +38,7 @@ $on-laptop: 800px !default;
 //   }
 // }
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
+  @media screen and (min-width: $device) {
     @content;
   }
 }
@@ -49,4 +50,4 @@ $on-laptop: 800px !default;
 @import 'font-awesome';
 
 // Import partials.
-@import 'minima/normalize', 'abstract/variables', 'minima/base', 'layout/header';
+@import 'minima/normalize', 'abstract/variables', 'minima/base', 'layout/header', 'layout/footer';
