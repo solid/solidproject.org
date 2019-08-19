@@ -47,8 +47,6 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
-  "minima/normalize", 
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/normalize",
+  "minima/components/footer"
 ;
