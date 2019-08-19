@@ -12,7 +12,7 @@ li {
   align-items: center;
   min-height: 80px;
   width: 100%;
-  background: $brand-color;
+  background: $primary-color;
   color: #fff;
   position: relative;
   padding: 0 2em;
@@ -67,7 +67,7 @@ li {
         }
         .sub-links {
           position: absolute;
-          background: $brand-color;
+          background: $primary-color;
           width: 100%;
           right: 0;
           opacity: 0;

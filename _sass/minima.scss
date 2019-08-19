@@ -49,5 +49,5 @@ $on-laptop: 800px !default;
 @import 'font-awesome';
 
 // Import partials.
-@import 'minima/normalize', 'minima/base', 'minima/layout',
+@import 'minima/normalize', 'abstract/variables', 'minima/base', 'minima/layout',
   'minima/syntax-highlighting', 'layout/header';
