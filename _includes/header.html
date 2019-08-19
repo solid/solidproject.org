@@ -1,30 +1,56 @@
-<!-- Wrapper -->
-<div id="wrapper">
-
-    <!-- Header -->
-    <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-        <a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
-    </header>
-    
-    <!-- Menu -->
-    <nav id="menu">
-        <ul class="links">
-            {% for page in site.pages %}
-                {% if page.layout == "home" %}
-                    <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
-                {% endif %}
-            {% endfor %}
-            {% for page in site.pages %}
-                {% if page.layout != "home" and page.nav-menu == true %}
-                    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-                {% endif %}
-            {% endfor %}
+<header class="solid-header">
+  <div class="logo"><img src="/assets/img/solid-emblem.svg" /></div>
+  <nav>
+    <ul class="links">
+      <li>
+        <a href="#">Learn About Solid <i class="fas fa-angle-down"></i></a>
+        <ul class="sub-links">
+          <li><a href="#">What is Solid</a></li>
+          <li><a href="#">The Solid Roadmap</a></li>
+          <li><a href="#">Solid Fundamentals</a></li>
+          <li><a href="#">Solid Specification</a></li>
+          <li><a href="#">Solid Team</a></li>
         </ul>
-        <ul class="actions vertical">
-            <li><a href="#" class="button special fit">Get Started</a></li>
-            <li><a href="#" class="button fit">Log In</a></li>
+      </li>
+      <li>
+        <a href="#">Build on Solid <i class="fas fa-angle-down"></i></a>
+        <ul class="sub-links">
+          <li><a href="#">Writing Solid Applications</a></li>
+          <li><a href="#">Building a Solid Server</a></li>
+          <li><a href="#">Running a Solid Server</a></li>
         </ul>
-    </nav>
+      </li>
+      <li>
+        <a href="#">Use Solid <i class="fas fa-angle-down"></i></a>
+        <ul class="sub-links">
+          <li><a href="#">Get a Pod</a></li>
+          <li><a href="#">Use a Solid App</a></li>
+          <li><a href="#">Specification</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Community <i class="fas fa-angle-down"></i></a>
+        <ul class="sub-links">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Chat</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <ul class="actions">
+      <li><i class="fas fa-search"></i></li>
+      <li>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </li>
+    </ul>
+  </nav>
+</header>
