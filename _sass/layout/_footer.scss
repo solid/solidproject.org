@@ -17,9 +17,6 @@
     .solid-footer-menu {
         @include grid-container;
         color: $white;
-        li {
-            text-align: center;
-        }
 
         & > li {
             @include grid-column(6);
