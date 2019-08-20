@@ -23,8 +23,8 @@
         }
         
         & > li {
-            text-align: center;
-            padding: 0 20px;
+            cursor: pointer;
+            padding: 20px;
             border-bottom: 1px solid rgba(151, 151, 151, 0.53);
             position: relative;
 
@@ -36,6 +36,12 @@
                 opacity: 0.59;
                 position: absolute;
                 right: 5px;
+            }
+
+            &.open {
+                .sub-links {
+                    display: block;
+                }
             }
         }
 
@@ -86,6 +92,7 @@
             }
 
             & > li {
+                cursor: inherit;
                 text-align: left;
                 border-bottom: none;
 
