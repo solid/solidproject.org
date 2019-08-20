@@ -15,13 +15,7 @@
     }
 
     .solid-footer-menu {
-        @include grid-container;
         color: $white;
-
-        & > li {
-            @include grid-column(6);
-        }
-
         h3 {
             font-weight: 600;
             margin-bottom: 5px;
@@ -29,7 +23,6 @@
     }
 
     .solid-bottom-footer {
-        @include grid-container;
         margin-top: 40px;
 
         nav {
@@ -68,21 +61,8 @@
         }
 
         .solid-bottom-footer {
-            .solid-copyright {
-                @include grid-column(6); 
-            }
-    
             nav {
                 text-align: right;
-                @include grid-column(6); 
-            }
-        }
-    }
-
-    @include media-query($on-laptop) {
-        .solid-footer-menu {
-            & > li {
-                @include grid-column(3);
             }
         }
     }
