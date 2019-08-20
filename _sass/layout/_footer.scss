@@ -16,9 +16,31 @@
 
     .solid-footer-menu {
         color: $white;
+        padding: 0 20px;
         h3 {
-            font-weight: 600;
+            font-weight: 300;
             margin-bottom: 5px;
+        }
+        
+        & > li {
+            text-align: center;
+            padding: 0 20px;
+            border-bottom: 1px solid rgba(151, 151, 151, 0.53);
+            position: relative;
+
+            h3 {
+                text-transform: uppercase;
+            }
+
+            .fa-chevron-down {
+                opacity: 0.59;
+                position: absolute;
+                right: 5px;
+            }
+        }
+
+        .sub-links {
+            display: none;
         }
     }
 
@@ -58,6 +80,23 @@
         .solid-footer-menu {
             padding-left: 30px;
             padding-right: 30px;
+
+            h3 {
+                font-weight: 400;
+            }
+
+            & > li {
+                text-align: left;
+                border-bottom: none;
+
+                .fa-chevron-down {
+                    display: none;
+                }
+            }
+
+            .sub-links {
+                display: block;
+            }
         }
 
         .solid-bottom-footer {
