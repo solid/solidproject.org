@@ -60,9 +60,14 @@ li {
         }
 
         &.sub-links {
-          &.active > ul {
-            transform: translateY(0);
-            opacity: 1;
+          &.active {
+            & > a::after {
+              content: '\f106';
+            }
+            & > ul {
+              transform: translateY(0);
+              opacity: 1;
+            }
           }
           & > ul {
             flex-direction: column;
