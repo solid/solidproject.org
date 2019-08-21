@@ -20,12 +20,14 @@
         h3 {
             font-weight: 300;
             margin-bottom: 5px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(151, 151, 151, 0.53);
+            position: relative;
         }
         
         & > li {
             cursor: pointer;
             padding: 20px;
-            border-bottom: 1px solid rgba(151, 151, 151, 0.53);
             position: relative;
 
             h3 {
@@ -33,16 +35,27 @@
             }
 
             .fa-chevron-down {
+                transition-duration: 0.5s;
+                transition-property: transform;
                 opacity: 0.59;
                 position: absolute;
                 right: 5px;
-                top: 50%;
+                top: 0;
             }
 
             &.open {
                 .sub-links {
                     display: block;
                 }
+
+                .fa-chevron-down {
+                    transform: rotate(180deg);
+                }
+            }
+
+            .sub-links {
+                padding-left: 20px;
+                margin: 15px 0;
             }
         }
 
@@ -90,15 +103,21 @@
 
             h3 {
                 font-weight: 400;
+                border-bottom: none;
+                padding-bottom: 0;
             }
 
             & > li {
                 cursor: inherit;
                 text-align: left;
-                border-bottom: none;
 
                 .fa-chevron-down {
                     display: none;
+                }
+
+                .sub-links {
+                    padding-left: 0px;
+                    margin: 0;
                 }
             }
 
