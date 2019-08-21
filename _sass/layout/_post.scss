@@ -1,0 +1,15 @@
+.solid-post {
+    .h-entry {
+        padding: 0 2em;
+    }
+
+    .right-side {
+        background-color: #F4F4F4;
+    }
+
+    @include media-query($on-palm) {
+        .h-entry {
+            padding: 0 3em;
+        }
+    }
+}
