@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
-    $base-font-family;
+  font: $base-font-weight calc(1em + 1vw) $base-font-family;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -16,6 +21,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  font-size: calc(1em + 1vw);
 }
 
 /**
@@ -233,4 +239,11 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

@@ -1,116 +1,116 @@
 .solid-footer {
-    background-color: $secondary-color;
-    padding: 30px 20px;
+  background-color: $secondary-color;
+  padding: 30px 20px;
 
-    a,
-    p {
-        font-weight: 100;
+  a,
+  p {
+    font-weight: 100;
+  }
+
+  h3,
+  a,
+  p {
+    @include relative-font-size(1.1);
+    color: $white;
+  }
+
+  .solid-footer-menu {
+    color: $white;
+    padding: 0 20px;
+    h3 {
+      font-weight: 300;
+      margin-bottom: 5px;
     }
 
-    h3,
-    a,
-    p {
-        @include relative-font-size(1.1);
-        color: $white;
-    }
+    & > li {
+      cursor: pointer;
+      padding: 20px;
+      border-bottom: 1px solid rgba(151, 151, 151, 0.53);
+      position: relative;
 
-    .solid-footer-menu {
-        color: $white;
-        padding: 0 20px;
-        h3 {
-            font-weight: 300;
-            margin-bottom: 5px;
-        }
-        
-        & > li {
-            cursor: pointer;
-            padding: 20px;
-            border-bottom: 1px solid rgba(151, 151, 151, 0.53);
-            position: relative;
+      h3 {
+        text-transform: uppercase;
+      }
 
-            h3 {
-                text-transform: uppercase;
-            }
+      .fa-chevron-down {
+        opacity: 0.59;
+        position: absolute;
+        right: 5px;
+        top: 50%;
+      }
 
-            .fa-chevron-down {
-                opacity: 0.59;
-                position: absolute;
-                right: 5px;
-                top: 50%;
-            }
-
-            &.open {
-                .sub-links {
-                    display: block;
-                }
-            }
-        }
-
+      &.open {
         .sub-links {
-            display: none;
+          display: block;
         }
+      }
+    }
+
+    .sub-links {
+      display: none;
+    }
+  }
+
+  .solid-bottom-footer {
+    margin-top: 40px;
+
+    nav {
+      min-height: 58px;
+      ul {
+        line-height: 58px;
+      }
+      li {
+        display: inline-block;
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .solid-copyright {
+    img {
+      max-width: 44px;
+    }
+
+    img,
+    p {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    p {
+      margin-left: 5px;
+      font-weight: 400;
+    }
+  }
+
+  @include media-query($on-palm) {
+    .solid-footer-menu {
+      padding-left: 30px;
+      padding-right: 30px;
+
+      h3 {
+        font-weight: 400;
+      }
+
+      & > li {
+        cursor: inherit;
+        text-align: left;
+        border-bottom: none;
+
+        .fa-chevron-down {
+          display: none;
+        }
+      }
+
+      .sub-links {
+        display: block;
+      }
     }
 
     .solid-bottom-footer {
-        margin-top: 40px;
-
-        nav {
-            min-height: 58px;
-            ul {
-                line-height: 58px;
-            }
-            li {
-                display: inline-block;
-                margin: 0 5px;
-            }
-        }
+      nav {
+        text-align: right;
+      }
     }
-
-    .solid-copyright {
-        img {
-            max-width: 44px;
-        }
-
-        img,
-        p {
-            display: inline-block;
-            vertical-align: middle;
-        }
-
-        p {
-            margin-left: 5px;
-            font-weight: 400;
-        }
-    }
-
-    @include media-query($on-palm) {
-        .solid-footer-menu {
-            padding-left: 30px;
-            padding-right: 30px;
-
-            h3 {
-                font-weight: 400;
-            }
-
-            & > li {
-                cursor: inherit;
-                text-align: left;
-                border-bottom: none;
-
-                .fa-chevron-down {
-                    display: none;
-                }
-            }
-
-            .sub-links {
-                display: block;
-            }
-        }
-
-        .solid-bottom-footer {
-            nav {
-                text-align: right;
-            }
-        }
-    }
+  }
 }

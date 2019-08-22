@@ -28,14 +28,8 @@ $content-width: 800px !default;
 $on-mobile: 375px !default;
 $on-palm: 768px !default;
 $on-laptop: 800px !default;
+$on-tablet: 1024px !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
 @mixin media-query($device) {
   @media screen and (min-width: $device) {
     @content;
@@ -49,4 +43,5 @@ $on-laptop: 800px !default;
 @import 'font-awesome';
 
 // Import partials.
-@import 'minima/normalize', 'abstract/variables', 'minima/base', 'layout/header', 'layout/footer';
+@import 'minima/normalize', 'abstract/variables', 'minima/base',
+  'layout/header2', 'layout/footer';
