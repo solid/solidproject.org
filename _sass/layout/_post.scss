@@ -4,9 +4,12 @@
         padding: 0.5em 2em 0.6em;
 
         ul {
+            align-items: center;
+            display: flex;
+        
             li {
                 display: inline-block;
-                // margin: 0 5px;
+                margin: 0 5px;
             }
 
             a,
@@ -18,6 +21,23 @@
                 margin: 0 5px;
                 transform: rotate(-90deg);
                 font-size: 0.7rem;
+            }
+        }
+
+        .menu-mobile {
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            button {
+                border: 1px solid $brand-color;
+                border-radius: 60px;
+                padding: 10px 12px;
+                background: transparent;
+                outline: none;
+
+                i {
+                    color: $purple;
+                }
             }
         }
     }
@@ -32,5 +52,14 @@
 
     .aside-menu {
         padding: 60px 40px;
+    }
+
+    @include media-query($on-palm) {
+        .h-entry,
+        .solid-breadcrumbs {
+            .menu-mobile {
+                display: none;
+            }
+        }
     }
 }

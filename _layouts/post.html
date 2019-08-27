@@ -4,20 +4,25 @@ layout: default
 <section class="row solid-post">
     <section class="solid-breadcrumbs col-xs-12">
         {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-        <ul>
-            <li><a href="/">Home</a> ></li>
-            {% for crumb in crumbs offset: 1 %}
-            {% if forloop.last %}
-                <li>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
-            {% else %}
-                <li>
-                    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
-                        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} ></i>
-                    </a>
-                </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
+        <div class="solid-breadcrumbs-container row">
+            <ul class="col-xs-10 col-sm-12">
+                <li><a href="/">Home</a> ></li>
+                {% for crumb in crumbs offset: 1 %}
+                {% if forloop.last %}
+                    <li>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
+                {% else %}
+                    <li>
+                        <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+                            {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} ></i>
+                        </a>
+                    </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <div class="menu-mobile col-xs-2">
+                <button><i class="far fa-list-alt"></i></button>
+            </div>
+        </div>
     </section>
     <article class="post h-entry col-xs-12 col-sm-8" itemscope itemtype="http://schema.org/BlogPosting">
 
