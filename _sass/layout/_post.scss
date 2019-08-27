@@ -1,6 +1,29 @@
 .solid-post {
-    .h-entry {
-        padding: 0 2em;
+    .h-entry,
+    .solid-breadcrumbs {
+        padding: 0.5em 2em 0.6em;
+
+        ul {
+            li {
+                display: inline-block;
+                // margin: 0 5px;
+            }
+
+            a,
+            li {
+                font-size: 1.1rem;
+            }
+
+            i {
+                margin: 0 5px;
+                transform: rotate(-90deg);
+                font-size: 0.7rem;
+            }
+        }
+    }
+
+    .solid-breadcrumbs {
+        box-shadow: 0 4px 4px -2px rgba(0,0,0,0.06);
     }
 
     .right-side {
@@ -9,11 +32,5 @@
 
     .aside-menu {
         padding: 60px 40px;
-    }
-
-    @include media-query($on-palm) {
-        .h-entry {
-            padding: 0 3em;
-        }
     }
 }
