@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+  sublinks:
+    - name: Get To Know
+- name: About
+  link: /about.html

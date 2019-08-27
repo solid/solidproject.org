@@ -3,29 +3,14 @@
 	Solid by Inrupt
 -->
 <html>
+  {% include head.html %}
 
-{% include head.html %}
-
-<body>
-
-    {% include header.html %} 
-    
-    
-<!-- Main -->
-<div id="main" class="alt">
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
-		<p>{{ content }}</p>
-	</div>
-</section>
-
-</div>
-
+  <body>
+    {% include header.html %}
+    <section class="main">
+      {{ content }}
+    </section>
     {% include footer.html %}
-<script src="{{ 'assets/js/app.js' | relative_url }}"></script>
-</body>
-
+    <script src="{{ 'assets/js/app.js' | relative_url }}"></script>
+  </body>
 </html>

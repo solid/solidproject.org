@@ -1,7 +1,15 @@
 body {
   overflow-x: hidden;
 }
-.solid-header {
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: url('/assets/img/solid-background.svg') no-repeat;
+  background-size: 100%;
+  background-attachment: local;
+}
+.solid-nav {
   z-index: 2;
   display: flex;
   align-items: center;
@@ -163,8 +171,9 @@ body {
     display: none;
   }
 
-  .solid-header {
+  .solid-nav {
     padding: 0 1em;
+    align-items: stretch;
     .menu {
       position: relative;
       transform: translateX(0);
@@ -172,7 +181,7 @@ body {
       justify-content: flex-end;
       align-items: center;
       padding: 0;
-      height: 100%;
+      height: auto;
       .links {
         flex-direction: row;
         justify-content: flex-end;
