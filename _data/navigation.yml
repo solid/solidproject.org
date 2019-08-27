@@ -1,6 +1,48 @@
-- name: Home
-  link: /
+- name: Learn About Solid
+  link: /Learn-About-Solid
   sublinks:
-    - name: Get To Know
-- name: About
-  link: /about.html
+    - name: What is Solid
+      link: what-is-solid
+    - name: The Solid Roadmap
+      link: the-solid-roadmap
+    - name: Solid Fundamentals
+      link: solid-fundamentals
+    - name: Solid Specification
+      link: solid-specification
+    - name: Solid Team
+      link: solid-team
+- name: Build on Solid
+  link: /Build-on-Solid
+  sublinks:
+    - name: Writing Solid Applications
+      link: writing-solid-applications
+    - name: Building a Solid Server
+      link: building-a-solid-server
+    - name: Running a Solid Server
+      link: running-a-solid-server
+- name: Use Solid
+  link: /Use-Solid
+  sublinks:
+    - name: Get a Pod
+      link: get-a-pod
+    - name: Use a Solid App
+      link: use-a-solid-app
+    - name: Specification
+      link: specification
+    - name: Team
+      link: team
+    - name: FAQ
+      link: faq
+    - name: Press
+      link: press
+- name: Community
+  link: /Community
+  sublinks:
+    - name: Blog
+      link: blog
+    - name: Forum
+      link: forum
+    - name: Events
+      link: events
+    - name: Chat
+      link: chat
