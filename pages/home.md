@@ -67,7 +67,7 @@ permalink: /
   <div class="img-info-banner row around">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
       <div class="image">
-        <img src="/assets/img/jekyll-panel-image.png" alt="" />
+        <img src="/assets/img/pod-user-icon.svg" alt="" />
       </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
@@ -88,7 +88,7 @@ permalink: /
   <div class="img-info-banner row around reverse">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
       <div class="image">
-        <img src="/assets/img/jekyll-panel-image.png" alt="" />
+        <img src="/assets/img/pod-user-icon.svg" alt="" />
       </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
@@ -104,12 +104,13 @@ permalink: /
         </p>
       </div>
     </div>
+
   </div>
 
   <div class="img-info-banner row around">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
       <div class="image">
-        <img src="/assets/img/jekyll-panel-image.png" alt="" />
+        <img src="/assets/img/pod-user-icon.svg" alt="" />
       </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
