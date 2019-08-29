@@ -2,13 +2,6 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  background: url('/assets/img/solid-background.svg') no-repeat;
-  background-size: 100%;
-  background-attachment: local;
-}
 .solid-nav {
   z-index: 2;
   display: flex;

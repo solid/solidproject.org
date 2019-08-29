@@ -1,42 +1,3 @@
-footer.splash-footer {
-  background: transparent;
-  display: flex;
-  justify-content: space-between;
-  height: 60px;
-  padding: 0 1em;
-  .solid {
-    background: transparent;
-    display: flex;
-    font-size: 0.7em;
-    align-items: center;
-    color: #575757;
-    img {
-      height: 42px;
-      width: 42px;
-      margin-right: 1em;
-    }
-  }
-
-  ul.links {
-    background: transparent;
-    display: flex;
-    align-items: center;
-    font-size: 0.7em;
-    color: $solid-color;
-    li {
-      padding: 0 1em;
-      border-right: solid 1px $solid-color;
-      &:last-child {
-        border-right: none;
-      }
-      a,
-      a:hover {
-        text-decoration: none;
-      }
-    }
-  }
-}
-
 .splash {
   background: url('/assets/img/solid-background.svg') no-repeat;
   background-size: cover;
@@ -48,8 +9,8 @@ footer.splash-footer {
   .container {
     display: flex;
     flex-direction: column;
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
 
     button {
       color: #ffffff;
