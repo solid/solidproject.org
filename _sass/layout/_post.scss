@@ -48,12 +48,76 @@
 
     .right-side {
         background-color: #F4F4F4;
+        padding: 0;
     }
 
     .aside-menu {
-        padding: 60px 40px;
-    }
+        padding: 60px 40px 60px 0;
+        color: $gray;
+        
+        h4 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 0;
+        }
 
+        h4,
+        h5,
+        a {
+            padding-left: 40px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                cursor: pointer;
+                &.open {
+                    ul {
+                        display: block;
+                    }
+                }
+
+                &.active {
+                    border-left: 4px solid $curious-blue;
+
+                    a {
+                        padding-left: 40px;
+                    }
+                }
+
+                ul {
+                    display: none;
+    
+                    a {
+                        padding-left: 60px;
+                    }
+                }
+            }
+        }
+
+        h5,
+        a {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        a {
+            color: $curious-blue;
+        }
+
+        ul {
+            margin: 0 0 10px;
+        }
+
+        .fa-chevron-down {
+            font-size: 0.9rem;
+            margin-left: 10px;
+        }
+    }
+    
     @include media-query($on-palm) {
         .h-entry,
         .solid-breadcrumbs {

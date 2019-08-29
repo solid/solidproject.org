@@ -9,13 +9,14 @@ layout: default
                 <li><a href="/">Home</a> ></li>
                 {% for crumb in crumbs offset: 1 %}
                 {% if forloop.last %}
-                    <li>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
+                <li>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
                 {% else %}
-                    <li>
-                        <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
-                            {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} ></i>
-                        </a>
-                    </li>
+                <li>
+                    <a
+                        href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+                        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} ></i>
+                    </a>
+                </li>
                 {% endif %}
                 {% endfor %}
             </ul>
@@ -26,29 +27,47 @@ layout: default
     </section>
     <article class="post h-entry col-xs-12 col-sm-8" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <header class="post-header">
-        <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p class="post-meta">
-        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            {{ page.date | date: date_format }}
-        </time>
-        {%- if page.author -%}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
-        {%- endif -%}</p>
-    </header>
+        <header class="post-header">
+            <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            <p class="post-meta">
+                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    {{ page.date | date: date_format }}
+                </time>
+                {%- if page.author -%}
+                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+                        itemprop="name">{{ page.author | escape }}</span></span>
+                {%- endif -%}</p>
+        </header>
 
-    <div class="post-content e-content" itemprop="articleBody">
-        {{ content }}
-    </div>
+        <div class="post-content e-content" itemprop="articleBody">
+            {{ content }}
+        </div>
 
-    {%- if site.disqus.shortname -%}
+        {%- if site.disqus.shortname -%}
         {%- include disqus_comments.html -%}
-    {%- endif -%}
+        {%- endif -%}
 
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
     </article>
     <aside class="col-xs-12 col-sm-4 right-side">
-        <nav class="aside-menu">Menu</nav>
+        <nav class="aside-menu">
+                <ul>
+                {% for category in site.categories %}
+                <li>
+                    <h4 class="accordionItem">{{ category[0] }}</h4>
+                    <ul>
+                    {% for post in category[1] %}
+                        {% if page.url == post.url %}
+                            <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% else %}
+                            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
+                {% endfor %}
+                </li>
+                </ul>
+        </nav>
     </aside>
 </section>
