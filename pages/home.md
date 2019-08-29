@@ -14,7 +14,7 @@ permalink: /
   </div>
 
   <div class="cards row around">
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-book"></i>
@@ -30,7 +30,7 @@ permalink: /
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-tools"></i>
@@ -46,7 +46,7 @@ permalink: /
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-users"></i>
@@ -60,6 +60,69 @@ permalink: /
             Animi, accusamus?
           </p>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="img-info-banner row around">
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+      <div class="image">
+        <img src="/assets/img/jekyll-panel-image.png" alt="" />
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+      <div class="info-card">
+        <h3 class="title">Lorem Ipsum Headline</h3>
+        <p class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+          beatae eveniet neque, odit quod quia non assumenda, fugit cumque iure
+          in incidunt placeat pariatur odio a eligendi. Enim quasi hic
+          consequuntur tenetur in dolores illum iusto libero rerum fugiat,
+          sapiente nisi deleniti iure voluptates, repellendus ex. Deleniti est
+          corporis modi?
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="img-info-banner row around reverse">
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+      <div class="image">
+        <img src="/assets/img/jekyll-panel-image.png" alt="" />
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+      <div class="info-card">
+        <h3 class="title">Lorem Ipsum Headline</h3>
+        <p class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+          beatae eveniet neque, odit quod quia non assumenda, fugit cumque iure
+          in incidunt placeat pariatur odio a eligendi. Enim quasi hic
+          consequuntur tenetur in dolores illum iusto libero rerum fugiat,
+          sapiente nisi deleniti iure voluptates, repellendus ex. Deleniti est
+          corporis modi?
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="img-info-banner row around">
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+      <div class="image">
+        <img src="/assets/img/jekyll-panel-image.png" alt="" />
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+      <div class="info-card">
+        <h3 class="title">Lorem Ipsum Headline</h3>
+        <p class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+          beatae eveniet neque, odit quod quia non assumenda, fugit cumque iure
+          in incidunt placeat pariatur odio a eligendi. Enim quasi hic
+          consequuntur tenetur in dolores illum iusto libero rerum fugiat,
+          sapiente nisi deleniti iure voluptates, repellendus ex. Deleniti est
+          corporis modi?
+        </p>
       </div>
     </div>
   </div>
