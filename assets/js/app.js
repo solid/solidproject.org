@@ -49,6 +49,7 @@ const accordion = (function() {
 const hamburgerFunction = (() => {
   const burger = document.querySelector('.burger');
   const menu = document.querySelector('.menu');
+  if (!burger || !menu) return;
   const subMenus = document.querySelectorAll('.sub-links');
   burger.addEventListener('click', () => {
     burger.classList.toggle('toggle-burger');
