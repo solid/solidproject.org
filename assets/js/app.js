@@ -44,6 +44,13 @@ const accordion = (function() {
   // Create instance to add accordion to footer mobile
   const footerAccordion = accordion.getInstance();
   footerAccordion.toggleInit('accordionItem');
+
+  /** Open side nav menu by default on blog and documentation */
+  if (document.getElementsByClassName('active').length > 0 ) {
+    var element = document.getElementsByClassName('active')[0].parentNode;
+    var parentLi = element.parentNode;
+    parentLi.className = 'open';
+  }
 })('docReady', window, accordion);
 
 const hamburgerFunction = (() => {
