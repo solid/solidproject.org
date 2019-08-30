@@ -1,4 +1,10 @@
 .solid-post {
+    h1 {
+        color: #5A5A5A;
+        font-size: 2rem;
+    }
+
+    
     .h-entry,
     .solid-breadcrumbs {
         padding: 0.5em 2em 0.6em;
@@ -156,11 +162,6 @@
     .post-content {
         color: $gray;
         
-        h1 {
-            color: #5A5A5A;
-            font-size: 2rem;
-        }
-
         p {
             font-size: 1.3rem;
             letter-spacing: 0.07px;	
