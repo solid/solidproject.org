@@ -1,5 +1,5 @@
 .home {
-  background: #ffffff url('./img/solid-background.svg') no-repeat;
+  background: #ffffff url($solid-background) no-repeat;
   background-size: auto;
   background-position: 0 -2em;
   background-origin: border-box;
