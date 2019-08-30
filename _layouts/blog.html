@@ -53,6 +53,9 @@ layout: default
         {%- endif -%}
 
         <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+        <section class="solid-related-post col-xs-12">
+            {% include related-posts.html %}
+        </section>
     </article>
     <aside class="col-xs-12 col-sm-4 right-side">
         <nav class="aside-menu">
@@ -95,7 +98,4 @@ layout: default
             </ul>
         </nav>
     </aside>
-    <section class="solid-related-post">
-        {% include related-posts.html %}
-    </section>
 </section>
