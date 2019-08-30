@@ -44,7 +44,7 @@ $on-tablet: 1024px !default;
   font-size: $base-font-size * $ratio;
 }
 
-@import '_font-awesome';
+// @import 'font-awesome';
 
 // Import partials.
 @import 'minima/normalize', 'abstract/variables', 'minima/base', 'layout/header',
