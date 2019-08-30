@@ -247,3 +247,10 @@ li {
   margin: 0;
   padding: 0;
 }
+
+blockquote {
+  background: rgba(255, 207, 77, 0.24);
+  border-color: $yellow;
+  border-width: 9px;
+  padding: 10px 20px;
+}

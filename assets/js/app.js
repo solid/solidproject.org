@@ -51,6 +51,21 @@ const accordion = (function() {
     var parentLi = element.parentNode;
     parentLi.className = 'open';
   }
+  const postButtonmenu = document.getElementsByClassName('menu-mobile-aside')[0];
+  postButtonmenu.addEventListener('click', () => {
+    if (postButtonmenu.className.includes('open')) {
+      postButtonmenu.className = 'menu-mobile-aside col-xs-2';
+    } else {
+      postButtonmenu.className = 'open menu-mobile-aside col-xs-2';
+    }
+    const element = document.getElementsByClassName('aside-menu')[0];
+
+    if (element.className.includes('open')) {
+      element.className = 'aside-menu';
+    } else {
+      element.className = 'aside-menu open';
+    }
+  });
 })('docReady', window, accordion);
 
 const hamburgerFunction = (() => {

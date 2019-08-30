@@ -20,15 +20,15 @@ layout: default
                 {% endif %}
                 {% endfor %}
             </ul>
-            <div class="menu-mobile col-xs-2">
-                <button><i class="far fa-list-alt"></i></button>
+            <div class="menu-mobile menu-mobile-aside col-xs-2">
+                <button><i class="far"></i></button>
             </div>
         </div>
     </section>
     <article class="post h-entry col-xs-12 col-sm-8" itemscope itemtype="http://schema.org/BlogPosting">
 
         <header class="post-header">
-            <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            <!--<h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
             <p class="post-meta">
                 <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -37,7 +37,7 @@ layout: default
                 {%- if page.author -%}
                 • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
                         itemprop="name">{{ page.author | escape }}</span></span>
-                {%- endif -%}</p>
+                {%- endif -%}</p>-->
         </header>
 
         <div class="post-content e-content" itemprop="articleBody">
@@ -55,7 +55,7 @@ layout: default
                 <ul>
                 {% for category in site.categories %}
                 <li>
-                    <h4 class="accordionItem">{{ category[0] }}</h4>
+                    <h4 class="accordionItem">{{ category[0] }} <i class="fas fa-chevron-down"></i></h4>
                     <ul>
                     {% for post in category[1] %}
                         {% if page.url == post.url %}
