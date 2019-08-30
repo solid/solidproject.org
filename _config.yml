@@ -30,7 +30,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-font-awesome-sass
-  - neat
 font-awesome:
   assets: true
   # Exclude from processing.
