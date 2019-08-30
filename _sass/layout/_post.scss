@@ -2,9 +2,32 @@
     h1 {
         color: #5A5A5A;
         font-size: 2rem;
+        &.post-title {
+            margin-bottom: 0;
+        }
     }
 
-    
+    .post-meta {
+        line-height: 12px;
+        span,
+        time {
+            color: $gray;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0.9rem;
+            font-weight: 300;
+            margin: 0 5px;
+        }
+
+        span {
+            margin-left: 0;
+        }
+
+        > span {
+            border-right: 1px solid $gray;
+            padding-right: 5px;
+        }
+    }
     .h-entry,
     .solid-breadcrumbs {
         padding: 0.5em 2em 0.6em;
