@@ -1,6 +1,6 @@
 <div class="solid-nav">
-  <a href="{{ '' | absolute_url }}" class="logo"
-    ><img src="/assets/img/solid-emblem.svg"
+  <a href="{{ '' | absolute_url }}/" class="logo"
+    ><img src="{{ site.baseurl }}/assets/img/solid-emblem.svg"
   /></a>
   <nav class="menu">
     <ul class="links">
@@ -11,7 +11,9 @@
         <ul>
           {%for subitem in item.sublinks%}
           <li>
-            <a href="{{ item.link }}/{{ subitem.link }}">{{ subitem.name }}</a>
+            <a href="{{ site.baseurl }}{{ item.link }}/{{ subitem.link }}">{{
+              subitem.name
+            }}</a>
           </li>
           {%endfor%}
         </ul>

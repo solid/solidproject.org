@@ -67,7 +67,7 @@ permalink: /
   <div class="img-info-banner row around">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
       <div class="image">
-        <img src="/assets/img/pod-user-icon.svg" alt="" />
+        <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
       </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
@@ -88,7 +88,7 @@ permalink: /
   <div class="img-info-banner row around reverse">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
       <div class="image">
-        <img src="/assets/img/pod-user-icon.svg" alt="" />
+        <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
       </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
@@ -110,7 +110,7 @@ permalink: /
   <div class="img-info-banner row around">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
       <div class="image">
-        <img src="/assets/img/pod-user-icon.svg" alt="" />
+        <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
       </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
