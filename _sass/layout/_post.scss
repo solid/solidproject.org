@@ -7,6 +7,9 @@
         }
     }
 
+    h5 {
+        font-size: 1.3rem;
+    }
     .post-meta {
         line-height: 12px;
         span,
@@ -199,6 +202,25 @@
 
         iframe {
             margin: 20px 0;
+        }
+    }
+
+    .post-detail {
+        margin: 10px 0;
+    }
+
+    .solid-related-post {
+        padding: 0;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        margin: 40px 0;
+        padding: 40px 0;
+
+        a {
+            color: $gray;
+        }
+
+        h5 {
+            margin: 15px 0 0;
         }
     }
     
