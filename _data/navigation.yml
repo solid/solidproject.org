@@ -36,10 +36,10 @@
     - name: Press
       link: press
 - name: Community
-  link: /Community
+  link: /community
   sublinks:
     - name: Blog
-      link: blog
+      link: /blog/blog-post
     - name: Forum
       link: forum
     - name: Events

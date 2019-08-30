@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Blog Post
+title: Blog Example
 tags: [community, blog]
 categories: [Community]
 permalink: /community/blog/blog-post

@@ -10,7 +10,6 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.8.6"
 gem 'neat'
-
 gem 'jekyll-font-awesome-sass'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
