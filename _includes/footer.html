@@ -1,36 +1,100 @@
-<footer class="site-footer h-card">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-  
-    <div class="wrapper">
-  
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
-  
-      <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-          <ul class="contact-list">
-            <li class="p-name">
-              {%- if site.author -%}
-                {{ site.author | escape }}
-              {%- else -%}
-                {{ site.title | escape }}
-              {%- endif -%}
-              </li>
-              {%- if site.email -%}
-              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-              {%- endif -%}
-          </ul>
-        </div>
-  
-        <div class="footer-col footer-col-2">
-          {%- include social.html -%}
-        </div>
-  
-        <div class="footer-col footer-col-3">
-          <p>{{- site.description | escape -}}</p>
-        </div>
-      </div>
-  
+<footer class="solid-footer">
+  <nav>
+    <ul class="solid-footer-menu row">
+      <li class="col-xs-12 col-sm-3">
+        <h3 class="accordionItem">Learn About Solid <i class="fas fa-chevron-down"></i></h3>
+        <ul class="sub-links">
+          <li>
+            <a href="/learn-about-solid/what-is-solid">What About Solid?</a>
+          </li>
+          <li>
+            <a href="#">The Solid Roadmap</a>
+          </li>
+          <li>
+            <a href="#">Solid Fundamentals</a>
+          </li>
+          <li>
+            <a href="#">Solid Specification</a>
+          </li>
+          <li >
+            <a href="#">Solid Team</a>
+          </li>
+        </ul>
+      </li>
+      <li class="col-xs-12 col-sm-3">
+        <h3 class="accordionItem">Build on Solid <i class="fas fa-chevron-down"></i></h3>
+        <ul class="sub-links">
+          <li>
+            <a href="#">Writing Solid Applications</a>
+          </li>
+          <li >
+            <a href="#">Building a Solid Server</a>
+          </li>
+          <li >
+            <a href="#">Running a Solid Server</a>
+          </li>
+        </ul>
+      </li>
+      <li class="col-xs-12 col-sm-3">
+        <h3 class="accordionItem">Use Solid <i class="fas fa-chevron-down"></i></h3>
+        <ul class="sub-links">
+          <li >
+            <a href="#">Get a Pod</a>
+          </li>
+          <li >
+            <a href="#">Use a Solid App</a>
+          </li>
+          <li >
+            <a href="#">Specification</a>
+          </li>
+          <li >
+            <a href="#">Team</a>
+          </li>
+          <li >
+            <a href="#">FAQ</a>
+          </li>
+          <li >
+            <a href="#">Press</a>
+          </li>
+        </ul>
+      </li>
+      <li class="col-xs-12 col-sm-3">
+        <h3 class="accordionItem">Community <i class="fas fa-chevron-down"></i></h3>
+        <ul class="sub-links">
+          <li >
+            <a href="/community/blog/blog-post">Blog</a>
+          </li>
+          <li >
+            <a href="#">Forum</a>
+          </li>
+          <li >
+            <a href="#">Events</a>
+          </li>
+          <li >
+            <a href="#">Chat</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="solid-bottom-footer row">
+    <div class="solid-copyright col-xs-12 col-sm-6">
+      <img src="/assets/img/solid-emblem.svg" />
+      <p>© 2019 Solid, All Rights Reserved.</p>
     </div>
-  
-  </footer>
+    <nav class="col-xs-12 col-sm-6">
+      <ul>
+        <li>
+          <a href="#">Terms of Service</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
   

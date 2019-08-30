@@ -1,0 +1,34 @@
+<div class="solid-nav">
+  <a href="{{ '' | absolute_url }}" class="logo"
+    ><img src="/assets/img/solid-emblem.svg"
+  /></a>
+  <nav class="menu">
+    <ul class="links">
+      {% for item in site.data.navigation %}
+      <li {%if item.sublinks%} class="sub-links" {%endif%}>
+        <a href="#">{{ item.name }}</a>
+        {% if item.sublinks %}
+        <ul>
+          {%for subitem in item.sublinks%}
+          <li>
+            <a href="{{ item.link }}/{{ subitem.link }}">{{ subitem.name }}</a>
+          </li>
+          {%endfor%}
+        </ul>
+        {%endif%}
+      </li>
+      {% endfor %}
+    </ul>
+    <ul class="actions">
+      <li><i class="fas fa-search"></i></li>
+      <li>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </li>
+    </ul>
+  </nav>
+  <div class="burger">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+</div>

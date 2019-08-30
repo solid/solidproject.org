@@ -4,13 +4,11 @@
 -->
 <html>
   {% include head.html %}
-
   <body>
-    {% include header.html %}
     <section class="main">
       {{ content }}
     </section>
-    {% include footer.html %}
+    {% include splash-footer.html %}
     <script src="{{ 'assets/js/app.js' | relative_url }}"></script>
   </body>
 </html>
