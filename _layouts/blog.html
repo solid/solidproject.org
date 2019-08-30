@@ -60,11 +60,13 @@ layout: default
                     <h4 class="accordionItem">Recent Posts<i class="fas fa-chevron-down"></i></h4>
                     <ul>
                         {% for post in site.posts limit:5 %}
-                            {% if page.url == post.url %}
-                                <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
-                            {% else %}
-                                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                            {% endif %}
+                            {% unless post.exclude %}
+                                {% if page.url == post.url %}
+                                    <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                                {% else %}
+                                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                                {% endif %}
+                            {% endunless %}
                         {% endfor %}
                     </ul>
                 </li>
@@ -74,16 +76,20 @@ layout: default
                 <li>
                     <h4 class="accordionItem">Archive<i class="fas fa-chevron-down"></i></h4>
                     {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
-                    {% for yearMonth in postsByYearMonth %}
-                    <h5>{{ yearMonth.name }}</h5>
                     <ul>
-                        {% for post in yearMonth.items %}
-                        {% unless post.exclude %}
-                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                        {% endunless %}
-                        {% endfor %}
-                    </ul>
+                    {% for yearMonth in postsByYearMonth %}
+                        <li>
+                            <h4 class="accordionItem">{{ yearMonth.name }}<i class="fas fa-chevron-down"></i></h4>
+                            <ul>
+                                {% for post in yearMonth.items %}
+                                {% unless post.exclude %}
+                                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                                {% endunless %}
+                                {% endfor %}
+                            </ul>
+                        </li>
                     {% endfor %}
+                    </ul>
                 </li>
             </ul>
         </nav>

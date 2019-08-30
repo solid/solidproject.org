@@ -101,14 +101,15 @@
         }
 
         ul {
-            margin: 0;
+            margin: 20px 0;
             padding: 0;
 
             li {
                 cursor: pointer;
                 &.open {
-                    ul {
+                    > ul {
                         display: block;
+                        margin: 12px 0;
                     }
 
                     .fa-chevron-down {
@@ -148,7 +149,7 @@
         }
 
         ul {
-            margin: 0 0 10px;
+            margin: 0 0 40px;
         }
 
         .fa-chevron-down {
