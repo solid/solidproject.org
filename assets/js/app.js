@@ -74,11 +74,13 @@ const accordion = (function() {
 const hamburgerFunction = (() => {
   const burger = document.querySelector('.burger');
   const menu = document.querySelector('.menu');
+  const header = document.querySelector('.solid-nav');
   if (!burger || !menu) return;
   const subMenus = document.querySelectorAll('.sub-links');
   burger.addEventListener('click', () => {
     burger.classList.toggle('toggle-burger');
     menu.classList.toggle('menu-active');
+    header.classList.toggle('open');
   });
 
   subMenus.forEach(subMenu => {

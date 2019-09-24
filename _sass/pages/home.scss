@@ -1,28 +1,39 @@
 .home {
-  background: #ffffff url($solid-background) no-repeat;
-  background-size: auto;
-  background-position: 0 -2em;
-  background-origin: border-box;
-  background-clip: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em 1em 4em 1em;
+
+  .page-content {
+    padding: 1em 1em 4em 1em;
+  }
+
   .title-banner {
+    background: $secondary-color url($solid-background) no-repeat;
+    background-size: cover;
+    // background-position: 0 -2em;
+    background-origin: border-box;
+    background-clip: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #354866;
 
-    padding: 1em 0 4em 0;
+    padding: 1em 0 1em 0;
     width: 100%;
+    height: 100vh;
+    max-height: 480px;
 
     & .title {
       font-size: 2em;
       letter-spacing: 0.26px;
       line-height: 78px;
       margin: 0;
+    }
+
+    & .title,
+    .subtitle {
+      color: white;
     }
 
     .subtitle {
@@ -36,7 +47,8 @@
       height: 67px;
       width: 258px;
       border-radius: 60px;
-      background-color: #18a9e6;
+      border: none;
+      background-color: $purple;
       box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.15);
       color: #fff;
       font-size: 0.7em;
@@ -106,11 +118,11 @@
       }
 
       &:hover {
-        border-color: $primary-color;
-        color: $primary-color;
+        border-color: #FDAB00;
+        color: #FDAB00;
         & > .card-header,
         & > .card-header > span.card-title {
-          color: $primary-color;
+          color: #FDAB00;
         }
       }
     }
@@ -144,6 +156,8 @@
 
 @include media-query($on-palm) {
   .home {
-    padding: 1em 3em 4em 3em;
+    .page-content {
+      padding: 1em 3em 4em 3em;
+    }
   }
 }

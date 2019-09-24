@@ -12,7 +12,7 @@ permalink: /
     </div>
     <button class="learn-btn">Learn How It Works</button>
   </div>
-
+  <div class="page-content">
   <div class="cards row around">
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
       <div class="card">
@@ -126,5 +126,6 @@ permalink: /
         </p>
       </div>
     </div>
+  </div>
   </div>
 </div>
