@@ -3,25 +3,25 @@ body {
 }
 
 .solid-nav {
+  // position: fixed;
   z-index: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: $primary-color;
+  background: transparent;
   color: #fff;
-  position: relative;
+  position: absolute;
   min-height: 80px;
   width: 100vw;
   padding: 0 2em;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.7);
+  // box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.7);
   .logo {
     appearance: none;
     margin-right: 1em;
     display: flex;
     align-items: center;
     img {
-      height: 58px;
-      width: 64px;
+      max-width: 48px;
     }
   }
   .menu {
@@ -34,7 +34,7 @@ body {
     height: fit-content;
     transform: translateX(100%);
     transition: transform 300ms ease-in-out;
-    background: $primary-color;
+    background: transparent;
     justify-content: flex-start;
     transition: transform 300ms ease-in-out;
     padding-bottom: 1em;
@@ -123,6 +123,7 @@ body {
       }
     }
     &.menu-active {
+      background-color: $secondary-color;
       transform: translateX(0);
     }
   }
@@ -133,7 +134,7 @@ body {
       width: 25px;
       height: 2px;
       margin: 5px;
-      background: #fff;
+      background: white;
 
       &.line1,
       &.line3 {
@@ -190,13 +191,20 @@ body {
               }
             }
             & > ul {
+              box-shadow: 2px 9px 5px 1px rgba(3,3,3,0.52);
               position: absolute;
               left: 0;
               top: 100%;
               opacity: 0;
               transform: translateY(-100%);
-              background: $primary-color;
+              background: $secondary-color;
             }
+          }
+        }
+
+        li {
+          & > a {
+            font-size: 1em;
           }
         }
       }
