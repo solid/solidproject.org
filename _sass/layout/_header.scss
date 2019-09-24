@@ -2,6 +2,27 @@ body {
   overflow-x: hidden;
 }
 
+.internal-header {
+  .solid-nav {
+    background-color: $primary-color;
+    position: relative;
+
+    &.open {
+      background-color: $primary-color;
+    }
+    .menu {
+      &.menu-active {
+        background-color: $primary-color;
+      }
+
+      .links > li.sub-links > ul {
+        background-color: $primary-color;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
 .solid-nav {
   // position: fixed;
   z-index: 2;
@@ -14,6 +35,11 @@ body {
   min-height: 80px;
   width: 100vw;
   padding: 0 2em;
+
+  &.open {
+    background-color: $secondary-color;
+  }
+
   // box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.7);
   .logo {
     appearance: none;
@@ -168,6 +194,10 @@ body {
   .solid-nav {
     padding: 0 1em;
     align-items: stretch;
+
+    &.open {
+      background-color: transparent;
+    }
     .menu {
       position: relative;
       transform: translateX(0);
