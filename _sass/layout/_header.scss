@@ -4,19 +4,19 @@ body {
 
 .internal-header {
   .solid-nav {
-    background-color: $primary-color;
+    background-color: $secondary-color;
     position: relative;
 
     &.open {
-      background-color: $primary-color;
+      background-color: $secondary-color;
     }
     .menu {
       &.menu-active {
-        background-color: $primary-color;
+        background-color: $secondary-color;
       }
 
       .links > li.sub-links > ul {
-        background-color: $primary-color;
+        background-color: $secondary-color;
         box-shadow: none;
       }
     }
