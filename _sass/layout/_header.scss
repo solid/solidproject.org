@@ -86,10 +86,20 @@ body {
             content: '\f107';
           }
           &.active {
+            background: $third-color;
+            box-shadow: inset 0px -1px 0px 0px rgba(255,255,255,0.4), 0px 0px 4px 0px rgba(0,0,0,0.2);
+            transition: 0.25s all ease-in-out;
+
             & > a::after {
               content: '\f106';
             }
             & > ul {
+              transform: translateY(0);
+              opacity: 1;
+              background: $third-color;
+              padding: .5rem;
+              border-bottom-left-radius: .5rem;
+              box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
               display: flex;
             }
           }
@@ -228,6 +238,12 @@ body {
               opacity: 0;
               transform: translateY(-100%);
               background: $secondary-color;
+
+              & > li {
+                & > a {
+                  border: none;
+                }
+              }
             }
           }
         }
