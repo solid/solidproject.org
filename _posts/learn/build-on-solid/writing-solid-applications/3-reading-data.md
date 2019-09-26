@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 3: Reading data
+title: "Step 3: Reading data"
 tags: [build]
 categories: [Build on Solid]
 permalink: Build-on-Solid/writing-solid-applications/3-reading-data

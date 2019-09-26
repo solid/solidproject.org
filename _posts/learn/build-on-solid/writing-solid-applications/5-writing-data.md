@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 5: Writing data
+title: "Step 5: Writing data"
 tags: [build]
 categories: [Build on Solid]
 permalink: Build-on-Solid/writing-solid-applications/5-writing-data

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 4: Setting up a Data Model
+title: "Step 4: Setting up a Data Model"
 tags: [build]
 categories: [Build on Solid]
 permalink: Build-on-Solid/writing-solid-applications/4-data-model

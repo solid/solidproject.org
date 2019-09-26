@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 2: Understanding Solid
+title: "Step 2: Understanding Solid"
 tags: [build]
 categories: [Build on Solid]
 permalink: Build-on-Solid/writing-solid-applications/2-understanding-solid
