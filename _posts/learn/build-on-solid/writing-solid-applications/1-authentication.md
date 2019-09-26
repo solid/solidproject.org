@@ -40,3 +40,5 @@ async function getWebId() {
   auth.login(identityProvider);
 }
 ```
+
+Next: [Understanding Solid](2-understanding-solid)

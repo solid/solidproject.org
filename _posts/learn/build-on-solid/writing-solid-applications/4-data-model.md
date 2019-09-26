@@ -122,3 +122,5 @@ easier in the future](https://ruben.verborgh.org/blog/2019/06/17/shaping-linked-
 allowing you to point a library to a data model, and having the library make sure that the user's
 Pod is prepared to handle that. For now, though, you'll have to live with these convoluted
 instructions.
+
+Next: [Writing data](5-writing-data)
