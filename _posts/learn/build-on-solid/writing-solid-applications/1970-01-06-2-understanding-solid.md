@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 2: Understanding Solid
+title: "Step 2: Understanding Solid"
 tags: [build]
 categories: [Build on Solid]
 permalink: Build-on-Solid/writing-solid-applications/2-understanding-solid
@@ -95,3 +95,5 @@ tutorial, we will leave it at this.
 
 Phew! That should cover about all the Linked Data theory you should know to start working with
 Solid. Next up: actually reading data from such a Document.
+
+Next: [Reading data](3-reading-data)

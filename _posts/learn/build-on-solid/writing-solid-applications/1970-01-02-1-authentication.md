@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 1: identifying the user
+title: "Step 1: identifying the user"
 tags: [build]
 categories: [Build on Solid]
 permalink: Build-on-Solid/writing-solid-applications/1-authentication
@@ -40,3 +40,5 @@ async function getWebId() {
   auth.login(identityProvider);
 }
 ```
+
+Next: [Understanding Solid](2-understanding-solid)
