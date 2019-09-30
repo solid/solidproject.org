@@ -39,6 +39,10 @@
       link: chat
     - name: Funding
       link: funding
+    - name: Jobs
+      link: Jobs
+    - name: Solid Challenges
+      link: solid-challenges
 - name: Use
   link: /Use
   sublinks:
