@@ -63,14 +63,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Lorem Ipsum Headline</h3>
+        <h3 class="title">Solid is a Standard</h3>
         <p class="info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          beatae eveniet neque, odit quod quia non assumenda, fugit cumque iure
-          in incidunt placeat pariatur odio a eligendi. Enim quasi hic
-          consequuntur tenetur in dolores illum iusto libero rerum fugiat,
-          sapiente nisi deleniti iure voluptates, repellendus ex. Deleniti est
-          corporis modi?
+         Solid is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
         </p>
       </div>
     </div>
@@ -84,14 +79,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Lorem Ipsum Headline</h3>
+        <h3 class="title">Splitting Pods and Apps</h3>
         <p class="info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          beatae eveniet neque, odit quod quia non assumenda, fugit cumque iure
-          in incidunt placeat pariatur odio a eligendi. Enim quasi hic
-          consequuntur tenetur in dolores illum iusto libero rerum fugiat,
-          sapiente nisi deleniti iure voluptates, repellendus ex. Deleniti est
-          corporis modi?
+          Where a user stores their data is called a Pod. Pods are always separate from apps. Pods can either be provided or users can self-host their own Pod(s). One user can have multiple Pods. Multiple apps can use the same data.
         </p>
       </div>
     </div>
@@ -106,14 +96,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Lorem Ipsum Headline</h3>
+        <h3 class="title">Your Online Identity</h3>
         <p class="info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          beatae eveniet neque, odit quod quia non assumenda, fugit cumque iure
-          in incidunt placeat pariatur odio a eligendi. Enim quasi hic
-          consequuntur tenetur in dolores illum iusto libero rerum fugiat,
-          sapiente nisi deleniti iure voluptates, repellendus ex. Deleniti est
-          corporis modi?
+          Users can have more than one identity which can either be from an identity provider or from a domain that the user owns. Regardless of the identity provider, users can share data with each other.
         </p>
       </div>
     </div>
