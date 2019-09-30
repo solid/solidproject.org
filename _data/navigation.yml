@@ -1,48 +1,48 @@
-- name: Learn About Solid
-  link: /learn-about-solid
+- name: About
+  link: /about
   sublinks:
     - name: What is Solid
       link: what-is-solid
-    - name: The Solid Roadmap
-      link: the-solid-roadmap
-    - name: Solid Fundamentals
-      link: solid-fundamentals
-    - name: Solid Specification
-      link: solid-specification
-    - name: Solid Team
-      link: solid-team
-- name: Build on Solid
-  link: /Build-on-Solid
-  sublinks:
-    - name: Writing Solid Applications
-      link: writing-solid-applications
-    - name: Building a Solid Server
-      link: building-a-solid-server
-    - name: Running a Solid Server
-      link: running-a-solid-server
-- name: Use Solid
-  link: /Use-Solid
-  sublinks:
-    - name: Get a Pod
-      link: get-a-pod
-    - name: Use a Solid App
-      link: use-a-solid-app
-    - name: Specification
-      link: specification
-    - name: Team
-      link: team
+    - name: Who is working on Solid?
+      link: who-is-working-on-solid
     - name: FAQ
       link: faq
     - name: Press
       link: press
-- name: Community
-  link: /community
-  sublinks:
+    - name: Solid Events
+      link: solid-events
     - name: Blog
       link: /blog/blog-post
-    - name: Forum
-      link: forum
-    - name: Events
-      link: events
-    - name: Chat
+- name: Develop Solid
+  link: /develop-solid
+  sublinks:
+    - name: How Does Development Happen? 
+      link: how-does-development-happen  
+    - name: Solid Specification
+      link: solid-specification
+    - name: Who is Developing Solid?
+      link: who-is-developing-solid
+- name: Build on Solid
+  link: /Build-on-Solid
+  sublinks:
+    - name: Apps
+      link: apps
+    - name: Pods
+      link: pods
+    - name: Identification
+      link: identification
+    - name: Data Shapes
+      link: data-shapes
+    - name: Chat with other Solid developers
       link: chat
+- name: Use Solid
+  link: /Use-Solid
+  sublinks:
+    - name: How to Use Solid
+      link: how-to-use-Solid
+    - name: Get an identification
+      link: get-an-identification
+    - name: Get a Pod
+      link: get-a-pod
+    - name: Use Solid Apps
+      link: use-solid-apps
