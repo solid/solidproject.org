@@ -1,17 +1,15 @@
 - name: About
   link: /about
   sublinks:
-    - name: What is Solid
-      link: what-is-solid
-    - name: Who is working on Solid?
-      link: who-is-working-on-solid
+    - name: Solid Team
+      link: solid-team
     - name: FAQ
       link: faqs
     - name: Press
       link: press
     - name: Solid Events
       link: solid-events
-    - name: Blog
+    - name: This Week in Solid
       link: /blog/blog-post
 - name: Develop
   link: /develop
