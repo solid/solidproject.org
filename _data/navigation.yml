@@ -13,8 +13,8 @@
       link: solid-events
     - name: Blog
       link: /blog/blog-post
-- name: Develop Solid
-  link: /develop-solid
+- name: Develop
+  link: /develop
   sublinks:
     - name: How Does Development Happen? 
       link: how-does-development-happen  
@@ -22,8 +22,8 @@
       link: solid-specification
     - name: Who is Developing Solid?
       link: who-is-developing-solid
-- name: Build on Solid
-  link: /Build-on-Solid
+- name: Build
+  link: /Build
   sublinks:
     - name: Apps
       link: apps
@@ -35,8 +35,8 @@
       link: data-shapes
     - name: Chat with other Solid developers
       link: chat
-- name: Use Solid
-  link: /Use-Solid
+- name: Use
+  link: /Use
   sublinks:
     - name: How to Use Solid
       link: how-to-use-Solid
