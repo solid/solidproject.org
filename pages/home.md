@@ -8,7 +8,7 @@ permalink: /
   <div class="title-banner">
     <h1 class="title">Solid</h1>
     <div class="subtitle">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Solid is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
     </div>
     <button class="learn-btn">Learn How It Works</button>
   </div>
