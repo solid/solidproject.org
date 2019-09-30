@@ -4,6 +4,8 @@ title: Solid Team
 permalink: about/solid-team
 ---
 
+Are you interested in contributing to Solid? Find out more about how (link to roles application page). 
+
 Tim Berners-Lee
 Solid Director 
 (include profile description Gitter Handle and WebID)
