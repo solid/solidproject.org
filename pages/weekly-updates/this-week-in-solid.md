@@ -1,3 +1,8 @@
+---
+layout: default
+title: This Week in Solid
+permalink: about/this-week-in-solid
+---
 
 Hand picked Solid updates delivered to you. 
 
