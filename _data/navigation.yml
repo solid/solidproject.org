@@ -48,8 +48,8 @@
   sublinks:
     - name: How to Use Solid
       link: how-to-use-Solid
-    - name: Get an identification
-      link: get-an-identification
+    - name: Get an ID
+      link: get-an-id
     - name: Get a Pod
       link: get-a-pod
     - name: Use Solid Apps
