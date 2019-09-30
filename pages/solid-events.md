@@ -1,3 +1,9 @@
+---
+layout: default
+title: Solid Events
+permalink: about/solid-events
+---
+
 Solid Events are an opportunity for the Solid community to meet in person locally. 
 
 
