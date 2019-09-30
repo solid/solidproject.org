@@ -18,7 +18,7 @@ permalink: /
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-book"></i>
-          <span class="card-title">Develop Solid</span>
+          <span class="card-title">Develop</span>
         </div>
         <div class="card-body">
           <p>
@@ -31,7 +31,7 @@ permalink: /
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-tools"></i>
-          <span class="card-title">Build Solid</span>
+          <span class="card-title">Build</span>
         </div>
         <div class="card-body">
           <p>
@@ -44,7 +44,7 @@ permalink: /
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-users"></i>
-          <span class="card-title">Use Solid</span>
+          <span class="card-title">Use</span>
         </div>
         <div class="card-body">
           <p>
