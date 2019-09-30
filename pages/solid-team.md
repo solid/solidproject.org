@@ -57,5 +57,3 @@ Creator (Website Designer)
 Jackson Morgan
 Administrator
 (include profile description Gitter Handle and WebID)
-
-(include panallists)
