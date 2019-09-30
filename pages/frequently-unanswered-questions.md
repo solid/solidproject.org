@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FAQs
-permalink: /faqs
+permalink: about/faqs
 ---
 
 Below are some FAQs. If you would like to add a question or elaborate on an answer, submit a pull request. 
