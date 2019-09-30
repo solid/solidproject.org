@@ -11,6 +11,10 @@
       link: solid-events
     - name: This Week in Solid
       link: /blog/blog-post
+    - name: License
+      link: license
+    - name: Solid Logo Usage Guidelines
+      link: solid-logo-usage-guidelines     
 - name: Develop
   link: /develop
   sublinks:
