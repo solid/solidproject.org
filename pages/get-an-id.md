@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Get an ID
-permalink: about/get-an-id
+permalink: use/get-an-id
 ---
 
 # Solid Identity Providers
