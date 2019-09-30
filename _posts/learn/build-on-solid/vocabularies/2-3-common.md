@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Common vocabularies
+title: "3- Common vocabularies"
 tags: [linked-data], [vocabularies]
 categories: [Build on Solid], [Vocabularies]
 permalink: Build-on-Solid/vocabularies/2-3-common

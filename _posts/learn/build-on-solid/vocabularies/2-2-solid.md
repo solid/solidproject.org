@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vocabularies essential to solid
+title: "2- Vocabularies essential to solid"
 tags: [linked-data], [vocabularies]
 categories: [Build on Solid], [Vocabularies]
 permalink: Build-on-Solid/vocabularies/2-2-solid
