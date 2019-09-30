@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Use Solid
-permalink: about/how-to-use-solid
+permalink: use/how-to-use-solid
 ---
 
 Get a WebID
