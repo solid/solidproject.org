@@ -37,6 +37,8 @@
       link: data-shapes
     - name: Chat with other Solid developers
       link: chat
+    - name: Funding
+      link: funding
 - name: Use
   link: /Use
   sublinks:
