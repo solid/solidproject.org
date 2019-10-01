@@ -4,7 +4,7 @@ title: Press
 permalink: about/press
 ---
 
-Are you looking to get a Solid speaker or interview? Contact us on press@solidproject.org with a description of what you are looking for. 
+Are you looking to get a speaker or interview about Solid? Contact us on press@solidproject.org with a description of what you are looking for. 
 
 ## Upcoming Talks 
 
