@@ -5,6 +5,28 @@
       link: solid-specification
     - name: Solid Team
       link: solid-team
+- name: Build on Solid
+  link: /Build-on-Solid
+  sublinks:
+    - name: Writing Solid Applications
+      link: writing-solid-applications
+    - name: Building a Solid Server
+      link: building-a-solid-server
+    - name: Running a Solid Server
+      link: running-a-solid-server
+    - name: Solid and Linked Data vocabuaries
+      link: vocabularies
+- name: Use Solid
+  link: /Use-Solid
+  sublinks:
+    - name: Get a Pod
+      link: get-a-pod
+    - name: Use a Solid App
+      link: use-a-solid-app
+    - name: Specification
+      link: specification
+    - name: Team
+      link: team
     - name: FAQ
       link: faqs
     - name: Press
