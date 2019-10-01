@@ -1,12 +1,6 @@
-- name: Learn About Solid
-  link: /learn-about-solid
+- name: About
+  link: /about
   sublinks:
-    - name: What is Solid
-      link: what-is-solid
-    - name: The Solid Roadmap
-      link: the-solid-roadmap
-    - name: Solid Fundamentals
-      link: solid-fundamentals
     - name: Solid Specification
       link: solid-specification
     - name: Solid Team
@@ -34,17 +28,51 @@
     - name: Team
       link: team
     - name: FAQ
-      link: faq
+      link: faqs
     - name: Press
       link: press
-- name: Community
-  link: /community
+    - name: Solid Events
+      link: solid-events
+    - name: This Week in Solid
+      link: this-week-in-solid
+    - name: License
+      link: license
+    - name: Solid Logo Usage Guidelines
+      link: solid-logo-usage-guidelines     
+- name: Develop
+  link: /develop
   sublinks:
-    - name: Blog
-      link: /blog/blog-post
-    - name: Forum
-      link: forum
-    - name: Events
-      link: events
-    - name: Chat
+    - name: How Does Development Happen? 
+      link: how-does-development-happen  
+    - name: Who is Developing Solid?
+      link: who-is-developing-solid
+- name: Build
+  link: /Build
+  sublinks:
+    - name: Apps
+      link: apps
+    - name: Pods
+      link: pods
+    - name: Identification
+      link: identification
+    - name: Data Shapes
+      link: data-shapes
+    - name: Chat with other Solid developers
       link: chat
+    - name: Funding
+      link: funding
+    - name: Jobs
+      link: Jobs
+    - name: Solid Challenges
+      link: solid-challenges
+- name: Use
+  link: /Use
+  sublinks:
+    - name: How to Use Solid
+      link: how-to-use-Solid
+    - name: Get an ID
+      link: get-an-id
+    - name: Get a Pod
+      link: get-a-pod
+    - name: Use Solid Apps
+      link: use-solid-apps

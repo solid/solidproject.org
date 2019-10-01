@@ -8,7 +8,7 @@ permalink: /
   <div class="title-banner">
     <h1 class="title">Solid</h1>
     <div class="subtitle">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      A standard that makes the web work for you
     </div>
     <button class="learn-btn">Learn How It Works</button>
   </div>
@@ -18,14 +18,11 @@ permalink: /
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-book"></i>
-          <span class="card-title">Learn about solid</span>
+          <span class="card-title">Develop</span>
         </div>
         <div class="card-body">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Repudiandae, repellat corporis. Corrupti nobis non animi natus
-            recusandae laboriosam architecto dignissimos. Ex aut optio earum
-            dolorum numquam eum consequatur.
+            Solid is a standard that you can be part of creating. 
           </p>
         </div>
       </div>
@@ -34,14 +31,11 @@ permalink: /
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-tools"></i>
-          <span class="card-title">Build on Solid</span>
+          <span class="card-title">Build</span>
         </div>
         <div class="card-body">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
-            quidem dolorum beatae est modi dolor non, natus eaque voluptatibus,
-            magni aliquam quae veritatis ex! Praesentium consectetur beatae
-            provident.
+            You can implement the Solid standard by adapting your identity solutions, applications and data storage solutions.
           </p>
         </div>
       </div>
@@ -50,14 +44,11 @@ permalink: /
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-users"></i>
-          <span class="card-title">Use solid</span>
+          <span class="card-title">Use</span>
         </div>
         <div class="card-body">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            autem, ex nesciunt illum amet voluptate officia culpa, dolore, atque
-            earum corporis beatae temporibus laborum exercitationem maiores.
-            Animi, accusamus?
+            Get started and use Solid identification, applications and get a Pod. 
           </p>
         </div>
       </div>
@@ -72,14 +63,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Lorem Ipsum Headline</h3>
+        <h3 class="title">Solid is a Standard</h3>
         <p class="info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          beatae eveniet neque, odit quod quia non assumenda, fugit cumque iure
-          in incidunt placeat pariatur odio a eligendi. Enim quasi hic
-          consequuntur tenetur in dolores illum iusto libero rerum fugiat,
-          sapiente nisi deleniti iure voluptates, repellendus ex. Deleniti est
-          corporis modi?
+         Solid is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
         </p>
       </div>
     </div>
@@ -93,14 +79,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Lorem Ipsum Headline</h3>
+        <h3 class="title">Splitting Pods and Apps</h3>
         <p class="info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          beatae eveniet neque, odit quod quia non assumenda, fugit cumque iure
-          in incidunt placeat pariatur odio a eligendi. Enim quasi hic
-          consequuntur tenetur in dolores illum iusto libero rerum fugiat,
-          sapiente nisi deleniti iure voluptates, repellendus ex. Deleniti est
-          corporis modi?
+          Where a user stores their data is called a Pod. Pods are always separate from apps. Pods can either be provided or users can self-host their own Pod(s). One user can have multiple Pods. Multiple apps can use the same data.
         </p>
       </div>
     </div>
@@ -115,14 +96,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Lorem Ipsum Headline</h3>
+        <h3 class="title">Your Online Identity</h3>
         <p class="info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          beatae eveniet neque, odit quod quia non assumenda, fugit cumque iure
-          in incidunt placeat pariatur odio a eligendi. Enim quasi hic
-          consequuntur tenetur in dolores illum iusto libero rerum fugiat,
-          sapiente nisi deleniti iure voluptates, repellendus ex. Deleniti est
-          corporis modi?
+          Users can have more than one identity which can either be from an identity provider or from a domain that the user owns. Regardless of the identity provider, users can share data with each other.
         </p>
       </div>
     </div>
