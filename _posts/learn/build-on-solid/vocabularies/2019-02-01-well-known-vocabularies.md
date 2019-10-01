@@ -7,6 +7,8 @@ permalink: Build-on-Solid/vocabularies/02-well-known-vocabularies
 exclude: true
 ---
 
+Note that ex: is used as a prefix for <http://example.org/ns#>, a dummy namespace used for the sake of explanation.
+
 # <a id='core'/> Core vocabularies
 
 - [Resource Description Framework (rdf)](02-01-core-vocabularies#rdf)
@@ -18,6 +20,9 @@ exclude: true
 - [Access Control List (acl)](02-02-solid-vocabularies#acl)
 - [Linked Data Platform (ldp)](02-04-technical-vocabularies#ldp)
 - [Media types (mime)](02-04-technical-vocabularies#mime)
+- [Solid terms](02-02-solid-vocabularies#terms)
+- [Workspace](02-02-solid-vocabularies#space)
+- [Posix stat](02-02-solid-vocabularies#posix)
 - [User Interface (ui)](02-02-solid-vocabularies#ui)
 
 # <a id='common'/> Vocabularies solving common issues
@@ -40,8 +45,9 @@ exclude: true
 
 |Described element|Vocabulary|
 ---|---
-|HTTP messages| http|
-|HTTP headers| httph|
-|Linked data platform| ldp |
-|RSS feeds| rss |
-|XML Schema| xsd|
+|X509 Certificates|[cert](02-04-technical-vocabuaries#cert)|
+|HTTP messages| [http](02-04-technical-vocabuaries#http)|
+|HTTP headers| [httph](02-04-technical-vocabuaries#httph)|
+|Linked data platform| [ldp](02-04-technical-vocabuaries#ldp) |
+|RSS feeds| [rss](02-04-technical-vocabuaries#rss) |
+|XML Schema| [xsd](02-04-technical-vocabuaries#xsd)|
