@@ -4,9 +4,7 @@ title: FAQs
 permalink: about/faqs
 ---
 
-Below are some FAQs. If you would like to add a question or elaborate on an answer, submit a pull request. 
-
-You may also enjoy the [Solid tag on Stackoverflow](https://stackoverflow.com/questions/tagged/solid).
+Got a question that's not here? Try asking on the [Solid forum](https://forum.solidproject.org) or the [Solid tag on Stackoverflow](https://stackoverflow.com/questions/tagged/solid). 
 
 ## What exactly is personal data? 
 Personal data is personal. It refers to data sets describing a person ranging from physical attributes to their preferences and behaviour. Examples of personal data include: location, genome data, written communication, spoken communication, lists of contacts, internet browsing habits, financial transactions, supermarket spending, tax payments, criminal record, laptop and mobile phone camera lens recording, device microphone recordings, driving habits via car trackers, mobile and health records, fitness activity, nutrition, substance use, heartbeat, sleep patterns and other vital signs.
