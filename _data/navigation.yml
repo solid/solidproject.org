@@ -27,14 +27,6 @@
 - name: Build
   link: /Build
   sublinks:
-    - name: Writing Solid Applications
-      link: writing-solid-applications
-    - name: Building a Solid Server
-      link: building-a-solid-server
-    - name: Running a Solid Server
-      link: running-a-solid-server
-    - name: Solid and Linked Data vocabuaries
-      link: vocabularies
     - name: Apps
       link: apps
     - name: Pods
@@ -44,7 +36,7 @@
     - name: Data Shapes
       link: data-shapes
     - name: Chat with other Solid developers
-      link: chat
+      link: https://forum.solidproject.org
     - name: Funding
       link: funding
     - name: Jobs
