@@ -16,12 +16,12 @@
     - name: License
       link: license
     - name: Solid Logo Usage Guidelines
-      link: solid-logo-usage-guidelines     
+      link: solid-logo-usage-guidelines
 - name: Develop
   link: /develop
   sublinks:
-    - name: How Does Development Happen? 
-      link: how-does-development-happen  
+    - name: How Does Development Happen?
+      link: how-does-development-happen
     - name: Who is Developing Solid?
       link: who-is-developing-solid
 - name: Build
@@ -34,7 +34,7 @@
     - name: Running a Solid Server
       link: running-a-solid-server
     - name: Solid and Linked Data vocabuaries
-      link: vocabularies- name: Build
+      link: vocabularies
     - name: Apps
       link: apps
     - name: Pods
