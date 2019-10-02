@@ -51,3 +51,5 @@ Note that ex: is used as a prefix for <http://example.org/ns#>, a dummy namespac
 |Linked data platform| [ldp](02-04-technical-vocabuaries#ldp) |
 |RSS feeds| [rss](02-04-technical-vocabuaries#rss) |
 |XML Schema| [xsd](02-04-technical-vocabuaries#xsd)|
+
+Your application requires a vocabulary that you did not find on this page? Maybe it's out there somewhere. Next, we see how to [discover vocabularies](03-discover-vocabularies).

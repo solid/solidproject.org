@@ -37,3 +37,5 @@ exclude: true
 
 # <a id="xsd"/> XML Schema
 - xsd: http://www.w3.org/2001/XMLSchema#
+
+[Back to the vocabularies index](02-well-known-vocabularies)
