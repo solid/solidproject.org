@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Step 4: Setting up a Data Model"
-tags: [build]
-categories: [Build on Solid]
-permalink: Build-on-Solid/writing-solid-applications/4-data-model
-exclude: true
+permalink: Learn/writing-solid-applications/4-data-model
 ---
 
 Now it's time to start working on some actual functionality: we'll be making an app that allows
@@ -25,7 +22,7 @@ Document contains a list of links to other Documents, along with the type of dat
 included in those Documents. To store notes, the data type we will use is the
 [`TextDigitalDocument`](https://schema.org/TextDigitalDocument), defined by
 [Schema.org](https://schema.org/). Every time the user saves a note, we will store it as a
-TextDigitalDocument. 
+TextDigitalDocument.
 
 If the Document containing these notes was located in the user's Pod at `/public/notes.ttl`, their
 Public Type Index could refer to it like this:

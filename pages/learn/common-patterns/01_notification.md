@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: default
 title: Notification in Solid
-tags: [build], [pattern]
-categories: [Build on Solid], [Common patterns]
-permalink: Build-on-Solid/common-patterns/1-notification
-exclude: true
+permalink: Learn/common-patterns/01-notification
 ---
 
 # Notification in Solid apps
