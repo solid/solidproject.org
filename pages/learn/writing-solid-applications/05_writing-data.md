@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Step 5: Writing data"
-tags: [build]
-categories: [Build on Solid]
-permalink: Build-on-Solid/writing-solid-applications/5-writing-data
-exclude: true
+permalink: Learn/writing-solid-applications/5-writing-data
 ---
 
 Now that the user's Pod is all set up, it's time to store some actual notes. Luckily, [now that we

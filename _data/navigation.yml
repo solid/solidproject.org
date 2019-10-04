@@ -54,3 +54,12 @@
       link: get-a-pod
     - name: Use Solid Apps
       link: use-solid-apps
+- name: Learn
+  link: /Learn
+  sublinks:
+    - name: Write your first Solid app
+      link: writing-solid-applications
+    - name: Solid and Linked Data vocabularies
+      link: vocabularies
+    - name: Common patterns in Solid apps
+      link: common-patterns

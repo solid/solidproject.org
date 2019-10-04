@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Step 3: Reading data"
-tags: [build]
-categories: [Build on Solid]
-permalink: Build-on-Solid/writing-solid-applications/3-reading-data
-exclude: true
+permalink: Learn/writing-solid-applications/3-reading-data
 ---
 
 We've [got the user's WebID](1-authentication) and we [know that it points to a

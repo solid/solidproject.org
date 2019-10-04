@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: default
 title: Writing a Solid application
-tags: [build]
-categories: [Build on Solid]
-permalink: Build-on-Solid/writing-solid-applications
-exclude: true
+permalink: Learn/writing-solid-applications
 ---
 
 This tutorial assumes you are familiar with modern Javascript and its ecosystem (e.g. you know what

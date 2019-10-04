@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "Discover new vocabularies"
-tags: [linked-data, vocabularies]
-categories: [Build on Solid, Vocabularies]
-permalink: Build-on-Solid/vocabularies/03-discover-vocabularies
-exclude: true
+title: "2- Discover new vocabularies"
+permalink: Learn/vocabularies/2-discover
 ---
 
 Vocabularies aim at describing data from __(potentially very) specific domains__. Therefore, it is only normal that only a small portion of app use cases are covered by the few vocabularies we listed as [well-known vocabularies](02-well-known-vocabularies). However, for the sake of interoperability, creating new vocabularies each time you create a new app is also a bad idea: if someone already did the work, you don't want to re-invent the wheel, right?

@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Step 2: Understanding Solid"
-tags: [build]
-categories: [Build on Solid]
-permalink: Build-on-Solid/writing-solid-applications/2-understanding-solid
-exclude: true
+permalink: Learn/writing-solid-applications/2-understanding-solid
 ---
 
 Now that we've [got the user's WebID](./1-authentication), we have a starting point for fetching
@@ -49,7 +46,7 @@ might have been able to guess, instead of `<some person>` we can use `me` - henc
 `https://vincentt.inrupt.net/profile/card#me`!
 
 So now we might consider my Document to look as follows:
-    
+
 | Subject | Predicate | Object |
 | --- | --- | --- |
 | `#me` | has name  | Vincent   |
@@ -81,7 +78,7 @@ So now we can use `vcard:role`, and be relatively confident that every other app
 it in the way described at that URL. We can combine terms from different Vocabularies, e.g. the FOAF
 ("Friend of a friend") vocabulary has a term to refer to a person's name at
 `http://xmlns.com/foaf/0.1/name`. My Document could thus look something like this:
-    
+
 | Subject | Predicate | Object |
 | --- | --- | --- |
 | `#me` | `foaf:name`  | Vincent   |

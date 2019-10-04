@@ -1,10 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Step 1: identifying the user"
-tags: [build]
-categories: [Build on Solid]
-permalink: Build-on-Solid/writing-solid-applications/1-authentication
-exclude: true
+permalink: Learn/writing-solid-applications/1-authentication
 ---
 
 The starting point for any Solid Web App is to obtain the user's _WebID_. The WebID is a URL at
