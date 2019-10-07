@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 5: Writing data"
-permalink: Learn/writing-solid-applications/5-writing-data
+permalink: Learn/writing-solid-applications/first-app/5-writing-data
 ---
 
 Now that the user's Pod is all set up, it's time to store some actual notes. Luckily, [now that we
@@ -25,8 +25,8 @@ async function addNote(note, notesList) {
 
 With the user'd Pod fully set up, the above is all there is to it, really!
 
-So what's next? Start writing your own App! Find a Vocabulary that matches your use case; we've used
-Schema.org here, but you can find many more at [Linked Open
+So what's next? Start writing your own App! [Next step](../vocabularies): find a vocabulary that matches your use case; we've used
+Schema.org here, but[ we listed some for you](../vocabularies/1-well-known), and there are many more on the [Linked Open
 Vocabularies](https://lov.linkeddata.es/dataset/lov/). And if you're stuck and need help, do not
 hesitate to ask your question at the [Solid Forum](https://forum.solidproject.org/).
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Writing a Solid application
-permalink: Learn/writing-solid-applications
+permalink: Learn/writing-solid-applications/first-app
 ---
 
 This tutorial assumes you are familiar with modern Javascript and its ecosystem (e.g. you know what
@@ -11,4 +11,4 @@ a [Solid](https://solidproject.org/) Pod.
 It does not assume prior knowledge of
 Semantic Web technologies, Linked Data, RDF, or knowing what those terms mean in the first place.
 
-[Start](1-authentication)
+[Start](first-app/1-authentication)

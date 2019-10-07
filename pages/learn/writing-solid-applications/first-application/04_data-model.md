@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 4: Setting up a Data Model"
-permalink: Learn/writing-solid-applications/4-data-model
+permalink: Learn/writing-solid-applications/first-app/4-data-model
 ---
 
 Now it's time to start working on some actual functionality: we'll be making an app that allows
