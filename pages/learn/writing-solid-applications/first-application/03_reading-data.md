@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 3: Reading data"
-permalink: Learn/writing-solid-applications/3-reading-data
+permalink: Learn/writing-solid-applications/first-app/3-reading-data
 ---
 
 We've [got the user's WebID](1-authentication) and we [know that it points to a

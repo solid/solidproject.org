@@ -57,9 +57,12 @@
 - name: Learn
   link: /Learn
   sublinks:
-    - name: Write your first Solid app
-      link: writing-solid-applications
-    - name: Solid and Linked Data vocabularies
-      link: vocabularies
-    - name: Common patterns in Solid apps
-      link: common-patterns
+      - name: Writing a Solid app
+      - link: /writing-solid-applications
+      - sublinks:
+          - name: Write your first Solid app
+            link: first-app
+          - name: Solid and Linked Data vocabularies
+            link: vocabularies
+          - name: Common patterns in Solid apps
+            link: common-patterns
