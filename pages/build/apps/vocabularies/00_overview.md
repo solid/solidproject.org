@@ -9,9 +9,9 @@ One of the core ideas behind solid is to make __data__ independant from __applic
 To address right away the elephant in the room, in the world of Linked Data, vocabularies can also be called ontologies. Don't be afraid by this: as far as we are concerned, an ontology is just a vocabulary used to describe data.
 
 When building a new app, here are the steps in choosing suitable vocabularies:
-- Looking into [well-known vocabularies](1-well-known)
-- [Searching](2-discover) vocabulary catalogues
-- [Building](3-build) your own vocabulary
-- [Publishing](4-publish) your own vocabulary (and associated artifacts)
+- Looking into [well-known vocabularies](vocabularies/1-well-known)
+- [Searching](vocabularies/2-discover) vocabulary catalogues
+- [Building](vocabularies/3-build) your own vocabulary
+- [Publishing](vocabularies/4-publish) your own vocabulary (and associated artifacts)
 
 Remember that the end-game here is first and foremost reusability, and therefore building your own vocabulary should always be a last resort.
