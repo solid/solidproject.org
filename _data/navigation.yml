@@ -4,7 +4,7 @@
     - name: Specification
       link: https://solid.github.io/specification/
     - name: Solid Team
-      link: solid-team
+      link: team
     - name: FAQ
       link: faqs
     - name: Press
@@ -13,38 +13,30 @@
       link: solid-events
     - name: This Week in Solid
       link: this-week-in-solid
+    - name: Solid Challenges
+      link: challenges
     - name: License
       link: license
     - name: Solid Logo Usage Guidelines
-      link: solid-logo-usage-guidelines
+      link: logo-usage-guidelines
 - name: Develop
   link: /develop
   sublinks:
     - name: How Does Development Happen?
-      link: how-does-development-happen?
+      link: how-does-development-happen
     - name: Who is Developing Solid?
-      link: who-is-developing-solid?
+      link: who-is-developing-solid
 - name: Build
   link: /build
   sublinks:
     - name: Apps
       link: apps
-    - name: Pods
-      link: pods
-    - name: Identification
-      link: identification
-    - name: Data Shapes
-      link: data-shapes
     - name: Chat with other Solid developers
       link: https://forum.solidproject.org
     - name: Funding
       link: funding
-    - name: Jobs
-      link: Jobs
-    - name: Solid Challenges
-      link: solid-challenges
 - name: Use
-  link: /Use
+  link: /use
   sublinks:
     - name: How to Use Solid
       link: how-to-use-Solid
