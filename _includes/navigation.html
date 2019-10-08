@@ -6,7 +6,7 @@
     <ul class="links">
       {% for item in site.data.navigation %}
       <li {%if item.sublinks%} class="sub-links" {%endif%}>
-        <a {%if item.sublinks | size == 0%} href="{{ item.link }}" {%endif%}>{{ item.name }}</a>
+        <a {%unless item.sublinks%} href="{{ item.link }}" {%endunless%}>{{ item.name }}</a>
         {% if item.sublinks %}
         <ul>
           {%for subitem in item.sublinks%}
