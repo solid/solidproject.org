@@ -114,6 +114,9 @@ async function initialiseNotesList(profile, typeIndex) {
 }
 ```
 
+(Keep in mind that, in order to write to the user's Pod, the user will need to have given your app
+permission to write [when they signed in](1-authentication).)
+
 If all the above looks awfully complicated: that's because it is. [Work is underway to make this
 easier in the future](https://ruben.verborgh.org/blog/2019/06/17/shaping-linked-data-apps/),
 allowing you to point a library to a data model, and having the library make sure that the user's
