@@ -2,7 +2,7 @@
   link: /about
   sublinks:
     - name: Specification
-      link: specification
+      link: https://solid.github.io/specification/
     - name: Solid Team
       link: solid-team
     - name: FAQ
