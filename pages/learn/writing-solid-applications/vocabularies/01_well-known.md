@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "1- Well-known vocabularies"
-permalink: Learn/writing-solid-applications/vocabularies/1-well-known
+permalink: build/apps/vocabularies/1-well-known
 ---
 
 Note that ex: is used as a prefix for <http://example.org/ns#>, a dummy namespace used for the sake of explanation.
