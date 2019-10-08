@@ -21,9 +21,9 @@
   link: /develop
   sublinks:
     - name: How Does Development Happen?
-      link: how-does-development-happen
+      link: how-does-development-happen?
     - name: Who is Developing Solid?
-      link: who-is-developing-solid
+      link: who-is-developing-solid?
 - name: Build
   link: /Build
   sublinks:
