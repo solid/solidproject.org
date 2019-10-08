@@ -136,6 +136,12 @@ body {
             text-decoration: none;
             opacity: 0.8;
           }
+          &::after {
+            font-family: fontAwesome;
+            opacity: 0.6;
+            margin-left: 0.5em;
+            transition: all 1s ease;
+          }
         }
       }
     }
