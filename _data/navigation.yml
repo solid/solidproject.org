@@ -37,12 +37,3 @@
       link: funding
 - name: Use
   link: /use
-  sublinks:
-    - name: How to Use Solid
-      link: how-to-use-Solid
-    - name: Get an ID
-      link: get-an-id
-    - name: Get a Pod
-      link: get-a-pod
-    - name: Use Solid Apps
-      link: use-solid-apps
