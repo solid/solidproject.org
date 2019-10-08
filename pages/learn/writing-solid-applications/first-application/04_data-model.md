@@ -20,8 +20,8 @@ the concept of the _Public Type Index_.
 The Public Type Index is itself a publicly accessible Document stored in the user's Pod. This
 Document contains a list of links to other Documents, along with the type of data that is to be
 included in those Documents. To store notes, the data type we will use is the
-[`TextDigitalDocument`](https://schema.org/TextDigitalDocument), defined by
-[Schema.org](https://schema.org/). Every time the user saves a note, we will store it as a
+[`TextDigitalDocument`](http://schema.org/TextDigitalDocument), defined by
+[Schema.org](http://schema.org/). Every time the user saves a note, we will store it as a
 TextDigitalDocument.
 
 If the Document containing these notes was located in the user's Pod at `/public/notes.ttl`, their
