@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Notification in Solid
-permalink: Learn/common-patterns/
+permalink: build/apps/common-patterns/
 ---
 
 - [Notifications](01_notification)
