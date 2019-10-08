@@ -54,9 +54,9 @@ async function getName(webId) {
 ```
 
 Two things to note here. First, we call `getLiteral` to indicate that we are looking for an actual
-value. However, the value could also have been a URL pointing to a different Subject, in which case
-we could in turn fetch _that_ Document. If that was what we expected, we could have used the method
-`getNodeRef` instead.
+value, rather than a URL. However, the value could also have been a URL pointing to a different
+Subject, in which case we could in turn fetch _that_ Document. If that was what we expected, we
+could have used the method `getNodeRef` instead.
 
 The second thing to consider is that we cannot make any assumptions about what data is or is not
 present in the user's Pod. Thus, `user.getLiteral(foaf.name)` might also return `null`. This
