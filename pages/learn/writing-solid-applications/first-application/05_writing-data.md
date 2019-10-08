@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal
 title: "Step 5: Writing data"
 permalink: build/apps/first-app/5-writing-data
 ---

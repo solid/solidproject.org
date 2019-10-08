@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal
 title: "Step 2: Understanding Solid"
 permalink: build/apps/first-app/2-understanding-solid
 ---

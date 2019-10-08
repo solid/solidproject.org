@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal
 title: "Step 3: Reading data"
 permalink: build/apps/first-app/3-reading-data
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal
 title: "Step 4: Setting up a Data Model"
 permalink: build/apps/first-app/4-data-model
 ---

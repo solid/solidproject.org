@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal
 title: "Step 1: identifying the user"
 permalink: build/apps/first-app/1-authentication
 ---
