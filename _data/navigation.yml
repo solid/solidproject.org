@@ -25,7 +25,7 @@
     - name: Who is Developing Solid?
       link: who-is-developing-solid?
 - name: Build
-  link: /Build
+  link: /build
   sublinks:
     - name: Apps
       link: apps
@@ -54,15 +54,3 @@
       link: get-a-pod
     - name: Use Solid Apps
       link: use-solid-apps
-- name: Learn
-  link: /Learn
-  sublinks:
-      - name: Writing a Solid app
-      - link: /writing-solid-applications
-      - sublinks:
-          - name: Write your first Solid app
-            link: first-app
-          - name: Solid and Linked Data vocabularies
-            link: vocabularies
-          - name: Common patterns in Solid apps
-            link: common-patterns

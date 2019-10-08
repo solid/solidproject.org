@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Step 5: Writing data"
-permalink: Learn/writing-solid-applications/first-app/5-writing-data
+permalink: build/apps/first-app/5-writing-data
 ---
 
 Now that the user's Pod is all set up, it's time to store some actual notes. Luckily, [now that we
