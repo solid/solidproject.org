@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal
 title: Writing a Solid application
 permalink: build/apps/first-app
 ---
