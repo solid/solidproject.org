@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: internal
 title: "1- Well-known vocabularies"
 permalink: build/apps/vocabularies/1-well-known
 ---

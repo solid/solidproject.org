@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: internal
 title: "2- Discover new vocabularies"
 permalink: build/apps/vocabularies/2-discover
 ---
