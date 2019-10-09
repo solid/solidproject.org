@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal
 title: "Vocabularies overview"
 permalink: build/apps/vocabularies
 ---
