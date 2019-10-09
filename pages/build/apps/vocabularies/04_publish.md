@@ -3,24 +3,9 @@ layout: internal
 title: "4- Publish your vocabulary"
 permalink: build/apps/vocabularies/4-publish
 ---
-TODO
 
-- get a purl
+At this step of the tutorial, you should have:
+- A vocabulary expressed in RDF, potentially in multiple syntaxes (Turtle, JSON-LD, N3, RDF/XML...)
+- A documentation for this vocabulary in HTML
 
-```
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-
-<http://w3id.org/webcomic/ns> rdf:type owl:Ontology ;
-                               cc:license <http://creativecommons.org/licenses/by/4.0/> ;
-                               dc:creator <https://solid.zwifi.eu/profile/card#me> ;
-                               dc:description """
-The Webcomic ontology aims at describing webcomics, the things they talk about, the artists who make them and the people who read them.
-    """ ;
-                               dc:title "Webcomic ontology" ;
-                               vann:preferredNamespacePrefix "webco" ;
-                               vann:preferredNamespaceURI <http://w3id.org/webcomic/ns> ;
-                               owl:versionInfo 0.1 ;
-                               foaf:primaryTopic "Webcomics" .
-```
+If you don't, then you should go back to the [vocabulary building tutorial](3-build). If you do, let's go live!
