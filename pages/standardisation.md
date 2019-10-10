@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Develop
-permalink: develop
+title: Standardisation
+permalink: standardisation
 ---
 
 The following is a description about how changes to the [Solid Specification](https://github.com/solid/specification) may be proposed and accepted.
