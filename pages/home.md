@@ -10,7 +10,7 @@ permalink: /
     <div class="subtitle">
       A standard that makes the web work for you
     </div>
-    <button class="learn-btn">Learn How It Works</button>
+    <button class="learn-btn">Implement Solid</button>
   </div>
   <div class="page-content">
   <div class="cards row around">
