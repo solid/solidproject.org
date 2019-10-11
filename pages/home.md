@@ -22,7 +22,7 @@ permalink: /
         </div>
         <div class="card-body">
           <p>
-            Solid is a standard that you can be part of creating. 
+            Solid is a standard that you can be part of creating. Solid describes how to build apps, Pods, and identification in such a way that users can switch between the three components and take the generated along. that you 
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ permalink: /
         </div>
         <div class="card-body">
           <p>
-            You can implement the Solid standard by adapting your identity solutions, applications and data storage solutions.
+            Are you in the business of data storage, identification, or applications? Implement the Solid standard by adapting your solutions so that your users can enhance your service with data from other applications and know that you care about their data portability rights. 
           </p>
         </div>
       </div>
@@ -48,7 +48,7 @@ permalink: /
         </div>
         <div class="card-body">
           <p>
-            Get started and use Solid identification, applications and get a Pod. 
+            Use solutions that don't lock you in and give you the freedom to move conveniently when you would like to change app. Get started by getting a Solid ID and Pod so that you can access the full advantage of Solid apps.
           </p>
         </div>
       </div>
