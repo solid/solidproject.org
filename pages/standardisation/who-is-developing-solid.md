@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Who is Developing Solid?
-permalink: develop/who-is-developing-solid
+permalink: standardisation/who-is-developing-solid
 ---
 
 If you are interested in joining the Solid team email info@solidproject.org with your CV and motivation letter.

@@ -1,7 +1,7 @@
 ---
 layout: internal
 title: "4- Publish your vocabulary"
-permalink: build/apps/vocabularies/4-publish
+permalink: implement/apps/vocabularies/4-publish
 ---
 
 At this step of the tutorial, you should have:

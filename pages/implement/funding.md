@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Funding
-permalink: build/funding
+permalink: implement/funding
 ---
 
 If you know of any grants or channels to apply to resources that would allow developers to focus on building their application on solid, please do share then here.

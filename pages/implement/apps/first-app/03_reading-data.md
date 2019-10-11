@@ -1,7 +1,7 @@
 ---
 layout: internal
 title: "Step 3: Reading data"
-permalink: build/apps/first-app/3-reading-data
+permalink: implement/apps/first-app/3-reading-data
 ---
 
 We've [got the user's WebID](1-authentication) and we [know that it points to a

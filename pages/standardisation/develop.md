@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How Does Development Happen?
-permalink: develop/how-does-development-happen
+permalink: standardisation/how-does-development-happen
 ---
 
 The following is a description about how changes to the [Solid Specification](https://github.com/solid/specification) may be proposed and accepted.

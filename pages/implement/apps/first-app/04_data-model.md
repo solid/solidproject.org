@@ -1,7 +1,7 @@
 ---
 layout: internal
 title: "Step 4: Setting up a Data Model"
-permalink: build/apps/first-app/4-data-model
+permalink: implement/apps/first-app/4-data-model
 ---
 
 Now it's time to start working on some actual functionality: we'll be making an app that allows

@@ -1,7 +1,7 @@
 ---
 layout: internal
 title: "Step 2: Understanding Solid"
-permalink: build/apps/first-app/2-understanding-solid
+permalink: implement/apps/first-app/2-understanding-solid
 ---
 
 Now that we've [got the user's WebID](./1-authentication), we have a starting point for fetching

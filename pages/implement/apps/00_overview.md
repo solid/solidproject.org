@@ -1,7 +1,7 @@
 ---
 layout: internal
 title: Tutorials overview
-permalink: build/apps
+permalink: implement/apps
 ---
 
 <figure>

@@ -1,7 +1,7 @@
 ---
 layout: internal
 title: "Step 1: identifying the user"
-permalink: build/apps/first-app/1-authentication
+permalink: implement/apps/first-app/1-authentication
 ---
 
 The starting point for any Solid Web App is to obtain the user's _WebID_. The WebID is a URL at
