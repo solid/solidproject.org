@@ -19,15 +19,11 @@
       link: license
     - name: Solid Logo Usage Guidelines
       link: logo-usage-guidelines
-- name: Develop
-  link: /develop
+- name: standardisation
+  link: /standardisation
   sublinks:
-    - name: How Does Development Happen?
-      link: how-does-development-happen
-    - name: Who is Developing Solid?
-      link: who-is-developing-solid
-- name: Build
-  link: /build
+- name: Implement
+  link: /implement
   sublinks:
     - name: Apps
       link: apps

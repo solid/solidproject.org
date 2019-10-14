@@ -4,43 +4,13 @@ title: Use Solid Apps
 permalink: use
 ---
 
-To get started with Solid you will first need to get a Pod.
+To get started with Solid you will first need and Solid ID and a Pod then you can start using Solid apps. 
 
-Pick from you [Pod providers](https://github.com/solid/pods/blob/master/README.md#pod-providers) below. 
+# Solid ID Providers
+Solid IDs makes sure you get the most out of your Solid apps by collecting data generated while using the app and using it to improve recommendations. 
 
-You can also get an [identity provider](https://github.com/solid/solid-idp-list) that is independent from your Pod and [self host your Pod](https://github.com/solid/information/blob/master/documentation/pods.md#self-hosting-pods) rather than opt for a Pod provider.
+Get a Solid ID: 
 
-
-# Pod Providers
-
-|               Link                |    Responsible for Domain Name and Terms of Use     |             Responsible for Hosting               | Location of Hosting | Solid Server Version |
-|-----------------------------------|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------:|:--------------------:|
-| https://inrupt.net/               | [Inrupt, Inc.](https://inrupt.com/terms-of-service) |         [Amazon](https://aws.amazon.com)          |         USA         |         5.1.7          |
-| https://solid.authing.cn/         |                          [Authing](https://authing.cn)                         |                        [Tencent Cloud](https://cloud.tencent.com)                         |         China          |          NSS 5.x          |
-
-
-# Experimental Solid Servers
-
-The following servers are intended for experimental use and testing of new, unstable instances of a Solid server implementation. There should be no expectation of consistent availability for any server in this list, nor should there be an expectation of reliability or availability of data stored within. Created accounts may be deleted, or corrupted, based on experimental work.
-
-In short, these are made for testing the latest, bleeding edge features and capabilities. Unless that's what you're doing, don't use any of these.
-
-| Link | Responsible for Hosting| Location of Hosting | Solid Server Version |
-|-------------------|-------------------|-------------------|-------------------|
-|https://solid.pldn.nl/ |[PLDN](http://www.pilod.nl/wiki/Platform_Linked_Data_Nederland)|-------------------|-------------------|
-| https://solid.community/| started at [Solid MIT academic project](https://solid.mit.edu) | UK |           NSS 5.x          |
-| https://solid.openlinksw.com:8444 |   [OpenLink Software](https://www.openlinksw.com/)  |         USA         |        NSS 4.x       |
-| https://solid.openlinksw.com:8445 |   [OpenLink Software](https://www.openlinksw.com/)  |         USA         |        NSS 5.x       |
-| https://dev.inrupt.net |  [Inrupt, Inc.](https://www.inrupt.com/)  |         USA         |        NSS 5.x       |
-| https://solidweb.org         |                         [Matthias Evering](https://github.com/ewingson)                      |                        Germany                         |         NSS 5.x          |        
-|https://ld.solidbase.info|https://github.com/y0va|?|NSS 5.1.0|
-
-
-
-
-
-
-# Solid Identity Providers
 [![](https://img.shields.io/badge/project-Solid-7C4DFF.svg?style=flat-square)](https://github.com/solid/solid)
 
 |               Link                |    Responsible for Domain Name and Terms of Use     |             Responsible for Hosting               | Location of Hosting | Solid Server Version |
@@ -48,55 +18,29 @@ In short, these are made for testing the latest, bleeding edge features and capa
 | https://inrupt.net/               | [Inrupt, Inc.](https://inrupt.com/terms-of-service) |         [Amazon](https://aws.amazon.com)          |         USA         |          NSS 4.x          |
 | https://solid.community/| ?? | ?? |         ??          |          NSS 4.x       |
 
-# Experimental Solid Identity Servers
-| Link | Responsible for Hosting | Location of Hosting | Solid Server Version |
-|---------------|-------------|------------|--------------|
-|https://solidtest.space|?? |          ??          |          ??       |
-|https://solid.authing.cn|?? |         ??          |          ??       |
-| https://solidweb.org   |        [Matthias Evering](https://github.com/ewingson)     |   Germany |   NSS 5.x   | 
-		
-## Adding Your Solid Identity Provider Service
+If you are an identity provider you can add your service to this list (direct to a way to add identity provider info). 
 
-The identity providers list allows public Solid-compliant services to gain some exposure, by making themselves discoverable. The configuration options allows the owner of each service to personalize how their respective card will look like, when applications consume this list. An example of such an app can be found at https://solid.github.io/solid-idps/.
 
-Here are the configuration options:
+# Pod Providers
+Pods are where you store your data. 
 
-* `url`: holds the URL of the service's signup app, to which the user will be redirected
-* `icon`: the URL of the image that will be used as logo for your service
-* `icon_bg`: the background color of a an element that contains the icon (e.g. a div, etc.), which typically follows the main theme color of your signup app (e.g. #000, or string - i.e. `blue`, or RGB values)
-* `title`: the title of your service (e.g. RWW.IO, databox.me, etc.)
-* `title_color`: the color of the tile text (e.g. #fff)
-* `policyURL`: the URL of a page which lists the policies of your service (e.g. privacy, data reuse, etc.)
-* `description`: a short description of the service; usually the main features it offers (e.g. WebID, storage, inbox, etc.); for best results, try to limit the length of the text to **175** characters
-* `btn_bg`: the background color for the button a user will click to be sent to your server
-* `btn_color`: the color of the text on the button
+The way to get most control of your data is to self host. To self host your Pod follow these instructions: 
 
-Once you have your configuration ready, you will need to add your configuration (JSON object) to the `idps` array in the `services.json` file, and submit a pull request for that file.
+(insert instructions) 
 
-### Example configuration
+You can also choose to outsource the work and get a Pod provider. Pick a [Pod providers](https://github.com/solid/pods/blob/master/README.md#pod-providers) here: 
 
-Here is an example of configuration options set for `databox.me`.
 
-```
-{
- 	"url": "https://databox.me/",
-	"icon": "https://databox.me/logo.png",
-	"icon_bg": "#333748",
-	"title": "databox.me",
-	"title_color": "#fff",
-	"policyURL": "https://databox.me/privacy.html",
-	"description": "Databox.me is the first Solid-compliant, public and free service on which you can get a WebID and data storage (limited).",
-	"btn_bg": "#43C47A",
-	"btn_color": "#fff"
-}
-```
+|               Link                |    Responsible for Domain Name and Terms of Use     |             Responsible for Hosting               | Location of Hosting | Solid Server Version |
+|-----------------------------------|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------:|:--------------------:|
+| https://inrupt.net/               | [Inrupt, Inc.](https://inrupt.com/terms-of-service) |         [Amazon](https://aws.amazon.com)          |         USA         |         5.1.7          |
+| https://solid.authing.cn/         |                          [Authing](https://authing.cn)                         |                        [Tencent Cloud](https://cloud.tencent.com)                         |         China          |          NSS 5.x          |
+
+If you are a Pod provider you can add your service to this list (direct to a way to add identity provider info). 
 
 # solid-apps
-[![](https://img.shields.io/badge/project-Solid-7C4DFF.svg?style=flat-square)](https://github.com/solid/solid)
 
-Chronological list of apps built on and/or implementing the [Solid specification](https://github.com/solid/specification).
-
-[Read instructions on how to add your Solid app to this list](https://github.com/solid/solid-apps/blob/master/How-to-add-an-App.md)
+Now that you have a Solid ID and a Pod you can go ahead and start using Solid apps! 
 
 * [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) uses the national weather service API so it is currently only able to fetch weather in the United States.2019. Dylan Martin.
 * [SolidVC](https://github.com/kezike/solid-vc) is a [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid | [Source Code](https://github.com/kezike/solid-vc) | [MIT License Copyright (c) 2018](https://github.com/kezike/solid-vc/blob/master/LICENSE) [Kayode Ezike](https://github.com/kezike)
@@ -159,24 +103,4 @@ Chronological list of apps built on and/or implementing the [Solid specification
 * [Solid Notify](https://solid-notify.5apps.com/) sends you a desktop notification when a Solid resource changes. 
 * [Find Solid Pods](https://findsolidpods.com). [James Cole](https://github.com/JC5). 
 
-# Historical and Experimental Apps 
-
-These apps are not currently active or were built experimentally and are listed here for historical reference. 
-
-* [Markdown Editor](https://melvincarvalho.github.com/markdown-editor) [Melvin Carvalho](https://github.com/melvincarvalho)
-* [Timeline](http://solid-social.github.io/timeline/) is a decentralised social network. [Timeline](https://github.com/solid-social/timeline) [MIT License Copyright (c) 2015](https://github.com/solid-social/timeline/blob/master/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) 
-* [Plume](https://deiu.github.io/solid-plume) is a client side blogging platform. [Plume](https://github.com/deiu/solid-plume/) [MIT License Copyright (c) 2015](https://github.com/deiu/solid-plume/blob/gh-pages/LICENSE) [Andrei Sambra](https://github.com/deiu) 
-* [Contacts](https://linkeddata.github.io/contacts/) is an AngularJS mobile friendly app to manage your for contacts as vCards. [MIT License Copyright (c) 2015](https://github.com/linkeddata/contacts/blob/master/LICENSE) [Andrei Sambra](https://github.com/deiu) 
-* [Profile Editor](https://linkeddata.github.io/profile-editor/) is a WedID profile editor. [WebID Profile editor](https://github.com/linkeddata/profile-editor) [MIT License Copyright (c) 2015](https://github.com/linkeddata/profile-editor/blob/master/LICENSE) [Andrei Sambra](https://github.com/deiu) 
-* [Solid Signup](https://solid.github.io/solid-signup/) is an app for creating WebID accounts with Solid-compatible providers. [Solid Signup](https://github.com/solid/solid-signup) [MIT License Copyright (c) 2015](https://github.com/solid/solid-signup/blob/gh-pages/LICENSE) [Andrei Sambra](https://github.com/deiu) 
-* [Inbox](https://solid.github.io/solid-inbox/) is a messaging app. [Inbox](https://github.com/solid/solid-inbox/) [MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE) [Andrei Sambra](https://github.com/deiu)
-* [Warp](https://linkeddata.github.io/warp/) is a linked data file manager. [Warp](https://github.com/linkeddata/warp) [MIT License Copyright (c) 2014](https://github.com/linkeddata/warp/blob/gh-pages/LICENSE) [Andrei Sambra](https://github.com/deiu) 
-* Cimba is a microblogging app. [Cimba](https://github.com/linkeddata/cimba) [MIT License Copyright (c) 2013](https://github.com/linkeddata/cimba/blob/master/LICENSE) [Josh David Miller](https://github.com/joshdmiller) 
-*   COLD is collaborative chat application. MIT License Copyright (c) 2018 [Ramin Haderi](https://github.com/raminghaderi)
-* [Meeting Scheduler](https://linkeddata.github.io/app-schedule) is an app similar to [Doodle](http://doodle.com/). [Meeting Scheduler](https://github.com/linkeddata/app-schedule) [MIT License Copyright (c) 2014](https://github.com/linkeddata/app-schedule/blob/gh-pages/LICENSE) [Tim Berners-Lee](https://github.com/timbl)
-* [Pad](https://timbl.github.io/pad/) is for collaborative note taking. [Pad](https://github.com/timbl/pad) [MIT License Copyright (c) 2015](https://github.com/timbl/pad/blob/master/LICENSE) [Tim Berners-Lee](https://github.com/timbl)
-* [Get tokens](https://github.com/wrmack/Get-tokens) -- demonstrates token exchanges in a native iOS app 
-* [RDF-iOS](https://github.com/wrmack/RDF-iOS) -- demonstrates accessing `rdflib.js` in iOS 
-  
-
-To read or to add to the Solid app wishlist go to the [roadmap](https://github.com/solid/information/blob/master/solid-roadmap.md)
+If you are a Solid app provider you can add your app to this list (link to form to add an app) 
