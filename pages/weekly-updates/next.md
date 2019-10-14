@@ -1,4 +1,4 @@
-# 3rd October 2019
+# 17th October 2019
 
 Hello and welcome to another edition of *This Week in Solid*!
 
