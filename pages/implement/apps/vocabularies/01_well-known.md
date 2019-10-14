@@ -4,15 +4,17 @@ title: "1- Well-known vocabularies"
 permalink: implement/apps/vocabularies/1-well-known
 ---
 
-Note that ex: is used as a prefix for <http://example.org/ns#>, a dummy namespace used for the sake of explanation.
-
 # <a id='core'/> Core vocabularies
+
+These vocabularies are used as building blocks to make the others.
 
 - [Resource Description Framework (rdf)](1-1-core#rdf)
 - [RDF Schema (rdfs)](1-1-core#rdfs)
 - [Web Ontology Language (owl)](1-1-core#owl)
 
-# <a id='solid'/> Vocabularies essential to solid
+# <a id='solid'/> Vocabularies essential to Solid
+
+These vocabularies are the ones featured in the Solid standard.
 
 - [Access Control List (acl)](1-2-solid#acl)
 - [Linked Data Platform (ldp)](02-04-technical-vocabularies#ldp)
@@ -23,6 +25,8 @@ Note that ex: is used as a prefix for <http://example.org/ns#>, a dummy namespac
 - [User Interface (ui)](1-2-solid#ui)
 
 # <a id='common'/> Vocabularies solving common issues
+
+These vocabularies have a general community support, and they address issues that are horizontal to many applications.
 
 | Frequently Asked Questions | Relevant vocabularies |
 |---|---|
@@ -39,6 +43,8 @@ Note that ex: is used as a prefix for <http://example.org/ns#>, a dummy namespac
 |I want to track issues and log events| [rlog](2-3-common#rlog), [wf](1-3-common#wf)|
 
 # <a id='technical'/> Vocabularies describing technical elements
+
+These vocabularies are tied to technical standard.
 
 |Described element|Vocabulary|
 ---|---
