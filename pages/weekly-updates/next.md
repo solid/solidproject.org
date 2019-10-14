@@ -49,6 +49,7 @@ The scope of work that needs to happen on the Solid specification has been writt
 
 ### [Node Solid Server Project](https://github.com/orgs/solid/projects/2)
 
+Node Solid Server saw the release of [5.2.0](https://github.com/solid/node-solid-server/releases/tag/v5.2.0). This includes a new version of the Solid Data Browser and a much needed fix to the handling of content-types.
 
 ### [Data Browser Project](https://github.com/orgs/solid/projects/4)
 
