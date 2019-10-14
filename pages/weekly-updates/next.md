@@ -22,9 +22,8 @@ Next weeks call will be on the 17th October at 1000CEST on [this line](https://z
 ### [Talks & Articles](https://github.com/solid/information/blob/master/press.md)
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
 
-* 10-10-2019 Mitzi László in [Data Ethics Forum](https://dataethics.eu/conference19/), Copenhagen
-* 24-09-2019 Mitzi László about [Ada Lovelace Festival](https://www.ada-lovelace-festival.com), Berlin
-* 01-10-2019 Dmitri Zagidulin about [Internet Identity Workshop](https://internetidentityworkshop.com/about/), Mountain View
+* 11-10-2019 John Leonard [interview with Ruben Verborgh](https://www.computing.co.uk/ctg/analysis/3082496/solids-ruben-verborgh-we-need-competition-based-on-quality-of-service-not-on-data-harvesting)
+* 24-10-2019 Mitzi László about [Ada Lovelace Festival](https://www.ada-lovelace-festival.com), Berlin
 
 ### Upcoming Solid Events
 Solid Events are run by members of the Solid community like you. If you are interested in organising a Solid Event you may be interested in reading the tips for a organising successful Solid events [here](https://github.com/solid/information/blob/master/solid-events.md).
