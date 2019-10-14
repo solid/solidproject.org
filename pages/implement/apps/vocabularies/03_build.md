@@ -10,10 +10,10 @@ To make things more hands-on, we'll see how [Cleopatra](https://cleopatra.solid.
 
 1. If you are in a hurry:
 - [Quickstart creation](3-1-quickstart-creation): Build a vocabulary in 10 minutes
-- [Quickstart usage](3-1-quickstart-usage): Use this vocabulary to describe some data
+- [Quickstart usage](3-2-quickstart-usage): Use this vocabulary to describe some data
 
 2. If you have some more time
-- Before implementing your vocabulary, you might consider browsing these [best practices for building vocabularies](3-2-building-best-practices)
-- For a more advanced tutorial, there exist [methodologies for building vocabularies](3-3-advanced-methodology)
+- Before implementing your vocabulary, you might consider browsing these [best practices for building vocabularies](3-3-building-best-practices)
+- For a more advanced tutorial, there exist [methodologies for building vocabularies](3-4-advanced-methodology)
 
 Once you have your vocabulary RDF and documentation, the next step is [publishing it all](4-publish)
