@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: internal
 title: Standardisation
 permalink: standardisation
 ---
