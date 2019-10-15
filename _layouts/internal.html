@@ -6,11 +6,15 @@
   {% include head.html %}
 
   <body>
-    {% include second-header.html %}
-    <section class="main">
-      {{ content }}
-    </section>
-    {% include footer.html %}
-    <script src="{{ 'assets/js/app.js' | relative_url }}"></script>
+    <div class="internal">
+      {% include second-header.html %}
+      <section class="main">
+        <div class="page-content">
+          {{ content }}
+        </div>
+      </section>
+      {% include footer.html %}
+      <script src="{{ 'assets/js/app.js' | relative_url }}"></script>
+    </div>
   </body>
 </html>
