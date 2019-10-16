@@ -63,7 +63,7 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Solid is a Standard</h3>
+        <h3 class="title">Solid is a standard</h3>
         <p class="info">
          Solid is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
         </p>
@@ -79,9 +79,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Splitting Pods and Apps</h3>
+        <h3 class="title">You store your data in a Pod. </h3>
         <p class="info">
-          Where a user stores their data is called a Pod. Pods are always separate from apps. Pods can either be provided or users can self-host their own Pod(s). One user can have multiple Pods. Multiple apps can use the same data.
+          In Solid, where you store your data is called a Pod. Storage is always seperate from apps meaning that if you want to switch messaging app, for example, you can take your contacts and chat history along. You can have more than one Pod and choose what data to store where. 
         </p>
       </div>
     </div>
@@ -98,10 +98,28 @@ permalink: /
       <div class="info-card">
         <h3 class="title">Your Online Identity</h3>
         <p class="info">
-          Users can have more than one identity which can either be from an identity provider or from a domain that the user owns. Regardless of the identity provider, users can share data with each other.
+          When you sign in with Solid ID on you and where you sign in knows about it. You can have more than one Solid ID and can connect with anyone else with a Solid ID no matter who they choose to use and an identity provider. 
         </p>
       </div>
     </div>
   </div>
   </div>
 </div>
+
+ <div class="img-info-banner row around reverse">
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+      <div class="image">
+        <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+      <div class="info-card">
+        <h3 class="title"> Self host or outsource. </h3>
+        <p class="info">
+          You can choose to self host your Pod and Solid ID for fuller control or you can decide to ask for the service from Identity providers and Pod providers. 
+        </p>
+      </div>
+    </div>
+
+  </div>
+
