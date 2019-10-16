@@ -6,7 +6,8 @@ categories: [Community]
 permalink: /community/blog/blog-example
 featured-image: blog/blog-example/blog.png
 featured-image-alt: Mike the Blogger speaking at Times Square, New York City, New York
-author: Jairo Campos
+author: Mitzi László
+exclude: true
 ---
 
 

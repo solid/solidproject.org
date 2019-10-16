@@ -1,3 +1,12 @@
+---
+layout: blog
+title: Week Updates 2019-08-08
+permalink: /weekly-updates/new-2019-08-08
+tags: [weekly, updates]
+categories: [Updates]
+author: Mitzi László
+---
+
 # 8th August 2019
 
 Hello and welcome to another issue of This Week in Solid!

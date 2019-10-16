@@ -1,0 +1,40 @@
+---
+layout: internal
+---
+<section class="row solid-post">
+    <section class="solid-breadcrumbs col-xs-12">
+        {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+        <div class="solid-breadcrumbs-container row">
+            <ul class="col-xs-10 col-sm-12">
+                <li><a href="/">Home</a> ></li>
+                {% for crumb in crumbs offset: 1 %}
+                {% if forloop.last %}
+                <li>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
+                {% else %}
+                <li>
+                    <a
+                        href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+                        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} ></i>
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <div class="menu-mobile menu-mobile-aside col-xs-2">
+                <button><i class="far"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="post h-entry col-xs-12 col-sm-12" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <div class="post-content e-content" itemprop="articleBody">
+            {{ content }}
+        </div>
+
+        {%- if site.disqus.shortname -%}
+        {%- include disqus_comments.html -%}
+        {%- endif -%}
+
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    </section>
+</section>

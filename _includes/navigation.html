@@ -11,9 +11,17 @@
         <ul>
           {%for subitem in item.sublinks%}
           <li>
-            <a href="{{ site.baseurl }}{{ item.link }}/{{ subitem.link }}">{{
-              subitem.name
-            }}</a>
+            {% if subitem.fullLink  %}
+              <a href="{{ site.baseurl }}{{ subitem.link }}">{{
+                subitem.name
+              }}</a>
+              {%else%}
+              <a href="{{ site.baseurl }}{{ item.link }}/{{ subitem.link }}">{{
+                subitem.name
+              }}</a>
+              {%endif%}
+              
+             
           </li>
           {%endfor%}
         </ul>

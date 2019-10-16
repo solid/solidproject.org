@@ -129,9 +129,11 @@
         ul {
             margin: 20px 0;
             padding: 0;
+            list-style: none;
 
             li {
                 cursor: pointer;
+                list-style-type: none !important;
                 &.open {
                     > ul {
                         display: block;
@@ -188,6 +190,19 @@
     }
     .post-content {
         color: $gray;
+        margin-top: 40px;
+
+        ul {
+            margin: 20px;
+
+            li {
+                margin: 10px 0;
+                font-size: 1.3rem;
+                letter-spacing: 0.07px;
+                line-height: 26px;
+                font-weight: 300;
+            }
+        }
         
         p {
             font-size: 1.3rem;

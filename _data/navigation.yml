@@ -2,7 +2,7 @@
   link: /about
   sublinks:
     - name: Specification
-      link: https://solid.github.io/specification/
+      link: specification
     - name: Solid Team
       link: team
     - name: FAQ
@@ -12,7 +12,8 @@
     - name: Solid Events
       link: solid-events
     - name: This Week in Solid
-      link: this-week-in-solid
+      link: /weekly-updates/next
+      fullLink: true
     - name: Solid Challenges
       link: challenges
     - name: License
@@ -26,9 +27,10 @@
   link: /implement
   sublinks:
     - name: Apps
-      link: apps
+      link: apps/first-app/
     - name: Chat with other Solid developers
       link: https://forum.solidproject.org
+      fullLink: true
     - name: Funding
       link: funding
 - name: Use

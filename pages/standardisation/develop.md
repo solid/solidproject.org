@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: How Does Development Happen?
 permalink: standardisation/how-does-development-happen
 ---
