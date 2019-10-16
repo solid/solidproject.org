@@ -3,8 +3,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 @prefix obelisk: <http://w3id.org/obelisk/ns/> .
 
@@ -25,14 +23,14 @@ obelisk:Sculptor a rdfs:Class ;
     rdfs:label "Sculptor" ;
     rdfs:comment "An artist who sculpts obelisks." .
 
-obelisk:ownedBy a owl:ObjectProperty ;
+obelisk:ownedBy a rdf:Property ;
     rdfs:label "owned by" ;
     rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered." .
 
-obelisk:builtBy a owl:ObjectProperty ;
+obelisk:builtBy a rdf:Property ;
     rdfs:label "built by" ;
     rdfs:comment "Relationship between an obelisk and the person who built it." .
 
-obelisk:heigth a owl:DataProperty ;
+obelisk:heigth a rdf:Property ;
     rdfs:label "heigth" ;
     rdfs:comment "The distance from the ground to the highest point of the obelisk, in meters." .

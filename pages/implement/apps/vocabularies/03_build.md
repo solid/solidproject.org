@@ -11,10 +11,12 @@ To make things more hands-on, we'll see how [Cleopatra](https://cleopatra.solid.
 1. If you are in a hurry:
 - [Quickstart creation](3-1-quickstart-creation): Build a vocabulary in 10 minutes
 - [Quickstart usage](3-2-quickstart-usage): Use this vocabulary to describe some data
-- [Quickstart tidy-up](3-3-quickstart-tidy-up): If you have an extra couple of minutes, polish up your vocabulary to make it look fabulous
+- [Quickstart code](5-1-quickstart-artifacts): Build a small app using your new vocabulary
 
 2. If you have some more time
-- Before implementing your vocabulary, you might consider browsing these [best practices for building vocabularies](3-3-building-best-practices)
+- Before implementing your own vocabulary, you might consider browsing these [best practices for building vocabularies](building-best-practices)
+- [Extended creation](3-1-extended-creation): Let us polish up the quickstart vocabulary to make it look even better by implementing these best practices
 - For a more advanced tutorial, there exist [methodologies for building vocabularies](3-4-advanced-methodology)
+- [Extended usage](3-2-extended-usage): Describe your data and store it in a Solid pod
 
-Once you have your vocabulary RDF and documentation, the next step is [publishing it all](4-publish)
+Once you have your vocabulary RDF and documentation, the next step is [publishing it](4-publish).
