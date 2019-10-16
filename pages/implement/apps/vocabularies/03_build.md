@@ -11,6 +11,7 @@ To make things more hands-on, we'll see how [Cleopatra](https://cleopatra.solid.
 1. If you are in a hurry:
 - [Quickstart creation](3-1-quickstart-creation): Build a vocabulary in 10 minutes
 - [Quickstart usage](3-2-quickstart-usage): Use this vocabulary to describe some data
+- [Quickstart tidy-up](3-3-quickstart-tidy-up): If you have an extra couple of minutes, polish up your vocabulary to make it look fabulous
 
 2. If you have some more time
 - Before implementing your vocabulary, you might consider browsing these [best practices for building vocabularies](3-3-building-best-practices)
