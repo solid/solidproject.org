@@ -27,7 +27,7 @@
   link: /implement
   sublinks:
     - name: Apps
-      link: apps/first-app
+      link: apps
     - name: Chat with other Solid developers
       link: https://forum.solidproject.org
       fullLink: true

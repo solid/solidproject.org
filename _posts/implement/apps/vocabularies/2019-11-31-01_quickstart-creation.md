@@ -3,7 +3,8 @@ layout: post
 title: "Quickstart - Create your vocabulary "
 permalink: implement/apps/vocabularies/create/quickstart
 tags: [implement, vocabularies]
-categories: [Implement]
+categories: [Implement/Vocabularies]
+published: true
 ---
 
 Let us build a very simple vocabulary describing [obelisks](https://en.wikipedia.org/wiki/Obelisk), so that [Cleopatra](https://cleopatra.solid.community/profile/card#me) and [Caesar](https://jcaesar.solid.community/profile/card#me) can share information about their personal collections.
@@ -207,4 +208,4 @@ obelisk:Obelisk a rdfs:Class ;
 
 A reference version of this final vocabulary is available [here](assets/misc/tutorials/quickstart-obelisk.ttl).
 
-Next step: [using this vocabulary to describe data in your pod](3-2-quickstart-usage).
+Next step: [using this vocabulary to describe data in your pod](/implement/apps/vocabularies/use/quickstart).

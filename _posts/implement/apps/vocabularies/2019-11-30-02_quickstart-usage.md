@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Quickstart - Use your vocabulary to describe data"
+title: "Quickstart - Describe data"
 permalink: implement/apps/vocabularies/use/quickstart
 tags: [implement, vocabularies]
-categories: [Implement]
+categories: [Implement/Vocabularies]
 ---
 
 Now that we have a vocabulary, let's use it to describe some real obelisk data! To this end, let us introduce the two most renowned obelisk sculptors of all time: [Vuittonluis](https://vuittonluis.solid.community/profile/card#me) and [G. Armani](https://garmani.solid.community/profile/card#me). If you look up their profiles, you'll notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/ns/Sculptor):
@@ -44,4 +44,4 @@ You can see the previous graph stranslated into RDF in the file `src/collection.
 
 <iframe src="https://codesandbox.io/embed/my-first-obelisk-collection-1ybvq?fontsize=14" title="my first obelisk collection" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-However, it's not really convenient to manage vocabularies as plain text: it is error-prone, hard to maintain, and unpleasant to read. To address this issue, we provide a [quickstart guide to using your vocabulary in code](5-1-quickstart-artifacts).
+However, it's not really convenient to manage vocabularies as plain text: it is error-prone, hard to maintain, and unpleasant to read. To address this issue, we provide a [quickstart guide to using your vocabulary in code](/implement/apps/vocabularies/code/quickstart).

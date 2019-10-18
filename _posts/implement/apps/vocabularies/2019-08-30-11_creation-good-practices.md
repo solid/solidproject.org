@@ -3,7 +3,7 @@ layout: post
 title: "Vocabulary building best practices"
 permalink: implement/apps/vocabularies/create/best-practices
 tags: [implement, vocabularies]
-categories: [Implement]
+categories: [Implement/Vocabularies]
 ---
 
 Writing a vocabulary is good, writing a good vocabulary is better. To make it easier on others (and on yourself) when using your vocabulary, here is a set of good practices that you might consider applying. There are also external resources that we recommend you read:
@@ -79,14 +79,10 @@ Vocabularies are usually developed for a purpose, and this purpose can be of var
 
 ## <a id="modularization"/> Modularization
 
-Vocabularies should have a focused scope and a defined, identifiable purpose. In order to achieve this, it is considered good practice to break down vocabularies that are too large and cover too wide a scope into smaller modules. This way, your application ends up resting on a network of interconnected modules, instead of on a monolothic vocabulary. It is __easier to maintain__, as each module has a scope which is more limited, and does not require an complete understanding of domain covered by the global vocabulary. It also helps __prioritizing__ module development. More information about ontology modularization into [the bibliography](#ref_modularizing)
+Vocabularies should have a focused scope and a defined, identifiable purpose. In order to achieve this, it is considered good practice to break down vocabularies that are too large and cover too wide a scope into smaller modules. This way, your application ends up resting on a network of interconnected modules, instead of on a monolothic vocabulary. It is __easier to maintain__, as each module has a scope which is more limited, and does not require an complete understanding of domain covered by the global vocabulary. It also helps __prioritizing__ module development. More information about ontology modularization in [this paper](https://hal.archives-ouvertes.fr/file/index/docid/710035/filename/WoMo_paper_2012_SBA_al.pdf)
 
 ## Ontology design patterns
 
 Ontology design patterns are similar to design patterns in software engineering: they capture application-agnostic structures, with identified characteristics, providing a solution to a known recurrent issue. Similarly to ontology modules, ontology design patterns are reusable by nature. You can find some ontology design patterns on this [dedicated portal](http://ontologydesignpatterns.org). The key takeaway is that ontology design patterns __capture modeling efforts__: using them is a way to capitalize on previous work.
 
-Now, you're all set to implement your vocabulary. If you need to, you can go back to the [vocabulary building methodology](3-1-building-methodology), or you can move to [publication](4-publish)!
-
-## Bibliography
-
-- <a id="ref_modularizing"> a href="https://hal.archives-ouvertes.fr/file/index/docid/710035/filename/WoMo_paper_2012_SBA_al.pdf">Abbes, S. B., Scheuermann, A., Meilender, T., & d'Aquin, M. (2012, July). Characterizing modular ontologies.</a>
+Let's implement these good practices by [improving the vocabulary we created](/implement/apps/vocabularies/create/extended) in the quickstart tutorial

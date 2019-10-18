@@ -3,7 +3,7 @@ layout: post
 title: "Step 1: identifying the user"
 permalink: implement/apps/first-app/1-authentication
 tags: [implement, apps]
-categories: [Implememt]
+categories: [Implement/First app]
 ---
 
 The starting point for any Solid Web App is to obtain the user's _WebID_. The WebID is a URL at

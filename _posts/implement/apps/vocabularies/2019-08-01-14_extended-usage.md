@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Use your vocabulary to describe data for Solid"
+title: "Describe data for Solid"
 permalink: implement/apps/vocabularies/use/extended
 tags: [implement, vocabularies]
-categories: [Implement]
+categories: [Implement/Vocabularies]
 ---
 
 Now that we have a vocabulary, we can use it to describe data. To this end, let us introduce the two most renowned obelisks designers of their time: [Vuittonluis](https://vuittonluis.solid.community/profile/card#me) and [G. Armani](https://garmani.solid.community/profile/card#me). if you look up their profile, you will notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/ns/Sculptor):
@@ -66,4 +66,4 @@ Some of the elements (e.g. [ldp:Container](http://www.w3.org/ns/ldp#Container)) 
 
 <iframe src="https://codesandbox.io/embed/my-first-obelisk-collection-1ybvq?fontsize=14" title="my first obelisk collection" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-However, it's not really convenient to manage vocabularies as plain text: it is error-prone, hard to maintain, and unpleasant to read. To address this issue, we introduce some helper libraries that enable [publishing your vocabulary as code artifacts](4.2-publish-artifacts), and to [use your vocabulary in your code](5-use). We also provide a [quickstart guide to using your vocabulary in code](4-1-quickstart-artifacts).
+However, it's not really convenient to manage vocabularies as plain text: it is error-prone, hard to maintain, and unpleasant to read. To address this issue, we introduce some helper libraries that enable [publishing your vocabulary as code artifacts](/implement/apps/vocabularies/publish/artifacts), and to [use your vocabulary in your code](/implement/apps/vocabularies/code).

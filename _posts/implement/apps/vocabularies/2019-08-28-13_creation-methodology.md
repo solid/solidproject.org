@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Create better vocabularies with the NeOn methodology"
+title: "NeOn, a vocabulary creation methodology"
 permalink: implement/apps/vocabularies/create/methodology
 tags: [implement, vocabularies]
-categories: [Implement]
+categories: [Implement/Vocabularies]
 ---
 
 ### The NeOn methodology
 
-[NeOn](#ref_neon) is a reference method for building __ontology networks__, that is to say inter-related vocabularies. NeOn proposes different scenarii, to enable reusing existing resources (both ontological and non-ontological, i.e. data models that are not vocabularies) or building the vocabulary from scratch. The detail of these scenarii is provided in the [referenced publication](#ref_neon), but we will give thereafter an overview of the "build-from-scratch" scenario.
+NeOn is a reference method for building __ontology networks__, that is to say inter-related vocabularies. NeOn proposes different scenarii, to enable reusing existing resources (both ontological and non-ontological, i.e. data models that are not vocabularies) or building the vocabulary from scratch. The detail of these scenarii is provided in the [referenced publication](https://pdfs.semanticscholar.org/3d34/d26ddc2024b80c3296a8552e160d973cd9a2.pdf), but we will give thereafter an overview of the "build-from-scratch" scenario.
 
 #### Requirements specification
 
@@ -54,8 +54,4 @@ At this point, your vocabulary is basically a graph, with bubbles connected by a
 
 At some point, you will be happy with your vocabulary as a drawing, but in this form it cannot be used by applications. To this end, it must be __implemented into RDF__. To do so, you can use [Protégé](https://protege.stanford.edu/), a tool that will help you implement your vocabulary through a GUI, without having to write the RDF directly.
 
-However, before moving to implementation, you might want to check out the [best practices](3-2-building-best-practices) for building vocabularies.
-
-## Bibliography
-
-- <a id="ref_neon"/> <a href="https://pdfs.semanticscholar.org/3d34/d26ddc2024b80c3296a8552e160d973cd9a2.pdf">Suárez-Figueroa, M. C., Gómez-Pérez, A., & Fernández-López, M. (2012). The NeOn methodology for ontology engineering. In Ontology engineering in a networked world</a>
+Next step, [publish your vocabulary](/implement/apps/vocabularies/publish)!

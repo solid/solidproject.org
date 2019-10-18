@@ -3,7 +3,7 @@ layout: post
 title: "Quickstart - Code with your vocabulary"
 permalink: implement/apps/vocabularies/code/quickstart
 tags: [implement, vocabularies]
-categories: [Implement]
+categories: [Implement/Vocabularies]
 ---
 
 In this part of the tutorial, we will build on the [quickstart version](https://solid.github.io/assets/misc/tutorials/quickstart-obelisk.ttl) of the Obelisk vocabulary to develop a simple Javascript application that answers the question: "Is this person an obelisk sculptor ?"
@@ -49,3 +49,5 @@ From there, we can build a simple app that tells you, based on a person's WebID,
 <iframe src="https://codesandbox.io/embed/lit-using-generated-artifact-8vfyf?fontsize=14" title="lit-using-generated-artifact" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 If you want to be recognised as an obelisk sculptor, you can uncomment line 35. You will have to add this app to your authorized apps to be able to write into your Pod.
+
+Now that you are familiar with what's in a vocabulary, and saw how to code using one, you might be interested in finding out the [well-known vocabularies](/implement/apps/vocabularies/well-known)
