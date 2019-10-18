@@ -4,25 +4,11 @@ title: "1- Well-known vocabularies"
 permalink: implement/apps/vocabularies/1-well-known
 ---
 
-# <a id='core'/> Core vocabularies
-
-These vocabularies are used as building blocks to make the others.
-
-- [Resource Description Framework (rdf)](1-1-core#rdf)
-- [RDF Schema (rdfs)](1-1-core#rdfs)
-- [Web Ontology Language (owl)](1-1-core#owl)
-
-# <a id='solid'/> Vocabularies essential to Solid
-
-These vocabularies are the ones featured in the Solid standard.
-
-- [Access Control List (acl)](1-2-solid#acl)
-- [Linked Data Platform (ldp)](02-04-technical-vocabularies#ldp)
-- [Media types (mime)](02-04-technical-vocabularies#mime)
-- [Solid terms](1-2-solid#terms)
-- [Workspace](1-2-solid#space)
-- [Posix stat](1-2-solid#posix)
-- [User Interface (ui)](1-2-solid#ui)
+This page references vocabularies that are widely used, and that are likely to cover some aspects of your app:
+- [Common vocabularies](#common) are all-purpose vocabularies solving everyday life issues (for app development)
+- [Technical vocabularies](#technical) are vocabularies describing technical entities: HTTP messages, RSS feeds...
+- [Core vocabularies](#core) are vocabularies used to build vocabularies.
+- [Solid vocabularies](#solid) are vocabularies present in the Solid standard.
 
 # <a id='common'/> Vocabularies solving common issues
 
@@ -54,5 +40,25 @@ These vocabularies are tied to technical standard.
 |Linked data platform| [ldp](1-4-technical#ldp) |
 |RSS feeds| [rss](1-4-technical#rss) |
 |XML Schema| [xsd](1-4-technical#xsd)|
+
+# <a id='core'/> Core vocabularies
+
+These vocabularies are used as building blocks to make the others.
+
+- [Resource Description Framework (rdf)](1-1-core#rdf)
+- [RDF Schema (rdfs)](1-1-core#rdfs)
+- [Web Ontology Language (owl)](1-1-core#owl)
+
+# <a id='solid'/> Vocabularies essential to Solid
+
+These vocabularies are the ones featured in the Solid standard.
+
+- [Access Control List (acl)](1-2-solid#acl)
+- [Linked Data Platform (ldp)](02-04-technical-vocabularies#ldp)
+- [Media types (mime)](02-04-technical-vocabularies#mime)
+- [Solid terms](1-2-solid#terms)
+- [Workspace](1-2-solid#space)
+- [Posix stat](1-2-solid#posix)
+- [User Interface (ui)](1-2-solid#ui)
 
 Your application requires a vocabulary that you did not find on this page? Maybe it's out there somewhere. Next, we see how to [discover vocabularies](2-discover).
