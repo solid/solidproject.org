@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Solid Team
 permalink: about/team
 ---

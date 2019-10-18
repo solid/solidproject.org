@@ -1,5 +1,5 @@
 ---
-layout: internal
+layout: pages
 title: Use Solid Apps
 permalink: use
 ---

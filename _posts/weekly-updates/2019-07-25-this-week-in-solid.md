@@ -1,3 +1,12 @@
+---
+layout: blog
+title: Week Updates 2019-07-25
+permalink: /weekly-updates/new-2019-07-25
+tags: [weekly, updates]
+categories: [Updates]
+author: Mitzi László
+---
+
 # 25 July 2019
 
 Hello and welcome to another issue of This Week in Solid!

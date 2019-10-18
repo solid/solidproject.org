@@ -1,7 +1,9 @@
 ---
-layout: internal
+layout: post
 title: "Step 2: Understanding Solid"
 permalink: implement/apps/first-app/2-understanding-solid
+tags: [implement, apps]
+categories: [Implememt]
 ---
 
 Now that we've [got the user's WebID](./1-authentication), we have a starting point for fetching

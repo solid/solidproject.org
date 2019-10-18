@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: FAQs
 permalink: about/faqs
 ---

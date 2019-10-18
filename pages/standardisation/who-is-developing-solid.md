@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Who is Developing Solid?
 permalink: standardisation/who-is-developing-solid
 ---

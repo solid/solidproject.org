@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Solid Events
 permalink: about/solid-events
 ---
