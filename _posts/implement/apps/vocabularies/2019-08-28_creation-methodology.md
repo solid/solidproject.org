@@ -1,7 +1,9 @@
 ---
-layout: internal
-title: "3.1- Vocabulary building methodology"
-permalink: implement/apps/vocabularies/3-4-building-methodology
+layout: post
+title: "Create better vocabularies with the NeOn methodology"
+permalink: implement/apps/vocabularies/create/methodology
+tags: [implement, vocabularies]
+categories: [Implement]
 ---
 
 ### The NeOn methodology

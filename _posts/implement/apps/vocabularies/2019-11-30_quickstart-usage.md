@@ -1,7 +1,9 @@
 ---
-layout: internal
-title: "3.2- Vocabulary usage quickstart"
-permalink: implement/apps/vocabularies/3-2-quickstart-usage
+layout: post
+title: "Quickstart - Use your vocabulary to describe data"
+permalink: implement/apps/vocabularies/use/quickstart
+tags: [implement, vocabularies]
+categories: [Implement]
 ---
 
 Now that we have a vocabulary, let's use it to describe some real obelisk data! To this end, let us introduce the two most renowned obelisk sculptors of all time: [Vuittonluis](https://vuittonluis.solid.community/profile/card#me) and [G. Armani](https://garmani.solid.community/profile/card#me). If you look up their profiles, you'll notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/ns/Sculptor):

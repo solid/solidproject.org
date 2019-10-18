@@ -1,7 +1,9 @@
 ---
-layout: internal
-title: "4.1- Publish your RDF vocabulary"
-permalink: implement/apps/vocabularies/4.1-publish-rdf
+layout: post
+title: "Publish your vocabulary as RDF"
+permalink: implement/apps/vocabularies/publish/rdf
+tags: [implement, vocabularies]
+categories: [Implement]
 ---
 
 The W3C issued some [recipes for publishing your vocabulary](https://www.w3.org/TR/swbp-vocab-pub/) that are a good complement to what is introduced here, as well as some more generic [good practices for HTTP resources](https://www.w3.org/TR/chips/).

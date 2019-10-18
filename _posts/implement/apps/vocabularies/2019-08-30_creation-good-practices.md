@@ -1,7 +1,9 @@
 ---
-layout: internal
+layout: post
 title: "Vocabulary building best practices"
-permalink: implement/apps/vocabularies/creation-best-practices
+permalink: implement/apps/vocabularies/create/best-practices
+tags: [implement, vocabularies]
+categories: [Implement]
 ---
 
 Writing a vocabulary is good, writing a good vocabulary is better. To make it easier on others (and on yourself) when using your vocabulary, here is a set of good practices that you might consider applying. There are also external resources that we recommend you read:

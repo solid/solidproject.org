@@ -1,7 +1,9 @@
 ---
-layout: internal
-title: "3.1 quickstart - Vocabulary creation "
-permalink: implement/apps/vocabularies/3-1-quickstart-creation
+layout: post
+title: "Quickstart - Create your vocabulary "
+permalink: implement/apps/vocabularies/create/quickstart
+tags: [implement, vocabularies]
+categories: [Implement]
 ---
 
 Let us build a very simple vocabulary describing [obelisks](https://en.wikipedia.org/wiki/Obelisk), so that [Cleopatra](https://cleopatra.solid.community/profile/card#me) and [Caesar](https://jcaesar.solid.community/profile/card#me) can share information about their personal collections.

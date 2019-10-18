@@ -1,7 +1,9 @@
 ---
-layout: internal
-title: "5.1- Vocabulary in code quickstart"
-permalink: implement/apps/vocabularies/5-1-quickstart-artifacts
+layout: post
+title: "Quickstart - Code with your vocabulary"
+permalink: implement/apps/vocabularies/code/quickstart
+tags: [implement, vocabularies]
+categories: [Implement]
 ---
 
 In this part of the tutorial, we will build on the [quickstart version](https://solid.github.io/assets/misc/tutorials/quickstart-obelisk.ttl) of the Obelisk vocabulary to develop a simple Javascript application that answers the question: "Is this person an obelisk sculptor ?"

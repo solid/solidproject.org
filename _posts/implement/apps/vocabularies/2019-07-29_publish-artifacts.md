@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Publish your vocabulary as code artifacts"
+permalink: implement/apps/vocabularies/publish/artifacts
+tags: [implement, vocabularies]
+categories: [Implement]
+---
+
+Disclaimer: The resources described in this page are not publicly available yet, but they will be release soon.

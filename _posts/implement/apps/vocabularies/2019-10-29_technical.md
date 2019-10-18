@@ -1,7 +1,9 @@
 ---
-layout: internal
-title: "1.4- Vocabularies describing technical standards"
-permalink: implement/apps/vocabularies/1-4-technical
+layout: post
+title: "Vocabularies describing technical standards"
+permalink: implement/apps/vocabularies/well-known/technical
+tags: [implement, vocabularies]
+categories: [Implement]
 ---
 
 # <a id="cert"/> X509 Certificates (cert)

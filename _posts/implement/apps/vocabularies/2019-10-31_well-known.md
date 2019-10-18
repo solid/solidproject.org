@@ -1,7 +1,9 @@
 ---
-layout: internal
-title: "1- Well-known vocabularies"
-permalink: implement/apps/vocabularies/1-well-known
+layout: post
+title: "Well-known vocabularies"
+permalink: implement/apps/vocabularies/well-known
+tags: [implement, vocabularies]
+categories: [Implement]
 ---
 
 This page references vocabularies that are widely used, and that are likely to cover some aspects of your app:
