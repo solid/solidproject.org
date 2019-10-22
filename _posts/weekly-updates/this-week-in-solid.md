@@ -12,7 +12,7 @@ You can always check here for the most current issue as well as find a record of
 
 # Current Issue
 
-* [17th October 2019]()
+* [17th October 2019](https://github.com/solid/solid.github.io/blob/master/_posts/weekly-updates/2019-10-17-this-week-in-solid.md)
 
 # Next Up
 
