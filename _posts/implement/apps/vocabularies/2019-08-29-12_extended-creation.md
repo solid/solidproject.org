@@ -1,63 +1,20 @@
 ---
-layout: internal
-title: "3.1- Vocabulary creation quickstart"
-permalink: implement/apps/vocabularies/3-1-quickstart-creation
+layout: post
+title: "Improve your vocabulary"
+permalink: implement/apps/vocabularies/create/extended
+tags: [implement, vocabularies]
+categories: [Implement/Vocabularies]
 ---
 
-Let us build a very simple vocabulary describing [obelisks](https://en.wikipedia.org/wiki/Obelisk), so that [Cleopatra](https://cleopatra.solid.community/profile/card#me) and [Caesar](https://jcaesar.solid.community/profile/card#me) can share information about their personal collections.
-
-## From plain English to a graphical representation
-
-Let's start by stating in English what we'd like to put in our vocabulary:
-- An <u>__obelisk__</u> is <u>__owned by__</u> a <u>__person__</u>.
-- An <u>__obelisk__</u> is <u>__built by__</u> a <u>__sculptor__</u>.
-- An <u>__obelisk__</u> has a <u>__height__</u>, which is a numerical value.
-
-The underlined elements of these sentences are going to be the 'terms' in our vocabulary. We can identify two types of terms: the things that we talk about (e.g. <u>__obelisk__</u> or <u>__sculptor__</u>), and their properties (e.g. <u>__built by__</u> or <u>__height__</u>). Let's make a graphical representation of that, by putting the things in bubbles and the properties in squares:
+This tutorial extends the [quickstart vocabulary creation](/implement/apps/vocabularies/create/quickstart), so make sure to complete it first. Just as a reminder, here is a graphical representation of the terms we want to include in our vocabs:
 
 ![The obelisk vocabulary]({{site.baseurl}}/assets/img/tutorials/vocabularies/obelisk_vocab_1.png)
 
-## From the representation to RDF
+## Refining properties
 
-### Identifying things with IRI
-
-RDF is the language that is used to build vocabularies for Linked Data. In RDF, everything is identified by an IRI. First, we'll need an IRI for our vocabulary, e.g. http://w3id.org/obelisk/ns/. From there, let's update our plain English example a little bit:
-- An <u>http://w3id.org/obelisk/ns/Obelisk</u> is <u>http://w3id.org/obelisk/ns/ownedBy</u> a <u>http://w3id.org/obelisk/ns/Person</u>.
-- An <u>http://w3id.org/obelisk/ns/Obelisk</u> is <u>http://w3id.org/obelisk/ns/builtBy</u> a <u>http://w3id.org/obelisk/ns/Sculptor</u>.
-- An <u>http://w3id.org/obelisk/ns/Obelisk</u> has a <u>http://w3id.org/obelisk/ns/height</u>, which is a numerical value.
-
-Identifiers quickly become unpleasant to read when they are IRIs, so RDF introduces the notion of prefixes: from now on, `obelisk:` will stand for `http://w3id.org/obelisk/ns/`, which means our vocabulary now looks like:
-- An [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) is [obelisk:ownedBy](http://w3id.org/obelisk/ns/ownedBy) a [obelisk:Person](http://w3id.org/obelisk/ns/Person).
-- An [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) is [obelisk:builtBy](http://w3id.org/obelisk/ns/builtBy) a [obelisk:Sculptor](http://w3id.org/obelisk/ns/Sculptor).
-- An [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) has a [obelisk:height](http://w3id.org/obelisk/ns/height), which is a numerical value.
-
-### Defining classes of things
-
-In RDF, the general things that we can talk about are called __Classes__. Everything that went in a bubble in our first schema is therefore a Class, so we could add the following to our vocabulary:
-- [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) is a Class.
-- [obelisk:Person](http://w3id.org/obelisk/ns/Person) is a Class.
-- [obelisk:Sculptor](http://w3id.org/obelisk/ns/Sculptor) is a Class.
-
-If we look at these sentences, they are structured exactly like the ones from the rest of our vocabulary. Let us underline the important bits in the same way:
-- [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) [is a](???) [class](???).
-- [obelisk:Person](http://w3id.org/obelisk/ns/Person) [is a](???) [class](???).
-- [obelisk:Sculptor](http://w3id.org/obelisk/ns/Sculptor) [is a](???) [class](???).
-
-What we need now are IRI for the "[is a](???)" property and the "[Class](???)" Class. Fortunately, these are defined in the RDF and RDFS vocabularies: "[is a](???)" is defined by [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type), and "[class](???)" by [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class). Therefore, we could write:
-
-```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-obelisk:Obelisk rdf:type rdfs:Class .
-obelisk:Person rdf:type rdfs:Class .
-obelisk:Sculptor rdf:type rdfs:Class .
-```
-
-And congratulations, you've just created your first snippet of RDF! This particular RDF syntax is called Turtle. Others exist but we don't need to go over them in this tutorial.
-
-### Defining properties
+We initially defined our properties as [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property). However, we can see in the graphical representation that there are two different kind of properties:
+- the ones that connect a bubble to another,
+- the one that connects a bubble to a litteral value (i.e. a string, a number, a date, etc).
 
 The properties of things in RDF are called properties (how convenient). Therefore, following what we did for Classes, we might write:
 - [obelisk:ownedBy](http://w3id.org/obelisk/ns/ownedBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
@@ -86,60 +43,6 @@ obelisk:Sculptor rdf:type rdfs:Class .
 obelisk:ownedBy rdf:type owl:ObjectProperty .
 obelisk:builtBy rdf:type owl:ObjectProperty .
 obelisk:height rdf:type owl:DataProperty .
-```
-
-However, we can see in this current vocabulary that some information is still missing from our initial schema: nowhere does it say that [`obelisk:ownedBy`](http://w3id.org/obelisk/ns/ownedBy) has something to do with [`obelisk:Obelisk`](http://w3id.org/obelisk/ns/Obelisk) and [`obelisk:Person`](http://w3id.org/obelisk/ns/Person) for instance. To do that, we need to introduce the notion of [rdfs:domain](http://www.w3.org/2000/01/rdf-schema#domain) and [rdfs:range](http://www.w3.org/2000/01/rdf-schema#range). Basically, these two specify the class of the things connected by a property: the [rdfs:domain](http://www.w3.org/2000/01/rdf-schema#domain) it the class of the thing the property is about, and the [rdfs:range](http://www.w3.org/2000/01/rdf-schema#range) is the class of the thing that the property points to. Therefore, we can add to our vocabulary:
-```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-obelisk:Obelisk rdf:type rdfs:Class .
-obelisk:Person rdf:type rdfs:Class .
-obelisk:Sculptor rdf:type rdfs:Class .
-
-obelisk:ownedBy rdf:type owl:ObjectProperty .
-# We connect here obelisk:ownedBy, obelisk:Obelisk and obelisk:Person
-obelisk:ownedBy rdfs:domain obelisk:Obelisk .
-obelisk:ownedBy rdfs:range obelisk:Person .
-
-obelisk:builtBy rdf:type owl:ObjectProperty .
-obelisk:builtBy rdfs:domain obelisk:Obelisk .
-obelisk:builtBy rdfs:range obelisk:Sculptor .
-
-obelisk:height rdf:type owl:DataProperty .
-obelisk:height rdfs:domain obelisk:Obelisk .
-obelisk:height rdfs:range xsd:float .
-```
-
-Here, we could point out that things are getting pretty verbose. Thankfully the Turtle syntax provides shortcuts to avoid repeating the thing that we talk about when adding multiple properties to it (e.g. `obelisk:ownedBy` in the next snippet):
-```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-obelisk:Obelisk rdf:type rdfs:Class .
-obelisk:Person rdf:type rdfs:Class .
-obelisk:Sculptor rdf:type rdfs:Class .
-
-obelisk:ownedBy rdf:type owl:ObjectProperty ;
-    # We removed the repetitions of obelisk:ownedBy, and replaced the end of line by ; instead of .
-    rdfs:domain obelisk:Obelisk ;
-    rdfs:range obelisk:Person .
-
-obelisk:builtBy rdf:type owl:ObjectProperty ;
-    # here too
-    rdfs:domain obelisk:Obelisk ;
-    rdfs:range obelisk:Sculptor .
-
-obelisk:height rdf:type owl:DataProperty ;
-    # and there as well
-    rdfs:domain obelisk:Obelisk ;
-    rdfs:range xsd:float .
 ```
 
 ### Connecting to other vocabularies
@@ -199,74 +102,6 @@ obelisk:height rdf:type owl:DataProperty ;
 ```
 
 ## Adding human readability
-
-### Using labels and comments
-
-So far, all we have manipulated here are identifiers that are primarily made for machines. Although it is certainly not recommended, the IRIs themselves do not need to be meaningful to humans at all. For example, the following would technically be an equivalent vocabulary:
-```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/>
-
-obelisk:C001 rdf:type rdfs:Class .
-obelisk:C002 rdf:type rdfs:Class ;
-    # We say that a obelisk:Sculptor is a specific type of foaf:Person
-    rdfs:subClassOf foaf:Person.
-
-obelisk:p001 rdf:type owl:ObjectProperty ;
-    rdfs:domain obelisk:C001 ;
-    rdfs:range foaf:Person .
-
-obelisk:p002 rdf:type owl:ObjectProperty ;
-    rdfs:domain obelisk:C001 ;
-    rdfs:range obelisk:C002 .
-
-obelisk:p003 rdf:type owl:DataProperty ;
-    rdfs:domain obelisk:C001 ;
-    rdfs:range xsd:float .
-```
-Even if we don't want our vocabulary to look like this, the point we're making here is that we now need to add to our terms descriptions for humans. To do so we'll use the properties [`rdfs:label`](http://www.w3.org/2000/01/rdf-schema#) to add a human-readable label for the term identified by the IRI, and [`rdfs:comment`](http://www.w3.org/2000/01/rdf-schema#comment) to add a few sentences describing what is meant by the term in the context we use it. This could lead to something like this:
-```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/>
-
-obelisk:Obelisk rdf:type rdfs:Class ;
-    # A label for readability...
-    rdfs:label "Obelisk";
-    # ... and a comment for understandability
-    rdfs:comment "An obelisk is a four-sided pillar with a pyramid-shaped top.".
-
-obelisk:Sculptor rdf:type rdfs:Class ;
-    rdfs:label rdfs:label "Sculptor" ;
-    rdfs:comment "An artist who sculpts obelisks." ;
-    rdfs:subClassOf foaf:Person .
-
-obelisk:ownedBy rdf:type owl:ObjectProperty ;
-    rdfs:label "owned by" ;
-    rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered."
-    rdfs:domain obelisk:Obelisk ;
-    rdfs:range foaf:Person .
-
-obelisk:builtBy rdf:type owl:ObjectProperty ;
-    rdfs:label "built by" ;
-    rdfs:comment "Relationship between an obelisk and the person who built it." ;
-    rdfs:domain obelisk:Obelisk ;
-    rdfs:range obelisk:Sculptor .
-
-obelisk:height rdf:type owl:DataProperty ;
-    rdfs:label "heigth" ;
-    # Note that so far we didn't specify the unit for the height. It can be hinted in the comment.
-    rdfs:comment "The distance from the ground to the highest point of the obelisk, in meters." ;
-    rdfs:domain obelisk:Obelisk ;
-    rdfs:range xsd:float .
-```
 
 ### Adding multilingual support
 
@@ -517,5 +352,6 @@ obelisk:heigth a owl:DataProperty ;
     rdfs:domain obelisk:Obelisk ;
     rdfs:range xsd:float.
 ```
+A reference version of this final vocabulary is available [here](assets/misc/tutorials/quickstart-obelisk.ttl).
 
-Next step: [using this vocabulary to describe data in your pod](3-2-quickstart-usage)
+You can now use this vocabulary to [describe data for Solid](/implement/apps/vocabularies/use/extended). If you want a more advanced tutorial to create vocabularies, you can learn about [the NeOn methodology](/implement/apps/vocabularies/create/methodology).

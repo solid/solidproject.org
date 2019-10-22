@@ -3,7 +3,7 @@ layout: post
 title: "Step 3: Reading data"
 permalink: implement/apps/first-app/3-reading-data
 tags: [implement, apps]
-categories: [Implememt]
+categories: [Implement/First app]
 ---
 
 We've [got the user's WebID](1-authentication) and we [know that it points to a

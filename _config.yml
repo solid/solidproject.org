@@ -26,6 +26,7 @@ github_username: jcamposv
 
 # Build settings
 markdown: kramdown
+future: true
 theme: minima
 plugins:
   - jekyll-feed
