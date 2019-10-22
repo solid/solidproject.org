@@ -1,3 +1,12 @@
+---
+layout: blog
+title: Week Updates 2019-10-03
+permalink: /weekly-updates/new-2019-10-03
+tags: [weekly, updates]
+categories: [Updates]
+author: Mitzi László
+---
+
 # 17th October 2019 
 
 Hello and welcome to another edition of This Week in Solid!
