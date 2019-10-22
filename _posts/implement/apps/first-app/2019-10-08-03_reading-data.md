@@ -33,7 +33,7 @@ async function getName(webId) {
   /* 2. Read the Subject representing the current user: */
   const user = webIdDoc.getSubject(webId);
   /* 3. Get their foaf:name: */
-  return user.getLiteral('http://xmlns.com/foaf/0.1/name')
+  return user.getString('http://xmlns.com/foaf/0.1/name')
 }
 ```
 
@@ -51,19 +51,20 @@ async function getName(webId) {
   /* 2. Read the Subject representing the current user: */
   const user = webIdDoc.getSubject(webId);
   /* 3. Get their foaf:name: */
-  return user.getLiteral(foaf.name)
+  return user.getString(foaf.name)
 }
 ```
 
-Two things to note here. First, we call `getLiteral` to indicate that we are looking for an actual
-value, rather than a URL. However, the value could also have been a URL pointing to a different
+Two things to note here. First, we call `getString` to indicate that we are looking for an actual
+value (i.e. a Literal), rather than a URL. (Likewise, we could e.g. use `getInteger` or `getDecimal`
+if we would expect a number.) However, the value could also have been a URL pointing to a different
 Subject, in which case we could in turn fetch _that_ Document. If that was what we expected, we
 could have used the method `getNodeRef` instead.
 
 The second thing to consider is that we cannot make any assumptions about what data is or is not
-present in the user's Pod. Thus, `user.getLiteral(foaf.name)` might also return `null`. This
+present in the user's Pod. Thus, `user.getString(foaf.name)` might also return `null`. This
 could happen if the Document does not include the user's name, if the name is stored differently
-(e.g. using `foaf:firstName` and `foaf:familyName`), or the `foaf:name` is not a Literal.
+(e.g. using `foaf:firstName` and `foaf:familyName`), or the `foaf:name` is not a literal string.
 
 Now that we're able to read data from the user's WebID, let's find out how we can read arbitrary
 other data.
