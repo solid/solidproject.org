@@ -15,33 +15,67 @@ Solid Events are an opportunity for the Solid community to meet in person locall
 
 (past events are [listed below](https://github.com/solid/information/blob/master/solid-events.md#past-events))
 
-Solid Events are run by members of the Solid community like you. Here you can 
-find a comprehensive guide to help you along the way. Reach out to the Solid 
-Manager to set up a call and brainstorm the organisation of your event. 
+Solid Events are run by people like you. Here you can find a comprehensive guide to help you along the way. 
 
-# Solid Event Triplet 
+Reach out to the Solid Manager on info@solidproject.org to set up a call and brainstorm the organisation of your event. 
+
+# Content 
+There are many formats to host a Solid Event. Here are some ideas: 
+
+## Speakers 
+Solid Events are a great opportunity to highlight local people building on Solid. You can shout out for local speakers on This Week in Solid. Partnering with local universities, particularly courses that teach linked data, is a great way to slot into the student network and integrate into the existing educational facilities. 
+
+## Debate Panel  
+If you decide to set up a debate panel, define a theme or opening question. One way to focus the conversation is to set it up as a debate panel with multiple teams defending a specific perspective. Allocating people to defend perspectives they do not necessarily agree with is a good way to open the mind and expand the debate.
+
+## Entrepreneur-Investor Pitching 
+One format is to invite local entrepreneurs and developers to pitch an idea for a Solid app or Pod Provider. You can also invite investors to pitch why their funds are appropriate for Solid values.
+
+## Hackathons 
+Hackathons are great for passing on knowledge between those who are familiar with Solid to those who are learning. It is useful to have a concrete target for your hackathon that you can work towards together. 
+
+# Team 
+A good team can make all the difference. Examples of roles include: promotion, ticketing, equipment support, presentation host. 
+
+# Venue
+Partnering with existing meetups or organisations that regularly host events has the benefit of learning from their experience and benefit from their existing setup. Make sure to select a venue that can accommodate the number of people 
+you expect with sufficient tables and chairs. 
+
+# Equipment
+Organising a projector, sound system, and laptop for displaying the presentation in advance is important for a smooth running event. Make sure you have the right cables and preferably do a trial run before the event. If you partner with a venue 
+that is familiar with hosting events, make sure to know who to contact about equipment setup. 
+
+# Invitation 
+Eventbrite provides invitation services that have been popular with Solid Event organisers. A standard Solid Event invite text could be: 
+
+> ## Introduction to Solid
+>
+> ### About this Event
+> The web needs a mid-course correction. Solid, an open source project led by inventor of the web Sir Tim Berners-Lee. Solid lays the foundation for a future that puts users in control of their data and frees developers to focus on building apps that deliver value. Join us at `{insert location}` for an overview of  Solid  and an introduction to members of the Solid community. Learn how Solid works and how to get involved.The event will be organized by `{insert organiser details}`. 
+>
+> ### Agenda 
+>
+> `{insert agenda}`
+
+Once your invite is published make sure to submit a pull request to add it to the listing above or reach out to the Solid Team to ask for it to be published. 
+
+# Promotion
+Make sure to spread the news about the event in local channels. Share the invite with people who organise events with a  audiences that could share interests such as developers, data ethicists, and designers. Local media events, calendars, and developer groups can be a great way to tap into existing interest groups. Make sure to include your event in This Week in Solid. 
+
+# Join the Solid Event Organisers 
+Join the [solid/solid-events gitter channel](https://gitter.im/solid/solid-events) to speak with other Solid Event organisers. 
+
+# Continuity 
+Having a series of Solid Events in your city is important for the network of local developers to grow and nurture the implementation of Solid. 
+
 A Solid Event triplet is a series of three events in the same city designed to have incremental engagement with your local network. 
 
 1.	Meet and Greet 
 Holding an informal meetup in a city is a good way to find out who else is working on Solid locally. 
 
-A general introduction to Solid to kickstart your Solid Event can be helpful for 
-newcomers and to warm the attention of the crowd. If your event is general and 
-targeted to a wide audience using Solid or looking to use Solid, it is important 
-that you cover What, Why, How, When, described so anyone can understand. It is 
-useful to talk about the core values that define the Solid design. Value based 
-conversations can be an excellent route to moving these conversations forward. 
-Questions to answer in the opening introduction include: 
-* What is Solid? 
-* Why should I use Solid?
-* How can I use Solid?
+A general introduction to Solid to kickstart your Solid Event can be helpful for newcomers and to warm the attention of the crowd. If your event is general and targeted to a wide audience using Solid or looking to use Solid, it is important that you cover What, Why, How, When, described so anyone can understand. It is useful to talk about the core values that define the Solid design. Value based conversations can be an excellent route to moving these conversations forward. Questions to answer in the opening introduction include: What is Solid?Why should I use Solid? How can I use Solid?
 
-The [FOSDEM talk by Ruben Verborgh](http://bofh.nikhef.nl/events/FOSDEM/2019/Janson/solid_web_decentralization.mp4) 
-is a great introduction if you'd prefer to screen a recording. 
-
-Demos of Solid solutions preferably by locals building on Solid help the audience 
-focus on practical implementations. You can also ask Solid app developers for 
-recorded demos. 
+Demos of Solid solutions preferably by locals building on Solid help the audience focus on practical implementations. You can also ask Solid app developers for recorded demos. 
 
 At the end of the first Solid Event it’s a good idea to announce your local Solid Challenge. A Solid Challenge is a small aim where individuals or groups can aim towards and compete. Try and design the Solid Challenge to be relevant to the local setting. Perhaps you want to gauge the temperature at the first event and collect contact details of those interested in a Solid Challenge rather than announcing it immediately. Either way, make sure to follow up with a written description of the Solid Challenge aim as well as the prize criteria and the jury. Partnering with a local university is a good way to engage with student activity and the incorporate Solid into the local academic training. 
 
@@ -54,83 +88,6 @@ Having speakers at the second Solid Event who can introduce Solid to businesses 
 3.	Company and Institutional demonstrations 
 The third Solid Event is a good place to gather local companies and institutuions who have been working on implementing Solid. The first demonstrations are likely to be early stage which is helpful so that you can understand how best to complement and support each other. 
 
-## Speakers 
-Solid Events are a great opportunity to highlight local people building on Solid. 
-Reach out to the Solid Team and ask  solid/chat on gitter to see if there are 
-people local to you. 
-
-## Debate Panel  
-If you decide to set up a debate panel, define a theme or opening question. One 
-way to focus the conversation is to set it up as a debate panel with multiple 
-teams defending a specific perspective. Allocating people to defend perspectives 
-they do not necessarily agree with is a good way to open the mind and expand 
-the debate.
-
-## Entrepreneur-Investor Pitching 
-One format is to invite local entrepreneurs and developers to pitch an idea 
-for a Solid app or Pod Provider. You can also invite investors to pitch why 
-their funds are appropriate for Solid values.
-
-## Hackathons 
-Hackathons are great for passing on knowledge between those who are familiar 
-with Solid to those who are learning. It is useful to have a concrete target 
-for your hackathon that you can work towards together. There is a collection 
-of educational materials available at [Solid Teaching Materials](resources.md).
-
-# Team 
-A good team can make all the difference. Examples of roles include: 
-- promotion 
-- ticketing 
-- equipment support 
-- presentation host
-
-# Venue
-Partnering with existing meetups or organisations that regularly host events has 
-the benefit of learning from their experience and benefit from their existing 
-setup. Make sure to select a venue that can accommodate the number of people 
-you expect with sufficient tables and chairs. 
-
-# Equipment
-Organising a projector, sound system, and laptop for displaying the presentation 
-in advance is important for a smooth running event. Make sure you have the right 
-cables and preferably do a trial run before the event. If you partner with a venue 
-that is familiar with hosting events, make sure to know who to contact about 
-equipment setup. 
-
-# Invitation 
-Eventbrite and Meetup provide invitation services that have been popular with 
-Solid Event Organisers. A standard Solid Event invite text could be: 
-
-> ## Introduction to Solid
->
-> ### About this Event
-> The web needs a mid-course correction. Solid, an open source project led by 
-> inventor of the web Sir Tim Berners-Lee. Solid lays the foundation for a 
-> future that puts users in control of their data and frees developers to 
-> focus on building apps that deliver value. Join us at `{insert location}` 
-> for an overview of  Solid  and an introduction to members of the Solid 
-> community. Learn how Solid works and how to get involved.The event will 
-> be organized by `{insert organiser details}`. 
->
-> ### Agenda 
->
-> `{insert agenda}`
-
-Once your invite is published make sure to submit a pull request to add it to 
-the listing above or reach out to the Solid Team to ask for it to be published. 
-
-# Promotion
-Make sure to spread the news about the event in local channels. Share the invite 
-with people who organise events with a  audiences that could share interests 
-such as developers, data ethicists, and designers. Channels to consider include: 
-* [gitter solid/chat](https://gitter.im/solid/chat)
-* [Reddit Solid](https://www.reddit.com/r/SOLID/) 
-* Local media events and calendars 
-* Local developer groups 
-
-# Join the Solid Event Organisers 
-Join the [solid/solid-events gitter channel](https://gitter.im/solid/solid-events) 
-to speak with other Solid Event organisers
 
 # Past events
 
