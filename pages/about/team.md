@@ -19,58 +19,58 @@ https://github.com/Mitzi-Laszlo
 https://mitzilaszlo.solid.community/profile/card#me 
 
 ## Sarven Capadisli
-**Editor** 
+**Solid Editor** 
 Sarven worked on the MIT academic Solid project (expand on details?). He contributes to the advancement of open Web platform specifications and the development of social decentralised applications. He is active as an information architect and scientist in linked research communication. (mention PhD work?) 
 https://github.com/csarven
 http://csarven.ca/#i
 
 ## Ruben Verborgh 
-**Editor**
+**Solid Editor**
 Ruben worked on the MIT academic Solid project (expand on details?). He is now a professor of Semantic Web technology at Ghent University – imec (include some details about the Solid academic work?) 
 https://github.com/RubenVerborgh
 https://ruben.verborgh.org/profile/#me
 
 ## Justin Bingham
-**Editor** 
+**Solid Editor** 
 Justin is co-founder of Janeiro Digital who is working on implementing Solid (expand on details of JD and Solid relevant work?)
 https://github.com/justinwb
 https://justin.inrupt.net/profile/card#me
 
 ## Dmitri Zagidulin
-**Editor** 
+**Solid Editor** 
 Dmitri worked on the MIT academic Solid project (expand on details?). He now works for (include details?) and is an active member of (include details?) 
 https://github.com/dmitrizagidulin 
 (include WebID)
 
 ## Kjetil Kjernsmo
-**Editor** 
+**Solid Editor** 
 Kjetil works for inrupt and focuses on the Solid test suite development. He has a Ph.D. in  Informatics from the University of Oslo in Norway (expand on subject matter?). He has 20 years of experience with social and semantic web technology.
 https://github.com/kjetilk
 https://solid.kjernsmo.net/profile/card#me
 
 ## Vincent Tunru 
-**Creator (Technical Writer)**   
+**Technical Writer**   
 Vincent is a front-end engineer for inrupt trying to make sure software has a positive impact. Before inrupt he worked on finding out how technology can help ensuring open access to academic research. He is focusing on technical writing for app developers to learn how to build Solid apps. 
 https://gitlab.com/Vinnl
 https://vincentt.inrupt.net/profile/card#me
 
 ## Nicolas Seydoux 
-**Creator (Technical Writer)** 
+**Technical Writer** 
 Nicolas is a developer at Inrupt. He joined the company after his PhD on the Semantic Web of Things, mixing semantic web and IoT. In this domain, he contributed to FOSS software and to an industrial standard ackowledging the importance of semantic interoperability. He also worked on decentralized reasoning and open data platforms.
 (include profile description Gitter Handle and WebID)
 
 ## Dan Wilkinson 
-**Creator (Copywriter)** 
+**Copywriter** 
 (include description)
 (include profile description Gitter Handle and WebID)
 
 ## Tony Morelli 
-**Creator (Website Designer)** 
+**Website Designer** 
 (include description)
 (include profile description Gitter Handle and WebID)
 
 ## Lisa Nguyen 
-**Creator (Website Designer)**  
+**Website Designer**  
 (include description)
 (include profile description Gitter Handle and WebID)
 
@@ -79,5 +79,3 @@ Nicolas is a developer at Inrupt. He joined the company after his PhD on the Sem
 Jackson is a full stack engineer focusing on applications, server-development, and security. In the past, he served as chief architect for Gauge Insights and has worked at Yahoo, IBM, and Area 1 Security.
 https://github.com/jaxoncreed
 https://jackson.solid.community/profile/card#me
-
-(include the panellists)
