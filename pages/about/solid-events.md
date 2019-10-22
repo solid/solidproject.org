@@ -11,6 +11,7 @@ Solid Events are an opportunity for the Solid community to meet in person locall
 
 | Date | Event | Organiser(s) |
 |------|-------|--------------|
+|2019-10-26|[Solid London](https://www.eventbrite.com/e/solid-intro-workshop-this-is-for-everyone-join-the-movement-tickets-77597174237?aff=ebdssbdestsearch)|[Kartika Tulusan](https://github.com/ktulusan)|
 
 (past events are [listed below](https://github.com/solid/information/blob/master/solid-events.md#past-events))
 
