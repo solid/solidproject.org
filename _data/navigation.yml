@@ -1,20 +1,7 @@
 - name: About
-  link: /about
-  sublinks:
-    - name: Solid Team
-      link: team
-    - name: FAQ
-      link: faqs
-    - name: Press
-      link: press
-    - name: Solid Events
-      link: solid-events
-    - name: This Week in Solid
-      link: /weekly-updates/next
-      fullLink: true
+  link: /team
 - name: standardisation
   link: /standardisation
-  sublinks:
 - name: Implement
   link: /implement
   sublinks:
@@ -29,3 +16,7 @@
       link: funding
 - name: Use
   link: /use
+- name: FAQ
+  link: /FAQs
+- name: Press 
+  link: /press
