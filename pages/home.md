@@ -10,12 +10,12 @@ permalink: /
     <div class="subtitle">
       A standard that makes the web work for you
     </div>
-    <button class="learn-btn">Implement Solid</button>
+    <a href="{{site.baseurl}}/implement" class="learn-btn">Implement Solid</a>
   </div>
   <div class="page-content">
   <div class="cards row around">
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <div class="card">
+      <a href="{{site.baseurl}}/standardisation" class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-book"></i>
           <span class="card-title">Standardisation</span>
@@ -25,10 +25,10 @@ permalink: /
             Solid is a standard that you can be part of creating. Solid describes how to build apps, Pods, and identification in such a way that users can switch between the three components and take the generated along. that you 
           </p>
         </div>
-      </div>
+      </a>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <div class="card">
+      <a href="{{site.baseurl}}/implement" class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-tools"></i>
           <span class="card-title">Implement</span>
@@ -38,10 +38,10 @@ permalink: /
             Are you in the business of data storage, identification, or applications? Implement the Solid standard by adapting your solutions so that your users can enhance your service with data from other applications and know that you care about their data portability rights. 
           </p>
         </div>
-      </div>
+      </a>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <div class="card">
+      <a href="{{site.baseurl}}/use" class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-users"></i>
           <span class="card-title">Use</span>
@@ -51,7 +51,7 @@ permalink: /
             Use solutions that don't lock you in and give you the freedom to move conveniently when you would like to change app. Get started by getting a Solid ID and Pod so that you can access the full advantage of Solid apps.
           </p>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 

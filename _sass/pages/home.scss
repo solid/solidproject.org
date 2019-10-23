@@ -44,6 +44,8 @@
     }
 
     .learn-btn {
+      text-align: center;
+      line-height: 67px;
       height: 67px;
       width: 258px;
       border-radius: 60px;
@@ -57,6 +59,9 @@
 
   .cards {
     width: 100%;
+    a.card {
+      text-decoration: none;
+    }
     & .card {
       height: 426px;
       width: auto;
