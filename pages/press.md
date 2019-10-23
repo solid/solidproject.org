@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: Press
+title: press
 permalink: press/press
 ---
 
