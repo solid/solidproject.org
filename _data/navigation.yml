@@ -1,9 +1,9 @@
 - name: standardisation
   link: /standardisation
-- name: Implement
+- name: implement
   link: /implement
   sublinks:
-    - name: Apps
+    - name: apps
       link: apps
     - name: Run a Pod server
       link: pod-server
@@ -12,11 +12,11 @@
       fullLink: true
     - name: Funding
       link: funding
-- name: Use
+- name: use
   link: /use
-- name: Team
+- name: team
   link: /team
-- name: FAQs
-  link: /FAQs
-- name: Press 
+- name: faqs
+  link: /faqs
+- name: press 
   link: /press
