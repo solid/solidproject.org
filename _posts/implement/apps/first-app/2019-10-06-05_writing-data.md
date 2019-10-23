@@ -27,7 +27,11 @@ async function addNote(note, notesList) {
 
 With the user'd Pod fully set up, the above is all there is to it, really!
 
-So what's next? Start writing your own App! [Next step](../vocabularies): find a vocabulary that matches your use case. And if you're stuck and need help, do not hesitate to ask your question at the [Solid Forum](https://forum.solidproject.org/).
+So what's next? Start writing your own App! A couple of suggestions for avenues to explore while doing so:
+
+- [Learn more about Vocabularies]({{site.baseUrl}}/implement/apps/vocabularies): learn about commonly used Vocabularies, how to find other Vocabularies if those do not match your use case, or how to write your own if none suit your app.
+- [Try other libraries and tools]({{site.baseUrl}}/implement/apps/tools): we used [Tripledoc](https://vincenttunru.gitlab.io/tripledoc/) in this tutorial, but you might be interested in libraries for languages other than Javascript, or that give you more power.
+- [Get help](https://forum.solidproject.org/): if you get stuck, do not hesitate to ask your question at our [Forum](https://forum.solidproject.org/) or [chat](https://gitter.im/solid/chat).
 
 
 Good luck!

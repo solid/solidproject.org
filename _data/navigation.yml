@@ -5,8 +5,8 @@
 - name: implement
   link: /implement
   sublinks:
-    - name: apps
-      link: apps
+    - name: Apps
+      link: apps/first-app
     - name: Run a Pod server
       link: pod-server
     - name: Chat with other Solid developers
