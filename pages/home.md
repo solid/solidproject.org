@@ -56,7 +56,7 @@ permalink: /
     </div>
   </div>
 
-  <div class="img-info-banner row around">
+  <div id="what-is-solid" class="img-info-banner row around">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
       <div class="image">
         <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
