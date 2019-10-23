@@ -1,8 +1,6 @@
 - name: About
   link: /about
   sublinks:
-    - name: Specification
-      link: https://solid.github.io/specification/
     - name: Solid Team
       link: team
     - name: FAQ
@@ -14,10 +12,6 @@
     - name: This Week in Solid
       link: /weekly-updates/next
       fullLink: true
-    - name: License
-      link: license
-    - name: Solid Logo Usage Guidelines
-      link: logo-usage-guidelines
 - name: standardisation
   link: /standardisation
   sublinks:
