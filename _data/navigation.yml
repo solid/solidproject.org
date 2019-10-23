@@ -1,5 +1,3 @@
-- name: About
-  link: /about
 - name: standardisation
   link: /standardisation
 - name: Implement
@@ -16,6 +14,8 @@
       link: funding
 - name: Use
   link: /use
+- name: Team
+  link: /team
 - name: FAQ
   link: /FAQs
 - name: Press 
