@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Step 5: Writing data"
+title: "Step 5: Writing data & what's next"
 permalink: implement/apps/first-app/5-writing-data
 tags: [implement, apps]
-categories: [Implement/First app]
+categories: [Writing a Solid application]
 ---
 
 Now that the user's Pod is all set up, it's time to store some actual notes. Luckily, [now that we
