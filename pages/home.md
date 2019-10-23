@@ -16,7 +16,7 @@ permalink: /
   <div class="page-content">
   <div class="cards row around">
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <a href="{{site.baseurl}}/Freedom to Move" class="card">
+      <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-book"></i>
           <span class="card-title">Freedom to Move</span>
@@ -26,10 +26,10 @@ permalink: /
             Solid is a standard that you can be part of creating. Solid describes how to build apps, Pods, and identification in such a way that users can switch between the three components and take the generated along. that you 
           </p>
         </div>
-      </a>
+      </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <a href="{{site.baseurl}}/Unlock Value" class="card">
+      <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-tools"></i>
           <span class="card-title">Unlock Value</span>
@@ -39,10 +39,10 @@ permalink: /
             Are you in the business of data storage, identification, or applications? Implement the Solid standard by adapting your solutions so that your users can enhance your service with data from other applications and know that you care about their data portability rights. 
           </p>
         </div>
-      </a>
+      </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <a href="{{site.baseurl}}/More Options" class="card">
+      <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-users"></i>
           <span class="card-title">More Options</span>
@@ -52,7 +52,7 @@ permalink: /
             Use solutions that don't lock you in and give you the freedom to move conveniently when you would like to change app. Get started by getting a Solid ID and Pod so that you can access the full advantage of Solid apps.
           </p>
         </div>
-      </a>
+      </div>
     </div>
   </div>
 

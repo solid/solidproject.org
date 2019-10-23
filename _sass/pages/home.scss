@@ -61,6 +61,15 @@
     width: 100%;
     a.card {
       text-decoration: none;
+
+      &:hover {
+        border-color: #FDAB00;
+        color: #FDAB00;
+        & > .card-header,
+        & > .card-header > span.card-title {
+          color: #FDAB00;
+        }
+      }
     }
     & .card {
       height: 426px;
@@ -119,15 +128,6 @@
         flex: 1 0 auto;
         p {
           height: 100%;
-        }
-      }
-
-      &:hover {
-        border-color: #FDAB00;
-        color: #FDAB00;
-        & > .card-header,
-        & > .card-header > span.card-title {
-          color: #FDAB00;
         }
       }
     }
