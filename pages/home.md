@@ -12,13 +12,14 @@ permalink: /
     </div>
     <a href="{{site.baseurl}}/implement" class="learn-btn">Implement Solid</a>
   </div>
+ Why you'll love Solid
   <div class="page-content">
   <div class="cards row around">
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <a href="{{site.baseurl}}/standardisation" class="card">
+      <a href="{{site.baseurl}}/Freedom to Move" class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-book"></i>
-          <span class="card-title">Standardisation</span>
+          <span class="card-title">Freedom to Move</span>
         </div>
         <div class="card-body">
           <p>
@@ -28,10 +29,10 @@ permalink: /
       </a>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <a href="{{site.baseurl}}/implement" class="card">
+      <a href="{{site.baseurl}}/Unlock Value" class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-tools"></i>
-          <span class="card-title">Implement</span>
+          <span class="card-title">Unlock Value</span>
         </div>
         <div class="card-body">
           <p>
