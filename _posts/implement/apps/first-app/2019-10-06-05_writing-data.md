@@ -7,7 +7,7 @@ categories: [Writing a Solid application]
 ---
 
 Now that the user's Pod is all set up, it's time to store some actual notes. Luckily, [now that we
-already have our `notesList`](4-data-model), most of the heavy lifting is already done:
+already have our `notesList`]({{site.baseUrl}}/implement/apps/first-app/4-data-model), most of the heavy lifting is already done:
 
 ```javascript
 async function addNote(note, notesList) {

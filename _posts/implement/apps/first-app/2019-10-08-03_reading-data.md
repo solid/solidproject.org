@@ -6,8 +6,10 @@ tags: [implement, apps]
 categories: [Writing a Solid application]
 ---
 
-We've [got the user's WebID](1-authentication) and we [know that it points to a
-Document](2-understanding-solid); it's time we actually read some data from that Document!
+We've [got the user's WebID]({{site.baseUrl}}/implement/apps/first-app/1-authentication) and we
+[know that it points to a
+Document]({{site.baseUrl}}/implement/apps/first-app/2-understanding-solid); it's time we actually
+read some data from that Document!
 
 We will be using [Tripledoc](https://vincenttunru.gitlab.io/tripledoc/), which was designed
 specifically for this tutorial. Other libraries exist, such as
@@ -69,4 +71,4 @@ could happen if the Document does not include the user's name, if the name is st
 Now that we're able to read data from the user's WebID, let's find out how we can read arbitrary
 other data.
 
-Next: [Setting up a Data Model](4-data-model)
+Next: [Setting up a Data Model]({{site.baseUrl}}/implement/apps/first-app/4-data-model)
