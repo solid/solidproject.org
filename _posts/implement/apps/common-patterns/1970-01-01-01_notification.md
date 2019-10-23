@@ -3,7 +3,7 @@ layout: post
 title: Notification in Solid
 permalink: implement/apps/common-patterns/notification
 tags: [implement, patterns]
-categories: [Implement/Common patterns]
+categories: [Common patterns]
 ---
 
 # Notification in Solid apps

@@ -42,9 +42,9 @@ layout: internal
                 <ul>
                 {% for category in page.categories %}
                 <li>
-                    <h4 class="accordionItem">{{ category }} <i class="fas fa-chevron-down"></i></h4>
+                    <h4>{{ category }}</h4>
                     <ul>
-                    {% for post in site.categories[category] %}
+                    {% for post in site.categories[category] reversed %}
                         {% if page.url == post.url %}
                             <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
                         {% else %}

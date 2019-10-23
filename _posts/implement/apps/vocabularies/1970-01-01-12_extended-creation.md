@@ -3,7 +3,7 @@ layout: post
 title: "Improve your vocabulary"
 permalink: implement/apps/vocabularies/create/extended
 tags: [implement, vocabularies]
-categories: [Implement/Vocabularies]
+categories: [Vocabularies]
 ---
 
 This tutorial extends the [quickstart vocabulary creation](/implement/apps/vocabularies/create/quickstart), so make sure to complete it first. Just as a reminder, here is a graphical representation of the terms we want to include in our vocabs:

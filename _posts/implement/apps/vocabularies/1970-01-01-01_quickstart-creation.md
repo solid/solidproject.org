@@ -3,7 +3,7 @@ layout: post
 title: "Quickstart - Create your vocabulary "
 permalink: implement/apps/vocabularies/create/quickstart
 tags: [implement, vocabularies]
-categories: [Implement/Vocabularies]
+categories: [Vocabularies]
 published: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Describe data for Solid"
 permalink: implement/apps/vocabularies/use/extended
 tags: [implement, vocabularies]
-categories: [Implement/Vocabularies]
+categories: [Vocabularies]
 ---
 
 Now that we have a vocabulary, we can use it to describe data. To this end, let us introduce the two most renowned obelisks designers of their time: [Vuittonluis](https://vuittonluis.solid.community/profile/card#me) and [G. Armani](https://garmani.solid.community/profile/card#me). if you look up their profile, you will notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/ns/Sculptor):
