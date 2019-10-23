@@ -1,7 +1,7 @@
 ---
 layout: pages
-title: Solid Team
-permalink: team
+title: Team
+permalink: team/team
 ---
 
 The Solid team help coordinate the standardisation work and support those who are implementing and using Solid. 
