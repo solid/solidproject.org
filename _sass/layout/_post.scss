@@ -133,6 +133,7 @@
 
             li {
                 cursor: pointer;
+                margin: 10px 0;
                 list-style-type: none !important;
                 &.open {
                     > ul {
@@ -151,6 +152,8 @@
                     border-left: 4px solid $curious-blue;
 
                     a {
+                        color: $curious-blue;
+                        font-weight: 600;
                         padding-left: 30px;
                     }
                 }
@@ -160,6 +163,7 @@
     
                     a {
                        // padding-left: 60px;
+                       color: inherit;
                     }
                 }
             }
@@ -191,6 +195,10 @@
     .post-content {
         color: $gray;
         margin-top: 40px;
+        font-size: 1.3rem;
+        letter-spacing: 0.07px;	
+        line-height: 2;
+        font-weight: 300;
 
         ul {
             margin: 20px;
@@ -204,13 +212,6 @@
             }
         }
         
-        p {
-            font-size: 1.3rem;
-            letter-spacing: 0.07px;	
-            line-height: 26px;
-            font-weight: 300;
-        }
-
         h4 {
           font-size: 1.5rem;
         }

@@ -24,9 +24,7 @@ If you are an identity provider you can add your service to this list (direct to
 # Pod Providers
 Pods are where you store your data. 
 
-The way to get most control of your data is to self host. To self host your Pod follow these instructions: 
-
-(insert instructions) 
+The way to get most control of your data is to [self-host]({{site.baseUrl}}/implement/pod-server).
 
 You can also choose to outsource the work and get a Pod provider. Pick a [Pod providers](https://github.com/solid/pods/blob/master/README.md#pod-providers) here: 
 

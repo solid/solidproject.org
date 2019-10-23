@@ -1,11 +1,7 @@
 .solid-footer {
   background-color: $secondary-color;
+  color: $white;
   padding: 30px 20px 0px;
-
-  a,
-  p {
-    font-weight: 100;
-  }
 
   h3,
   a,
@@ -15,10 +11,9 @@
   }
 
   .solid-footer-menu {
-    color: $white;
     padding: 0 20px;
     h3 {
-      font-weight: 300;
+      font-weight: bold;
       margin-bottom: 5px;
       padding-bottom: 10px;
       border-bottom: 1px solid rgba(151, 151, 151, 0.53);
@@ -107,7 +102,6 @@
       padding-right: 30px;
 
       h3 {
-        font-weight: 400;
         border-bottom: none;
         padding-bottom: 0;
       }
