@@ -4,7 +4,9 @@ title: Standardisation
 permalink: standardisation
 ---
 
-The following is a description about how changes to the [Solid Specification](https://github.com/solid/specification) may be proposed and accepted.
+You can read the [Solid Specification](https://solid.github.io/specification/) here. 
+
+The following is a description about how changes to the [Solid Specification](https://solid.github.io/specification/) may be proposed and accepted.
 
 Anyone may participate in [this process](https://github.com/solid/culture). Please read the [Code of Conduct](code-of-conduct.md) before doing so.
 
