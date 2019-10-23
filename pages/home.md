@@ -42,10 +42,10 @@ permalink: /
       </a>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-      <a href="{{site.baseurl}}/use" class="card">
+      <a href="{{site.baseurl}}/More Options" class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-users"></i>
-          <span class="card-title">Use</span>
+          <span class="card-title">More Options</span>
         </div>
         <div class="card-body">
           <p>
