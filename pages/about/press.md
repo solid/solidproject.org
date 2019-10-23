@@ -6,6 +6,8 @@ permalink: about/press
 
 Are you looking to get a speaker or interview about Solid? Contact us on press@solidproject.org with a description of what you are looking for. 
 
+Solid Events are organisations organised by people like you, [read more](https://github.com/solid/solid.github.io/blob/master/pages/solid-events.md) about organising a Solid Event. 
+
 ## Upcoming Talks 
 
 
