@@ -26,6 +26,8 @@
   sublinks:
     - name: Apps
       link: apps
+    - name: Run a Pod server
+      link: pod-server
     - name: Chat with other Solid developers
       link: https://forum.solidproject.org
       fullLink: true
