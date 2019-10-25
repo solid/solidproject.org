@@ -45,7 +45,7 @@ permalink: /
       <div class="card">
         <div class="card-header">
           <i class="fas fa-2x fa-users"></i>
-          <span class="card-title">More Options</span>
+          <span class="card-title">Platform independent connection</span>
         </div>
         <div class="card-body">
           <p>
