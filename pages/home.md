@@ -102,10 +102,9 @@ permalink: /
         <h3 class="title">You store your data in a Pod</h3>
         <p class="info">
           In Solid, where you store your data is called a Pod. Storage is always seperate from apps which is seperate from identification meaning you are free to conveniently switch between these components and take the data generated along. For example, if you want to switch messaging app you can take your contacts and chat history along easily. You can have more than one Pod and choose what data to store where. Get started and [use Solid](https://github.com/solid/solid.github.io/blob/master/pages/use.md) or find out more by reading the [FAQs](https://github.com/solid/solid.github.io/blob/master/pages/faqs.md).
+        </p>
       </div>
     </div>
-  
-  </div>
   
   <div class="img-info-banner row around reverse">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
