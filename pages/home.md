@@ -106,7 +106,7 @@ permalink: /
     </div>
   
   </div>
-
+  
   <div class="img-info-banner row around reverse">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
       <div class="image">
@@ -115,18 +115,12 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title"> Self host or outsource. </h3>
+        <h3 class="title">Self host or outsource. </h3>
         <p class="info">
-          If you want fuller control of your online life you can choose to self host your WebID and Pod. This means that you are not dependent on a provider who you could outsource the work to. Find out more about [self-hosting your own WebID and Pod](link to sub-page on 'for developers' tab). 
+            If you want fuller control of your online life you can choose to self host your WebID and Pod. This means that you are not dependent on a provider who you could outsource the work to. Find out more about [self-hosting your own WebID and Pod](link to sub-page on 'for developers' tab). 
         </p>
       </div>
     </div>
-  </div>
-  
-  </div>
-</div>
-
-  </div>
 
   <div class="img-info-banner row around reverse">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
