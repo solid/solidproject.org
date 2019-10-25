@@ -131,7 +131,7 @@ permalink: /
       <div class="info-card">
         <h3 class="title"> This Week in Solid </h3>
         <p class="info">
-          Sign up for the newsletter This Week in Solid to stay up to date with new developments, articles, and events about Solid. 
+          
         </p>
       </div>
     </div>
@@ -140,4 +140,4 @@ permalink: /
   </div>
 </div>
 
- <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/ThisWeekInSolid" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/ThisWeekInSolid', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+ <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/ThisWeekInSolid" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/ThisWeekInSolid', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail"> Stay updated with This Week in Solid by leaving your email address below and subscribing</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe to the newsletter" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
