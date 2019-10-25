@@ -1,9 +1,7 @@
 - name: What is Solid
   link: /#what-is-solid
-- name: standardisation
-  link: /standardisation
-- name: implement
-  link: /implement
+- name: For Developers
+  link: /for-developers
   sublinks:
     - name: Apps
       link: apps/first-app
@@ -14,5 +12,7 @@
       fullLink: true
     - name: Funding
       link: funding
-- name: use
-  link: /use
+- name: Use Solid
+  link: /use-solid
+- name: Press
+  link: /press
