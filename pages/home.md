@@ -66,7 +66,7 @@ permalink: /
       <div class="info-card">
         <h3 class="title">Solid is a standard</h3>
         <p class="info">
-         When Sir Tim Berners-Lee invented the web in 1989 he worked at CERN where you were encouraged to use your prefered computer. His motivation was to make convenient data transfer possible no matter what hardware or software people were using even when they left CERN. Today data is used as a bargaining chip to lock users into a specific service. Solid is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. The main difference between the original vision of the web and Solid is that data is more strongly linked to the user than the service provider. 
+         When Sir Tim Berners-Lee invented the web in 1989 he worked at CERN where you were encouraged to use your prefered computer. His motivation was to make convenient data transfer possible no matter what hardware or software people were using even when they left CERN. Today data is used as a bargaining chip to lock users into a specific service. Solid is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. You can [read the latest version of the Solid standard](https://solid.github.io/specification/) as well as review all [past revisions](insert link). The main difference between the original vision of the web and Solid is that data is more strongly linked to the user than the service provider. If you are interested in the standardisation process, [contributions are welcome](https://github.com/solid/solid.github.io/blob/master/pages/standardisation.md)
         </p>
       </div>
     </div>
@@ -80,9 +80,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">You store your data in a Pod. </h3>
+        <h3 class="title">Your Online Identitification </h3>
         <p class="info">
-          In Solid, where you store your data is called a Pod. Storage is always seperate from apps which is seperate from identification meaning you are free to conveniently switch between these components and take the data generated along. For example, if you want to switch messaging app you can take your contacts and chat history along easily. You can have more than one Pod and choose what data to store where. 
+          To use Solid you need a WebID from an identity provider. Unlike the sign-in-with... services of today your WebID lets you connect to anyone else using Solid no matter who their WebID provider is. Similar to email, no matter the email address of the other person you will be able to send a message without them needing to sign up for a new email. When you sign in with a WebID only you and where you sign in knows about it. You are free to have more than one WebID from various providers, for example one for work and one for personal life if you choose. Get started by [signing up for a WebID](https://github.com/solid/solid.github.io/blob/master/pages/use.md) or scroll down to learn more about Pods.  
         </p>
       </div>
     </div>
@@ -97,9 +97,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Your Online Identitification</h3>
+        <h3 class="title">You store your data in a Pod</h3>
         <p class="info">
-          To use Solid you need a WebID from an identity provider. Unlike the sign-in-with... services of today your WebID lets you connect to anyone else using Solid no matter who their WebID provider is. Similar to email, no matter the email address of the other person you will be able to send a message without them needing to sign up for a new email. When you sign in with a WebID only you and where you sign in knows about it. You are free to have more than one WebID from various providers, for example one for work and one for personal life if you choose. 
+          In Solid, where you store your data is called a Pod. Storage is always seperate from apps which is seperate from identification meaning you are free to conveniently switch between these components and take the data generated along. For example, if you want to switch messaging app you can take your contacts and chat history along easily. You can have more than one Pod and choose what data to store where. Get started and [use Solid](https://github.com/solid/solid.github.io/blob/master/pages/use.md) or find out more by reading the [FAQs](https://github.com/solid/solid.github.io/blob/master/pages/faqs.md).
       </div>
     </div>
   
@@ -115,7 +115,7 @@ permalink: /
       <div class="info-card">
         <h3 class="title"> Self host or outsource. </h3>
         <p class="info">
-          If you want fuller control of your online life you can choose to self host your WebID and Pod. This means that you are not dependent on a provider who you could outsource the work to. 
+          If you want fuller control of your online life you can choose to self host your WebID and Pod. This means that you are not dependent on a provider who you could outsource the work to. Find out more about [self-hosting your own WebID and Pod](link to sub-page on 'for developers' tab). 
         </p>
       </div>
     </div>
