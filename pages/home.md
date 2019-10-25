@@ -23,7 +23,7 @@ permalink: /
         </div>
         <div class="card-body">
           <p>
-            Solid is a standard that you can be part of creating. Solid describes how to build apps, Pods, and identification in such a way that users can switch between the three components and take the generated along. that you 
+           Imagine if you could switch messaging app and bring your contacts and chat history along.  Solid makes it possible for you to switch to new online services while taking your contacts and information with you. Use the best tools without having to restart the setup process. 
           </p>
         </div>
       </div>
@@ -36,7 +36,7 @@ permalink: /
         </div>
         <div class="card-body">
           <p>
-            Are you in the business of data storage, identification, or applications? Implement the Solid standard by adapting your solutions so that your users can enhance your service with data from other applications and know that you care about their data portability rights. 
+           Get reccomendations based on the whole you. Solid makes it possible to recycle data collected on other apps so that you get better quality insights in your favour. 
           </p>
         </div>
       </div>
@@ -49,7 +49,7 @@ permalink: /
         </div>
         <div class="card-body">
           <p>
-            Use solutions that don't lock you in and give you the freedom to move conveniently when you would like to change app. Get started by getting a Solid ID and Pod so that you can access the full advantage of Solid apps.
+            People want different things. Solid lets you connect to people on differnt apps rather than having to download new apps to connect with different friends. Solid makes it possible to have a larger variety of options online to cater to your needs while still being conencted to those with different app, Pod, and ID preferences. 
           </p>
         </div>
       </div>
