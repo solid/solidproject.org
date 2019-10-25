@@ -66,7 +66,9 @@ permalink: /
       <div class="info-card">
         <h3 class="title">Solid is a standard</h3>
         <p class="info">
-         When Sir Tim Berners-Lee invented the web in 1989 he worked at CERN where you were encouraged to use your prefered computer. His motivation was to make convenient data transfer possible no matter what hardware or software people were using even when they left CERN. Today data is used as a bargaining chip to lock users into a specific service. Solid is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. You can [read the latest version of the Solid standard](https://solid.github.io/specification/) as well as review all [past revisions](insert link). The main difference between the original vision of the web and Solid is that data is more strongly linked to the user than the service provider. If you are interested in the standardisation process, [contributions are welcome](https://github.com/solid/solid.github.io/blob/master/pages/standardisation.md)
+         When Sir Tim Berners-Lee invented the web in 1989 he worked at CERN where you were encouraged to use your prefered computer. His motivation was to make convenient data transfer possible no matter what hardware or software people were using even when they left CERN. 
+          Today data is used as a bargaining chip to lock users into a specific service. Solid is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. 
+          You can [read the latest version of the Solid standard](https://solid.github.io/specification/) as well as review all [past revisions](insert link). The main difference between the original vision of the web and Solid is that data is more strongly linked to the user than the service provider. If you are interested in the standardisation process, [contributions are welcome](https://github.com/solid/solid.github.io/blob/master/pages/standardisation.md)
         </p>
       </div>
     </div>
@@ -123,7 +125,6 @@ permalink: /
   
   </div>
 </div>
-
 
   </div>
 
