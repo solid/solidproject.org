@@ -12,7 +12,9 @@
       fullLink: true
     - name: Funding
       link: funding
-- name: Use Solid
-  link: /use-solid
+- name: Team
+  link: /team
 - name: Press
   link: /press
+- name: Use Solid
+  link: /use-solid
