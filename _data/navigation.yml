@@ -1,5 +1,7 @@
 - name: What is Solid
   link: /#what-is-solid
+- name: Use Solid
+  link: /use-solid
 - name: For Developers
   link: /for-developers
   sublinks:
@@ -16,5 +18,4 @@
   link: /team
 - name: Press
   link: /press
-- name: Use Solid
-  link: /use-solid
+
