@@ -105,20 +105,5 @@ permalink: /
         </p>
       </div>
     </div>
-  
-  <div class="img-info-banner row around reverse">
-    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-      <div class="image">
-        <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-      <div class="info-card">
-        <h3 class="title">Self host or outsource. </h3>
-        <p class="info">
-            If you want fuller control of your online life you can choose to self host your WebID and Pod. This means that you are not dependent on a provider who you could outsource the work to. Find out more about [self-hosting your own WebID and Pod](link to sub-page on 'for developers' tab). 
-        </p>
-      </div>
-    </div>
 
  <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/ThisWeekInSolid" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/ThisWeekInSolid', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail"> Stay updated with This Week in Solid by leaving your email address below and subscribing</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe to the newsletter" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
