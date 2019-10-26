@@ -23,7 +23,7 @@ permalink: /
         </div>
         <div class="card-body">
           <p>
-           Imagine if you could switch messaging app and bring your contacts and chat history along.  Solid makes it possible for you to switch to new online services while taking your contacts and information with you. Use the best tools without having to restart the setup process. 
+           Move freely without losing data and connections. Use the best tools without having to restart the setup process.
           </p>
         </div>
       </div>
@@ -36,7 +36,7 @@ permalink: /
         </div>
         <div class="card-body">
           <p>
-           Get reccomendations based on the whole you. Solid makes it possible to recycle data collected on other apps so that you get better quality insights in your favour. 
+           Get recommendations based on the whole you. Solid makes it possible to recycle data collected on other apps so that you get better quality insights in your favour.
           </p>
         </div>
       </div>
@@ -49,7 +49,7 @@ permalink: /
         </div>
         <div class="card-body">
           <p>
-            People want different things. Solid lets you connect to people on differnt apps rather than having to download new apps to connect with different friends. Solid makes it possible to have a larger variety of options online to cater to your needs while still being conencted to those with different app, Pod, and ID preferences. 
+            People want different things. Solid lets you connect to people on different apps rather than having to download new apps to connect with different friends.  
           </p>
         </div>
       </div>
@@ -66,9 +66,7 @@ permalink: /
       <div class="info-card">
         <h3 class="title">Solid is a standard</h3>
         <p class="info">
-         When Sir Tim Berners-Lee invented the web in 1989 he worked at CERN where you were encouraged to use your prefered computer. His motivation was to make convenient data transfer possible no matter what hardware or software people were using even when they left CERN. 
-          Today data is used as a bargaining chip to lock users into a specific service. Solid is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. 
-          You can [read the latest version of the Solid standard](https://solid.github.io/specification/) as well as review all [past revisions](insert link). The main difference between the original vision of the web and Solid is that data is more strongly linked to the user than the service provider. If you are interested in the standardisation process, [contributions are welcome](https://github.com/solid/solid.github.io/blob/master/pages/standardisation.md)
+          The web was designed to make it possible for information – data – to transfer conveniently no matter where you are or what device you are using. Today data is used as a bargaining chip to lock you in. [Solid is a standard](https://solidproject.org/standard/) that describes how to build storage, apps, and identification in such a way that you can conveniently connect and switch without losing data. If you are interested in the standardisation process, [contributions are welcome](https://solidproject.org/standardisation). 
         </p>
       </div>
     </div>
@@ -82,9 +80,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">Your Online Identitification </h3>
+        <h3 class="title">Your online Identity </h3>
         <p class="info">
-          To use Solid you need a WebID from an identity provider. Unlike the sign-in-with... services of today your WebID lets you connect to anyone else using Solid no matter who their WebID provider is. Similar to email, no matter the email address of the other person you will be able to send a message without them needing to sign up for a new email. When you sign in with a WebID only you and where you sign in knows about it. You are free to have more than one WebID from various providers, for example one for work and one for personal life if you choose. Get started by [signing up for a WebID](https://github.com/solid/solid.github.io/blob/master/pages/use.md) or scroll down to learn more about Pods.  
+         Login with WebID to use Solid. Similar to email, WebID allows you to connect to anyone else no matter who their identity provider. With WebID login online you and where you sign in knows about it. [Get started](https://solidproject.org/use-solid) by signing up for a WebID.   
         </p>
       </div>
     </div>
@@ -99,9 +97,9 @@ permalink: /
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
       <div class="info-card">
-        <h3 class="title">You store your data in a Pod</h3>
+        <h3 class="title">Like peas in a Pod</h3>
         <p class="info">
-          In Solid, where you store your data is called a Pod. Storage is always seperate from apps which is seperate from identification meaning you are free to conveniently switch between these components and take the data generated along. For example, if you want to switch messaging app you can take your contacts and chat history along easily. You can have more than one Pod and choose what data to store where. Get started and [use Solid](https://github.com/solid/solid.github.io/blob/master/pages/use.md) or find out more by reading the [FAQs](https://github.com/solid/solid.github.io/blob/master/pages/faqs.md).
+          Your Pod is where you store your data. Pods and apps are always separate and compatible meaning you are free to pick and choose and change your mind while still keeping your data. For example, if you want to switch messaging app you can take your contacts and chat history along easily. [Get started](https://solidproject.org/use-solid) with using Solid or find out more by reading the [FAQs](http://solidproject.org/faqs).
         </p>
       </div>
     </div>
