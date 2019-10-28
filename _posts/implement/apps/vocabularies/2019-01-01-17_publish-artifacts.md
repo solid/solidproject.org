@@ -5,6 +5,7 @@ permalink: /for-developers/apps/vocabularies/publish/artifacts
 tags: [implement, vocabularies]
 categories: [Vocabularies]
 exclude: true
+published: false
 ---
 
 Disclaimer: The resources described in this page are not publicly available yet, but they will be release soon.
