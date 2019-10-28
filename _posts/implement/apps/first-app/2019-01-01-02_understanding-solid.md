@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Step 2: Understanding Solid"
-permalink: for-developers/apps/first-app/2-understanding-solid
+permalink: /for-developers/apps/first-app/2-understanding-solid
 tags: [implement, apps]
 categories: [Writing a Solid application]
 exclude: true

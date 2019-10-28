@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Step 3: Reading data"
-permalink: for-developers/apps/first-app/3-reading-data
+permalink: /for-developers/apps/first-app/3-reading-data
 tags: [implement, apps]
 categories: [Writing a Solid application]
 exclude: true

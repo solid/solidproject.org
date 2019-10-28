@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Step 5: Writing data & what's next"
-permalink: for-developers/apps/first-app/5-writing-data
+permalink: /for-developers/apps/first-app/5-writing-data
 tags: [implement, apps]
 categories: [Writing a Solid application]
 exclude: true
