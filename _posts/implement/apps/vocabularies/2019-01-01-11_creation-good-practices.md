@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vocabulary building best practices"
-permalink: implement/apps/vocabularies/create/best-practices
+permalink: for-developers/apps/vocabularies/create/best-practices
 tags: [implement, vocabularies]
 categories: [Vocabularies]
 exclude: true
@@ -86,4 +86,4 @@ Vocabularies should have a focused scope and a defined, identifiable purpose. In
 
 Ontology design patterns are similar to design patterns in software engineering: they capture application-agnostic structures, with identified characteristics, providing a solution to a known recurrent issue. Similarly to ontology modules, ontology design patterns are reusable by nature. You can find some ontology design patterns on this [dedicated portal](http://ontologydesignpatterns.org). The key takeaway is that ontology design patterns __capture modeling efforts__: using them is a way to capitalize on previous work.
 
-Let's implement these good practices by [improving the vocabulary we created](/implement/apps/vocabularies/create/extended) in the quickstart tutorial
+Let's implement these good practices by [improving the vocabulary we created](/for-developers/apps/vocabularies/create/extended) in the quickstart tutorial

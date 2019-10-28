@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Step 1: identifying the user"
-permalink: implement/apps/first-app/1-authentication
+permalink: for-developers/apps/first-app/1-authentication
 tags: [implement, apps]
 categories: [Writing a Solid application]
 exclude: true

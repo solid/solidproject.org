@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quickstart - Code with your vocabulary"
-permalink: implement/apps/vocabularies/code/quickstart
+permalink: for-developers/apps/vocabularies/code/quickstart
 tags: [implement, vocabularies]
 categories: [Vocabularies]
 exclude: true
@@ -51,4 +51,4 @@ From there, we can build a simple app that tells you, based on a person's WebID,
 
 If you want to be recognised as an obelisk sculptor, you can uncomment line 35. You will have to add this app to your authorized apps to be able to write into your Pod.
 
-Now that you are familiar with what's in a vocabulary, and saw how to code using one, you might be interested in finding out the [well-known vocabularies](/implement/apps/vocabularies/well-known)
+Now that you are familiar with what's in a vocabulary, and saw how to code using one, you might be interested in finding out the [well-known vocabularies](/for-developers/apps/vocabularies/well-known)

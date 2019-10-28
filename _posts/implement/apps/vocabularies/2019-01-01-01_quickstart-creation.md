@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quickstart - Create your vocabulary "
-permalink: implement/apps/vocabularies/create/quickstart
+permalink: for-developers/apps/vocabularies/create/quickstart
 tags: [implement, vocabularies]
 categories: [Vocabularies]
 exclude: true
@@ -209,4 +209,4 @@ obelisk:Obelisk a rdfs:Class ;
 
 A reference version of this final vocabulary is available [here](assets/misc/tutorials/quickstart-obelisk.ttl).
 
-Next step: [using this vocabulary to describe data in your pod](/implement/apps/vocabularies/use/quickstart).
+Next step: [using this vocabulary to describe data in your pod](/for-developers/apps/vocabularies/use/quickstart).

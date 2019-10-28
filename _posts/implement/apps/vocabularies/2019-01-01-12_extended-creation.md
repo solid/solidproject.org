@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Improve your vocabulary"
-permalink: implement/apps/vocabularies/create/extended
+permalink: for-developers/apps/vocabularies/create/extended
 tags: [implement, vocabularies]
 categories: [Vocabularies]
 exclude: true
 ---
 
-This tutorial extends the [quickstart vocabulary creation](/implement/apps/vocabularies/create/quickstart), so make sure to complete it first. Just as a reminder, here is a graphical representation of the terms we want to include in our vocabs:
+This tutorial extends the [quickstart vocabulary creation](/for-developers/apps/vocabularies/create/quickstart), so make sure to complete it first. Just as a reminder, here is a graphical representation of the terms we want to include in our vocabs:
 
 ![The obelisk vocabulary]({{site.baseurl}}/assets/img/tutorials/vocabularies/obelisk_vocab_1.png)
 
@@ -355,4 +355,4 @@ obelisk:heigth a owl:DataProperty ;
 ```
 A reference version of this final vocabulary is available [here](assets/misc/tutorials/quickstart-obelisk.ttl).
 
-You can now use this vocabulary to [describe data for Solid](/implement/apps/vocabularies/use/extended). If you want a more advanced tutorial to create vocabularies, you can learn about [the NeOn methodology](/implement/apps/vocabularies/create/methodology).
+You can now use this vocabulary to [describe data for Solid](/for-developers/apps/vocabularies/use/extended). If you want a more advanced tutorial to create vocabularies, you can learn about [the NeOn methodology](/for-developers/apps/vocabularies/create/methodology).
