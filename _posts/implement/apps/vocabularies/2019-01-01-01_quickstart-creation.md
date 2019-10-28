@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quickstart - Create your vocabulary "
-permalink: for-developers/apps/vocabularies/create/quickstart
+permalink: /for-developers/apps/vocabularies/create/quickstart
 tags: [implement, vocabularies]
 categories: [Vocabularies]
 exclude: true

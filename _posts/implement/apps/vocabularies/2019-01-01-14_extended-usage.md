@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Describe data for Solid"
-permalink: for-developers/apps/vocabularies/use/extended
+permalink: /for-developers/apps/vocabularies/use/extended
 tags: [implement, vocabularies]
 categories: [Vocabularies]
 exclude: true

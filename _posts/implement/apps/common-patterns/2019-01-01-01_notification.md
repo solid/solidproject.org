@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Notification in Solid
-permalink: for-developers/apps/common-patterns/notification
+permalink: /for-developers/apps/common-patterns/notification
 tags: [implement, patterns]
 categories: [Common patterns]
 exclude: true

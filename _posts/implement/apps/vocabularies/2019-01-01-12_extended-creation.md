@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Improve your vocabulary"
-permalink: for-developers/apps/vocabularies/create/extended
+permalink: /for-developers/apps/vocabularies/create/extended
 tags: [implement, vocabularies]
 categories: [Vocabularies]
 exclude: true

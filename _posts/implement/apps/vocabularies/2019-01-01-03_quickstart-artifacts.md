@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quickstart - Code with your vocabulary"
-permalink: for-developers/apps/vocabularies/code/quickstart
+permalink: /for-developers/apps/vocabularies/code/quickstart
 tags: [implement, vocabularies]
 categories: [Vocabularies]
 exclude: true
