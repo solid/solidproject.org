@@ -106,7 +106,6 @@ permalink: /
       </div>
     </div>
 
-
     <form
       action="https://tinyletter.com/ThisWeekInSolid"
       class="newsletter-form"
@@ -114,16 +113,17 @@ permalink: /
       target="popupwindow"
       onsubmit="window.open('https://tinyletter.com/ThisWeekInSolid', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
     >
+      <h2>This Week in Solid</h2>
       <p>
         <label for="tlemail">
-          Stay updated with This Week in Solid by leaving your email address below and subscribing
+          Leave your email address to get a bite-sized overview of everything Solid, delivered straight to your inbox once a week.
         </label>
       </p>
       <p>
-        <input type="text" style="width:140px" name="email" id="tlemail"/>
+        <input type="email" name="email" placeholder="yourmail@example.com" id="tlemail"/>
       </p>
       <input type="hidden" value="1" name="embed"/>
-      <input type="submit" value="Subscribe to the newsletter" />
+      <input type="submit" value="Let's go" />
     </form>
 
   </div>
