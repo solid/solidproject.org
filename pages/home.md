@@ -123,7 +123,7 @@ permalink: /
         <input type="email" name="email" placeholder="yourmail@example.com" id="tlemail"/>
       </p>
       <input type="hidden" value="1" name="embed"/>
-      <input type="submit" value="Let's go" />
+      <input type="submit" value="Subscribe" />
     </form>
 
   </div>
