@@ -176,10 +176,6 @@ $primaryColor: #7c55fb;
     border-radius: 4px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
 
-    @media (min-width: 800px) {
-      width: 50%;
-    }
-
     h2 {
       font-size: 2rem;
     }
@@ -191,7 +187,7 @@ $primaryColor: #7c55fb;
 
     input {
       width: 100%;
-      font-size: 2rem;
+      font-size: 1rem;
       padding: 1rem;
       border: 1px solid rgba(0, 0, 0, 0.1);
       border-radius: 4px;
@@ -206,6 +202,14 @@ $primaryColor: #7c55fb;
           background-color: $primaryColor;
           color: white;
         }
+      }
+    }
+
+    @media (min-width: 800px) {
+      width: 50%;
+
+      input {
+        font-size: 2rem;
       }
     }
   }
