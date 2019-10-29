@@ -41,4 +41,4 @@ async function getWebId() {
 }
 ```
 
-Next: [Understanding Solid]({{site.baseUrl}}/implement/apps/first-app/2-understanding-solid)
+Next: [Understanding Solid]({{site.baseUrl}}/for-developers/apps/first-app/2-understanding-solid)

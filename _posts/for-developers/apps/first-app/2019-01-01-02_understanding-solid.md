@@ -96,4 +96,4 @@ tutorial, we will leave it at this.
 Phew! That should cover about all the Linked Data theory you should know to start working with
 Solid. Next up: actually reading data from such a Document.
 
-Next: [Reading data]({{site.baseUrl}}/implement/apps/first-app/3-reading-data)
+Next: [Reading data]({{site.baseUrl}}/for-developers/apps/first-app/3-reading-data)

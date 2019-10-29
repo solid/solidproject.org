@@ -72,4 +72,4 @@ could happen if the Document does not include the user's name, if the name is st
 Now that we're able to read data from the user's WebID, let's find out how we can read arbitrary
 other data.
 
-Next: [Setting up a Data Model]({{site.baseUrl}}/implement/apps/first-app/4-data-model)
+Next: [Setting up a Data Model]({{site.baseUrl}}/for-developers/apps/first-app/4-data-model)
