@@ -37,7 +37,7 @@
     }
 
     .subtitle {
-      font-size: 0.6em;
+      font-size: 1.5rem;
       letter-spacing: 0.08px;
       line-height: 24px;
       padding: 1em 0 2em 0;
@@ -57,10 +57,20 @@
     }
   }
 
+  .intro-heading {
+    margin-top: 1rem;
+    text-align: center;
+    color: #5a5a5a;
+    font-size: 2.5rem;
+  }
+
   .cards {
     width: 100%;
     a.card {
       text-decoration: none;
+      border: solid 1px transparent;
+      border-radius: 4px;
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.22);
 
       &:hover {
         border-color: #FDAB00;
@@ -72,18 +82,14 @@
       }
     }
     & .card {
-      height: 426px;
       width: auto;
-      border-radius: 4px;
-      padding: 2em 0.5em 1em 0.5em;
       background-color: #ffffff;
-      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.22);
-      margin: 1em 0.5em;
+      margin: 0 0.5em;
+      padding: 1em 0.5em;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       background-color: #ffffff;
-      border: solid 1px transparent;
       transition: all 300ms ease-in-out;
       & > .card-header {
         text-align: center;
