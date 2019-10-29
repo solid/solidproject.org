@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: press
-permalink: press/press
+permalink: press
 ---
 
 Are you looking to get a speaker or interview about Solid? Contact us on press@solidproject.org with a description of what you are looking for. 

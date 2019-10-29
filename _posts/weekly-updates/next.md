@@ -7,7 +7,7 @@ categories: [Updates]
 author: Mitzi László
 ---
 
-# 17th October 2019
+# 31st October 2019
 
 Hello and welcome to another edition of *This Week in Solid*!
 
@@ -31,8 +31,8 @@ Next weeks call will be on the 17th October at 1000CEST on [this line](https://z
 ### [Talks & Articles](https://github.com/solid/information/blob/master/press.md)
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
 
-* 11-10-2019 John Leonard [interview with Ruben Verborgh](https://www.computing.co.uk/ctg/analysis/3082496/solids-ruben-verborgh-we-need-competition-based-on-quality-of-service-not-on-data-harvesting)
-* 24-10-2019 Mitzi László about [Ada Lovelace Festival](https://www.ada-lovelace-festival.com), Berlin
+* https://www.wsj.com/articles/tech-giants-have-hijacked-the-web-its-time-for-a-reboot-11572062420 
+* Solid Enschede 
 
 ### Upcoming Solid Events
 Solid Events are run by members of the Solid community like you. If you are interested in organising a Solid Event you may be interested in reading the tips for a organising successful Solid events [here](https://github.com/solid/information/blob/master/solid-events.md).

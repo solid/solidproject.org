@@ -11,7 +11,9 @@ Solid Events are an opportunity for the Solid community to meet in person locall
 
 | Date | Event | Organiser(s) |
 |------|-------|--------------|
-|2019-10-26|[Solid London](https://www.eventbrite.com/e/solid-intro-workshop-this-is-for-everyone-join-the-movement-tickets-77597174237?aff=ebdssbdestsearch)|[Kartika Tulusan](https://github.com/ktulusan)|
+|2019-12-10|[Solid Enschede](http://www.pilod.nl/wiki/Solid_Christmas_Meetup_Enschede_-_How_to_Fix_the_Internet!)|Erwin Folmer |
+|2019-11-20|Solid London (tbc)|Kartika Tulusan|
+|2019-01-xx|Solid Amsterdam (tbc)|[Jeroen van Beele](https://github.com/jjvbeele) |
 
 (past events are [listed below](https://github.com/solid/information/blob/master/solid-events.md#past-events))
 
@@ -93,6 +95,7 @@ The third Solid Event is a good place to gather local companies and institutuion
 
 | Date | Event | Organizer(s) | Recordings and Slides |
 |------|-------|--------------|--------------|
+|26-10-2019|[Solid London](https://www.eventbrite.com/e/solid-intro-workshop-this-is-for-everyone-join-the-movement-tickets-77597174237?aff=ebdssbdestsearch)|[Kartika Tulusan](https://github.com/ktulusan)|
 |11-10-2019|[Solid Copenhagen](https://www.meetup.com/Solid-Copenhagen-Meetup-Group/events/264871687/)|Sarmad Reda|
 |10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
 |12-09-2019|[Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-70748445505)|[Christian Buggadei](https://github.com/JollyOrc)|

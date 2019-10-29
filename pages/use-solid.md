@@ -4,29 +4,24 @@ title: Use Solid Apps
 permalink: /use-solid
 ---
 
-To get started with Solid you will first need and Solid ID and a Pod then you can start using Solid apps. 
+## Getting Started with Solid
+To get started with Solid you will first need and WebID and a Pod then you can start using Solid apps. 
 
-# Solid ID Providers
-Solid IDs makes sure you get the most out of your Solid apps by collecting data generated while using the app and using it to improve recommendations. 
-
-Get a Solid ID: 
+## Get a WebID
+WebIDs are how to login to Solid apps and get a Pod. 
 
 [![](https://img.shields.io/badge/project-Solid-7C4DFF.svg?style=flat-square)](https://github.com/solid/solid)
 
 |               Link                |    Responsible for Domain Name and Terms of Use     |             Responsible for Hosting               | Location of Hosting | Solid Server Version |
 |-----------------------------------|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------:|:--------------------:|
 | https://inrupt.net/               | [Inrupt, Inc.](https://inrupt.com/terms-of-service) |         [Amazon](https://aws.amazon.com)          |         USA         |          NSS 4.x          |
-<!-- | https://solid.community/| ?? | ?? |         ??          |          NSS 4.x       | -->
 
 If you are an identity provider you can add your service to this list (direct to a way to add identity provider info). 
 
-
-# Pod Providers
+# Get a Pod 
 Pods are where you store your data. 
 
-The way to get most control of your data is to [self-host]({{site.baseUrl}}/implement/pod-server).
-
-You can also choose to outsource the work and get a Pod provider. Pick a [Pod providers](https://github.com/solid/pods/blob/master/README.md#pod-providers) here: 
+The way to get most control of your data is to [self-host]({{site.baseUrl}}/implement/pod-server).You can also choose to outsource the work and get a Pod provider. Pick a [Pod providers](https://github.com/solid/pods/blob/master/README.md#pod-providers) here: 
 
 
 |               Link                |    Responsible for Domain Name and Terms of Use     |             Responsible for Hosting               | Location of Hosting | Solid Server Version |
@@ -36,9 +31,9 @@ You can also choose to outsource the work and get a Pod provider. Pick a [Pod pr
 
 If you are a Pod provider you can add your service to this list (direct to a way to add identity provider info). 
 
-# solid-apps
+# Use Solid Apps
 
-Now that you have a Solid ID and a Pod you can go ahead and start using Solid apps! 
+Now that you have a WebID and a Pod you can go ahead and start using Solid apps! 
 
 * [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) uses the national weather service API so it is currently only able to fetch weather in the United States.2019. Dylan Martin.
 * [SolidVC](https://github.com/kezike/solid-vc) is a [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid | [Source Code](https://github.com/kezike/solid-vc) | [MIT License Copyright (c) 2018](https://github.com/kezike/solid-vc/blob/master/LICENSE) [Kayode Ezike](https://github.com/kezike)
