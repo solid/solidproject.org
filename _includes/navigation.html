@@ -15,13 +15,11 @@
               <a href="{{ site.baseurl }}{{ subitem.link }}">{{
                 subitem.name
               }}</a>
-              {%else%}
+              {%else%} 
               <a href="{{ site.baseurl }}{{ item.link }}/{{ subitem.link }}">{{
                 subitem.name
               }}</a>
               {%endif%}
-              
-             
           </li>
           {%endfor%}
         </ul>

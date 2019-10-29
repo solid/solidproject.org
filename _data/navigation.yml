@@ -4,16 +4,6 @@
   link: /use-solid
 - name: For Developers
   link: /for-developers
-  sublinks:
-    - name: Apps
-      link: apps/first-app
-    - name: Run a Pod server
-      link: pod-server
-    - name: Chat with other Solid developers
-      link: https://forum.solidproject.org
-      fullLink: true
-    - name: Funding
-      link: funding
 - name: Team
   link: /team
 - name: Press
