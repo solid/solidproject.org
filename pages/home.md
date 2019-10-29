@@ -57,7 +57,6 @@ permalink: /
         </div>
       </div>
     </div>
-
     <div id="what-is-solid" class="img-info-banner row around">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
         <div class="image">
@@ -73,7 +72,6 @@ permalink: /
         </div>
       </div>
     </div>
-
     <div class="img-info-banner row around reverse">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
         <div class="image">
@@ -84,12 +82,11 @@ permalink: /
         <div class="info-card">
           <h3 class="title">Your online Identity </h3>
           <p class="info">
-          Login with WebID to use Solid. Similar to email, WebID allows you to connect to anyone else no matter who their identity provider. With WebID login online you and where you sign in knows about it. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> by signing up for a WebID.
+          Login with WebID to use Solid. Similar to email, WebID allows you to connect to anyone else no matter who their identity provider is. When you login with WebID, you and only you and where you are signing into knows about it. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> by signing up for a WebID.
           </p>
         </div>
       </div>
     </div>
-
     <div class="img-info-banner row around">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
         <div class="image">
@@ -105,7 +102,6 @@ permalink: /
         </div>
       </div>
     </div>
-
     <form
       action="https://tinyletter.com/ThisWeekInSolid"
       class="newsletter-form"
