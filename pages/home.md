@@ -68,7 +68,7 @@ permalink: /
         <div class="info-card">
           <h3 class="title">Solid is a standard</h3>
           <p class="info">
-            The web was designed to make it possible for information – data – to transfer conveniently no matter where you are or what device you are using. Today data is used as a bargaining chip to lock you in. [Solid is a standard](https://solidproject.org/standard/) that describes how to build storage, apps, and identification in such a way that you can conveniently connect and switch without losing data. If you are interested in the standardisation process, [contributions are welcome](https://solidproject.org/standardisation).
+            The web was designed to make it possible for information – data – to transfer conveniently no matter where you are or what device you are using. Today data is used as a bargaining chip to lock you in. <a href="https://solid.github.io/specification/" title="The Solid Specification">Solid is a standard</a> that describes how to build storage, apps, and identification in such a way that you can conveniently connect and switch without losing data. If you are interested in the standardisation process, <a href="{{site.baseUrl}}/standardisation" title="How to contribute to the Solid standards">contributions are welcome</a>.
           </p>
         </div>
       </div>
@@ -84,7 +84,7 @@ permalink: /
         <div class="info-card">
           <h3 class="title">Your online Identity </h3>
           <p class="info">
-          Login with WebID to use Solid. Similar to email, WebID allows you to connect to anyone else no matter who their identity provider. With WebID login online you and where you sign in knows about it. [Get started](https://solidproject.org/use-solid) by signing up for a WebID.
+          Login with WebID to use Solid. Similar to email, WebID allows you to connect to anyone else no matter who their identity provider. With WebID login online you and where you sign in knows about it. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> by signing up for a WebID.
           </p>
         </div>
       </div>
@@ -100,7 +100,7 @@ permalink: /
         <div class="info-card">
           <h3 class="title">Like peas in a Pod</h3>
           <p class="info">
-            Your Pod is where you store your data. Pods and apps are always separate and compatible meaning you are free to pick and choose and change your mind while still keeping your data. For example, if you want to switch messaging app you can take your contacts and chat history along easily. [Get started](https://solidproject.org/use-solid) with using Solid or find out more by reading the [FAQs](http://solidproject.org/faqs).
+            Your Pod is where you store your data. Pods and apps are always separate and compatible meaning you are free to pick and choose and change your mind while still keeping your data. For example, if you want to switch messaging app you can take your contacts and chat history along easily. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> with using Solid or find out more by reading the <a href="{{site.baseUrl}}/faqs" title="Frequently Asked Questions">FAQs</a>.
           </p>
         </div>
       </div>

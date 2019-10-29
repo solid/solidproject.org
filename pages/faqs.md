@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: faqs
-permalink: faqs/faqs
+permalink: faqs
 ---
 
 Got a question that's not here? Try asking on the [Solid forum](https://forum.solidproject.org) or the [Solid tag on Stackoverflow](https://stackoverflow.com/questions/tagged/solid). 
