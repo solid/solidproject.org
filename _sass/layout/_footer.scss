@@ -11,12 +11,8 @@
   }
 
   .solid-footer-menu {
-    .home-link {
-      font-weight: bold;
-    }
-
     padding: 0 20px;
-    h3 {
+    h3, .home-link {
       font-weight: bold;
       margin-bottom: 5px;
       padding-bottom: 10px;

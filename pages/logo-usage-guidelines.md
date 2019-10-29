@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: Solid Logo Usage Guidelines
-permalink: about/logo-usage-guidelines
+permalink: logo-usage-guidelines
 ---
 
 [![](https://img.shields.io/badge/project-Solid-7C4DFF.svg?style=flat-square)](https://github.com/solid/solid)
