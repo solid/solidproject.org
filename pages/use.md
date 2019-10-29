@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: Use Solid Apps
-permalink: /use
+permalink: /use-solid
 ---
 
 To get started with Solid you will first need and Solid ID and a Pod then you can start using Solid apps. 
