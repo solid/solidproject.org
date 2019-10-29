@@ -12,7 +12,9 @@ permalink: /
     </div>
     <a href="{{site.baseurl}}/implement" class="learn-btn">Implement Solid</a>
   </div>
- Why you'll love Solid
+  <h2 class="introHeading">
+    Why you'll love Solid
+  </h2>
   <div class="page-content">
   <div class="cards row around">
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
