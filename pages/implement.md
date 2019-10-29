@@ -2,10 +2,9 @@
 layout: pages
 title: "Implement Solid"
 permalink: implement
-tags: [implement, apps]
-categories: [Implement]
-exclude: true
 ---
+
+# Implement Solid
 
 Are you in the business of apps, identification, or storage and interested in implementing Solid? 
 
