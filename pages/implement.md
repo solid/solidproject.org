@@ -15,3 +15,7 @@ Let us know when you would be avaialable via info@solidproject.org and you will 
 You can read more about Solid on the webpage and in depth FAQs in preparation. If you have any material on your needs please do send them over so we can understand the details in more depth before our call. 
 
 You can find other companies and organisations who have [implemented Solid here]({{site.baseUrl}}/use-solid).
+
+Post openings on the job board to find professionals familiar with Solid. 
+
+Read about funding options that have overlapping themes with Solid.
