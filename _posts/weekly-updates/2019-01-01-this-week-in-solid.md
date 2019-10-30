@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: This Week in Solid
 permalink: /this-week-in-solid
 ---
