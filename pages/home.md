@@ -10,7 +10,7 @@ permalink: /
     <div class="subtitle">
       A standard that makes the web work for you
     </div>
-    <a href="{{site.baseurl}}/implement" class="learn-btn">Implement Solid</a>
+    <a href="{{site.baseurl}}/implement" class="learn-btn">Impement Solid</a>
   </div>
   <div class="page-content">
     <h2 class="intro-heading">
@@ -47,7 +47,7 @@ permalink: /
         <div class="card">
           <div class="card-header">
             <i class="fas fa-2x fa-users"></i>
-            <span class="card-title">Platform independent connection</span>
+            <span class="card-title">Platform-independent connection</span>
           </div>
           <div class="card-body">
             <p>
