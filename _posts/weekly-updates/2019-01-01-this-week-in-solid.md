@@ -4,7 +4,7 @@ title: This Week in Solid
 permalink: /this-week-in-solid
 ---
 
-Hand picked Solid updates delivered to you. 
+Hand-picked Solid updates delivered to you.
 
 Stay up to date with events, learning resources, and recent developments in Solid community.
 
