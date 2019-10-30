@@ -28,7 +28,7 @@ http://csarven.ca/#i
 
 ## Ruben Verborgh 
 **Solid Editor**
-Ruben worked on the MIT academic Solid project. He is now a professor of Semantic Web technology at Ghent University – imec (include some details about the Solid academic work?) 
+Ruben Verborgh is a professor of Decentralized Web technology at IDLab, Ghent University – imec, and a research affiliate at the Decentralized Information Group of CSAIL at MIT. Additionally, he acts as a technology advocate for Inrupt and the Solid ecosystem wherein people and organizations control their own data. He focuses on ecosystem architecture and developer experience.
 https://github.com/RubenVerborgh
 https://ruben.verborgh.org/profile/#me
 
