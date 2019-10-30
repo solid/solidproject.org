@@ -5,7 +5,6 @@ $solid-background: 'img/solid-bg-dark-ui.svg';
 $solid-background-white: 'img/solid-background.svg';
 
 $base-font-family: 'Lato', sans-serif;
-$fa-font-path: 'fonts/font-awesome';
 
 $base-font-size: 16px !default;
 $base-font-weight: 400 !default;
@@ -46,7 +45,6 @@ $on-tablet: 1024px !default;
   font-size: $base-font-size * $ratio;
 }
 
-@import '_font-awesome';
 @import './lato-font.scss';
 
 // Import partials.

@@ -29,22 +29,9 @@
         text-transform: uppercase;
       }
 
-      .fa-chevron-down {
-        transition-duration: 0.5s;
-        transition-property: transform;
-        opacity: 0.59;
-        position: absolute;
-        right: 5px;
-        top: 15%;
-      }
-
       &.open {
         .sub-links {
           display: block;
-        }
-
-        .fa-chevron-down {
-          transform: rotate(180deg);
         }
       }
 
@@ -109,10 +96,6 @@
       & > li {
         cursor: inherit;
         text-align: left;
-
-        .fa-chevron-down {
-          display: none;
-        }
 
         .sub-links {
           padding-left: 0px;

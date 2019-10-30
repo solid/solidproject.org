@@ -31,16 +31,18 @@ Next weeks call will be on the 17th October at 1000CEST on [this line](https://z
 ### [Talks & Articles](https://github.com/solid/information/blob/master/press.md)
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
 
-* https://www.wsj.com/articles/tech-giants-have-hijacked-the-web-its-time-for-a-reboot-11572062420 
-* Solid Enschede 
+* https://www.wsj.com/articles/tech-giants-have-hijacked-the-web-its-time-for-a-reboot-11572062420
+* Data Ethics summary https://mailchi.mp/dit.dk/data-ethics-2019-inspiration1
+* Solid Amsterdam summary http://www.pilod.nl/wiki/Solid_Amsterdam_–_1st_Session_Summary
 
 ### Upcoming Solid Events
 Solid Events are run by members of the Solid community like you. If you are interested in organising a Solid Event you may be interested in reading the tips for a organising successful Solid events [here](https://github.com/solid/information/blob/master/solid-events.md).
 
 |Date|Event|Organiser|
 | ------------- | ------------- |------------- |
-|10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
-|11-10-2019|[Solid Copenhagen](https://www.meetup.com/Solid-Copenhagen-Meetup-Group/events/264871687/)|Sarmad Reda|
+|2019-12-10|[Solid Enschede](http://www.pilod.nl/wiki/Solid_Christmas_Meetup_Enschede_-_How_to_Fix_the_Internet!)|Erwin Folmer |
+|2019-11-20|[Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
+|2019-01-xx|Solid Amsterdam (tbc)|[Jeroen van Beele](https://github.com/jjvbeele) |
 
 Solid Events are run by members of the Solid community like you. Solid Event organisers write tips for a organising successful Solid events [here](https://github.com/solid/information/blob/master/solid-events.md)
 
