@@ -22,13 +22,13 @@ https://mitzilaszlo.solid.community/profile/card#me
 
 ## Sarven Capadisli
 **Solid Editor** 
-Sarven worked on the MIT academic Solid project (expand on details?). He contributes to the advancement of open Web platform specifications and the development of social decentralised applications. He is active as an information architect and scientist in linked research communication. (mention PhD work?) 
+Sarven worked on the MIT academic Solid project. He contributes to the advancement of open Web platform specifications and the development of social decentralised applications. He is active as an information architect and scientist in linked research communication.
 https://github.com/csarven
 http://csarven.ca/#i
 
 ## Ruben Verborgh 
 **Solid Editor**
-Ruben worked on the MIT academic Solid project (expand on details?). He is now a professor of Semantic Web technology at Ghent University – imec (include some details about the Solid academic work?) 
+Ruben worked on the MIT academic Solid project. He is now a professor of Semantic Web technology at Ghent University – imec (include some details about the Solid academic work?) 
 https://github.com/RubenVerborgh
 https://ruben.verborgh.org/profile/#me
 
@@ -51,28 +51,28 @@ https://github.com/kjetilk
 https://solid.kjernsmo.net/profile/card#me
 
 ## Vincent Tunru 
-**Technical Writer**   
+**Creator**   
 Vincent is a front-end engineer for inrupt trying to make sure software has a positive impact. Before inrupt he worked on finding out how technology can help ensuring open access to academic research. He is focusing on technical writing for app developers to learn how to build Solid apps. 
 https://gitlab.com/Vinnl
 https://vincentt.inrupt.net/profile/card#me
 
 ## Nicolas Seydoux 
-**Technical Writer** 
+**Creator** 
 Nicolas is a developer at Inrupt. He joined the company after his PhD on the Semantic Web of Things, mixing semantic web and IoT. In this domain, he contributed to FOSS software and to an industrial standard ackowledging the importance of semantic interoperability. He also worked on decentralized reasoning and open data platforms.
 (include profile description Gitter Handle and WebID)
 
 ## Dan Wilkinson 
-**Copywriter** 
+**Creator** 
 (include description)
 (include profile description Gitter Handle and WebID)
 
 ## Tony Morelli 
-**Website Designer** 
+**Creator** 
 (include description)
 (include profile description Gitter Handle and WebID)
 
 ## Lisa Nguyen 
-**Website Designer**  
+**Creator**  
 (include description)
 (include profile description Gitter Handle and WebID)
 
