@@ -1,7 +1,7 @@
 ---
 layout: pages
 title: "Funding"
-permalink: Funding
+permalink: funding
 ---
 
 # Funding Board
