@@ -11,6 +11,7 @@ permalink: /
       A standard that makes the web work for you
     </div>
     <a href="{{site.baseurl}}/implement" class="learn-btn">Implement Solid</a>
+    <a href="#what-is-solid" class="learn-more-link">What Is Solid?</a>
   </div>
   <div class="page-content">
     <h2 class="intro-heading">
