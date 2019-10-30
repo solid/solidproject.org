@@ -183,7 +183,7 @@ obelisk:Obelisk a rdfs:Class ;
 
 ### Adding some description
 
-Much like we described each term with human-friendly labels and comments, we can add a title ([`dcterms:title`](http://purl.org/dc/terms/title)) and a description ([`dcterms:description`](http://purl.org/dc/terms/description)) to our vocabulary. To make it easier to reuse, we can also indicate a preferred prefix ([`vann:preferredNamespacePrefix`](http://purl.org/vocab/vann/preferredNamespacePrefix)) and a preferred IRI ([`vann:preferredNamespaceURI`](http://purl.org/vocab/vann/preferredNamespaceURI)) (since multiple IRIs may point to the same vocabulary).
+Much like we described each term with human-friendly labels and comments, we can add a title ([`dcterms:title`](http://purl.org/dc/terms/title)) and a description ([`dcterms:description`](http://purl.org/dc/terms/description)) to our vocabulary. To make it easier to reuse, we can also indicate a preferred prefix ([`vann:preferredNamespacePrefix`](http://purl.org/vocab/vann/preferredNamespacePrefix)) and a preferred IRI ([`vann:preferredNamespaceUri`](http://purl.org/vocab/vann/preferredNamespaceUri)) (since multiple IRIs may point to the same vocabulary).
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/ns/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -207,6 +207,6 @@ obelisk:Obelisk a rdfs:Class ;
 # ...
 ```
 
-A reference version of this final vocabulary is available [here](assets/misc/tutorials/quickstart-obelisk.ttl).
+A reference version of this final vocabulary is available [here](/assets/misc/tutorials/quickstart-obelisk.ttl).
 
 Next step: [using this vocabulary to describe data in your pod](/for-developers/apps/vocabularies/use/quickstart).

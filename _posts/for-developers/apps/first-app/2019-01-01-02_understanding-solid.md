@@ -7,10 +7,10 @@ categories: [Writing a Solid application]
 exclude: true
 ---
 
-Now that we've [got the user's WebID]({{site.baseUrl}}/implement/apps/first-app/1-authentication), we have a starting point for fetching
+Now that we've [got the user's WebID]({{site.baseUrl}}/for-developers/apps/first-app/1-authentication), we have a starting point for fetching
 data from the user's Pod. Before we do so, let's review the fundamentals of the concepts behind
 Solid, to the extent necessary to write Solid Web Apps. If you're already familiar with Linked Data,
-feel free to [skip this step]({{site.baseUrl}}/implement/apps/first-app/3-reading-data).
+feel free to [skip this step]({{site.baseUrl}}/for-developers/apps/first-app/3-reading-data).
 
 In traditional back-ends, data is usually stored in database tables. When your back-end is a Solid
 Pod, however, data is stored in _Documents_ living at a certain URL — similar to how HTML documents

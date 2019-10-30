@@ -8,7 +8,7 @@ You can read the [Solid Specification](https://solid.github.io/specification/) h
 
 The following is a description about how changes to the [Solid Specification](https://solid.github.io/specification/) may be proposed and accepted.
 
-Anyone may participate in [this process](https://github.com/solid/culture). Please read the [Code of Conduct](code-of-conduct.md) before doing so.
+Anyone may participate in [this process](https://github.com/solid/culture). Please read the [Code of Conduct](#conduct) before doing so.
 
 ## Contributors
 
@@ -24,7 +24,7 @@ Solid Panels are groups of individuals focused on a specific problem or domain r
 
 Domains may be technical, non-technical, or some combination of the two. For example, a Security Panel could focus on the evaluation and advancement of the Solid security model.
 
-A list of Solid Panels is maintained at [panels.md](panels.md). This listing helps people find panels they may want to participate in, and helps editors find panels to consult as part of the editorial process.
+A list of Solid Panels is maintained at [panels.md](https://github.com/solid/process/blob/master/panels.md). This listing helps people find panels they may want to participate in, and helps editors find panels to consult as part of the editorial process.
 
 Panels may request to have a repository created within the [Solid Github Organization](https://github.com/solid). These requests should be made by submitting an issue to [solid/process](https://github.com/solid/process). The request should include the proposed name of the repository, and how it will be used. Any editor may reject a proposed name and request an alternative. All panel members will receive [_Maintain Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the panel repository, unless it is subject to editorial review, which would require that it employ a [different permission structure](#repositories). Panel repositories that are inactive for more than six months may be archived by Solid Administrators.
 
@@ -34,7 +34,7 @@ Panels may request to have a gitter channel created within the [Solid Gitter Org
 
 Stakeholders are those affected by normative changes to the [Solid Specification](https://github.com/solid/specification). There are two types of Stakeholders; [Solid Users](#solid-users) and [Solid Implementers](#solid-implementers). It is important to consider them both when proposing changes, and adhering to the W3C [priority of constituencies](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies) is encouraged. A Stakeholder may be both a user and an implementer.
 
-Stakeholders who have opted to identify themselves publicly are listed at [stakeholders.md](stakeholders.md). Anyone may decide to identify themselves publicly as a Solid Stakeholder, but it is not mandatory. Identified stakeholders may be consulted for feedback as part of the editorial process.
+Stakeholders who have opted to identify themselves publicly are listed at [stakeholders.md](https://github.com/solid/process/blob/master/stakeholders.md). Anyone may decide to identify themselves publicly as a Solid Stakeholder, but it is not mandatory. Identified stakeholders may be consulted for feedback as part of the editorial process.
 
 ### Solid Users
 
@@ -83,7 +83,7 @@ Candidate Proposals without substantive changes require one Editor assigned to t
 
 ## Editorial Structure
 
-Editor appointments and their respective assignments are made by the Solid Director. The Editorial Team is comprised of all the Editors appointed by the Solid Director, who are listed at [editors.md](editors.md), along with their assignments, contact details, and affiliations. Anyone may apply to be an Editor, and must include one or more requested editorial assignments as part of their application. These requests are not reviewed by other Editors. They are reviewed only by the Solid Director. Editor applications that can demonstrate the support of a relevant panel or group of community members will be favorably considered.
+Editor appointments and their respective assignments are made by the Solid Director. The Editorial Team is comprised of all the Editors appointed by the Solid Director, who are listed at [editors.md](https://github.com/solid/process/blob/master/editors.md), along with their assignments, contact details, and affiliations. Anyone may apply to be an Editor, and must include one or more requested editorial assignments as part of their application. These requests are not reviewed by other Editors. They are reviewed only by the Solid Director. Editor applications that can demonstrate the support of a relevant panel or group of community members will be favorably considered.
 
 Editors belong to the [Editorial Team](https://github.com/orgs/solid/teams/editors) in the [Solid GitHub Organization](https://github.com/solid).
 
@@ -139,7 +139,7 @@ https://solid.kjernsmo.net/profile/card#me
 
 (include the panellists)
 
-# Code of Conduct
+# <a id="conduct"/>Code of Conduct
 
 Personal threats or discriminatory threats towards arbitrary groups on Solid gitter, Solid forum, or the W3C Solid Community Group call and mailing list may result in a ban of the threatening individual by the Solid Manager.
 

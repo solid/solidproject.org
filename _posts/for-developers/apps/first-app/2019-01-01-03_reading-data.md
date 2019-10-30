@@ -7,9 +7,9 @@ categories: [Writing a Solid application]
 exclude: true
 ---
 
-We've [got the user's WebID]({{site.baseUrl}}/implement/apps/first-app/1-authentication) and we
+We've [got the user's WebID]({{site.baseUrl}}/for-developers/apps/first-app/1-authentication) and we
 [know that it points to a
-Document]({{site.baseUrl}}/implement/apps/first-app/2-understanding-solid); it's time we actually
+Document]({{site.baseUrl}}/for-developers/apps/first-app/2-understanding-solid); it's time we actually
 read some data from that Document!
 
 We will be using [Tripledoc](https://vincenttunru.gitlab.io/tripledoc/), which was designed

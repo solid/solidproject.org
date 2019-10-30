@@ -20,7 +20,7 @@ const iri = rdf.type;
 ```
 However, an issue with these libraries is that, by their nature, they are limited to just the common, well-known vocabularies. What about your specific vocabulary, designed for your app? How can you make the terms described in that vocabulary easily reusable in your code (and easily reusable in the code of others who may wish to reuse the terms you've defined in your cool vocabulary)?
 
-The [LIT artifact generator](TBD) is a tool that takes any RDF vocabulary as input and automatically generates a nice source-code bundle (i.e. an artifact such as a Java JAR, or a Javascript NPM module) that you can then easily use in your application. Let's see how it works.
+The LIT artifact generator (which will be made publicly available soon) is a tool that takes any RDF vocabulary as input and automatically generates a nice source-code bundle (i.e. an artifact such as a Java JAR, or a Javascript NPM module) that you can then easily use in your application. Let's see how it works.
 
 ### Generate the artifact
 
