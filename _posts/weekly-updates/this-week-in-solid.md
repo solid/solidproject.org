@@ -1,7 +1,7 @@
 ---
 layout: default
 title: This Week in Solid
-permalink: /weekly-updates/this-week-in-solid
+permalink: /this-week-in-solid
 ---
 
 Hand picked Solid updates delivered to you. 
