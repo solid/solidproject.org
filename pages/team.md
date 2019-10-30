@@ -55,4 +55,4 @@ Nicolas is a developer at Inrupt. He joined the company after his PhD on the Sem
 
 ## Jackson Morgan
 **Administrator** 
-Jackson is a full stack engineer focusing on applications, server-development, and security. In the past, he served as chief architect for Gauge Insights and has worked at Yahoo, IBM, and Area 1 Security.
+Jackson is a full stack engineer focusing on applications, server-development, and security at Inrupt.
