@@ -32,7 +32,8 @@ Next weeks call will be on the 17th October at 1000CEST on [this line](https://z
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
 
 * https://www.wsj.com/articles/tech-giants-have-hijacked-the-web-its-time-for-a-reboot-11572062420
-* https://mailchi.mp/dit.dk/data-ethics-2019-inspiration1
+* Data Ethics summary https://mailchi.mp/dit.dk/data-ethics-2019-inspiration1
+* Solid Amsterdam summary http://www.pilod.nl/wiki/Solid_Amsterdam_–_1st_Session_Summary
 
 ### Upcoming Solid Events
 Solid Events are run by members of the Solid community like you. If you are interested in organising a Solid Event you may be interested in reading the tips for a organising successful Solid events [here](https://github.com/solid/information/blob/master/solid-events.md).
