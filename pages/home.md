@@ -10,7 +10,7 @@ permalink: /
     <div class="subtitle">
       A standard that makes the web work for you
     </div>
-    <a href="{{site.baseurl}}/implement" class="learn-btn">Impement Solid</a>
+    <a href="{{site.baseurl}}/implement" class="learn-btn">Implement Solid</a>
   </div>
   <div class="page-content">
     <h2 class="intro-heading">
