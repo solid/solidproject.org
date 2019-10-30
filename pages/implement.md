@@ -16,6 +16,4 @@ You can read more about Solid on the webpage and in depth FAQs in preparation. I
 
 You can find other companies and organisations who have [implemented Solid here]({{site.baseUrl}}/use-solid).
 
-Post openings on the job board to find professionals familiar with Solid. 
-
-Read about funding options that have overlapping themes with Solid.
+See also: [Job Board]({{site.baseUrl}}/job-board), [Funding Options]({{site.baseUrl}}/funding).
