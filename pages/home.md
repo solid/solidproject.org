@@ -20,7 +20,11 @@ permalink: /
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div class="card">
           <div class="card-header">
-            <i class="fas fa-2x fa-book"></i>
+            <img
+              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/book.svg"
+              alt=""
+              class="icon"
+            />
             <span class="card-title">Freedom to Move</span>
           </div>
           <div class="card-body">
@@ -33,7 +37,11 @@ permalink: /
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div class="card">
           <div class="card-header">
-            <i class="fas fa-2x fa-tools"></i>
+            <img
+              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/tools.svg"
+              alt=""
+              class="icon"
+            />
             <span class="card-title">Unlock Value</span>
           </div>
           <div class="card-body">
@@ -46,7 +54,11 @@ permalink: /
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <div class="card">
           <div class="card-header">
-            <i class="fas fa-2x fa-users"></i>
+            <img
+              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/users.svg"
+              alt=""
+              class="icon"
+            />
             <span class="card-title">Platform-independent connection</span>
           </div>
           <div class="card-body">

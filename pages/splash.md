@@ -8,7 +8,7 @@ permalink: /splash
   <div class="container">
     <img src="{{site.baseurl}}/assets/img/solid-emblem.svg" alt="solid emblem" />
     <button class="primary">
-      <i class="fab fa-github"></i>
+      <img src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/github.svg" alt="solid emblem" />
       View Solid on Github
     </button>
   </div>

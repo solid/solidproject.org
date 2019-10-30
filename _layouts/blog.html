@@ -61,7 +61,14 @@ layout: internal
         <nav class="aside-menu">
             <ul>
                 <li>
-                    <h4 class="accordionItem">Recent Posts<i class="fas fa-chevron-down"></i></h4>
+                    <h4 class="accordionItem">
+                        Recent Posts
+                        <img
+                        src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/chevron-down.svg"
+                        alt=""
+                        class="chevron"
+                        />
+                    </h4>
                     <ul>
                         {% for post in site.posts limit:5 %}
                             {% unless post.exclude %}

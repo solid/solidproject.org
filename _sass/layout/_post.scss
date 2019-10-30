@@ -149,12 +149,6 @@
                         display: block;
                         margin: 12px 0;
                     }
-
-                    .fa-chevron-down {
-                        display: inline-block;
-                        vertical-align: middle;
-                        transform: rotate(180deg);
-                    }
                 }
 
                 &.active {
@@ -191,14 +185,6 @@
 
         ul {
             margin: 0 0 40px;
-        }
-
-        .fa-chevron-down {
-            font-size: 0.9rem;
-            margin-left: 10px;
-            margin-top: -5px;
-            transition-duration: 0.5s;
-            transition-property: transform;
         }
     }
     .post-content {

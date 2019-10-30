@@ -139,6 +139,12 @@ $primaryColor: #7c55fb;
           height: 100%;
         }
       }
+
+      img.icon {
+        height: 2em;
+        filter: opacity(0.5);
+        margin: 0 auto;
+      }
     }
   }
 
