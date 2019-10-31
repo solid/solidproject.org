@@ -9,6 +9,7 @@ $primaryColor: #7c55fb;
     border-radius: 4px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.22);
     background-color: #ffffff;
+    height: 100%;
 
     &:hover, &:focus {
       border-color: #FDAB00;
@@ -80,6 +81,10 @@ $primaryColor: #7c55fb;
       margin: 0 auto;
     }
   }
+}
+
+.cards-footer {
+  padding: 1rem;
 }
 
 .newsletter-form {
