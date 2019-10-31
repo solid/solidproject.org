@@ -80,6 +80,7 @@ $primaryColor: #7c55fb;
       border: solid 1px transparent;
       border-radius: 4px;
       box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.22);
+      background-color: #ffffff;
 
       &:hover {
         border-color: #FDAB00;
@@ -92,7 +93,6 @@ $primaryColor: #7c55fb;
     }
     & .card {
       width: auto;
-      background-color: #ffffff;
       margin: 0 0.5em;
       padding: 1em 0.5em;
       display: flex;
