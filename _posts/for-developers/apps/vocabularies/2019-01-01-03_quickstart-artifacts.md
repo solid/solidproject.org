@@ -51,4 +51,6 @@ From there, we can build a simple app that tells you, based on a person's WebID,
 
 If you want to be recognised as an obelisk sculptor, you can uncomment line 35. You will have to add this app to your authorized apps to be able to write into your Pod.
 
-Now that you are familiar with what's in a vocabulary, and saw how to code using one, you might be interested in finding out the [well-known vocabularies](/for-developers/apps/vocabularies/well-known)
+Congratulations, you are now familiar with what's in a vocabulary, and saw how to code using one.
+
+Next step: find out the [well-known vocabularies](/for-developers/apps/vocabularies/well-known)
