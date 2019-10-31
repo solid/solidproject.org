@@ -49,6 +49,7 @@ Nicolas is a developer at Inrupt. He joined the company after his PhD on the Sem
 
 ## Tony Morelli 
 **Creator** 
+Tony Morelli is a Principal Experience Designer with Janeiro Digital who works with the design and development team to conceptualize and design the user interfaces and experiences of Solid patterns and applications.
 
 ## Lisa Nguyen 
 **Creator**  
