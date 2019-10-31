@@ -4,7 +4,7 @@ title: Solid for developers
 permalink: /for-developers
 ---
 
-You are in the perfect starting point for learning how to:
+You are in a starting point for learning how to:
 - [write Web apps]({{site.baseUrl}}/for-developers/apps) so that users can make most of their data
 - [become a Pod provider]({{site.baseUrl}}/for-developers/pod-server) to help users store their data, or [self-host your Pod](/for-developers/pod-server)
 - become an identity provider to help users connect with each other or login to Web apps and Pods (available soon)

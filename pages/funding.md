@@ -4,7 +4,7 @@ title: "Funding"
 permalink: funding
 ---
 
-# Funding Board
+# Funding
 If you know of any grants or channels to apply to resources that would allow developers to focus on building their application on solid, please do share then here.
 
 * [Github Sponsors](https://github.com/sponsors)
