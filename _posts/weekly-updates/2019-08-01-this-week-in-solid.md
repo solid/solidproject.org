@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Week Updates 2019-08-01
-permalink: /weekly-updates/new-2019-08-01
+permalink: /this-week-in-solid/2019-08-01
 tags: [weekly, updates]
 categories: [Updates]
 author: Mitzi László
