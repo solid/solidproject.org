@@ -17,7 +17,7 @@ permalink: /get-started
       </div>
       <div class="card-body">
         <p>
-          Start building apps or running your own Pod server.
+          Start building Solid apps or running your own Pod.
         </p>
       </div>
     </a>
@@ -34,7 +34,7 @@ permalink: /get-started
       </div>
       <div class="card-body">
         <p>
-          Get a place for your data, and use apps that let you in control.
+          Start using Solid apps that let you pick your own Pod.
         </p>
       </div>
     </a>
@@ -47,7 +47,7 @@ permalink: /get-started
           alt=""
           class="icon"
         />
-        <span class="card-title">For organisations</span>
+        <span class="card-title">I represent an organisation or company</span>
       </div>
       <div class="card-body">
         <p>
