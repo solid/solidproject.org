@@ -1,3 +1,5 @@
+@import '../all.scss';
+
 .solid-footer {
   background-color: $secondary-color;
   color: $white;
@@ -57,6 +59,19 @@
       li {
         display: inline-block;
         margin: 0 5px;
+      }
+    }
+
+    .icon {
+      width: 1rem;
+      padding: 0.5rem;
+      border-radius: 1rem;
+      box-sizing: content-box;
+      filter: invert(1);
+
+      &:hover, &:focus {
+        filter: none;
+        background: $primaryColor;
       }
     }
   }
