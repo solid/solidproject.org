@@ -53,6 +53,11 @@
   @media (min-width: 800px) {
     width: 50%;
 
+    .post-content & {
+      width: auto;
+      box-shadow: none;
+    }
+
     input {
       font-size: 2rem;
     }

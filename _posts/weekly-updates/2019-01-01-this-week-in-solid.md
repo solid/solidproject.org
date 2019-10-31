@@ -38,7 +38,6 @@ We're currently working on next week's edition. You can contribute by [making a 
       target="popupwindow"
       onsubmit="window.open('https://tinyletter.com/ThisWeekInSolid', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
     >
-      <h2>This Week in Solid</h2>
       <p>
         <label for="tlemail">
           Leave your email address to get a bite-sized overview of everything Solid, delivered straight to your inbox once a week.
