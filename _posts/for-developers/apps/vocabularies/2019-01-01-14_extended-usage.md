@@ -63,7 +63,7 @@ coll:
     rdfs:comment "I made this one myself!" .
 ```
 
-Some of the elements (e.g. [ldp:Container](http://www.w3.org/ns/ldp#Container)) in there are specific to how Solid represents data storage. If you want to find out more about that, you can look up the [description of this vocabulary](1-4-technical#ldp). Otherwise, we can conclude this short tutorial by creating a nice collection of obelisks in your own pod. You can see the vocabulary snippet into `src/collection.js`.
+Some of the elements (e.g. [ldp:Container](http://www.w3.org/ns/ldp#Container)) in there are specific to how Solid represents data storage. If you want to find out more about that, you can look up the [description of this vocabulary](/for-developers/app/vocabularies/well-known/technical#ldp). Otherwise, we can conclude this short tutorial by creating a nice collection of obelisks in your own pod. You can see the vocabulary snippet into `src/collection.js`.
 
 <iframe src="https://codesandbox.io/embed/my-first-obelisk-collection-1ybvq?fontsize=14" title="my first obelisk collection" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
