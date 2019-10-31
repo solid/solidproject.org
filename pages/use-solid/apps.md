@@ -6,7 +6,7 @@ permalink: /use-solid/apps
 
 # Solid Apps
 
-These Solid-compatible apps will store your dat on [your own Pod]({{site.baseUrl}}/use-solid).
+These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
 
 * [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) uses the national weather service API so it is currently only able to fetch weather in the United States.2019. Dylan Martin.
 * [SolidVC](https://github.com/kezike/solid-vc) is a [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid | [Source Code](https://github.com/kezike/solid-vc) | [MIT License Copyright (c) 2018](https://github.com/kezike/solid-vc/blob/master/LICENSE) [Kayode Ezike](https://github.com/kezike)
