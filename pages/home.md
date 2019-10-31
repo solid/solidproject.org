@@ -22,7 +22,7 @@ permalink: /
         <div class="card">
           <div class="card-header">
             <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/book.svg"
+              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/dolly.svg"
               alt=""
               class="icon"
             />
@@ -39,7 +39,7 @@ permalink: /
         <div class="card">
           <div class="card-header">
             <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/tools.svg"
+              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/recycle.svg"
               alt=""
               class="icon"
             />
