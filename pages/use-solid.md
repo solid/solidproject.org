@@ -13,9 +13,9 @@ Pods are where you store your data.
 The way to get most control of your data is to [self-host](/for-developers/pod-server). You can also choose to outsource the work and get a provider. Pick a provider here:
 
 
-|               Link                |    Responsible for Domain Name and Terms of Use     |             Responsible for Hosting               | Location of Hosting | Solid Server Version |
+| Provider | Responsible for Domain Name and Terms of Use | Responsible for Hosting | Location of Hosting |
 |-----------------------------------|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------:|:--------------------:|
-| https://inrupt.net/               | [Inrupt, Inc.](https://inrupt.com/terms-of-service) |         [Amazon](https://aws.amazon.com)          |         USA         |         5.1.7          |
-| https://solid.authing.cn/         |                          [Authing](https://authing.cn)                         |                        [Tencent Cloud](https://cloud.tencent.com)                         |         China          |          NSS 5.x          |
+| [inrupt.net](https://inrupt.net) | [Inrupt, Inc.](https://inrupt.com/terms-of-service) | [Amazon](https://aws.amazon.com) | USA |
+| [solid.authing.cn](https://solid.authing.cn) | [Authing](https://authing.cn) | [Tencent Cloud](https://cloud.tencent.com) | China |
 
-If you are a provider you can add your service to this list by emailing info@solidproject.org. 
+If you are a provider you can add your service to this list by emailing [info@solidproject.org](mailto:info@solidproject.org).
