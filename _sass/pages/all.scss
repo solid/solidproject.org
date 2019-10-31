@@ -1,6 +1,87 @@
 $textColor: #5a5a5a;
 $primaryColor: #7c55fb;
 
+.cards {
+  width: 100%;
+  a.card {
+    text-decoration: none;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.22);
+    background-color: #ffffff;
+
+    &:hover, &:focus {
+      border-color: #FDAB00;
+      color: #FDAB00;
+      & > .card-header,
+      & > .card-header > span.card-title {
+        color: #FDAB00;
+      }
+    }
+  }
+  & .card {
+    width: auto;
+    margin: 0 0.5em;
+    padding: 1em 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    transition: all 300ms ease-in-out;
+    & > .card-header {
+      text-align: center;
+      display: flex;
+      color: #818181;
+      flex-direction: column;
+      position: relative;
+      transition: all 300ms ease-in-out;
+
+      & > span.card-title {
+        color: $textColor;
+        font-size: 0.8em;
+        font-weight: bold;
+        letter-spacing: 0.07px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 1em;
+        transition: all 300ms ease-in-out;
+      }
+
+      &::after {
+        position: absolute;
+        content: '';
+        width: 50px;
+        height: 1px;
+        background: #a0a0a0;
+        opacity: 0.4;
+        bottom: 0;
+        left: calc(50% - 25px);
+      }
+    }
+
+    & > .card-body {
+      margin-top: 2em;
+      color: $textColor;
+      font-family: Lato;
+      font-size: 19px;
+      letter-spacing: 0.08px;
+      line-height: 23px;
+      text-align: center;
+      flex: 1 0 auto;
+      p {
+        height: 100%;
+      }
+    }
+
+    img.icon {
+      height: 2em;
+      filter: opacity(0.5);
+      margin: 0 auto;
+    }
+  }
+}
+
 .newsletter-form {
   color: $textColor;
   width: 80%;
