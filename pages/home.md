@@ -77,7 +77,8 @@ permalink: /
         </div>
       </div>
     </div>
-    <div id="what-is-solid" class="img-info-banner row around">
+    <span id="what-is-solid"></span>
+    <div class="img-info-banner row around">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
         <div class="image">
           <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
@@ -85,9 +86,9 @@ permalink: /
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
-           <a href="https://solid.github.io/specification/" <h3 class="title">Solid is a standard</h3> </a>
+          <h3 class="title">Like peas in a Pod</h3>
           <p class="info">
-            The web was designed to make it possible for information – data – to transfer conveniently no matter where you are or what device you are using. Today data is used as a bargaining chip to lock you in. <a href="https://solid.github.io/specification/" title="The Solid Specification">Solid is a standard</a> that describes how to build storage, apps, and identification in such a way that you can conveniently connect and switch without losing data. If you are interested in the standardisation process, <a href="{{site.baseUrl}}/standardisation" title="How to contribute to the Solid standards">contributions are welcome</a>.
+            Your Pod is where you store your data. Pods and apps are always separate and compatible meaning you are free to pick and choose and change your mind while still keeping your data. For example, if you want to switch messaging app you can take your contacts and chat history along easily. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> with using Solid or find out more by reading the <a href="{{site.baseUrl}}/faqs" title="Frequently Asked Questions">FAQs</a>.
           </p>
         </div>
       </div>
@@ -115,9 +116,11 @@ permalink: /
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
-          <h3 class="title">Like peas in a Pod</h3>
+          <h3 class="title">
+            <a href="https://solid.github.io/specification/">Solid is a standard</a>
+          </h3>
           <p class="info">
-            Your Pod is where you store your data. Pods and apps are always separate and compatible meaning you are free to pick and choose and change your mind while still keeping your data. For example, if you want to switch messaging app you can take your contacts and chat history along easily. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> with using Solid or find out more by reading the <a href="{{site.baseUrl}}/faqs" title="Frequently Asked Questions">FAQs</a>.
+            The web was designed to make it possible for information – data – to transfer conveniently no matter where you are or what device you are using. Today data is used as a bargaining chip to lock you in. <a href="https://solid.github.io/specification/" title="The Solid Specification">Solid is a standard</a> that describes how to build storage, apps, and identification in such a way that you can conveniently connect and switch without losing data. If you are interested in the standardisation process, <a href="{{site.baseUrl}}/standardisation" title="How to contribute to the Solid standards">contributions are welcome</a>.
           </p>
         </div>
       </div>
