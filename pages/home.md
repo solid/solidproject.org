@@ -122,7 +122,11 @@ permalink: /
       target="popupwindow"
       onsubmit="window.open('https://tinyletter.com/ThisWeekInSolid', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
     >
-      <h2>This Week in Solid</h2>
+      <h2>
+        <a href="{{site.baseUrl}}/this-week-in-solid" title="View past editions of This Week in Solid">
+          This Week in Solid
+        </a>
+      </h2>
       <p>
         <label for="tlemail">
           Leave your email address to get a bite-sized overview of everything Solid, delivered straight to your inbox once a week.
