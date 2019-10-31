@@ -11,15 +11,15 @@ permalink: /
       A standard that makes the web work for you
     </div>
     <a href="{{site.baseurl}}/get-started" class="learn-btn">Get started</a>
-    <a href="#what-is-solid" class="learn-more-link">
-      What Is Solid?
-      <img
-        src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/chevron-down.svg"
-        alt=""
-        class="chevron"
-      />
-    </a>
-  </div>
+      <a href="#what-is-solid" class="learn-more-link">
+        What Is Solid?<br/>
+        <img
+          src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/angle-double-down.svg"
+          alt=""
+          class="chevron"
+        />
+      </a>
+      </div>
   <div class="page-content">
     <h2 class="intro-heading">
       Why you'll love Solid
