@@ -1,11 +1,3 @@
----
-layout: pages
-title: "Implement Solid"
-permalink: implement
----
-
-# Implement Solid
-
 Are you in the business of apps, identification, or storage and interested in implementing Solid? 
 
 We would love to hear about your specific needs and set up a call to talk about how to transition your existing code towards being Solid compliant. 
