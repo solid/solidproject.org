@@ -9,7 +9,7 @@ permalink: /use-solid/apps
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
 
 * [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) uses the national weather service API so it is currently only able to fetch weather in the United States.2019. Dylan Martin.
-* [SolidVC](https://github.com/kezike/solid-vc) is a [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid | [Source Code](https://github.com/kezike/solid-vc) | [MIT License Copyright (c) 2018](https://github.com/kezike/solid-vc/blob/master/LICENSE) [Kayode Ezike](https://github.com/kezike)
+* [SolidVC](https://github.com/kezike/solid-vc) is a [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid.
 * [Solid Calendar](https://bitbucket.org/dylanmartin/solidcalendar/src/master/) is a way to create, store, and query events using a user's card. 2019. Dylan Martin.
 * [Referendum Signons](https://referendum.signons.fr)
 * [Solid React SDK by inrupt](https://github.com/inrupt/solid-react-sdk) is a combination of libraries, components, documentation, best practices, and an application [generator](https://generator.inrupt.com) meant to accelerate the development of high-quality Solid applications. [Source code](https://github.com/inrupt/generator-solid-react) [MIT License](https://github.com/inrupt/solid-react-sdk/blob/master/LICENSE.md) Copyright (c) 2019 [inrupt, inc.](https://inrupt.com/)
