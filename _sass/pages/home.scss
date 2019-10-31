@@ -80,6 +80,7 @@ $primaryColor: #7c55fb;
       border: solid 1px transparent;
       border-radius: 4px;
       box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.22);
+      background-color: #ffffff;
 
       &:hover {
         border-color: #FDAB00;
@@ -92,7 +93,6 @@ $primaryColor: #7c55fb;
     }
     & .card {
       width: auto;
-      background-color: #ffffff;
       margin: 0 0.5em;
       padding: 1em 0.5em;
       display: flex;
@@ -175,53 +175,6 @@ $primaryColor: #7c55fb;
         font-size: 0.8em;
         letter-spacing: 0.09px;
         line-height: 37px;
-      }
-    }
-  }
-
-  .newsletter-form {
-    color: $textColor;
-    width: 80%;
-    margin: 0 auto;
-    padding: 2rem;
-    border: solid 1px transparent;
-    border-radius: 4px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
-
-    h2 {
-      font-size: 2rem;
-    }
-
-    p {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-
-    input {
-      width: 100%;
-      font-size: 1rem;
-      padding: 1rem;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      border-radius: 4px;
-      background-color: white;
-
-      &:focus {
-        box-shadow: 0 0 6px 0 $primaryColor;
-      }
-
-      &[type="submit"] {
-        &:hover, &:focus {
-          background-color: $primaryColor;
-          color: white;
-        }
-      }
-    }
-
-    @media (min-width: 800px) {
-      width: 50%;
-
-      input {
-        font-size: 2rem;
       }
     }
   }

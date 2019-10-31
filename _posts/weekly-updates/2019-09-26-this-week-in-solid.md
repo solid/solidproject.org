@@ -1,3 +1,12 @@
+---
+layout: blog
+title: Week Updates 2019-09-26
+permalink: /this-week-in-solid/2019-09-26
+tags: [weekly, updates]
+categories: [Updates]
+author: Mitzi László
+---
+
 # 26th September 2019
 
 Hello and welcome to another edition of *This Week in Solid*!
