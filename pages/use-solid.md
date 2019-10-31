@@ -4,7 +4,7 @@ title: Use Solid Apps
 permalink: /use-solid
 ---
 
-## Getting Started with Solid
+# Using Solid apps
 To get started with Solid you will first need a Pod and a WebID, after which you can start [using Solid apps]({{site.baseUrl}}/use-solid/apps). 
 
 # Get a Pod and a WebID
