@@ -1,3 +1,5 @@
+@import './all.scss';
+
 .internal {
   .page-content {
     font-size: $base-font-size;
@@ -8,58 +10,6 @@
     }
     ol li {
       list-style-type: decimal;
-    }
-  }
-}
-
-.newsletter-form {
-  color: $textColor;
-  width: 80%;
-  margin: 0 auto;
-  padding: 2rem;
-  border: solid 1px transparent;
-  border-radius: 4px;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  input {
-    width: 100%;
-    font-size: 1rem;
-    padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    background-color: white;
-
-    &:focus {
-      box-shadow: 0 0 6px 0 $primaryColor;
-    }
-
-    &[type="submit"] {
-      &:hover, &:focus {
-        background-color: $primaryColor;
-        color: white;
-      }
-    }
-  }
-
-  @media (min-width: 800px) {
-    width: 50%;
-
-    .post-content & {
-      width: auto;
-      box-shadow: none;
-    }
-
-    input {
-      font-size: 2rem;
     }
   }
 }
