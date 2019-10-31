@@ -19,7 +19,7 @@ This is a weekly summary of Solid progress.
 
 Want something mentioned? Contact the Solid Manager at info@solidproject.org or [send a pull request](https://github.com/solid/information/edit/master/weekly-updates/next.md). Want to get involved? [Contributions are welcome](https://github.com/solid/information#develop).
 
-This Week in Solid is openly developed [on GitHub](./next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
+This Week in Solid is openly developed [on GitHub](https://github.com/solid/information/edit/master/weekly-updates/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
 
 ## Weekly Solid Call
 Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. 

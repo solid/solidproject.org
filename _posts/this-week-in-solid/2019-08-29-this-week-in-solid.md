@@ -17,7 +17,7 @@ This is a weekly summary of Solid progress.
 
 Want something mentioned? Contact the Solid Manager at info@solidproject.org or [send a pull request](https://github.com/solid/information/edit/master/weekly-updates/next.md). Want to get involved? [Contributions are welcome](https://github.com/solid/information#develop).
 
-This Week in Solid is openly developed [on GitHub](./next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
+This Week in Solid is openly developed [on GitHub](https://github.com/solid/information/edit/master/weekly-updates/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
 
 ## Weekly Solid Call
 Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. 
@@ -85,7 +85,7 @@ This week the [Notification Panel](https://github.com/solid/process/pull/116#eve
 
 [Sarven joined the App Authorisation Panel](https://github.com/solid/process/pull/115). 
 
-The Entry Document Panel switched the communication channel to [issues on the specification repoository]((https://github.com/solid/process/pull/114/files)). 
+The Entry Document Panel switched the communication channel to issues on the specification repoository. 
 
 ### Solid Proposal Development
 Here is an overview of active panel conversations to work on generating proposals this week. 

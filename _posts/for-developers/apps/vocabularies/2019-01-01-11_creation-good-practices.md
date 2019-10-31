@@ -19,7 +19,7 @@ Basically, a vocabulary is code. And what should you always do when you write co
 
 #### At the term granularity
 
-There are tools within RDF to help you document your vocabulary. First, remember that an IRI should primarily be a machine-understandable identifier: it's nice if it's readable by humans, but it's not its intended use. Therefore,  you should always use `rdfs:label` and `rdfs:comment` to attach human-understandable descriptions to your concepts (please refer to [the vocabulary documentation](Learn/writing-solid-applications/vocabularies/1-1-core) for more information). Pro tip: you can use the requirements you defined earlier to build the comments.
+There are tools within RDF to help you document your vocabulary. First, remember that an IRI should primarily be a machine-understandable identifier: it's nice if it's readable by humans, but it's not its intended use. Therefore,  you should always use `rdfs:label` and `rdfs:comment` to attach human-understandable descriptions to your concepts (please refer to [the vocabulary documentation](/for-developers/apps/vocabularies/well-known) for more information). Pro tip: you can use the requirements you defined earlier to build the comments.
 
 For instance:
 ```
@@ -51,7 +51,7 @@ The Webcomic ontology aims at describing webcomics, the things they talk about, 
                                foaf:primaryTopic "Webcomics" .
 ```
 
-In the [publication](4-publish) tutorial, we'll discuss in more details the important metadata to attach to your vocabulary.
+In the [publication](/for-developers/apps/vocabularies/publish) tutorial, we'll discuss in more details the important metadata to attach to your vocabulary.
 
 ## "Human-friendly" documentation
 

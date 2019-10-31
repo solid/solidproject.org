@@ -99,7 +99,7 @@ The third Solid Event is a good place to gather local companies and institutuion
 |11-10-2019|[Solid Copenhagen](https://www.meetup.com/Solid-Copenhagen-Meetup-Group/events/264871687/)|Sarmad Reda|
 |10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
 |12-09-2019|[Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-70748445505)|[Christian Buggadei](https://github.com/JollyOrc)|
-|2019-07-20|[Solid Beijing](https://www.eventbrite.com/e/solid-beijing-tickets-65524883691)|[Ivy Dom](https://github.com/leinue)|[Solid Beijing 2019](https://github.com/learnsolid/solid-beijing-2019)
+|2019-07-20|Solid Beijing|[Ivy Dom](https://github.com/leinue)|[Solid Beijing 2019](https://github.com/learnsolid/solid-beijing-2019)
 |2019-07-05|[Solid San Jose](https://www.meetup.com/San-Jose-SOLID-Technology-decentralized-Web-Meetup/events/262620128/)|[John Bartas](http://www.bartas.net/resume.html)||
 |2019-06-28|[Solid Hague](https://www.meetup.com/vierdevrijdag/events/jjtxlqyzjblc/)|Bart Roorda| [The PLDN, Linked Data, Solid Intro & Demo](https://www.slideshare.net/PLDN/solid-the-hague-june-28th-2019-153348635)|
 |2019-06-12|[Solid Oviedo](https://www.eventbrite.com/e/solid-oviedo-solid-chat-challenge-prize-ceremony-tickets-61938296111)|[Jose Emilio Labra Gayo](https://github.com/labra)||

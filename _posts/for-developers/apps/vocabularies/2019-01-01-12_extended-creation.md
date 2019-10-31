@@ -48,7 +48,7 @@ obelisk:height rdf:type owl:DataProperty .
 
 ### Connecting to other vocabularies
 
-Terms in vocabularies are identified by IRI, and it's not for decoration: it means that you can use the identifiers across the entire Web. The cool thing about that is that it makes it really easy to reuse terms from remote vocabularies in your own vocabularies. For instance, [`obelisk:Obelisk`](http://w3id.org/obelisk/ns/Obelisk) is quite a specific term, so it makes perfect sense to define it ourselves. What about [`obelisk:Person`](http://w3id.org/obelisk/ns/Person) ? Maybe there is a reference vocabulary out there that defines the concept of person... And if you pay a quick visit to [our list of well-known vocabularies](1-well-known), you will see that indeed there is! For instance, [Friend of a Friend](http://xmlns.com/foaf/0.1/) (foaf for short) defines the term [foaf:Person](http://xmlns.com/foaf/0.1/Person), and it would make our vocabulary easier to integrate into any application if we just reused this term instead of defining our own. Therefore, our vocabulary could look more something like this:
+Terms in vocabularies are identified by IRI, and it's not for decoration: it means that you can use the identifiers across the entire Web. The cool thing about that is that it makes it really easy to reuse terms from remote vocabularies in your own vocabularies. For instance, [`obelisk:Obelisk`](http://w3id.org/obelisk/ns/Obelisk) is quite a specific term, so it makes perfect sense to define it ourselves. What about [`obelisk:Person`](http://w3id.org/obelisk/ns/Person) ? Maybe there is a reference vocabulary out there that defines the concept of person... And if you pay a quick visit to [our list of well-known vocabularies](/for-developers/apps/vocabularies/well-known), you will see that indeed there is! For instance, [Friend of a Friend](http://xmlns.com/foaf/0.1/) (foaf for short) defines the term [foaf:Person](http://xmlns.com/foaf/0.1/Person), and it would make our vocabulary easier to integrate into any application if we just reused this term instead of defining our own. Therefore, our vocabulary could look more something like this:
 
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/ns/> .
@@ -214,7 +214,7 @@ obelisk:Obelisk a rdfs:Class ;
 
 ### Adding some description
 
-Much like we described each term with human-friendly labels and comments, we can add a title ([`dcterms:title`](http://purl.org/dc/terms/title)) and a description ([`dcterms:description`](http://purl.org/dc/terms/description)) to our vocabulary. To make it easier to reuse, we can also indicate a preferred prefix ([`vann:preferredNamespacePrefix`](http://purl.org/vocab/vann/preferredNamespacePrefix)) and a preferred IRI ([`vann:preferredNamespaceURI`](http://purl.org/vocab/vann/preferredNamespaceURI)) (since multiple IRIs may point to the same vocabulary).
+Much like we described each term with human-friendly labels and comments, we can add a title ([`dcterms:title`](http://purl.org/dc/terms/title)) and a description ([`dcterms:description`](http://purl.org/dc/terms/description)) to our vocabulary. To make it easier to reuse, we can also indicate a preferred prefix ([`vann:preferredNamespacePrefix`](http://purl.org/vocab/vann/preferredNamespacePrefix)) and a preferred IRI ([`vann:preferredNamespaceUri`](http://purl.org/vocab/vann/preferredNamespaceUri)) (since multiple IRIs may point to the same vocabulary).
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/ns/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -229,7 +229,7 @@ obelisk: rdf:type owl:Ontology ;
     The obelisk ontology aims at describing obelisks.
     """ ;
     vann:preferredNamespacePrefix "obelisk" ;
-    vann:preferredNamespaceURI <http://w3id.org/obelisk/ns/> .
+    vann:preferredNamespaceUri <http://w3id.org/obelisk/ns/> .
 
 # The remainder of the vocabulary is unchanged
 obelisk:Obelisk a rdfs:Class ;
@@ -261,7 +261,7 @@ obelisk: rdf:type owl:Ontology ;
     The obelisk ontology aims at describing obelisks.
     """ ;
     vann:preferredNamespacePrefix "obelisk" ;
-    vann:preferredNamespaceURI <http://w3id.org/obelisk/ns/> ;
+    vann:preferredNamespaceUri <http://w3id.org/obelisk/ns/> ;
     # Ownership information
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     # Note that people are identified by their webid
@@ -281,7 +281,7 @@ obelisk:Obelisk a rdfs:Class ;
 
 ### Versioning the vocabulary
 
-A vocabulary may change over time, and so it is helpful to also provide some explicit version information. Details about versioning a vocabulary are given later in the [vocabulary publication tutorial](4.1-publish-rdf#iri), but we can add some basic information here, e.g.:
+A vocabulary may change over time, and so it is helpful to also provide some explicit version information. Details about versioning a vocabulary are given later in the [vocabulary publication tutorial](/for-developers/apps/vocabularies/publish), but we can add some basic information here, e.g.:
 - a version number ([`owl:versionInfo`](http://www.w3.org/2002/07/owl#versionInfo))
 - an initial publication date ([`dcterms:issued`](http://purl.org/dc/terms/issued))
 - a version release date ([`dcterms:modified`](http://purl.org/dc/terms/modified))
@@ -305,7 +305,7 @@ obelisk: rdf:type owl:Ontology ;
     The obelisk ontology aims at describing obelisks.
     """ ;
     vann:preferredNamespacePrefix "obelisk" ;
-    vann:preferredNamespaceURI <http://w3id.org/obelisk/ns/> ;
+    vann:preferredNamespaceUri <http://w3id.org/obelisk/ns/> ;
     # Ownership
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     dcterms:creator <https://cleopatra.solid.community/profile/card#me> ;
@@ -353,6 +353,6 @@ obelisk:heigth a owl:DataProperty ;
     rdfs:domain obelisk:Obelisk ;
     rdfs:range xsd:float.
 ```
-A reference version of this final vocabulary is available [here](assets/misc/tutorials/quickstart-obelisk.ttl).
+A reference version of this final vocabulary is available [here](/assets/misc/tutorials/quickstart-obelisk.ttl).
 
 You can now use this vocabulary to [describe data for Solid](/for-developers/apps/vocabularies/use/extended). If you want a more advanced tutorial to create vocabularies, you can learn about [the NeOn methodology](/for-developers/apps/vocabularies/create/methodology).
