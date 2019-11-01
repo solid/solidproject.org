@@ -101,7 +101,7 @@ permalink: /
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
-          <h3 class="title">Your online Identity </h3>
+          <h3 class="title">Single Sign-On</h3>
           <p class="info">
           Login with WebID to use Solid. Similar to email, WebID allows you to connect to anyone else no matter who their identity provider is. When you login with WebID, you and only you and where you are signing into knows about it. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> by signing up for a WebID.
           </p>
