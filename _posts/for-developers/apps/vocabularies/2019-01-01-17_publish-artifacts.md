@@ -3,7 +3,7 @@ layout: post
 title: "Publish your vocabulary as code artifacts"
 permalink: /for-developers/apps/vocabularies/publish/artifacts
 tags: [implement, vocabularies]
-categories: [Vocabularies]
+categories: [Vocabularies, Create]
 exclude: true
 published: true
 ---
