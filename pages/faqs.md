@@ -35,7 +35,6 @@ You can choose to self-host or select a hosting provider. Self-hosting means tha
 ## Does Solid use blockchain?
 No. Solid is not a blockchain technology, but it can interact and use other blockchain initiatives. 
 
-
 # Using Solid 
 
 ## I just signed up but have two profile locations, what is the difference between the two? 
@@ -54,6 +53,15 @@ This depends on your Pod provider, check the terms and conditions of your Pod pr
 
 ## When I want to leave a Pod provider, can I take my data with me?
 This depends on the agreement you have with your hosting provider. There are some support tools like [Terms of Service Don't Read](https://tosdr.org) to help you understand the small print more easily.
+
+## Will Pod providers get paid? By who? 
+This will be determined by the market. 
+
+## If everyone used Solid would I lose my favourite internet services? 
+No. Search engines and communication tools do not need to track you to work.  Hopefully over time all the nice things you get from silos which don’t let you control your data will be echoed by new solid-compatible ones which do.
+
+## Doesn't the [Data Transfer Project](https://datatransferproject.dev) fix the data concerns? 
+It’s a great start. The next step is to build a healthy array of options for users to make their data work for themselves. 
 
 # Security 
 
@@ -77,6 +85,39 @@ Solid does not get the data you already sent out back. As soon as you start usin
 
 ## Does a copy of my data controlled by others exist? 
 Yes. Today, other people and organisations have a copy of your data, but you may not. And, just because you have a copy of your data doesn’t necessarily mean that others won’t also have a copy.
+
+## Could the Solid technology be a tool to trace or control criminal actions?
+The law determines the remit of the government to track or control criminal action. The users choice of where to store their Pod would determine which jurisdiction had oversight of the data in that Pod. Expect if the user is based in Europe, in which case the General Data Protection Regulation applies regardless of where the Pod is stored. 
+
+## As a Pod provider are you legally responsible for the data you are storing?
+Pod providers have commitments to the individuals and legal entities that they provide services to based on the law of the countries in which the hosting provider is operating. As a Pod provider you should seek professional advice on how to be compliant. As an individual Solid user, you should carefully read the agreement with your hosting provider before agreeing. 
+
+## Could Solid become another tech giant monopoly?
+Solid is an open standard. Could the solid standards dominate the technical landscape? Yes, that would be ideal, so we would have one interoperable Solid web, not many.
+
+## Could a Solid app of Pod become another tech giant monopoly? 
+Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
+
+## Is it opt-in or opt-out to share my data when using Solid?
+Opt-in. The default is for you not to share your data. You have to give your active consent to share your data.
+
+## What if I don’t want to share my data at all? 
+Solid makes sure that the minimum amount of data is shared while still providing you with services. Some services do need to know something about you to be able to function, for example, to send you a product the company will need to know where to send that product to. 
+
+## Who controls the data of a child using Solid?
+The child. The parents or guardians of a child are responsible for managing the data sharing preferences of the child until they reach the legal age of consent in their country of location. 
+ 
+## If I use Solid, who controls my data when I die?
+You decide based on your will and your agreement with any hosting provider and app you have been using. 
+ 
+## Why do we need Solid when we already have laws for data protection?
+Data protection laws in a nutshell tend to promote transparency around data use and insist on informed explicit consent from the user. Solid provides a tools to make this possible. 
+
+## Isn’t having free Internet services a good exchange for giving access to my data?
+That’s up to you, Solid just gives you the choice. 
+
+## Is it wise to trust people to make ethical decisions on such a complicated issue?
+There is a lot of variation in what people feel to be right and wrong, and ultimately it is down to you to decide what to do with your data. Solid does try to help you make informed choices by providing relevant information and by constantly validating the accuracy of that information.
 
 # Building Solid 
 
