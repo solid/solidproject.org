@@ -31,12 +31,12 @@ Opt-in. The default is for you not to share your data. You have to give your act
 Solid makes sure that the minimum amount of data is shared while still providing you with services. Some services do need to know something about you to be able to function, for example, to send you a product the company will need to know where to send that product to. 
 
 ## Could Solid become another tech giant monopoly?
-Solid is open source software and open standards. Could the solid standards dominate the technical landscape? Yes, that would be ideal, so we would have one interoperable solid web, not many.
+Solid is an open standard. Could the solid standards dominate the technical landscape? Yes, that would be ideal, so we would have one interoperable Solid web, not many.
 
-## Could a Solid App become another tech giant monopoly? Could a Solid Storage Provider become another tech giant monopoly?
-Yes, because these are open markets, it is possible that as time goes by one company or other becomes the dominant app provider,  or the dominant storage provider. Economies of scale tend to make monopolies eventually arise. If they do, it might even be necessary for antitrust agencies to put limits on the monopoly. But that is very speculative, and a long way down the road. We expect in the short and medium term the net effect of Solid to be a huge jump in diversity of offerings on all sides and an exciting robust competition. Ultimately on Solid, everybody can win and create applications that are larger than the sum of their parts. 
+## Could a Solid app of Pod become another tech giant monopoly? 
+Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
 
-## Don’t the Data Transfer Portability Projects fix the data concerns? 
+## Doesn't the [Data Transfer Project](https://datatransferproject.dev) fix the data concerns? 
 It’s a great start. The next step is to build a healthy array of options for users to make their data work for themselves. 
 
 ## As a hosting provider are you legally responsible for the data you are storing?
@@ -64,7 +64,7 @@ When it comes to malicious cyber attacks, an attack on a single source of many p
 Solid currently is working on access controls to selectively limit the data access to applications. 
 
 ## Can I make sure that nobody has a copy of my data? 
-Solid does not get the data you already sent out back. As soon as you start using Solid, you will be the sole controller of the data you generate while using these apps. If you would like to ask for your data to be deleted from other services, In Europe there is a law called the Right to be Forgotten which makes it possible for European citizens to ask for their data to be deleted.
+Solid does not get the data you already sent out back. As soon as you start using Solid, you will be able to be more deliberate about your data sharing preferences from that point onwards. If you would like to ask for your data to be deleted from other services, In Europe there is a law called the [Right to be Forgotten](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e2589-1-1) which makes it possible for European citizens to ask for their data to be deleted. You can find template letters and instructions on how to exercise this right [here](https://www.datarequests.org/blog/sample-letter-gdpr-erasure-request/). 
 
 ## Does a copy of my data controlled by others exist? 
 Yes. Today, other people and organisations have a copy of your data, but you may not. And, just because you have a copy of your data doesn’t necessarily mean that others won’t also have a copy.
@@ -73,12 +73,12 @@ Yes. Today, other people and organisations have a copy of your data, but you may
 No. Search engines and communication tools do not need to track you to work.  Hopefully over time all the nice things you get from silos which don’t let you control your data will be echoed by new solid-compatible ones which do.
 
 ## Can people working at the place where I choose to store my data see my data? 
-Today, the Pod is not encrypted therefore your service provider could see your data. The Solid community is working on Pod encryption to change this. 
+This depends on your Pod provider, check the terms and conditions of your Pod provider to find out more. There are some support tools like [Terms of Service Don't Read](https://tosdr.org) to help you understand the small print more easily.
 
-## When I want to leave a hosting provider, can I take my data with me?
-This depends on the agreement you have with your hosting provider. 
+## When I want to leave a Pod provider, can I take my data with me?
+This depends on the agreement you have with your hosting provider. There are some support tools like [Terms of Service Don't Read](https://tosdr.org) to help you understand the small print more easily.
 
-## Arguably the Semantic Web or Linked Data never took off, so why is Solid working with it? 
+## Arguably the [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) or [Linked Data](https://en.wikipedia.org/wiki/Linked_data) never took off, so why is Solid working with it? 
 Today, almost a quarter of all websites are currently using the semantic web or linked data. The Solid community is working to provide seamless convenience to developers to work with the semantic web or linked data more easily.
 
 ## What is the Solid architecture?
@@ -94,7 +94,7 @@ You can choose to self host or select a hosting provider. Self hosting means tha
 Organisations that are legal entities can get a WebID and Pod in exactly the same way as an individual would. 
 
 ## Can a data exist in more than one Pod? 
-Yes, if the original data controller allows an app to transfer and store personal data, that data can exist in more than one Pod. 
+Yes, the same data point can exist in more than one Pod. You can choose to have more than one Pod deliberately, for example for work and for home, in which case, some data may be relevant to both settings. You can also choose to have a single Pod and give selective access. Some data is relevant to multiple users so may be replicated in a slightly different way in another person’s Pod. For example, if you have a conversation with someone the data may be stored in both your Pod and the Pod of the person you spoke with. 
 
 ## Does Solid mean we won’t need so many password? 
 Yes. When you use Solid you can use applications that would interact with your Pod and therefore the login mechanism would be much simpler than having to create accounts on each and every service. However, you will still have to manage what data you would like to share with each application. 
@@ -103,7 +103,6 @@ Yes. When you use Solid you can use applications that would interact with your P
 In the container server. 
 
 ## How does Solid ensure consumers really have control over data when companies need to have it on their own systems to actually get some work done?
-Category: Solid: The Basics 
 Data protection does not mean a total lock down of data, it means ensuring that data is used to the advantage and wishes of the individual to which that data belongs. If a service needs data to provide a service that the individual would like and does not put the individual at unnecessary risk, then that data transfer is legitimate. Solid provides an overview to an individual of their complete data via their Pod and allows them to conveniently give access and deny access at any point.
 
 ## How does a Pod determine who has access to data?
@@ -115,24 +114,6 @@ Panes are an integral part of the Solid Data Browser, which is the view you’ll
 You can think of them as interfaces that allows you to view aspects of a resource a given way, like you would look at something through the panes of a window. You can also reuse panes within other panes, which makes this metaphor very similar to composite design pattern, i.e. components that are a dear concepts to many programmers.
 
 There are about 30 panes available in the Solid Data Browser today, such as profile, chat, contacts, folder, and source.
-
-## How to add a contact?
-If you want to do this using the Solid Data Browser (this is what will happen if you try to access your WebID) you can do this by using the tools Solid provides when you access your WebID.
-
-When you are at your WebID, you can hover your name and see a set of tools. Amongst these are the Contact Pane, which is selected in the image below.
-
-In this pane you can edit your contacts in the bottom section. If you don’t have any contacts from before, you’ll see a something like this:
-
-To add a contact you’ll have to drag the the URL of the WebID onto the target-icon. You can see an animation of how this in done in the blog post of Don Tai. (Note: We might want to create our own animation instead of linking to external resources we cannot necessarily trust.)
-
-## How can I access resources requiring authentication using curl?
-The easiest way to make HTTP requests with curl is to reuse the cookie that is set when you log in with your browser. The default value for this is connect.sid, and you can find in your browsers Developers Tools.
-
-In Firefox you’ll see something like:
-
-In Chrome you’ll see something like:
-
-Once you have the cookie value you can use this in your curl command by using the option cookie, e.g. --cookie "connect.sid=<your-cookie-value>".
 
 ## How to send HTTP requests using Postman? 
 Making requests using Postman is similar to how you would do it with curl, i.e. set a cookie value. To see how you do this with Postman, check out their documentation on Cookies.
@@ -146,6 +127,15 @@ PROGRESS: Researching (easy to do on servers with proper certificates, not easy 
 You can upload a document using the the Solid Data Browser by navigating to the container you want to upload the file to. If you navigate to your public container (e.g. https://YOUR-USERNAME.solid.community/public) you might see something like this:
 
 By dropping documents onto the green plus-icon it will attempt to upload that file. If successful, you should see a new entry in the list of resources.
+
+## How do you add a contact?
+If you want to do this using the Solid Data Browser (this is what will happen if you try to access your WebID) you can do this by using the tools Solid provides when you access your WebID.
+
+When you are at your WebID, you can hover your name and see a set of tools. Amongst these are the Contact Pane, which is selected in the image below.
+
+In this pane you can edit your contacts in the bottom section. If you don’t have any contacts from before, you’ll see a something like this:
+
+To add a contact you’ll have to drag the the URL of the WebID onto the target-icon. You can see an animation of how this in done in the blog post of Don Tai. (Note: We might want to create our own animation instead of linking to external resources we cannot necessarily trust.)
 
 ## How do I delete a document from my Pod?
 To delete a document using the Solid Data Browser you need to navigate to the container the resource resides in (e.g. the container of https://megoth.solid.community/public/test.txt is https://megoth.solid.community/public/). Open the resource you want to delete, and look at the tools. Then choose the Internals pane:
