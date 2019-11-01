@@ -3,7 +3,7 @@ layout: post
 title: "NeOn, a vocabulary creation methodology"
 permalink: /for-developers/apps/vocabularies/create/methodology
 tags: [implement, vocabularies]
-categories: [Vocabularies]
+categories: [Vocabularies, Create]
 exclude: true
 ---
 

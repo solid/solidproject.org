@@ -3,7 +3,7 @@ layout: post
 title: "Vocabulary building best practices"
 permalink: /for-developers/apps/vocabularies/create/best-practices
 tags: [implement, vocabularies]
-categories: [Vocabularies]
+categories: [Vocabularies, Create]
 exclude: true
 ---
 
