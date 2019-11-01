@@ -21,27 +21,37 @@ In Solid, a WebID is the way you login and connect to your contacts.
 
 An identity provider delivers your WebID as a form of authentication. The identity provider is the domain your WebID Profile is found. A Pod provider delivers one or more domains pointed to by solid:storage statements which can be the same of different to your identity provider.
 
-# How Solid Works 
+# Storage 
 
-## How does Solid ensure consumers really have control over data when companies need to have it on their own systems to actually get some work done?
-Data protection does not mean a total lock down of data, it means ensuring that data is used to the advantage and wishes of the individual to which that data belongs. If a service needs data to provide a service that the individual would like and does not put the individual at unnecessary risk, then that data transfer is legitimate. Solid provides an overview to an individual of their complete data via their Pod and allows them to conveniently give access and deny access at any point.
+## How does Solid relate to other Web standards?
+Solid defines how apps and Pods communicate data by defining a single API. The client-server API is made up of [HTTP]( https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol), [LDP]( https://en.wikipedia.org/wiki/Label_Distribution_Protocol), and [WAC]( https://www.w3.org/wiki/WebAccessControl). 
 
-## Does Solid mean we won’t need so many passwords? 
-Yes. When you use Solid you can use applications that would interact with your Pod and therefore the login mechanism would be much simpler than having to create accounts on each and every service. However, you will still have to manage what data you would like to share with each application. 
+Users have more options of where to store the data generated while using an app as well as who has access to what data, when and under which conditions. 
+
+Clients can send small changes to and data file as though it were a database and can also subscribe to any changes other users make.  Then clients can talk to each other via the servers without the servers needing to know anything about the applications. So then as well as the client-server API, we need common standards for allow the clients to interoperate: “client-client” specs. How to discover the user’s contacts, the user’s general stuff, (type indexes), preferences, groups and communities, preferences within those communities. And then domain-specific standards for chat, photos, music, issue tracking, likes, bookmarks, health, fitness, academic record, CV, and so on. 
+
+## Are Solid users expected to setup their own servers and self-host?
+
+You can choose to self-host or select a hosting provider. Self-hosting means that your data would sit at home on your own physical hard drive.
 
 ## Can data exist in more than one Pod? 
+
 Yes, the same data point can exist in more than one Pod. You can choose to have more than one Pod deliberately, for example for work and for home, in which case, some data may be relevant to both settings. You can also choose to have a single Pod and give selective access. Some data is relevant to multiple users so may be replicated in a slightly different way in another person’s Pod. For example, if you have a conversation with someone the data may be stored in both your Pod and the Pod of the person you spoke with. 
+
+## Is it possible to use Solid offline (at least partially)? 
+
+Yes, the Solid long term vision includes local first and a flexibility of different topologies of patch-passing sync networks. However, there are no implementations yet. 
+
+## When I want to leave a Pod provider, can I take my data with me?
+This depends on the agreement you have with your hosting provider. There are some support tools like [Terms of Service Don't Read](https://tosdr.org) to help you understand the small print more easily.
+
+## When using Solid, how is data stored?
+Solid provides a general purpose read-write REST API to store data in individual files (resources) and directories (containers).
+
+# Identification
 
 ## How does Solid help store data of an organisation, not an individual?  
 Organisations that are legal entities can get a WebID and Pod in exactly the same way as an individual would. 
-
-## Are Solid users expected to setup their own servers and self-host?
-You can choose to self-host or select a hosting provider. Self-hosting means that your data would sit at home on your own physical hard drive.
-
-## Does Solid use blockchain?
-No. Solid is not a blockchain technology, but it can interact and use other blockchain initiatives. 
-
-# Using Solid 
 
 ## I just signed up but have two profile locations, what is the difference between the two? 
 
@@ -50,15 +60,7 @@ Solid allows you to use services from a variety of identity providers, Pod provi
 ## How can I delete my WebID? 
 If you want to delete your WebID your identity provider should offer an endpoint for doing that. 
 
-## Is it possible to use Solid offline (at least partially)? 
-
-Yes, the Solid long term vision includes local first and a flexibility of different topologies of patch-passing sync networks. However, there are no implementations yet. 
-
-## Can people working at the place where I choose to store my data see my data? 
-This depends on your Pod provider, check the terms and conditions of your Pod provider to find out more. There are some support tools like [Terms of Service Don't Read](https://tosdr.org) to help you understand the small print more easily.
-
-## When I want to leave a Pod provider, can I take my data with me?
-This depends on the agreement you have with your hosting provider. There are some support tools like [Terms of Service Don't Read](https://tosdr.org) to help you understand the small print more easily.
+# The Business Model 
 
 ## Will Pod providers get paid? By who? 
 This will be determined by the market. 
@@ -66,10 +68,26 @@ This will be determined by the market.
 ## If everyone used Solid would I lose my favourite internet services? 
 No. Search engines and communication tools do not need to track you to work.  Hopefully over time all the nice things you get from silos which don’t let you control your data will be echoed by new solid-compatible ones which do.
 
+# The Bigger Picture  
+
 ## Doesn't the [Data Transfer Project](https://datatransferproject.dev) fix the data concerns? 
-It’s a great start. The next step is to build a healthy array of options for users to make their data work for themselves. 
+It’s a great start. The next step is to build a healthy array of options for users to make their data work for themselves.
+
+## How to integrate iOS and Android apps into Solid? 
+
+Currently there are no developer kits in development for Android or iOS.If you really want to have an app that can be installed on Android or iOS, you might consider writing it as a progressive web app or writing it as a hybrid app. 
+
+## Arguably the [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) or [Linked Data](https://en.wikipedia.org/wiki/Linked_data) never took off, so why is Solid working with it? 
+
+Today, almost a quarter of all websites are currently using the semantic web or linked data. The Solid community is working to provide seamless convenience to developers to work with the semantic web or linked data more easily.
+
+## Does Solid use blockchain?
+No. Solid is not a blockchain technology, but it can interact and use other blockchain initiatives. 
 
 # Security 
+
+## Does Solid mean we won’t need so many passwords? 
+Yes. When you use Solid you can use applications that would interact with your Pod and therefore the login mechanism would be much simpler than having to create accounts on each and every service. However, you will still have to manage what data you would like to share with each application. 
 
 ## Is data in my Pod safe? Is the Pod encrypted while it is stored on a provider's system?
 Data stored on your Pod is not encrypted, ideally this would be introduced in the near future. 
@@ -125,33 +143,3 @@ That’s up to you, Solid just gives you the choice.
 ## Is it wise to trust people to make ethical decisions on such a complicated issue?
 There is a lot of variation in what people feel to be right and wrong, and ultimately it is down to you to decide what to do with your data. Solid does try to help you make informed choices by providing relevant information and by constantly validating the accuracy of that information.
 
-# Building Solid 
-
-## What is the Solid architecture?
-Technically, Solid is about creating a single solid API which any app can use to talk to any store, so the user has a choice of several places to put data, and complete control of sharing or not in in case. The client-server API is made of HTTP and LDP and WACL and some glue, extra HTTP headers, a little posix metadata. That is a significant, but finite, spec., which every Solid server must meet. Servers to storage, access control. Clients can send small changes to and data file as though it were a database, and can also subscribe to any changes other users make.  Then clients can talk to each other via the servers without the servers needing to know anything about the applications. So then as well as the client-server API, we need common standards for allow the clients to interoperate: “client-client” specs. How to discover the user’s contacts, the user’s general stuff, (type indexes), preferences, groups and communities, preferences within those communities. And then domain-specific standards for chat, photos, music, issue tracking, likes, bookmarks, health, fitness, academic record, CV, and so on. 
-
-## When using Solid, how is data stored?
-Solid provides a general purpose read-write REST API to store data in individual files (resources) and directories (containers).
-
-## How does a Pod determine who has access to what data?
-Web Access Control (WAC) is the part of Solid that determines who has access to what data. 
-
-Access Control List Resources (ACLs) and agents, for example, a random visitor or an authenticated user, describe which modes of access a user might have to what data. The various types of access are: 
-•	Read
-•	Write
-•	Append
-•	Control
-
-ACLs can also be used to describe the default access to resources that reside within a given container. Containers are like folders on your computer.
-
-The default means the container where the resource resides can indicate the ACLs even if the resource doesn’t have an ACL. If there are no ACLs for the container the ACL of the parent container will be identified, and so on, until it reaches the root container. 
-
-## Where does authorisation happen? 
-In the container server. 
-
-## How to integrate iOS and Android apps into Solid? 
-
-Currently there are no developer kits in development for Android or iOS.If you really want to have an app that can be installed on Android or iOS, you might consider writing it as a progressive web app or writing it as a hybrid app. 
-
-## Arguably the [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) or [Linked Data](https://en.wikipedia.org/wiki/Linked_data) never took off, so why is Solid working with it? 
-Today, almost a quarter of all websites are currently using the semantic web or linked data. The Solid community is working to provide seamless convenience to developers to work with the semantic web or linked data more easily.
