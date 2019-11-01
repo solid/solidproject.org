@@ -141,6 +141,14 @@
             padding: 0;
             list-style: none;
 
+            h5 {
+                padding-left: 0px;
+            }
+            a {
+                padding-left: 0px;
+               color: inherit;
+             }
+
             li {
                 margin: 10px 0;
                 list-style-type: none !important;
@@ -161,14 +169,18 @@
                     }
                 }
 
-                // ul {
-                //     display: none;
-    
-                //     a {
-                //        // padding-left: 60px;
-                //        color: inherit;
-                //     }
-                // }
+                 ul {
+                    margin: 5px 0;
+                    list-style: none;
+                    li {
+                        margin: 10px 0;
+                        padding-left: 30px;
+                        list-style-type: none !important;
+                        a {
+                            padding-left: 30px;
+                         }
+                    }
+                 }
             }
         }
 
@@ -183,9 +195,9 @@
             color: $curious-blue;
         }
 
-        ul {
-            margin: 0 0 40px;
-        }
+        // ul {
+        //     margin: 0 0 40px;
+        // }
     }
     .post-content {
         color: $gray;

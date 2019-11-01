@@ -51,7 +51,7 @@ layout: internal
                                     <ul>
                                         <li>
                                             {% if subcat == page.categories[1] %}
-                                                <h5>{{ subcat }}</h5>
+                                                <h5><a href="#"">{{ subcat }}</a></h5>
                                                 <ul>
                                                     {% for post in site.categories[cat] reversed %}
                                                         {% if post.categories[1] == subcat %}
