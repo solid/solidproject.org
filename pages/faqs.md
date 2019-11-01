@@ -21,7 +21,7 @@ In Solid, a WebID is the way you login and connect to your contacts.
 
 An identity provider delivers your WebID as a form of authentication. The identity provider is the domain your WebID Profile is found. A Pod provider delivers one or more domains pointed to by solid:storage statements which can be the same of different to your identity provider.
 
-# Storage 
+# Web Standards 
 
 ## How does Solid relate to other Web standards?
 Solid defines how apps and Pods communicate data by defining a single API. The client-server API is made up of [HTTP]( https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol), [LDP]( https://en.wikipedia.org/wiki/Label_Distribution_Protocol), and [WAC]( https://www.w3.org/wiki/WebAccessControl). 
@@ -29,6 +29,8 @@ Solid defines how apps and Pods communicate data by defining a single API. The c
 Users have more options of where to store the data generated while using an app as well as who has access to what data, when and under which conditions. 
 
 Clients can send small changes to and data file as though it were a database and can also subscribe to any changes other users make.  Then clients can talk to each other via the servers without the servers needing to know anything about the applications. So then as well as the client-server API, we need common standards for allow the clients to interoperate: “client-client” specs. How to discover the user’s contacts, the user’s general stuff, (type indexes), preferences, groups and communities, preferences within those communities. And then domain-specific standards for chat, photos, music, issue tracking, likes, bookmarks, health, fitness, academic record, CV, and so on. 
+
+# Storage 
 
 ## Are Solid users expected to setup their own servers and self-host?
 
