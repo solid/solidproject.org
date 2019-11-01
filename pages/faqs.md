@@ -11,6 +11,12 @@ Got a question that's not here? Try asking on the [Solid forum](https://forum.so
 ## What exactly is personal data? 
 Personal data is personal. It refers to data sets describing a person ranging from physical attributes to their preferences and behaviour. Examples of personal data include: location, genome data, written communication, spoken communication, lists of contacts, internet browsing habits, financial transactions, supermarket spending, tax payments, criminal record, laptop and mobile phone camera lens recording, device microphone recordings, driving habits via car trackers, mobile and health records, fitness activity, nutrition, substance use, heartbeat, sleep patterns and other vital signs.
 
+## What is a Pod? 
+In Solid, a Pod is where a user stores their data. 
+
+## What is a WebID? 
+In Solid, a WebID is the way you login and connect to your contacts. 
+
 ## To what extent are Pods conceived as distinct from the WebIDs?
 
 An identity provider delivers your WebID as a form of authentication. The identity provider is the domain your WebID Profile is found. A Pod provider delivers one or more domains pointed to by solid:storage statements which can be the same of different to your identity provider.
