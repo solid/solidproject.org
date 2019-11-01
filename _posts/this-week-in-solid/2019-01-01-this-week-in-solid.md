@@ -16,6 +16,7 @@ We're currently working on next week's edition. You can contribute by [making a 
 
 # Past Issues
 
+* [31st October 2019]({{site.baseUrl}}/this-week-in-solid/2019-10-31)
 * [17th October 2019]({{site.baseUrl}}/this-week-in-solid/2019-10-17)
 * [10th October 2019]({{site.baseUrl}}/this-week-in-solid/2019-10-10)
 * [3rd October 2019]({{site.baseUrl}}/this-week-in-solid/2019-10-03)
