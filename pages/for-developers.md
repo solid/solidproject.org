@@ -13,11 +13,11 @@ permalink: /for-developers
           alt=""
           class="icon"
         />
-        <span class="card-title">Build apps on top of Solid</span>
+        <span class="card-title">Build Solid web apps</span>
       </div>
       <div class="card-body">
         <p>
-          Enable users to make most of their data
+          Enable users of your apps to make most of their data.
         </p>
       </div>
     </a>
