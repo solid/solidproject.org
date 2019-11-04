@@ -37,7 +37,7 @@ permalink: /
           </div>
           <div class="card-body">
             <p>
-            Move freely without losing data and connections. Use the best tools without having to restart the setup process.
+            Switch to the best tools and take your data with you. 
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ permalink: /
           </div>
           <div class="card-body">
             <p>
-            Get recommendations based on the whole you. Solid makes it possible to recycle data collected on other apps so that you get better quality insights in your favour.
+            Get quality recommendations based on the whole you by recycling data from multiple apps. 
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ permalink: /
           </div>
           <div class="card-body">
             <p>
-              People want different things. Solid lets you connect to people on different apps rather than having to download new apps to connect with different friends.
+              Connect to your friends no matter what app they are using. 
             </p>
           </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -86,7 +86,7 @@ permalink: /
           </div>
           <div class="card-body">
             <p>
-              People want different things. Solid lets you connect to people on different apps rather than having to download new apps to connect with different friends.
+              Give access to the bare minimum of data needed for the service to work.
             </p>
           </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -101,7 +101,7 @@ permalink: /
           </div>
           <div class="card-body">
             <p>
-              People want different things. Solid lets you connect to people on different apps rather than having to download new apps to connect with different friends.
+              Avoid repetitive setup processes. 
             </p>
           </div>
         </div>
