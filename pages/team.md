@@ -46,6 +46,7 @@ Nicolas is a developer at Inrupt. He joined the company after his PhD on the Sem
 
 ## Dan Wilkinson 
 **Creator** 
+Dan Wilkinson is an independent brand consultant who specialises in disruptive technologies and innovative products or services. Dan has worked for a number of leading global agencies and companies over the past 15 years across brand, advertising, digital product and content.
 
 ## Tony Morelli 
 **Creator** 
@@ -53,6 +54,7 @@ Tony Morelli is a Principal Experience Designer with Janeiro Digital who works w
 
 ## Lisa Nguyen 
 **Creator**  
+Lisa Nguyen is an Experience Designer at Janeiro Digital in Boston. She’s currently developing concepts for Solid databrowser and applications.
 
 ## Jackson Morgan
 **Administrator** 
