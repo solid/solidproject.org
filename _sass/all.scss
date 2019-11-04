@@ -1,6 +1,3 @@
-$textColor: #5a5a5a;
-$primaryColor: #7c55fb;
-
 .cards {
   width: 100%;
   a.card {
@@ -38,7 +35,7 @@ $primaryColor: #7c55fb;
       transition: all 300ms ease-in-out;
 
       & > span.card-title {
-        color: $textColor;
+        color: $text-color;
         font-size: 0.8em;
         font-weight: bold;
         letter-spacing: 0.07px;
@@ -63,7 +60,7 @@ $primaryColor: #7c55fb;
 
     & > .card-body {
       margin-top: 2em;
-      color: $textColor;
+      color: $text-color;
       font-family: Lato;
       font-size: 19px;
       letter-spacing: 0.08px;
@@ -88,7 +85,7 @@ $primaryColor: #7c55fb;
 }
 
 .newsletter-form {
-  color: $textColor;
+  color: $text-color;
   width: 80%;
   margin: 0 auto;
   padding: 2rem;
@@ -114,12 +111,12 @@ $primaryColor: #7c55fb;
     background-color: white;
 
     &:focus {
-      box-shadow: 0 0 6px 0 $primaryColor;
+      box-shadow: 0 0 6px 0 $solid-color;
     }
 
     &[type="submit"] {
       &:hover, &:focus {
-        background-color: $primaryColor;
+        background-color: $solid-color;
         color: white;
       }
     }
