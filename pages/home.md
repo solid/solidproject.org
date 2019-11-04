@@ -74,7 +74,11 @@ permalink: /
               Connect to your friends no matter what app they are using. 
             </p>
           </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        </div>
+      </div>
+    </div>
+    <div class="cards row around">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div class="card">
           <div class="card-header">
             <img
@@ -89,7 +93,9 @@ permalink: /
               Give access to the bare minimum of data needed for the service to work.
             </p>
           </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div class="card">
           <div class="card-header">
             <img
