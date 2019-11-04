@@ -1,5 +1,9 @@
 @import './rouge-themes/monokai.scss';
 
+:root {
+  scroll-behavior: smooth;
+}
+
 .cards {
   width: 100%;
   margin-bottom: 1rem;
