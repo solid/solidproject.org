@@ -165,7 +165,8 @@
                     a {
                         color: $curious-blue;
                         font-weight: 600;
-                        padding-left: 30px;
+                        // Same padding as other entries in the navigation, minus the border width
+                        padding-left: 30px - 4px;
                     }
                 }
 
@@ -178,7 +179,7 @@
                         list-style-type: none !important;
                         a {
                             padding-left: 30px;
-                         }
+                        }
                     }
                  }
             }
