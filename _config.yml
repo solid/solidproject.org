@@ -42,3 +42,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+kramdown:
+  input: GFM
+  # GitHub Pages only supports rouge for syntax highlighting:
+  # https://github.blog/2016-02-01-github-pages-now-faster-and-simpler-with-jekyll-3-0/#the-highlight-zone
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
