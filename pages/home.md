@@ -67,7 +67,37 @@ permalink: /
               alt=""
               class="icon"
             />
-            <span class="card-title">Platform-independent connection</span>
+            <span class="card-title">Connect anywhere with anyone</span>
+          </div>
+          <div class="card-body">
+            <p>
+              People want different things. Solid lets you connect to people on different apps rather than having to download new apps to connect with different friends.
+            </p>
+          </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/users.svg"
+              alt=""
+              class="icon"
+            />
+            <span class="card-title">Selective Sharing</span>
+          </div>
+          <div class="card-body">
+            <p>
+              People want different things. Solid lets you connect to people on different apps rather than having to download new apps to connect with different friends.
+            </p>
+          </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/users.svg"
+              alt=""
+              class="icon"
+            />
+            <span class="card-title">Single Sign On</span>
           </div>
           <div class="card-body">
             <p>
