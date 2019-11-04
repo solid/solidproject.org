@@ -2,6 +2,7 @@
 
 .cards {
   width: 100%;
+  margin-bottom: 1rem;
   a.card {
     text-decoration: none;
     border: solid 1px transparent;
@@ -80,10 +81,6 @@
       margin: 0 auto;
     }
   }
-}
-
-.cards-footer {
-  padding: 1rem;
 }
 
 .newsletter-form {

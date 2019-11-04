@@ -57,6 +57,6 @@ permalink: /get-started
     </a>
   </div>
 </div>
-<div class="cards-footer">
+<p>
   <a href="/#what-is-solid">What is Solid?</a>
-</div>
+</p>
