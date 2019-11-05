@@ -95,23 +95,6 @@ permalink: /
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/users.svg"
-              alt=""
-              class="icon"
-            />
-            <span class="card-title">Single Sign On</span>
-          </div>
-          <div class="card-body">
-            <p>
-              Avoid repetitive setup processes. 
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
     <span id="what-is-solid"></span>
     <div class="img-info-banner row around">
