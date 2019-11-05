@@ -7,6 +7,8 @@ categories: [Writing a Solid application]
 exclude: true
 ---
 
+([This step as a Git commit.](https://gitlab.com/vincenttunru/notepod/commit/5c534abdd2d6ed18be8ddc256427fb7bc0baae71))
+
 We've [got the user's WebID]({{site.baseUrl}}/for-developers/apps/first-app/1-authentication) and we
 [know that it points to a
 Document]({{site.baseUrl}}/for-developers/apps/first-app/2-understanding-solid); it's time we actually
@@ -57,6 +59,9 @@ async function getName(webId) {
   return user.getString(foaf.name)
 }
 ```
+<span class="codesandbox-button-wrapper">
+[![Edit on CodeSandbox]({{site.baseUrl}}/assets/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Vinnl/notepod/tree/3-reading-data/?module=%2Fsrc%2Fcomponents%2FDashboard.tsx)
+</span>
 
 Two things to note here. First, we call `getString` to indicate that we are looking for an actual
 value (i.e. a Literal), rather than a URL. (Likewise, we could e.g. use `getInteger` or `getDecimal`

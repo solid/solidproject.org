@@ -7,6 +7,8 @@ categories: [Writing a Solid application]
 exclude: true
 ---
 
+([This step as a Git commit.](https://gitlab.com/vincenttunru/notepod/commit/41d805dadb1d85eecb9675fe715cfa82a1d89ef5))
+
 Now that the user's Pod is all set up, it's time to store some actual notes. Luckily, [now that we
 already have our `notesList`]({{site.baseUrl}}/for-developers/apps/first-app/4-data-model), most of the heavy lifting is already done:
 
@@ -25,8 +27,11 @@ async function addNote(note, notesList) {
   return success;
 }
 ```
+<span class="codesandbox-button-wrapper">
+[![Edit on CodeSandbox]({{site.baseUrl}}/assets/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Vinnl/notepod/tree/5-writing-data/?module=%2Fsrc%2Fservices%2FaddNote.ts)
+</span>
 
-With the user'd Pod fully set up, the above is all there is to it, really!
+With the user's Pod fully set up, the above is all there is to it, really!
 
 So what's next? Start writing your own App! A couple of suggestions for avenues to explore while doing so:
 
