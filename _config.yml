@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Solid Project - DEV
-email: jairocamposv@gmail.com
+title: Solid
+email: info@solidproject.org
 description: >- # this means to ignore newlines until "baseurl:"
   The web was designed to make it possible for information – data – to transfer conveniently no
   matter where you are or what device you are using. Today data is used as a bargaining chip to lock
