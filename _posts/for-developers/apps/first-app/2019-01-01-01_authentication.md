@@ -2,7 +2,7 @@
 layout: post
 title: "Step 1: identifying the user"
 permalink: /for-developers/apps/first-app/1-authentication
-tags: [implement, apps]
+tags: [apps]
 categories: [Writing a Solid application]
 exclude: true
 ---

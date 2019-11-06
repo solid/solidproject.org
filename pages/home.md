@@ -33,7 +33,7 @@ permalink: /
               alt=""
               class="icon"
             />
-            <span class="card-title">Move your data freely</span>
+            <span class="card-title">Move freely between services</span>
           </div>
           <div class="card-body">
             <p>

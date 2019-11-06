@@ -1,0 +1,15 @@
+<ul>
+    {% for cat in page.categories %}
+        <li> 
+            <h4>{{ cat }}</h4>
+            <!-- This is for categories with sub-categories -->
+            <ul>
+                {% for post in site.categories[cat] reversed %}
+                    <li {% if page.url == post.url %} class="active"{% endif %}>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>                                    
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>

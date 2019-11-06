@@ -2,7 +2,7 @@
 layout: post
 title: "Describe data"
 permalink: /for-developers/apps/vocabularies/use/quickstart
-tags: [implement, vocabularies]
+tags: [apps]
 categories: [Vocabularies, Quickstart]
 exclude: true
 ---

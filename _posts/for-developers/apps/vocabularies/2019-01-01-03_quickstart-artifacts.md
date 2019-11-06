@@ -2,7 +2,7 @@
 layout: post
 title: "Code with your vocabulary"
 permalink: /for-developers/apps/vocabularies/code/quickstart
-tags: [implement, vocabularies]
+tags: [apps]
 categories: [Vocabularies, Quickstart]
 exclude: true
 ---

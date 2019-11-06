@@ -2,31 +2,7 @@
 layout: internal
 ---
 <section class="row solid-post">
-    <section class="solid-breadcrumbs col-xs-12">
-        {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-        <div class="solid-breadcrumbs-container row">
-            <ul class="col-xs-10 col-sm-12">
-                <li><a href="/">Home</a> ></li>
-                {% for crumb in crumbs offset: 1 %}
-                {% if forloop.last %}
-                <li>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
-                {% else %}
-                <li>
-                    <!--  -->
-                    <a
-                    
-                        href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb }}{% if forloop.index != crumb_limit %}/{% endif %}{% endfor %}">
-                        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} ></i>
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-            <div class="menu-mobile menu-mobile-aside col-xs-2">
-                <button><i class="far"></i></button>
-            </div>
-        </div>
-    </section>
+    {% include breadcrumbs.html %}
     <article class="post h-entry col-xs-12 col-sm-8" itemscope itemtype="http://schema.org/BlogPosting">
 
         <div class="post-content e-content" itemprop="articleBody">
@@ -36,71 +12,15 @@ layout: internal
         <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
     </article>
     <aside class="col-xs-12 col-sm-4 right-side">
+        
         <nav class="aside-menu">
-            {% assign categories_list = "Writing a Solid application AND Vocabularies AND Common patterns AND Tools and libraries" | split: " AND " %}
-            {% assign subcategories_list = "Overview AND Quickstart AND Discover AND Create AND Code AND Other" | split: " AND " %}
-            <ul>
-                {% for cat in categories_list %}
-                    {% if cat == page.categories[0] %}
-                        
-                        <li> 
-                            <h4>{{ cat }}</h4>
-                            <!-- This is for categories with sub-categories -->
-                            {% if page.categories[1] %}
-                                {% for subcat in subcategories_list %}
-                                    <ul>
-                                        <li>
-                                            {% if subcat == page.categories[1] %}
-                                                <h5><a href="#"">{{ subcat }}</a></h5>
-                                                <ul>
-                                                    {% for post in site.categories[cat] reversed %}
-                                                        {% if post.categories[1] == subcat %}
-                                                            <li {% if page.url == post.url %} class="active"{% endif %}>
-                                                                <a href="{{ post.url }}">{{ post.title }}</a>
-                                                            </li>                                    
-                                                        {% endif %}
-                                                    {% endfor %}
-                                                </ul>
-                                            {% else %}
-                                                {% if subcat == "Overview" %}
-                                                    <h5><a href="/for-developers/apps/vocabularies">{{ subcat }}</a></h5>
-                                                {% elsif subcat == "Quickstart" %}
-                                                    <h5><a href="/for-developers/apps/vocabularies/create/quickstart">{{ subcat }}</a></h5>
-                                                {% elsif subcat == "Discover" %}
-                                                    <h5><a href="/for-developers/apps/vocabularies/well-known">{{ subcat }}</a></h5>
-                                                {% elsif subcat == "Create" %}
-                                                    <h5><a href="/for-developers/apps/vocabularies/create">{{ subcat }}</a></h5>
-                                                {% elsif subcat == "Code" %}
-                                                    <h5><a href="/for-developers/apps/vocabularies/code">{{ subcat }}</a></h5>
-                                                {% endif %}                                         
-                                            {% endif %}
-                                        </li>
-                                    </ul>
-                                {% endfor %}  
-                            {% else %}
-                                <!-- List all posts in the category (no subcategories) -->
-                                <ul>
-                                    {% for post in site.categories[cat] reversed %}
-                                        <li {% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a></li>                                    
-                                    {% endfor %}
-                                </ul>
-                            {% endif %}
-                        </li>
-                    {% else %}
-                        <li>
-                            {% if cat == "Writing a Solid application"%}
-                                <h4><a href="/for-developers/apps/first-app">{{ cat }}</a></h4>
-                            {% elsif cat == "Vocabularies" %}
-                                <h4><a href="/for-developers/apps/vocabularies">{{ cat }}</a></h4>
-                            {% elsif cat == "Common patterns" %}
-                                <h4><a href="/for-developers/apps/common-patterns">{{ cat }}</a></h4>
-                            {% elsif cat == "Tools and libraries" %}
-                                <h4><a href="/for-developers/apps/tools">{{ cat }}</a></h4>
-                            {% endif %}
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            {% for currentTag in page.tags%}
+                {% if currentTag == "apps" %}
+                    {% include categories_apps.html %}
+                {% elsif currentTag == "pod-server" %}
+                    {% include categories_pod-server.html %}
+                {% endif %}
+            {% endfor %}
         </nav>
     </aside>
 </section>
