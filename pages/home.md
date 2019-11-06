@@ -33,7 +33,7 @@ permalink: /
               alt=""
               class="icon"
             />
-            <span class="card-title">Freedom to Move</span>
+            <span class="card-title">Move your data freely</span>
           </div>
           <div class="card-body">
             <p>
@@ -85,7 +85,7 @@ permalink: /
               alt=""
               class="icon"
             />
-            <span class="card-title">Selective Sharing</span>
+            <span class="card-title">Select what you share precisely</span>
           </div>
           <div class="card-body">
             <p>
