@@ -6,7 +6,7 @@ permalink: press
 
 Are you looking to get a speaker or interview about Solid? Contact us on press@solidproject.org with a description of what you are looking for. 
 
-Solid Events are organisations organised by people like you, [read more](https://github.com/solid/solid.github.io/blob/master/pages/solid-events.md) about organising a Solid Event. 
+Solid Events are organised by people like you, [read more](https://github.com/solid/solid.github.io/blob/master/pages/solid-events.md) about organising a Solid Event. 
 
 ## Upcoming Talks 
 
@@ -23,7 +23,7 @@ Solid Events are organisations organised by people like you, [read more](https:/
 
 2019-08-01 - [TechDirt: Don't Let This Get Lost In The Shuffle: The Data Transfer Project Is Expanding, And Could Help Create Real Competition Online](https://www.techdirt.com/articles/20190731/17390142693/dont-let-this-get-lost-shuffle-data-transfer-project-is-expanding-could-help-create-real-competition-online.shtml)
 
-20-19-0731 - [The Verge: Brain-computer interfaces are developing faster than the policy debate around them](https://www.theverge.com/interface/2019/7/31/20747916/facebook-brain-computer-interface-policy-neuralink)
+2019-07-31 - [The Verge: Brain-computer interfaces are developing faster than the policy debate around them](https://www.theverge.com/interface/2019/7/31/20747916/facebook-brain-computer-interface-policy-neuralink)
 
 2019-03-30 - [How a chess app interacts with Solid](https://pieterheyvaert.com/blog/2019/03/30/solid-chess-interaction)
 
