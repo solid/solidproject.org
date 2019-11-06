@@ -10,6 +10,10 @@ The following is a description about how changes to the [Solid Specification](ht
 
 Anyone may participate in [this process](https://github.com/solid/culture). Please read the [Code of Conduct](#conduct) before doing so.
 
+There are two ways of contributing the the Solid: 
+* Panellists: draft theme based proposals with other panellists to improve Solid 
+* Editors: review theme based proposals put foward by panellists
+
 ## Contributors
 
 Any individual that has been involved in proposals to improve the [Solid Specification](https://github.com/solid/specification) has provided a valuable service to the [Solid Project](https://www.solidproject.org) and is encouraged to continue.
@@ -186,5 +190,3 @@ To report a code of conduct concern you may:
 - http://geekfeminism.wikia.com/wiki/Code_of_conduct
 - https://www.djangoproject.com/conduct/
 - http://artofcommunityonline.org/Art_of_Community_Second_Edition.pdf
-
-

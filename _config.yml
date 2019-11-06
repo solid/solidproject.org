@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Solid Project - DEV
-email: jairocamposv@gmail.com
+title: Solid
+email: info@solidproject.org
 description: >- # this means to ignore newlines until "baseurl:"
   The web was designed to make it possible for information – data – to transfer conveniently no
   matter where you are or what device you are using. Today data is used as a bargaining chip to lock
@@ -42,3 +42,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+kramdown:
+  input: GFM
+  # GitHub Pages only supports rouge for syntax highlighting:
+  # https://github.blog/2016-02-01-github-pages-now-faster-and-simpler-with-jekyll-3-0/#the-highlight-zone
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'

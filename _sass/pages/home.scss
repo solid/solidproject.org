@@ -74,7 +74,7 @@
   .intro-heading {
     margin-top: 1rem;
     text-align: center;
-    color: $textColor;
+    color: $text-color;
     font-size: 2.5rem;
   }
   }
@@ -89,7 +89,7 @@
   .info-card {
     padding: 2em 1em;
     h3.title {
-      color: $textColor;
+      color: $text-color;
       font-size: 1em;
       font-weight: bold;
       letter-spacing: 0.14px;
@@ -97,7 +97,7 @@
     }
     p.info {
       padding: 1em 0;
-      color: $textColor;
+      color: $text-color;
       font-size: 0.8em;
       letter-spacing: 0.09px;
       line-height: 37px;

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Quickstart - Code with your vocabulary"
+title: "Code with your vocabulary"
 permalink: /for-developers/apps/vocabularies/code/quickstart
 tags: [implement, vocabularies]
-categories: [Vocabularies]
+categories: [Vocabularies, Quickstart]
 exclude: true
 ---
 

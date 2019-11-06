@@ -8,7 +8,7 @@ permalink: /
   <div class="title-banner">
     <h1 class="title">Solid</h1>
     <div class="subtitle">
-      A set of standards that makes the web work for you
+      A standard that makes the web work for you
     </div>
     <a href="{{site.baseurl}}/get-started" class="learn-btn">Get started</a>
       <a href="#what-is-solid" class="learn-more-link">
@@ -37,7 +37,7 @@ permalink: /
           </div>
           <div class="card-body">
             <p>
-            Move freely without losing data and connections. Use the best tools without having to restart the setup process.
+            Switch to the best tools and take your data with you. 
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ permalink: /
           </div>
           <div class="card-body">
             <p>
-            Get recommendations based on the whole you. Solid makes it possible to recycle data collected on other apps so that you get better quality insights in your favour.
+            Get quality recommendations based on the whole you by recycling data from multiple apps. 
             </p>
           </div>
         </div>
@@ -67,11 +67,30 @@ permalink: /
               alt=""
               class="icon"
             />
-            <span class="card-title">Platform-independent connection</span>
+            <span class="card-title">Connect anywhere with anyone</span>
           </div>
           <div class="card-body">
             <p>
-              People want different things. Solid lets you connect to people on different apps rather than having to download new apps to connect with different friends.
+              Connect to your friends no matter what app they are using. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cards row around">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/users.svg"
+              alt=""
+              class="icon"
+            />
+            <span class="card-title">Selective Sharing</span>
+          </div>
+          <div class="card-body">
+            <p>
+              Give access to the bare minimum of data needed for the service to work.
             </p>
           </div>
         </div>
@@ -101,7 +120,7 @@ permalink: /
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
-          <h3 class="title">Your online Identity </h3>
+          <h3 class="title">Single Sign-On</h3>
           <p class="info">
           Login with WebID to use Solid. Similar to email, WebID allows you to connect to anyone else no matter who their identity provider is. When you login with WebID, you and only you and where you are signing into knows about it. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> by signing up for a WebID.
           </p>

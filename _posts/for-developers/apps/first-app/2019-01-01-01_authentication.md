@@ -40,5 +40,8 @@ async function getWebId() {
   auth.login(identityProvider);
 }
 ```
+<span class="codesandbox-button-wrapper">
+[![Edit on CodeSandbox]({{site.baseUrl}}/assets/img/play-codesandbox.svg)](https://codesandbox.io/s/romantic-wood-0i6z7?module=%2Fsrc%2Findex.js)
+</span>
 
 Next: [Understanding Solid]({{site.baseUrl}}/for-developers/apps/first-app/2-understanding-solid)

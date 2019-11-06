@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Quickstart - Describe data"
+title: "Describe data"
 permalink: /for-developers/apps/vocabularies/use/quickstart
 tags: [implement, vocabularies]
-categories: [Vocabularies]
+categories: [Vocabularies, Quickstart]
 exclude: true
 ---
 
