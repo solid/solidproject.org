@@ -6,14 +6,6 @@ tags: [weekly, updates]
 categories: [Updates]
 author: Mitzi László
 ---
----
-layout: blog
-title: Welcome to another edition
-permalink: /weekly-updates/next
-tags: [weekly, updates]
-categories: [Updates]
-author: Mitzi László
----
 
 # 7th November
 
