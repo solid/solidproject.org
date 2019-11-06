@@ -25,9 +25,7 @@ To recap, some questions you may want to consider are:
 •	Where are all the parties that are involved? 
 •	Where is the data physically stored? 
 
-The way to get most control of your data is to [self-host](/for-developers/pod-server). Self-hosting means that you physically store the data on hard drive you hold at home with software that you run. 
-
-You can also choose to outsource the work and get a provider. Pick a provider here:
+you can pick a Provider in the following list. However, keep in mind that Solid is about freedom: **you won't be tied to the provider you choose now**, and you will have the ability to **move your data elsewhere** if you want to.
 
 | Provider | Responsible for Domain Name and Terms | Responsible for Hosting | Location of Hosting |
 |-----------------------------------|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------:|:--------------------:|
@@ -35,4 +33,10 @@ You can also choose to outsource the work and get a provider. Pick a provider he
 | [solid.authing.cn](https://solid.authing.cn) | [Authing](https://authing.cn) | [Tencent Cloud](https://cloud.tencent.com) | China |
 
 If you are a provider you can add your service to this list by emailing [info@solidproject.org](mailto:info@solidproject.org).
+
+## How to self-host your Pod
+
+The way to get most control of your data is to **self-host**. Self-hosting means that your data is physically stored on a hard drive you hold at home, and managed by [a software](/for-developers/pod-server) you run on your own machine. This way, you don't have to entrust any third party with your data. Currently, this option still requires some technical background, and it may not be suitable for everyone yet. 
+
+We would like to make self-hosting a more user-friendly option in the future. The great thing about Solid is the flexibility it offers: you can choose to outsource the work for now and pick a provider, and **move to self-hosting later** on when the tools are ready for you. 
 
