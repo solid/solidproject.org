@@ -4,7 +4,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
+@prefix obelisk: <http://w3id.org/obelisk/> .
 
 obelisk: rdf:type owl:Ontology ;
     # Description
@@ -13,7 +13,7 @@ obelisk: rdf:type owl:Ontology ;
     The obelisk ontology aims at describing obelisks.
     """ ;
     vann:preferredNamespacePrefix "obelisk" ;
-    vann:preferredNamespaceURI <http://w3id.org/obelisk/ns/> .
+    vann:preferredNamespaceURI <http://w3id.org/obelisk/> .
 
 obelisk:Obelisk a rdfs:Class ;
     rdfs:label "Obelisk" ;

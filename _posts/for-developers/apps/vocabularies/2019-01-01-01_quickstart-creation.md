@@ -27,16 +27,16 @@ The highlighted elements of these sentences are going to be the 'terms' in our v
 
 RDF is the language used to build vocabularies for use across the Web (aka Linked Data). In RDF, everything is identified by IRIs, which are simply standard Web URIs, but just a bit more modern in that they can contain characters from a more _Internationalised_ set of characters (e.g. 'α', 'δ', or 'ό').
 
-First, we'll need an IRI to represent (or identify) our new vocabulary (as we said, everything in RDF is identified with IRIs!), e.g. http://w3id.org/obelisk/ns/. From there, let's now update our plain English example a little bit:
-- An <u>http://w3id.org/obelisk/ns/Obelisk</u> is <u>http://w3id.org/obelisk/ns/ownedBy</u> a <u>http://w3id.org/obelisk/ns/Person</u>.
-- An <u>http://w3id.org/obelisk/ns/Obelisk</u> is <u>http://w3id.org/obelisk/ns/builtBy</u> a <u>http://w3id.org/obelisk/ns/Sculptor</u>.
-- An <u>http://w3id.org/obelisk/ns/Obelisk</u> has a <u>http://w3id.org/obelisk/ns/height</u>, which is a numerical value.
+First, we'll need an IRI to represent (or identify) our new vocabulary (as we said, everything in RDF is identified with IRIs!), e.g. http://w3id.org/obelisk/. From there, let's now update our plain English example a little bit:
+- An <u>http://w3id.org/obelisk/Obelisk</u> is <u>http://w3id.org/obelisk/ownedBy</u> a <u>http://w3id.org/obelisk/Person</u>.
+- An <u>http://w3id.org/obelisk/Obelisk</u> is <u>http://w3id.org/obelisk/builtBy</u> a <u>http://w3id.org/obelisk/Sculptor</u>.
+- An <u>http://w3id.org/obelisk/Obelisk</u> has a <u>http://w3id.org/obelisk/height</u>, which is a numerical value.
 
-Identifiers quickly become unpleasant to read when they are IRIs, so RDF introduces the notion of prefixes (a simple concept borrowed from XML namespaces). From now on we'll use the prefix `obelisk:` to stand in for our vocabulary identifier `http://w3id.org/obelisk/ns/`, which means our vocabulary now looks like:
-- Use the prefix 'obelisk' for our vocabulary identifier http://w3id.org/obelisk/ns/.
-- An [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) is [obelisk:ownedBy](http://w3id.org/obelisk/ns/ownedBy) a [obelisk:Person](http://w3id.org/obelisk/ns/Person).
-- An [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) is [obelisk:builtBy](http://w3id.org/obelisk/ns/builtBy) a [obelisk:Sculptor](http://w3id.org/obelisk/ns/Sculptor).
-- An [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) has a [obelisk:height](http://w3id.org/obelisk/ns/height), which is a numerical value.
+Identifiers quickly become unpleasant to read when they are IRIs, so RDF introduces the notion of prefixes (a simple concept borrowed from XML namespaces). From now on we'll use the prefix `obelisk:` to stand in for our vocabulary identifier `http://w3id.org/obelisk/`, which means our vocabulary now looks like:
+- Use the prefix 'obelisk' for our vocabulary identifier http://w3id.org/obelisk/.
+- An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) a [obelisk:Person](http://w3id.org/obelisk/Person).
+- An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:builtBy](http://w3id.org/obelisk/builtBy) a [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor).
+- An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) has a [obelisk:height](http://w3id.org/obelisk/height), which is a numerical value.
 
 ### Things, and properties of things
 
@@ -45,19 +45,19 @@ So from the above we can see that we want to describe both 'things' (e.g. Obelis
 ### Defining classes of things
 
 In RDF, the general things that we can talk about are called __Classes__. Everything that went in a bubble in our first schema is therefore a Class, so we could add the following to our vocabulary:
-- [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) is a Class.
-- [obelisk:Person](http://w3id.org/obelisk/ns/Person) is a Class.
-- [obelisk:Sculptor](http://w3id.org/obelisk/ns/Sculptor) is a Class.
+- [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is a Class.
+- [obelisk:Person](http://w3id.org/obelisk/Person) is a Class.
+- [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor) is a Class.
 
 If we look at these sentences, they are structured exactly like the ones from the rest of our vocabulary. Let us underline the important bits in the same way:
-- [obelisk:Obelisk](http://w3id.org/obelisk/ns/Obelisk) [is a](???) [class](???).
-- [obelisk:Person](http://w3id.org/obelisk/ns/Person) [is a](???) [class](???).
-- [obelisk:Sculptor](http://w3id.org/obelisk/ns/Sculptor) [is a](???) [class](???).
+- [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) [is a](???) [class](???).
+- [obelisk:Person](http://w3id.org/obelisk/Person) [is a](???) [class](???).
+- [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor) [is a](???) [class](???).
 
 What we need now are IRI for the "[is a](???)" property and the "[Class](???)" Class. Fortunately, these are defined in the RDF and RDFS vocabularies: "[is a](???)" is defined by [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type), and "[class](???)" by [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class). Therefore, we could write:
 
 ```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
+@prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -71,20 +71,20 @@ And congratulations, you've just created your first snippet of RDF! This particu
 ### Defining properties of things
 
 The properties of things in RDF are called properties (how convenient). Therefore, as we did for Classes, we might write:
-- [obelisk:ownedBy](http://w3id.org/obelisk/ns/ownedBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
-- [obelisk:builtBy](http://w3id.org/obelisk/ns/builtBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
-- [obelisk:height](http://w3id.org/obelisk/ns/height) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
+- [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
+- [obelisk:builtBy](http://w3id.org/obelisk/builtBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
+- [obelisk:height](http://w3id.org/obelisk/height) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
 
 We already know that [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) is identified by the IRI [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type), and [property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property) is identified by [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property) so we can now go ahead and change that into:
-- [obelisk:ownedBy](http://w3id.org/obelisk/ns/ownedBy) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
-- [obelisk:builtBy](http://w3id.org/obelisk/ns/builtBy) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
-- [obelisk:height](http://w3id.org/obelisk/ns/height) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
+- [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
+- [obelisk:builtBy](http://w3id.org/obelisk/builtBy) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
+- [obelisk:height](http://w3id.org/obelisk/height) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
 
 
 Which leads to our vocabulary looking like this:
 
 ```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
+@prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -103,7 +103,7 @@ obelisk:height rdf:type rdf:Property .
 
 So far we have created identifiers that are primarily intended for machines (although it is certainly not recommended, the IRIs themselves do not need to be meaningful to humans at all). For example, the following would technically be an equivalent vocabulary:
 ```turtle
-@prefix o: <http://w3id.org/obelisk/ns/> .
+@prefix o: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -117,7 +117,7 @@ o:p003 rdf:type rdf:Property .
 
 Even if we don't want our vocabulary to look like this, the point is that it's really useful to also provide human-readable descriptions of the terms in our vocabularies. To do so we'll use the properties [`rdfs:label`](http://www.w3.org/2000/01/rdf-schema#label) to add a human-readable label for the term identified by the IRI, and [`rdfs:comment`](http://www.w3.org/2000/01/rdf-schema#comment) to add a few sentences describing what is meant by the term in the context we use it. This could lead to something like this:
 ```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
+@prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -164,14 +164,14 @@ obelisk:ownedBy rdf:type rdf:Property ;
 
 The finishing touch to this vocabulary is to add some metadata to the vocabulary itself, so that people we share this vocabulary with, or who find it on the Web, can know who created it, and when, and what it's intended purpose is without having to go through its details.
 
-We already decided that the IRI of the vocabulary would be `http://w3id.org/obelisk/ns/`, so this is the identifier we are going to use in RDF to say stuff about the vocabulary. In Linked Data terminology a vocabulary is called an [`owl:Ontology`](http://www.w3.org/2002/07/owl#Ontology), so the first thing to say is:
+We already decided that the IRI of the vocabulary would be `http://w3id.org/obelisk/`, so this is the identifier we are going to use in RDF to say stuff about the vocabulary. In Linked Data terminology a vocabulary is called an [`owl:Ontology`](http://www.w3.org/2002/07/owl#Ontology), so the first thing to say is:
 ```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
+@prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-# `obelisk:` is equivalent to http://w3id.org/obelisk/ns/
+# `obelisk:` is equivalent to http://w3id.org/obelisk/
 obelisk: rdf:type owl:Ontology .
 
 # The remainder of the vocabulary is unchanged
@@ -185,7 +185,7 @@ obelisk:Obelisk a rdfs:Class ;
 
 Much like we described each term with human-friendly labels and comments, we can add a title ([`dcterms:title`](http://purl.org/dc/terms/title)) and a description ([`dcterms:description`](http://purl.org/dc/terms/description)) to our vocabulary. To make it easier to reuse, we can also indicate a preferred prefix ([`vann:preferredNamespacePrefix`](http://purl.org/vocab/vann/preferredNamespacePrefix)) and a preferred IRI ([`vann:preferredNamespaceUri`](http://purl.org/vocab/vann/preferredNamespaceUri)) (since multiple IRIs may point to the same vocabulary).
 ```turtle
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
+@prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -198,7 +198,7 @@ obelisk: rdf:type owl:Ontology ;
     The obelisk ontology aims at describing obelisks.
     """ ;
     vann:preferredNamespacePrefix "obelisk" ;
-    vann:preferredNamespaceURI <http://w3id.org/obelisk/ns/> .
+    vann:preferredNamespaceURI <http://w3id.org/obelisk/> .
 
 # The remainder of the vocabulary is unchanged
 obelisk:Obelisk a rdfs:Class ;

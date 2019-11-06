@@ -6,7 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix obelisk: <http://w3id.org/obelisk/ns/> .
+@prefix obelisk: <http://w3id.org/obelisk/> .
 
 obelisk: rdf:type owl:Ontology ;
     # Description
@@ -15,7 +15,7 @@ obelisk: rdf:type owl:Ontology ;
     The obelisk ontology aims at describing obelisks.
     """ ;
     vann:preferredNamespacePrefix "obelisk" ;
-    vann:preferredNamespaceURI <http://w3id.org/obelisk/ns/> ;
+    vann:preferredNamespaceURI <http://w3id.org/obelisk/> ;
     # Ownership
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     dcterms:creator <https://cleopatra.solid.community/profile/card#me> ;

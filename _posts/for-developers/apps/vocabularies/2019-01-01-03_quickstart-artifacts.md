@@ -35,7 +35,7 @@ In your application (TODO: provide git repo with demo app), simply `require` the
 ```javascript
 const OBELISK = require("/path/to/generated/artifact/OBELISK")
 
-// The value of sculptorIri will be http://w3id.org/obelisk/ns/Sculptor
+// The value of sculptorIri will be http://w3id.org/obelisk/Sculptor
 const sculptorIri = OBELISK.Sculptor.value;
 // The value of sculptorDefaultLabel will be Sculptor
 const sculptorDefaultLabel = OBELISK.Sculptor.labelInLang()
