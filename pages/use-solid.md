@@ -16,7 +16,7 @@ Different providers may suit different people.
 
 The legal identity of the provider will be an important factor in how your data is handled. Some providers may engage with third parties, for example, to host the data. Mapping out clearly who is involved in what element of the provision is an important step in picking your Pod. 
 
-Reading the Terms of the provider is a good way to understand the implications of picking that provider. There are some great sites like [TOSDR]( https://tosdr.org) that can guide you. 
+Reading the Terms of the provider is a good way to understand the implications of picking that provider.
 
 The geographical location of the legal entities involved and the physical location of the hosting is an important factor in determining which law the provider responsibilities fall under. Depending on your nationality and degree of trust in various laws you may prefer specific geographical locations.
 
