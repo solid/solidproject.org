@@ -1,0 +1,108 @@
+---
+layout: internal
+---
+<section class="row solid-post">
+    <section class="solid-breadcrumbs col-xs-12">
+        {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+        <div class="solid-breadcrumbs-container row">
+            <ul class="col-xs-10 col-sm-12">
+                <li><a href="/">Home</a> ></li>
+                {% for crumb in crumbs offset: 1 %}
+                {% if forloop.last %}
+                <li>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
+                {% else %}
+                <li>
+                    <a
+                        href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb }}{% if forloop.index != crumb_limit %}/{% endif %}{% endfor %}">
+                        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} ></i>
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            <div class="menu-mobile menu-mobile-aside col-xs-2">
+                <button><i class="far"></i></button>
+            </div>
+        </div>
+    </section>
+    <article class="post h-entry col-xs-12 col-sm-8" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <header class="post-header">
+            {% if page.featured-image %}
+            {% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}
+            {% endif %}
+            <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+            <p class="post-meta">
+                {%- if page.author -%}
+                    <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+                            itemprop="name">{{ page.author | escape }}</span></span>
+                {%- endif -%}
+                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    {{ page.date | date: date_format }}
+                </time>
+            </p>    
+        </header>
+
+        <div class="post-content e-content" itemprop="articleBody">
+            {{ content }}
+        </div>
+
+        {%- if site.disqus.shortname -%}
+        {%- include disqus_comments.html -%}
+        {%- endif -%}
+
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+        <section class="solid-related-post col-xs-12">
+            {% include related-posts.html %}
+        </section>
+    </article>
+    <aside class="col-xs-12 col-sm-4 right-side">
+        <nav class="aside-menu">
+            <ul>
+                <li>
+                    <h4 class="accordionItem">
+                        Recent Posts
+                        <img
+                        src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/chevron-down.svg"
+                        alt=""
+                        class="chevron"
+                        />
+                    </h4>
+                    <ul>
+                        {% for post in site.posts limit:5 %}
+                            {% unless post.exclude %}
+                                {% if page.url == post.url %}
+                                    <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                                {% else %}
+                                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                                {% endif %}
+                            {% endunless %}
+                        {% endfor %}
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h4 class="accordionItem">Archive<i class="fas fa-chevron-down"></i></h4>
+                    {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
+                    <ul>
+                    {% for yearMonth in postsByYearMonth %}
+                        <li>
+                            <h4 class="accordionItem">{{ yearMonth.name }}<i class="fas fa-chevron-down"></i></h4>
+                            <ul>
+                                {% for post in yearMonth.items %}
+                                {% unless post.exclude %}
+                                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                                {% endunless %}
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+</section>

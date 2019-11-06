@@ -1,0 +1,36 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+@prefix obelisk: <http://w3id.org/obelisk/> .
+
+obelisk: rdf:type owl:Ontology ;
+    # Description
+    dcterms:title "Obelisk ontology" ;
+    dcterms:description """
+    The obelisk ontology aims at describing obelisks.
+    """ ;
+    vann:preferredNamespacePrefix "obelisk" ;
+    vann:preferredNamespaceURI <http://w3id.org/obelisk/> .
+
+obelisk:Obelisk a rdfs:Class ;
+    rdfs:label "Obelisk" ;
+    rdfs:comment "An obelisk is a four-sided pilar with a pyramid-shaped top." .
+
+obelisk:Sculptor a rdfs:Class ;
+    rdfs:label "Sculptor" ;
+    rdfs:comment "An artist who sculpts obelisks." .
+
+obelisk:ownedBy a rdf:Property ;
+    rdfs:label "owned by" ;
+    rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered." .
+
+obelisk:builtBy a rdf:Property ;
+    rdfs:label "built by" ;
+    rdfs:comment "Relationship between an obelisk and the person who built it." .
+
+obelisk:heigth a rdf:Property ;
+    rdfs:label "heigth" ;
+    rdfs:comment "The distance from the ground to the highest point of the obelisk, in meters." .

@@ -1,0 +1,37 @@
+footer.splash-footer {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  font-size: 0.6em;
+  padding: 0 1em;
+  .solid {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    color: #575757;
+    img {
+      height: 42px;
+      width: 42px;
+      margin-right: 1em;
+    }
+  }
+
+  ul.links {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    color: $solid-color;
+    li {
+      padding: 0 1em;
+      border-right: solid 1px $solid-color;
+      &:last-child {
+        border-right: none;
+      }
+      a,
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
