@@ -49,7 +49,13 @@ Let's dereference [cleopatra's webid](https://cleopatra.solid.community/profile/
 
 From this snippet, we see that the WebId advertises for an inbox, in this case `https://cleopatra.solid.community/inbox/`, thanks to the property `ldp:inbox`. And that's it, no we can get to notification sending!
 
-[Try this live!](https://tech.io/playground-widget/1cee1f6e53d54b86a26dc8752218c3f018115/managing-notifications/890003/What%20is%20Cleopatra's%20inbox)
+<iframe
+     src="https://codesandbox.io/embed/discover-inbox-cf6gs?fontsize=14"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="discover-inbox"
+     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+   ></iframe>
 
 ## Sending a notification
 
@@ -74,4 +80,10 @@ inv: a as:Invite;
 
 In the response, the Location header indicates the IRI of the created event. In order to get a name nicer than a generated UUID, Caesar could have proposed a name with a Slug header in his request.
 
-[Try this live!](https://tech.io/playground-widget/1cee1f6e53d54b86a26dc8752218c3f018115/managing-notifications/890004/Let's%20get%20crazy%20sending%20out%20invites)
+<iframe
+     src="https://codesandbox.io/embed/busy-rain-fkcyg?fontsize=14"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="send-notification"
+     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+   ></iframe>
