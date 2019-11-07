@@ -2,7 +2,7 @@
 layout: post
 title: Notification in Solid
 permalink: /for-developers/apps/common-patterns/notification
-tags: [implement, patterns]
+tags: [apps]
 categories: [Common patterns]
 exclude: true
 ---
@@ -37,7 +37,7 @@ The following terms are defined by the LDN recommandation, and here is specifica
 Notifications should be sent to inboxes, and any resource can advertize for an inbox (not only webids). It's up to the sender and to the receiver to select the appropriate resource when sending/receiving notifications. For instance, when sending a notification specifically related to Cleopatras busy schedule, one might consider addressing it to the inbox advertised by her calendar resource, `https://cleopatra.solid.community/public/calendar/inbox/`, that you can discover by examining the response to a GET on `https://cleopatra.solid.community/public/calendar`.
 
 Let's dereference [cleopatra's webid](https://cleopatra.solid.community/profile/card#me), with a simple HTTP GET. You should be served an RDF document in which, among other things, you will find:
-```
+```turtle
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix inbox: </inbox/>.
 
@@ -56,7 +56,7 @@ From this snippet, we see that the WebId advertises for an inbox, in this case `
 A notification is sent to the previously discovered inbox through a POST request, containing the notification body. Although it is not a strict requirement, a notification can be expressed using the ActivityStreams vocabulary (TODO: add link to voc documentation).
 
 First, Caesar created the event [on his pod](https://jcaesar.solid.community/public/calendar/50BC/Martius/PartyAtCaesarPalace.ttl). He then sends the invite to Cleopatra's calendar inbox:
-```
+```turtle
 POST /public/calendar/inbox/ HTTPS/1.1
 Host: cleopatra.solid.community
 Content-Type: text/turtle
