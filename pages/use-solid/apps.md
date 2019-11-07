@@ -4,6 +4,8 @@ title: Use Solid Apps
 permalink: /use-solid/apps
 ---
 
+Please be aware that this page is still a work in progress. You wrote a Solid-compatible app that's not listed? Feel free to [add it to this list](https://github.com/solid/solid.github.io/edit/master/pages/use-solid/apps.md).
+
 # Solid Apps
 
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
@@ -68,5 +70,3 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 * [A-PHEVOS](https://phevos.tk) (derived from Photo, Event, Organise and Share) is an alpha version of a Pod manager created by WEBIND
 * [Solid Notify](https://solid-notify.5apps.com/) sends you a desktop notification when a Solid resource changes. 
 * [Find Solid Pods](https://findsolidpods.com). [James Cole](https://github.com/JC5). 
-
-Wrote a Solid-compatible app that's not listed? Feel free to [add it to this list](https://github.com/solid/solid.github.io/edit/master/pages/use-solid/apps.md).
