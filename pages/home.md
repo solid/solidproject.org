@@ -55,7 +55,7 @@ permalink: /
           <div class="card-body">
             <p>
             <!-- Get quality recommendations based on the whole you by recycling data from multiple apps.  -->
-            Stop re-entering the same data again and again by <b>recycling data from app to app</b>
+            Stop re-entering the same data again and again by <b>recycling data from app to app</b>.
             </p>
           </div>
         </div>
