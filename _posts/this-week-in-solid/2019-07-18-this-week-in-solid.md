@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another issue of This Week in Solid! 
 
-[Solid](https://solid.github.io/information/) is a voluntary global technical specification for building interoperable software. This is a weekly summary of its progress and community. Want something mentioned? Contact the Solid Manager at info@solidproject.org or [send us a pull request](https://github.com/solid/information/edit/master/weekly-updates/next.md). Want to get involved? [We love contributions](https://github.com/solid/information#develop).
+[Solid](https://solidproject.org/information/) is a voluntary global technical specification for building interoperable software. This is a weekly summary of its progress and community. Want something mentioned? Contact the Solid Manager at info@solidproject.org or [send us a pull request](https://github.com/solid/information/edit/master/weekly-updates/next.md). Want to get involved? [We love contributions](https://github.com/solid/information#develop).
 
 This Week in Solid is openly developed [on GitHub](https://github.com/solid/information/edit/master/weekly-updates/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
 
@@ -38,7 +38,7 @@ If you are working on Solid and looking for contributors, please submit tasks [h
 
 #### Active conversations about proposals
 
-* The [Specification Entry Documenent Panel](https://github.com/solid/culture/blob/master/panels.md#specification-entry-document-panel) have put forward a [proposal for the specification structure](https://solid.github.io/specification/). If you have any thoughts on this proposal submit them on [this issue](https://github.com/solid/specification/issues/5).   
+* The [Specification Entry Documenent Panel](https://github.com/solid/culture/blob/master/panels.md#specification-entry-document-panel) have put forward a [proposal for the specification structure](https://solidproject.org/specification/). If you have any thoughts on this proposal submit them on [this issue](https://github.com/solid/specification/issues/5).   
 
 #### Reviewed Solid Proposals Reviewed 
 Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/culture#how-to-make-changes).

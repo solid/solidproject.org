@@ -7,7 +7,7 @@ categories: [Vocabularies, Quickstart]
 exclude: true
 ---
 
-In this part of the tutorial, we will build on the [quickstart version](https://solid.github.io/assets/misc/tutorials/quickstart-obelisk.ttl) of the Obelisk vocabulary to develop a simple Javascript application that answers the question: "Is this person an obelisk sculptor ?"
+In this part of the tutorial, we will build on the [quickstart version](https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl) of the Obelisk vocabulary to develop a simple Javascript application that answers the question: "Is this person an obelisk sculptor ?"
 
 ## The artifact generator
 
@@ -25,7 +25,7 @@ The LIT artifact generator (which will be made publicly available soon) is a too
 ### Generate the artifact
 
 To generate a Javascript artifact with the default options, you can use the following command:
-- `lit-artifact-generator --inputResources https://solid.github.io/assets/misc/tutorials/quickstart-obelisk.ttl --outputDirectory /path/to/a/directory --noprompt`.
+- `lit-artifact-generator --inputResources https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl --outputDirectory /path/to/a/directory --noprompt`.
 
 You can specify a local vocabulary file rather than an IRI if your vocabulary is not yet available online.
 

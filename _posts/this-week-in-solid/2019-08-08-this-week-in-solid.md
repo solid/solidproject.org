@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another issue of This Week in Solid!
 
-[Solid](https://solid.github.io/information/) is a specification for building apps with separate data storage. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on [submitting a pull request](https://github.com/solid/roadmap/blob/master/what-is-solid.md) with proposals. 
+[Solid](https://solidproject.org/information/) is a specification for building apps with separate data storage. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on [submitting a pull request](https://github.com/solid/roadmap/blob/master/what-is-solid.md) with proposals. 
 
 This is a weekly summary of its progress and community. 
 

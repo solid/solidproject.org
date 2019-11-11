@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   you in. Solid is a standard that describes how to build storage, apps, and identification in such
   a way that you can conveniently connect and switch without losing data.
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://solid.github.io/'
+url: 'https://solidproject.org/'
 twitter_username: project_solid
 github_username: solid
 
