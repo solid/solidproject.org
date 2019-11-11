@@ -1,2 +1,2 @@
-# solidproject.org
-Website for solidproject.org
+# solid.github.io
+Test site for solidproject.org

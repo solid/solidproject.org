@@ -1,0 +1,67 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix obelisk: <http://w3id.org/obelisk/> .
+
+obelisk: rdf:type owl:Ontology ;
+    # Description
+    dcterms:title "Obelisk ontology" ;
+    dcterms:description """
+    The obelisk ontology aims at describing obelisks.
+    """ ;
+    vann:preferredNamespacePrefix "obelisk" ;
+    vann:preferredNamespaceURI <http://w3id.org/obelisk/> ;
+    # Ownership
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:creator <https://cleopatra.solid.community/profile/card#me> ;
+    dcterms:contributor <https://jcaesar.solid.community/profile/card#me> ;
+    dcterms:publisher <https://jcaesar.solid.community/profile/organizations/spqr.ttl#spqr>;
+    # Version
+    owl:versionIRI <http://w3id.org/obelisk/2019/10/09/ns> ;
+    owl:priorVersion <http://w3id.org/obelisk/2019/10/08/ns> ;
+    dcterms:isReplacedBy <http://w3id.org/obelisk/2019/10/08/ns> ;
+    owl:versionInfo "0.1.0" ;
+    dcterms:issued "52BC-01-01" ;
+    dcterms:modified "2019-10-09".
+
+obelisk:Obelisk a rdfs:Class ;
+    rdfs:label "Obelisk"@en ;
+    rdfs:label "Obelisco"@it ;
+    rdfs:comment "An obelisk is a four-sided pilar with a pyramid-shaped top."@en ;
+    rdfs:comment "Un obelisco è un pilastro a quattro lati con una cima a forma di piramide."@it .
+
+obelisk:Sculptor a rdfs:Class ;
+    rdfs:label "Sculptor"@en ;
+    rdfs:label "Scultore"@it ;
+    rdfs:comment "An artist who sculpts obelisks."@en ;
+    rdfs:comment "Un artista che scolpisce obelischi."@it ;
+    rdfs:subClassOf foaf:Person .
+
+obelisk:ownedBy a owl:ObjectProperty ;
+    rdfs:label "owned by"@en ;
+    rdfs:label "posseduto da"@it ;
+    rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered."@en ;
+    rdfs:comment "Relazione tra un obelisco e la persona che lo possiede, che in genere è la persona che lo ha ordinato o a chi è stato offerto."@it ;
+    rdfs:domain obelisk:Obelisk ;
+    rdfs:range foaf:Person .
+
+obelisk:builtBy a owl:ObjectProperty ;
+    rdfs:label "built by"@en ;
+    rdfs:label "costruito da"@it ;
+    rdfs:comment "Relationship between an obelisk and the person who built it."@en ;
+    rdfs:comment "Relazione tra un obelisco e la persona che l'ha costruito."@it ;
+    rdfs:domain obelisk:Obelisk ;
+    rdfs:range obelisk:Sculptor .
+
+obelisk:heigth a owl:DataProperty ;
+    rdfs:label "heigth"@en ;
+    rdfs:label "altezza"@it ;
+    rdfs:comment "The distance from the ground to the highest point of the obelisk, in meters."@en ;
+    rdfs:comment "La distanza dal suolo al punto più alto dell'obelisco, in metri."@it ;
+    rdfs:domain obelisk:Obelisk ;
+    rdfs:range xsd:float.
