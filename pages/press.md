@@ -13,7 +13,7 @@ Solid Events are organised by people like you, [read more](https://github.com/so
 
 ## Past Talks 
 
-2019-08-11 - Lecture: Die Rückeroberung des Social Web by [Angelo Veltens](https://angelo.veltens.org/profile/card#me) - german - [slides](https://angelo.veltens.org/slides/2019/solid-einfuehrung) - [video](https://media.ccc.de/v/froscon2019-2375-die_ruckeroberung_des_social_web)
+2019-08-11 - Lecture: Die Rückeroberung des Social Web by [Angelo Veltens](https://angelo.veltens.org/profile/card#me) - German - [slides](https://angelo.veltens.org/slides/2019/solid-einfuehrung) - [video](https://media.ccc.de/v/froscon2019-2375-die_ruckeroberung_des_social_web)
 
 2019-08-08 - [Innovation Excellence: Inventor of the Web, Tim Berners-Lee, Has Launched a New Startup](https://www.innovationexcellence.com/blog/2019/08/08/inventor-of-the-web-tim-berners-lee-has-launched-a-new-startup/)
 

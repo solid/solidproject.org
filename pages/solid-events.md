@@ -89,7 +89,7 @@ Set a date for the second Solid Event where you can announce the winner. This is
 Having speakers at the second Solid Event who can introduce Solid to businesses is helpful. 
 
 3.	Company and Institutional demonstrations 
-The third Solid Event is a good place to gather local companies and institutuions who have been working on implementing Solid. The first demonstrations are likely to be early stage which is helpful so that you can understand how best to complement and support each other. 
+The third Solid Event is a good place to gather local companies and institutions who have been working on implementing Solid. The first demonstrations are likely to be early stage which is helpful so that you can understand how best to complement and support each other. 
 
 
 # Past events
