@@ -10,9 +10,9 @@ The following is a description about how changes to the [Solid Specification](ht
 
 Anyone may participate in [this process](https://github.com/solid/culture). Please read the [Code of Conduct](#conduct) before doing so.
 
-There are two ways of contributing the the Solid: 
+There are two ways of contributing to Solid: 
 * Panellists: draft theme based proposals with other panellists to improve Solid 
-* Editors: review theme based proposals put foward by panellists
+* Editors: review theme based proposals put forward by panellists
 
 ## Contributors
 
@@ -32,7 +32,7 @@ A list of Solid Panels is maintained at [panels.md](https://github.com/solid/pro
 
 Panels may request to have a repository created within the [Solid Github Organization](https://github.com/solid). These requests should be made by submitting an issue to [solid/process](https://github.com/solid/process). The request should include the proposed name of the repository, and how it will be used. Any editor may reject a proposed name and request an alternative. All panel members will receive [_Maintain Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the panel repository, unless it is subject to editorial review, which would require that it employ a [different permission structure](#repositories). Panel repositories that are inactive for more than six months may be archived by Solid Administrators.
 
-Panels may request to have a gitter channel created within the [Solid Gitter Organization](https://gitter.im/solid). These requests should be made by submitting an issue to [solid/process](https://github.com/solid/process).
+Panels may request to have a Gitter channel created within the [Solid Gitter Organization](https://gitter.im/solid). These requests should be made by submitting an issue to [solid/process](https://github.com/solid/process).
 
 ## Stakeholders
 
@@ -145,9 +145,9 @@ https://solid.kjernsmo.net/profile/card#me
 
 # <a id="conduct"/>Code of Conduct
 
-Personal threats or discriminatory threats towards arbitrary groups on Solid gitter, Solid forum, or the W3C Solid Community Group call and mailing list may result in a ban of the threatening individual by the Solid Manager.
+Personal threats or discriminatory threats towards arbitrary groups on Solid Gitter, Solid forum, or the W3C Solid Community Group call and mailing list may result in a ban of the threatening individual by the Solid Manager.
 
-Repeated and sustained straying from the [defined aims of the Solid gitter channels](https://github.com/solid/information#connect) may result in a ban of those individuals straying from those defined aims by the Solid Manager.
+Repeated and sustained straying from the [defined aims of the Solid Gitter channels](https://github.com/solid/information#connect) may result in a ban of those individuals straying from those defined aims by the Solid Manager.
 
 ## General Expectations
 Below are some general expectations around how participants of the Solid community are encouraged to behave.
@@ -179,9 +179,9 @@ Best practices for the Solid Community include:
 ## Reporting a Code of Conduct Concern
 To report a code of conduct concern you may:
 - [Submit an issue](https://github.com/solid/culture/issues/new) to the solid/culture GitHub repository
-- Contact the Solid Manager via gitter
+- Contact the Solid Manager via Gitter
 - Email [manager@solidproject.org](mailto:manager@solidproject.org)
-- Write to the [solid/chat](https://gitter.im/solid/chat) room on gitter with your concern
+- Write to the [solid/chat](https://gitter.im/solid/chat) room on Gitter with your concern
 
 ## Based on:
 - https://www.w3.org/Consortium/cepc/  (and an as-of-yet unpublished “Best

@@ -42,7 +42,7 @@ Vincent is a front-end engineer for inrupt trying to make sure software has a po
 
 ## Nicolas Seydoux 
 **Creator** 
-Nicolas is a developer at Inrupt. He joined the company after his PhD on the Semantic Web of Things, mixing semantic web and IoT. In this domain, he contributed to FOSS software and to an industrial standard ackowledging the importance of semantic interoperability. He also worked on decentralized reasoning and open data platforms.
+Nicolas is a developer at Inrupt. He joined the company after his PhD on the Semantic Web of Things, mixing semantic web and IoT. In this domain, he contributed to FOSS software and to an industrial standard acknowledging the importance of semantic interoperability. He also worked on decentralized reasoning and open data platforms.
 
 ## Dan Wilkinson 
 **Creator** 
