@@ -106,7 +106,7 @@ permalink: /
         <div class="info-card">
           <h3 class="title">Like peas in a Pod</h3>
           <p class="info">
-            Your Pod is where you store your data. Pods and apps are always separate and compatible meaning you are free to pick and choose and change your mind while still keeping your data. For example, if you want to switch messaging app you can take your contacts and chat history along easily. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> with using Solid.
+            Your Pod is where you store your data. Pods and apps are always separate and compatible meaning you are free to pick and choose and change your mind while still keeping your data. For example, if you want to switch messaging app you can take your contacts and chat history along easily. <a href="{{site.baseUrl}}/use-solid" title="Where to get a Solid account">Get started</a> with using Solid or find out more by reading the <a href="{{site.baseUrl}}/faqs" title="Frequently Asked Questions">FAQs</a>.
           </p>
         </div>
       </div>

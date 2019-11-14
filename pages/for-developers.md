@@ -41,6 +41,6 @@ permalink: /for-developers
   </div>
 </div>
 
-If you're not sure which one of thoses paths is right for you, and just want to start playing with Solid try to [develop your first Web app]({{site.baseUrl}}/for-developers/apps/first-app). Alternatively, you can [read more about Solid]({{site.baseUrl}}/#what-is-solid). 
+If you're not sure which one of thoses paths is right for you, and just want to start playing with Solid try to [develop your first Web app]({{site.baseUrl}}/for-developers/apps/first-app). Alternatively, you can [read more about Solid]({{site.baseUrl}}/#what-is-solid) or search the [FAQs]({{site.baseUrl}}/faqs).
 
 Once you are familiar with Solid, you can check out the [job board](job-board).
