@@ -51,6 +51,8 @@ Solid Events are run by people like you, read more about tips on organising a su
 ### Solid Apps, Pods, and ID
 If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list), or there are updates to existing Solid implementations, make sure to add them to the list so they get included in next week's edition.
 
+- A new library for writing Solid applications was announced: **[Tripledoc](https://vincenttunru.gitlab.io/tripledoc/)**. Its primary target audience is front-end developers unfamiliar with Linked Data, and documentation is one of its primary focus areas. Read [the full announcement](https://forum.solidproject.org/t/are-you-a-front-end-developer-interested-in-solid-but-unfamiliar-with-linked-data-try-tripledoc/2421) for more details.
+
 ### The Solid Standard 
 
 
