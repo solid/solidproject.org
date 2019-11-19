@@ -12,7 +12,7 @@ You can always check here for the most current issue as well as find a record of
 
 # Next Up
 
-We're currently working on next week's edition. You can contribute by [making a Pull Request](https://github.com/solid/solid.github.io/edit/master/_posts/this-week-in-solid/next.md)!
+We're currently working on next week's edition. You can contribute by [making a Pull Request](https://github.com/solid/solidproject.org/edit/master/_posts/this-week-in-solid/next.md)!
 
 # Past Issues
 
