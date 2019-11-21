@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Welcome to another edition
-permalink: /this-week-in-solid/2019-11-14-this-week-in-solid.md
+permalink: /this-week-in-solid/2019-11-14
 tags: [weekly, updates]
 categories: [Updates]
 author: Mitzi László
