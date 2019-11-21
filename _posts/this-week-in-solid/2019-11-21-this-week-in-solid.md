@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Welcome to another edition
-permalink: /weekly-updates/next
+permalink: /weekly-updates/2019-11-21
 tags: [weekly, updates]
 categories: [Updates]
 author: Mitzi László
