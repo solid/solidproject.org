@@ -24,7 +24,7 @@ In Europe <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELE
 
 ## What is a Pod? 
 
-A Pod is where users stores their data on the Web with Solid. ([see quote](http://www.youtube.com/watch?v=eJ6IrWc7Wt4&t=1m13s)). A user may store their data in one Pod or several Pods, and applications read and write data into the Pod depending on the authorisations granted by the user or users associated to that Pod.
+A Pod is where users store their data: it is a personal data vault on the Web. ([see quote](http://www.youtube.com/watch?v=eJ6IrWc7Wt4&t=1m13s)). A user may store their data in one Pod or several Pods, and applications read and write data into the Pod depending on the authorisations granted by the user or users associated to that Pod.
 
 <a id="webid"/>
 
@@ -33,7 +33,7 @@ A Pod is where users stores their data on the Web with Solid. ([see quote](http:
 **A WebID is a unique identifier** used to identify a specific user. An example of what a WebID could look like is: https://fulano.pod.provider/profile/card#me. To share data with a third party, a user associates sharing preferences to the WebID of that third party. Don't worry though: [it's not just one more login to remember](#passwords). 
 <details>
 <summary><a>More details...</a></summary>
-A WebID is an <a href="https://tools.ietf.org/html/rfc3987">Internationalised Resource Identifier (IRI)</a> that can be dereferenced as a profile document serialized in <a href="https://www.w3.org/RDF/">RDF</a> <a href="https://dvcs.w3.org/hg/WebID/raw-file/tip/spec/identity-respec.html">source</a>. In Solid, WebIDs are used to identify Agents i.e. people and organisations as well as to manage their access rights though <a href="https://solid.github.io/specification/wac/">Web Access Control</a>. 
+A WebID is an <a href="https://tools.ietf.org/html/rfc3987">Internationalised Resource Identifier (IRI)</a> that can be dereferenced as a <a href="http://xmlns.com/foaf/spec/">FOAF</a> profile document serialized in <a href="https://www.w3.org/RDF/">RDF</a> <a href="https://dvcs.w3.org/hg/WebID/raw-file/tip/spec/identity-respec.html">(source)</a>. In Solid, WebIDs are used to identify Agents i.e. people and organisations as well as to manage their access rights though <a href="https://solid.github.io/specification/wac/">Web Access Control</a>. 
 </details>
 
 ## How are Pods different from WebIDs?
@@ -118,8 +118,17 @@ You can find out the differences between each of the service providers by lookin
 
 Having two WebIDs with two different identity providers or the same identity provider is very much like having two email addresses. These WebIDs are unrelated to each other, and can have different data sharing preferences attached to them, e.g. one allowed to access your company documents, and the other your health record. 
 
-## Can I delete my WebID? 
-**Yes**. If you want to delete your WebID your identity provider should offer an endpoint for doing that. The exact procedure may differ from an Identity Provider to the other. 
+## If I join Solid, can I stop using it when I want ?
+**Yes**. To leave Solid, you will need to: 
+1. Delete your Pod(s)
+2. Delete your WebID 
+
+Each Pod Provider may offer a its own procedure to delete Pods, which means closing the storage space they rented to you. Once your Pods are deleted, you can delete your WebID by closing your account at your Identity Provider. As for Pod Providers, the exact procedure may differ from an Identity Provider to the other. Remember that you need to log in your Identity Provider to have access to your Pods: if you delete your Identity Provider account first, you may lock yourself out of your Pods.
+
+<details>
+<summary><a>More details</a></summary>
+Technically, you may host your <a href="http://xmlns.com/foaf/spec/">FOAF</a> profile independently from your Identity Provider, and have it point to a WebID you control. In this case, to fully delete your Solid identity, you may want to delete this profile document as well.
+</details>
 
 # The Business Model 
 
