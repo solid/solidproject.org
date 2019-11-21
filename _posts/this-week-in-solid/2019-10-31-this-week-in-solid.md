@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Welcome to another edition
+title: Week Updates 2019-10-31
 permalink: /this-week-in-solid/2019-10-31
 tags: [weekly, updates]
 categories: [Updates]
