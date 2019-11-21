@@ -24,9 +24,10 @@ Want to get involved? [Contributions are welcome.](https://github.com/solid/proc
 ## Updates
 
 ### Weekly Solid Call
+
 Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. 
 
-Tune in on the 21st November at 1400 [this line](https://zoom.us/j/121552099).
+Tune in on the 21st November at 1400 [this line](https://zoom.us/j/261297657).
 
 This week we will be trying something new. The current profile of the people developing the Solid standards is very homogenous both in profession and perspective meaning we may be blind to certain key considerations. 
 
