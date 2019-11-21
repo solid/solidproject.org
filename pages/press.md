@@ -51,6 +51,7 @@ None
 2018-04-28 - [ Researcher-Centric Scholarly Communication workshop at The Web Conf 2018 - Building a researcher-centric world on the user-centric platform, Solid](https://linkedresearch.org/events/the-web-conf-2018/summary#researcher-centric-solid)
 
 2019-01-06 [GoTo Conference](https://gotocph.com/2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=Rxqko96C5ZI)
+
 ### 2017
 
 2017-12-12 [CNI Fall 2017 Meeting - Herbert van der Sompel](https://www.slideshare.net/hvdsomp/paul-evan-peters-lecture/)
