@@ -53,7 +53,12 @@ Solid Events are run by people like you, read more about tips on organising a su
 
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
 
+- A new library for writing Solid applications was announced: **[Tripledoc](https://vincenttunru.gitlab.io/tripledoc/)**. Its primary target audience is front-end developers unfamiliar with Linked Data, and documentation is one of its primary focus areas. Read [the full announcement](https://forum.solidproject.org/t/are-you-a-front-end-developer-interested-in-solid-but-unfamiliar-with-linked-data-try-tripledoc/2421) for more details.
+
+### The Solid Standard 
+
 ## Job Openings 
+
 
 * [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
 * [Inrupt is hiring](https://inrupt.com/careers) a Head of Business Development, Project Manager, DevOps Engineer, and Senior Front-End Engineer/Architect.  
