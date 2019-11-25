@@ -22,23 +22,35 @@ None
 
 2019-10-10 [European Data Ethics Forum](https://dataethics.eu/conference19/) by Mitzi László
 
+2019-10-04 [Connected Data London](https://connected-data.london): [slides](https://rubenverborgh.github.io/Connected-Data-London-2019/)
+
 2019-09-26 [Waag Data Commons #1: Fietsdata](https://waag.org/nl/event/data-commons-1-fietsdata) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-DataCommons-2019/#)
+
+2019-09-20 [Aalborg University](https://www.en.aau.dk) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Decentralized-Web-Query-Challenges-2019/)
 
 2019-09-15 [NextCloud Conference](https://nextcloud.com/fr_FR/blog/nextcloud-conference-2019-talks-now-online/) by Mitzi László
 
+2019-09-14 [Linked Data Scholarship course at KU Leuven](https://onderwijsaanbod.kuleuven.be/syllabi/e/F0XO5AE.htm#activetab=doelstellingen_idp45136) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Solid-Lecture-2019/)
+
+2019-09-12 [KB session on Reinventing the Public Space](https://www.kb.nl/nieuws/2019/kb-sessie-heruitvinden-van-de-digitale-publieke-ruimte) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/KB-Public-Space-2019/)
+
 2019-08-11 by [Angelo Veltens](https://angelo.veltens.org/profile/card#me): [slides](https://angelo.veltens.org/slides/2019/solid-einfuehrung) & [video](https://media.ccc.de/v/froscon2019-2375-die_ruckeroberung_des_social_web)
+
+2019-07-02 [Artificial Intelligence Platform (PFIA)](https://www.irit.fr/pfia2019/en/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/PFIA-2019/)
 
 2019-07-01 [Berkman Klein](https://cyber.harvard.edu/) by Mitzi László & Justin Bingham
 
 2019-06-25 [Postgress](https://postgresvision.com/agenda/) by Tim Berners-Less: [video](https://www.youtube.com/watch?v=Ao9bmFFoAB4)
 
+2019-06-19 [Linked Data in Architecture and Construction Week](http://linkedbuildingdata.net/ldac2019/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/LDAC-2019/)
+
 2019-05-28 [Blockchain, Open Education & Digital Citizenship](https://blockchaineducationfrance.fr) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Blockchain-Education-France-2019/)
+
+2019-04-24 [Symposium on FAIR Personal, Open and Distributed Data on the Web at the Institute of Data Science](https://www.maastrichtuniversity.nl/events/fair-personal-open-and-distributed-data-web) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/FAIR-Symposium-2019/)
 
 2019-04-10 [GhentJS Meetup](https://www.meetup.com/GhentJS/events/259984585/) by Ruben Verborgh: [slides](http://slides.verborgh.org/GhentJS-2019/#new-black)
 
 2019-04-09 [Platform Linked Data Nederland](http://www.pilod.nl/wiki/PLDN-Solid_Kick-Off_–_April_9th_2019) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/PLDN-Solid-Kick-Off-2019/) 
-
-2019-02-07 [Hackers & Founders](https://hackersandfounders.nl/) by Mitzi László
 
 2019-03-28 [T3chFest](https://t3chfest.es/2019/?lang=en) by Juan Lupión: [video](https://www.youtube.com/watch?v=zzsViU5kSlY)
 
@@ -50,11 +62,15 @@ None
 
 2019-02-19 OSLO Inspiratienamiddag by Ruben Taelman: [slides](https://www.rubensworks.net/raw/slides/2019/oslo-solid/)
 
+2019-02-07 [Hackers & Founders](https://hackersandfounders.nl/) by Mitzi László
+
 2019-02-03 [FOSDEM](https://fosdem.org/2019/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-FOSDEM-2019/) & [video](https://video.fosdem.org/2019/Janson/solid_web_decentralization.mp4))
 
 2019-01-17 [Connected Smart Cities Conference](https://oasc.events.idloom.com/connected-smart-cities-conference-2019) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/CSCC2019/)
 
 ### 2018
+
+2018-12-14 [Media Fast Forward](https://www.mediafastforward.be) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Media-Fast-Forward-2018/)
 
 2018-10-27 [MozFest](https://wiki.mozilla.org/Mozfest/2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=elfSzMATcB4)
 
@@ -66,6 +82,8 @@ None
 
 2018-08-02 [Decentralized Web Summit](https://solidproject.org/dweb-summit-2018/) by Ruben Verborge: [video](https://www.decentralizedweb.net/videos/talk-solid-empowering-people-through-choice/) & [slides](https://solid.github.io/dweb-summit-2018/)
 
+2018-06-05 [International Conference of the European Library Automation Group (ELAG)](https://www.elag2018.org) by Ruben Verborgh: [slides](http://slides.verborgh.org/ELAG-2018/) 
+
 2018-05-28 - [ACM Turing Lecture - Utopia to Dystopia in 29 short years](https://www.w3.org/2018/Talks/0529-timbl-turing/timbl-turing-slides-utopia-to-dystopia.html)
 
 2018-05-15 [Connect](https://www.mulesoft.com/press-center/connect-2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=of9Anv5Yv_k) 
@@ -74,7 +92,9 @@ None
 
 2018-04-28 - [ Researcher-Centric Scholarly Communication workshop at The Web Conf 2018 - Building a researcher-centric world on the user-centric platform, Solid](https://linkedresearch.org/events/the-web-conf-2018/summary#researcher-centric-solid)
 
-2019-01-06 [GoTo Conference](https://gotocph.com/2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=Rxqko96C5ZI)
+2018-03-22 [Blockchain Core Summit](https://underscore.vc/blockchain) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Blockchain-Core-Summit-2018/)
+
+2018-01-06 [GoTo Conference](https://gotocph.com/2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=Rxqko96C5ZI)
 
 ### 2017
 
