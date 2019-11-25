@@ -26,6 +26,8 @@ None
 
 2019-10-04 [Connected Data London](https://connected-data.london): [slides](https://rubenverborgh.github.io/Connected-Data-London-2019/)
 
+2019-09-26 [Open Access Scholarly Publishers Association](https://oaspa.org/event/coasp-2019/) by Sarven Capadisli:[video](https://oaspavideos.org/video/third-party-control-considered-harmful) & [slides](https://csarven.ca/presentations/third-party-control-considered-harmful/)
+
 2019-09-26 [Waag Data Commons #1: Fietsdata](https://waag.org/nl/event/data-commons-1-fietsdata) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-DataCommons-2019/#)
 
 2019-09-20 [Aalborg University](https://www.en.aau.dk) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Decentralized-Web-Query-Challenges-2019/)
