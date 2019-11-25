@@ -305,6 +305,34 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-04-24 [Forbes: The Best Way to Avoid Data Leaks and Privacy Scandals: Don't Own Consumer Data](https://www.forbes.com/sites/joetoscano1/2019/04/24/the-best-way-to-avoid-data-leaks-and-privacy-scandals-dont-own-consumer-data/#c6178f525643)
 
+2019-03-27 [Phocus Wire: Tim Berners-Lee laments state of the web but offers hope for travel brands](https://www.phocuswire.com/Tim-Berners-Lee-redecentralization)
+
+2019-03-27 [BostInno: Exclusive: Meet the Nominees of This Year’s NEVY Awards](https://www.americaninno.com/boston/inno-news-boston/exclusive-meet-the-nominees-of-this-years-nevy-awards/)
+
+2019-03-26 [Computer Weekly: Web inventor wants a web built on solid data principles](https://www.computerweekly.com/news/252460250/Web-inventor-wants-to-build-a-web-built-on-solid-data-principals)
+
+201903-26 [The Register: FAANGs for the memories: Breaking up big tech's biggest isn't a matter of if, but of when](https://www.theregister.co.uk/2019/03/26/facebook_apple_amazon_netflix_google/)
+
+2019-03-25 [Tech Cabal: At 30, the Web is Attempting to Find its Way Back Home  ](https://techcabal.com/2019/03/25/at-30-the-web-is-attempting-to-find-its-way-back-home/)
+
+2019-03-23 [Forbes: Sir Tim Berners-Lee At Forefront Of New Movement To Takeback Ownership Of Our Data](https://www.forbes.com/sites/maciejduraj/2019/03/23/sir-tim-berners-lee-at-forefront-of-new-movement-to-takeback-ownership-of-our-data/#4b5cc72434e1)
+
+https://www.corriere.it/economia/leconomia/economia-circolare-mobilita-sostenibile-smart-city/notizie/inrupt-seconda-vita-dell-uomo-che-ha-inventato-web-che-ora-vuole-salvarci-4e599c60-4e18-11e9-8f3f-b71cad3f7934.shtml
+
+2019-03-22 [Medium: The Academics of Investing in AI ](https://medium.com/glasswingvc/the-academics-of-investing-in-ai-8259c62a370b)
+
+2019-03-22 [Little Black Book: Gain Back Your Privacy with a Decentralised Internet](https://lbbonline.com/news/gain-back-your-privacy-with-a-decentralised-internet/)
+
+2019-03-21 [GDN Online: Internet died in 2014...](http://www.gdnonline.com/Details/510604/Internet-died-in-2014)
+
+2019-03-19 [BostInno: The Beat, Tuesday, March 19, 2019](https://www.americaninno.com/boston/newsletters/exclusive-flybridge-launches-second-graduate-syndicate-fund-swedish-cybersec-startup-heads-to-boston/)
+
+2019-03-29 [DZone: The Year of the Graph Newsletter: March 2019](https://dzone.com/articles/a-gravitational-wave-moment-for-graph-the-year-of)
+
+2019-03-18 [MIT News: Tim Berners-Lee named FT “Boldness in Business” Person of the Year](http://news.mit.edu/2019/tim-berners-lee-named-ft-boldness-in-business-person-of-the-year-0318)
+
+2019-03-17 [The Times: Tim Berners-Lee calls for a fight for ‘the kind of web we want’](https://www.thetimes.co.uk/edition/news-review/tim-berners-lee-calls-for-a-fight-for-the-kind-of-web-we-want-wk95rjxls)
+
 2019-03-15 [API Best in Class: What is Solid? Decentralized Web? Tim Berners-Lee is up to something again.](https://apibestinclass.com/what-is-solid-decentralized-web-tim-berners-lee-is-up-to-something-again/)
 
 2019-03-14 [Fast Company: T Bone Burnett rips Big Tech “surveillance capitalists” in blistering SXSW keynote](https://www.fastcompany.com/90320480/full-text-t-bone-burnett-rips-big-tech-surveillance-capitalists-in-blistering-sxsw-keynote)
