@@ -6,11 +6,11 @@ permalink: press
 
 Are you looking to get a speaker or interview about Solid? Contact us on press@solidproject.org with a description of what you are looking for. 
 
-## Upcoming Talks on Solid
+## Upcoming Talks
 
 None
 
-## Past Talks on Solid 
+## Past Talks mentioning Solid 
 
 ### 2019
 
@@ -58,7 +58,7 @@ None
 
 2019-03-28 [T3chFest](https://t3chfest.es/2019/?lang=en) by Juan Lupión: [video](https://www.youtube.com/watch?v=zzsViU5kSlY)
 
-2019-03-28 Beyond Data Event by Ruben Verborgh 
+2019-03-28 Beyond Data Event by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Beyond-Data-Event-2019/)
 
 2019-03-06 [Washington Post Live](https://www.washingtonpost.com/gdpr-consent/?destination=%2fblogs%2fpost-live%2f%3f) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=eJ6IrWc7Wt4)
 
@@ -89,6 +89,8 @@ None
 2018-09-13 Web Foundation Seminar by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Web-Foundation-2018/)
 
 2018-09-06 [OSLC Fest](http://www.oslcfest.org) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/OSLC-Fest-2018/)
+
+2018-08-23 [ePIC](https://epic.openrecognition.org) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/ePIC-2018/)
 
 2018-08-02 [Decentralized Web Summit](https://solidproject.org/dweb-summit-2018/) by Ruben Verborge: [video](https://www.decentralizedweb.net/videos/talk-solid-empowering-people-through-choice/) & [slides](https://solid.github.io/dweb-summit-2018/)
 
