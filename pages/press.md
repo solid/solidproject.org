@@ -307,7 +307,31 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-02-26 [Communications of ACM:cience in Europe: Beyond Boundaries]](https://cacm.acm.org/magazines/2019/4/235597-web-science-in-europe/fulltext)
 
-2019-03-30 - [How a chess app interacts with Solid](https://pieterheyvaert.com/blog/2019/03/30/solid-chess-interaction)
+2019-03-30 [How a chess app interacts with Solid](https://pieterheyvaert.com/blog/2019/03/30/solid-chess-interaction)
+
+2019-02-05 [Financial Express: Open up to open-source](https://www.financialexpress.com/opinion/open-up-to-open-source/1476602/)
+
+2019-02-14 [Washington Post: Washington Post Live hosts exclusive interview with Tim Berners-Lee](https://www.washingtonpost.com/pr/2019/02/14/washington-post-live-hosts-exclusive-interview-with-tim-berners-lee/)
+
+2019-02-15 [Mac Observer: Sir Tim Berners-Lee Wants to Fix the Web with New Startup](https://www.macobserver.com/link/tim-berners-lee-inrupt/)
+
+2019-02-19 [Make Money with Google: Tomorrow's Data Heroes](https://make-money-with-googlee.blogspot.com/2019/02/tomorrows-data-heroes-strategybusiness.html)
+
+2019-02-19 [News Broadcast Network: Highlights & transcript from Zuckerberg’s 20K-word ethics talk](https://newsbroadcastnetwork.com/highlights-transcript-from-zuckerbergs-20k-word-ethics-talk-techcrunch/)
+
+2019-02-20 [TechCrunch: Highlights & transcript from Zuckerberg’s 20K-word ethics talk](https://techcrunch.com/2019/02/20/zuckerberg-harvard-zittrain/)
+
+2019-02-20 [Online Tech Tips: Highlights & transcript from Zuckerberg’s 20K-word ethics talk](https://online-techtips.blogspot.com/2019/02/highlights-transcript-from-zuckerbergs.html)
+
+2019-02-21 [LearninPub: Highlights & transcript from Zuckerberg’s 20K-word ethics talk – TechCrunch](http://learninpub.blogspot.com/2019/02/highlights-transcript-from-zuckerbergs.html)
+
+2019-02-22 [Forbes: Becoming The Masters Of Our Own Digital Destinies](https://www.forbes.com/sites/jessicabaron/2019/02/22/becoming-the-masters-of-our-own-digital-destinies/#434b73c96f18)
+
+2019-02-22 [Cryptoglobe: Mark Zuckerberg Considering Using Blockchain to Make Facebook More Decentralized](https://www.cryptoglobe.com/latest/2019/02/mark-zuckerberg-considering-using-blockchain-to-make-facebook-more-decentralized/)
+
+2019-02-27 [ITWeb: Trends 2019: Time to clean up your data act](https://www.itweb.co.za/content/WnxpEv4D25dvV8XL)
+
+2019-02-28 [Cryptoglobe: Facebook Reportedly Talking to Exchanges About Listing Its New Cryptocurrency](https://www.cryptoglobe.com/latest/2019/02/facebook-reportedly-talking-to-exchanges-about-listing-its-new-cryptocurrency/)
 
 2019-01-29 [The Next Web: Digital trends 2019: Every single stat you need to know about the internet](https://thenextweb.com/contributors/2019/01/30/digital-trends-2019-every-single-stat-you-need-to-know-about-the-internet/)
 
