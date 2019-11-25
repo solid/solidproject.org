@@ -21,79 +21,36 @@ permalink: /
       </a>
       </div>
   <div class="page-content">
-    <h2 class="intro-heading">
-      Why you'll love Solid
+  <h2 class="intro-heading">
+      Why you'll love Solid as 
+      <span class="carousel__external" activated id="why2love-user"><u>a user</u></span>  
+      <span class="carousel__external"  id="why2love-developer"><u>a developer</u></span>  
+      <span class="carousel__external"  id="why2love-enterprise"><u>an enterprise</u></span>
     </h2>
-    <div class="cards row around">
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/dolly.svg"
-              alt=""
-              class="icon"
-            />
-            <span class="card-title">Move freely between services</span>
-          </div>
-          <div class="card-body">
-            <p>
-            Switch to the best tools and <b>take your data with you</b>. 
-            </p>
-          </div>
-        </div>
+    <div class="carousel">
+      <input type="radio" id="carousel-user" name="carousel[]" checked>
+      <input type="radio" id="carousel-developer" name="carousel[]">
+      <input type="radio" id="carousel-enterprise" name="carousel[]">
+      <ul class="carousel__items">
+        <li class="carousel__item">{% include why2love_user.html %}</li>
+        <li class="carousel__item">{% include why2love_developer.html %}</li>
+        <li class="carousel__item">{% include why2love_enterprise.html %}</li>
+      </ul>
+      <!-- <div class="carousel__prev">
+        <label for="carousel-user"></label>
+        <label for="carousel-developer"></label>
+        <label for="carousel-enterprise"></label>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/recycle.svg"
-              alt=""
-              class="icon"
-            />
-            <span class="card-title">Reuse data across apps</span>
-          </div>
-          <div class="card-body">
-            <p>
-            <!-- Get quality recommendations based on the whole you by recycling data from multiple apps.  -->
-            Stop re-entering the same data again and again by <b>recycling data from app to app</b>.
-            </p>
-          </div>
-        </div>
+      <div class="carousel__next">
+        <label for="carousel-user"></label>
+        <label for="carousel-developer"></label>
+        <label for="carousel-enterprise"></label>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/users.svg"
-              alt=""
-              class="icon"
-            />
-            <span class="card-title">Connect with anyone</span>
-          </div>
-          <div class="card-body">
-            <p>
-              Connect to your friends <b>no matter what app they are using</b>. 
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/crosshairs.svg"
-              alt=""
-              class="icon"
-            />
-            <span class="card-title">Select what you share precisely</span>
-          </div>
-          <div class="card-body">
-            <p>
-              Give access to <b>the bare minimum of data needed</b> for the service to work.
-            </p>
-          </div>
-        </div>
-      </div>
+      <div class="carousel__nav">
+        <label for="carousel-user"></label>
+        <label for="carousel-developer"></label>
+        <label for="carousel-enterprise"></label>
+      </div> -->
     </div>
     <span id="what-is-solid"></span>
     <div class="img-info-banner row around">
@@ -163,3 +120,7 @@ permalink: /
 
   </div>
 </div>
+
+<!-- <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.4.1.min.js"/> -->
+
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/carousel.js"/>
