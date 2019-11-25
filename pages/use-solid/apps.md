@@ -10,6 +10,8 @@ Please be aware that this page is still a work in progress. You wrote a Solid-co
 
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
 
+* [OEdit](https://edit.o.team) an editor app for raw files using the vs interface
+* [OChat](https://chat.o.team) a chat app
 * [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) uses the national weather service API so it is currently only able to fetch weather in the United States.2019. Dylan Martin.
 * [SolidVC](https://github.com/kezike/solid-vc) is a [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid.
 * [Solid Calendar](https://bitbucket.org/dylanmartin/solidcalendar/src/master/) is a way to create, store, and query events using a user's card. 2019. Dylan Martin.
