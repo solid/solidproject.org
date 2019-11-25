@@ -180,17 +180,35 @@ none
 
 2019-08-18 [Coin Telegraph: Would Blockchain Better Protect User Data Than FaceApp? Experts Answer](https://cointelegraph.com/news/would-blockchain-better-protect-user-data-than-faceapp-experts-answer)
 
-2019-08-08 - [Innovation Excellence: Inventor of the Web, Tim Berners-Lee, Has Launched a New Startup](https://www.innovationexcellence.com/blog/2019/08/08/inventor-of-the-web-tim-berners-lee-has-launched-a-new-startup/)
+2019-08-08 [Innovation Excellence: Inventor of the Web, Tim Berners-Lee, Has Launched a New Startup](https://www.innovationexcellence.com/blog/2019/08/08/inventor-of-the-web-tim-berners-lee-has-launched-a-new-startup/)
 
-2019-08-02 - [CMS wire:Gartner Describes CDO v4.0, Microsoft Axes Skype for Business Online and Other News](https://www.cmswire.com/digital-workplace/gartner-describes-cdo-v40-microsoft-axes-skype-for-business-online-and-other-news/)
+2019-08-02 [CMS wire:Gartner Describes CDO v4.0, Microsoft Axes Skype for Business Online and Other News](https://www.cmswire.com/digital-workplace/gartner-describes-cdo-v40-microsoft-axes-skype-for-business-online-and-other-news/)
 
-2019-08-01 - [Gadgetbridge: Apple signs up for the Data Transfer Project: Find out more](https://www.gadgetbridge.com/news/apple-signs-up-for-the-data-transfer-project-find-out-more/)
+2019-08-01 [Gadgetbridge: Apple signs up for the Data Transfer Project: Find out more](https://www.gadgetbridge.com/news/apple-signs-up-for-the-data-transfer-project-find-out-more/)
 
-2019-08-01 - [TechDirt: Don't Let This Get Lost In The Shuffle: The Data Transfer Project Is Expanding, And Could Help Create Real Competition Online](https://www.techdirt.com/articles/20190731/17390142693/dont-let-this-get-lost-shuffle-data-transfer-project-is-expanding-could-help-create-real-competition-online.shtml)
+2019-08-01 [TechDirt: Don't Let This Get Lost In The Shuffle: The Data Transfer Project Is Expanding, And Could Help Create Real Competition Online](https://www.techdirt.com/articles/20190731/17390142693/dont-let-this-get-lost-shuffle-data-transfer-project-is-expanding-could-help-create-real-competition-online.shtml)
 
 #### July 2019
 
-2019-07-31 - [The Verge: Brain-computer interfaces are developing faster than the policy debate around them](https://www.theverge.com/interface/2019/7/31/20747916/facebook-brain-computer-interface-policy-neuralink)
+2019-07-31 [The Verge: Brain-computer interfaces are developing faster than the policy debate around them](https://www.theverge.com/interface/2019/7/31/20747916/facebook-brain-computer-interface-policy-neuralink)
+
+2019-07-21 [NBC News](https://www.nbcnews.com/tech/tech-news/these-technologists-think-internet-broken-so-they-re-building-another-n1030136)
+
+2019-07-18 [BAI: Getting real with digital innovation](https://www.bai.org/banking-strategies/article-detail/getting-real-with-digital-innovation)
+
+2019-07-17 [Vator TV: MeWe CEO Mark Weinstein on how his company is positioning itself as the anti-Facebook](https://vator.tv/news/2019-07-17-mewe-ceo-mark-weinstein-on-how-his-company-is-positioning-itself-as-the-anti-facebook)
+
+2019-07-16 [B2B NN: Tim Berners-Lee's Memories of Creating the Web Involve at Least 3 Classic B2B Scenarios](https://www.b2bnn.com/2019/07/tim-berners-lee-inrupt/)
+
+2019-07-16 [AmericanInno: Online consumer tracking and the challenges for marketing](‘One Giant Leap for Mankind’: These Eight Boston Companies Are Working on Moonshots of Their Own](https://www.americaninno.com/roundups/one-giant-leap-for-mankind-these-eight-boston-companies-are-working-on-moonshots-of-their-own/)
+
+2019-07-16 [CMO Australia: https://www.cmo.com.au/article/663801/online-consumer-tracking-challenges-marketing/)
+
+2019-07-11 [Medium: It’s Time to Rebuild the Internet](https://medium.com/@dylsteck/its-time-to-rebuild-the-internet-f0790f9966ec)
+
+2019-07-02 [Programmable Web: Self-Hosted Personal Data is Key to Four Promising Facebook Alternatives](https://www.programmableweb.com/news/self-hosted-personal-data-key-to-four-promising-facebook-alternatives/analysis/2019/07/02)
+
+
 
 2019-05-11 [De Tijd](https://www.tijd.be/dossiers/nieuwe-inzichten/we-moeten-weer-baas-worden-over-onze-data/10125717.html)
 
