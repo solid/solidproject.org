@@ -305,7 +305,41 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-04-24 [Forbes: The Best Way to Avoid Data Leaks and Privacy Scandals: Don't Own Consumer Data](https://www.forbes.com/sites/joetoscano1/2019/04/24/the-best-way-to-avoid-data-leaks-and-privacy-scandals-dont-own-consumer-data/#c6178f525643)
 
-2019-03-01 [Medium: What Would More Democratic A.I. Look Like?](https://onezero.medium.com/what-would-more-democratic-a-i-look-like-ea729f5f7b0a) 
+2019-03-15 [API Best in Class: What is Solid? Decentralized Web? Tim Berners-Lee is up to something again.](https://apibestinclass.com/what-is-solid-decentralized-web-tim-berners-lee-is-up-to-something-again/)
+
+2019-03-14 [Fast Company: T Bone Burnett rips Big Tech “surveillance capitalists” in blistering SXSW keynote](https://www.fastcompany.com/90320480/full-text-t-bone-burnett-rips-big-tech-surveillance-capitalists-in-blistering-sxsw-keynote)
+
+2019-03-14 [Financial Times: Sustainable businesses should be ‘long-term greedy’](https://www.ft.com/content/bd30c5ec-20a9-11e9-a46f-08f9738d6b2b)
+
+2019-03-14 [Financial Times: Boldness in Business person of the year: Sir Tim Berners-Lee](https://www.ft.com/content/9d3205a8-15af-11e9-a168-d45595ad076d)
+
+2019-03-14 [Hiltop Monitor: World Wide Web Celebrates 30th Anniversary](http://hilltopmonitor.com/2019/03/world-wide-web-celebrates-30th-anniversary/)
+
+2019-03-14 [DisrupTec: Privacy – remember John Lennon?](https://disruptec.co/2019/03/14/privacy-remember-john-lennon/)
+
+2019-03-13 [PYMNTS: The World Wide Web Turns 30](https://www.pymnts.com/innovation/2019/world-wide-web-anniversary/)
+
+2019-03-12 [Inverse: World Wide Web: 3 Other Acts by Tim Berners-Lee That Shaped the Internet](https://www.inverse.com/article/54000-world-wide-web-google-doodle-tim-berners-lee)
+
+2019-03-12 [CERN: Web@30: reliving history and rethinking the future](https://home.cern/news/news/computing/web30-reliving-history-and-rethinking-future)
+
+2019-03-12 [The Sun: WORLD WIDE WOW Who is Sir Tim Berners-Lee and when did he invent the World Wide Web?](https://www.thesun.co.uk/news/8612472/sir-tim-berners-lee-world-wide-web/)
+
+2019-03-12 [World Economic Forum: 4 ways the web has changed our lives – and will shape our future](https://www.weforum.org/agenda/2019/03/four-ways-the-web-has-changed-our-lives-and-will-shape-our-future/)
+
+2019-03-12 [Verdict: 30 years after Tim Berners-Lee created the web, is it too late to fix it?](https://www.verdict.co.uk/world-wide-web-inventor/)
+
+2019-03-12 [Japan Times: Web inventor Tim Berners-Lee urges users to seek 'complete control' of data](https://www.japantimes.co.jp/news/2019/03/12/business/tech/web-inventor-urges-users-seek-complete-control-data/#.Xdw5HS2ZOTd)
+
+2019-03-12 [Engadget: The World Wide Web at 30](https://www.engadget.com/2019/03/12/world-wide-web-30-birthday-tim-berners-lee/)
+
+2019-03-11 [Financial Times: Tim Berners-Lee on reshaping the web](https://www.ft.com/content/17cb93d1-a00b-4ce4-a74d-184befa5c141)
+
+2019-03-11 [Financial Times: The web has fallen under the influence of a bad crowd](https://www.ft.com/content/333501f2-43d4-11e9-a965-23d669740bfb)
+
+2019-03-10 [Techonomy; Why Banks Could Be Your Ally for Managing Identity](https://techonomy.com/2019/03/banks-ally-managing-identity/)
+
+2019-03-06 [RTL Today; 30 years later, Berners-Lee sees mission to fix internet's ills](https://today.rtl.lu/news/business-and-tech/a/1315897.html)
 
 2019-03-05 [CNET: Tim Berners-Lee still believes the web can be fixed, even today](https://www.cnet.com/news/tim-berners-lee-still-believes-the-web-can-be-fixed-even-today/?ftag=COS-05-10aaa0b&linkId=64391961)
 
@@ -321,10 +355,7 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-03-05 [Yahoo News: 30 years later, Berners-Lee sees mission to fix internet's ills](https://news.yahoo.com/30-years-later-berners-lee-sees-mission-fix-171158879.html)
 
-2019-03-06 [RTL Today; 30 years later, Berners-Lee sees mission to fix internet's ills](https://today.rtl.lu/news/business-and-tech/a/1315897.html)
-
-2019-03-10 [Techonomy; 
-Why Banks Could Be Your Ally for Managing Identity](https://techonomy.com/2019/03/banks-ally-managing-identity/)
+2019-03-01 [Medium: What Would More Democratic A.I. Look Like?](https://onezero.medium.com/what-would-more-democratic-a-i-look-like-ea729f5f7b0a) 
 
 2019-02-26 [Communications of ACM:cience in Europe: Beyond Boundaries]](https://cacm.acm.org/magazines/2019/4/235597-web-science-in-europe/fulltext)
 
