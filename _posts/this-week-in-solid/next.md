@@ -33,7 +33,6 @@ Tune in at [this line](https://zoom.us/j/261297657):
 * on the 16th January 2020 at 16:00.
 * on the 23rd January 2020 at 10:00.
 * (and so on, alternating at 10:00 CET and 16:00 CET, unless otherwise noted here)
-Tune in on the 21st November at 1400 [this line](https://zoom.us/j/261297657).
 
 ## Press
 
