@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: home-pages
 title: Use Solid Apps
 permalink: /use-solid
 ---

@@ -21,37 +21,9 @@ permalink: /
       </a>
       </div>
   <div class="page-content">
-  <h2 class="intro-heading">
-      Why you'll love Solid as 
-      <span class="carousel__external" activated id="why2love-user"><u>a user</u></span>  
-      <span class="carousel__external"  id="why2love-developer"><u>a developer</u></span>  
-      <span class="carousel__external"  id="why2love-enterprise"><u>an enterprise</u></span>
-    </h2>
-    <div class="carousel">
-      <input type="radio" id="carousel-user" name="carousel[]" checked>
-      <input type="radio" id="carousel-developer" name="carousel[]">
-      <input type="radio" id="carousel-enterprise" name="carousel[]">
-      <ul class="carousel__items">
-        <li class="carousel__item">{% include why2love_user.html %}</li>
-        <li class="carousel__item">{% include why2love_developer.html %}</li>
-        <li class="carousel__item">{% include why2love_enterprise.html %}</li>
-      </ul>
-      <!-- <div class="carousel__prev">
-        <label for="carousel-user"></label>
-        <label for="carousel-developer"></label>
-        <label for="carousel-enterprise"></label>
-      </div>
-      <div class="carousel__next">
-        <label for="carousel-user"></label>
-        <label for="carousel-developer"></label>
-        <label for="carousel-enterprise"></label>
-      </div>
-      <div class="carousel__nav">
-        <label for="carousel-user"></label>
-        <label for="carousel-developer"></label>
-        <label for="carousel-enterprise"></label>
-      </div> -->
-    </div>
+  <h2 class="intro-heading">Why you'll love Solid as a user</h2>
+  <div class="intro-subheading">Find out why you'll love Solid <a href="/for-developers">as a developer</a> or <a href="/for-enterprises">as an enterprise</a></div>
+    {% include why2love_user.html %}
     <span id="what-is-solid"></span>
     <div class="img-info-banner row around">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
@@ -120,7 +92,3 @@ permalink: /
 
   </div>
 </div>
-
-<!-- <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.4.1.min.js"/> -->
-
-<script type="text/javascript" src="{{site.baseurl}}/assets/js/carousel.js"/>
