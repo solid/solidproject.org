@@ -10,8 +10,12 @@ Please be aware that this page is still a work in progress. You wrote a Solid-co
 
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
 
-* [OEdit](https://edit.o.team) an editor app for raw files using the vs interface
-* [OChat](https://chat.o.team) a chat app
+* [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype). 2019. [Sharon Statsianis](https://github.com/SharonStrats). 
+* [Spoggy](https://spoggy.herokuapp.com/) 
+* [Linked Pipes](https://applications.linkedpipes.com/). 2019. [@aorumbayev](https://github.com/aorumbayev)
+* [Linked Beer](https://ozcanseker.github.io/Social-linked-beer/) search for and rate beers listed by brewery. 2019. Özcan Seker. [source code](https://github.com/ozcanseker/Social-linked-beer)
+* [OEdit](https://edit.o.team) an editor app for raw files using the vs interface. 2019. Jackson Morgan. 
+* [OChat](https://chat.o.team) a chat app. 2019. Jackson Morgan. 
 * [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) uses the national weather service API so it is currently only able to fetch weather in the United States.2019. Dylan Martin.
 * [SolidVC](https://github.com/kezike/solid-vc) is a [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid.
 * [Solid Calendar](https://bitbucket.org/dylanmartin/solidcalendar/src/master/) is a way to create, store, and query events using a user's card. 2019. Dylan Martin.
@@ -34,7 +38,6 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 * [Dechat_es6b](https://arquisoft.github.io/DeChat_es6b/) Solid chat. [Source code](https://github.com/Arquisoft/DeChat_es6b) 
 * [Dechat_es6a2](https://arquisoft.github.io/dechat_es6a2/) Solid chat. [Source code](https://github.com/Arquisoft/dechat_es6a2) [MIT License Copyright (c) 2019](https://github.com/Arquisoft/dechat_es6a2/blob/master/LICENSE)[Licensors](https://github.com/Arquisoft/dechat_es6a2/graphs/contributors)
 * [Pixolid](https://pixolid.netlify.com/) is an app to manage, upload, comment, and like images. [Source code](https://github.com/carloss8/pixolid) [MIT License Copyright (c) 2019](https://github.com/carloss8/pixolid/blob/master/LICENSE) [Karel Dvořák](https://github.com/carloss8)
-* [Solid authorization Widget](https://bourgeoa.solid.community/public/solid-file-widget/)component for webapp [Source code](https://github.com/bourgeoa/solid-file-widget) [MIT License Copyright (c) 2019](https://github.com/bourgeoa/solid-file-widget/blob/master/LICENSE) [Bourgeoa](https://github.com/bourgeoa) 
 * [Form Integration](https://www.formrouter.com/solid-project-pod-pdf-form-integration/online_forms_solid_pod.htm) is an app to submit online form data to your Pod. Using a FormRouter Account, it is now possible to setup an online form that can route directly into a Solid Pod. This allows any person with a Solid Pod to get a copy of the form data they filled out. The submission may include a copy of the form as a PDF if so configured. This currently supports PDF, HTML and Excel form formats. (c) 2019 [FormRouter Inc](https://www.formrouter.com)
 * [Solid File Manager](https://otto-aa.github.io/solid-filemanager/) is an Solid app that help you manages files in your Pod. [Source code](https://github.com/Otto-AA/solid-filemanager) [MIT License Copyright (c) 2019](https://github.com/Otto-AA/solid-filemanager/blob/master/LICENSE) [Otto AA](https://github.com/Otto-AA)
 * [OpenLink Smart Data Bot (OSDB)](http://osdb.openlinksw.com) distills actions from API documentation constructed using RDF or OpenAPI; supports WebID-OIDC for authentication (c) 2019 [OpenLink Software](http://www.openlinksw.com)
@@ -45,7 +48,6 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 * [File Extractor](https://formrouter.solid.community/public/FileExtraction/) is an app to sign into your Pod and extract all data. An HTML page allows your to sign in to a Solid Pod and extract a HexBin file from an RDF file there. [Source code](https://github.com/dconorozzo/Solid-RDF-HexBin-File-Extraction) [MIT License Copyright (c) 2019](https://github.com/dconorozzo/Solid-RDF-HexBin-File-Extraction/blob/master/LICENSE) [David Conorozzo](https://github.com/dconorozzo)
 * [Tiddlywiki](https://bourgeoa.solid.community/public/tiddlywiki) is a Pod store. [Source code](https://github.com/bourgeoa/tiddlywiki-node-solid-server) [MIT License Copyright (c) 2019](https://github.com/bourgeoa/tiddlywiki-node-solid-server/blob/master/LICENSE) [Alain Bourgeois](https://github.com/bourgeoa)
 * [File Extractor for Pods](https://github.com/dconorozzo/Solid-RDF-HexBin-File-Extraction) extract files from Pods. [Source code]() [MIT License Copyright (c) 2019](https://github.com/dconorozzo/Solid-RDF-HexBin-File-Extraction/blob/master/LICENSE) [FormRouter, Inc.](https://www.formrouter.com)
-* [Solid File Widget](https://bourgeoa.solid.community/public/solid-file-widget/) widget authorisation. [Source code](https://github.com/bourgeoa/solid-file-widget) [MIT License Copyright (c) 2019](https://github.com/bourgeoa/solid-file-widget/blob/master/LICENSE) [Alain Bourgeois](https://github.com/bourgeoa)
 * [Solid Chess](https://pheyvaer.github.io/solid-chess/) decentralised chess game [Source code](https://github.com/pheyvaer/solid-chess) [MIT License Copyright (c) 2018](https://github.com/pheyvaer/solid-chess/blob/master/LICENSE.md) [Pieter Heyvaert](https://github.com/pheyvaer)
 * [Solid IDE](https://jeff-zucker.github.io/solid-ide/) file manager and IDE. [Source code](https://github.com/jeff-zucker/solid-ide) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/solid-ide/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker)
 * [SPARQL Fiddle](https://jeff-zucker.github.io/sparql-fiddle/) online fiddle to run SPARQL against  Pods. [Source code](https://github.com/jeff-zucker/sparql-fiddle) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/sparql-fiddle/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker) 
