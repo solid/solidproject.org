@@ -10,7 +10,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 none
 
-## Past Talks mentioning Solid 
+## Past Talks Mentioning Solid 
 
 ### 2019
 
@@ -137,6 +137,20 @@ none
 2015-09-25 - [Web.br](http://conferenciaweb.w3c.br/): [slides](https://github.com/solid/talks/blob/master/slides-re-decentralize.html) & [video](https://www.youtube.com/watch?v=BPZiBDPKiGk)
 
 ## Mentions of Solid in Articles
+
+### 2019
+
+#### November 2019
+
+2019-11-20 [LSE Business Review: How to turn trust into a competitive advantage](https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/) 
+
+2019-11-13 [MRWeb: Berners-Lee Raises Funds to 'Reimagine the Web'](http://www.mrweb.com/drno/news28902.htm)
+
+2019-11-12 [CIO: 'Tech for humanity' - Richard Corbridge digests Professor Sir Tim Berners-Lee's Gartner Symposium CIO call to arms](https://www.cio.co.uk/cio-career/richard-corbridge-digests-tim-berners-lees-gartner-symposium-keynote-3777696/)
+
+2019-11-08 [New American: Web 2.0 Was Hijacked and Broken by Big Tech. Privacy Pioneers Are Building a Better Web 3.0](https://www.thenewamerican.com/tech/computers/item/33988-web-2-0-was-hijacked-and-broken-by-big-tech-privacy-pioneers-are-building-a-better-web-3-0)
+
+2019-11-4 [The Inquirer: Sir Tim Berners-Lee's Inrupt startup receives £5m investment](https://www.theinquirer.net/inquirer/news/3083354/tim-berners-lee-inrupt-gdp5m-investment) 
 
 2019-08-08 - [Innovation Excellence: Inventor of the Web, Tim Berners-Lee, Has Launched a New Startup](https://www.innovationexcellence.com/blog/2019/08/08/inventor-of-the-web-tim-berners-lee-has-launched-a-new-startup/)
 
