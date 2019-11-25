@@ -176,6 +176,10 @@ none
 
 #### August 2019
 
+2019-08-29 [Scotsman: Accelerating the pace of change for data ownership](https://www.scotsman.com/business/accelerating-the-pace-of-change-for-data-ownership-1-4993209)
+
+2019-08-18 [Coin Telegraph: Would Blockchain Better Protect User Data Than FaceApp? Experts Answer](https://cointelegraph.com/news/would-blockchain-better-protect-user-data-than-faceapp-experts-answer)
+
 2019-08-08 - [Innovation Excellence: Inventor of the Web, Tim Berners-Lee, Has Launched a New Startup](https://www.innovationexcellence.com/blog/2019/08/08/inventor-of-the-web-tim-berners-lee-has-launched-a-new-startup/)
 
 2019-08-02 - [CMS wire:Gartner Describes CDO v4.0, Microsoft Axes Skype for Business Online and Other News](https://www.cmswire.com/digital-workplace/gartner-describes-cdo-v40-microsoft-axes-skype-for-business-online-and-other-news/)
@@ -183,6 +187,8 @@ none
 2019-08-01 - [Gadgetbridge: Apple signs up for the Data Transfer Project: Find out more](https://www.gadgetbridge.com/news/apple-signs-up-for-the-data-transfer-project-find-out-more/)
 
 2019-08-01 - [TechDirt: Don't Let This Get Lost In The Shuffle: The Data Transfer Project Is Expanding, And Could Help Create Real Competition Online](https://www.techdirt.com/articles/20190731/17390142693/dont-let-this-get-lost-shuffle-data-transfer-project-is-expanding-could-help-create-real-competition-online.shtml)
+
+#### July 2019
 
 2019-07-31 - [The Verge: Brain-computer interfaces are developing faster than the policy debate around them](https://www.theverge.com/interface/2019/7/31/20747916/facebook-brain-computer-interface-policy-neuralink)
 
