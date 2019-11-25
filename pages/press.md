@@ -192,7 +192,26 @@ none
 
 2019-07-31 [The Verge: Brain-computer interfaces are developing faster than the policy debate around them](https://www.theverge.com/interface/2019/7/31/20747916/facebook-brain-computer-interface-policy-neuralink)
 
-2019-07-21 [NBC News](https://www.nbcnews.com/tech/tech-news/these-technologists-think-internet-broken-so-they-re-building-another-n1030136)
+2019-07-31 [Joy Online: 
+Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoyonline.com/technology/2019/july-31st/apple-joins-google-facebook-and-twitter-in-data-sharing-project.php)
+
+2019-07-31 [Medium: The future of the decentralized web](https://medium.com/berkman-klein-center/the-future-of-the-decentralized-web-707915f12360)
+
+2019-07-30 [Medium: 9 Components of the Decentralised Ecosystem that we Need to Build a Decentralised Society](https://medium.com/swlh/9-components-of-the-decentralised-ecosystem-that-we-need-to-build-a-decentralised-society-f07834d2d2c9)
+
+2019-07-30 [Apple Insider: Apple joins Data Transfer Project with other cloud service giants](https://appleinsider.com/articles/19/07/30/apple-joins-data-transfer-project-with-other-cloud-service-giants)
+
+2019-07-30 [PYMNTS: Apple Is Joining The Data Transfer Project](https://www.pymnts.com/data/2019/apple-joining-data-transfer-project/)
+
+2019-07-30 [The Verge: Apple joins Google, Facebook, and Twitter in data-sharing project](https://www.theverge.com/2019/7/30/20746868/apple-data-transfer-project-google-microsoft-twitter)
+
+2019-07-26 [Civil Service World: Opinion: Think Britain beats the world on digital services? Think again. China rules the digital waves](https://civilserviceworld.com/articles/opinion/opinion-think-britain-beats-world-digital-services-think-again-china-rules-digital)
+
+2019-07-24 [La Vanguardia: ¿Internet está averiado? Tim Berners-Lee y otros están intentando repararlo](https://www.lavanguardia.com/tecnologia/20190724/463676999523/internet-averiado-tim-berners-lee-reparar-dweb-web-descentralizada-internet-descentralizado-p2p-blockchain.html
+
+2019-07-22 [Medium: How to Ensure Your Privacy in a Data-Driven Future](https://medium.com/@markvanrijmenam/how-to-ensure-your-privacy-in-a-data-driven-future-9feab000c61d)
+
+2019-07-21 [NBC News: These technologists think the internet is broken. So they're building another one.](https://www.nbcnews.com/tech/tech-news/these-technologists-think-internet-broken-so-they-re-building-another-n1030136)
 
 2019-07-18 [BAI: Getting real with digital innovation](https://www.bai.org/banking-strategies/article-detail/getting-real-with-digital-innovation)
 
@@ -208,12 +227,50 @@ none
 
 2019-07-02 [Programmable Web: Self-Hosted Personal Data is Key to Four Promising Facebook Alternatives](https://www.programmableweb.com/news/self-hosted-personal-data-key-to-four-promising-facebook-alternatives/analysis/2019/07/02)
 
+#### June 2019
 
+2019-06-25 [Mercola: Google buries Mercola in their latest search engine update, Part 2 of 2]( https://articles.mercola.com/sites/articles/archive/2019/06/25/google-broad-core-algorithm-update-buries-mercola.aspx)
+
+2019-06-21 [The Record: Reinventing the World Wide Web](https://www.therecord.com/news-story/9447408-reinventing-the-world-wide-web/) 
+
+2019-06-14 [Faro de Vigo: Miitzi László: "No hay inteligencia artificial, solo es una extensión de la humana"](https://www.farodevigo.es/sociedad/2019/06/14/miitzi-laszlo-hay-inteligencia-artificial/2123354.html)
+
+2019-06-13 [Computing: Blockchain latest news: Zilliqa's smart contracts and Facebook's crypto tease](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle)
+
+2019-06-12 [Next Billion Seconds Podcast: Episode 3.09 The Future of the Web with Sean White](https://nextbillionseconds.com/2019/06/12/episode-3-09-the-future-of-the-web-with-sean-white/) 
+
+2019-06-10 [Medium: Here’s what NNG got wrong about Privacy (+ Lessons learned from Game of Thrones Season 8)](https://medium.com/greater-than-experience-design/heres-what-nng-group-got-wrong-about-privacy-lessons-learned-from-game-of-thrones-season-8-de6daef19ea2)
+
+2019-06-10 [La Nueva Española: Entrega del premio "Solid" entre los estudiantes de Informática](https://www.lne.es/economia/2019/06/11/entrega-premio-solid-estudiantes-informatica/2486251.html)
+
+2019-06-07 [Medium: DID: The Future of Identity](https://medium.com/clean-integration/did-the-future-of-identity-becaedd842c1)
+
+2019-06-06 [Technology Things: Revolt on the horizon? How young people really feel about digital technology](http://technology-things.com/revolt-on-the-horizon-how-young-people-really-feel-about-digital-technology/)
+
+2019-06-06 [Ethan Zuckerman's Blog: Sir Tim versus Black Mirror](http://www.ethanzuckerman.com/blog/2019/06/06/sir-tim-versus-black-mirror/)
+
+2019-06-05 [Singulariy Hub: Revolt on the horizon? How young people really feel about digital technology](https://singularityhub.com/2019/06/05/revolt-on-the-horizon-how-young-people-really-feel-about-digital-technology/)
+
+2019-06-03 [Media Post:Can Dweb Save The Internet?](https://www.mediapost.com/publications/article/336540/can-dweb-save-the-internet.html)
+
+#### May 2019
 
 2019-05-11 [De Tijd](https://www.tijd.be/dossiers/nieuwe-inzichten/we-moeten-weer-baas-worden-over-onze-data/10125717.html)
 
+#### April 2019
+
+
+#### March 2019
+
 2019-03-30 - [How a chess app interacts with Solid](https://pieterheyvaert.com/blog/2019/03/30/solid-chess-interaction)
 
+#### February  2019
+
+
+#### January  2019
+
 2019-01-21 [MIT Technology Review](http://www.mittrchina.com/news/3453)
+
+### 2018
 
 2018-12-31 [NRC - Herstelwerk aan het kapotte internet](https://www.nrc.nl/nieuws/2018/12/31/herstelwerk-aan-het-kapotte-internet-a3127480)
