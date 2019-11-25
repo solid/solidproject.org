@@ -11,8 +11,6 @@ Solid Events are an opportunity for the Solid community to meet in person locall
 
 | Date | Event | Organiser(s) |
 |------|-------|--------------|
-|2019-11-20|[Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
-|2019-11-21|[Solid Montreal](https://www.meetup.com/Montreal-Decentralized-Linked-Data-Meetup/events/266218723/?fbclid=IwAR2sJy5LIwzjJG52HSyfj88TSW4t5w_svUsWKA-STNG_e-pwrkfoLC5ROpE)|[David H Manson](https://github.com/vid)|
 |2019-12-10|[Solid Enschede](http://www.pilod.nl/wiki/Solid_Christmas_Meetup_Enschede_-_How_to_Fix_the_Internet)|Erwin Folmer |
 |2019-01-30|[Solid Amsterdam](http://www.pilod.nl/wiki/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020)|[Jeroen van Beele](https://github.com/jjvbeele) |
 
@@ -96,6 +94,8 @@ The third Solid Event is a good place to gather local companies and institutuion
 
 | Date | Event | Organizer(s) | Recordings and Slides |
 |------|-------|--------------|--------------|
+|2019-11-20|[Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
+|2019-11-21|[Solid Montreal](https://www.meetup.com/Montreal-Decentralized-Linked-Data-Meetup/events/266218723/?fbclid=IwAR2sJy5LIwzjJG52HSyfj88TSW4t5w_svUsWKA-STNG_e-pwrkfoLC5ROpE)|[David H Manson](https://github.com/vid)|
 |26-10-2019|[Solid London](https://www.eventbrite.com/e/solid-intro-workshop-this-is-for-everyone-join-the-movement-tickets-77597174237?aff=ebdssbdestsearch)|[Kartika Tulusan](https://github.com/ktulusan)|
 |11-10-2019|[Solid Copenhagen](https://www.meetup.com/Solid-Copenhagen-Meetup-Group/events/264871687/)|Sarmad Reda|
 |10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
