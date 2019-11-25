@@ -26,7 +26,7 @@ None
 
 2019-10-04 [Connected Data London](https://connected-data.london): [slides](https://rubenverborgh.github.io/Connected-Data-London-2019/)
 
-2019-09-26 [Open Access Scholarly Publishers Association](https://oaspa.org/event/coasp-2019/) by Sarven Capadisli:[video](https://oaspavideos.org/video/third-party-control-considered-harmful) & [slides](https://csarven.ca/presentations/third-party-control-considered-harmful/)
+2019-09-26 [Open Access Scholarly Publishers Association](https://oaspa.org/event/coasp-2019/) by Sarven Capadisli: [video](https://oaspavideos.org/video/third-party-control-considered-harmful) & [slides](https://csarven.ca/presentations/third-party-control-considered-harmful/)
 
 2019-09-26 [Waag Data Commons #1: Fietsdata](https://waag.org/nl/event/data-commons-1-fietsdata) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-DataCommons-2019/#)
 
@@ -37,6 +37,8 @@ None
 2019-09-14 [Linked Data Scholarship course at KU Leuven](https://onderwijsaanbod.kuleuven.be/syllabi/e/F0XO5AE.htm#activetab=doelstellingen_idp45136) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Solid-Lecture-2019/)
 
 2019-09-12 [KB session on Reinventing the Public Space](https://www.kb.nl/nieuws/2019/kb-sessie-heruitvinden-van-de-digitale-publieke-ruimte) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/KB-Public-Space-2019/)
+
+2019-09-06 [VIVO](https://vivoconference.org/vivo2019/) by Sarven Capadisli: [slides](https://csarven.ca/presentations/social-scholarly-web-ecosystem/)
 
 2019-08-11 by [Angelo Veltens](https://angelo.veltens.org/profile/card#me): [slides](https://angelo.veltens.org/slides/2019/solid-einfuehrung) & [video](https://media.ccc.de/v/froscon2019-2375-die_ruckeroberung_des_social_web)
 
