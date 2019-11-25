@@ -307,17 +307,38 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-02-26 [Communications of ACM:cience in Europe: Beyond Boundaries]](https://cacm.acm.org/magazines/2019/4/235597-web-science-in-europe/fulltext)
 
-#### March 2019
-
 2019-03-30 - [How a chess app interacts with Solid](https://pieterheyvaert.com/blog/2019/03/30/solid-chess-interaction)
 
-#### February  2019
+2019-01-29 [The Next Web: Digital trends 2019: Every single stat you need to know about the internet](https://thenextweb.com/contributors/2019/01/30/digital-trends-2019-every-single-stat-you-need-to-know-about-the-internet/)
 
+2019-01-29 [BBC: Meet the data guardians taking on the tech giants](https://www.bbc.com/news/business-47027072)
 
-#### January  2019
+2019-01-29 [Techristic: Digital Trends 2019: Every Single Stat You Need To Know About The Internet](https://www.techristic.com/digital-trends-2019-every-single-stat-you-need-to-know-about-the-internet/)
+
+2019-01-29 [Dundee Messenger: Facebook and Google: The data guardians fight back](https://dundeemessenger.co.uk/technology/facebook-and-google-the-data-guardians-fight-back/)
+
+2019-01-26 [Maximus and Me: Wisdom Of The Week](http://maximusandme.blogspot.com/2019/01/wisdom-of-week_26.html)
+
+2019-01-25 [My Mac: Essential Apple Podcast 120: The Bob is back in town](http://www.mymac.com/2019/01/essential-apple-podcast-120-the-bob-is-back-in-town/)
 
 2019-01-21 [MIT Technology Review](http://www.mittrchina.com/news/3453)
 
-### 2018
+2019-01-19 [Security Boulevard: Client Applications: A Hacker’s Easiest Target?](https://securityboulevard.com/2019/01/client-applications-a-hackers-easiest-target/)
+
+2019-01-10 [Medium: Building The SAFE Network in 2018](https://medium.com/safenetwork/building-the-safe-network-in-2018-598d7fa1c16f)
+
+2019-01-09 [Ignitiate: A Historical Design Point - Off The Shelf Quantum Computers & Full Brain Access & Just Like Netscape in 1994](https://ignitiate.blogspot.com/2019/01/a-historical-design-turning-point-off.html)
+
+2019-01-19 [SD Times: Solid’s data decentralization vision will change the way we interact with applications](https://sdtimes.com/webdev/solids-data-decentralization-vision-will-change-the-way-we-interact-with-applications/)
+
+2019-01-08 [Ask Bob Rankin: Can You Sell Your Digital Soul for Cash?](https://askbobrankin.com/can_you_sell_your_digital_soul_for_cash.html)
+
+2019-01-06 [The Guardian: Together we can thwart the big-tech data grab. Here’s how](https://www.theguardian.com/commentisfree/2019/jan/07/big-tech-data-internet)
+
+2019-01-04 [The Telegraph: Microsoft tests project to hand people control over their online data](https://www.telegraph.co.uk/technology/2019/01/04/microsoft-tests-project-hand-people-control-online-data/)
+
+2019-01-03 [Stuff.co: The web is broken. We need to fix it](https://www.stuff.co.nz/opinion/109464200/the-web-is-broken-we-need-to-fix-it)
+
+2019-01-03 [AEI Ideas: The future of privacy policy: A Q&A with author David Brin](https://www.aei.org/technology-and-innovation/the-future-of-privacy-policy-a-qa-with-author-david-brin/)
 
 2018-12-31 [NRC - Herstelwerk aan het kapotte internet](https://www.nrc.nl/nieuws/2018/12/31/herstelwerk-aan-het-kapotte-internet-a3127480)
