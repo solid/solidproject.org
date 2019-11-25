@@ -152,6 +152,30 @@ none
 
 2019-11-4 [The Inquirer: Sir Tim Berners-Lee's Inrupt startup receives £5m investment](https://www.theinquirer.net/inquirer/news/3083354/tim-berners-lee-inrupt-gdp5m-investment) 
 
+#### October 2019
+
+2019-10-29 [Decrypt: Tim Berners-Lee marks Internet’s 50th with Contract for the Web](https://decrypt.co/10857/tim-berners-lee-internet-50th-anniversary-contract-for-the-web)
+
+2019-10-28 [Bostino: Meet Janeiro Digital CTO Justin Bingham](https://www.americaninno.com/boston/boston-speaks-up/meet-janeiro-digital-cto-justin-bingham/)
+
+2019-10-26 [Wall Street Journal: Tech Giants Have Hijacked the Web. It’s Time for a Reboot.](https://www.wsj.com/articles/tech-giants-have-hijacked-the-web-its-time-for-a-reboot-11572062420) 
+
+2019-10-23 [PC Magazine: Tim Berners-Lee: IT Leaders Must Build Values into Their Companies and Systems](https://www.pcmag.com/article/371488/tim-berners-lee-it-leaders-must-build-values-into-their-com) 
+
+2019-10-11 [Computing: Solid's Ruben Verborgh: 'We need competition based on quality of service not on data harvesting'](https://www.computing.co.uk/ctg/analysis/3082496/solids-ruben-verborgh-we-need-competition-based-on-quality-of-service-not-on-data-harvesting)
+
+#### September 2019
+
+2019-09-16 [Computing: Blockchain latest news: ICOs are not dead, but they're certainly changing says Diacle](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle/page/2)
+
+2019-09-13 [Computing: Blockchain latest news: Santander unveils $20 million bond that lives on the Ethereum blockchain](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle)
+
+2019-09-06 [Medium: My Data! My Rules!](https://medium.com/the-backers/my-data-my-rules-60890ffa0e56)
+
+2019-09-02 [El Pais: Privacidad: La ‘startup’ asturiana que ayuda al inventor de internet a crear la nueva web](https://retina.elpais.com/retina/2019/09/02/innovacion/1567416042_149910.html)
+
+#### August 2019
+
 2019-08-08 - [Innovation Excellence: Inventor of the Web, Tim Berners-Lee, Has Launched a New Startup](https://www.innovationexcellence.com/blog/2019/08/08/inventor-of-the-web-tim-berners-lee-has-launched-a-new-startup/)
 
 2019-08-02 - [CMS wire:Gartner Describes CDO v4.0, Microsoft Axes Skype for Business Online and Other News](https://www.cmswire.com/digital-workplace/gartner-describes-cdo-v40-microsoft-axes-skype-for-business-online-and-other-news/)
