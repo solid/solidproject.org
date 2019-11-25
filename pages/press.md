@@ -305,6 +305,27 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-04-24 [Forbes: The Best Way to Avoid Data Leaks and Privacy Scandals: Don't Own Consumer Data](https://www.forbes.com/sites/joetoscano1/2019/04/24/the-best-way-to-avoid-data-leaks-and-privacy-scandals-dont-own-consumer-data/#c6178f525643)
 
+2019-03-01 [Medium: What Would More Democratic A.I. Look Like?](https://onezero.medium.com/what-would-more-democratic-a-i-look-like-ea729f5f7b0a) 
+
+2019-03-05 [CNET: Tim Berners-Lee still believes the web can be fixed, even today](https://www.cnet.com/news/tim-berners-lee-still-believes-the-web-can-be-fixed-even-today/?ftag=COS-05-10aaa0b&linkId=64391961)
+
+2019-03-05 [Daily Mail: 30 years later, Berners-Lee sees mission to fix internet's ills](https://www.dailymail.co.uk/wires/afp/article-6774129/30-years-later-Berners-Lee-sees-mission-fix-internets-ills.html)
+
+2019-03-05 [France 24: 30 years later, Berners-Lee sees mission to fix internet's ills](https://www.france24.com/en/20190305-30-years-later-berners-lee-sees-mission-fix-internets-ills)
+
+2019-03-05 [Phys.org: 30 years later, Berners-Lee sees mission to fix internet's ills](https://phys.org/news/2019-03-years-berners-lee-mission-internet-ills.html)
+
+2019-03-05 [L'Echo: 30 years later, Berners-Lee sees mission to fix internet's ills](https://www.lecho.be/culture/general/30-ans-du-web-quand-la-toile-se-referme-sur-son-concepteur/10103551.html)
+
+2019-03-05 [Inquirer: 30 years later, Berners-Lee sees mission to fix internet's ills](https://usa.inquirer.net/23492/worldwide-web-inventor-seeks-to-fix-online-problems?utm_expid=.XqNwTug2W6nwDVUSgFJXed.1)
+
+2019-03-05 [Yahoo News: 30 years later, Berners-Lee sees mission to fix internet's ills](https://news.yahoo.com/30-years-later-berners-lee-sees-mission-fix-171158879.html)
+
+2019-03-06 [RTL Today; 30 years later, Berners-Lee sees mission to fix internet's ills](https://today.rtl.lu/news/business-and-tech/a/1315897.html)
+
+2019-03-10 [Techonomy; 
+Why Banks Could Be Your Ally for Managing Identity](https://techonomy.com/2019/03/banks-ally-managing-identity/)
+
 2019-02-26 [Communications of ACM:cience in Europe: Beyond Boundaries]](https://cacm.acm.org/magazines/2019/4/235597-web-science-in-europe/fulltext)
 
 2019-03-30 [How a chess app interacts with Solid](https://pieterheyvaert.com/blog/2019/03/30/solid-chess-interaction)
