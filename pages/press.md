@@ -245,7 +245,25 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-05-29 [Information Age: Post GDPR and the ownership of data](https://www.information-age.com/citizens-custodians-of-their-own-data-ownership-of-data-123482878/)
 
+2019-05-28 [Asia Time: Revolt on the horizon? How young people really feel about digital technology](https://www.asiatimes.com/2019/05/article/the-data-revolt-on-the-digital-horizon/)
+
+2019-05-28 [Stuff: Revolt on the horizon? How young people really feel about digital technology](https://stuff.co.za/2019/05/28/revolt-on-the-horizon-how-young-people-really-feel-about-digital-technology/)
+
+2019-05-26 [News Central: Revolt on the horizon? How young people really feel about digital technology](https://newscentral24x7.com/revolt-horizon-young-people-digital-technology/)
+
+2019-05-24 [Times of Malta: GenTechs are getting frustrated and disillusioned with digital technology](https://timesofmalta.com/articles/view/gentechs-are-getting-frustrated-and-disillusioned-with-digital.710784)
+
+2019-05-22 [The Conversation:Revolt on the horizon? How young people really feel about digital technology](http://theconversation.com/revolt-on-the-horizon-how-young-people-really-feel-about-digital-technology-117209)
+
+2019-05-22 [Phys: Revolt on the horizon? How young people really feel about digital technology](https://phys.org/news/2019-05-revolt-horizon-young-people-digital.html)
+
+2019-05-20 [PYMNTS: Tim Berners-Lee On Building A New Web](https://www.pymnts.com/news/merchant-innovation/2019/tim-berners-lee-world-wide-web/)
+
+2019-05-19 [Computing: Blockchain latest news: By ignoring crypto Berners-Lee's Solid is missing a trick, says Web 3 investor](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle)
+
 2019-05-19 [ZDNet: Breaking up Facebook? Try data literacy, social engineering, personal knowledge graphs, and developer advocacy](https://www.zdnet.com/article/breaking-up-facebook-try-data-literacy-social-engineering-personal-knowledge-graphs-and-developer-advocacy/)
+
+2019-05-16 [Know Stuff: Breaking up Facebook? Try data literacy, social engineering, personal knowledge graphs, and developer advocacy]( https://www.knowstuff.org/2019/05/breaking-up-facebook-try-data-literacy-social-engineering-personal-knowledge-graphs-and-developer-advocacy/)
 
 2019-05-11 [Financial Mirror: Inventor of the internet looking to build safer new web](http://www.financialmirror.com/news-details.php?nid=36942)
 
