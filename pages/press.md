@@ -34,7 +34,11 @@ None
 
 2019-03-28 [T3chFest](https://t3chfest.es/2019/?lang=en) by Juan Lupión: [video](https://www.youtube.com/watch?v=zzsViU5kSlY)
 
+2019-03-28 Beyond Data Event by Ruben Verborgh 
+
 2019-03-06 [Washington Post Live](https://www.washingtonpost.com/gdpr-consent/?destination=%2fblogs%2fpost-live%2f%3f) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=eJ6IrWc7Wt4)
+
+2019-02-19 OSLO Inspiratienamiddag by Ruben Taelman: [slides](https://www.rubensworks.net/raw/slides/2019/oslo-solid/)
 
 2019-02-03 FOSDEM by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-FOSDEM-2019/) & [video](https://video.fosdem.org/2019/Janson/solid_web_decentralization.mp4))
 
