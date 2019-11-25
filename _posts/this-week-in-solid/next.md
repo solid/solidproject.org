@@ -22,7 +22,6 @@ Want to get involved? [Contributions are welcome.](https://solidproject.org/stan
 Every Thursday there is an hour-long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks' works on Solid. 
 
 Tune in at [this line](https://zoom.us/j/261297657):
-* on the 21st November at 14:00 CET.
 * on the 28th November at 10:00 CET.
 * on the 5th December at 16:00 CET.
 * on the 12th December at 10:00 CET.
