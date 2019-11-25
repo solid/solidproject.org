@@ -8,7 +8,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ## Upcoming Talks
 
-None
+none
 
 ## Past Talks mentioning Solid 
 
@@ -17,6 +17,8 @@ None
 2019-11-18 [The Richard Dimbleby Lecture](https://www.bbc.co.uk/programmes/b006ptbl) by Tim Berners-Lee: [video](https://www.bbc.co.uk/programmes/m000bj15)
 
 2019-11-14 [ECP](https://ecp.nl/) by Mitzi László & Pieter van Everdingen
+
+2019-10-25 [Redecentralize](https://redecentralize.org/) Sarven Capadisli 
 
 2019-10-24 [Ada Lovelace Festival](https://www.ada-lovelace-festival.com/) by Mitzi László
 
@@ -102,7 +104,7 @@ None
 
 2018-05-28 - [ACM Turing Lecture - Utopia to Dystopia in 29 short years](https://www.w3.org/2018/Talks/0529-timbl-turing/timbl-turing-slides-utopia-to-dystopia.html)
 
-2018-05-15 [EuropeanaTech](https://pro.europeana.eu/event/europeanatech-conference-2018) by Ruben Verborgh: [video](https://www.youtube.com/watch?v=oT8sft3YM54) & [slides]((https://rubenverborgh.github.io/EuropeanaTech-2018/)
+2018-05-15 [EuropeanaTech](https://pro.europeana.eu/event/europeanatech-conference-2018) by Ruben Verborgh: [video](https://www.youtube.com/watch?v=oT8sft3YM54) & [slides](https://rubenverborgh.github.io/EuropeanaTech-2018/)
 
 2018-05-15 [Connect](https://www.mulesoft.com/press-center/connect-2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=of9Anv5Yv_k) 
 
