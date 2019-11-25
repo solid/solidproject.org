@@ -20,6 +20,8 @@ None
 
 2019-10-24 [Ada Lovelace Festival](https://www.ada-lovelace-festival.com/) by Mitzi László
 
+2019-10-23 [Privacy by Design meetup](https://www.meetup.com/Brussels-Legal-Hackers/events/265191277/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Privacy-by-Design-2019/)
+
 2019-10-10 [European Data Ethics Forum](https://dataethics.eu/conference19/) by Mitzi László
 
 2019-10-04 [Connected Data London](https://connected-data.london): [slides](https://rubenverborgh.github.io/Connected-Data-London-2019/)
@@ -52,6 +54,8 @@ None
 
 2019-04-09 [Platform Linked Data Nederland](http://www.pilod.nl/wiki/PLDN-Solid_Kick-Off_–_April_9th_2019) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/PLDN-Solid-Kick-Off-2019/) 
 
+2019-04-04 STRP Festival by Ruben Verborgh: [slides](https://rubenverborgh.github.io/STRP-Festival-2019/)
+
 2019-03-28 [T3chFest](https://t3chfest.es/2019/?lang=en) by Juan Lupión: [video](https://www.youtube.com/watch?v=zzsViU5kSlY)
 
 2019-03-28 Beyond Data Event by Ruben Verborgh 
@@ -72,6 +76,8 @@ None
 
 2018-12-14 [Media Fast Forward](https://www.mediafastforward.be) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Media-Fast-Forward-2018/)
 
+2019-12-12 [API Days Paris](https://www.apidays.co/paris) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-APIdays-2018/)
+
 2018-10-27 [MozFest](https://wiki.mozilla.org/Mozfest/2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=elfSzMATcB4)
 
 2018-10-08 [ISWC 2019 Workshop on Decentralising the Semantic Web](https://iswc2018.desemweb.org) by Tim Berners-Lee & Ruben Verborgh: [slides](https://rubenverborgh.github.io/Solid-DeSemWeb-2018/) 
@@ -80,11 +86,17 @@ None
 
 2018-09-14 [Big Data in Media workshop at the European Big Data Value Forum](https://www.european-big-data-value-forum.eu) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-EBDVF-2018/)
 
+2018-09-13 Web Foundation Seminar by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Web-Foundation-2018/)
+
+2018-09-06 [OSLC Fest](http://www.oslcfest.org) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/OSLC-Fest-2018/)
+
 2018-08-02 [Decentralized Web Summit](https://solidproject.org/dweb-summit-2018/) by Ruben Verborge: [video](https://www.decentralizedweb.net/videos/talk-solid-empowering-people-through-choice/) & [slides](https://solid.github.io/dweb-summit-2018/)
 
 2018-06-05 [International Conference of the European Library Automation Group (ELAG)](https://www.elag2018.org) by Ruben Verborgh: [slides](http://slides.verborgh.org/ELAG-2018/) 
 
 2018-05-28 - [ACM Turing Lecture - Utopia to Dystopia in 29 short years](https://www.w3.org/2018/Talks/0529-timbl-turing/timbl-turing-slides-utopia-to-dystopia.html)
+
+2018-05-15 [EuropeanaTech](https://pro.europeana.eu/event/europeanatech-conference-2018) by Ruben Verborgh: [video](https://www.youtube.com/watch?v=oT8sft3YM54) & [slides]((https://rubenverborgh.github.io/EuropeanaTech-2018/)
 
 2018-05-15 [Connect](https://www.mulesoft.com/press-center/connect-2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=of9Anv5Yv_k) 
 
