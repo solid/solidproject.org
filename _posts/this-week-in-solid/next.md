@@ -30,9 +30,14 @@ There are a few upcoming events where you can learn more and meet others working
 * 2019-12-10 [Solid Enschede](https://www.pilod.nl/wiki/Solid_Christmas_Meetup_Enschede_-_How_to_Fix_the_Internet!)
 * 2019-01-30 [Solid Amsterdam](https://www.pilod.nl/wiki/2nd_Solid_Amsterdam_Meetup_%E2%80%93_January_30th,_2020)
 
+
 Check out a recap of the talk at ECP [here](http://www.pilod.nl/wiki/Jaarcongres_ECP_2019_-_Solid_Session_Summary).
 
+https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/ 
+
 Solid Events are run by people like you, read more about tips on organising a successful Solid Event [here](https://solidproject.org/events) or [chat](https://forum.solidproject.org/c/solid-events) with other attendees and organisers. 
+
+
 
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
 
