@@ -140,8 +140,6 @@ none
 
 ### 2019
 
-#### November 2019
-
 2019-11-20 [LSE Business Review: How to turn trust into a competitive advantage](https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/) 
 
 2019-11-13 [MRWeb: Berners-Lee Raises Funds to 'Reimagine the Web'](http://www.mrweb.com/drno/news28902.htm)
@@ -151,8 +149,6 @@ none
 2019-11-08 [New American: Web 2.0 Was Hijacked and Broken by Big Tech. Privacy Pioneers Are Building a Better Web 3.0](https://www.thenewamerican.com/tech/computers/item/33988-web-2-0-was-hijacked-and-broken-by-big-tech-privacy-pioneers-are-building-a-better-web-3-0)
 
 2019-11-4 [The Inquirer: Sir Tim Berners-Lee's Inrupt startup receives £5m investment](https://www.theinquirer.net/inquirer/news/3083354/tim-berners-lee-inrupt-gdp5m-investment) 
-
-#### October 2019
 
 2019-10-29 [Decrypt: Tim Berners-Lee marks Internet’s 50th with Contract for the Web](https://decrypt.co/10857/tim-berners-lee-internet-50th-anniversary-contract-for-the-web)
 
@@ -164,8 +160,6 @@ none
 
 2019-10-11 [Computing: Solid's Ruben Verborgh: 'We need competition based on quality of service not on data harvesting'](https://www.computing.co.uk/ctg/analysis/3082496/solids-ruben-verborgh-we-need-competition-based-on-quality-of-service-not-on-data-harvesting)
 
-#### September 2019
-
 2019-09-16 [Computing: Blockchain latest news: ICOs are not dead, but they're certainly changing says Diacle](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle/page/2)
 
 2019-09-13 [Computing: Blockchain latest news: Santander unveils $20 million bond that lives on the Ethereum blockchain](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle)
@@ -173,8 +167,6 @@ none
 2019-09-06 [Medium: My Data! My Rules!](https://medium.com/the-backers/my-data-my-rules-60890ffa0e56)
 
 2019-09-02 [El Pais: Privacidad: La ‘startup’ asturiana que ayuda al inventor de internet a crear la nueva web](https://retina.elpais.com/retina/2019/09/02/innovacion/1567416042_149910.html)
-
-#### August 2019
 
 2019-08-29 [Scotsman: Accelerating the pace of change for data ownership](https://www.scotsman.com/business/accelerating-the-pace-of-change-for-data-ownership-1-4993209)
 
@@ -187,8 +179,6 @@ none
 2019-08-01 [Gadgetbridge: Apple signs up for the Data Transfer Project: Find out more](https://www.gadgetbridge.com/news/apple-signs-up-for-the-data-transfer-project-find-out-more/)
 
 2019-08-01 [TechDirt: Don't Let This Get Lost In The Shuffle: The Data Transfer Project Is Expanding, And Could Help Create Real Competition Online](https://www.techdirt.com/articles/20190731/17390142693/dont-let-this-get-lost-shuffle-data-transfer-project-is-expanding-could-help-create-real-competition-online.shtml)
-
-#### July 2019
 
 2019-07-31 [The Verge: Brain-computer interfaces are developing faster than the policy debate around them](https://www.theverge.com/interface/2019/7/31/20747916/facebook-brain-computer-interface-policy-neuralink)
 
@@ -207,7 +197,7 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-07-26 [Civil Service World: Opinion: Think Britain beats the world on digital services? Think again. China rules the digital waves](https://civilserviceworld.com/articles/opinion/opinion-think-britain-beats-world-digital-services-think-again-china-rules-digital)
 
-2019-07-24 [La Vanguardia: ¿Internet está averiado? Tim Berners-Lee y otros están intentando repararlo](https://www.lavanguardia.com/tecnologia/20190724/463676999523/internet-averiado-tim-berners-lee-reparar-dweb-web-descentralizada-internet-descentralizado-p2p-blockchain.html
+2019-07-24 [La Vanguardia: ¿Internet está averiado? Tim Berners-Lee y otros están intentando repararlo](https://www.lavanguardia.com/tecnologia/20190724/463676999523/internet-averiado-tim-berners-lee-reparar-dweb-web-descentralizada-internet-descentralizado-p2p-blockchain.html)
 
 2019-07-22 [Medium: How to Ensure Your Privacy in a Data-Driven Future](https://medium.com/@markvanrijmenam/how-to-ensure-your-privacy-in-a-data-driven-future-9feab000c61d)
 
@@ -219,15 +209,13 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-07-16 [B2B NN: Tim Berners-Lee's Memories of Creating the Web Involve at Least 3 Classic B2B Scenarios](https://www.b2bnn.com/2019/07/tim-berners-lee-inrupt/)
 
-2019-07-16 [AmericanInno: Online consumer tracking and the challenges for marketing](‘One Giant Leap for Mankind’: These Eight Boston Companies Are Working on Moonshots of Their Own](https://www.americaninno.com/roundups/one-giant-leap-for-mankind-these-eight-boston-companies-are-working-on-moonshots-of-their-own/)
+2019-07-16 [AmericanInno: ‘One Giant Leap for Mankind’: These Eight Boston Companies Are Working on Moonshots of Their Own](https://www.americaninno.com/roundups/one-giant-leap-for-mankind-these-eight-boston-companies-are-working-on-moonshots-of-their-own/)
 
-2019-07-16 [CMO Australia: https://www.cmo.com.au/article/663801/online-consumer-tracking-challenges-marketing/)
+2019-07-16 [CMO Australia: Online consumer tracking and the challenges for marketing](https://www.cmo.com.au/article/663801/online-consumer-tracking-challenges-marketing/)
 
 2019-07-11 [Medium: It’s Time to Rebuild the Internet](https://medium.com/@dylsteck/its-time-to-rebuild-the-internet-f0790f9966ec)
 
 2019-07-02 [Programmable Web: Self-Hosted Personal Data is Key to Four Promising Facebook Alternatives](https://www.programmableweb.com/news/self-hosted-personal-data-key-to-four-promising-facebook-alternatives/analysis/2019/07/02)
-
-#### June 2019
 
 2019-06-25 [Mercola: Google buries Mercola in their latest search engine update, Part 2 of 2]( https://articles.mercola.com/sites/articles/archive/2019/06/25/google-broad-core-algorithm-update-buries-mercola.aspx)
 
@@ -255,7 +243,17 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 #### May 2019
 
+2019-05-29 [Information Age: Post GDPR and the ownership of data](https://www.information-age.com/citizens-custodians-of-their-own-data-ownership-of-data-123482878/)
+
+2019-05-19 [ZDNet: Breaking up Facebook? Try data literacy, social engineering, personal knowledge graphs, and developer advocacy](https://www.zdnet.com/article/breaking-up-facebook-try-data-literacy-social-engineering-personal-knowledge-graphs-and-developer-advocacy/)
+
+2019-05-11 [Financial Mirror: Inventor of the internet looking to build safer new web](http://www.financialmirror.com/news-details.php?nid=36942)
+
 2019-05-11 [De Tijd](https://www.tijd.be/dossiers/nieuwe-inzichten/we-moeten-weer-baas-worden-over-onze-data/10125717.html)
+
+2019-05-04 [Seattle Star: Thinking About Regulating the Online Space? Focus on Decentralizing Power](http://www.seattlestar.net/2019/05/thinking-about-regulating-the-online-space-focus-on-decentralizing-power/)
+
+2019-05-02 [ICT Works: Democratizing Access to Data is the Next Frontier in International Development](https://www.ictworks.org/democratizing-access-data-frontier/#.Xdwg9S2ZOTe)
 
 #### April 2019
 
