@@ -21,8 +21,16 @@ Want to get involved? [Contributions are welcome.](https://solidproject.org/stan
 
 Every Thursday there is an hour-long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks' works on Solid. 
 
-Tune in on the 21st November at 1400 [this line](https://zoom.us/j/261297657).
-Press
+Tune in at [this line](https://zoom.us/j/261297657):
+* on the 28th November at 10:00 CET.
+* on the 5th December at 16:00 CET.
+* on the 12th December at 10:00 CET.
+* on the 19th December at 16:00 CET.
+* No call on the 26th December due to Boxing Day.
+* on the 2nd January 2020 at 16:00.
+* on the 9th January 2020 at 10:00.
+* on the 16th January 2020 at 16:00.
+* on the 23rd January 2020 at 10:00.
 
 There are a few upcoming events where you can learn more and meet others working on Solid: 
 * 2019-11-21 [Solid Montreal](https://www.meetup.com/Montreal-Decentralized-Linked-Data-Meetup/events/266218723/?fbclid=IwAR2sJy5LIwzjJG52HSyfj88TSW4t5w_svUsWKA-STNG_e-pwrkfoLC5ROpE)
