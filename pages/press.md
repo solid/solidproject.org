@@ -10,7 +10,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 none
 
-## Past Talks mentioning Solid 
+## Past Talks Mentioning Solid 
 
 ### 2019
 
