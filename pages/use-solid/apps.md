@@ -10,7 +10,7 @@ Please be aware that this page is still a work in progress. You wrote a Solid-co
 
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
 
-* [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype). 2019. [Sharon Statsianis](https://github.com/SharonStrats). 
+* [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype) (deployed as [Sigmafied](https://sigmafied.com)). 2019. [Sharon Statsianis](https://github.com/SharonStrats). 
 * [Spoggy](https://spoggy.herokuapp.com/) 
 * [Linked Pipes](https://applications.linkedpipes.com/). 2019. [@aorumbayev](https://github.com/aorumbayev)
 * [Linked Beer](https://ozcanseker.github.io/Social-linked-beer/) search for and rate beers listed by brewery. 2019. Özcan Seker. [source code](https://github.com/ozcanseker/Social-linked-beer)
