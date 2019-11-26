@@ -23,9 +23,9 @@ Reading the Terms of the provider is a good way to understand the implications o
 The geographical location of the legal entities involved and the physical location of the hosting is an important factor in determining which law the provider responsibilities fall under. Depending on your nationality and degree of trust in various laws you may prefer specific geographical locations.
 
 To recap, some questions you may want to consider are: 
-•	Who is involved? 
-•	Where are all the parties that are involved? 
-•	Where is the data physically stored? 
+-	Who is involved?
+-	Where are all the parties that are involved?
+-	Where is the data physically stored?
 
 you can pick a Provider in the following list. However, keep in mind that Solid is about freedom: **you won't be tied to the provider you choose now**, and you will have the ability to **move your data elsewhere** if you want to.
 
