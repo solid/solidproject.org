@@ -14,6 +14,8 @@ none
 
 ### 2019
 
+2019-11-26 Nocturne Informatie Vlaanderen by Ruben Verborgh [slides](https://rubenverborgh.github.io/Nocturne-Informatie-Vlaanderen-2019/)
+
 2019-11-18 [The Richard Dimbleby Lecture](https://www.bbc.co.uk/programmes/b006ptbl) by Tim Berners-Lee: [video](https://www.bbc.co.uk/programmes/m000bj15)
 
 2019-11-14 [ECP](https://ecp.nl/) by Mitzi László & Pieter van Everdingen

@@ -1,3 +1,11 @@
+if (document.location.origin === 'https://solid.github.io' || document.location.origin === 'http://localhost:4000') {
+  const stagingWarning = document.createElement('div');
+  stagingWarning.classList.add('staging-warning');
+  stagingWarning.setAttribute('role', 'alert');
+  stagingWarning.innerHTML = 'You are currently viewing a draft version of the Solid website. If you are looking for reliable information, visit the live site at <a href="https://solidproject.org" title="The official Solid website">SolidProject.org</a>.';
+  document.body.insertAdjacentElement('afterbegin', stagingWarning);
+}
+
 /**
  * Accordion functionality here
  */

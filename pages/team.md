@@ -26,7 +26,7 @@ Ruben Verborgh is a professor of Decentralized Web technology at IDLab, Ghent Un
 
 ## Justin Bingham
 **Solid Editor** 
-Justin is co-founder of Janeiro Digital who is working on implementing Solid. 
+Justin is the Chief Technology Officer of Janeiro Digital, where he and his team apply Solid to solve large-scale problems across the world. He is closely involved in the evolution of the Solid ecosystem, including data interoperability patterns, secure data boundaries, developer tooling, and frictionless end user experience.
 
 ## Dmitri Zagidulin
 **Solid Editor** 
