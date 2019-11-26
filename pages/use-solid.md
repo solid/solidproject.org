@@ -7,6 +7,8 @@ permalink: /use-solid
 # Using Solid apps
 To get started with Solid you will first need a Pod and a WebID, after which you can start [using Solid apps]({{site.baseUrl}}/use-solid/apps). 
 
+<img class="illustration" src="{{site.baseUrl}}/assets/img/use-solid/apps.svg"/>
+
 # Get a Pod and a WebID
 Pods are where you store your data. Your WebID lets you login to Solid apps and Pods as well as letting you connect to other people using Solid. 
 
