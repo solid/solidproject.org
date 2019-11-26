@@ -6,7 +6,7 @@
     <ul class="links">
       {% for item in site.data.navigation %}
       <li {%if item.sublinks%} class="sub-links" {%endif%}>
-        <a {%unless item.sublinks%} href="{{ item.link }}" {%endunless%}>{{ item.name }}</a>
+        <a {%unless item.sublinks%} href="{{ item.link }}" {%endunless%} aria-label={{item.name}}>{{ item.name }}</a>
         {% if item.sublinks %}
         <ul>
           {%for subitem in item.sublinks%}

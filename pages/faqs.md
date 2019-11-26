@@ -78,6 +78,8 @@ Solid is built on top of existing Web and Linked Data standards as much as possi
 The Solid standard is open as are some of its implementations such as [Node Solid Server](https://github.com/solid/node-solid-server) meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
 </details>
 
+# Storage 
+
 ## Can data exist in more than one Pod? 
 
 **Yes**, the same data point can exist in more than one Pod. You can choose to have more than one Pod deliberately, for example for work and for home, in which case, some data may be relevant to both settings. You can also choose to have a single Pod and give selective access. Some data is relevant to multiple users so may be replicated in a slightly different way in another person’s Pod. For example, if you have a conversation with someone the data may be stored in both your Pod and the Pod of the person you spoke with. 
@@ -211,11 +213,16 @@ Pod providers have commitments to the individuals and legal entities that they p
 ## Could a Solid app of Pod become another tech giant monopoly? 
 **No**. Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
 
+## As a Pod provider are you legally responsible for the data you are storing?
+Pod providers have commitments to the individuals and legal entities that they provide services to based on the law of the countries in which the hosting provider is operating. As a Pod provider you should seek professional advice on how to be compliant. As an individual Solid user, you should carefully read the agreement with your hosting provider before agreeing. 
+
+## Could a Solid app or Pod become another tech giant monopoly? 
+Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
+
 ## Is it opt-in or opt-out to share my data when using Solid?
 Opt-in. The default is for you not to share your data. You have to give your active consent to share your data.
 
 ## What if I don’t want to share my data at all? 
-
 Solid makes sure that the minimum amount of data is shared while still providing you with services. Some services do need to know something about you to be able to function, for example, to send you a product the company will need to know where to send that product to. If you don't want to share your data with these services, you may not be able to use them.
 
 Due to the nature of access control in Solid, if you don't want to allow any app to access any piece of data on your Pod, you can do just that. If you don't want a certain app to read data on your Pod, you can not give it any access right. However, it would still be allowed to read the public data on your Pod (if any is available). 

@@ -25,6 +25,13 @@ Redirect / https://example.org
 DocumentRoot /var/www/example.org
 </VirtualHost>
 
+<VirtualHost *:80>
+ServerAlias *.example.org
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</VirtualHost>
+
 <VirtualHost *.443>
 ServerName example.org
 DocumentRoot /var/www/example.org

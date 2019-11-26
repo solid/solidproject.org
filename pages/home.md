@@ -97,10 +97,8 @@ permalink: /
     </div>
     <span id="what-is-solid"></span>
     <div class="img-info-banner row around">
-      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-        <div class="image">
-          <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
-        </div>
+      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
+        <img src="{{site.baseurl}}/assets/img/like-peas-in-a-pod.svg" alt="" />
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
@@ -112,10 +110,8 @@ permalink: /
       </div>
     </div>
     <div class="img-info-banner row around reverse">
-      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-        <div class="image">
-          <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
-        </div>
+      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
+        <img src="{{site.baseurl}}/assets/img/like-peas-in-a-pod.svg" alt="" />
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
@@ -127,10 +123,8 @@ permalink: /
       </div>
     </div>
     <div class="img-info-banner row around">
-      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-        <div class="image">
-          <img src="{{site.baseurl}}/assets/img/pod-user-icon.svg" alt="" />
-        </div>
+      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
+        <img src="{{site.baseurl}}/assets/img/solid-is-a-standard.svg" alt="" />
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
