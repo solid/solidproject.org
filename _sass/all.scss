@@ -3,6 +3,13 @@
 :root {
   scroll-behavior: smooth;
 }
+.staging-warning {
+  background: #fffaec;
+  border-bottom: 5px solid #ffd03e;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  line-height: 2;
+}
 
 .cards {
   width: 100%;
