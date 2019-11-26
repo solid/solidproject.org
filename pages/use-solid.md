@@ -27,7 +27,7 @@ To recap, some questions you may want to consider are:
 -	Where are all the parties that are involved?
 -	Where is the data physically stored?
 
-you can pick a Provider in the following list. However, keep in mind that Solid is about freedom: **you won't be tied to the provider you choose now**, and you will have the ability to **move your data elsewhere** if you want to.
+You can pick a Provider in the following list. However, keep in mind that Solid is about freedom: **you won't be tied to the provider you choose now**, and you will have the ability to **move your data elsewhere** if you want to.
 
 | Provider | Responsible for Domain Name and Terms | Responsible for Hosting | Location of Hosting |
 |-----------------------------------|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------:|:--------------------:|
