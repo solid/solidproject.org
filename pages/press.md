@@ -8,7 +8,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ## Upcoming Talks
 
-none
+2019-12-11 [MyData Madrid](https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/) by Alejandro Juan García
 
 ## Past Talks Mentioning Solid 
 
