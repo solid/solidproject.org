@@ -49,5 +49,5 @@ $on-tablet: 1024px !default;
 
 // Import partials.
 @import 'minima/normalize', 'abstract/variables', 'minima/base', 'layout/header',
-  'layout/footer', 'layout/splash-footer', 'layout/post', 'pages/home',
+  'layout/footer', 'layout/splash-footer', 'layout/post', 'pages/home', 'pages/home-pages',
   'pages/splash', 'pages/internal';

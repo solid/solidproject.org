@@ -21,80 +21,9 @@ permalink: /
       </a>
       </div>
   <div class="page-content">
-    <h2 class="intro-heading">
-      Why you'll love Solid
-    </h2>
-    <div class="cards row around">
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/dolly.svg"
-              alt=""
-              class="icon"
-            />
-            <span class="card-title">Move freely between services</span>
-          </div>
-          <div class="card-body">
-            <p>
-            Switch to the best tools and <b>take your data with you</b>. 
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/recycle.svg"
-              alt=""
-              class="icon"
-            />
-            <span class="card-title">Reuse data across apps</span>
-          </div>
-          <div class="card-body">
-            <p>
-            <!-- Get quality recommendations based on the whole you by recycling data from multiple apps.  -->
-            Stop re-entering the same data again and again by <b>recycling data from app to app</b>.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/users.svg"
-              alt=""
-              class="icon"
-            />
-            <span class="card-title">Connect with anyone</span>
-          </div>
-          <div class="card-body">
-            <p>
-              Connect to your friends <b>no matter what app they are using</b>. 
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-        <div class="card">
-          <div class="card-header">
-            <img
-              src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/crosshairs.svg"
-              alt=""
-              class="icon"
-            />
-            <span class="card-title">Select what you share precisely</span>
-          </div>
-          <div class="card-body">
-            <p>
-              Give access to <b>the bare minimum of data needed</b> for the service to work.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+  <h2 class="intro-heading">Why you'll love Solid as a user</h2>
+  <div class="intro-subheading">Find out why you'll love Solid <a href="/for-developers">as a developer</a> or <a href="/for-enterprises">as an enterprise</a></div>
+    {% include why2love_user.html %}
     <span id="what-is-solid"></span>
     <div class="img-info-banner row around">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
