@@ -38,6 +38,10 @@ There are a few upcoming events where you can learn more and meet others working
 
 Solid Events are run by people like you, read more about tips on organising a successful Solid Event [here](https://solidproject.org/events) or [chat](https://forum.solidproject.org/c/solid-events) with other attendees and organisers. 
 
+### CERN - Solid brainstorming
+
+2020-02-07 [This CERN internal event](https://indico.cern.ch/e/CERN-Solid-brainstorming) may bring the place where Sir Tim invented the Web to the heart of the Web's future by Maria Dimou
+
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
 
 ### Solid Tools for Developers 
