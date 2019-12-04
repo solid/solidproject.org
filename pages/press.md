@@ -8,7 +8,9 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ## Upcoming Talks
 
-2019-12-11 [MyData Madrid](https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/) by Alejandro Juan García
+2019-12-11 [MyData Madrid](https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/) with Alejandro Juan García
+
+2020-02-07 Solid CERN is an internal event that may bring the place where Sir Tim invented the Web to the heart of the Web's future by Maria Dimou
 
 ## Past Talks Mentioning Solid 
 
