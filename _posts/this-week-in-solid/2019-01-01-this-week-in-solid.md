@@ -14,6 +14,8 @@ You can always check here for the most current issue as well as find a record of
 
 We're currently working on next week's edition. You can contribute by [making a Pull Request](https://github.com/solid/solidproject.org/edit/master/_posts/this-week-in-solid/next.md)!
 
+[This Year in Solid 2019](https://github.com/solid/solidproject.org/blob/master/_posts/this-week-in-solid/2019-12-18-this-week-in-solid.md) is being put together to be published on the 18th of December to give a recap of the highlights. [Submit pull requests](https://github.com/solid/solidproject.org/blob/master/_posts/this-week-in-solid/2019-12-18-this-week-in-solid.md) if you would like something to be mentioned. 
+
 # Past Issues
 
 * [5th December 2019]({{site.baseUrl}}/this-week-in-solid/2019-12-05)
