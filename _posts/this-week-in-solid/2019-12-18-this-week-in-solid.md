@@ -50,6 +50,15 @@ At the start of the year Solid was being worked on in several different resposit
 
 ### Implementations 
 
+## Wishlist for 2020 
+Here's a little list of things that people have mentioned they would love to see happen in 2020: 
+* Consistent coherent description of what Solid is 
+* Stable standard
+* Improved onboarding 
+* User friendly apps 
+* Multiple Pod implementations
+* Better developing tools
+
 Until next year :) 
 
 [Mitzi László](https://github.com/Mitzi-Laszlo)
