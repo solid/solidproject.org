@@ -17,11 +17,11 @@ Want something mentioned? Contact the Solid Manager at info@solidproject.org. Th
 
 Want to get involved? [Contributions are welcome.](https://solidproject.org/standardisation)
 
-[This Year in Solid 2019](https://github.com/solid/solidproject.org/blob/master/_posts/this-week-in-solid/2019-12-18-this-week-in-solid.md) is being co-created to give an overview of the highlights. If there is something you'd like to mention make sure to [submit a pull reqeust](https://github.com/solid/solidproject.org/blob/master/_posts/this-week-in-solid/2019-12-18-this-week-in-solid.md) or contact info@solidproject.org. 
+[This Year in Solid 2019](https://github.com/solid/solidproject.org/blob/master/_posts/this-week-in-solid/2019-12-18-this-week-in-solid.md) is being co-created to give an overview of the highlights. If there is something you'd like to mention make sure to [submit a pull request](https://github.com/solid/solidproject.org/blob/master/_posts/this-week-in-solid/2019-12-18-this-week-in-solid.md) or contact info@solidproject.org. 
 
 Every Thursday there is an hour-long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks' works on Solid. 
 
-Important! The Solid weekly call on the 5th December is cancelled. 
+Important! The Solid weekly call on the 5th of December is canceled. 
 
 Tune in at [this line](https://zoom.us/j/261297657):
 * on the 12th December at 10:00 CET.
