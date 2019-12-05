@@ -24,6 +24,7 @@ Every Thursday there is an hour-long public call where newcomers can introduce t
 Important! The Solid weekly call on the 5th of December is canceled. 
 
 Tune in at [this line](https://zoom.us/j/261297657):
+* on the 5th December at 16:00 CET.
 * on the 12th December at 10:00 CET.
 * on the 19th December at 16:00 CET.
 * No call on the 26th December due to Boxing Day.
