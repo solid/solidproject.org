@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Week Updates 2019-12-04
-permalink: /this-week-in-solid/2019-12-04
+title: Week Updates 2019-12-05
+permalink: /this-week-in-solid/2019-12-05
 tags: [weekly, updates]
 categories: [Updates]
 author: Mitzi László
