@@ -8,7 +8,7 @@ permalink: /
   <div class="title-banner">
     <h1 class="title">Solid</h1>
     <div class="subtitle">
-      A standard that makes the web work for you
+      Switch between storage and apps while taking the data along 
     </div>
     <a href="{{site.baseurl}}/get-started" class="learn-btn">Get started</a>
       <a href="#what-is-solid" class="learn-more-link">
