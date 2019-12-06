@@ -24,7 +24,7 @@ In Europe <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELE
 
 ## What is a Pod? 
 
-A Pod is where users store their data: it is a personal data vault on the Web. ([see quote](http://www.youtube.com/watch?v=eJ6IrWc7Wt4&t=1m13s)). A user may store their data in one Pod or several Pods, and applications read and write data into the Pod depending on the authorisations granted by the user or users associated to that Pod.
+A Pod is where users stores their data on the Web with Solid. ([see quote](http://www.youtube.com/watch?v=eJ6IrWc7Wt4&t=1m13s)). A user may store their data in one Pod or several Pods, and applications read and write data into the Pod depending on the authorisations granted by the user or users associated to that Pod.
 
 <a id="webid"/>
 
@@ -79,6 +79,15 @@ The Solid standard is open as are some of its implementations such as [Node Soli
 </details>
 
 # Storage 
+
+## Are Solid users expected to setup their own servers and self-host?
+
+**No**. Self-hosting means that your data would sit at home on your own physical hard drive or server. Self-hosting is possible but not essential when using Solid, and it currently requires some technical knowledge. A Solid user can rely on an Identity Provider and a Pod Provider, and is **not expected to have any particular expertise**. It is also possible to self-host and become a small Identity Provider and Pod Provider, to provide Solid to your family, association, friends...
+
+<details>
+<summary><a>More details</a></summary>
+The Solid standard is open as are some of its implementations such as such as [Node Solid Server](https://github.com/solid/node-solid-server) meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
+</details>
 
 ## Can data exist in more than one Pod? 
 
@@ -216,8 +225,12 @@ Pod providers have commitments to the individuals and legal entities that they p
 ## As a Pod provider are you legally responsible for the data you are storing?
 Pod providers have commitments to the individuals and legal entities that they provide services to based on the law of the countries in which the hosting provider is operating. As a Pod provider you should seek professional advice on how to be compliant. As an individual Solid user, you should carefully read the agreement with your hosting provider before agreeing. 
 
-## Could a Solid app or Pod become another tech giant monopoly? 
-Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
+## Could Solid become another tech giant monopoly?
+
+**No**. Solid is **not a company** it is an open standard. Could it dominate the technical landscape, by being adopted by many? Yes, that would be ideal, so we would have one interoperable Solid web, not many. However, being compliant with Solid does not require developpers to ask permission from anyone before building their applications, and does not prevent users from choosing the apps they want, and share their data how they see fit. In that sense, Solid cannot become a monopoly, in the same way that the Web is not considered a tech monopoly.
+
+## Could a Solid app of Pod become another tech giant monopoly? 
+**No**. Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
 
 ## Is it opt-in or opt-out to share my data when using Solid?
 Opt-in. The default is for you not to share your data. You have to give your active consent to share your data.
