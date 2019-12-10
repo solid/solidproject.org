@@ -31,7 +31,7 @@ permalink: /
         <div class="info-card">
           <h3 class="title">Like peas in a Pod</h3>
           <p class="info">
-            Your <a href="{{site.baseUrl}}/faqs#pod" title="Frequently Asked Questions">Pod</a> is where you store your data. Pods and apps are separate but compatible so you are free to change apps while keeping your data. For example, if you want to switch messaging app you can take your contacts and chat history along easily.
+            Your <a href="{{site.baseUrl}}/faqs#pod" title="Frequently Asked Questions - what is a Pod?">Pod</a> is where you store your data. Pods and apps are separate but compatible so you are free to change apps while keeping your data. For example, if you want to switch messaging app you can take your contacts and chat history along easily, as long as both apps support Solid.
           </p>
         </div>
       </div>
