@@ -60,7 +60,7 @@ permalink: /
           </h3>
           <p class="info">
           Solid is an <a href="https://solid.github.io/specification/">open standard</a>, meaning that anyone can implement it.
-          It describes how <a href="{{site.baseUrl}}/faqs#pod" title="Frequently Asked Questions">Pods</a>, <a href="{{site.baseUrl}}/faqs#webid" title="Frequently Asked Questions">WebIDs</a> and apps interact to <a href="{{site.baseUrl}}/faqs#interoperability" title="Frequently Asked Questions">interoperate</a>.
+          It describes how <a href="{{site.baseUrl}}/faqs#pod" title="Frequently Asked Questions - what is a Pod?">Pods</a>, <a href="{{site.baseUrl}}/faqs#webid" title="Frequently Asked Questions - what is a WebID?">WebIDs</a> and apps interact to <a href="{{site.baseUrl}}/faqs#interoperability" title="Frequently Asked Questions - What does 'Interoperability' mean?">interoperate</a>.
           The Web makes it possible to transfer data conveniently and Solid adds a user-centric access control.
           </p>
         </div>
