@@ -44,7 +44,7 @@ permalink: /
         <div class="info-card">
           <h3 class="title">The last login you'll ever need</h3>
           <p class="info">
-          Your <a href="{{site.baseUrl}}/faqs#webid" title="Frequently Asked Questions">WebID</a> changes the power dynamic. You call the shots: instead of creating an account for each app, have each app find your account. On top of that, your WebID makes it possible for people to connect to you, no matter what apps they are using.
+          Your <a href="{{site.baseUrl}}/faqs#webid" title="Frequently Asked Questions - what is a WebID?">WebID</a> changes the power dynamic. You call the shots: instead of creating an account for each app, have each app find your account. On top of that, your WebID makes it possible for people to connect to you, no matter what Solid apps they are using.
           </p>
         </div>
       </div>
