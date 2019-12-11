@@ -20,11 +20,17 @@ Examples of personal data include: location, genome data, written communication,
 In Europe <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e1489-1-1">personal data is defined under the General Data Protection Regulation (GDPR)</a> as "any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;"
 </details>
 
+<a id="interoperability"/>
+
+## What is interoperability? 
+
+According to the <a href="https://dictionary.cambridge.org/us/dictionary/english/interoperability">Cambridge dictionnary</a>, interoperability is "the quality of being able to be used together". For example, if you use a Solid app, you can store your data in any [Pod](#pod) because apps and Pods are interoperable. Also, you should be able to reuse data from one Solid calendar app to another because apps are interoperable. 
+
 <a id="pod"/>
 
 ## What is a Pod? 
 
-A Pod is where users stores their data on the Web with Solid. ([see quote](http://www.youtube.com/watch?v=eJ6IrWc7Wt4&t=1m13s)). A user may store their data in one Pod or several Pods, and applications read and write data into the Pod depending on the authorisations granted by the user or users associated to that Pod.
+A Pod is where data is stored on the Web with Solid. ([see quote](http://www.youtube.com/watch?v=eJ6IrWc7Wt4&t=1m13s)). A user may store their data in one Pod or several Pods, and applications read and write data into the Pod depending on the authorisations granted by the user or users associated to that Pod.
 
 <a id="webid"/>
 
