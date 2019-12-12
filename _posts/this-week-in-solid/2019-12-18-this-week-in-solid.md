@@ -47,6 +47,8 @@ At the start of the year Solid was being worked on in several different resposit
 ### Defined milestones of work to work on Solid 
 
 ### Tooling 
+* [triple doc](https://vincenttunru.gitlab.io/tripledoc/)
+* [Exploration of client-side RDF libraries](https://github.com/inrupt/solid-lib-comparison)
 
 ### Implementations 
 
