@@ -23,7 +23,7 @@ When developing social apps, where users interact asynchronously, or whenever an
 
 Notifications in solid are based on the [Linked Data Notification (LDN) specification](https://www.w3.org/TR/ldn/):
 
-![LDN overview](https://www.w3.org/ns/ldp/linked-data-notifications-overview.svg)
+![LDN overview](https://www.w3.org/TR/ldn/linked-data-notifications-overview.svg)
 
 The following terms are defined by the LDN recommandation, and here is specifically how we use them in the context of solid:
 - Sender: The application sending the notification
