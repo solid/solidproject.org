@@ -39,11 +39,16 @@
     }
 
     .subtitle {
-      font-size: 4rem;
-      // letter-spacing: 0.08px;
-      // line-height: 24px;
+      font-size: 3rem;
+      line-height: 1.5;
+      margin: 0 3rem;
       padding: 1em 0 1em 0;
       text-align: center;
+      text-shadow: 1px 1px 1px #666;
+
+      @media (max-width: 800px) {
+        font-size: 2rem;
+      }
     }
 
     .learn-btn {
