@@ -21,6 +21,8 @@ Please be aware that this page is still a work in progress. You wrote a Solid-co
 ## More apps
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
 
+* [Launcher Exploration](https://launcher-exploration.inrupt.app/) (code on https://github.com/inrupt/launcher-exploration)
+* [Friend Requests Exploration](https://friend-requests-exploration.inrupt.app/) (code on https://github.com/inrupt/friend-requests-exploration)
 * [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype) (deployed as [Sigmafied](https://sigmafied.com)). 2019. [Sharon Statsianis](https://github.com/SharonStrats). 
 * [Spoggy](https://spoggy.herokuapp.com/) 
 * [Linked Pipes](https://applications.linkedpipes.com/). 2019. [@aorumbayev](https://github.com/aorumbayev)
