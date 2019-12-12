@@ -8,13 +8,13 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ## Upcoming Talks
 
-2019-12-11 [MyData Madrid](https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/) with Alejandro Juan García
-
 2020-02-07 [Solid CERN](https://indico.cern.ch/e/CERN-Solid-brainstorming) is an internal event that may bring the place where Sir Tim invented the Web to the heart of the Web's future by Maria Dimou
 
 ## Past Talks Mentioning Solid 
 
 ### 2019
+
+2019-12-11 [MyData Madrid](https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/) with Alejandro Juan García
 
 2019-11-18 [The Richard Dimbleby Lecture](https://www.bbc.co.uk/programmes/b006ptbl) by Tim Berners-Lee: [video](https://www.bbc.co.uk/programmes/m000bj15)
 
@@ -197,6 +197,8 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-07-30 [The Verge: Apple joins Google, Facebook, and Twitter in data-sharing project](https://www.theverge.com/2019/7/30/20746868/apple-data-transfer-project-google-microsoft-twitter)
 
+2019-07-29 [Linked Research Decentralised Web](https://csarven.ca/linked-research-decentralised-web)
+
 2019-07-26 [Civil Service World: Opinion: Think Britain beats the world on digital services? Think again. China rules the digital waves](https://civilserviceworld.com/articles/opinion/opinion-think-britain-beats-world-digital-services-think-again-china-rules-digital)
 
 2019-07-24 [La Vanguardia: ¿Internet está averiado? Tim Berners-Lee y otros están intentando repararlo](https://www.lavanguardia.com/tecnologia/20190724/463676999523/internet-averiado-tim-berners-lee-reparar-dweb-web-descentralizada-internet-descentralizado-p2p-blockchain.html)
@@ -222,6 +224,8 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 2019-06-25 [Mercola: Google buries Mercola in their latest search engine update, Part 2 of 2]( https://articles.mercola.com/sites/articles/archive/2019/06/25/google-broad-core-algorithm-update-buries-mercola.aspx)
 
 2019-06-21 [The Record: Reinventing the World Wide Web](https://www.therecord.com/news-story/9447408-reinventing-the-world-wide-web/) 
+
+2019-06-17 [Shaping Linked Data apps](https://ruben.verborgh.org/blog/2019/06/17/shaping-linked-data-apps/) 
 
 2019-06-14 [Faro de Vigo: Miitzi László: "No hay inteligencia artificial, solo es una extensión de la humana"](https://www.farodevigo.es/sociedad/2019/06/14/miitzi-laszlo-hay-inteligencia-artificial/2123354.html)
 
