@@ -33,7 +33,7 @@ Minutes:
 * Walked through an overview of the Solid specification work as stated in This Week in Solid 
 * Gave an update about Node Solid Server project as stated in This Week in Solid 
 
-Next weeks call will be on the 26th September at 1600CEST on [this line](https://zoom.us/j/121552099).
+Next weeks call will be on the 26th September at 1600 CEST on [this line](https://zoom.us/j/121552099).
 
 ## Press
 
@@ -58,7 +58,7 @@ Solid Events are run by members of the Solid community like you. Solid Event org
 This week there are no updates or new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list). 
 
 ## Solid Development
-The Solid standard is currently referred to as [the specification](https://github.com/solid/specification) and is being led by the [editors](https://github.com/solid/specification/milestones). The focus at the moment is to define the scope of a Solid spec deliverable for December by [submitting issues to the specifciation repository](https://github.com/solid/specification/issues). On the 27th December the editors will finalise the decision on which issues to include in the December deliverable scope by organising them into a defined [milestone](https://github.com/solid/specification/milestones). 
+The Solid standard is currently referred to as [the specification](https://github.com/solid/specification) and is being led by the [editors](https://github.com/solid/specification/milestones). The focus at the moment is to define the scope of a Solid spec deliverable for December by [submitting issues to the specification repository](https://github.com/solid/specification/issues). On the 27th December the editors will finalise the decision on which issues to include in the December deliverable scope by organising them into a defined [milestone](https://github.com/solid/specification/milestones). 
 
 ## Updates on Solid Projects
 [Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panels. Below are the links to where there were active conversations on each of the projects.

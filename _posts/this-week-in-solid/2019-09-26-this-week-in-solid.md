@@ -20,9 +20,9 @@ Want something mentioned? Contact the Solid Manager at info@solidproject.org or 
 This Week in Solid is openly developed [on GitHub](https://github.com/solid/information/edit/master/weekly-updates/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
 
 ## Weekly Solid Call
-Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. This week Jim, Alessandra, Dan, Michiel, Jackson, Justin, and Dmitri tuned in and we had a round of introductions. Then we talked through the activity in the panels this week which included: data interoperability, authorisation and access control, and authentication. The [issues on the specficiation respository](https://github.com/solid/specification/issues) define the scope of work that needs to be done, there was an invitation to read through these, comment and add any issues that you feel are missing. 
+Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. This week Jim, Alessandra, Dan, Michiel, Jackson, Justin, and Dmitri tuned in and we had a round of introductions. Then we talked through the activity in the panels this week which included: data interoperability, authorisation and access control, and authentication. The [issues on the specification respository](https://github.com/solid/specification/issues) define the scope of work that needs to be done, there was an invitation to read through these, comment and add any issues that you feel are missing. 
 
-Next weeks call will be on the 3rd October at 1000CEST on [this line](https://zoom.us/j/121552099).
+Next weeks call will be on the 3rd October at 1000 CEST on [this line](https://zoom.us/j/121552099).
 
 ## Press
 
@@ -48,7 +48,7 @@ Solid Events are run by members of the Solid community like you. Solid Event org
 
 If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list), or there are updates to existing Solid implementations, make sure to add them to the list so they get included in next week's edition.
 
-* The [brand new version 0.9 of **Startin’blox**](https://git.happy-dev.fr/startinblox/framework/sib-core) is out in beta this week ! This version includes **Ld-flex**, the store that allows the app to get data on the server. This is the **second Solid library** that has been integrated into **Startin’blox** after **Solid-auth**. **Thousand thanks to Ruben and his teammates**, for their initiatives and contributions. 
+* The [brand new version 0.9 of **Startin’Blox**](https://git.happy-dev.fr/startinblox/framework/sib-core) is out in beta this week ! This version includes **Ld-flex**, the store that allows the app to get data on the server. This is the **second Solid library** that has been integrated into **Startin’Blox** after **Solid-auth**. **Thousand thanks to Ruben and his teammates**, for their initiatives and contributions. 
 
 ## Solid Development
 The scope of work that needs to happen on the Solid specification has been written down as issues which you can read [here](https://github.com/solid/specification/issues). If you feel something is missing from the scope of the Solid specification [submit an issue](https://github.com/solid/specification/issues). On Friday the [editors](https://github.com/solid/process/blob/master/editors.md) will define which issues to include in the [milestone](https://github.com/solid/specification/milestone/1) to be delivered on December 19th which will define the focus of work until then.

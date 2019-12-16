@@ -6,7 +6,7 @@ permalink: for-developers/funding
 
 If you know of any grants or channels to apply to resources that would allow developers to focus on building their application on solid, please do share then here.
 
-* [Github Sponsors](https://github.com/sponsors)
+* [GitHub Sponsors](https://github.com/sponsors)
 * [DuckDuckGo Donations](https://duckduckgo.com/donations)
 * [The Knight Foundation](https://knightfoundation.org) and [The Knight Foundation for Technology Innovation](https://knightfoundation.org/programs/technology)
 * [SIDN Fonds](https://www.sidnfonds.nl/excerpt/)

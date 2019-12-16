@@ -13,7 +13,7 @@ Tune into the following calls to participate:
 * [Data Interoperability and Portability Panel](https://github.com/solid/process/blob/master/panels.md#data-interoperability-and-portability) on Mondays at 2130 CET  on [this line](https://global.gotomeeting.com/join/620786365)
 * [Authorization and Access Control Panel](https://github.com/solid/process/blob/master/panels.md#authorization-and-access-control) on Wednesdays at 1600 CET on [this line](https://hangouts.google.com/call/vsPFdfBxsTgfHcjKbmcXAEEE) 
 * Test Suite on Wednesdays at 1530 CET on [this line](https://whereby.com/solid-test-suit)
-* There is a weekly W3C Solid Community Group call to review all panels on Thursdays alternating between 1000CET and 1600CET on [this line](https://zoom.us/j/121552099). The 28th November 2019 will be at 1000 CET.
+* There is a weekly W3C Solid Community Group call to review all panels on Thursdays alternating between 1000 CET and 1600 CET on [this line](https://zoom.us/j/121552099). The 28th November 2019 will be at 1000 CET.
 
 There are two ways of contributing to Solid: 
 * Panellists: draft theme based proposals with other panellists to improve Solid 
@@ -35,7 +35,7 @@ Domains may be technical, non-technical, or some combination of the two. For exa
 
 A list of Solid Panels is maintained at [panels.md](https://github.com/solid/process/blob/master/panels.md). This listing helps people find panels they may want to participate in, and helps editors find panels to consult as part of the editorial process.
 
-Panels may request to have a repository created within the [Solid Github Organization](https://github.com/solid). These requests should be made by submitting an issue to [solid/process](https://github.com/solid/process). The request should include the proposed name of the repository, and how it will be used. Any editor may reject a proposed name and request an alternative. All panel members will receive [_Maintain Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the panel repository, unless it is subject to editorial review, which would require that it employ a [different permission structure](#repositories). Panel repositories that are inactive for more than six months may be archived by Solid Administrators.
+Panels may request to have a repository created within the [Solid GitHub Organization](https://github.com/solid). These requests should be made by submitting an issue to [solid/process](https://github.com/solid/process). The request should include the proposed name of the repository, and how it will be used. Any editor may reject a proposed name and request an alternative. All panel members will receive [_Maintain Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the panel repository, unless it is subject to editorial review, which would require that it employ a [different permission structure](#repositories). Panel repositories that are inactive for more than six months may be archived by Solid Administrators.
 
 Panels may request to have a Gitter channel created within the [Solid Gitter Organization](https://gitter.im/solid). These requests should be made by submitting an issue to [solid/process](https://github.com/solid/process).
 

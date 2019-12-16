@@ -30,9 +30,9 @@ Let's create the first obelisk of your collection in your own Pod. The piece of 
 
 ![You're a proud obelisk owner!]{{site.baseurl}}/assets/img/tutorials/vocabularies/obelisk_vocab_3.png)
 
-The new document containing your first obelisk is linked two other documents: the obelisk vocabulary, and your own profile document. Similarily to the [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor) example, the new document references terms from the vocabulary. However, it also points to data from another document, here your profile. That's the power of Linked Data: each piece of data can point to another, so that your app can collect as much information as needed about the context of data.
+The new document containing your first obelisk is linked two other documents: the obelisk vocabulary, and your own profile document. Similarly to the [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor) example, the new document references terms from the vocabulary. However, it also points to data from another document, here your profile. That's the power of Linked Data: each piece of data can point to another, so that your app can collect as much information as needed about the context of data.
 
-You can see the previous graph stranslated into RDF in the file `src/collection.js` of the sandbox below:
+You can see the previous graphs translated into RDF in the file `src/collection.js` of the sandbox below:
 ```turtle
 @prefix : <#>.
 @prefix obelisk: <http://w3id.org/obelisk/> .

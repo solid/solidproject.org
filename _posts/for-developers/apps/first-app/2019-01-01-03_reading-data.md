@@ -17,7 +17,7 @@ read some data from that Document!
 We will be using [Tripledoc](https://vincenttunru.gitlab.io/tripledoc/), which was designed
 specifically for this tutorial. Other libraries exist, such as
 [ldflex](https://www.npmjs.com/package/ldflex), [rdf-ext](https://www.npmjs.com/package/rdf-ext) and
-[rdflib](https://www.npmjs.com/package/rdflib); Tripledoc has a more limitied scope designed to aid
+[rdflib](https://www.npmjs.com/package/rdflib); Tripledoc has a more limited scope designed to aid
 "thinking in Solid". If, at some point in the future, you want to start combining many different
 data sources, you might want to consider investigating those alternative libraries.
 

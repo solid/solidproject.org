@@ -37,7 +37,7 @@ Solid Events are run by members of the Solid community like you. Solid Event org
 |10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
 
 ## Solid Implementation
-If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) or there are updates to existing Solid implemntations make sure to add them to the list so they get included in next weeks edition.
+If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) or there are updates to existing Solid implementations make sure to add them to the list so they get included in next weeks edition.
 
 This week there was a new app: 
 * none this week 
@@ -52,7 +52,7 @@ All work on Solid Development is carried out on the [Solid GitHub](https://githu
 
 You can read about [how development of the Solid specification works](https://github.com/solid/process) which is led by the [editors](https://github.com/solid/process/blob/master/editors.md). 
 
-Anyone can apply to be an editor by [submitting a pull request](https://github.com/solid/process/blob/master/editors.md), here are the open appliations: 
+Anyone can apply to be an editor by [submitting a pull request](https://github.com/solid/process/blob/master/editors.md), here are the open applications: 
 * [Justin Bingham](https://github.com/solid/process/pull/29)
 * [Sarven Capadisli](https://github.com/solid/process/pull/30)
 * [Dmitri Zagidulin](https://github.com/solid/process/pull/34)
@@ -124,17 +124,17 @@ Proposals in specification repositories with unknown panel:
 Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/process#how-to-make-changes). 
 
 ## Updates on Solid Projects
-[Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panesl. Below are the links to where there were active conversations on each of the projects. 
+[Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panels. Below are the links to where there were active conversations on each of the projects. 
 
 ### [Node Solid Server Project](https://github.com/orgs/solid/projects/2) 
 * [Resource-mapper now considers content type when inserting index.html](https://github.com/solid/node-solid-server/pull/1260#issuecomment-521680894)
 * [500 error when testing NSS5](https://github.com/solid/node-solid-server/issues/1134#issuecomment-521883740)
-* [fix issues #1120 #1256 from NSS5.1.6 ressource-mapper](https://github.com/solid/node-solid-server/pull/1282/files/58e1a479c5dbec944e32676356ffd1b5ca0ed88d..05153ae3fb29c37b8231178515a074b2133fa558)
+* [fix issues #1120 #1256 from NSS5.1.6 resource-mapper](https://github.com/solid/node-solid-server/pull/1282/files/58e1a479c5dbec944e32676356ffd1b5ca0ed88d..05153ae3fb29c37b8231178515a074b2133fa558)
 
 ### [Data Browser Project](https://github.com/orgs/solid/projects/4)
 * [Release mashlib as version 1.0.0](https://github.com/solid/mashlib/issues/48)
 * [Movement path for user menu is unforgiving and sometimes behind other elements](https://github.com/solid/mashlib/issues/51)
-* [ntroducing footer, moving content of subheader there](https://github.com/solid/mashlib/pull/49)
+* [introducing footer, moving content of subheader there](https://github.com/solid/mashlib/pull/49)
 * [Adding some lag to user-menu and making sure it stays atop](https://github.com/solid/mashlib/pull/52)
 * [Forms UI should remove user input UI when resource not editable](https://github.com/solid/solid-ui/issues/88)
 * [Allow files to be added to root via Your files](https://github.com/solid/solid-panes/issues/143)
@@ -172,7 +172,7 @@ Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Doc
 * [Make mashlib work as a library again](https://github.com/solid/mashlib/pull/63)
 * [Generate GH-pages HTML files again (alternative approach)](https://github.com/solid/mashlib/pull/62) 
 * [Generate GH-pages HTML files again](https://github.com/solid/mashlib/pull/61)
-* [Add trashcan and file upload buttons next to camera button](https://github.com/solid/contacts-pane/pull/3)
+* [Add trash can and file upload buttons next to camera button](https://github.com/solid/contacts-pane/pull/3)
 
 Until next week!
 

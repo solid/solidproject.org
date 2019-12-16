@@ -28,7 +28,7 @@ Check out the new version of solidproject.org with updated content. A big thank 
 
 If you have any feedback on solidproject.org you can [submit an issue](https://github.com/solid/solid.github.io/issues) for the Creators to have a look at for the next version. 
 
-This week we will start a slower user testing on the documentation for developers. If you're intrested have a look at (insert page) and (insert instructions). You can provide feedback by [submitting an issue](https://github.com/solid/solid.github.io/issues) with answers to the following questions: 
+This week we will start a slower user testing on the documentation for developers. If you're interested have a look at (insert page) and (insert instructions). You can provide feedback by [submitting an issue](https://github.com/solid/solid.github.io/issues) with answers to the following questions: 
 * 
 
 Alternatively, feel free to drop by the Solid Weekly call at 1000 CEST on [this line](https://zoom.us/j/121552099) where Creators Vincent and Nicolas will be to listen to your thoughts and jot them down. 

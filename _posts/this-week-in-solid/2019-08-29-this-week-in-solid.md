@@ -24,7 +24,7 @@ Every Thursday there is an hour long public call where newcomers can introduce t
 
 You can read the [minutes of this weeks call here](https://hackmd.io/D_ZPm6hSQBWm2QLb5EEodQ?edit). 
 
-Next weeks call will be on the 5th September at 1000CEST on [this line](https://zoom.us/j/121552099). You can find [the agenda here](https://www.w3.org/community/solid/wiki/Meetings#20190905_1000CEST) where you can also add items by [joining the W3C Solid Community Group](https://www.w3.org/community/solid/) or send an email to info@solidproject.org.
+Next weeks call will be on the 5th September at 1000 CEST on [this line](https://zoom.us/j/121552099). You can find [the agenda here](https://www.w3.org/community/solid/wiki/Meetings#20190905_1000CEST) where you can also add items by [joining the W3C Solid Community Group](https://www.w3.org/community/solid/) or send an email to info@solidproject.org.
 
 ## Press
 
@@ -39,7 +39,7 @@ Solid Events are run by members of the Solid community like you. If you are inte
 |10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
 
 ## Solid Implementation
-If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) or there are updates to existing Solid implemntations make sure to add them to the list so they get included in next weeks edition. This week there are no new Pods and apps or updates to existing Pods and apps. 
+If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) or there are updates to existing Solid implementations make sure to add them to the list so they get included in next weeks edition. This week there are no new Pods and apps or updates to existing Pods and apps. 
 
 ## Solid Development 
 The Solid standard is currently referred to as [the specification](https://github.com/solid/specification). 
@@ -54,7 +54,7 @@ This week there have been some process proposals that have been reviewed and acc
 * [include reference to links ](https://github.com/solid/process/pull/83#pullrequestreview-281087305)
 * [Update code-of-conduct.md](https://github.com/solid/process/pull/80) 
 
-Conversations about these proposals happend on these issues which have now been closed: 
+Conversations about these proposals happened on these issues which have now been closed: 
 * [Current editor PRs do not provide sufficient details for an informed decision](https://github.com/solid/process/issues/36) 
 * [Style document with headings](https://github.com/solid/process/issues/40) 
 * [Definition of substantive changes in the editorial process might cause trouble](https://github.com/solid/process/issues/57)
@@ -85,7 +85,7 @@ This week the [Notification Panel](https://github.com/solid/process/pull/116#eve
 
 [Sarven joined the App Authorisation Panel](https://github.com/solid/process/pull/115). 
 
-The Entry Document Panel switched the communication channel to issues on the specification repoository. 
+The Entry Document Panel switched the communication channel to issues on the specification repository. 
 
 ### Solid Proposal Development
 Here is an overview of active panel conversations to work on generating proposals this week. 
@@ -93,7 +93,7 @@ Here is an overview of active panel conversations to work on generating proposal
 | Panel | Conversations  | 
 | ------------- | ------------- | 
 | [Accessibility Panel](https://github.com/solid/process/blob/master/panels.md#accessibility-panel) | no activity | 
-| [App Authorization Panel](https://github.com/solid/process/blob/master/panels.md#app-authorization) | at the [weekly call](https://github.com/solid/process/blob/master/panels.md#meetings) M Thornburg's proposal for permission escallation was discussed. [See minutes](https://github.com/solid/app-authorization-panel/tree/master/meetings) for more details. See [gitter chat channel](https://gitter.im/solid/app-authorization-panel) for more conversations|
+| [App Authorization Panel](https://github.com/solid/process/blob/master/panels.md#app-authorization) | at the [weekly call](https://github.com/solid/process/blob/master/panels.md#meetings) M Thornburg's proposal for permission escalation was discussed. [See minutes](https://github.com/solid/app-authorization-panel/tree/master/meetings) for more details. See [Gitter chat channel](https://gitter.im/solid/app-authorization-panel) for more conversations|
 | [Artificial Intelligence Panel](https://github.com/solid/process/blob/master/panels.md#artificial-intelligence-panel) | no activity|
 | [Authentication Panel](https://github.com/solid/process/blob/master/panels.md#authentication-panel) | at the [weekly call](https://github.com/solid/process/blob/master/panels.md#meetings-1) discussed M. Thornburg's proposal. [See minutes](https://github.com/solid/authentication-panel/tree/master/meetings) for more details.|
 | [Caching Panel](https://github.com/solid/process/blob/master/panels.md#caching-panel) |no activity |
@@ -109,7 +109,7 @@ Here is an overview of active panel conversations to work on generating proposal
 | [Query Panel](https://github.com/solid/process/blob/master/panels.md#query-panel) |There was activity on the following pull requests: [Error when try to get properties or subjects from document](https://github.com/solid/query-ldflex/issues/31#issuecomment-523656972), [The function .properties returns all document properties](https://github.com/solid/query-ldflex/issues/32), [Cannot display properties of some iterable resources](https://github.com/solid/query-ldflex/issues/33), [Support LDflex expressions that do not resolve to a thenable](https://github.com/solid/react-components/issues/12#event-2588482989), [Support LDflex expressions resulting in unthenable](https://github.com/solid/react-components/pull/17), [useLDflex should clear values if a changed expression errors](https://github.com/solid/react-components/issues/18#event-2588743183), [If query fails, multiple results display is not cleared](https://github.com/solid/ldflex-playground/issues/6#event-2588758794) |
 | [Specification Entry Document Panel](https://github.com/solid/process/blob/master/panels.md#specification-entry-document-panel) |change of communication channel (see above) |
 | [Teaching Materials Panel](https://github.com/solid/process/blob/master/panels.md#teaching-material-panel) | no activity |
-| [Test Suite Panel](https://github.com/solid/process/blob/master/panels.md#test-suite-panel) | activity on the following pull requests and issues: [Authenticated tests](https://github.com/solid/test-suite/pull/38), [Public IDP for testing that just goes "OK"](https://github.com/solid/test-suite/issues/36), [Initial Pod Content for Tests](https://github.com/solid/test-suite/issues/40), [Replace example.org URIs with something dereferenceable](https://github.com/solid/test-suite/issues/41), [inrupt-pod-server Dockerfile is missing config.json](https://github.com/solid/test-suite/issues/42). See [gitter chat channel](https://gitter.im/solid/test-suite) for more activity. |
+| [Test Suite Panel](https://github.com/solid/process/blob/master/panels.md#test-suite-panel) | activity on the following pull requests and issues: [Authenticated tests](https://github.com/solid/test-suite/pull/38), [Public IDP for testing that just goes "OK"](https://github.com/solid/test-suite/issues/36), [Initial Pod Content for Tests](https://github.com/solid/test-suite/issues/40), [Replace example.org URIs with something dereferenceable](https://github.com/solid/test-suite/issues/41), [inrupt-pod-server Dockerfile is missing config.json](https://github.com/solid/test-suite/issues/42). See [Gitter chat channel](https://gitter.im/solid/test-suite) for more activity. |
 
 ### Proposals for Editorial Review 
 Anyone can [draft a proposal](https://github.com/solid/process#drafting-proposals) and submit it for [editorial review](https://github.com/solid/process#reviewing-proposals).
@@ -133,25 +133,25 @@ This week the following proposals were reviewed.
 | [Add HTTP section](https://github.com/solid/specification/pull/26)  | [Specification Entry Document Panel](https://github.com/solid/process/blob/master/panels.md#specification-entry-document-panel) | ------------- | ------------- | ------------- |
 
 ## Updates on Solid Projects
-[Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panesl. Below are the links to where there were active conversations on each of the projects. 
+[Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panels. Below are the links to where there were active conversations on each of the projects. 
 
 ### [Node Solid Server Project](https://github.com/orgs/solid/projects/2) 
 This week there was activity in the following channels: 
 * [Server home page should link to pod when user is logged in](https://github.com/solid/node-solid-server/issues/1291)
-* [PR # 1282 with minimized rewrite on ressource-mapper.js](https://github.com/solid/node-solid-server/pull/1292) 
+* [PR # 1282 with minimized rewrite on resource-mapper.js](https://github.com/solid/node-solid-server/pull/1292) 
 * [Fix false response despite accept headers for containers](https://github.com/solid/node-solid-server/pull/1294) 
 * [:ant: Reuse ldp](https://github.com/solid/node-solid-server/pull/1293) 
 * [reduced solid server/api/microservice](https://github.com/solid/node-solid-server/issues/1295) 
 * [GET on ANY container with an index.html returns HTML, not Turtle](https://github.com/solid/node-solid-server/issues/1264) 
 * [Resource-mapper now considers content type when inserting index.html](https://github.com/solid/node-solid-server/pull/1260#event-2584823088) 
-* [fix issues #1120 #1256 from NSS5.1.6 ressource-mapper](https://github.com/solid/node-solid-server/pull/1282)
+* [fix issues #1120 #1256 from NSS5.1.6 resource-mapper](https://github.com/solid/node-solid-server/pull/1282)
 
 ### [Data Browser Project](https://github.com/orgs/solid/projects/4)
 This week there was activity in the following channels: 
 * [Documentation](https://github.com/solid/solid-ui/pull/97#event-2574291980)
 * [Make the new module system in rdflib work](https://github.com/solid/mashlib/pull/60)
 * [Release mashlib as version 1.0.0](https://github.com/solid/mashlib/issues/48#issuecomment-521441687)
-* [Look at ContactPicker API for integration with Solid Copntacts](https://github.com/solid/contacts-pane/issues/4) 
+* [Look at ContactPicker API for integration with Solid Contacts](https://github.com/solid/contacts-pane/issues/4) 
 * [clean up forms-intro.html](https://github.com/solid/solid-ui/pull/98)
 * [Allow either default or non-default export in pane API](https://github.com/solid/solid-panes/issues/159)
 * [Cannot Add Address, Email or Phone to Profile](https://github.com/solid/solid-ui/issues/106)

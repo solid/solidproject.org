@@ -9,7 +9,7 @@ exclude: true
 
 ### The NeOn methodology
 
-NeOn is a reference method for building __ontology networks__, that is to say inter-related vocabularies. NeOn proposes different scenarii, to enable reusing existing resources (both ontological and non-ontological, i.e. data models that are not vocabularies) or building the vocabulary from scratch. The detail of these scenarii is provided in the [referenced publication](https://pdfs.semanticscholar.org/3d34/d26ddc2024b80c3296a8552e160d973cd9a2.pdf), but we will give thereafter an overview of the "build-from-scratch" scenario.
+NeOn is a reference method for building __ontology networks__, that is to say inter-related vocabularies. NeOn proposes different scenarios, to enable reusing existing resources (both ontological and non-ontological, i.e. data models that are not vocabularies) or building the vocabulary from scratch. The detail of these scenarios is provided in the [referenced publication](https://pdfs.semanticscholar.org/3d34/d26ddc2024b80c3296a8552e160d973cd9a2.pdf), but we will give thereafter an overview of the "build-from-scratch" scenario.
 
 #### Requirements specification
 

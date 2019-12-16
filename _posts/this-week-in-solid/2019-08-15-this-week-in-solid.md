@@ -39,7 +39,7 @@ Solid Events are run by members of the Solid community like you. Solid Event org
 |10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
 
 ## Solid Implementation
-If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) or there are updates to existing Solid implemntations make sure to add them to the list so they get included in next weeks edition.
+If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) or there are updates to existing Solid implementations make sure to add them to the list so they get included in next weeks edition.
 
 This week there was a new app: 
 * [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) uses the national weather service API so it is currently only able to fetch weather in the United States.2019. Dylan Martin. Users can switch between this app and [Solid Calendar](https://bitbucket.org/dylanmartin/solidcalendar/src/master/)
@@ -54,7 +54,7 @@ All work on Solid Development is carried out on the [Solid GitHub](https://githu
 
 You can read about [how development of the Solid specification works](https://github.com/solid/process) which is led by the [editors](https://github.com/solid/process/blob/master/editors.md). 
 
-Anyone can apply to be an editor by [submitting a pull request](https://github.com/solid/process/blob/master/editors.md), here are the open appliations: 
+Anyone can apply to be an editor by [submitting a pull request](https://github.com/solid/process/blob/master/editors.md), here are the open applications: 
 * [Justin Bingham](https://github.com/solid/process/pull/29)
 * [Sarven Capadisli](https://github.com/solid/process/pull/30)
 * [Dmitri Zagidulin](https://github.com/solid/process/pull/34)
@@ -108,7 +108,7 @@ Below are a list of proposals that are ready for editorial review. If you are pa
 Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/process#how-to-make-changes). 
 
 ## Updates on Solid Projects
-[Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panesl. Below are the links to where there were active conversations on each of the projects. 
+[Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panels. Below are the links to where there were active conversations on each of the projects. 
 
 ### [Node Solid Server Project](https://github.com/orgs/solid/projects/2) 
 * https://github.com/solid/node-solid-server/issues/1264#issuecomment-519311943

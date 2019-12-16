@@ -37,7 +37,7 @@ So what's next? Start writing your own App! A couple of suggestions for avenues 
 
 - [Play around in the completed note-taking app](https://codesandbox.io/s/github/Vinnl/notepod/tree/5-writing-data/?module=%2Fsrc%2FApp.tsx).
 - [Learn more about Vocabularies]({{site.baseUrl}}/for-developers/apps/vocabularies): learn about commonly used Vocabularies, how to find other Vocabularies if those do not match your use case, or how to write your own if none suit your app.
-- [Try other libraries and tools]({{site.baseUrl}}/for-developers/apps/tools): we used [Tripledoc](https://vincenttunru.gitlab.io/tripledoc/) in this tutorial, but you might be interested in libraries for languages other than Javascript, or that give you more power.
+- [Try other libraries and tools]({{site.baseUrl}}/for-developers/apps/tools): we used [Tripledoc](https://vincenttunru.gitlab.io/tripledoc/) in this tutorial, but you might be interested in libraries for languages other than JavaScript, or that give you more power.
 - [Get help](https://forum.solidproject.org/): if you get stuck, do not hesitate to ask your question at our [Forum](https://forum.solidproject.org/) or [chat](https://gitter.im/solid/chat).
 
 

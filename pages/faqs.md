@@ -24,7 +24,7 @@ In Europe <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELE
 
 ## What is interoperability? 
 
-According to the <a href="https://dictionary.cambridge.org/us/dictionary/english/interoperability">Cambridge dictionnary</a>, interoperability is "the quality of being able to be used together". For example, if you use a Solid app, you can store your data in any [Pod](#pod) because apps and Pods are interoperable. Also, you should be able to reuse data from one Solid calendar app to another because apps are interoperable. 
+According to the <a href="https://dictionary.cambridge.org/us/dictionary/english/interoperability">Cambridge dictionary</a>, interoperability is "the quality of being able to be used together". For example, if you use a Solid app, you can store your data in any [Pod](#pod) because apps and Pods are interoperable. Also, you should be able to reuse data from one Solid calendar app to another because apps are interoperable. 
 
 <a id="pod"/>
 
@@ -48,7 +48,7 @@ A WebID is an <a href="https://tools.ietf.org/html/rfc3987">Internationalised Re
 - The Pod Provider hosts Pods
 - The Identity Provider allows you to only have one account (identified by your WebID) to log into multiple apps. 
 
-To log into Solid apps and/or access data on Pods, you just have to provide your WebID and login to your Identity Provider, like "Sign in with Google" today. It is possible for the same company or organisation to be both a Pod Provider and a Identity Provider although they are **distinct seperable services** that are compatible with other Pod Providers and Identity Providers (which means you are free to choose the provider that suits you the most). 
+To log into Solid apps and/or access data on Pods, you just have to provide your WebID and login to your Identity Provider, like "Sign in with Google" today. It is possible for the same company or organisation to be both a Pod Provider and a Identity Provider although they are **distinct separable services** that are compatible with other Pod Providers and Identity Providers (which means you are free to choose the provider that suits you the most). 
 <details> 
 <summary><a>More details...</a></summary>
 <p>An Identity Provider implements an identification protocol (e.g. [OIDC](https://openid.net/connect/)), and allows you to prove that you own the WebID.</p>
@@ -223,7 +223,7 @@ Pod providers have commitments to the individuals and legal entities that they p
 
 ## Could Solid become another tech giant monopoly?
 
-**No**. Solid is **not a company**, it is an open standard. Could it dominate the technical landscape, by being adopted by many? Yes, that would be ideal, so we would have one interoperable Solid web, not many. However, being compliant with Solid does not require developpers to ask permission from anyone before building their applications, and does not prevent users from choosing the apps they want, and share their data how they see fit. In that sense, Solid cannot become a monopoly, in the same way that the Web is not considered a tech monopoly.
+**No**. Solid is **not a company**, it is an open standard. Could it dominate the technical landscape, by being adopted by many? Yes, that would be ideal, so we would have one interoperable Solid web, not many. However, being compliant with Solid does not require developers to ask permission from anyone before building their applications, and does not prevent users from choosing the apps they want, and share their data how they see fit. In that sense, Solid cannot become a monopoly, in the same way that the Web is not considered a tech monopoly.
 
 ## Could a Solid app of Pod become another tech giant monopoly? 
 **No**. Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
@@ -233,7 +233,7 @@ Pod providers have commitments to the individuals and legal entities that they p
 
 ## Could Solid become another tech giant monopoly?
 
-**No**. Solid is **not a company** it is an open standard. Could it dominate the technical landscape, by being adopted by many? Yes, that would be ideal, so we would have one interoperable Solid web, not many. However, being compliant with Solid does not require developpers to ask permission from anyone before building their applications, and does not prevent users from choosing the apps they want, and share their data how they see fit. In that sense, Solid cannot become a monopoly, in the same way that the Web is not considered a tech monopoly.
+**No**. Solid is **not a company** it is an open standard. Could it dominate the technical landscape, by being adopted by many? Yes, that would be ideal, so we would have one interoperable Solid web, not many. However, being compliant with Solid does not require developers to ask permission from anyone before building their applications, and does not prevent users from choosing the apps they want, and share their data how they see fit. In that sense, Solid cannot become a monopoly, in the same way that the Web is not considered a tech monopoly.
 
 ## Could a Solid app of Pod become another tech giant monopoly? 
 **No**. Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  

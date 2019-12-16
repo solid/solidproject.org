@@ -22,9 +22,9 @@ This Week in Solid is openly developed [on GitHub](https://github.com/solid/info
 ## Weekly Solid Call
 Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. 
 
-You can read the [minutes of this weeks call here](https://www.w3.org/community/solid/wiki/Meetings#20190905_1000CEST). 
+You can read the [minutes of this weeks call here](https://www.w3.org/community/solid/wiki/Meetings#20190905_1000 CEST). 
 
-Next weeks call will be on the 12th September at 1600CEST on [this line](https://zoom.us/j/121552099). You can find [the agenda here](https://www.w3.org/community/solid/wiki/Meetings#20190912_1600CEST) where you can also add items by [joining the W3C Solid Community Group](https://www.w3.org/community/solid/) or send an email to info@solidproject.org.
+Next weeks call will be on the 12th September at 1600 CEST on [this line](https://zoom.us/j/121552099). You can find [the agenda here](https://www.w3.org/community/solid/wiki/Meetings#20190912_1600CEST) where you can also add items by [joining the W3C Solid Community Group](https://www.w3.org/community/solid/) or send an email to info@solidproject.org.
 
 ## Press
 
@@ -41,11 +41,11 @@ Solid Events are run by members of the Solid community like you. If you are inte
 
 |Date|Event|Organiser|
 | ------------- | ------------- |------------- |
-|12-09-2019|[Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-70748445505)|[Christian Buggadei](https://github.com/JollyOrc)|
+|12-09-2019|[Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-70748445505)|[Christian Buggedei](https://github.com/JollyOrc)|
 |10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
 
 ## Solid Implementation
-If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) or there are updates to existing Solid implemntations make sure to add them to the list so they get included in next weeks edition. There are no updates on Solid implementations this week. 
+If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) or there are updates to existing Solid implementations make sure to add them to the list so they get included in next weeks edition. There are no updates on Solid implementations this week. 
 
 ## Solid Development 
 The Solid standard is currently referred to as [the specification](https://github.com/solid/specification). 
@@ -134,10 +134,10 @@ This week the following proposals were reviewed.
 | [Add HTTP section](https://github.com/solid/specification/pull/26) | [Explaining the Vision Panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) | Unknown | Unknown | Unknown |
 
 ## Updates on Solid Projects
-[Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panesl. Below are the links to where there were active conversations on each of the projects. 
+[Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panels. Below are the links to where there were active conversations on each of the projects. 
 
 ### [Node Solid Server Project](https://github.com/orgs/solid/projects/2) 
-* [Reverting a fix that redirects user to Pod to agressively](https://github.com/solid/node-solid-server/pull/1296)
+* [Reverting a fix that redirects user to Pod to aggressively](https://github.com/solid/node-solid-server/pull/1296)
 * [:ant: Reuse ldp](https://github.com/solid/node-solid-server/pull/1293)
 * [reduced solid server/api/microservice](https://github.com/solid/node-solid-server/issues/1295) 
 * [GET on ANY container with an index.html returns HTML, not Turtle](https://github.com/solid/node-solid-server/issues/1264#issuecomment-519671942) 
@@ -163,7 +163,7 @@ This week the following proposals were reviewed.
 * [Don't store this field's default value in the store](https://github.com/solid/solid-ui/pull/109) 
 * [Cannot display properties of some iterable resources](https://github.com/solid/query-ldflex/issues/33)
 * [Cannot open a folder containing index.html ](https://github.com/solid/solid-ui/issues/114) 
-* [NSSv5.1.7.web app index.html at root opens on web app but (root)/index.html serves mashlib](https://github.com/solid/solid-ui/issues/115) 
+* [NSSv5.1.7.web app index.html at root opens on web app but (root)/index.html serves Mashlib](https://github.com/solid/solid-ui/issues/115) 
 * [The README was not published with 1.7.0 ](https://github.com/solid/react-components/issues/22) 
 * [Adds optional cancelButton to end of tabs ](https://github.com/solid/solid-ui/pull/110)
 * [Filter panes based on user roles](https://github.com/solid/folder-pane/pull/3) 
