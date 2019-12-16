@@ -4,11 +4,16 @@ title: Standardisation
 permalink: standardisation
 ---
 
-You can read the [Solid Specification](https://solidproject.org/specification/) here. 
+You can read the [Solid Specification](https://solid.github.io/specification/) and the details of [how to participate in the standardisation process](https://github.com/solid/process) here.
 
-The following is a description about how changes to the [Solid Specification](https://solidproject.org/specification/) may be proposed and accepted.
+Please read the [Code of Conduct](#conduct) before doing so.
 
-Anyone may participate in [this process](https://github.com/solid/culture). Please read the [Code of Conduct](#conduct) before doing so.
+Tune into the following calls to participate: 
+* [Authentication Panel](https://github.com/solid/process/blob/master/panels.md#authentication) on Mondays at 1600 CET on [this line](https://hangouts.google.com/call/3k5z3gBVKm-58m8Xgm2YAEEE)
+* [Data Interoperability and Portability Panel](https://github.com/solid/process/blob/master/panels.md#data-interoperability-and-portability) on Mondays at 2130 CET  on [this line](https://global.gotomeeting.com/join/620786365)
+* [Authorization and Access Control Panel](https://github.com/solid/process/blob/master/panels.md#authorization-and-access-control) on Wednesdays at 1600 CET on [this line](https://hangouts.google.com/call/vsPFdfBxsTgfHcjKbmcXAEEE) 
+* Test Suite on Wednesdays at 1530 CET on [this line](https://whereby.com/solid-test-suit)
+* There is a weekly W3C Solid Community Group call to review all panels on Thursdays alternating between 1000CET and 1600CET on [this line](https://zoom.us/j/121552099). The 28th November 2019 will be at 1000 CET.
 
 There are two ways of contributing to Solid: 
 * Panellists: draft theme based proposals with other panellists to improve Solid 
@@ -96,52 +101,6 @@ Editors belong to the [Editorial Team](https://github.com/orgs/solid/teams/edito
 Repositories requiring editorial review are listed in [there](https://github.com/orgs/solid/teams/editors#editorial-assignments). Each repository has one or more assigned editors, and only assigned editors are permitted to merge into the master branch of these repositories, per the [proposal review process](#reviewing-proposals).
 
 Editors have [_Admin Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the repositories they are assigned to, and are permitted to grant [_Write Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to other contributing authors on the same. All members of the Editorial Team have [_Write Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on all repositories requiring editorial review listed in [editors.md](https://github.com/solid/process/blob/master/editors.mdeditors.md).
-
-# Who Develops the Solid Standard? 
-
-If you are interested in joining the Solid team email info@solidproject.org with your CV and motivation letter.
-
-# Editors 
-
-## Tim Berners-Lee
-**Solid Director and Editor** 
-Named one of Time Magazine’s ‘100 Most Important People of the 20th Century,’ Tim invented the web while at CERN in 1989. He is the Founder and Director of the World Wide Web Consortium (W3C), the international standards forum for technical development of the Web, and the Web Foundation whose mission is that the World Wide Web serves Humanity. He co-founded and is President of the Open Data Institute in London. Tim is a Professor at the Massachusetts Institute of Technology (MIT) in the Computer Science and AI Lab ("CSAIL”) where his research group works to re-decentralize the web. In April 2017, Sir Tim was awarded the Turing Prize which is considered the "Nobel Prize of Computing”. Tim is a long time defender of Net Neutrality and the openness of the web.
-https://github.com/timbl/
-https://www.w3.org/People/Berners-Lee/card#i
-
-## Sarven Capadisli
-**Editor** 
-Sarven worked on the MIT academic Solid project (expand on details?). He contributes to the advancement of open Web platform specifications and the development of social decentralised applications. He is active as an information architect and scientist in linked research communication. (mention PhD work?) 
-https://github.com/csarven
-http://csarven.ca/#i
-
-## Ruben Verborgh 
-**Editor**
-Ruben worked on the MIT academic Solid project (expand on details?). He is now a professor of Semantic Web technology at Ghent University – imec (include some details about the Solid academic work?) 
-https://github.com/RubenVerborgh
-https://ruben.verborgh.org/profile/#me
-
-## Justin Bingham
-**Editor** 
-Justin is co-founder of Janeiro Digital who is working on implementing Solid (expand on details of JD and Solid relevant work?)
-https://github.com/justinwb
-https://justin.inrupt.net/profile/card#me
-
-## Dmitri Zagidulin
-**Editor** 
-Dmitri worked on the MIT academic Solid project (expand on details?). He now works for (include details?) and is an active member of (include details?) 
-https://github.com/dmitrizagidulin 
-(include WebID)
-
-## Kjetil Kjernsmo
-**Editor** 
-Kjetil works for inrupt and focuses on the Solid test suite development. He has a Ph.D. in  Informatics from the University of Oslo in Norway (expand on subject matter?). He has 20 years of experience with social and semantic web technology.
-https://github.com/kjetilk
-https://solid.kjernsmo.net/profile/card#me
-
-# Panellists
-
-(include the panellists)
 
 # <a id="conduct"/>Code of Conduct
 
