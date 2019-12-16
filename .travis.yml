@@ -4,6 +4,7 @@ rvm:
 
 script:
   - bundle exec jekyll build
+  - bundle exec htmlproofer --log-level debug -t _site
 
 before_deploy:
   - pushd _site
