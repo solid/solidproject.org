@@ -8,8 +8,7 @@ script:
       --assume_extension --root-folder _site
       --allow_hash_href
       --typhoeus_config '{"timeout":60}'
-      --url-ignore /capitacustomermanagement.co.uk/,/gitlab.com/,/hackmd.io/,/hal.archives-ouvertes.fr/,/ietf.org/,/lecho.be/,/media.ccc.de/,/persistence.uni-leipzig.org/,/phys.org,/purl.org/,/underscore.vc/,/vincenttunru.com/,/w3id.org/,/www.linkedin.com/,/www.npmjs.com/,/www.pilod.nl/
-      --http-status-ignore '410,429,503'
+      --http-status-ignore '0,301,302,403,410,429,503,999'
       _site
 
 before_deploy:
