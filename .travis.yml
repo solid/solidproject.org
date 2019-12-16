@@ -2,6 +2,9 @@ language: ruby
 rvm:
   - 2.6
 
+before_install:
+  - nvm install stable
+
 script:
   - bundle exec jekyll build
   - bundle exec htmlproofer
@@ -10,6 +13,7 @@ script:
       --typhoeus_config '{"timeout":60}'
       --http-status-ignore '0,301,302,403,410,429,500,501,502,503,999'
       _site
+  - npx yaspeller-ci --dictionary dictionary.json **/*.md _site
 
 before_deploy:
   - pushd _site
