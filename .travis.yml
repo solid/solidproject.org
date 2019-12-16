@@ -1,0 +1,18 @@
+language: node_js
+
+install:
+
+script:
+  - rm CNAME
+
+deploy:
+  # Publish the staging branch to solid.github.io
+  - provider: pages
+    on:
+      branch: staging
+    repo: solid/solid.github.io
+    target_branch: master
+    skip_cleanup: true
+    keep_history: true
+    allow_empty_commit: true
+    github_token: $GITHUB_TOKEN
