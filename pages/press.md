@@ -52,7 +52,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 2019-07-01 [Berkman Klein](https://cyber.harvard.edu/) by Mitzi László & Justin Bingham
 
-2019-06-25 [Postgress](https://postgresvision.com/agenda/) by Tim Berners-Less: [video](https://www.youtube.com/watch?v=Ao9bmFFoAB4)
+2019-06-25 Postgress by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=Ao9bmFFoAB4)
 
 2019-06-19 [Linked Data in Architecture and Construction Week](http://linkedbuildingdata.net/ldac2019/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/LDAC-2019/)
 
@@ -102,8 +102,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 2018-08-23 [ePIC](https://epic.openrecognition.org) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/ePIC-2018/)
 
-2018-08-02 [Decentralized Web Summit](https://solidproject.org/dweb-summit-2018/) USA
-2018-08-02 [Decentralized Web Summit](https://solidproject.org/dweb-summit-2018/) by Ruben Verborge: [video](https://www.decentralizedweb.net/videos/talk-solid-empowering-people-through-choice/) & [slides](https://solid.github.io/dweb-summit-2018/)
+2018-08-02 [Decentralized Web Summit](https://decentralizedwebsummit2018.sched.com/) by Ruben Verborgh: [video](https://www.decentralizedweb.net/videos/talk-solid-empowering-people-through-choice/) & [slides](https://decentralizedwebsummit2018.sched.com/)
 
 2018-06-05 [International Conference of the European Library Automation Group (ELAG)](https://www.elag2018.org) by Ruben Verborgh: [slides](http://slides.verborgh.org/ELAG-2018/) 
 
@@ -324,10 +323,6 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-03-25 [Tech Cabal: At 30, the Web is Attempting to Find its Way Back Home  ](https://techcabal.com/2019/03/25/at-30-the-web-is-attempting-to-find-its-way-back-home/)
 
-2019-03-23 [Forbes: Sir Tim Berners-Lee At Forefront Of New Movement To Takeback Ownership Of Our Data](https://www.forbes.com/sites/maciejduraj/2019/03/23/sir-tim-berners-lee-at-forefront-of-new-movement-to-takeback-ownership-of-our-data/#4b5cc72434e1)
-
-https://www.corriere.it/economia/leconomia/economia-circolare-mobilita-sostenibile-smart-city/notizie/inrupt-seconda-vita-dell-uomo-che-ha-inventato-web-che-ora-vuole-salvarci-4e599c60-4e18-11e9-8f3f-b71cad3f7934.shtml
-
 2019-03-22 [Medium: The Academics of Investing in AI ](https://medium.com/glasswingvc/the-academics-of-investing-in-ai-8259c62a370b)
 
 2019-03-22 [Little Black Book: Gain Back Your Privacy with a Decentralised Internet](https://lbbonline.com/news/gain-back-your-privacy-with-a-decentralised-internet/)
@@ -403,8 +398,6 @@ https://www.corriere.it/economia/leconomia/economia-circolare-mobilita-sostenibi
 2019-02-14 [Washington Post: Washington Post Live hosts exclusive interview with Tim Berners-Lee](https://www.washingtonpost.com/pr/2019/02/14/washington-post-live-hosts-exclusive-interview-with-tim-berners-lee/)
 
 2019-02-15 [Mac Observer: Sir Tim Berners-Lee Wants to Fix the Web with New Startup](https://www.macobserver.com/link/tim-berners-lee-inrupt/)
-
-2019-02-19 [Make Money with Google: Tomorrow's Data Heroes](https://make-money-with-googlee.blogspot.com/2019/02/tomorrows-data-heroes-strategybusiness.html)
 
 2019-02-19 [News Broadcast Network: Highlights & transcript from Zuckerberg’s 20K-word ethics talk](https://newsbroadcastnetwork.com/highlights-transcript-from-zuckerbergs-20k-word-ethics-talk-techcrunch/)
 

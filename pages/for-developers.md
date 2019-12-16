@@ -16,7 +16,7 @@ permalink: /for-developers
         <div class="card-header">
           <img
             src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/code.svg"
-            alt=""
+            alt="[]"
             class="icon"
           />
           <span class="card-title">Build Solid web apps</span>
@@ -33,7 +33,7 @@ permalink: /for-developers
         <div class="card-header">
           <img
             src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/pallet.svg"
-            alt=""
+            alt="[]"
             class="icon"
           />
           <span class="card-title">Host Solid pods</span>

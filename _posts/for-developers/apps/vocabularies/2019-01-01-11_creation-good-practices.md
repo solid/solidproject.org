@@ -15,7 +15,7 @@ Writing a vocabulary is good, writing a good vocabulary is better. To make it ea
 
 Basically, a vocabulary is code. And what should you always do when you write code ? That's right, write documentation !
 
-### "Intrinsinc" documentation
+### "Intrinsic" documentation
 
 #### At the term granularity
 

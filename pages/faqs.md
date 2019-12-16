@@ -36,7 +36,7 @@ A Pod is where data is stored on the Web with Solid. ([see quote](http://www.you
 
 ## What is a WebID? 
 
-**A WebID is a unique identifier** used to identify a specific user. An example of what a WebID could look like is: https://fulano.pod.provider/profile/card#me. To share data with a third party, a user associates sharing preferences to the WebID of that third party. Don't worry though: [it's not just one more login to remember](#passwords). 
+**A WebID is a unique identifier** used to identify a specific user. An example of what a WebID could look like is: https://fulano.pod.provider/profile/card#me. To share data with a third party, a user associates sharing preferences to the WebID of that third party. Don't worry though: [it's not just one more login to remember](#fewer_passwords). 
 <details>
 <summary><a>More details...</a></summary>
 A WebID is an <a href="https://tools.ietf.org/html/rfc3987">Internationalised Resource Identifier (IRI)</a> that can be dereferenced as a <a href="http://xmlns.com/foaf/spec/">FOAF</a> profile document serialized in <a href="https://www.w3.org/RDF/">RDF</a> <a href="https://dvcs.w3.org/hg/WebID/raw-file/tip/spec/identity-respec.html">(source)</a>. In Solid, WebIDs are used to identify Agents i.e. people and organisations as well as to manage their access rights though <a href="https://solid.github.io/specification/wac/">Web Access Control</a>. 

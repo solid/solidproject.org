@@ -4,8 +4,6 @@ title: Solid Logo Usage Guidelines
 permalink: logo-usage-guidelines
 ---
 
-[![](https://img.shields.io/badge/project-Solid-7C4DFF.svg?style=flat-square)](https://github.com/solid/solid)
-
 # Introduction
 
 These guidelines are to help you when representing the Solid brand in apps, communications, content, events, projects or assets. They incorporate guidance for visual elements such as logos, colours, typography, iconography and graphic devices. There is also guidance for writing such as tone and format. These guidelines are intended for digital application. For more specific print guidelines please contact [Mitzi László](https://github.com/Mitzi-Laszlo) for further guidance.

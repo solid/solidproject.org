@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another issue of This Week in Solid!
 
-[Solid](https://solidproject.org/information/) is a specification for building apps with separate data storage. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on [submitting a pull request](https://github.com/solid/roadmap/blob/master/what-is-solid.md) with proposals. 
+[Solid](https://solidproject.org/) is a specification for building apps with separate data storage. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on [submitting a pull request](https://github.com/solid/roadmap/blob/master/what-is-solid.md) with proposals. 
 
 This is a weekly summary of its progress and community. 
 
@@ -33,7 +33,7 @@ You can read about [how the Solid open source process works](https://github.com/
 There is a conversation about the prefered repository for specification proposals and what to do with other repositories to minimise confusion [here](https://github.com/solid/process/issues/100). 
 
 ### Panel Conversation to Generate Proposals 
-Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/culture/blob/master/panels.md).
+Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/process/blob/master/panels.md).
 
 Here is an overview of active panel conversations this week. 
 
@@ -58,7 +58,7 @@ This week there were no conversations about the Solid roadmap.
 This week there were no conversations about the supporting documentation. 
 
 ### Panel Proposals for Editorial Review 
-Anyone may propose improvements by submitting proposals for the Solid Specification, Solid Roadmap, or Supporting Documentation. Submitted proposals are reviewed through an [editorial process](https://github.com/solid/culture#reviewing-proposals) before they are accepted.
+Anyone may propose improvements by submitting proposals for the Solid Specification, Solid Roadmap, or Supporting Documentation. Submitted proposals are reviewed through an [editorial process](https://github.com/solid/process#reviewing-proposals) before they are accepted.
 
 Below are a list of proposals that are ready for editorial review. If you are part of a panel and want to add a proposal for editorial review submit a pull request to add them to the list below. 
 
@@ -68,7 +68,7 @@ Below are a list of proposals that are ready for editorial review. If you are pa
 | [Add CORS section](https://github.com/solid/specification/pull/13) | [Specification Entry Document Panel](https://github.com/solid/process/blob/master/panels.md#specification-entry-document-panel) | [Specification](https://github.com/solid/specification) |  
 
 ### Reviewed Solid Proposals
-Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/culture#how-to-make-changes). 
+Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/process#how-to-make-changes). 
 
 ### [Node Solid Server Project](https://github.com/orgs/solid/projects/2) 
 * [GET on ANY container with an index.html returns HTML, not Turtle](https://github.com/solid/node-solid-server/issues/1264#issuecomment-519263331)

@@ -13,7 +13,7 @@ NeOn is a reference method for building __ontology networks__, that is to say in
 
 #### Requirements specification
 
-Requirements for a vocabulary include its purpose and scope (what is the covered domain), the target and intended use (who will typically use this vocabulary, and in what kind of applications), and finally a set of __competency questions__. Competency questions are basically requirements expressed as questions that you should be able to answer using your vocabulary. Try to find questions covering the complete scope of your vocabulary. If the scope is wide, you might also want to group questions in order to help [modularizing](#modularization). In order to help you build the vocabulary, you can provide a "typical answer" to each question.
+Requirements for a vocabulary include its purpose and scope (what is the covered domain), the target and intended use (who will typically use this vocabulary, and in what kind of applications), and finally a set of __competency questions__. Competency questions are basically requirements expressed as questions that you should be able to answer using your vocabulary. Try to find questions covering the complete scope of your vocabulary. If the scope is wide, you might also want to group questions in order to help modularizing. In order to help you build the vocabulary, you can provide a "typical answer" to each question.
 
 You should end up with a set of requirements that covers your complete scope, that is consistent (no contradiction), that is non-ambiguous, and that is understandable (try having someone else read your questions/answers, and see if it makes sense to them).
 
@@ -47,11 +47,11 @@ For instance, we could say that, based on the competency questions of our webcom
     - Webcomics: XKCD, Sinfest, Dilbert...
     - Topics: Nationality, Romance, Technology...
 
-At this point, your vocabulary is basically a graph, with bubbles connected by arrows. Keep this schema somewhere, it's a nice touch to the [documentation](#documentation).
+At this point, your vocabulary is basically a graph, with bubbles connected by arrows. Keep this schema somewhere, it's a nice touch to the documentation.
 
-![The webcomic vocabulary]({{site.baseurl}}/assets/img/tutorials/vocabularies/webcomic_vocab.svg)
+![The webcomic vocabulary]({{site.baseurl}}/assets/img/tutorials/vocabularies/webcomic-vocab.svg)
 
-#### Ontology implemenation
+#### Ontology implementation
 
 At some point, you will be happy with your vocabulary as a drawing, but in this form it cannot be used by applications. To this end, it must be __implemented into RDF__. To do so, you can use [Protégé](https://protege.stanford.edu/), a tool that will help you implement your vocabulary through a GUI, without having to write the RDF directly.
 

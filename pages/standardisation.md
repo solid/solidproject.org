@@ -41,7 +41,7 @@ Panels may request to have a Gitter channel created within the [Solid Gitter Org
 
 ## Stakeholders
 
-Stakeholders are those affected by normative changes to the [Solid Specification](https://github.com/solid/specification). There are two types of Stakeholders; [Solid Users](#solid-users) and [Solid Implementers](#solid-implementers). It is important to consider them both when proposing changes, and adhering to the W3C [priority of constituencies](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies) is encouraged. A Stakeholder may be both a user and an implementer.
+Stakeholders are those affected by normative changes to the [Solid Specification](https://github.com/solid/specification). There are two types of Stakeholders; [Solid Users](#solid-users) and [Solid Implementers](#implementers). It is important to consider them both when proposing changes, and adhering to the W3C [priority of constituencies](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies) is encouraged. A Stakeholder may be both a user and an implementer.
 
 Stakeholders who have opted to identify themselves publicly are listed at [stakeholders.md](https://github.com/solid/process/blob/master/stakeholders.md). Anyone may decide to identify themselves publicly as a Solid Stakeholder, but it is not mandatory. Identified stakeholders may be consulted for feedback as part of the editorial process.
 
@@ -100,7 +100,7 @@ Editors belong to the [Editorial Team](https://github.com/orgs/solid/teams/edito
 
 Repositories requiring editorial review are listed in [there](https://github.com/orgs/solid/teams/editors#editorial-assignments). Each repository has one or more assigned editors, and only assigned editors are permitted to merge into the master branch of these repositories, per the [proposal review process](#reviewing-proposals).
 
-Editors have [_Admin Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the repositories they are assigned to, and are permitted to grant [_Write Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to other contributing authors on the same. All members of the Editorial Team have [_Write Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on all repositories requiring editorial review listed in [editors.md](https://github.com/solid/process/blob/master/editors.mdeditors.md).
+Editors have [_Admin Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on the repositories they are assigned to, and are permitted to grant [_Write Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to other contributing authors on the same. All members of the Editorial Team have [_Write Permissions_](https://help.github.com/en/articles/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) on all repositories requiring editorial review listed in [editors.md](https://github.com/solid/process/blob/master/editors.md).
 
 # <a id="conduct"/>Code of Conduct
 
@@ -137,7 +137,7 @@ Best practices for the Solid Community include:
 
 ## Reporting a Code of Conduct Concern
 To report a code of conduct concern you may:
-- [Submit an issue](https://github.com/solid/culture/issues/new) to the solid/culture GitHub repository
+- [Submit an issue](https://github.com/solid/process/issues/new) to the solid/process GitHub repository
 - Contact the Solid Manager via Gitter
 - Email [manager@solidproject.org](mailto:manager@solidproject.org)
 - Write to the [solid/chat](https://gitter.im/solid/chat) room on Gitter with your concern

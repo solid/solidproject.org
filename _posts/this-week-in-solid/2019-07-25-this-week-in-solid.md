@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another issue of This Week in Solid!
 
-[Solid](https://solidproject.org/information/) is a voluntary global technical specification for building interoperable software. This is a weekly summary of its progress and community. Want something mentioned? Contact the Solid Manager at info@solidproject.org or [send us a pull request](https://github.com/solid/information/edit/master/weekly-updates/next.md). Want to get involved? [We love contributions](https://github.com/solid/information#develop).
+[Solid](https://solidproject.org/) is a voluntary global technical specification for building interoperable software. This is a weekly summary of its progress and community. Want something mentioned? Contact the Solid Manager at info@solidproject.org or [send us a pull request](https://github.com/solid/information/edit/master/weekly-updates/next.md). Want to get involved? [We love contributions](https://github.com/solid/information#develop).
 
 This Week in Solid is openly developed [on GitHub](https://github.com/solid/information/edit/master/weekly-updates/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
 
@@ -35,12 +35,12 @@ Specification
 * [Remove globbing](https://github.com/solid/solid-spec/pull/151#pullrequestreview-266210495)
 
 Culture 
-* [Make definition of substantive changes more specific](https://github.com/solid/culture/pull/82)
-* [Add areas of focus to editors.md](https://github.com/solid/culture/pull/81)
-* [Detail Solid GitHub permissions associated to roles](https://github.com/solid/culture/pull/78)
-* [Update code-of-conduct.md](https://github.com/solid/culture/pull/80)
+* [Make definition of substantive changes more specific](https://github.com/solid/process/pull/82)
+* [Add areas of focus to editors.md](https://github.com/solid/process/pull/81)
+* [Detail Solid GitHub permissions associated to roles](https://github.com/solid/process/pull/78)
+* [Update code-of-conduct.md](https://github.com/solid/process/pull/80)
 * [Update solid-vision-mission-values.md](https://github.com/solid/information/pull/202)
-* [Applications to roles and process proposals](https://github.com/solid/culture/pulls) 
+* [Applications to roles and process proposals](https://github.com/solid/process/pulls) 
 
 Website
 * [URL Links & Button updates](https://github.com/solid/solidproject.org/pull/2)
@@ -57,7 +57,7 @@ Node Solid Server Project
 * [dev branch](https://github.com/solid/node-solid-server/pull/1277)
 
 ### Reviewed Solid Proposals
-Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/culture#how-to-make-changes). This week the roles are still being reviewed so 
+Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/process#how-to-make-changes). This week the roles are still being reviewed so 
 
 ### New and Updated Apps, Pods, and Identity Providers
 If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) make sure to add them to the list so they get included in next weeks edition.

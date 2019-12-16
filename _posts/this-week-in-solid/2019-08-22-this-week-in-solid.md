@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another issue of This Week in Solid!
 
-[Solid](https://solidproject.org/information/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
+[Solid](https://solidproject.org/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
 
 If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel). 
 
@@ -65,7 +65,7 @@ Conversation about process changes with activity this week:
 * [Add editor assignments, permission scheme, and substantive changes](https://github.com/solid/process/pull/95)
 
 ### Panel Conversation to Generate Proposals 
-Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/culture/blob/master/panels.md).
+Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/process/blob/master/panels.md).
 
 New panels: 
 * [humans and machines panel](https://github.com/solid/process/pull/111) by @sideshowtom
@@ -101,7 +101,7 @@ Conversations with an unknown panel:
 * [v2.3.1](https://github.com/solid/solid-auth-client/releases/tag/v2.3.1)
 
 ### Panel Proposals for Editorial Review 
-Anyone may propose improvements by submitting proposals for the Solid Specification, Solid Roadmap, or Supporting Documentation. Submitted proposals are reviewed through an [editorial process](https://github.com/solid/culture#reviewing-proposals) before they are accepted.
+Anyone may propose improvements by submitting proposals for the Solid Specification, Solid Roadmap, or Supporting Documentation. Submitted proposals are reviewed through an [editorial process](https://github.com/solid/process#reviewing-proposals) before they are accepted.
 
 Below are a list of proposals that are ready for editorial review. If you are part of a panel and want to add a proposal for editorial review submit a pull request to add them to the list below. 
 
@@ -121,7 +121,7 @@ Proposals in specification repositories with unknown panel:
 * [Specify kind of actors and class of interactions](https://github.com/solid/specification/issues/36)
 
 ### Reviewed Solid Proposals
-Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/culture#how-to-make-changes). 
+Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/process#how-to-make-changes). 
 
 ## Updates on Solid Projects
 [Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panesl. Below are the links to where there were active conversations on each of the projects. 
@@ -173,9 +173,6 @@ Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Doc
 * [Generate GH-pages HTML files again (alternative approach)](https://github.com/solid/mashlib/pull/62) 
 * [Generate GH-pages HTML files again](https://github.com/solid/mashlib/pull/61)
 * [Add trashcan and file upload buttons next to camera button](https://github.com/solid/contacts-pane/pull/3)
-
-## Tasks
-If you are keen to get started but are not sure where, check out the [list of tasks](https://github.com/solid/information/blob/master/tasks.md). If you need help on something specific or know of something that would be useful to do make sure it's listed by [submitting a pull request](https://github.com/solid/information/blob/master/tasks.md)
 
 Until next week!
 

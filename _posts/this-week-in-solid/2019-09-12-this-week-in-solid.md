@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another issue of This Week in Solid!
 
-[Solid](https://solidproject.org/information/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel).
+[Solid](https://solidproject.org/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel).
 
 This is a weekly summary of Solid progress.
 
@@ -81,9 +81,6 @@ An exception to this rule is that if a given resource is about a very specific t
 If the Solid server that hosts your Pod is using a version of the data browser that includes this feature _(note: solid.community and inrupt.net will upgrade to this as soon as we've fixed some bugs, probably by early October, 2019)_, you may notice that some views disappear. To access these views, you will have to set user roles for yourself. You can do this through Preferences, which you can access through your Dashboard (which is globally available through your user menu, or on the root of your Pod).
 
 To get a complete list of views and which ones that are connected to the various user roles, please refer to [this document that describes the current state of the data browser (work in progress)](https://megoth.inrupt.net/public/SolidDataBrowser//current.html#conceptual-model-of-panes-in-the-current-data-browser).
-
-## Tasks
-If you are keen to get started but are not sure where, check out the [list of tasks](https://github.com/solid/information/blob/master/tasks.md). If you need help on something specific or know of something that would be useful to do make sure it's listed by [submitting a pull request](https://github.com/solid/information/blob/master/tasks.md)
 
 Until next week!
 

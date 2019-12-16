@@ -4,7 +4,7 @@ title: Use Solid Apps
 permalink: /use-solid/apps
 ---
 
-Please be aware that this page is still a work in progress. You wrote a Solid-compatible app that's not listed? Feel free to [add it to this list](https://github.com/solid/solid.github.io/edit/master/pages/use-solid/apps.md).
+Please be aware that this page is still a work in progress. You wrote a Solid-compatible app that's not listed? Feel free to [add it to this list](https://github.com/solid/solidproject.org/edit/staging/pages/use-solid/apps.md).
 
 # Solid Apps
 
@@ -73,7 +73,7 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 * [WebID Profile editor](https://linkeddata.github.io/profile-editor/) [Source code](https://github.com/linkeddata/profile-editor) [MIT License Copyright (c) 2015](https://github.com/linkeddata/profile-editor/blob/master/LICENSE)[Andrei Sambra](https://github.com/deiu)
 * [Hello World](https://melvincarvalho.github.io/helloworld/) [Source code](https://github.com/melvincarvalho/helloworld) [MIT License Copyright (c) 2015](https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) 
 * [Plume](https://thewebalyst.solid.community/plume/) blogging platform. [Source code](https://github.com/theWebalyst/solid-plume/) [MIT License Copyright (c) 2015](https://github.com/theWebalyst/solid-plume/blob/gh-pages/LICENSE) [Andrei Sambra](https://github.com/deiu)
-* [Inbox](https://solidproject.org/solid-inbox/) processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu)
+* [Inbox](https://github.com/solid/solid-inbox) processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu)
 * [Contacts](https://github.com/linkeddata/contacts) mobile friendly vCard contact management. [Source code]() [MIT License Copyright (c) 2015](https://github.com/linkeddata/contacts/blob/master/LICENSE) [Andrei Sambra](https://github.com/deiu)
 * [Warp](https://linkeddata.github.io/warp/) file browser. [Source code](https://github.com/linkeddata/warp) MIT License Copyright (c) 2014](https://github.com/linkeddata/warp/blob/gh-pages/LICENSE) [Andrei Samba](https://github.com/deiu)
 * [A-PHEVOS](https://phevos.tk) (derived from Photo, Event, Organise and Share) is an alpha version of a Pod manager created by WEBIND

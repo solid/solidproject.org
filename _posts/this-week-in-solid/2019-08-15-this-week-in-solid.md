@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another issue of This Week in Solid!
 
-[Solid](https://solidproject.org/information/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
+[Solid](https://solidproject.org/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
 
 If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel). 
 
@@ -61,7 +61,7 @@ Anyone can apply to be an editor by [submitting a pull request](https://github.c
 * [Kjetil Kjernsmo](https://github.com/solid/process/pull/94)
 
 ### Panel Conversation to Generate Proposals 
-Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/culture/blob/master/panels.md).
+Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/process/blob/master/panels.md).
 
 Here is an overview of active panel conversations this week. 
 
@@ -93,7 +93,7 @@ Conversations with an unknown panel:
 * https://github.com/solid/solid-spec/issues/142#issuecomment-521271248
 
 ### Panel Proposals for Editorial Review 
-Anyone may propose improvements by submitting proposals for the Solid Specification, Solid Roadmap, or Supporting Documentation. Submitted proposals are reviewed through an [editorial process](https://github.com/solid/culture#reviewing-proposals) before they are accepted.
+Anyone may propose improvements by submitting proposals for the Solid Specification, Solid Roadmap, or Supporting Documentation. Submitted proposals are reviewed through an [editorial process](https://github.com/solid/process#reviewing-proposals) before they are accepted.
 
 Below are a list of proposals that are ready for editorial review. If you are part of a panel and want to add a proposal for editorial review submit a pull request to add them to the list below. 
 
@@ -105,7 +105,7 @@ Below are a list of proposals that are ready for editorial review. If you are pa
 | [Supporting Documentation](https://github.com/solid/information/tree/master/documentation) | ------------- | ------------- |
 
 ### Reviewed Solid Proposals
-Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/culture#how-to-make-changes). 
+Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals [here](https://github.com/solid/process#how-to-make-changes). 
 
 ## Updates on Solid Projects
 [Solid projects](https://github.com/orgs/solid/projects) are activities happening on the Solid GitHub other than panesl. Below are the links to where there were active conversations on each of the projects. 

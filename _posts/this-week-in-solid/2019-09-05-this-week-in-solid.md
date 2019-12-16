@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another issue of This Week in Solid!
 
-[Solid](https://solidproject.org/information/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel). 
+[Solid](https://solidproject.org/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel). 
 
 This is a weekly summary of Solid progress. 
 
@@ -83,7 +83,7 @@ New editors:
 * [Justin B](https://github.com/solid/process/pull/120)  
 
 #### Panellists
-Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/culture/blob/master/panels.md).
+Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/process/blob/master/panels.md).
 
 * [Justin Richer joined the Authentication Panel](https://github.com/solid/process/pull/133) 
 
@@ -122,10 +122,10 @@ There have been some changes to panels:
 | [Test Suite Panel](https://github.com/solid/process/blob/master/panels.md#test-suite-panel) |[Added inrupt pod sever config](https://github.com/solid/test-suite/pull/43), [inrupt-pod-server Dockerfile is missing config.json ](https://github.com/solid/test-suite/issues/42), [Update some version dependencies](https://github.com/solid/test-suite/pull/39), [More tests with authenticated users and various origins](https://github.com/solid/test-suite/pull/44)|
 
 ### Proposals for Editorial Review 
-Anyone can [draft a proposal](https://github.com/solid/process#drafting-proposals) and submit it for [editorial review](https://github.com/solid/culture#reviewing-proposals). There are no proposal for editorial review this week. 
+Anyone can [draft a proposal](https://github.com/solid/process#drafting-proposals) and submit it for [editorial review](https://github.com/solid/process#reviewing-proposals). There are no proposal for editorial review this week. 
 
 ### Editorial Revision
-Proposals to Solid undergo [editorial review](https://github.com/solid/culture#reviewing-proposals) by the [editors](https://github.com/solid/process/blob/master/editors.md). 
+Proposals to Solid undergo [editorial review](https://github.com/solid/process#reviewing-proposals) by the [editors](https://github.com/solid/process/blob/master/editors.md). 
 
 This week the following proposals were reviewed. 
 
@@ -180,9 +180,6 @@ This week the following proposals were reviewed.
 * [Multiple Green Pluses on Sharing Pane](https://github.com/solid/solid-panes/issues/171)
 * [Fix typo: contets -> contents](https://github.com/solid/solid-ui/pull/117)
 * [How to process transformations on a container](https://github.com/solid/query-ldflex/issues/35) 
-
-## Tasks
-If you are keen to get started but are not sure where, check out the [list of tasks](https://github.com/solid/information/blob/master/tasks.md). If you need help on something specific or know of something that would be useful to do make sure it's listed by [submitting a pull request](https://github.com/solid/information/blob/master/tasks.md)
 
 Until next week!
 

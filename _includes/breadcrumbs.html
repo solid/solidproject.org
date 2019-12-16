@@ -10,7 +10,7 @@
             <li>
                 <a
                     href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb }}{% if forloop.index != crumb_limit %}/{% endif %}{% endfor %}">
-                    {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} ></i>
+                    {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} &gt;
                 </a>
             </li>
             {% endif %}

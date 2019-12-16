@@ -14,7 +14,7 @@ permalink: /
         <!-- What Is Solid?<br/> -->
         <img
           src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/angle-double-down.svg"
-          alt=""
+          alt="[]"
           class="chevron"
         />
       </a>
@@ -25,7 +25,7 @@ permalink: /
     <span id="what-is-solid"></span>
     <div class="img-info-banner row around">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
-        <img src="{{site.baseurl}}/assets/img/like-peas-in-a-pod.svg" alt="" />
+        <img src="{{site.baseurl}}/assets/img/like-peas-in-a-pod.svg" alt="[]" />
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
@@ -38,7 +38,7 @@ permalink: /
     </div>
     <div class="img-info-banner row around reverse">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
-        <img src="{{site.baseurl}}/assets/img/single-sign-on.svg" alt="" />
+        <img src="{{site.baseurl}}/assets/img/single-sign-on.svg" alt="[]" />
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
@@ -51,7 +51,7 @@ permalink: /
     </div>
     <div class="img-info-banner row around">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
-        <img src="{{site.baseurl}}/assets/img/solid-is-a-standard.svg" alt="" />
+        <img src="{{site.baseurl}}/assets/img/solid-is-a-standard.svg" alt="[]" />
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">

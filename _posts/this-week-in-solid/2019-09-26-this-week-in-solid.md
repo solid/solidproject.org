@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another edition of *This Week in Solid*!
 
-[Solid](https://solidproject.org/information/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel).
+[Solid](https://solidproject.org/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel).
 
 This is a weekly summary of Solid progress.
 
@@ -64,9 +64,6 @@ No updates.
 
 ### [Data Browser Project](https://github.com/orgs/solid/projects/4)
 Work is ongoing on a number of small tweaks to the Data Browser. The new version can currently be tested [here](https://dev.inrupt.net/).
-
-## Tasks
-If you are keen to get started but are not sure where, check out the [list of tasks](https://github.com/solid/information/blob/master/tasks.md). If you need help on something specific or know of something that would be useful to do make sure it's listed by [submitting a pull request](https://github.com/solid/information/blob/master/tasks.md)
 
 Until next week!
 

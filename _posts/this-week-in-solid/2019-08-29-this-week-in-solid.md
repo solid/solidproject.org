@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another issue of This Week in Solid!
 
-[Solid](https://solidproject.org/information/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel). 
+[Solid](https://solidproject.org/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel). 
 
 This is a weekly summary of Solid progress. 
 
@@ -79,7 +79,7 @@ There are some open editor applications from:
 * [Sarven Capadisli](https://github.com/solid/process/pull/121)
 
 #### Panellists
-Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/culture/blob/master/panels.md).
+Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by [submitting a pull request](https://github.com/solid/process/blob/master/panels.md).
 
 This week the [Notification Panel](https://github.com/solid/process/pull/116#event-2579196928) was started and the [Humans and Machines Panel](https://github.com/solid/process/pull/122) was closed. 
 
@@ -112,7 +112,7 @@ Here is an overview of active panel conversations to work on generating proposal
 | [Test Suite Panel](https://github.com/solid/process/blob/master/panels.md#test-suite-panel) | activity on the following pull requests and issues: [Authenticated tests](https://github.com/solid/test-suite/pull/38), [Public IDP for testing that just goes "OK"](https://github.com/solid/test-suite/issues/36), [Initial Pod Content for Tests](https://github.com/solid/test-suite/issues/40), [Replace example.org URIs with something dereferenceable](https://github.com/solid/test-suite/issues/41), [inrupt-pod-server Dockerfile is missing config.json](https://github.com/solid/test-suite/issues/42). See [gitter chat channel](https://gitter.im/solid/test-suite) for more activity. |
 
 ### Proposals for Editorial Review 
-Anyone can [draft a proposal](https://github.com/solid/process#drafting-proposals) and submit it for [editorial review](https://github.com/solid/culture#reviewing-proposals).
+Anyone can [draft a proposal](https://github.com/solid/process#drafting-proposals) and submit it for [editorial review](https://github.com/solid/process#reviewing-proposals).
 
 Below are a list of proposals that are ready for editorial review. If you are part of a panel and want to add a proposal for editorial review submit a pull request to add them to the list below. 
 
@@ -123,7 +123,7 @@ Below are a list of proposals that are ready for editorial review. If you are pa
 | [Supporting Documentation](https://github.com/solid/information/tree/master/documentation) | none | not applicable |
 
 ### Editorial Revision
-Proposals to Solid undergo [editorial review](https://github.com/solid/culture#reviewing-proposals) by the [editors](https://github.com/solid/process/blob/master/editors.md). 
+Proposals to Solid undergo [editorial review](https://github.com/solid/process#reviewing-proposals) by the [editors](https://github.com/solid/process/blob/master/editors.md). 
 
 This week the following proposals were reviewed. 
 
@@ -211,9 +211,6 @@ This week there was activity in the following channels:
 * [Added methods to filter panes based on user roles (Developer/PowerUser)](https://github.com/solid/solid-ui/pull/112) 
 * [The rounded corners on the tabs.js tabs are rather wide](https://github.com/solid/solid-ui/issues/113) 
 * [Separating dashboard and outline](https://github.com/solid/solid-panes/pull/166) 
-
-## Tasks
-If you are keen to get started but are not sure where, check out the [list of tasks](https://github.com/solid/information/blob/master/tasks.md). If you need help on something specific or know of something that would be useful to do make sure it's listed by [submitting a pull request](https://github.com/solid/information/blob/master/tasks.md)
 
 Until next week!
 

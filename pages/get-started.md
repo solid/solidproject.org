@@ -10,7 +10,7 @@ permalink: /get-started
       <div class="card-header">
         <img
           src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/boxes.svg"
-          alt=""
+          alt="[]"
           class="icon"
         />
         <span class="card-title">I want to use Solid</span>
@@ -27,7 +27,7 @@ permalink: /get-started
       <div class="card-header">
         <img
           src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/code.svg"
-          alt=""
+          alt="[]"
           class="icon"
         />
         <span class="card-title">I'm a developer</span>
@@ -44,7 +44,7 @@ permalink: /get-started
       <div class="card-header">
         <img
           src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/building.svg"
-          alt=""
+          alt="[]"
           class="icon"
         />
         <span class="card-title">I represent an organisation or company</span>
