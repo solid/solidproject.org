@@ -1,15 +1,22 @@
-language: node_js
-
-install:
+language: ruby
+rvm:
+  - 2.6
 
 script:
+  - bundle exec jekyll build
+
+before_deploy:
+  - pushd _site
   - rm CNAME
+  - touch .nojekyll
+  - popd
 
 deploy:
   # Publish the staging branch to solid.github.io
   - provider: pages
     on:
       branch: staging
+    local_dir: _site
     repo: solid/solid.github.io
     target_branch: master
     skip_cleanup: true
