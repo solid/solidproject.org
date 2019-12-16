@@ -52,6 +52,8 @@ At the start of the year Solid was being worked on in several different resposit
 
 ### Implementations 
 
+* Solid team employed at Empathy: At Empathy.co we envision an e-commerce search based on the Solid ecosystem following its specification & principles. Where user rights and data ownership prevails. We envision an e-commerce search based on data stored in Pods where relevant results could depend on context data stored by the user & privacy relies on it. We think that if we want to see this succeeding, the Pod management needs to be a Pod experience. Something that the user sees as a projection of themselves, something they love to feel endorsed by & they want to see it as a part of the 'I'. That's why we are working on the UX/UI Pod experience"
+
 ## Wishlist for 2020 
 Here's a little list of things that people have mentioned they would love to see happen in 2020: 
 * Consistent coherent description of what Solid is 
