@@ -134,4 +134,8 @@ ___
 
 **Solid** and **Pod** should always be always be capitalised and never written in all-caps.
 
-General writing should always be sentence case and avoid all non-standard capitalisation.
+**WebID** is semi-capitalised. 
+
+General writing should always be sentence case and avoid all non-standard capitalisation. For example, 'internet' and 'web' are decapitalised . 
+
+British spelling, the serial comma, and the generic 'they' is used to specify a person of unknown gender on the website copy and mailing list. 

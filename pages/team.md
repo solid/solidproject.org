@@ -26,7 +26,7 @@ Ruben Verborgh is a professor of Decentralized Web technology at IDLab, Ghent Un
 
 ## Justin Bingham
 **Solid Editor** 
-Justin is co-founder of Janeiro Digital who is working on implementing Solid. 
+Justin is the Chief Technology Officer of Janeiro Digital, where he and his team apply Solid to solve large-scale problems across the world. He is closely involved in the evolution of the Solid ecosystem, including data interoperability patterns, secure data boundaries, developer tooling, and frictionless end user experience.
 
 ## Dmitri Zagidulin
 **Solid Editor** 
@@ -42,7 +42,7 @@ Vincent is a front-end engineer for inrupt trying to make sure software has a po
 
 ## Nicolas Seydoux 
 **Creator** 
-Nicolas is a developer at Inrupt. He joined the company after his PhD on the Semantic Web of Things, mixing semantic web and IoT. In this domain, he contributed to FOSS software and to an industrial standard ackowledging the importance of semantic interoperability. He also worked on decentralized reasoning and open data platforms.
+Nicolas is a developer at Inrupt. He joined the company after his PhD on the Semantic Web of Things, mixing semantic web and IoT. In this domain, he contributed to FOSS software and to an industrial standard acknowledging the importance of semantic interoperability. He also worked on decentralized reasoning and open data platforms.
 
 ## Dan Wilkinson 
 **Creator** 

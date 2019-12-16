@@ -39,10 +39,16 @@
     }
 
     .subtitle {
-      font-size: 1.5rem;
-      letter-spacing: 0.08px;
-      line-height: 24px;
-      padding: 1em 0 2em 0;
+      font-size: 3rem;
+      line-height: 1.5;
+      margin: 0 3rem;
+      padding: 1em 0 1em 0;
+      text-align: center;
+      text-shadow: 1px 1px 1px #666;
+
+      @media (max-width: 800px) {
+        font-size: 2rem;
+      }
     }
 
     .learn-btn {
@@ -76,8 +82,13 @@
     text-align: center;
     color: $text-color;
     font-size: 2rem;
+    
   }
+  .intro-subheading {
+    font-size: 1.5rem;
+    text-align: center;
   }
+}
 
 .img-info-banner {
   padding: 1.5em 1em;
@@ -85,6 +96,7 @@
   .image {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .info-card {
     padding: 2em 1em;

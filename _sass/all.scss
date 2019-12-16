@@ -3,6 +3,13 @@
 :root {
   scroll-behavior: smooth;
 }
+.staging-warning {
+  background: #fffaec;
+  border-bottom: 5px solid #ffd03e;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  line-height: 2;
+}
 
 .cards {
   width: 100%;
@@ -43,10 +50,10 @@
 
       & > span.card-title {
         color: $text-color;
-        font-size: 0.8em;
+        font-size: 1rem;
         font-weight: bold;
         letter-spacing: 0.07px;
-        line-height: 25px;
+        line-height: 1.5;
         text-align: center;
         text-transform: uppercase;
         margin: 1em;
@@ -71,7 +78,7 @@
       font-family: Lato;
       font-size: 19px;
       letter-spacing: 0.08px;
-      line-height: 23px;
+      line-height: 1.5;
       text-align: center;
       flex: 1 0 auto;
       p {

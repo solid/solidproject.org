@@ -1,0 +1,16 @@
+@import '../all.scss';
+
+.home-pages {
+
+  .intro-heading {
+    margin-top: 1rem;
+    text-align: center;
+    color: $text-color;
+    font-size: 2rem;
+    
+  }
+  .intro-subheading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}

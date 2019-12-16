@@ -46,9 +46,12 @@ body {
     margin-right: 1em;
     display: flex;
     align-items: center;
+    font-size: 1.5rem;
     img {
       max-width: 48px;
+      margin-right: 1rem;
     }
+    color: white;
   }
   .menu {
     display: flex;
