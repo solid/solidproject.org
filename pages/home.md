@@ -56,12 +56,18 @@ permalink: /
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">
           <h3 class="title">
-            Not a company, not a product, just a standard
+            Open specifications built on open standards
           </h3>
           <p class="info">
-          Solid is an <a href="https://solid.github.io/specification/">open standard</a>, meaning that anyone can implement it.
-          It describes how <a href="{{site.baseUrl}}/faqs#pod" title="Frequently Asked Questions - what is a Pod?">Pods</a>, <a href="{{site.baseUrl}}/faqs#webid" title="Frequently Asked Questions - what is a WebID?">WebIDs</a> and apps interact to <a href="{{site.baseUrl}}/faqs#interoperability" title="Frequently Asked Questions - What does 'Interoperability' mean?">interoperate</a>.
-          The Web makes it possible to transfer data conveniently and Solid adds a user-centric access control.
+           Websites, you can browse them on any device
+           and with a browser you choose.
+           Solid gives you that same choice, but for <em>data</em>:
+           you can pick the apps you trust
+           to handle your personal data.
+           To realize such unprecedented interoperability,
+           Solid uses the same recipe as the Web:
+           following <a href="https://solid.github.io/specification/">open standards and specifications</a>.
+           Anyone is welcome to <a href="{{site.baseUrl}}/standardisation">join the standardisation process</a>.
           </p>
         </div>
       </div>
