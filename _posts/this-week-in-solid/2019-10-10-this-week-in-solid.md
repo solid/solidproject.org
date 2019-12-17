@@ -26,7 +26,7 @@ Every Thursday there is an hour long public call where newcomers can introduce t
 
 This week there was no call. 
 
-The next Weekly Solid call will be on the 17th October at 1000CEST on [this line](https://zoom.us/j/121552099).
+The next Weekly Solid call will be on the 17th October at 1000 CEST on [this line](https://zoom.us/j/121552099).
 
 ## Press
 

@@ -25,7 +25,7 @@ Notifications in solid are based on the [Linked Data Notification (LDN) specific
 
 ![LDN overview](https://www.w3.org/TR/ldn/linked-data-notifications-overview.svg)
 
-The following terms are defined by the LDN recommandation, and here is specifically how we use them in the context of solid:
+The following terms are defined by the LDN recommendation, and here is specifically how we use them in the context of solid:
 - Sender: The application sending the notification
 - Target: The id of the entity receiving the notification
 - Receiver: The pod advertised by the Target as its own, and in particular hosting its inbox.
@@ -34,9 +34,9 @@ The following terms are defined by the LDN recommandation, and here is specifica
 
 ## First things first: inbox discovery
 
-Notifications should be sent to inboxes, and any resource can advertize for an inbox (not only webids). It's up to the sender and to the receiver to select the appropriate resource when sending/receiving notifications. For instance, when sending a notification specifically related to Cleopatras busy schedule, one might consider addressing it to the inbox advertised by her calendar resource, `https://cleopatra.solid.community/public/calendar/inbox/`, that you can discover by examining the response to a GET on `https://cleopatra.solid.community/public/calendar`.
+Notifications should be sent to inboxes, and any resource can advertise for an inbox (not only WebIDs). It's up to the sender and to the receiver to select the appropriate resource when sending/receiving notifications. For instance, when sending a notification specifically related to Cleopatra's busy schedule, one might consider addressing it to the inbox advertised by her calendar resource, `https://cleopatra.solid.community/public/calendar/inbox/`, that you can discover by examining the response to a GET on `https://cleopatra.solid.community/public/calendar`.
 
-Let's dereference [cleopatra's webid](https://cleopatra.solid.community/profile/card#me), with a simple HTTP GET. You should be served an RDF document in which, among other things, you will find:
+Let's dereference [Cleopatra's WebID](https://cleopatra.solid.community/profile/card#me), with a simple HTTP GET. You should be served an RDF document in which, among other things, you will find:
 ```turtle
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix inbox: </inbox/>.
@@ -47,7 +47,7 @@ Let's dereference [cleopatra's webid](https://cleopatra.solid.community/profile/
     ldp:inbox inbox:;
 ```
 
-From this snippet, we see that the WebId advertises for an inbox, in this case `https://cleopatra.solid.community/inbox/`, thanks to the property `ldp:inbox`. And that's it, no we can get to notification sending!
+From this snippet, we see that the WebID advertises for an inbox, in this case `https://cleopatra.solid.community/inbox/`, thanks to the property `ldp:inbox`. And that's it, no we can get to notification sending!
 
 <iframe
      src="https://codesandbox.io/embed/discover-inbox-cf6gs?fontsize=14"

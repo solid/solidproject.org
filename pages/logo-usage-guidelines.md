@@ -41,41 +41,41 @@ Usage: can be used on any flat colour or overlaid on an image. Not to be used on
 
 Lettermark within an outline hex shape
 
-Usage: only to be used on solid Royal Lavender (#7C4DFF) background. Not to be used in close proximity to other logos, typography or graphic elements.
+Usage: only to be used on solid Royal Lavender (`#7C4DFF`) background. Not to be used in close proximity to other logos, typography or graphic elements.
 ___
 
 # Colour 
 
 Primary
 -
-**Royal Lavender** - #7C4DFF, R124 G77 B255
+**Royal Lavender** - `#7C4DFF`, `R124 G77 B255`
 Usage: in conjunction with outlined Solid logo as a key branding element e.g. mastheads, footers and for primary CTA buttons. Not to be used as a fill within Avoid using numerous times in any one environment. 
 
 Secondary
 -
-**Geyser Grey** - #DAE0E6, R218 G224 B230
+**Geyser Grey** - `#DAE0E6`, `R218 G224 B230`
 Usage: core functionality and signposting e.g. icons and secondary buttons/controls. Avoid use in content.
 
 Tertiary
 -
-**Calatina Blue** - #083575, R8 G53 B117
+**Calatina Blue** - `#083575`, `R8 G53 B117`
 Usage: for background fills, UI functionality, dividers, illustration
 
-**Flamengo Pink** - #FF6969, R255 G105 B105
+**Flamengo Pink** - `#FF6969`, `R255 G105 B105`
 Usage: for background fills and illustration.
 
 Utility colours
 -
-**Header Blue** - #354866, R53 G72 B102
+**Header Blue** - `#354866`, `R53 G72 B102`
 Usage: all non header copy. Avoid using for anything else.
 
-**Body Grey** - #666666, R102 G102 B102
+**Body Grey** - `#666666`, `R102 G102 B102`
 Usage: all non header copy. Avoid using for anything else.
 
-**Warning Orange** - #FFA600, R255 G166 B0
+**Warning Orange** - `#FFA600`, `R255 G166 B0`
 Usage: for warning messages only
 
-**Error Red** - #D0021B, R208 G2 B27
+**Error Red** - `#D0021B`, `R208 G2 B27`
 Usage: for error messaging only
 ___
 
@@ -97,7 +97,7 @@ ___
 Solid uses icons provided by [Font Awesome](https://fontawesome.com). This is not only for ease but also to ensure icons are as usable/accessible as possible.
 ___
 
-# Gradiants
+# Gradients
 
 Solid has one gradient which combines the Primary (Royal Lavender) and Secondary (Deep Sky Blue, Cerulean Blue) colours in equal parts (33/33/33)
 

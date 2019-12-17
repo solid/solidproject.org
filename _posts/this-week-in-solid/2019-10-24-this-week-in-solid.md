@@ -28,7 +28,7 @@ Every Thursday there is an hour long public call where newcomers can introduce t
 
 This week Michiel de Jong gave an app development tutorial session where they worked through the inrupt SDK, data discovery, and how to send notifications inside a Solid app. 
 
-Next weeks call will be cancelled so the next call will be on the 31st October at 1000CEST on [this line](https://zoom.us/j/121552099).
+Next weeks call will be cancelled so the next call will be on the 31st October at 1000 CEST on [this line](https://zoom.us/j/121552099).
 
 ### Press
 You can read about [Why Solid on SAFE](http://dweb.happybeing.com/blog/post/004-why-solid-on-safe/) by Mark Hughes and there were a couple of talks: 
@@ -37,7 +37,7 @@ You can read about [Why Solid on SAFE](http://dweb.happybeing.com/blog/post/004-
 
 Upcoming this week is: 
 * 2019-10-26 [Solid London](https://www.eventbrite.com/e/solid-intro-workshop-this-is-for-everyone-join-the-movement-tickets-77597174237?aff=ebdssbdestsearch) organised by [Kartika Tulusan](https://github.com/ktulusan)
-* 2019-10-26 to 2019-10-27 Sarven Capadisli, Mitzi László, Jackson Morgan, Paul Worral at the [inrupt](https://inrupt.com) stand at [MozFest](https://www.mozillafestival.org) in London
+* 2019-10-26 to 2019-10-27 Sarven Capadisli, Mitzi László, Jackson Morgan, Paul Worrall at the [inrupt](https://inrupt.com) stand at [MozFest](https://www.mozillafestival.org) in London
 
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
 

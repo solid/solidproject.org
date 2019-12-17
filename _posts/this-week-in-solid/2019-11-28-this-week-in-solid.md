@@ -35,7 +35,7 @@ Tune in at [this line](https://zoom.us/j/261297657):
 
 Check out a recap of the talk at ECP from last week [here](http://www.pilod.nl/wiki/Jaarcongres_ECP_2019_-_Solid_Session_Summary).
 
-There's also a article that mentions Solid on the [LSE Business Reveiw](https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/)
+There's also a article that mentions Solid on the [LSE Business Review](https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/)
 
 There are a few upcoming events where you can learn more and meet others working on Solid: 
 * 2019-12-10 [Solid Enschede](https://www.pilod.nl/wiki/Solid_Christmas_Meetup_Enschede_-_How_to_Fix_the_Internet!)

@@ -1,0 +1,11 @@
+{
+  "lang": "en",
+  "fileExtensions": [
+    ".html"
+  ],
+  "ignoreUrls": true,
+  "excludeFiles": [
+    "_site/press.html",
+    "pages/press.md"
+  ]
+}

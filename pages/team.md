@@ -34,7 +34,7 @@ Dmitri worked on the MIT academic Solid project.
 
 ## Kjetil Kjernsmo
 **Solid Editor** 
-Kjetil works for inrupt and focuses on the Solid test suite development. He has a Ph.D. in  Informatics from the University of Oslo in Norway and has 20 years of experience with social and semantic web technology.
+Kjetil works for inrupt and focuses on the Solid test suite development. He has a PhD in  Informatics from the University of Oslo in Norway and has 20 years of experience with social and semantic web technology.
 
 ## Vincent Tunru 
 **Creator**   

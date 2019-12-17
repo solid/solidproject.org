@@ -15,7 +15,7 @@ This tutorial extends the [quickstart vocabulary creation](/for-developers/apps/
 
 We initially defined our properties as [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property). However, we can see in the graphical representation that there are two different kind of properties:
 - the ones that connect a bubble to another,
-- the one that connects a bubble to a litteral value (i.e. a string, a number, a date, etc).
+- the one that connects a bubble to a literal value (i.e. a string, a number, a date, etc).
 
 The properties of things in RDF are called properties (how convenient). Therefore, following what we did for Classes, we might write:
 - [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
@@ -106,7 +106,7 @@ obelisk:height rdf:type owl:DataProperty ;
 
 ### Adding multilingual support
 
-So far all our labels and comments are written in English, yet there is no explicit indication of that in the vocabulary. To do so, RDF uses the concept of __language tag__: after a string, you can add a tag (e.g. @en for English, or @es for Spanish) to stipulate its language.
+So far all our labels and comments are written in English, yet there is no explicit indication of that in the vocabulary. To do so, RDF uses the concept of __language tag__: after a string, you can add a tag (e.g. `@en` for English, or `@es` for Spanish) to stipulate its language.
 
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .

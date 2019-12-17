@@ -7,7 +7,7 @@ categories: [Vocabularies, Quickstart]
 exclude: true
 ---
 
-In this part of the tutorial, we will build on the [quickstart version](https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl) of the Obelisk vocabulary to develop a simple Javascript application that answers the question: "Is this person an obelisk sculptor ?"
+In this part of the tutorial, we will build on the [quickstart version](https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl) of the Obelisk vocabulary to develop a simple JavaScript application that answers the question: "Is this person an obelisk sculptor ?"
 
 ## The artifact generator
 
@@ -20,11 +20,11 @@ const iri = rdf.type;
 ```
 However, an issue with these libraries is that, by their nature, they are limited to just the common, well-known vocabularies. What about your specific vocabulary, designed for your app? How can you make the terms described in that vocabulary easily reusable in your code (and easily reusable in the code of others who may wish to reuse the terms you've defined in your cool vocabulary)?
 
-The LIT artifact generator (which will be made publicly available soon) is a tool that takes any RDF vocabulary as input and automatically generates a nice source-code bundle (i.e. an artifact such as a Java JAR, or a Javascript NPM module) that you can then easily use in your application. Let's see how it works.
+The LIT artifact generator (which will be made publicly available soon) is a tool that takes any RDF vocabulary as input and automatically generates a nice source-code bundle (i.e. an artifact such as a Java JAR, or a JavaScript NPM module) that you can then easily use in your application. Let's see how it works.
 
 ### Generate the artifact
 
-To generate a Javascript artifact with the default options, you can use the following command:
+To generate a JavaScript artifact with the default options, you can use the following command:
 - `lit-artifact-generator --inputResources https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl --outputDirectory /path/to/a/directory --noprompt`.
 
 You can specify a local vocabulary file rather than an IRI if your vocabulary is not yet available online.
