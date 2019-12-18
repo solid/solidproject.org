@@ -129,7 +129,7 @@ As any standard, Solid only describes the interaction model the system must be c
 
 ## I just signed up but have two profile locations, what is the difference between the two? 
 
-Solid is a standard that can be implemented by a variety of identity providers, Pod providers, and apps. This allows you to use services from a variety of providers and take the data along with you when you switch i.e. they are compatible. 
+Solid specifications can be implemented by a variety of identity providers, Pod providers, and apps. This allows you to use services from a variety of providers and take the data along with you when you switch i.e. they are compatible. 
 
 You can find out the differences between each of the service providers by looking at their respective websites and terms and conditions.
 
