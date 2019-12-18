@@ -14,7 +14,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ### 2019
 
-2019-12-11 [MyData Madrid](https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/) with Alejandro Juan García
+2019-12-11 [MyData Madrid](https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/) with Alejandro Juan García: [slides](https://docs.google.com/presentation/d/1Ivgvc24WbVTaZe8Pw8JTm_UBPmWo6Fetn_7QrbflbKg/edit#slide=id.g75bc5c0dc1_0_158)
 
 2019-11-26 Nocturne Informatie Vlaanderen by Ruben Verborgh [slides](https://rubenverborgh.github.io/Nocturne-Informatie-Vlaanderen-2019/)
 
