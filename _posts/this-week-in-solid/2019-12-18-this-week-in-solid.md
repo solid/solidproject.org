@@ -50,6 +50,37 @@ At the start of the year Solid was being worked on in several different resposit
 * [triple doc](https://vincenttunru.gitlab.io/tripledoc/)
 * [Exploration of client-side RDF libraries](https://github.com/inrupt/solid-lib-comparison)
 
+#### Solid Data Browser
+
+In 2019 the data browser team at inrupt has supported the development of the Solid Data Browser by making it easier to 
+develop the project itself via [mashlib-dev](https://github.com/inrupt/mashlib-dev). We've 
+[also](https://github.com/solid/mashlib/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed) 
+[fixed](https://github.com/solid/solid-panes/pulls?page=2&q=is%3Apr+is%3Aclosed&utf8=%E2%9C%93) 
+[many](https://github.com/solid/solid-ui/pulls?page=2&q=is%3Apr+is%3Aclosed&utf8=%E2%9C%93) 
+[issues](https://github.com/solid/chat-pane/pulls?page=2&q=is%3Apr+is%3Aclosed&utf8=%E2%9C%93) 
+[and](https://github.com/solid/contacts-pane/pulls?page=2&q=is%3Apr+is%3Aclosed&utf8=%E2%9C%93) 
+[bugs](https://github.com/solid/folder-pane/pulls?page=2&q=is%3Apr+is%3Aclosed&utf8=%E2%9C%93) 
+[in](https://github.com/solid/issue-pane/pulls?page=2&q=is%3Apr+is%3Aclosed&utf8=%E2%9C%93) 
+[the](https://github.com/solid/meeting-pane/pulls?page=2&q=is%3Apr+is%3Aclosed&utf8=%E2%9C%93) 
+[related](https://github.com/solid/source-pane/pulls?page=2&q=is%3Apr+is%3Aclosed&utf8=%E2%9C%93) 
+[projects](https://github.com/solid/pane-registry/pulls?page=2&q=is%3Apr+is%3Aclosed&utf8=%E2%9C%93), as well as 
+contributing to related tools such as [rdflib](https://github.com/linkeddata/rdflib.js).
+
+Major contributions that the team has undertaken is the introduction of global elements such as the header, dashboard, 
+and user menu. We've also introduced [user roles](https://github.com/solid/userguide/blob/master/appendix/userroles.md) 
+that allow people to better tailor their experience with the data browser, as well as removing some of the confusing 
+features from users that are new to the data browser. Lastly, we've started migrating the code to TypeScript, which 
+will allow us to maintain our code better and introduce less bugs.
+
+The data browser is a large project with many potential use-cases, and we've spent quite a bit of time to plan how we 
+want to continue the development. In 2020 we will share the results of this work with everyone, and you can expect to 
+see more documentation such as roadmaps and more involvement with other teams to shape the future of the data browser.
+
+You can follow [the team's project board](https://github.com/orgs/solid/projects/4) if you want to see what we're 
+focusing on at a given time, and we're always open for a chat on 
+[our Gitter channel](https://gitter.im/solid/data-browser) or 
+[on the forum](https://forum.solidproject.org/c/build-a-solid-app/solid-data-browser) ^_^
+
 ### Implementations 
 
 * **Solid team employed at Empathy**: At Empathy.co we envision an e-commerce search based on the Solid ecosystem following its specification & principles. Where user rights and data ownership prevails. We envision an e-commerce search based on data stored in Pods where relevant results could depend on context data stored by the user & privacy relies on it. We think that if we want to see this succeeding, the Pod management needs to be a Pod experience. Something that the user sees as a projection of themselves, something they love to feel endorsed by & they want to see it as a part of the 'I'. That's why we are working on the UX/UI Pod experience"
