@@ -199,7 +199,7 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-07-30 [The Verge: Apple joins Google, Facebook, and Twitter in data-sharing project](https://www.theverge.com/2019/7/30/20746868/apple-data-transfer-project-google-microsoft-twitter)
 
-2019-07-29 [Linked Research Decentralised Web](https://csarven.ca/linked-research-decentralised-web)
+2019-07-29 [Linked Research on the Decentralised Web](https://csarven.ca/linked-research-decentralised-web)
 
 2019-07-26 [Civil Service World: Opinion: Think Britain beats the world on digital services? Think again. China rules the digital waves](https://civilserviceworld.com/articles/opinion/opinion-think-britain-beats-world-digital-services-think-again-china-rules-digital)
 
