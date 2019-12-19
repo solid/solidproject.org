@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{% if page.title %}{{page.title}} · {% endif %}{{ site.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{ site.baseurl }}/favicon.ico?"
+    />
+    <link rel="stylesheet" href="{{ 'assets/css/v2/main.css' | relative_url }}" />
+  </head>
+
+  <body>
+    {% include v2/header.html %}
+    <main>
+      {{ content }}
+    </main>
+    {% include v2/footer.html %}
+  </body>
+</html>

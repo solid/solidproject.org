@@ -1,0 +1,105 @@
+<footer id="footer" class="footer">
+  <div class="section">
+
+    <div class="columns">
+      {% for item in site.data.footer %}
+        <div class="column">
+          <ul>
+            <li>
+              {% if item.link %}
+                <a class="title is-size-5" href="{{ item.link }}">{{ item.name }}</a>
+              {% else %}
+                <span class="title is-size-5">{{item.name}}</span>
+              {% endif %}
+            </li>
+            {% for subitem in item.sublinks %}
+              <li>
+                {% if subitem.link %}
+                  <a class="is-size-5" href="{{ subitem.link }}">{{ subitem.name }}</a>
+                {% else %}
+                  <span class="is-size-5">{{subitem.name}}</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+            <a href="https://github.com/solid/" title="Solid on GitHub">
+              <img
+                src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/github.svg"
+                alt="GitHub"
+                class="icon"
+              />
+            </a>
+          </li>
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{site.baseUrl}}/">
+        <img
+          src="{{ site.baseurl }}/assets/img/solid-emblem.svg"
+          alt="[Solid logo]"
+        />
+      </a>
+      <a class="navbar-item" href="mailto:info@solidproject.org">
+        info@solidproject.org
+      </a>
+      <a class="navbar-item" href="https://github.com/solid/" title="Solid on GitHub">
+        <span class="image is-24x24">
+          <img
+            src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/github.svg"
+            alt="GitHub"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+      <a class="navbar-item" href="https://twitter.com/project_solid" title="Solid on Twitter">
+        <span class="image is-24x24">
+          <img
+            src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/twitter.svg"
+            alt="Twitter"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+    </div>
+  </nav>
+</footer>
+<!-- <div class="solid-nav">
+  <a href="{{site.baseUrl}}/" class="logo"
+    ><img src="{{ site.baseurl }}/assets/img/solid-emblem.svg" alt="[Solid logo]"
+  /> Solid</a>
+  <nav class="menu">
+    <ul class="links">
+      {% for item in site.data.navigation %}
+      <li {%if item.sublinks%} class="sub-links" {%endif%}>
+        <a {%unless item.sublinks%} href="{{ item.link }}" {%endunless%} aria-label="{{item.name}}">{{ item.name }}</a>
+        {% if item.sublinks %}
+        <ul>
+          {%for subitem in item.sublinks%}
+          <li>
+            {% if subitem.fullLink  %}
+              <a href="{{ site.baseurl }}{{ subitem.link }}">{{
+                subitem.name
+              }}</a>
+              {%else%} 
+              <a href="{{ site.baseurl }}{{ item.link }}/{{ subitem.link }}">{{
+                subitem.name
+              }}</a>
+              {%endif%}
+          </li>
+          {%endfor%}
+        </ul>
+        {%endif%}
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <div class="burger">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+</div> -->
