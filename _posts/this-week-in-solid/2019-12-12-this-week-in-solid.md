@@ -9,7 +9,7 @@ author: Mitzi László
 
 Hello and welcome to another edition of This Week in Solid!
 
-[Solid](https://solidproject.org) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
+[Solid](https://solidproject.org) is a set of open specifications, built on existing open standards, that describes how to build applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.
 
 This is a weekly summary of Solid progress.
 

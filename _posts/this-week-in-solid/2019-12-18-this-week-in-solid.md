@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another edition of [This Week in Solid](https://solidproject.org/this-week-in-solid)!
 
-[Solid](https://solidproject.org) is a standard that allows users to switch between storage and app while taking the data along. 
+[Solid](https://solidproject.org) is a set of open specifications, built on existing open standards, that allows users to switch between storage and app while taking the data along. 
 
 This is the last edition of 2019 so here's a recap of This Year in Solid to look at the highlights of the year. 
 
