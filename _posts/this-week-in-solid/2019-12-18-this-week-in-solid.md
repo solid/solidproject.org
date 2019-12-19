@@ -27,11 +27,8 @@ Solid has grown meaning that more and more people are contributing and knowing h
 ### Weekly recurring and well-attended calls on specific themes to develop Solid 
 Every Thursday there has been a [W3C Solid Community Group](https://www.w3.org/community/solid/) alternating between 1600CET and 1000CET. On top of that, there have been more in-depth calls on specific topics such as authentication, data interoperability, and authorisation. [Read more](https://solidproject.org/standardisation) about when these calls are if you are interested in joining.
 
-### 25 Solid Events 
-Over 2019 we had 25 [Solid Events](https://solidproject.org/events) in 18 locations in the USA, Europe, and China. Solid Events have been a great way for local communities to form around their interest in Solid. Thank you to all the hard work by the event organisers for making this happen! Anyone can become a Solid Event organiser. [Reach out to other Solid Event organisers](https://gitter.im/solid/solid-events) or contact the Solid Manager if you would like to brainstorm ideas and learn how to make a successful local community.  
-
-### 60+ talks and 150+ articles mentioning Solid
-Over the year there have been more than sixty [talks mentioning Solid](https://solidproject.org/press) along with [150+ articles](https://solidproject.org/press). Looking forward to many more in the coming year. 
+### 25 Solid Events, 60+ talks and 150+ articles mentioning Solid
+Over the year there have been more than sixty [talks mentioning Solid](https://solidproject.org/press) along with [150+ articles](https://solidproject.org/press). Looking forward to many more in the coming year. Over 2019 we had 25 [Solid Events](https://solidproject.org/events) in 18 locations in the USA, Europe, and China. Solid Events have been a great way for local communities to form around their interest in Solid. Thank you to all the hard work by the event organisers for making this happen! Anyone can become a Solid Event organiser. [Reach out to other Solid Event organisers](https://gitter.im/solid/solid-events) or contact the Solid Manager if you would like to brainstorm ideas and learn how to make a successful local community.  
 
 ### Solid standardisation work
 The Solid standard is still a work in progress. At the start of the year, Solid was being worked on in several different repositories asynchronously by many people with a variety of focuses. Now, there is a clear agreed destination where to put the final result as well as defined [milestones](https://github.com/solid/specification/milestones). Work on the test suite which is incorporated into the Solid standard has also started led by Kjetil Kjernsmo. 
