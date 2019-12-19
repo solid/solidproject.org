@@ -37,7 +37,7 @@ $navbar-breakpoint: 0;
 
 // Footer
 $footer-background-color: $dark;
-$footer-color: $white;
+$footer-color: $grey-lighter;
 
 // Import only what you need from Bulma
 @import "bulma-0.8.0/sass/base/_all.sass";
@@ -48,6 +48,7 @@ $footer-color: $white;
 @import "bulma-0.8.0/sass/elements/title.sass";
 @import "bulma-0.8.0/sass/form/_all.sass";
 @import "bulma-0.8.0/sass/components/card.sass";
+@import "bulma-0.8.0/sass/components/menu.sass";
 @import "bulma-0.8.0/sass/components/navbar.sass";
 @import "bulma-0.8.0/sass/layout/hero.sass";
 @import "bulma-0.8.0/sass/grid/columns.sass";

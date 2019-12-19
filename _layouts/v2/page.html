@@ -1,0 +1,16 @@
+---
+layout: v2/base
+---
+<div class="container">
+  <div class="columns">
+    <div class="column is-two-thirds">
+      {% include breadcrumbs.html %}
+      <article class="section content">
+        {{ content }}
+      </article>
+    </div>
+    <aside class="aside column is-one-third is-hidden-mobile section menu">
+      {% include v2/toc.html html=content class="menu-list" %}
+    </aside>
+  </div>
+</div>
