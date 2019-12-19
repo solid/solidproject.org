@@ -15,7 +15,7 @@ Hello and welcome to another edition of [This Week in Solid](https://solidprojec
 
 This is the last edition of 2019 so here's a recap of This Year in Solid to look at the highlights of the year. 
 
-### solidproject.org is live and up to date 
+### [solidproject.org](https://solidproject.org) is live and up to date 
 At the start of the year information about Solid was dispersed over various locations, by different people, sometimes duplicated and even conflicting. Over the year we have come together to collect the information about Solid in a single repository (which was called 'Information'). This was the base content used to build solidproject.org which was put together with a lot of hard work from the [Creators](https://github.com/solid/process/blob/master/creators.md). This website is being maintained regularly so that it is up to date with the latest information. 
 
 ### A mailing list was set up 
