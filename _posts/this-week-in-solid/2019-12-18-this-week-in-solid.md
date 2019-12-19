@@ -67,6 +67,7 @@ The focus has been to make it easier to develop the project itself via [mashlib-
 There's plenty of work to carry out in the year to come. Here's a little list of things that people have mentioned they would love to see happen in 2020: stable standard, improved onboarding, user friendly apps, multiple Pod implementations, and better developing tools. 
 * At CERN, the birthplace of the web, a group will be meeting to talk about work on Solid. [Read more](https://indico.cern.ch/e/CERN-Solid-brainstorming) about the Solid event at CERN. 
 * There are already a few [Solid Events](https://solidproject.org/events) and [talks](https://solidproject.org/press) about Solid, more coming soon 
+* There will be another course teaching Solid at the University of Oviedo
 
 Until next year :) 
 
