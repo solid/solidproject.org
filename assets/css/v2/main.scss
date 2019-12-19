@@ -73,11 +73,17 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
   }
 }
 
-#why-carousel {
+#landing-content {
   #home-hero + & {
     margin-top: -1 * $why-carousel-offset;
   }
 
+  background-image: url('/assets/img/hexagon.svg');
+  background-repeat: no-repeat;
+  background-position: 0 $why-carousel-offset;
+}
+
+#why-carousel {
   .card {
     min-height: $why-carousel-card-height;
     border-radius: $radius;
