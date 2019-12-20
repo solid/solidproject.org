@@ -11,7 +11,7 @@ author: Mitzi László
 
 Hello and welcome to another edition of *This Week in Solid*!
 
-[Solid](https://solidproject.org/) is a standard that describes how to build data storage and applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel).
+[Solid](https://solidproject.org/) is a set of open specifications, built on existing open standards, that describes how to build applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel).
 
 This is a weekly summary of Solid progress.
 

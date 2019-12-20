@@ -51,7 +51,7 @@ permalink: /
     </div>
     <div class="img-info-banner row around">
       <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
-        <img src="{{site.baseurl}}/assets/img/solid-is-a-standard.svg" alt="[]" />
+        <img src="{{site.baseurl}}/assets/img/solid-open-specs.svg" alt="[]" />
       </div>
       <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="info-card">

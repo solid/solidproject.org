@@ -70,7 +70,7 @@ Solid overturns assumptions:
 * When you start a Solid app, instead of the app storing the data itself, it stores it on your Pod. When you use the app, you choose which app to use, and you choose which Pod to use with which app. 
 <details>
 <summary><a>More details</a></summary>
-Solid is built on top of existing Web and Linked Data standards as much as possible. The core Solid specification relies on <a href="https://www.w3.org/TR/ldp/">LDP</a> and <a href="https://solid.github.io/specification/wac/">WAC</a> (<a href="https://github.com/solid/web-access-control-spec">WAC draft</a>, both being based on <a href="https://tools.ietf.org/html/rfc2616">HTTP</a> and <a href="https://www.w3.org/RDF/">RDF</a> vocabularies. Solid also uses a subset of <a href="https://www.w3.org/TR/sparql11-overview/">SPARQL</a> UPDATE through HTTP PATCH queries. Identification in Solid is based on <a href="https://www.w3.org/2005/Incubator/webid/spec/tls/">WebID-TLS</a> and/or <a href="https://openid.net/connect/">OIDC</a>.
+Solid is built on top of existing Web standards. The core Solid specification relies on <a href="https://www.w3.org/TR/ldp/">LDP</a> and <a href="https://solid.github.io/specification/wac/">WAC</a> (<a href="https://github.com/solid/web-access-control-spec">WAC draft</a>, both being based on <a href="https://tools.ietf.org/html/rfc2616">HTTP</a> and <a href="https://www.w3.org/RDF/">RDF</a> vocabularies. Solid also uses a subset of <a href="https://www.w3.org/TR/sparql11-overview/">SPARQL</a> UPDATE through HTTP PATCH queries. Identification in Solid is based on <a href="https://www.w3.org/2005/Incubator/webid/spec/tls/">WebID-TLS</a> and/or <a href="https://openid.net/connect/">OIDC</a>.
 </details>
 
 # Storage 
@@ -129,7 +129,7 @@ As any standard, Solid only describes the interaction model the system must be c
 
 ## I just signed up but have two profile locations, what is the difference between the two? 
 
-Solid is a standard that can be implemented by a variety of identity providers, Pod providers, and apps. This allows you to use services from a variety of providers and take the data along with you when you switch i.e. they are compatible. 
+Solid specifications can be implemented by a variety of identity providers, Pod providers, and apps. This allows you to use services from a variety of providers and take the data along with you when you switch i.e. they are compatible. 
 
 You can find out the differences between each of the service providers by looking at their respective websites and terms and conditions.
 
