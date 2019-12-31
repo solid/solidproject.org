@@ -8,7 +8,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ## Upcoming Talks
 
-2020-02-07 [Solid CERN](https://indico.cern.ch/e/CERN-Solid-brainstorming) is an internal event that may bring the place where Sir Tim invented the Web to the heart of the Web's future by Maria Dimou
+2020-01-10 [P2P](https://p2p.paris/fr/event/festival-0/) with Alice Poggioli 
+
+2020-01-11 [P2P](https://p2p.paris/fr/event/festival-0/) with Jonas Smedegaard
+
+2020-01-27 [Workshop on Cloud Services for File Synchronisation and Sharing](https://cs3.deic.dk) with Michiel de Jong
+
+2020-02-24 [RSA](https://www.rsaconference.com/experts/davi-ottenheimer-3) with Davi Ottenheimer
+
+2020-02-07 [Solid CERN](https://indico.cern.ch/e/CERN-Solid-brainstorming) with Maria Dimou, Sarven Capadisli, and Mitzi László
 
 ## Past Talks Mentioning Solid 
 
