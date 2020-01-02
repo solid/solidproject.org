@@ -1,5 +1,5 @@
 ---
-layout: v2/for-developers
+layout: for-developers
 title: Notification in Solid
 permalink: /for-developers/apps/common-patterns/notification
 tags: [apps]

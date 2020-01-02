@@ -1,5 +1,5 @@
 ---
-layout: v2/for-developers
+layout: for-developers
 title: "Create your vocabulary "
 permalink: /for-developers/apps/vocabularies/create/quickstart
 tags: [apps]

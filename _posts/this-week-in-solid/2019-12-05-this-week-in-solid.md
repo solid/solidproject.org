@@ -1,5 +1,5 @@
 ---
-layout: v2/this-week-in-solid
+layout: this-week-in-solid
 title: This Week in Solid 2019-12-05
 permalink: /this-week-in-solid/2019-12-05
 tags: [weekly, updates]

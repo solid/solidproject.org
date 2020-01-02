@@ -1,5 +1,5 @@
 ---
-layout: v2/base
+layout: base
 title: Home
 permalink: /
 ---
@@ -18,7 +18,7 @@ permalink: /
 
 <div id="landing-content">
   {%
-    include v2/why-carousel.html
+    include why-carousel.html
       icon1="dolly"
       heading1="Move freely between services"
       content1="Switch to the best tools and take your data with you."
@@ -34,7 +34,7 @@ permalink: /
   %}
 
   {%
-    include v2/choose-your-own-adventure.html
+    include choose-your-own-adventure.html
       heading="Find out why you'll love Solid"
       link1="/for-developers"
       adventure1="As a developer"
@@ -108,7 +108,7 @@ permalink: /
 
   <div class="columns">
     <div class="column is-half-desktop is-offset-one-quarter-desktop">
-      {% include v2/newsletter.html %}
+      {% include newsletter.html %}
     </div>
   </div>
 

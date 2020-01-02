@@ -1,5 +1,5 @@
 ---
-layout: v2/this-week-in-solid
+layout: this-week-in-solid
 title: This Week in Solid 2019-11-07
 permalink: /this-week-in-solid/2019-11-07
 tags: [weekly, updates]
@@ -9,7 +9,7 @@ author: Mitzi László
 
 # 7th November
 
-{% include v2/twis-intro.md %}
+{% include twis-intro.md %}
 
 ## Updates
 

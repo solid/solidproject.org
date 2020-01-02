@@ -1,5 +1,5 @@
 ---
-layout: v2/page
+layout: page
 title: Solid Events
 permalink: /events
 ---

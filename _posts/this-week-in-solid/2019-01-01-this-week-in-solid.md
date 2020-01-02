@@ -1,5 +1,5 @@
 ---
-layout: v2/this-week-in-solid
+layout: this-week-in-solid
 title: This Week in Solid
 permalink: /this-week-in-solid
 exclude: true

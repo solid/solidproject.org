@@ -1,5 +1,5 @@
 ---
-layout: v2/this-week-in-solid
+layout: this-week-in-solid
 title: This Week in Solid 2019-11-21
 permalink: /this-week-in-solid/2019-11-21
 tags: [weekly, updates]
@@ -7,7 +7,7 @@ categories: [Updates]
 author: Mitzi László
 ---
 
-{% include v2/twis-intro.md %}
+{% include twis-intro.md %}
 
 There are a few upcoming events where you can learn more and meet others working on Solid: 
 * 2019-11-21 [Solid Montreal](https://www.meetup.com/Montreal-Decentralized-Linked-Data-Meetup/events/266218723/?fbclid=IwAR2sJy5LIwzjJG52HSyfj88TSW4t5w_svUsWKA-STNG_e-pwrkfoLC5ROpE)

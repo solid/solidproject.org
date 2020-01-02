@@ -1,5 +1,5 @@
 ---
-layout: v2/this-week-in-solid
+layout: this-week-in-solid
 title: This Week in Solid 2019-10-17
 permalink: /this-week-in-solid/2019-10-17
 tags: [weekly, updates]
@@ -9,7 +9,7 @@ author: Mitzi László
 
 # 17th October 2019 
 
-{% include v2/twis-intro.md %}
+{% include twis-intro.md %}
 
 ## Weekly Solid Call
 

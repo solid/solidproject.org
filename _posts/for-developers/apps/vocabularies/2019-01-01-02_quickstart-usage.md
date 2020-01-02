@@ -1,5 +1,5 @@
 ---
-layout: v2/for-developers
+layout: for-developers
 title: "Describe data"
 permalink: /for-developers/apps/vocabularies/use/quickstart
 tags: [apps]

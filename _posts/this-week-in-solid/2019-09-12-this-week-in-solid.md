@@ -1,5 +1,5 @@
 ---
-layout: v2/this-week-in-solid
+layout: this-week-in-solid
 title: This Week in Solid 2019-09-12
 permalink: /this-week-in-solid/2019-09-12
 tags: [weekly, updates]
@@ -9,7 +9,7 @@ author: Mitzi László
 
 # 12th September 2019
 
-{% include v2/twis-intro.md %}
+{% include twis-intro.md %}
 
 ## Weekly Solid Call
 Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. This week the call was cancelled so there are no minutes but next weeks call will be on the 19th September at 1000 CEST on [this line](https://zoom.us/j/121552099).

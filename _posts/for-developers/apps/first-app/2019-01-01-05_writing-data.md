@@ -1,5 +1,5 @@
 ---
-layout: v2/for-developers
+layout: for-developers
 title: "Step 5: Writing data & what's next"
 permalink: /for-developers/apps/first-app/5-writing-data
 tags: [apps]

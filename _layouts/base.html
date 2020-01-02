@@ -9,11 +9,11 @@
       type="image/x-icon"
       href="{{ site.baseurl }}/favicon.ico?"
     />
-    <link rel="stylesheet" href="{{ 'assets/css/v2/main.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
   </head>
 
   <body>
-    {% include v2/header.html %}
+    {% include header.html %}
 
     {% if site.baseurl == "https://solid.github.io" %}
       <div class="message is-danger is-large" role="alert">
@@ -22,11 +22,11 @@
         </div>
       </div>
     {% endif %}
-    {% include v2/breadcrumbs.html %}
+    {% include breadcrumbs.html %}
     <main>
       {{ content }}
     </main>
-    {% include v2/footer.html %}
+    {% include footer.html %}
   </body>
 
 

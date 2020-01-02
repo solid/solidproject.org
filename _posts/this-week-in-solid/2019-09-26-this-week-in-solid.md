@@ -1,5 +1,5 @@
 ---
-layout: v2/this-week-in-solid
+layout: this-week-in-solid
 title: This Week in Solid 2019-09-26
 permalink: /this-week-in-solid/2019-09-26
 tags: [weekly, updates]
@@ -9,7 +9,7 @@ author: Mitzi László
 
 # 26th September 2019
 
-{% include v2/twis-intro.md %}
+{% include twis-intro.md %}
 
 ## Weekly Solid Call
 Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. This week Jim, Alessandra, Dan, Michiel, Jackson, Justin, and Dmitri tuned in and we had a round of introductions. Then we talked through the activity in the panels this week which included: data interoperability, authorisation and access control, and authentication. The [issues on the specification respository](https://github.com/solid/specification/issues) define the scope of work that needs to be done, there was an invitation to read through these, comment and add any issues that you feel are missing. 

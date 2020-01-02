@@ -1,5 +1,5 @@
 ---
-layout: v2/for-developers
+layout: for-developers
 title: "Code with your vocabulary"
 permalink: /for-developers/apps/vocabularies/code/quickstart
 tags: [apps]

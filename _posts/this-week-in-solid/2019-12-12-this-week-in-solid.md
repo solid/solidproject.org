@@ -1,5 +1,5 @@
 ---
-layout: v2/this-week-in-solid
+layout: this-week-in-solid
 title: This Week in Solid 2019-12-12
 permalink: /this-week-in-solid/2019-12-12
 tags: [weekly, updates]
@@ -7,7 +7,7 @@ categories: [Updates]
 author: Mitzi László
 ---
 
-{% include v2/twis-intro.md %}
+{% include twis-intro.md %}
 
 ## [Press](https://solidproject.org/press)
 There are a few upcoming events where you can learn more and meet others working on Solid: 

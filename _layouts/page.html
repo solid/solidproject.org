@@ -1,5 +1,5 @@
 ---
-layout: v2/base
+layout: base
 ---
 <div class="container">
   <div class="columns">
@@ -10,13 +10,7 @@ layout: v2/base
     </div>
     <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
       <div class="menu is-large">
-        {% if page.tags[0] == "apps" %}
-          {% include v2/toc-apps.html %}
-        {% elsif page.tags[0] == "pod-server" %}
-          {% include v2/toc-pod-server.html %}
-        {% else %}
-          {% include v2/toc.html html=content class="menu-list" %}
-        {% endif %}
+        {% include toc.html html=content class="menu-list" %}
       </div>
     </aside>
   </div>

@@ -1,5 +1,5 @@
 ---
-layout: v2/for-developers
+layout: for-developers
 title: "Step 2: Understanding Solid"
 permalink: /for-developers/apps/first-app/2-understanding-solid
 tags: [apps]

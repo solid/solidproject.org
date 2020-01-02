@@ -1,5 +1,5 @@
 ---
-layout: v2/this-week-in-solid
+layout: this-week-in-solid
 title: This Week in Solid 2019-10-03
 permalink: /this-week-in-solid/2019-10-03
 tags: [weekly, updates]
@@ -9,7 +9,7 @@ author: Mitzi László
 
 # 3rd October 2019
 
-{% include v2/twis-intro.md %}
+{% include twis-intro.md %}
 
 ## Weekly Solid Call
 Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. This week was a general conversation about open source Solid servers. Next weeks call will be cancelled so the next call will be on the 17th October at 1000 CEST on [this line](https://zoom.us/j/121552099).
