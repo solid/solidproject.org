@@ -14,14 +14,14 @@
             </a>
           </li>
         {% endif %}
-        {% if page.url contains '/for-developers/' %}
+        {% if page.url contains '/for-developers/' and page.url != '/for-developers/' %}
           <li>
             <a href="{{site.baseurl}}/for-developers/">
               For developers
             </a>
           </li>
         {% endif %}
-        {% if page.url contains '/for-enterprises/' %}
+        {% if page.url contains '/for-enterprises/' and page.url != '/for-enterprises/' %}
           <li>
             <a href="{{site.baseurl}}/for-enterprises/">
               For enterprises
