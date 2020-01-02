@@ -12,6 +12,7 @@ $primary: #7C4DFF;
 $secondary: #1fca86;
 $grey-lightest: #f4f4f4;
 $grey-lighter: #d8d8d8;
+$grey-light: #d9d9d9;
 $grey-dark: #5a5a5a;
 $black-ter: #202542;
 $dark: $black-ter;
@@ -185,6 +186,27 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
     // The GitHub and Twitter icons are black, so we're turning them white so they're visible on the
     // footer's dark background:
     filter: invert(1);
+  }
+}
+
+.talk {
+  margin-bottom: $gap;
+  padding: $gap;
+  border: 1px solid $grey-light;
+
+  .column:first-child {
+    border-right: 1px solid $grey-light;
+  }
+  aside.column:last-child {
+    padding-left: $gap;
+  }
+
+  .speaker {
+    color: $grey-dark;
+  }
+
+  .icon img {
+    width: $body-font-size;
   }
 }
 

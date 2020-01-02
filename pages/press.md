@@ -1,6 +1,6 @@
 ---
 layout: page
-title: press
+title: Press
 permalink: press
 ---
 
@@ -8,145 +8,574 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ## Upcoming Talks
 
-2020-01-10 [P2P](https://p2p.paris/fr/event/festival-0/) with Alice Poggioli 
+{%
+  include talk.html
+    date="2020-01-10"
+    title="P2P"
+    website="https://p2p.paris/fr/event/festival-0/"
+    speaker="Alice Poggioli"
+%}
 
-2020-01-11 [P2P](https://p2p.paris/fr/event/festival-0/) with Jonas Smedegaard
+{%
+  include talk.html
+    date="2020-01-11"
+    title="P2P"
+    website="https://p2p.paris/fr/event/festival-0/"
+    speaker="Jonas Smedegaard"
+%}
 
-2020-01-27 [Workshop on Cloud Services for File Synchronisation and Sharing](https://cs3.deic.dk) with Michiel de Jong
+{%
+  include talk.html
+    date="2020-01-27"
+    title="Workshop on Cloud Services for File Synchronisation and Sharing"
+    website="https://cs3.deic.dk"
+    speaker="Michiel de Jong"
+%}
 
-2020-02-24 [RSA](https://www.rsaconference.com/experts/davi-ottenheimer-3) with Davi Ottenheimer
+{%
+  include talk.html
+    date="2020-02-24"
+    title="RSA"
+    website="https://www.rsaconference.com/experts/davi-ottenheimer-3"
+    speaker="Davi Ottenheimer"
+%}
 
-2020-02-07 [Solid CERN](https://indico.cern.ch/e/CERN-Solid-brainstorming) with Maria Dimou, Sarven Capadisli, and Mitzi László
+{%
+  include talk.html
+    date="2020-02-07"
+    title="Solid CERN"
+    website="https://indico.cern.ch/e/CERN-Solid-brainstorming"
+    speaker="Maria Dimou, Sarven Capadisli, and Mitzi László"
+%}
 
 ## Past Talks Mentioning Solid 
 
 ### 2019
 
-2019-12-11 [MyData Madrid](https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/) with Alejandro Juan García: [slides](https://docs.google.com/presentation/d/1Ivgvc24WbVTaZe8Pw8JTm_UBPmWo6Fetn_7QrbflbKg/edit#slide=id.g75bc5c0dc1_0_158)
+{%
+  include talk.html
+    date="2019-12-11"
+    title="MyData Madrid"
+    website="https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/"
+    speaker="Alejandro Juan García"
+    slides="https://docs.google.com/presentation/d/1Ivgvc24WbVTaZe8Pw8JTm_UBPmWo6Fetn_7QrbflbKg/edit#slide=id.g75bc5c0dc1_0_158"
+%}
 
-2019-11-26 Nocturne Informatie Vlaanderen by Ruben Verborgh [slides](https://rubenverborgh.github.io/Nocturne-Informatie-Vlaanderen-2019/)
+{%
+  include talk.html
+    date="2019-11-26"
+    title="Nocturne Informatie Vlaanderen"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Nocturne-Informatie-Vlaanderen-2019/"
+%}
 
-2019-11-18 [The Richard Dimbleby Lecture](https://www.bbc.co.uk/programmes/b006ptbl) by Tim Berners-Lee: [video](https://www.bbc.co.uk/programmes/m000bj15)
+{%
+  include talk.html
+    date="2019-11-18"
+    title="The Richard Dimbleby Lecture"
+    website="https://www.bbc.co.uk/programmes/b006ptbl"
+    speaker="Tim Berners-Lee"
+    video="https://www.bbc.co.uk/programmes/b006ptbl"
+%}
 
-2019-11-14 [ECP](https://ecp.nl/) by Mitzi László & Pieter van Everdingen
+{%
+  include talk.html
+    date="2019-11-14"
+    title="ECP"
+    website="https://ecp.nl/"
+    speaker="Mitzi László & Pieter van Everdingen"
+%}
 
-2019-10-25 [Redecentralize](https://redecentralize.org/) Sarven Capadisli 
+{%
+  include talk.html
+    date="2019-10-25"
+    title="Redecentralize"
+    website="https://redecentralize.org/"
+    speaker="Sarven Capadisli "
+%}
 
-2019-10-24 [Ada Lovelace Festival](https://www.ada-lovelace-festival.com/) by Mitzi László
+{%
+  include talk.html
+    date="2019-10-24"
+    title="Ada Lovelace Festival"
+    website="https://www.ada-lovelace-festival.com/"
+    speaker="Mitzi László"
+%}
 
-2019-10-23 [Privacy by Design meetup](https://www.meetup.com/Brussels-Legal-Hackers/events/265191277/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Privacy-by-Design-2019/)
+{%
+  include talk.html
+    date="2019-10-23"
+    title="Privacy by Design meetup"
+    website="https://www.meetup.com/Brussels-Legal-Hackers/events/265191277/"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Privacy-by-Design-2019/"
+%}
 
-2019-10-10 [European Data Ethics Forum](https://dataethics.eu/conference19/) by Mitzi László
+{%
+  include talk.html
+    date="2019-10-10"
+    title="European Data Ethics Forum"
+    website="https://dataethics.eu/conference19/"
+    speaker="Mitzi László"
+%}
 
-2019-10-04 [Connected Data London](https://connected-data.london): [slides](https://rubenverborgh.github.io/Connected-Data-London-2019/)
+{%
+  include talk.html
+    date="2019-10-04"
+    title="Connected Data London"
+    website="https://connected-data.london"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Connected-Data-London-2019/"
+%}
 
-2019-09-26 [Open Access Scholarly Publishers Association](https://oaspa.org/event/coasp-2019/) by Sarven Capadisli: [video](https://oaspavideos.org/video/third-party-control-considered-harmful) & [slides](https://csarven.ca/presentations/third-party-control-considered-harmful/)
+{%
+  include talk.html
+    date="2019-09-26"
+    title="Open Access Scholarly Publishers Association"
+    website="https://oaspa.org/event/coasp-2019/"
+    speaker="Sarven Capadisli"
+    slides="https://csarven.ca/presentations/third-party-control-considered-harmful/"
+    video="https://oaspavideos.org/video/third-party-control-considered-harmful"
+%}
 
-2019-09-26 [Waag Data Commons #1: Fietsdata](https://waag.org/nl/event/data-commons-1-fietsdata) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-DataCommons-2019/#)
+{%
+  include talk.html
+    date="2019-09-26"
+    title="Waag Data Commons #1: Fietsdata"
+    website="https://waag.org/nl/event/data-commons-1-fietsdata"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Slides-DataCommons-2019/#"
+%}
 
-2019-09-20 [Aalborg University](https://www.en.aau.dk) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Decentralized-Web-Query-Challenges-2019/)
+{%
+  include talk.html
+    date="2019-09-20"
+    title="Aalborg University"
+    website="https://www.en.aau.dk"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Decentralized-Web-Query-Challenges-2019/"
+%}
 
-2019-09-15 [NextCloud Conference](https://nextcloud.com/fr_FR/blog/nextcloud-conference-2019-talks-now-online/) by Mitzi László
+{%
+  include talk.html
+    date="2019-09-15"
+    title="NextCloud Conference"
+    website="https://nextcloud.com/fr_FR/blog/nextcloud-conference-2019-talks-now-online/"
+    speaker="Mitzi László"
+%}
 
-2019-09-14 [Linked Data Scholarship course at KU Leuven](https://onderwijsaanbod.kuleuven.be/syllabi/e/F0XO5AE.htm#activetab=doelstellingen_idp45136) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Solid-Lecture-2019/)
+{%
+  include talk.html
+    date="2019-09-14"
+    title="Linked Data Scholarship course at KU Leuven"
+    website="https://onderwijsaanbod.kuleuven.be/syllabi/e/F0XO5AE.htm#activetab=doelstellingen_idp45136"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Solid-Lecture-2019/"
+%}
 
-2019-09-12 [KB session on Reinventing the Public Space](https://www.kb.nl/nieuws/2019/kb-sessie-heruitvinden-van-de-digitale-publieke-ruimte) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/KB-Public-Space-2019/)
+{%
+  include talk.html
+    date="2019-09-12"
+    title="KB session on Reinventing the Public Space"
+    website="https://www.kb.nl/nieuws/2019/kb-sessie-heruitvinden-van-de-digitale-publieke-ruimte"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/KB-Public-Space-2019/"
+%}
 
-2019-09-06 [VIVO](https://vivoconference.org/vivo2019/) by Sarven Capadisli: [slides](https://csarven.ca/presentations/social-scholarly-web-ecosystem/)
+{%
+  include talk.html
+    date="2019-09-06"
+    title="VIVO"
+    website="https://vivoconference.org/vivo2019/"
+    speaker="Sarven Capadisli"
+    slides="https://csarven.ca/presentations/social-scholarly-web-ecosystem/"
+%}
 
-2019-08-11 by [Angelo Veltens](https://angelo.veltens.org/profile/card#me): [slides](https://angelo.veltens.org/slides/2019/solid-einfuehrung) & [video](https://media.ccc.de/v/froscon2019-2375-die_ruckeroberung_des_social_web)
+{%
+  include talk.html
+    date="2019-08-11"
+    title="Die Rückeroberung des Social Web"
+    speaker="Angelo Veltens"
+    speaker-webid="https://angelo.veltens.org/profile/card#me"
+    slides="https://angelo.veltens.org/slides/2019/solid-einfuehrung"
+    video="https://media.ccc.de/v/froscon2019-2375-die_ruckeroberung_des_social_web"
+%}
 
-2019-07-02 [Artificial Intelligence Platform (PFIA)](https://www.irit.fr/pfia2019/en/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/PFIA-2019/)
+{%
+  include talk.html
+    date="2019-07-02"
+    title="Artificial Intelligence Platform (PFIA)"
+    website="https://www.irit.fr/pfia2019/en/"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/PFIA-2019/"
+%}
 
-2019-07-01 [Berkman Klein](https://cyber.harvard.edu/) by Mitzi László & Justin Bingham
+{%
+  include talk.html
+    date="2019-07-01"
+    title="Berkman Klein"
+    website="https://cyber.harvard.edu/"
+    speaker="Mitzi László & Justin Bingham"
+%}
 
-2019-06-25 Postgress by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=Ao9bmFFoAB4)
+{%
+  include talk.html
+    date="2019-06-25"
+    title="Postgress"
+    speaker="Tim Berners-Lee"
+    video="https://www.youtube.com/watch?v=Ao9bmFFoAB4"
+%}
 
-2019-06-19 [Linked Data in Architecture and Construction Week](http://linkedbuildingdata.net/ldac2019/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/LDAC-2019/)
+{%
+  include talk.html
+    date="2019-06-19"
+    title="Linked Data in Architecture and Construction Week"
+    website="http://linkedbuildingdata.net/ldac2019/"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/LDAC-2019/"
+%}
 
-2019-05-28 [Blockchain, Open Education & Digital Citizenship](https://blockchaineducationfrance.fr) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Blockchain-Education-France-2019/)
+{%
+  include talk.html
+    date="2019-05-28"
+    title="Blockchain, Open Education & Digital Citizenship"
+    website="https://blockchaineducationfrance.fr"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Blockchain-Education-France-2019/"
+%}
 
-2019-04-24 [Symposium on FAIR Personal, Open and Distributed Data on the Web at the Institute of Data Science](https://www.maastrichtuniversity.nl/events/fair-personal-open-and-distributed-data-web) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/FAIR-Symposium-2019/)
+{%
+  include talk.html
+    date="2019-04-24"
+    title="Symposium on FAIR Personal, Open and Distributed Data on the Web at the Institute of Data Science"
+    website="https://www.maastrichtuniversity.nl/events/fair-personal-open-and-distributed-data-web"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/FAIR-Symposium-2019/"
+%}
 
-2019-04-10 [GhentJS Meetup](https://www.meetup.com/GhentJS/events/259984585/) by Ruben Verborgh: [slides](http://slides.verborgh.org/GhentJS-2019/#new-black)
+{%
+  include talk.html
+    date="2019-04-10"
+    title="GhentJS Meetup"
+    website="https://www.meetup.com/GhentJS/events/259984585/"
+    speaker="Ruben Verborgh"
+    slides="http://slides.verborgh.org/GhentJS-2019/#new-black"
+%}
 
-2019-04-09 [Platform Linked Data Nederland](http://www.pilod.nl/wiki/PLDN-Solid_Kick-Off_–_April_9th_2019) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/PLDN-Solid-Kick-Off-2019/) 
+{%
+  include talk.html
+    date="2019-04-09"
+    title="Platform Linked Data Nederland"
+    website="http://www.pilod.nl/wiki/PLDN-Solid_Kick-Off_–_April_9th_2019"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/PLDN-Solid-Kick-Off-2019/"
+%}
 
-2019-04-04 STRP Festival by Ruben Verborgh: [slides](https://rubenverborgh.github.io/STRP-Festival-2019/)
+{%
+  include talk.html
+    date="2019-04-04"
+    title="STRP Festival"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/STRP-Festival-2019/"
+%}
 
-2019-03-28 [T3chFest](https://t3chfest.es/2019/?lang=en) by Juan Lupión: [video](https://www.youtube.com/watch?v=zzsViU5kSlY)
+{%
+  include talk.html
+    date="2019-03-28"
+    title="T3chFest"
+    website="https://t3chfest.es/2019/?lang=en"
+    speaker="Juan Lupión"
+    video="https://www.youtube.com/watch?v=zzsViU5kSlY"
+%}
 
-2019-03-28 Beyond Data Event by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Beyond-Data-Event-2019/)
+{%
+  include talk.html
+    date="2019-03-28"
+    title="Beyond Data Event "
+    speaker="Ruben Verborgh"
+    video="https://rubenverborgh.github.io/Beyond-Data-Event-2019/"
+%}
 
-2019-03-06 [Washington Post Live](https://www.washingtonpost.com/gdpr-consent/?destination=%2fblogs%2fpost-live%2f%3f) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=eJ6IrWc7Wt4)
+{%
+  include talk.html
+    date="2019-03-06"
+    title="Washington Post Live"
+    website="https://www.washingtonpost.com/gdpr-consent/?destination=%2fblogs%2fpost-live%2f%3f"
+    speaker="Tim Berners-Lee"
+    video="https://www.youtube.com/watch?v=eJ6IrWc7Wt4"
+%}
 
-2019-03-05 [OverWeb Meetup](https://www.meetup.com/The-OverWeb/events/258908698/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/OverWeb-Meetup-Ghent-2019/)
+{%
+  include talk.html
+    date="2019-03-05"
+    title="OverWeb Meetup"
+    website="https://www.meetup.com/The-OverWeb/events/258908698/"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/OverWeb-Meetup-Ghent-2019/"
+%}
 
-2019-02-19 OSLO Inspiratienamiddag by Ruben Taelman: [slides](https://www.rubensworks.net/raw/slides/2019/oslo-solid/)
+{%
+  include talk.html
+    date="2019-02-19"
+    title="OSLO Inspiratienamiddag "
+    website="https://www.meetup.com/The-OverWeb/events/258908698/"
+    speaker="Ruben Taelman"
+    slides="https://www.rubensworks.net/raw/slides/2019/oslo-solid/"
+%}
 
-2019-02-07 [Hackers & Founders](https://hackersandfounders.nl/) by Mitzi László
+{%
+  include talk.html
+    date="2019-02-07"
+    title="Hackers & Founders"
+    website="https://hackersandfounders.nl/"
+    speaker="Mitzi László"
+%}
 
-2019-02-03 [FOSDEM](https://fosdem.org/2019/) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-FOSDEM-2019/) & [video](https://video.fosdem.org/2019/Janson/solid_web_decentralization.mp4))
+{%
+  include talk.html
+    date="2019-02-03"
+    title="FOSDEM"
+    website="https://fosdem.org/2019/"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Slides-FOSDEM-2019/"
+    video="https://video.fosdem.org/2019/Janson/solid_web_decentralization.mp4"
+%}
 
-2019-01-17 [Connected Smart Cities Conference](https://oasc.events.idloom.com/connected-smart-cities-conference-2019) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/CSCC2019/)
+{%
+  include talk.html
+    date="2019-01-17"
+    title="Connected Smart Cities Conference"
+    website="https://oasc.events.idloom.com/connected-smart-cities-conference-2019"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/CSCC2019/"
+%}
 
 ### 2018
 
-2018-12-14 [Media Fast Forward](https://www.mediafastforward.be) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Media-Fast-Forward-2018/)
+{%
+  include talk.html
+    date="2018-12-14"
+    title="Media Fast Forward"
+    website="https://www.mediafastforward.be"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Media-Fast-Forward-2018/"
+%}
 
-2019-12-12 [API Days Paris](https://www.apidays.co/paris) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-APIdays-2018/)
+{%
+  include talk.html
+    date="2019-12-12"
+    title="API Days Paris"
+    website="https://www.apidays.co/paris"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Slides-APIdays-2018/"
+%}
 
-2018-10-27 [MozFest](https://wiki.mozilla.org/Mozfest/2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=elfSzMATcB4)
+{%
+  include talk.html
+    date="2018-10-27"
+    title="MozFest"
+    website="https://wiki.mozilla.org/Mozfest/2018"
+    speaker="Tim Berners-Lee"
+    video="https://www.youtube.com/watch?v=elfSzMATcB4"
+%}
 
-2018-10-08 [ISWC 2019 Workshop on Decentralising the Semantic Web](https://iswc2018.desemweb.org) by Tim Berners-Lee & Ruben Verborgh: [slides](https://rubenverborgh.github.io/Solid-DeSemWeb-2018/) 
+{%
+  include talk.html
+    date="2018-10-08"
+    title="ISWC 2019 Workshop on Decentralising the Semantic Web"
+    website="https://iswc2018.desemweb.org"
+    speaker="Tim Berners-Lee & Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Solid-DeSemWeb-2018/"
+%}
 
-2018-09-19 [Linked Data Scholarship course at KU Leuven](https://onderwijsaanbod.kuleuven.be/syllabi/e/F0XO5AE.htm#activetab=doelstellingen_idp935024) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Solid-Lecture-2018/)
+{%
+  include talk.html
+    date="2018-09-19"
+    title="Linked Data Scholarship course at KU Leuven"
+    website="https://onderwijsaanbod.kuleuven.be/syllabi/e/F0XO5AE.htm#activetab=doelstellingen_idp935024"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Solid-Lecture-2018/"
+%}
 
-2018-09-14 [Big Data in Media workshop at the European Big Data Value Forum](https://www.european-big-data-value-forum.eu) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Slides-EBDVF-2018/)
+{%
+  include talk.html
+    date="2018-09-14"
+    title="Big Data in Media workshop at the European Big Data Value Forum"
+    website="https://www.european-big-data-value-forum.eu"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Slides-EBDVF-2018/"
+%}
 
-2018-09-13 Web Foundation Seminar by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Web-Foundation-2018/)
+{%
+  include talk.html
+    date="2018-09-13"
+    title="Web Foundation Seminar "
+    website="https://www.european-big-data-value-forum.eu"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Web-Foundation-2018/"
+%}
 
-2018-09-06 [OSLC Fest](http://www.oslcfest.org) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/OSLC-Fest-2018/)
+{%
+  include talk.html
+    date="2018-09-06"
+    title="OSLC Fest"
+    website="http://www.oslcfest.org"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/OSLC-Fest-2018/"
+%}
 
-2018-08-23 [ePIC](https://epic.openrecognition.org) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/ePIC-2018/)
+{%
+  include talk.html
+    date="2018-08-23"
+    title="ePIC"
+    website="https://epic.openrecognition.org"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/ePIC-2018/"
+%}
 
-2018-08-02 [Decentralized Web Summit](https://decentralizedwebsummit2018.sched.com/) by Ruben Verborgh: [video](https://www.decentralizedweb.net/videos/talk-solid-empowering-people-through-choice/) & [slides](https://decentralizedwebsummit2018.sched.com/)
+{%
+  include talk.html
+    date="2018-08-02"
+    title="Decentralized Web Summit"
+    website="https://decentralizedwebsummit2018.sched.com/"
+    speaker="Ruben Verborgh"
+    slides="https://decentralizedwebsummit2018.sched.com/"
+    video="https://www.decentralizedweb.net/videos/talk-solid-empowering-people-through-choice/"
+%}
 
-2018-06-05 [International Conference of the European Library Automation Group (ELAG)](https://www.elag2018.org) by Ruben Verborgh: [slides](http://slides.verborgh.org/ELAG-2018/) 
+{%
+  include talk.html
+    date="2018-06-05"
+    title="International Conference of the European Library Automation Group (ELAG)"
+    website="https://www.elag2018.org"
+    speaker="Ruben Verborgh"
+    slides="http://slides.verborgh.org/ELAG-2018/"
+%} 
 
-2018-05-28 - [ACM Turing Lecture - Utopia to Dystopia in 29 short years](https://www.w3.org/2018/Talks/0529-timbl-turing/timbl-turing-slides-utopia-to-dystopia.html)
+{%
+  include talk.html
+    date="2018-05-28"
+    title="ACM Turing Lecture - Utopia to Dystopia in 29 short years"
+    website="https://www.w3.org/2018/Talks/0529-timbl-turing/timbl-turing-slides-utopia-to-dystopia.html"
+    speaker="Tim Berners-Lee"
+%} 
 
-2018-05-15 [EuropeanaTech](https://pro.europeana.eu/event/europeanatech-conference-2018) by Ruben Verborgh: [video](https://www.youtube.com/watch?v=oT8sft3YM54) & [slides](https://rubenverborgh.github.io/EuropeanaTech-2018/)
+{%
+  include talk.html
+    date="2018-05-15"
+    title="EuropeanaTech"
+    website="https://pro.europeana.eu/event/europeanatech-conference-2018"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/EuropeanaTech-2018/"
+    video="https://www.youtube.com/watch?v=oT8sft3YM54"
+%}
 
-2018-05-15 [Connect](https://www.mulesoft.com/press-center/connect-2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=of9Anv5Yv_k) 
+{%
+  include talk.html
+    date="2018-05-15"
+    title="Connect"
+    website="https://www.mulesoft.com/press-center/connect-2018"
+    speaker="Tim Berners-Lee"
+    video="https://www.youtube.com/watch?v=of9Anv5Yv_k"
+%}
 
-2018-04-14 [GraphQlL Day](https://www.graphqlday.org) by Ruben Verborgh: [video](https://www.youtube.com/watch?v=LUF7plExdv8) & [slide](http://slides.verborgh.org/GraphQL-Day-2018/) 
+{%
+  include talk.html
+    date="2018-04-14"
+    title="GraphQlL Day"
+    website="https://www.graphqlday.org"
+    speaker="Ruben Verborgh"
+    slides="http://slides.verborgh.org/GraphQL-Day-2018/"
+    video="https://www.youtube.com/watch?v=LUF7plExdv8"
+%}
 
-2018-04-28 - [ Researcher-Centric Scholarly Communication workshop at The Web Conf 2018 - Building a researcher-centric world on the user-centric platform, Solid](https://linkedresearch.org/events/the-web-conf-2018/summary#researcher-centric-solid)
+{%
+  include talk.html
+    date="2018-04-28"
+    title="Researcher-Centric Scholarly Communication workshop at The Web Conf 2018 - Building a researcher-centric world on the user-centric platform, Solid"
+    website="https://linkedresearch.org/events/the-web-conf-2018/summary#researcher-centric-solid"
+    speaker="Tim Berners-Lee"
+%}
 
-2018-03-22 [Blockchain Core Summit](https://underscore.vc/blockchain) by Ruben Verborgh: [slides](https://rubenverborgh.github.io/Blockchain-Core-Summit-2018/)
+{%
+  include talk.html
+    date="2018-03-22"
+    title="Blockchain Core Summit"
+    website="https://underscore.vc/blockchain"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Blockchain-Core-Summit-2018/"
+%}
 
-2018-01-06 [GoTo Conference](https://gotocph.com/2018) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=Rxqko96C5ZI)
+{%
+  include talk.html
+    date="2018-01-06"
+    title="GoTo Conference"
+    website="https://gotocph.com/2018"
+    speaker="Tim Berners-Lee"
+    video="https://www.youtube.com/watch?v=Rxqko96C5ZI"
+%}
 
 ### 2017
 
-2017-12-12 [CNI Fall 2017 Meeting - Herbert van der Sompel](https://www.slideshare.net/hvdsomp/paul-evan-peters-lecture/)
+{%
+  include talk.html
+    date="2017-12-12"
+    title="CNI Fall 2017 Meeting - Herbert van der Sompel"
+    speaker="Herbert van der Sompel"
+    slides="https://www.slideshare.net/hvdsomp/paul-evan-peters-lecture/"
+%}
+
 
 ### 2016
 
-2016-07-08 [Decentralised Web Summit](https://2016.decentralizedweb.net) by Tim Berners-Lee: [video](https://www.youtube.com/watch?v=CbGWoMkNLjs&t=17s)
+{%
+  include talk.html
+    date="2016-07-08"
+    title="Decentralised Web Summit"
+    website="https://2016.decentralizedweb.net"
+    speaker="Tim Berners-Lee"
+    video="https://www.youtube.com/watch?v=CbGWoMkNLjs&t=17s"
+%}
 
-2016-04-07 IPRI meeting: [slides](https://slides.com/deiu/redecentralize-2015#/)
-
-2016-03-24 W3C Developers Meetup in Boston: [slides](https://slides.com/deiu/redecentralize-2015#/)
+{%
+  include talk.html
+    date="2016-04-07"
+    title="IPRI meeting"
+    website="https://2016.decentralizedweb.net"
+    speaker="Andrei Sambra & Nicola Greco"
+    slides="https://slides.com/deiu/redecentralize-2015#/"
+%}
 
 ### 2015
 
-2015-10-18 [Redecentralize conference](https://slides.com/deiu/redecentralize-2015#/) - [slide](https://github.com/solid/talks/blob/master/slides-redecentralize-conf.html) & [video](https://www.youtube.com/watch?v=yi4SgNyDJ9w)
+{%
+  include talk.html
+    date="2015-10-18"
+    title="Redecentralize conference"
+    website="https://slides.com/deiu/redecentralize-2015#/"
+    speaker="Andrei Sambra & Nicola Greco"
+    slides="https://github.com/solid/talks/blob/master/slides-redecentralize-conf.html"
+    video="https://www.youtube.com/watch?v=yi4SgNyDJ9w"
+%}
 
-2015-10-13 [Cambridge Semantic Web Meetup](http://slides.com/deiu/solid-tech#/): [slides](https://github.com/solid/talks/blob/master/slides-solid-tech.html)
+{%
+  include talk.html
+    date="2015-10-13"
+    title="Cambridge Semantic Web Meetup"
+    website="http://slides.com/deiu/solid-tech#/"
+    speaker="Andrei Sambra"
+    slides="https://github.com/solid/talks/blob/master/slides-solid-tech.html"
+%}
 
-2015-09-25 - [Web.br](http://conferenciaweb.w3c.br/): [slides](https://github.com/solid/talks/blob/master/slides-re-decentralize.html) & [video](https://www.youtube.com/watch?v=BPZiBDPKiGk)
+{%
+  include talk.html
+    date="2015-09-25"
+    title="Web.br"
+    website="http://conferenciaweb.w3c.br/"
+    speaker="Andrei Sambra & Nicola Greco"
+    slides="https://github.com/solid/talks/blob/master/slides-re-decentralize.html"
+    video="https://www.youtube.com/watch?v=BPZiBDPKiGk"
+%}
 
 ## Mentions of Solid in Articles
 
