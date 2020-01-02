@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: Solid
 email: info@solidproject.org
-baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://solidproject.org/'
 twitter_username: project_solid
 github_username: solid
