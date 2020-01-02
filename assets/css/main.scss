@@ -22,6 +22,12 @@ $dark: $black-ter;
 $text-strong: $text;
 $link: $primary;
 
+:root {
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
+}
+
 // Content
 .content {
   a {
