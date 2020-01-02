@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v2/for-developers
 title: "Use Apache as a reverse proxy"
 permalink: for-developers/pod-server/apache
 tags: [pod-server]

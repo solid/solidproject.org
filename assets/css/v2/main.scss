@@ -1,6 +1,8 @@
 ---
 ---
 @import './lato-font.scss';
+@import './rouge-themes/monokai.scss';
+
 @charset "utf-8";
 
 $family-sans-serif: "Lato", sans-serif;
@@ -36,6 +38,9 @@ $navbar-item-img-max-height: 3rem;
 // We haven't written the code to display the burger menu, so keep showing the regular menu:
 $navbar-breakpoint: 0;
 
+// Breadcrumbs
+$breadcrumb-item-padding-vertical: $size-small;
+
 // Footer
 $footer-background-color: $dark;
 $footer-color: $grey-lighter;
@@ -48,6 +53,7 @@ $footer-color: $grey-lighter;
 @import "bulma-0.8.0/sass/elements/image.sass";
 @import "bulma-0.8.0/sass/elements/title.sass";
 @import "bulma-0.8.0/sass/form/_all.sass";
+@import "bulma-0.8.0/sass/components/breadcrumb.sass";
 @import "bulma-0.8.0/sass/components/card.sass";
 @import "bulma-0.8.0/sass/components/menu.sass";
 @import "bulma-0.8.0/sass/components/message.sass";
@@ -56,6 +62,10 @@ $footer-color: $grey-lighter;
 @import "bulma-0.8.0/sass/grid/columns.sass";
 @import "bulma-0.8.0/sass/layout/section.sass";
 @import "bulma-0.8.0/sass/layout/footer.sass";
+
+#breadcrumb {
+  border-bottom: 1px solid $grey-lightest;
+}
 
 // Cards in the "Why you'll love" carousel should be about ten times the height
 // of a line of its contents, leaving room for about two heading lines and three content lines,
@@ -170,4 +180,9 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
     // footer's dark background:
     filter: invert(1);
   }
+}
+
+.codesandbox-button-wrapper {
+  display: block;
+  text-align: right;
 }

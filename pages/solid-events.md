@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: v2/page
 title: Solid Events
 permalink: /events
 ---
@@ -13,7 +13,7 @@ Solid Events are an opportunity for the Solid community to meet in person locall
 |------|-------|--------------|
 |2019-01-30|[Solid Amsterdam](http://www.pilod.nl/wiki/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020)|[Jeroen van Beele](https://github.com/jjvbeele) |
 
-(past events are [listed below](https://github.com/solid/information/blob/master/solid-events.md#past-events))
+(past events are [listed below](#past-events))
 
 Solid Events are run by people like you. Here you can find a comprehensive guide to help you along the way. 
 

@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Week Updates 2019-09-26
+layout: v2/this-week-in-solid
+title: This Week in Solid 2019-09-26
 permalink: /this-week-in-solid/2019-09-26
 tags: [weekly, updates]
 categories: [Updates]
@@ -9,15 +9,7 @@ author: Mitzi László
 
 # 26th September 2019
 
-Hello and welcome to another edition of *This Week in Solid*!
-
-[Solid](https://solidproject.org/) is a set of open specifications, built on existing open standards, that describes how to build applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel).
-
-This is a weekly summary of Solid progress.
-
-Want something mentioned? Contact the Solid Manager at info@solidproject.org or [send a pull request](https://github.com/solid/information/edit/master/weekly-updates/next.md). Want to get involved? [Contributions are welcome](https://github.com/solid/information#develop).
-
-This Week in Solid is openly developed [on GitHub](https://github.com/solid/information/edit/master/weekly-updates/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
+{% include v2/twis-intro.md %}
 
 ## Weekly Solid Call
 Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. This week Jim, Alessandra, Dan, Michiel, Jackson, Justin, and Dmitri tuned in and we had a round of introductions. Then we talked through the activity in the panels this week which included: data interoperability, authorisation and access control, and authentication. The [issues on the specification respository](https://github.com/solid/specification/issues) define the scope of work that needs to be done, there was an invitation to read through these, comment and add any issues that you feel are missing. 

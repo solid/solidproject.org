@@ -1,14 +1,10 @@
 ---
-layout: pages
-title: faqs
+layout: v2/page
+title: Frequently Asked Questions
 permalink: faqs
 ---
 
 Got a question that's not here? Try asking on the [Solid forum](https://forum.solidproject.org) or the [Solid tag on Stackoverflow](https://stackoverflow.com/questions/tagged/solid). 
-
-* Table of Contents
-{:toc}
-
 
 # Definitions
 

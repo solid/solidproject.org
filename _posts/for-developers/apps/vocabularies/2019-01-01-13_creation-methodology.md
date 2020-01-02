@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v2/for-developers
 title: "NeOn, a vocabulary creation methodology"
 permalink: /for-developers/apps/vocabularies/create/methodology
 tags: [apps]

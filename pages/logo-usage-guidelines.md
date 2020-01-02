@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: v2/page
 title: Solid Logo Usage Guidelines
 permalink: logo-usage-guidelines
 ---

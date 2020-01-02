@@ -14,6 +14,7 @@
 
   <body>
     {% include v2/header.html %}
+
     {% if site.baseurl == "https://solid.github.io" %}
       <div class="message is-danger is-large" role="alert">
         <div class="message-body">
@@ -21,6 +22,7 @@
         </div>
       </div>
     {% endif %}
+    {% include v2/breadcrumbs.html %}
     <main>
       {{ content }}
     </main>

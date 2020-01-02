@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v2/for-developers
 title: "Vocabulary building best practices"
 permalink: /for-developers/apps/vocabularies/create/best-practices
 tags: [apps]

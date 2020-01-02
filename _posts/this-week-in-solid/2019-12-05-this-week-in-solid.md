@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Week Updates 2019-12-05
+layout: v2/this-week-in-solid
+title: This Week in Solid 2019-12-05
 permalink: /this-week-in-solid/2019-12-05
 tags: [weekly, updates]
 categories: [Updates]

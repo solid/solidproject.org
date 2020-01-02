@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: v2/page
 title: Funding
 permalink: for-developers/funding
 ---

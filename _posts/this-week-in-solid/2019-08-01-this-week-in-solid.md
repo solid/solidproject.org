@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Week Updates 2019-08-01
+layout: v2/this-week-in-solid
+title: This Week in Solid 2019-08-01
 permalink: /this-week-in-solid/2019-08-01
 tags: [weekly, updates]
 categories: [Updates]
@@ -9,13 +9,7 @@ author: Mitzi László
 
 # 1st August 2019
 
-Hello and welcome to another issue of This Week in Solid!
-
-[Solid](https://solidproject.org/) is a specification for building apps with separate data storage. If you have a suggestion on how to improve this description [submit a pull request](https://github.com/solid/roadmap/blob/master/what-is-solid.md). This is a weekly summary of its progress and community. 
-
-Want something mentioned? Contact the Solid Manager at info@solidproject.org or [send a pull request](https://github.com/solid/information/edit/master/weekly-updates/next.md). Want to get involved? [Contributions are welcome](https://github.com/solid/information#develop).
-
-This Week in Solid is openly developed [on GitHub](https://github.com/solid/information/edit/master/weekly-updates/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
+{% include v2/twis-intro.md %}
 
 ## Updates from the Solid Community
 

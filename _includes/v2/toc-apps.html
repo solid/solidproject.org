@@ -4,14 +4,32 @@
   {% for cat in categories_list %}
     {% if cat == page.categories[0] %}
       <li>
-        {{ cat }}
+        {% if cat == "Writing a Solid application"%}
+          <a href="/for-developers/apps/first-app">{{ cat }}</a>
+        {% elsif cat == "Vocabularies" %}
+          <a href="/for-developers/apps/vocabularies">{{ cat }}</a>
+        {% elsif cat == "Common patterns" %}
+          <a href="/for-developers/apps/common-patterns">{{ cat }}</a>
+        {% elsif cat == "Tools and libraries" %}
+          <a href="/for-developers/apps/tools">{{ cat }}</a>
+        {% endif %}
         <!-- This is for categories with sub-categories -->
         {% if page.categories[1] %}
           {% for subcat in subcategories_list %}
             <ul>
               <li>
                 {% if subcat == page.categories[1] %}
-                  {{ subcat }}
+                  {% if subcat == "Overview" %}
+                    <a href="/for-developers/apps/vocabularies">{{ subcat }}</a>
+                  {% elsif subcat == "Quickstart" %}
+                    <a href="/for-developers/apps/vocabularies/create/quickstart"></a>{{ subcat }}</a>
+                  {% elsif subcat == "Discover" %}
+                    <a href="/for-developers/apps/vocabularies/well-known">{{ subcat }}</a>
+                  {% elsif subcat == "Create" %}
+                    <a href="/for-developers/apps/vocabularies/create">{{ subcat }}</a>
+                  {% elsif subcat == "Code" %}
+                    <a href="/for-developers/apps/vocabularies/code">{{ subcat }}</a>
+                  {% endif %}
                   <ul>
                     {% for post in site.categories[cat] reversed %}
                       {% if post.categories[1] == subcat %}
@@ -20,7 +38,7 @@
                             href="{{ post.url }}"
                             {% if page.url == post.url %} class="is-active" {% endif %}
                           >{{ post.title }}</a>
-                        </li
+                        </li>
                       {% endif %}
                     {% endfor %}
                   </ul>
@@ -53,6 +71,7 @@
           </ul>
         {% endif %}
       </li>
+                    <a href="/for-developers/apps/vocabularies">{{ subcat }}</a>
     {% else %}
       <li>
         {% if cat == "Writing a Solid application"%}

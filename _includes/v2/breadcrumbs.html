@@ -1,0 +1,41 @@
+{% if page.url != "/" %}
+  <nav id="breadcrumb" class="breadcrumb">
+    <div class="container">
+      <ul>
+        <li>
+          <a href="{{site.baseurl}}/">
+            Home
+          </a>
+        </li>
+        {% if page.url contains '/use-solid/' %}
+          <li>
+            <a href="{{site.baseurl}}/use-solid/">
+              Use Solid
+            </a>
+          </li>
+        {% endif %}
+        {% if page.url contains '/for-developers/' %}
+          <li>
+            <a href="{{site.baseurl}}/for-developers/">
+              For developers
+            </a>
+          </li>
+        {% endif %}
+        {% if page.url contains '/for-enterprises/' %}
+          <li>
+            <a href="{{site.baseurl}}/for-enterprises/">
+              For enterprises
+            </a>
+          </li>
+        {% endif %}
+        {% if page.title %}
+          <li>
+            <a href="{{site.baseurl + page.url}}">
+              {{ page.title }}
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+{% endif %}
