@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: for-developers
 title: "Step 3: Reading data"
 permalink: /for-developers/apps/first-app/3-reading-data
 tags: [apps]

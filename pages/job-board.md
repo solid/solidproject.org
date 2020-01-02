@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: page
 title: "Job Board"
 permalink: job-board
 ---

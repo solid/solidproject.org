@@ -1,23 +1,41 @@
-<nav class="solid-breadcrumbs col-xs-12">
-    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-    <div class="solid-breadcrumbs-container row">
-        <ul class="col-xs-10 col-sm-12">
-            <li><a href="/">Home</a> ></li>
-            {% for crumb in crumbs offset: 1 %}
-            {% if forloop.last %}
-            <li>{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
-            {% else %}
-            <li>
-                <a
-                    href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb }}{% if forloop.index != crumb_limit %}/{% endif %}{% endfor %}">
-                    {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} &gt;
-                </a>
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-        <div class="menu-mobile menu-mobile-aside col-xs-2">
-            <button><i class="far"></i></button>
-        </div>
+{% if page.url != "/" %}
+  <nav id="breadcrumb" class="breadcrumb">
+    <div class="container">
+      <ul>
+        <li>
+          <a href="{{site.baseurl}}/">
+            Home
+          </a>
+        </li>
+        {% if page.url contains '/use-solid/' %}
+          <li>
+            <a href="{{site.baseurl}}/use-solid/">
+              Use Solid
+            </a>
+          </li>
+        {% endif %}
+        {% if page.url contains '/for-developers/' and page.url != '/for-developers/' %}
+          <li>
+            <a href="{{site.baseurl}}/for-developers/">
+              For developers
+            </a>
+          </li>
+        {% endif %}
+        {% if page.url contains '/for-enterprises/' and page.url != '/for-enterprises/' %}
+          <li>
+            <a href="{{site.baseurl}}/for-enterprises/">
+              For enterprises
+            </a>
+          </li>
+        {% endif %}
+        {% if page.title %}
+          <li>
+            <a href="{{site.baseurl + page.url}}">
+              {{ page.title }}
+            </a>
+          </li>
+        {% endif %}
+      </ul>
     </div>
-</nav>
+  </nav>
+{% endif %}

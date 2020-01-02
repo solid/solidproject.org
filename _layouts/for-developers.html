@@ -1,0 +1,23 @@
+---
+layout: base
+---
+<div class="container">
+  <div class="columns">
+    <div class="column is-two-thirds">
+      <article class="section content">
+        {{ content }}
+      </article>
+    </div>
+    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
+      <div class="menu is-large">
+        {% if page.tags[0] == "apps" %}
+          {% include toc-apps.html %}
+        {% elsif page.tags[0] == "pod-server" %}
+          {% include toc-pod-server.html %}
+        {% else %}
+          {% include toc.html html=content class="menu-list" %}
+        {% endif %}
+      </div>
+    </aside>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: for-developers
 title: "Step 1: identifying the user"
 permalink: /for-developers/apps/first-app/1-authentication
 tags: [apps]

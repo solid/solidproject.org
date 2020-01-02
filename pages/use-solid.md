@@ -1,7 +1,7 @@
 ---
-layout: home-pages
+layout: page
 title: Use Solid Apps
-permalink: /use-solid
+permalink: /use-solid/
 ---
 
 # Using Solid apps

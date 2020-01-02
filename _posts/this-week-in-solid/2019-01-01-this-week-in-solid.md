@@ -1,7 +1,8 @@
 ---
-layout: blog
+layout: this-week-in-solid
 title: This Week in Solid
 permalink: /this-week-in-solid
+exclude: true
 ---
 
 Hand-picked Solid updates delivered to you.
@@ -39,22 +40,3 @@ We're currently working on next week's edition. You can contribute by [making a 
 * [1st August 2019]({{site.baseUrl}}/this-week-in-solid/2019-08-01)
 * [25th July 2019]({{site.baseUrl}}/this-week-in-solid/2019-07-25)
 * [18th July 2019]({{site.baseUrl}}/this-week-in-solid/2019-07-18)
-
- <form
-      action="https://tinyletter.com/ThisWeekInSolid"
-      class="newsletter-form"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://tinyletter.com/ThisWeekInSolid', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-    >
-      <p>
-        <label for="tlemail">
-          Leave your email address to get a bite-sized overview of everything Solid, delivered straight to your inbox once a week.
-        </label>
-      </p>
-      <p>
-        <input type="email" name="email" placeholder="yourmail@example.com" id="tlemail"/>
-      </p>
-      <input type="hidden" value="1" name="embed"/>
-      <input type="submit" value="Subscribe" />
-    </form>

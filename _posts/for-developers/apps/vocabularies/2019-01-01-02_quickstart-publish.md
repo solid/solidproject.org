@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: for-developers
 title: "Publish your vocabulary on your Pod"
 permalink: /for-developers/apps/vocabularies/publish/quickstart
 tags: [apps]

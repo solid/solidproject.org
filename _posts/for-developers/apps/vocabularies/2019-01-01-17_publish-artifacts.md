@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: for-developers
 title: "Publish your vocabulary as code artifacts"
 permalink: /for-developers/apps/vocabularies/publish/artifacts
 tags: [apps]

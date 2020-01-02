@@ -1,0 +1,17 @@
+---
+layout: base
+---
+<div class="container">
+  <div class="columns">
+    <div class="column is-two-thirds">
+      <article class="section content">
+        {{ content }}
+      </article>
+    </div>
+    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
+      <div class="menu is-large">
+        {% include toc.html html=content class="menu-list" %}
+      </div>
+    </aside>
+  </div>
+</div>

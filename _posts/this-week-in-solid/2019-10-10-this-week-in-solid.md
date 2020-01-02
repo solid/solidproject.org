@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Week Updates 2019-10-10
+layout: this-week-in-solid
+title: This Week in Solid 2019-10-10
 permalink: /this-week-in-solid/2019-10-10
 tags: [weekly, updates]
 categories: [Updates]
@@ -9,17 +9,7 @@ author: Mitzi László
 
 # 10th October 2019
 
-Hello and welcome to another edition of *This Week in Solid*! 
-
-If you are familiar with This Week in Solid [click here](#weekly-solid-call) to go directly to the newest information . 
-
-[Solid](https://solidproject.org/) is a set of open specifications, built on existing open standards, that describes how to build applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along. If you have a suggestion on how to improve this description you may be interested in [joining the Explaining the Vision panel](https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel) who are working on describing [Solid in a Nutshell](https://github.com/solid/Explaining-the-Vision-Panel).
-
-This is a weekly summary of Solid progress.
-
-Want something mentioned? Contact the Solid Manager at info@solidproject.org or [send a pull request](https://github.com/solid/information/edit/master/weekly-updates/next.md). Want to get involved? [Contributions are welcome](https://github.com/solid/information#develop).
-
-This Week in Solid is openly developed [on GitHub](https://github.com/solid/information/edit/master/weekly-updates/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/information/pulls).
+{% include twis-intro.md %}
 
 ## Weekly Solid Call
 Every Thursday there is an hour long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks works on Solid. 

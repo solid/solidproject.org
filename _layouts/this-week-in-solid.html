@@ -1,0 +1,30 @@
+---
+layout: base
+---
+<div class="container">
+  <div class="columns">
+    <div class="column is-two-thirds">
+      <article class="section content">
+
+        {{ content }}
+      </article>
+
+      {% include newsletter.html %}
+    </div>
+    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
+      <div class="menu is-large">
+        {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
+          {% for yearMonth in postsByYearMonth %}
+            <p class="menu-label">{{ yearMonth.name }}</p>
+            <ul class="menu-list">
+                {% for post in yearMonth.items %}
+                  {% unless post.exclude %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                  {% endunless %}
+                {% endfor %}
+            </ul>
+          {% endfor %}
+      </div>
+    </aside>
+  </div>
+</div>

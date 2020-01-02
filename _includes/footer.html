@@ -1,142 +1,60 @@
-<footer class="solid-footer">
-  <nav>
-    <ul class="solid-footer-menu row">
-      <li class="col-xs-12 col-sm-3">
-        <ul class="sub-links">
-          <li>
-            <span class="home-link">
-              <a href="{{ site.baseurl }}/" title="Homepage">
-                Home
-              </a>
-            </span>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/use-solid" title="Applicable licenses">
-              Use Solid
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/implement" title="Get support to implement Solid for your organisation">
-              Implement Solid
-            </a>
-          </li>  
-          <li>
-            <a href="{{ site.baseurl }}/team" title="How and when can you use the Solid logo?">
-              Team
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/faqs" title="Frequently asked questions">
-              FAQs
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li class="col-xs-12 col-sm-3">
-        <ul class="sub-links">
-          <li>
-            <h3>What's New</h3>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/this-week-in-solid" title="Weekly updates of everything that's happening in Solid">
-              This Week in Solid
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/press" title="How and when can you use the Solid logo?">
-              Press
-            </a>
-          </li>        
-          <li>
-            <a href="{{ site.baseurl }}/events" title="What Solid-related events are planned?">
-              Solid Events
-            </a>
-          </li>  
-        </ul>
-      </li>    
-      <li class="col-xs-12 col-sm-3">
-        <ul class="sub-links">
-          <li>
-            <h3>
-              <a href="{{ site.baseurl }}/for-developers" title="Information for developers">
-                For Developers
-              </a>
-            </h3>
-          </li>    
-          <li>
-            <a href="{{ site.baseurl }}/for-developers/apps" title="Tutorials about writing Solid applications">
-              Writing apps
-            </a>
-          </li>
-          <li>
-            <a href="{{site.baseUrl}}/for-developers/pod-server" title="Tutorials on runnign your own Pod server">
-              Running a Pod server
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/funding" title="Where to find funding for building things with Solid">
-              Funding
-            </a>
-          </li>
-          <li>
-            <a href="https://forum.solidproject.org" title="Forum">
-              Forum
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li class="col-xs-12 col-sm-3">
-        <ul class="sub-links">
-          <li>
-            <h3>More</h3>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/standardisation" title="The process of standardising Solid">
-              Standardisation
-            </a>
-          </li>
-          <li>
-            <a href="{{ site.baseurl }}/license" title="The licenses we use">
-              License
-            </a>
-          </li>    
-          <li>
-            <a href="{{ site.baseurl }}/logo-usage-guidelines" title="How and when can you use the Solid logo?">
-              Logo Usage Guidelines
-            </a>
-          </li>
-        </ul>
-      </li>    
-    </ul>
-  </nav>
-  <div class="solid-bottom-footer row">
-    <div class="solid-copyright col-xs-12">
-      <img src="{{ site.baseurl }}/assets/img/solid-emblem.svg" alt="[Solid logo]" />
-      <nav>
-        <ul>
-          <li>
-            <a href="mailto:info@solidproject.org">info@solidproject.org</a>
-          </li>
-          <li>
-            <a href="https://github.com/solid/" title="Solid on GitHub">
-              <img
-                src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/github.svg"
-                alt="GitHub"
-                class="icon"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/project_solid" title="Solid on Twitter">
-              <img
-                src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/twitter.svg"
-                alt="Twitter"
-                class="icon"
-              />
-            </a>
-          </li>
-        </ul>
-      </nav>
+<footer id="footer" class="footer">
+  <div class="container">
+    <div class="columns">
+      {% for item in site.data.footer %}
+        <div class="column">
+          <ul>
+            <li>
+              {% if item.link %}
+                <a class="title is-size-5" href="{{ item.link }}">{{ item.name }}</a>
+              {% else %}
+                <span class="title is-size-5">{{item.name}}</span>
+              {% endif %}
+            </li>
+            {% for subitem in item.sublinks %}
+              <li>
+                {% if subitem.link %}
+                  <a class="is-size-5" href="{{ subitem.link }}">{{ subitem.name }}</a>
+                {% else %}
+                  <span class="is-size-5">{{subitem.name}}</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
     </div>
   </div>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{site.baseUrl}}/">
+        <img
+          src="{{ site.baseurl }}/assets/img/solid-emblem.svg"
+          alt="[Solid logo]"
+        />
+      </a>
+      <a class="navbar-item" href="mailto:info@solidproject.org">
+        info@solidproject.org
+      </a>
+      <a class="navbar-item" href="https://github.com/solid/" title="Solid on GitHub">
+        <span class="image is-24x24">
+          <img
+            src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/github.svg"
+            alt="GitHub"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+      <a class="navbar-item" href="https://twitter.com/project_solid" title="Solid on Twitter">
+        <span class="image is-24x24">
+          <img
+            src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/twitter.svg"
+            alt="Twitter"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+    </div>
+  </nav>
 </footer>
