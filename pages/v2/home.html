@@ -17,68 +17,30 @@ permalink: /v2/
 </section>
 
 <div id="landing-content">
-  <section id="why-carousel" class="section">
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          {%
-            include v2/card.html
-              icon="dolly"
-              heading="Move freely between services"
-              content="Switch to the best tools and take your data with you."
-          %}
-        </div>
-        <div class="column">
-          {%
-            include v2/card.html
-              icon="recycle"
-              heading="Reuse data across apps"
-              content="Stop re-entering the same data again and again by recycling data from app to app."
-          %}
-        </div>
-        <div class="column">
-          {%
-            include v2/card.html
-              icon="users"
-              heading="Connect with anyone"
-              content="Connect to your friends no matter what app they are using."
-          %}
-        </div>
-        <div class="column">
-          {%
-            include v2/card.html
-              icon="crosshairs"
-              heading="Select what you share precisely"
-              content="Give access to the bare minimum of data needed for the service to work."
-          %}
-        </div>
-      </div>
-    </div>
-  </section>
+  {%
+    include v2/why-carousel.html
+      icon1="dolly"
+      heading1="Move freely between services"
+      content1="Switch to the best tools and take your data with you."
+      icon2="recycle"
+      heading2="Reuse data across apps"
+      content2="Stop re-entering the same data again and again by recycling data from app to app."
+      icon3="users"
+      heading3="Connect with anyone"
+      content3="Connect to your friends no matter what app they are using."
+      icon4="crosshairs"
+      heading4="Select what you share precisely"
+      content4="Give access to the bare minimum of data needed for the service to work."
+  %}
 
-  <section id="role-picker" class="hero is-medium">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title has-text-centered is-size-3 is-size-2-tablet is-size-2-desktop">
-          Find out why you'll love Solid
-        </h1>
-        <div class="section field is-grouped">
-          <div class="control">
-            <a
-              href="{{site.baseUrl}}/for-developers"
-              class="button is-large is-primary is-rounded is-uppercase"
-            >As a developer</a>
-          </div>
-          <div class="control">
-            <a
-              href="{{site.baseUrl}}/for-enterprises"
-              class="button is-large is-primary is-rounded is-uppercase"
-            >As an enterprise</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  {%
+    include v2/choose-your-own-adventure.html
+      heading="Find out why you'll love Solid"
+      link1="/for-developers"
+      adventure1="As a developer"
+      link2="/for-enterprises"
+      adventure2="As an enterprise"
+  %}
 
   <div id="tour">
     <section class="section">
@@ -143,39 +105,6 @@ permalink: /v2/
     </section>
   </div>
 
-  <div class="section columns">
-    <div class="column is-half-desktop is-offset-one-quarter-desktop">
-      <form
-        action="https://tinyletter.com/ThisWeekInSolid"
-        class="card"
-        method="post"
-        target="popupwindow"
-        onsubmit="window.open('https://tinyletter.com/ThisWeekInSolid', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-      >
-        <div class="card-body section">
-          <h2 class="title">
-            <a href="{{site.baseUrl}}/this-week-in-solid" title="View past editions of This Week in Solid">
-              This Week in Solid
-            </a>
-          </h2>
-          <p class="content">
-            <label for="tlemail">
-              Leave your email address to get a bite-sized overview of everything Solid, delivered straight to your inbox once a week.
-            </label>
-          </p>
-          <div class="field">
-            <div class="control">
-              <input class="input is-large" type="email" name="email" placeholder="yourmail@example.com" id="tlemail"/>
-            </div>
-          </div>
-          <input type="hidden" value="1" name="embed"/>
-          <div class="field">
-            <div class="control">
-              <input type="submit" class="button is-large" value="Subscribe" />
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
+  {% include v2/newsletter.html %}
+
 </div>

@@ -1,0 +1,70 @@
+{% assign categories_list = "Writing a Solid application AND Vocabularies AND Common patterns AND Tools and libraries" | split: " AND " %}
+{% assign subcategories_list = "Overview AND Quickstart AND Discover AND Create AND Code AND Other" | split: " AND " %}
+<ul class="menu-list">
+  {% for cat in categories_list %}
+    {% if cat == page.categories[0] %}
+      <li>
+        {{ cat }}
+        <!-- This is for categories with sub-categories -->
+        {% if page.categories[1] %}
+          {% for subcat in subcategories_list %}
+            <ul>
+              <li>
+                {% if subcat == page.categories[1] %}
+                  {{ subcat }}
+                  <ul>
+                    {% for post in site.categories[cat] reversed %}
+                      {% if post.categories[1] == subcat %}
+                        <li>
+                          <a
+                            href="{{ post.url }}"
+                            {% if page.url == post.url %} class="is-active" {% endif %}
+                          >{{ post.title }}</a>
+                        </li
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  {% if subcat == "Overview" %}
+                    <a href="/for-developers/apps/vocabularies">{{ subcat }}</a>
+                  {% elsif subcat == "Quickstart" %}
+                    <a href="/for-developers/apps/vocabularies/create/quickstart"></a>{{ subcat }}</a>
+                  {% elsif subcat == "Discover" %}
+                    <a href="/for-developers/apps/vocabularies/well-known">{{ subcat }}</a>
+                  {% elsif subcat == "Create" %}
+                    <a href="/for-developers/apps/vocabularies/create">{{ subcat }}</a>
+                  {% elsif subcat == "Code" %}
+                    <a href="/for-developers/apps/vocabularies/code">{{ subcat }}</a>
+                  {% endif %}
+                {% endif %}
+              </li>
+            </ul>
+          {% endfor %}
+        {% else %}
+          <!-- List all posts in the category (no subcategories) -->
+          <ul>
+            {% for post in site.categories[cat] reversed %}
+              <li>
+                <a
+                  href="{{ post.url }}"
+                  {% if page.url == post.url %} class="is-active" {% endif %}
+                >{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% else %}
+      <li>
+        {% if cat == "Writing a Solid application"%}
+          <a href="/for-developers/apps/first-app">{{ cat }}</a>
+        {% elsif cat == "Vocabularies" %}
+          <a href="/for-developers/apps/vocabularies">{{ cat }}</a>
+        {% elsif cat == "Common patterns" %}
+          <a href="/for-developers/apps/common-patterns">{{ cat }}</a>
+        {% elsif cat == "Tools and libraries" %}
+          <a href="/for-developers/apps/tools">{{ cat }}</a>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -1,0 +1,18 @@
+<ul class="menu-list">
+  {% for cat in page.categories %}
+    <li>
+      {{ cat }}
+      <!-- This is for categories with sub-categories -->
+      <ul>
+        {% for post in site.categories[cat] reversed %}
+          <li>
+            <a
+              href="{{ post.url }}"
+              {% if page.url == post.url %} class="is-active" {% endif %}
+            >{{ post.title }}</a>
+          </li
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
