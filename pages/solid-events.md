@@ -11,7 +11,7 @@ Solid Events are an opportunity for the Solid community to meet in person locall
 
 | Date | Event | Organiser(s) |
 |------|-------|--------------|
-|2019-01-07|[Solid Khartoum](http://solid-khartoum.atspace.cc)|Ali Siragedien|
+|2019-01-07|[Solid Khartoum](http://solid-khartoum.atspace.cc)|[Ali Siragedien](https://github.com/alisirag)|
 |2019-01-30|[Solid Amsterdam](http://www.pilod.nl/wiki/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020)|[Jeroen van Beele](https://github.com/jjvbeele) |
 
 (past events are [listed below](#past-events))
