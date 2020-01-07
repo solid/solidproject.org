@@ -230,6 +230,12 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
   }
 }
 
+.illustration {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .codesandbox-button-wrapper {
   display: block;
   text-align: right;
