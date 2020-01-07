@@ -12,7 +12,7 @@ author: Mitzi László
 ## Updates
 
 ### [Press](https://solidproject.org/press)
-This week we had our first Solid event in Africa led by Ali Siragedien with [Solid Khartoum](solid-khartoum.atspace.cc). There are a few upcoming events where you can learn more and meet others working on Solid: 
+This week we had our first Solid event in Africa led by Ali Siragedien with [Solid Khartoum](http://solid-khartoum.atspace.cc). There are a few upcoming events where you can learn more and meet others working on Solid: 
 
 * {%
   include talk.html
