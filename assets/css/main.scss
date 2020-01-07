@@ -51,6 +51,8 @@ $breadcrumb-item-padding-vertical: $size-small;
 // Footer
 $footer-background-color: $dark;
 $footer-color: $grey-lighter;
+// Default Bulma padding, except with 0 padding at the bottom, to make the navbar stick to it:
+$footer-padding: 3rem 1.5rem 0;
 
 // Import only what you need from Bulma
 @import "bulma-0.8.0/sass/base/_all.sass";
@@ -101,7 +103,9 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
 
   background-image: url('/assets/img/hexagon.svg');
   background-repeat: no-repeat;
-  background-position: 0 $why-carousel-offset;
+  // The background image starts in the top right, so align it to the right side
+  // to make it visible at the top:
+  background-position: right $why-carousel-offset;
 }
 
 #why-carousel {
@@ -155,7 +159,7 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
     }
 
     &:hover, &:focus {
-      background-color: transparent;
+      background-color: white;
       color: $primary;
     }
   }
@@ -164,6 +168,20 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
 #tour {
   .section {
     margin: $gap * 5 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Make sure both columns in the tour are aligned vertically:
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -173,7 +191,15 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
   // background-color: $grey-lightest;
 }
 
+#newsletter {
+  margin-bottom: $gap;
+}
+
 #footer {
+  .navbar {
+    margin-top: $gap;
+  }
+
   a, span {
     color: $footer-color;
   }
@@ -208,6 +234,12 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
   .icon img {
     width: $body-font-size;
   }
+}
+
+.illustration {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .codesandbox-button-wrapper {
