@@ -189,6 +189,10 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
   // background-color: $grey-lightest;
 }
 
+#newsletter {
+  margin-bottom: $gap;
+}
+
 #footer {
   a, span {
     color: $footer-color;
