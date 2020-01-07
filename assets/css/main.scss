@@ -51,6 +51,8 @@ $breadcrumb-item-padding-vertical: $size-small;
 // Footer
 $footer-background-color: $dark;
 $footer-color: $grey-lighter;
+// Default Bulma padding, except with 0 padding at the bottom, to make the navbar stick to it:
+$footer-padding: 3rem 1.5rem 0;
 
 // Import only what you need from Bulma
 @import "bulma-0.8.0/sass/base/_all.sass";
@@ -194,6 +196,10 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
 }
 
 #footer {
+  .navbar {
+    margin-top: $gap;
+  }
+
   a, span {
     color: $footer-color;
   }
