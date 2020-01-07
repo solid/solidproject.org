@@ -9,7 +9,9 @@ author: Mitzi László
 
 {% include twis-intro.md %}
 
-## [Press](https://solidproject.org/press)
+## Updates
+
+### [Press](https://solidproject.org/press)
 This week we had our first Solid event in Africa led by Ali Siragedien with [Solid Khartoum](solid-khartoum.atspace.cc). There are a few upcoming events where you can learn more and meet others working on Solid: 
 
 * {%
@@ -56,7 +58,11 @@ Solid Events are run by people like you, read more about tips on organising a su
 
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week. 
 
-## Job Openings 
+### Solidproject.org
+
+The landing page has been redesigned, and most other pages have received a small touch-up. Additionally, most content has undergone editing to ensure the information is relevant and free of typo's. All in all, the starting point for all things Solid should be more pleasant to use now.
+
+### Job Openings 
 * [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
 * [Inrupt is hiring](https://inrupt.com/careers) a Head of Business Development, Project Manager, DevOps Engineer, and Senior Front-End Engineer/Architect.  
 
