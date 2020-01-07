@@ -166,6 +166,13 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
 #tour {
   .section {
     margin: $gap * 5 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
