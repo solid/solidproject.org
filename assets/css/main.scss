@@ -101,7 +101,9 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
 
   background-image: url('/assets/img/hexagon.svg');
   background-repeat: no-repeat;
-  background-position: 0 $why-carousel-offset;
+  // The background image starts in the top right, so align it to the right side
+  // to make it visible at the top:
+  background-position: right $why-carousel-offset;
 }
 
 #why-carousel {
