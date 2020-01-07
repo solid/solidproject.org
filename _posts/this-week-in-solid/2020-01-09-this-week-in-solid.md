@@ -14,7 +14,7 @@ author: Mitzi László
 ### [Press](https://solidproject.org/press)
 This week we had our first Solid event in Africa led by Ali Siragedien with [Solid Khartoum](http://solid-khartoum.atspace.cc). There are a few upcoming events where you can learn more and meet others working on Solid: 
 
-* {%
+{%
   include talk.html
     date="2020-01-10"
     title="P2P"
@@ -22,7 +22,7 @@ This week we had our first Solid event in Africa led by Ali Siragedien with [Sol
     speaker="Alice Poggioli"
 %}
 
-* {%
+{%
   include talk.html
     date="2020-01-11"
     title="P2P"
@@ -30,15 +30,15 @@ This week we had our first Solid event in Africa led by Ali Siragedien with [Sol
     speaker="Jonas Smedegaard"
 %}
 
-* {%
+{%
   include talk.html
     date="2020-01-27"
     title="Workshop on Cloud Services for File Synchronisation and Sharing"
     website="https://cs3.deic.dk"
     speaker="Michiel de Jong"
 %}
-* 2019-01-30 [Solid Amsterdam](https://www.pilod.nl/wiki/2nd_Solid_Amsterdam_Meetup_%E2%80%93_January_30th,_2020)
-* {%
+
+{%
   include talk.html
     date="2020-02-24"
     title="RSA"
@@ -46,7 +46,7 @@ This week we had our first Solid event in Africa led by Ali Siragedien with [Sol
     speaker="Davi Ottenheimer"
 %}
 
-* {%
+{%
   include talk.html
     date="2020-02-07"
     title="Solid CERN"
