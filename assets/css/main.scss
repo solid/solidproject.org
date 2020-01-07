@@ -157,7 +157,7 @@ $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-paddi
     }
 
     &:hover, &:focus {
-      background-color: transparent;
+      background-color: white;
       color: $primary;
     }
   }
