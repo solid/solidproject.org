@@ -9,7 +9,7 @@
     link: "/team"
   - name: FAQs
     link: "/faqs"
-- name: What's new
+- name: What's New
   sublinks:
   - name: This week in Solid
     link: "/this-week-in-solid"
@@ -17,7 +17,7 @@
     link: "/press"
   - name: Solid events
     link: "/events"
-- name: For developers
+- name: For Developers
   link: "/for-developers"
   sublinks:
   - name: Writing apps
