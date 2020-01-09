@@ -86,6 +86,7 @@ The landing page has been redesigned, and most other pages have received a small
 If you have any new apps, Pods, or identity providers, or there are updates to existing Solid implementations, make sure to add them to the list so they get included in next week's edition. Here are a few updates on implementations of Solid:
 * [Angelo Veltens](https://github.com/angelo-v) published [Molid](https://molid.readthedocs.io/en/latest/), a mock server
 * [Social app](https://scenaristeur.github.io/compagent-tuto/)
+* [Darcy Ibex](https://ibex.darcy.is) got made in a hackathon. Darcy Ibex is a prototype social media stream based entirely on Solid
 
 ### Job Openings 
 * [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
