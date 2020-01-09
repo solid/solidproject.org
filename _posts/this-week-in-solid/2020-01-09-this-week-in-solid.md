@@ -40,6 +40,22 @@ This week we had our first Solid event in Africa led by Ali Siragedien with [Sol
 
 {%
   include talk.html
+    date="2020-02-10"
+    title="Solid Berlin"
+    website="https://www.eventbrite.com/e/solid-meetup-berlin-tickets-88843267605"
+    speaker="Christian Buggedei"
+%}
+
+{%
+  include talk.html
+    date="2020-02-10"
+    title="Solid San Francisco"
+    website="https://meetabit.com/events/february-2020-bay-area-solid-interest-club-meetup"
+    speaker="Travis Vachon"
+%}
+
+{%
+  include talk.html
     date="2020-02-24"
     title="RSA"
     website="https://www.rsaconference.com/experts/davi-ottenheimer-3"
@@ -61,6 +77,14 @@ Have you seen any articles or talks about Solid this week? If you've seen any ta
 ### Solidproject.org
 
 The landing page has been redesigned, and most other pages have received a small touch-up. Additionally, most content has undergone editing to ensure the information is relevant and free of typo's. All in all, the starting point for all things Solid should be more pleasant to use now.
+
+### Developer Tools
+* [Mark Hughes](https://github.com/theWebalyst) is working on [showing how to use various RDF libs with Sveltejs](https://github.com/theWebalyst/svelte-with-rdf-libs-webpack) and has rdflib.js and graphy working (though graphy only works in Chrome not Firefox atm).
+* [Jeff Zucker](https://github.com/jeff-zucker) is releasing [version 1.0.0 of Solid-File-Client](https://github.com/jeff-zucker/solid-file-client), a library of methods to manage Solid files and folders that now has the ability to copy or move entire folder trees from one pod to another or back and forth between a pod and a local file system. It supports both text and binary files and works in either a browser or node/console context. Also new in this version is extensive support for linked resources (.acl and .meta files). By default linked resources are copied, moved, and deleted with their associated resource, but options allow you to adjust that behavior as well as to discover the location of linked resources.
+
+### Apps, Pods, and Identity Providers
+* [Angelo Veltrans](https://github.com/angelo-v) published [a mock server](https://molid.readthedocs.io/en/latest/) 
+* [Social app](https://scenaristeur.github.io/compagent-tuto/)
 
 ### Job Openings 
 * [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
