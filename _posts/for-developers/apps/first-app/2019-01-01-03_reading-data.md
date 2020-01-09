@@ -24,7 +24,7 @@ data sources, you might want to consider investigating these alternative librari
 We'll try to get the user's name as follows:
 
 1. Fetch the Document living at their WebID.
-2. From that Document, read the Subject representing the current user.
+2. From that Document, read the Subject representing the current user's profile.
 3. Get the `foaf:name` of that Subject, if set.
 
 In code, that looks like this:
@@ -35,10 +35,10 @@ import { fetchDocument } from 'tripledoc';
 async function getName(webId) {
   /* 1. Fetch the Document at `webId`: */
   const webIdDoc = await fetchDocument(webId);
-  /* 2. Read the Subject representing the current user: */
-  const user = webIdDoc.getSubject(webId);
+  /* 2. Read the Subject representing the current user's profile: */
+  const profile = webIdDoc.getSubject(webId);
   /* 3. Get their foaf:name: */
-  return user.getString('http://xmlns.com/foaf/0.1/name')
+  return profile.getString('http://xmlns.com/foaf/0.1/name')
 }
 ```
 
@@ -53,10 +53,10 @@ import { foaf } from 'rdf-namespaces';
 async function getName(webId) {
   /* 1. Fetch the Document at `webId`: */
   const webIdDoc = await fetchDocument(webId);
-  /* 2. Read the Subject representing the current user: */
-  const user = webIdDoc.getSubject(webId);
+  /* 2. Read the Subject representing the current user's profile: */
+  const profile = webIdDoc.getSubject(webId);
   /* 3. Get their foaf:name: */
-  return user.getString(foaf.name)
+  return profile.getString(foaf.name)
 }
 ```
 <span class="codesandbox-button-wrapper">
@@ -70,7 +70,7 @@ Subject, in which case we could in turn fetch _that_ Document. If that was what 
 could have used the method `getRef` instead.
 
 The second thing to consider is that we cannot make any assumptions about what data is, or is not,
-present in the user's Pod. Thus, `user.getString(foaf.name)` might also return `null`. This
+present in the user's Pod. Thus, `profile.getString(foaf.name)` might also return `null`. This
 could happen if the Document does not include the user's name, if the name is stored differently
 (e.g. using `foaf:firstName` and `foaf:familyName`), or the value of `foaf:name` is not a literal string.
 
