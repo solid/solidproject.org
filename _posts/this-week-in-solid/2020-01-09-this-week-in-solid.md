@@ -83,7 +83,7 @@ The landing page has been redesigned, and most other pages have received a small
 * [Jeff Zucker](https://github.com/jeff-zucker) is releasing [version 1.0.0 of Solid-File-Client](https://github.com/jeff-zucker/solid-file-client), a library of methods to manage Solid files and folders that now has the ability to copy or move entire folder trees from one pod to another or back and forth between a pod and a local file system. It supports both text and binary files and works in either a browser or node/console context. Also new in this version is extensive support for linked resources (.acl and .meta files). By default linked resources are copied, moved, and deleted with their associated resource, but options allow you to adjust that behavior as well as to discover the location of linked resources. [Read the release announcement.](https://forum.solidproject.org/t/announce-much-updated-solid-file-client/2546/33)
 
 ### Apps, Pods, and Identity Providers
-* [Angelo Veltens](https://github.com/angelo-v) published [a mock server](https://molid.readthedocs.io/en/latest/) 
+* [Angelo Veltens](https://github.com/angelo-v) published [Molid]](https://molid.readthedocs.io/en/latest/), a mock server
 * [Social app](https://scenaristeur.github.io/compagent-tuto/)
 
 ### Job Openings 
