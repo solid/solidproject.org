@@ -32,8 +32,8 @@ referred to by my WebID contain the following relationships:
 | `<some person>` | works at  | inrupt    |
 | `<some person>` | job title | Developer |
 
-(The common terminology is: every row contains a _Statement_, with in the first column the
-Statement's _Subject_, in the second column a _Predicate_, and the _Object_ in the third column.
+(The common terminology is: every row contains a _Statement_, with the first column being the
+Statement's _Subject_, the second column being a _Predicate_, and the third column the _Object_.
 These three together are also commonly referred to as a _Triple_.)
 
 You might notice that the table above is a description of `<some person>`: it's someone whose name
@@ -41,7 +41,7 @@ is Vincent, who works at inrupt and is a developer. However, `<some person>` is 
 a stable and unique identifier: for all we know, someone else might have a Document elsewhere that
 uses the exact same identifier. To solve this problem, Solid uses URLs as unique identifiers: after
 all, the Document that describes the entries already has a URL, and we can be sure that no other
-Document uses the same one.
+Document on the web uses the same one.
 
 And like specific elements in an HTML document can be referred to by appending their ID to the
 document's URL, we can give elements we want to describe in a Document a unique identifier. As you
@@ -58,8 +58,8 @@ So now we might consider my Document to look as follows:
 
 But there's one more thing to consider: interoperability. An important tenet of Solid is being able
 to give multiple apps access to the same data: if I enter my name at service A, I don't want to have
-to re-enter it at service B. But if one service uses "name" to refer to a person's full name,
-whereas the other uses it to refer to a person's last name only, that would nip interoperability in
+to re-enter it at service B. But if service A uses "name" to refer to a person's full name,
+whereas service B uses "name" to refer to a person's last name only, that would nip interoperability in
 the bud.
 
 What's needed here is unique terms that have an agreed-upon definition. And just like we can have a
@@ -90,10 +90,10 @@ it in the way described at that URL. We can combine terms from different Vocabul
 
 Everything that needs to be uniquely defined has a URL, with some _Literal_ values for the rest
 ("_Vincent_", "_inrupt_", and "_Developer_"). You could imagine "inrupt" to be replaced by a URL as well,
-pointing to a Document describing the organisation itself — but for the intents and purposes of this
-tutorial, we will leave it at this.
+pointing to a Document describing the organisation itself — but for the purposes of this
+tutorial, we'll leave it as a simple string _Literal_.
 
-Phew! That should cover about all the Linked Data theory you should know to start working with
+Phew! That should cover about all the Linked Data theory you should need to know to start working with
 Solid. Next up: actually reading data from such a Document.
 
 Next: [Reading data]({{site.baseUrl}}/for-developers/apps/first-app/3-reading-data)

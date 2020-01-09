@@ -14,17 +14,17 @@ We've [got the user's WebID]({{site.baseUrl}}/for-developers/apps/first-app/1-au
 Document]({{site.baseUrl}}/for-developers/apps/first-app/2-understanding-solid); it's time we actually
 read some data from that Document!
 
-We will be using [Tripledoc](https://vincenttunru.gitlab.io/tripledoc/), which was designed
-specifically for this tutorial. Other libraries exist, such as
+We'll be using [Tripledoc](https://vincenttunru.gitlab.io/tripledoc/), which was designed
+specifically for this purpose. Other libraries exist, such as
 [ldflex](https://www.npmjs.com/package/ldflex), [rdf-ext](https://www.npmjs.com/package/rdf-ext) and
-[rdflib](https://www.npmjs.com/package/rdflib); Tripledoc has a more limited scope designed to aid
-"thinking in Solid". If, at some point in the future, you want to start combining many different
-data sources, you might want to consider investigating those alternative libraries.
+[rdflib](https://www.npmjs.com/package/rdflib); Tripledoc intentionally has a more limited scope designed to aid
+"thinking in Solid". If at some point in the future you want to start combining many different
+data sources, you might want to consider investigating these alternative libraries.
 
-We will try to get the user's name as follows:
+We'll try to get the user's name as follows:
 
 1. Fetch the Document living at their WebID.
-2. From that Document, read the Subject representing the current user.
+2. From that Document, read the Subject representing the current user's profile.
 3. Get the `foaf:name` of that Subject, if set.
 
 In code, that looks like this:
@@ -35,10 +35,10 @@ import { fetchDocument } from 'tripledoc';
 async function getName(webId) {
   /* 1. Fetch the Document at `webId`: */
   const webIdDoc = await fetchDocument(webId);
-  /* 2. Read the Subject representing the current user: */
-  const user = webIdDoc.getSubject(webId);
+  /* 2. Read the Subject representing the current user's profile: */
+  const profile = webIdDoc.getSubject(webId);
   /* 3. Get their foaf:name: */
-  return user.getString('http://xmlns.com/foaf/0.1/name')
+  return profile.getString('http://xmlns.com/foaf/0.1/name')
 }
 ```
 
@@ -53,10 +53,10 @@ import { foaf } from 'rdf-namespaces';
 async function getName(webId) {
   /* 1. Fetch the Document at `webId`: */
   const webIdDoc = await fetchDocument(webId);
-  /* 2. Read the Subject representing the current user: */
-  const user = webIdDoc.getSubject(webId);
+  /* 2. Read the Subject representing the current user's profile: */
+  const profile = webIdDoc.getSubject(webId);
   /* 3. Get their foaf:name: */
-  return user.getString(foaf.name)
+  return profile.getString(foaf.name)
 }
 ```
 <span class="codesandbox-button-wrapper">
@@ -64,15 +64,15 @@ async function getName(webId) {
 </span>
 
 Two things to note here. First, we call `getString` to indicate that we are looking for an actual
-value (i.e. a Literal), rather than a URL. (Likewise, we could e.g. use `getInteger` or `getDecimal`
-if we would expect a number.) However, the value could also have been a URL pointing to a different
+value (i.e. a Literal), rather than a URL. (Likewise, we could use `getInteger` or `getDecimal`
+if we expected a number instead.) However, the value could also have been a URL pointing to a different
 Subject, in which case we could in turn fetch _that_ Document. If that was what we expected, we
 could have used the method `getRef` instead.
 
-The second thing to consider is that we cannot make any assumptions about what data is or is not
-present in the user's Pod. Thus, `user.getString(foaf.name)` might also return `null`. This
+The second thing to consider is that we cannot make any assumptions about what data is, or is not,
+present in the user's Pod. Thus, `profile.getString(foaf.name)` might also return `null`. This
 could happen if the Document does not include the user's name, if the name is stored differently
-(e.g. using `foaf:firstName` and `foaf:familyName`), or the `foaf:name` is not a literal string.
+(e.g. using `foaf:firstName` and `foaf:familyName`), or the value of `foaf:name` is not a literal string.
 
 Now that we're able to read data from the user's WebID, let's find out how we can read arbitrary
 other data.
