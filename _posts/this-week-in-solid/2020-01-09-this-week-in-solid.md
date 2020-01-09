@@ -76,14 +76,15 @@ Have you seen any articles or talks about Solid this week? If you've seen any ta
 
 ### Solidproject.org
 
-The landing page has been redesigned, and most other pages have received a small touch-up. Additionally, most content has undergone editing to ensure the information is relevant and free of typo's. All in all, the starting point for all things Solid should be more pleasant to use now.
+The landing page has been redesigned, and most other pages have received a small touch-up. Additionally, most content has undergone editing to ensure the information is relevant and free of typos. All in all, the starting point for all things Solid should be more pleasant to use now.
 
-### Developer Tools
-* [Mark Hughes](https://github.com/theWebalyst) is working on [showing how to use various RDF libs with Sveltejs](https://github.com/theWebalyst/svelte-with-rdf-libs-webpack) and has rdflib.js and graphy working (though graphy only works in Chrome not Firefox atm).
+### [Developer Tools](https://solidproject.org/for-developers/apps/tools)
+* [Mark Hughes](https://github.com/theWebalyst) is working on [showing how to use various RDF libs with Sveltejs](https://github.com/theWebalyst/svelte-with-rdf-libs-webpack) and has rdflib.js and graphy working
 * [Jeff Zucker](https://github.com/jeff-zucker), [Alain Bourgeois](https://github.com/bourgeoa), and [Otto_AA](https://github.com/Otto-AA) are  releasing [version 1.0.0 of Solid-File-Client](https://github.com/jeff-zucker/solid-file-client), a library of methods to manage Solid files and folders that now has the ability to copy or move entire folder trees from one pod to another or back and forth between a pod and a local file system. It supports both text and binary files and works in either a browser or node/console context. Also new in this version is extensive support for linked resources (.acl and .meta files). By default linked resources are copied, moved, and deleted with their associated resource, but options allow you to adjust that behavior as well as to discover the location of linked resources. [Read the release announcement.](https://forum.solidproject.org/t/announce-much-updated-solid-file-client/2546/33)
 
-### Apps, Pods, and Identity Providers
-* [Angelo Veltens](https://github.com/angelo-v) published [Molid]](https://molid.readthedocs.io/en/latest/), a mock server
+### [Apps](https://solidproject.org/use-solid/apps), [Pods, and Identity Providers](https://solidproject.org/use-solid)
+If you have any new apps, Pods, or identity providers, or there are updates to existing Solid implementations, make sure to add them to the list so they get included in next week's edition. Here are a few updates on implementations of Solid:
+* [Angelo Veltens](https://github.com/angelo-v) published [Molid](https://molid.readthedocs.io/en/latest/), a mock server
 * [Social app](https://scenaristeur.github.io/compagent-tuto/)
 
 ### Job Openings 
