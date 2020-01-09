@@ -8,8 +8,7 @@ exclude: true
 ---
 
 The starting point for any Solid Web App is to obtain the user's _WebID_. The WebID is a URL at
-which one can find information about the user, and where to write data to. The WebID will be provided by the user's _Identity Provider_ (which is usually their Pod Provider) after the user
-gives your Web App permission to interact with their Pod.
+which one can find information about the user, and where to read or write data. The WebID will be provided by the user's _Identity Provider_ (which is usually their Pod Provider), but any interaction with a user's Pod will require explicit permission to be granted by the Pod owner.
 
 To obtain this permission, we will be using [solid-auth-client](https://www.npmjs.com/package/solid-auth-client). Its usage is relatively straightforward:
 
@@ -36,7 +35,7 @@ async function getWebId() {
   // `https://inrupt.net` or `https://solid.community`) using a method of your choice.
   const identityProvider = await getIdentityProvider();
 
-  /* 3. Initialise the login process - this will redirect the user to their Identity Provider: */
+  /* 3. Initiate the login process - this will redirect the user to their Identity Provider: */
   auth.login(identityProvider);
 }
 ```
