@@ -6,6 +6,8 @@
   "ignoreUrls": true,
   "excludeFiles": [
     "_site/press.html",
-    "pages/press.md"
+    "pages/press.md",
+    "_site/this-week-in-solid",
+    "_posts/this-week-in-solid"
   ]
 }
