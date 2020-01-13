@@ -1,7 +1,7 @@
 ---
 layout: this-week-in-solid
-title: This Week in Solid 2020-01-09
-permalink: /this-week-in-solid/2020-01-09
+title: This Week in Solid 2020-01-16
+permalink: /this-week-in-solid/2020-01-16
 tags: [weekly, updates]
 categories: [Updates]
 author: Mitzi László
