@@ -12,23 +12,11 @@ author: Mitzi László
 ## Updates
 
 ### [Press](https://solidproject.org/press)
-This week we had our first Solid event in Africa led by Ali Siragedien with [Solid Khartoum](http://solid-khartoum.atspace.cc). There are a few upcoming events where you can learn more and meet others working on Solid: 
+This week we had our first Solid event in Africa led by Ali Siragedien with [Solid Khartoum](http://solid-khartoum.atspace.cc). 
 
-{%
-  include talk.html
-    date="2020-01-10"
-    title="P2P"
-    website="https://p2p.paris/fr/event/festival-0/"
-    speaker="Alice Poggioli"
-%}
+At the [P2P Festival in Paris](https://p2p.paris/fr/event/festival-0/) there was a session on the Future of the Solid Spec led by Alice Poggioli on the 10th January and an Introduction to Solid Box by Jonas Smedegaard on the 11th January. 
 
-{%
-  include talk.html
-    date="2020-01-11"
-    title="P2P"
-    website="https://p2p.paris/fr/event/festival-0/"
-    speaker="Jonas Smedegaard"
-%}
+There are a few upcoming events where you can learn more and meet others working on Solid: 
 
 {%
   include talk.html
