@@ -40,6 +40,14 @@ This week we had our first Solid event in Africa led by Ali Siragedien with [Sol
 
 {%
   include talk.html
+    date="2020-01-30"
+    title="Solid Amsterdam"
+    website="http://www.pilod.nl/wiki/2nd_Solid_Amsterdam_Meetup_%E2%80%93_January_30th,_2020"
+    organiser="Jeroen van Beele"
+%}
+
+{%
+  include talk.html
     date="2020-02-10"
     title="Solid Berlin"
     website="https://www.eventbrite.com/e/solid-meetup-berlin-tickets-88843267605"
