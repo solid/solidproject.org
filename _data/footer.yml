@@ -36,3 +36,5 @@
     link: "/license"
   - name: Logo usage guidelines
     link: "/logo-usage-guidelines"
+  - name: Website feedback
+    link: "https://github.com/solid/solidproject.org/issues/new"
