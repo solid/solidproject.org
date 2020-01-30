@@ -11,7 +11,7 @@ author: Mitzi László
 
 ## [Press](https://solidproject.org/press)
 
-Check out a recap of the talk at ECP from last week [here](http://www.pilod.nl/wiki/Jaarcongres_ECP_2019_-_Solid_Session_Summary).
+Check out a recap of the talk at ECP from last week [here](https://www.pldn.nl/index.php/Jaarcongres_ECP_2019_-_Solid_Session_Summary).
 
 There's also a article that mentions Solid on the [LSE Business Review](https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/)
 
