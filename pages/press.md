@@ -266,7 +266,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
   include talk.html
     date="2019-04-09"
     title="Platform Linked Data Nederland"
-    website="http://www.pilod.nl/wiki/PLDN-Solid_Kick-Off_–_April_9th_2019"
+    website="https://www.pldn.nl/index.php/PLDN-Solid_Kick-Off_–_April_9th_2019"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/PLDN-Solid-Kick-Off-2019/"
 %}

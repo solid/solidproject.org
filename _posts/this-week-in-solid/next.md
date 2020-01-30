@@ -21,7 +21,7 @@ At the [P2P Festival in Paris](https://p2p.paris/fr/event/festival-0/) there was
 
 Michiel de Jong presented on the [Workshop on Cloud Services for File Synchronisation and Sharing](https://cs3.deic.dk) on the 27th of January. 
 
-[Solid Amsterdam](http://www.pilod.nl/wiki/2nd_Solid_Amsterdam_Meetup_%E2%80%93_January_30th,_2020) led by Jeroen van Beele had another event on the 30th January. 
+[Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_%E2%80%93_January_30th,_2020) led by Jeroen van Beele had another event on the 30th January.
 
 There are a few upcoming events where you can learn more and meet others working on Solid: 
 

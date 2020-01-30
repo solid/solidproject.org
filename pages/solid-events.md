@@ -12,7 +12,7 @@ Solid Events are an opportunity for the Solid community to meet in person locall
 | Date | Event | Organiser(s) |
 |------|-------|--------------|
 |2020-01-07|[Solid Khartoum](http://solid-khartoum.atspace.cc)|[Ali Siragedien](https://github.com/alisirag)|
-|2020-01-30|[Solid Amsterdam](http://www.pilod.nl/wiki/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020)|[Jeroen van Beele](https://github.com/jjvbeele) |
+|2020-01-30|[Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020)|[Jeroen van Beele](https://github.com/jjvbeele) |
 
 (past events are [listed below](#past-events))
 
@@ -111,7 +111,7 @@ The third Solid Event is a good place to gather local companies and institutions
 | 2019-05-08 | [Solid New York](https://www.meetup.com/NextWeb-NYC/) | Brian Cort ||
 | 2019-05-02 | [Solid Seattle](https://www.eventbrite.com/e/solid-seattle-tickets-60131990402) | [Jon Pederson](https://www.linkedin.com/in/jonpederson/) ||
 | 2019-04-09 | [Solid San Jose](https://www.meetup.com/San-Jose-SOLID-Technology-decentralized-Web-Meetup/events/260087036/) | [John Bartas](http://www.bartas.net/resume.html) ||
-| 2019-04-09 | [Solid Utrecht](http://www.pilod.nl/wiki/PLDN-Solid_Kick-Off_%E2%80%93_April_9th_2019) | [Pieter van Everdingen](https://www.linkedin.com/in/pietervaneverdingen/) ||
+| 2019-04-09 | [Solid Utrecht](https://www.pldn.nl/index.php/PLDN-Solid_Kick-Off_%E2%80%93_April_9th_2019) | [Pieter van Everdingen](https://www.linkedin.com/in/pietervaneverdingen/) ||
 | 2019-03-27 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-55479654139) | [Christian Buggedei](https://github.com/JollyOrc) ||
 | 2019-03-22 | [Solid Boston](https://www.eventbrite.com/e/solid-startup-workshop-boston-tickets-57623868542) | [Kelly O'Brien](https://github.com/InruptKelly) ||
 | 2019-03-21 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-57623377072) | [Kelly O'Brien](https://github.com/InruptKelly) ||
