@@ -25,10 +25,10 @@ Next weeks call will be on the 7th November at 1600 CEST on [this line](https://
 
 * [The Wall Street Journal - Tech Giants Have Hijacked the Web. It’s Time for a Reboot by Paul Vigna](https://www.wsj.com/articles/tech-giants-have-hijacked-the-web-its-time-for-a-reboot-11572062420) 
 * [Summary of the Data Ethics conference](https://mailchi.mp/dit.dk/data-ethics-2019-inspiration1) where Mitzi László gave a talk on Solid. 
-* [Summary of Solid Amsterdam](http://www.pilod.nl/wiki/Solid_Amsterdam_–_1st_Session_Summary) 
+* [Summary of Solid Amsterdam](https://www.pldn.nl/index.php/Solid_Amsterdam_–_1st_Session_Summary)
 
 There are few upcoming events where you can learn more and meet others working on Solid: 
-* 2019-12-10 [Solid Enschede](http://www.pilod.nl/wiki/Solid_Christmas_Meetup_Enschede_-_How_to_Fix_the_Internet!) organised by Erwin Folmer
+* 2019-12-10 [Solid Enschede](https://www.pldn.nl/index.php/Solid_Christmas_Meetup_Enschede_-_How_to_Fix_the_Internet!) organised by Erwin Folmer
 * 2019-11-20 [Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw) organised by Kartika Tulusan
 
 Solid Events are run by people like you, read more about tips on organising a successful Solid events [here](https://github.com/solid/information/blob/master/solid-events.md)
