@@ -15,7 +15,7 @@ author: Mitzi László
 
 [Jon Henshaw](https://twitter.com/henshaw) published an article about the work Angelo Veltrans has been doing. [Read more here](https://www.coywolf.news/social/solid-profile-design/). 
 
-We saw the first Solid Event in Africa led by Ali Siragedien in [Solid Khartoum](http://solid-khartoum.atspace.cc). 
+We saw the first Solid Event in Africa led by Ali Siragedien in [Solid Khartoum](http://solid-khartoum.atspace.cc). You can watch a [recording of the event here](https://youtu.be/BhFFCzjAqm4). 
 
 At the [P2P Festival in Paris](https://p2p.paris/fr/event/festival-0/) there was a session on the Future of the Solid Spec led by Alice Poggioli on the 10th January and an Introduction to Solid Box by Jonas Smedegaard on the 11th January. 
 
