@@ -11,8 +11,8 @@ Solid Events are an opportunity for the Solid community to meet in person locall
 
 | Date | Event | Organiser(s) |
 |------|-------|--------------|
-|2020-01-07|[Solid Khartoum](http://solid-khartoum.atspace.cc)|[Ali Siragedien](https://github.com/alisirag)|
-|2020-01-30|[Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020)|[Jeroen van Beele](https://github.com/jjvbeele) |
+|2020-02-20|[Bay Area Solid Interest Club](https://meetabit.com/events/february-2020-bay-area-solid-interest-club-meetup)|[Travis Vachon](https://github.com/travis)|
+
 
 (past events are [listed below](#past-events))
 
@@ -94,6 +94,8 @@ The third Solid Event is a good place to gather local companies and institutions
 
 | Date | Event | Organizer(s) | Recordings and Slides |
 |------|-------|--------------|--------------|
+|2020-01-30|[Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020)|[Jeroen van Beele](https://github.com/jjvbeele) ||
+|2020-01-07|[Solid Khartoum](http://solid-khartoum.atspace.cc)|[Ali Siragedien](https://github.com/alisirag)||
 |2019-12-10|[Solid Enschede](https://www.utwente.nl/en/digital-society/events/2019/12/63530/solid-christmas-meetup-enschede-how-to-fix-the-internet)|Erwin Folmer |
 |2019-11-20|[Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
 |2019-11-21|[Solid Montreal](https://www.meetup.com/Montreal-Decentralized-Linked-Data-Meetup/events/266218723/?fbclid=IwAR2sJy5LIwzjJG52HSyfj88TSW4t5w_svUsWKA-STNG_e-pwrkfoLC5ROpE)|[David H Mason](https://github.com/vid)|
