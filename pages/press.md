@@ -858,8 +858,6 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-01-29 [Techristic: Digital Trends 2019: Every Single Stat You Need To Know About The Internet](https://www.techristic.com/digital-trends-2019-every-single-stat-you-need-to-know-about-the-internet/)
 
-2019-01-29 [Dundee Messenger: Facebook and Google: The data guardians fight back](https://dundeemessenger.co.uk/technology/facebook-and-google-the-data-guardians-fight-back/)
-
 2019-01-26 [Maximus and Me: Wisdom Of The Week](http://maximusandme.blogspot.com/2019/01/wisdom-of-week_26.html)
 
 2019-01-25 [My Mac: Essential Apple Podcast 120: The Bob is back in town](http://www.mymac.com/2019/01/essential-apple-podcast-120-the-bob-is-back-in-town/)
