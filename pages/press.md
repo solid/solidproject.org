@@ -774,7 +774,7 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-03-17 [The Times: Tim Berners-Lee calls for a fight for ‘the kind of web we want’](https://www.thetimes.co.uk/edition/news-review/tim-berners-lee-calls-for-a-fight-for-the-kind-of-web-we-want-wk95rjxls)
 
-2019-03-15 [API Best in Class: What is Solid? Decentralized Web? Tim Berners-Lee is up to something again.](https://apibestinclass.com/what-is-solid-decentralized-web-tim-berners-lee-is-up-to-something-again/)
+2019-03-15 API Best in Class: What is Solid? Decentralized Web? Tim Berners-Lee is up to something again.
 
 2019-03-14 [Fast Company: T Bone Burnett rips Big Tech “surveillance capitalists” in blistering SXSW keynote](https://www.fastcompany.com/90320480/full-text-t-bone-burnett-rips-big-tech-surveillance-capitalists-in-blistering-sxsw-keynote)
 
@@ -857,8 +857,6 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 2019-01-29 [BBC: Meet the data guardians taking on the tech giants](https://www.bbc.com/news/business-47027072)
 
 2019-01-29 [Techristic: Digital Trends 2019: Every Single Stat You Need To Know About The Internet](https://www.techristic.com/digital-trends-2019-every-single-stat-you-need-to-know-about-the-internet/)
-
-2019-01-29 [Dundee Messenger: Facebook and Google: The data guardians fight back](https://dundeemessenger.co.uk/technology/facebook-and-google-the-data-guardians-fight-back/)
 
 2019-01-26 [Maximus and Me: Wisdom Of The Week](http://maximusandme.blogspot.com/2019/01/wisdom-of-week_26.html)
 
