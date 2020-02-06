@@ -1,6 +1,6 @@
 ---
 layout: for-developers
-title: "Create your vocabulary "
+title: "How to create your own vocabulary"
 permalink: /for-developers/apps/vocabularies/create/quickstart
 tags: [apps]
 categories: [Vocabularies, Quickstart]
@@ -8,7 +8,9 @@ exclude: true
 published: true
 ---
 
-Let's build a very simple vocabulary describing [obelisks](https://en.wikipedia.org/wiki/Obelisk), so that [Cleopatra](https://cleopatra.solid.community/profile/card#me) and [Caesar](https://jcaesar.solid.community/profile/card#me) can share information about their personal collections.
+# How to create your own vocabulary
+
+Let's build a very simple vocabulary describing [obelisks](https://en.wikipedia.org/wiki/Obelisk) (tall, four-sided, narrow tapering monuments that end in a pyramid-like shape), so that [Cleopatra](https://cleopatra.solid.community/profile/card#me) and [Caesar](https://jcaesar.solid.community/profile/card#me) can share information about their personal collections.
 
 ## From plain English to a graphical representation
 
