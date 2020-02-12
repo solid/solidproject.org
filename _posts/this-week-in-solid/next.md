@@ -77,6 +77,7 @@ If you have any new apps, Pods, or identity providers, or there are updates to e
 * [Darcy Ibex](https://ibex.darcy.is) got made in a hackathon. Darcy Ibex is a prototype social media stream based entirely on Solid
 * [Pod Homepage](https://gitlab.com/angelo-v/pod-homepage), a potential homepage for your Solid Pod ([Live Example](https://angelo.veltens.org/)).
 * [Solidarity](https://scenaristeur.github.io/solidarity/) is the start of a new chat forum project based on LongChat and inbox
+* [Golf Course Assistant](https://gca-solid.now.sh/) is an app where golfers can track their score on the course. Built with the solid-react SDK.
 
 ### Job Openings 
 * [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
@@ -85,4 +86,3 @@ If you have any new apps, Pods, or identity providers, or there are updates to e
 Until next week!
 
 [Mitzi László](https://github.com/Mitzi-Laszlo)
-
