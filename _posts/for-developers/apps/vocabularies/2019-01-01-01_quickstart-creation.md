@@ -183,7 +183,7 @@ So far, all our labels and comments are written in English, yet there is no
 explicit indication that the text is actually in English within the vocabulary
 itself. To make the language of any text explicit, RDF provides the concept of a
 __language tag__, which can be placed directly after the text string itself. The
-value of these language tags is defined by the international IEFT standard 
+value of these language tags is defined by the international IETF standard 
 (BCP-47)[https://tools.ietf.org/html/bcp47] - for example, we can use `@en` for
 English, or `@fr` for French.
 
