@@ -19,7 +19,11 @@ Let's start by stating in English what we'd like to put in our vocabulary:
 - An `obelisk` is `built by` a `sculptor`.
 - An `obelisk` has a `height`, which is a numerical value.
 
-The highlighted elements of these sentences are going to be the 'terms' in our vocabulary. We can identify two types of terms: the things that we talk about (e.g. `obelisk` or `sculptor`), and their properties (e.g. `built by` or `height`). Let's make a graphical representation of that, by putting the things in bubbles and the properties into squares:
+The highlighted elements of these sentences are going to be the 'terms' in our 
+vocabulary. We can identify two types of terms: the things that we talk about
+(e.g. `obelisk` or `sculptor`), and their properties (e.g. `built by` or 
+`height`). Let's make a graphical representation of that by putting the things
+ in bubbles, and the properties in squares:
 
 ![The obelisk vocabulary]({{site.baseurl}}/assets/img/tutorials/vocabularies/obelisk_vocab_1.png)
 
@@ -27,15 +31,26 @@ The highlighted elements of these sentences are going to be the 'terms' in our v
 
 ### Identifying everything with IRIs
 
-RDF is the language used to build vocabularies for use across the Web (aka Linked Data). In RDF, everything is identified by IRIs (which are simply standard web URIs (Universal Resource Identifiers), but just a little bit more modern in that they can contain characters from a more _Internationalised_ set of characters (e.g. 'α', 'δ', or 'ό')).
+RDF is the language used to build vocabularies for use across the Web (aka
+Linked Data). In RDF, everything is identified by IRIs (which are simply
+standard web URIs (Universal Resource Identifiers), but just a little bit more
+modern in that they can contain characters from a more _Internationalised_ set
+of characters (e.g. 'α', 'δ', or 'ό')).
 
-First, we'll need an IRI to represent (or identify) our new vocabulary (as we said, everything in RDF is identified with IRIs!), e.g. [http://w3id.org/obelisk/](http://w3id.org/obelisk/). From there, let's now update our plain English example a little bit:
+First, we'll need an IRI to represent (or identify) our new vocabulary (as we
+said, everything in RDF is identified with IRIs!), e.g. 
+[http://w3id.org/obelisk/](http://w3id.org/obelisk/). From there, let's now
+update our plain English example a little bit:
 - An [http://w3id.org/obelisk/Obelisk](http://w3id.org/obelisk/Obelisk) is [http://w3id.org/obelisk/ownedBy](http://w3id.org/obelisk/ownedBy) a [http://w3id.org/obelisk/Person](http://w3id.org/obelisk/Person).
 - An [http://w3id.org/obelisk/Obelisk](http://w3id.org/obelisk/Obelisk) is [http://w3id.org/obelisk/builtBy](http://w3id.org/obelisk/builtBy) a [http://w3id.org/obelisk/Sculptor](http://w3id.org/obelisk/Sculptor).
 - An [http://w3id.org/obelisk/Obelisk](http://w3id.org/obelisk/Obelisk) has a [http://w3id.org/obelisk/height](http://w3id.org/obelisk/height), which is a numerical value.
 
-Identifiers quickly become unpleasant to read when they are IRIs, so RDF introduces the notion of prefixes (a simple concept borrowed from XML namespaces). From now on we'll use the prefix `obelisk:` to stand in for our vocabulary identifier `http://w3id.org/obelisk/`, which means our vocabulary now looks like:
-- Use the prefix 'obelisk' for our vocabulary identifier http://w3id.org/obelisk/.
+As we can see, identifiers quickly become unpleasant to read when they are IRIs,
+so RDF introduces the notion of prefixes (a simple concept borrowed from XML
+namespaces). From now on we'll use the prefix `obelisk:` to stand in for our
+vocabulary identifier `http://w3id.org/obelisk/`, which means our vocabulary
+now looks like:
+- Use the prefix 'obelisk:' for our vocabulary identifier http://w3id.org/obelisk/.
 - An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) an [obelisk:Person](http://w3id.org/obelisk/Person).
 - An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:builtBy](http://w3id.org/obelisk/builtBy) an [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor).
 - An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) has an [obelisk:height](http://w3id.org/obelisk/height), which is a numerical value.
