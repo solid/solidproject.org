@@ -177,6 +177,39 @@ obelisk:ownedBy rdf:type rdf:Property ;
     rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered." .
 ```
 
+### Adding multilingual support
+
+So far all our labels and comments are written in English, yet there is no explicit indication of that in the vocabulary. To do so, RDF uses the concept of __language tag__: after a string, you can add a tag (e.g. `@en` for English, or `@es` for Spanish) to stipulate its language.
+
+```turtle
+@prefix obelisk: <http://w3id.org/obelisk/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+obelisk:Obelisk rdf:type rdfs:Class ;
+    # A label explicitly in english...
+    rdfs:label "Obelisk"@en ;
+    # ... as well as the comment.
+    rdfs:comment "An obelisk is a four-sided pillar with a pyramid-shaped top."@en .
+
+obelisk:Sculptor rdf:type rdfs:Class ;
+    rdfs:label rdfs:label "Sculptor"@en ;
+    rdfs:comment "An artist who sculpts obelisks."@en .
+
+obelisk:ownedBy rdf:type rdf:Property ;
+    rdfs:label "owned by"@en ;
+    rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered."@en .
+
+obelisk:builtBy rdf:type rdf:Property ;
+    rdfs:label "built by"@en ;
+    rdfs:comment "Relationship between an obelisk and the person who built it."@en .
+
+obelisk:height rdf:type rdf:Property ;
+    rdfs:label "heigth"@en ;
+    # Note: so far we didn't specify any units for the height (we'll fix this properly later), but we can however provide a hint in the comment.
+    rdfs:comment "The distance from the ground to the highest point of the obelisk, in meters."@en .
+```
+
 ## Adding some metadata
 
 The finishing touch to this vocabulary is to add some metadata about the vocabulary itself, so that people we share this vocabulary with (or who search for it, or who just stumble across it on the web), can know who created it, and when, and what it's intended purpose is without having to go through all the details of the individual terms contained within it.
