@@ -240,7 +240,7 @@ Much like we described each term with human-friendly labels and comments, we can
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix vann:     <http://purl.org/vocab/vann/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 obelisk: rdf:type owl:Ontology ;
     dcterms:title "Obelisk ontology" ;
