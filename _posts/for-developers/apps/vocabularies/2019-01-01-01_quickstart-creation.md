@@ -245,7 +245,7 @@ obelisk:Sculptor rdf:type rdfs:Class ;
 
 Of course for many text values the concept of 'language' is meaningless, for
 instance Social Security Numbers in the United States are often written as 
-stings, as they contain hypens (e.g. '123-12-7890'), or the concept of a 
+stings, as they contain hyphens (e.g. '123-12-7890'), or the concept of a 
 username (or nickname) will most often not have any associated language. For
 these common use-cases, simply not specifying a language tag at all is expected. 
 
