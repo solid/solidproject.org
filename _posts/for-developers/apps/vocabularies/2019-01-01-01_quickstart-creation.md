@@ -1,6 +1,6 @@
 ---
 layout: for-developers
-title: "Create your vocabulary "
+title: "How to create your own vocabulary"
 permalink: /for-developers/apps/vocabularies/create/quickstart
 tags: [apps]
 categories: [Vocabularies, Quickstart]
@@ -8,7 +8,9 @@ exclude: true
 published: true
 ---
 
-Let us build a very simple vocabulary describing [obelisks](https://en.wikipedia.org/wiki/Obelisk), so that [Cleopatra](https://cleopatra.solid.community/profile/card#me) and [Caesar](https://jcaesar.solid.community/profile/card#me) can share information about their personal collections.
+# How to create your own vocabulary
+
+Let's build a very simple vocabulary describing [obelisks](https://en.wikipedia.org/wiki/Obelisk) (tall, four-sided, narrow tapering monuments that end in a pyramid-like shape), so that [Cleopatra](https://cleopatra.solid.community/profile/card#me) and [Caesar](https://jcaesar.solid.community/profile/card#me) can share information about their personal collections.
 
 ## From plain English to a graphical representation
 
@@ -25,7 +27,7 @@ The highlighted elements of these sentences are going to be the 'terms' in our v
 
 ### Identifying everything with IRIs
 
-RDF is the language used to build vocabularies for use across the Web (aka Linked Data). In RDF, everything is identified by IRIs, which are simply standard Web URIs, but just a bit more modern in that they can contain characters from a more _Internationalised_ set of characters (e.g. 'α', 'δ', or 'ό').
+RDF is the language used to build vocabularies for use across the Web (aka Linked Data). In RDF, everything is identified by IRIs (which are simply standard web URIs (Universal Resource Identifiers), but just a little bit more modern in that they can contain characters from a more _Internationalised_ set of characters (e.g. 'α', 'δ', or 'ό')).
 
 First, we'll need an IRI to represent (or identify) our new vocabulary (as we said, everything in RDF is identified with IRIs!), e.g. [http://w3id.org/obelisk/](http://w3id.org/obelisk/). From there, let's now update our plain English example a little bit:
 - An [http://w3id.org/obelisk/Obelisk](http://w3id.org/obelisk/Obelisk) is [http://w3id.org/obelisk/ownedBy](http://w3id.org/obelisk/ownedBy) a [http://w3id.org/obelisk/Person](http://w3id.org/obelisk/Person).
@@ -34,15 +36,15 @@ First, we'll need an IRI to represent (or identify) our new vocabulary (as we sa
 
 Identifiers quickly become unpleasant to read when they are IRIs, so RDF introduces the notion of prefixes (a simple concept borrowed from XML namespaces). From now on we'll use the prefix `obelisk:` to stand in for our vocabulary identifier `http://w3id.org/obelisk/`, which means our vocabulary now looks like:
 - Use the prefix 'obelisk' for our vocabulary identifier http://w3id.org/obelisk/.
-- An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) a [obelisk:Person](http://w3id.org/obelisk/Person).
-- An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:builtBy](http://w3id.org/obelisk/builtBy) a [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor).
-- An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) has a [obelisk:height](http://w3id.org/obelisk/height), which is a numerical value.
+- An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) an [obelisk:Person](http://w3id.org/obelisk/Person).
+- An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:builtBy](http://w3id.org/obelisk/builtBy) an [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor).
+- An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) has an [obelisk:height](http://w3id.org/obelisk/height), which is a numerical value.
 
-### Things, and properties of things
+### Things, and Properties of Things
 
-So from the above we can see that we want to describe both 'things' (e.g. Obelisks and Sculptors), and the properties of those things (e.g. their height, or who built them). So to distinguish between things and their properties, RDF allows us explicit state which is which - i.e. 'things' are called Classes, and 'properties' are called Properties.
+So from the above we can see that we want to describe both 'Things' (e.g. Obelisks and Sculptors), and the Properties of those things (e.g. their height, or who built them). So to distinguish between things and their properties, RDF allows us explicitly state which is which - i.e. 'things' are called Classes, and 'properties' are called Properties.
 
-### Defining classes of things
+### Defining Classes of Things
 
 In RDF, the general things that we can talk about are called __Classes__. Everything that went in a bubble in our first schema is therefore a Class, so we could add the following to our vocabulary:
 - [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is a Class.
@@ -54,7 +56,7 @@ If we look at these sentences, they are structured exactly like the ones from th
 - [obelisk:Person](http://w3id.org/obelisk/Person) [is a](???) [class](???).
 - [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor) [is a](???) [class](???).
 
-What we need now are IRI for the "[is a](???)" property and the "[Class](???)" Class. Fortunately, these are defined in the RDF and RDFS vocabularies: "[is a](???)" is defined by [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type), and "[class](???)" by [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class). Therefore, we could write:
+What we need now are IRIs for the "[is a](???)" property and the "[Class](???)" Class. Fortunately, these are defined in the RDF and RDFS vocabularies: "[is a](???)" is defined by [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type), and "[class](???)" by [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class). Therefore, we can now write:
 
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
@@ -66,7 +68,7 @@ obelisk:Person rdf:type rdfs:Class .
 obelisk:Sculptor rdf:type rdfs:Class .
 ```
 
-And congratulations, you've just created your first snippet of RDF! This particular RDF syntax is called Turtle, there are many other standardized syntaxes, but we don't need to cover them in this tutorial.
+And congratulations, you've just created your first snippet of valid RDF! This particular RDF syntax is called Turtle, there are many other standardized syntaxes, but we don't need to cover them in this tutorial.
 
 ### Defining properties of things
 
@@ -162,9 +164,9 @@ obelisk:ownedBy rdf:type rdf:Property ;
 
 ## Adding some metadata
 
-The finishing touch to this vocabulary is to add some metadata to the vocabulary itself, so that people we share this vocabulary with, or who find it on the Web, can know who created it, and when, and what it's intended purpose is without having to go through its details.
+The finishing touch to this vocabulary is to add some metadata about the vocabulary itself, so that people we share this vocabulary with (or who search for it, or who just stumble across it on the web), can know who created it, and when, and what it's intended purpose is without having to go through all the details of the individual terms contained within it.
 
-We already decided that the IRI of the vocabulary would be `http://w3id.org/obelisk/`, so this is the identifier we are going to use in RDF to say stuff about the vocabulary. In Linked Data terminology a vocabulary is called an [`owl:Ontology`](http://www.w3.org/2002/07/owl#Ontology), so the first thing to say is:
+We already decided that the IRI of the vocabulary would be `http://w3id.org/obelisk/`, so this is the identifier we are going to use in RDF to say stuff about the vocabulary itself. In Linked Data terminology a vocabulary is called an [`owl:Ontology`](http://www.w3.org/2002/07/owl#Ontology), so the first thing to say is:
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -181,7 +183,7 @@ obelisk:Obelisk a rdfs:Class ;
 # ...
 ```
 
-### Adding some description
+### Adding a description
 
 Much like we described each term with human-friendly labels and comments, we can add a title ([`dcterms:title`](http://purl.org/dc/terms/title)) and a description ([`dcterms:description`](http://purl.org/dc/terms/description)) to our vocabulary. To make it easier to reuse, we can also indicate a preferred prefix ([`vann:preferredNamespacePrefix`](http://purl.org/vocab/vann/preferredNamespacePrefix)) and a preferred IRI ([`vann:preferredNamespaceUri`](http://purl.org/vocab/vann/preferredNamespaceUri)) (since multiple IRIs may point to the same vocabulary).
 ```turtle
