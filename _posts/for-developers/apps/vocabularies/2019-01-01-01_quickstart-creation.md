@@ -179,7 +179,16 @@ obelisk:ownedBy rdf:type rdf:Property ;
 
 ### Adding multilingual support
 
-So far all our labels and comments are written in English, yet there is no explicit indication of that in the vocabulary. To do so, RDF uses the concept of __language tag__: after a string, you can add a tag (e.g. `@en` for English, or `@es` for Spanish) to stipulate its language.
+So far, all our labels and comments are written in English, yet there is no
+explicit indication that the text is actually in English within the vocabulary
+itself. To make the language of any text explicit, RDF provides the concept of a
+__language tag__, which can be placed directly after the text string itself. The
+value of these language tags is defined by the international IETF standard 
+(BCP-47)[https://tools.ietf.org/html/bcp47] - for example, we can use `@en` for
+English, or `@fr` for French.
+
+This example shows how easy it is to explicitly provide both English and French
+labels and comments for terms in our vocabulary:
 
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
@@ -187,27 +196,18 @@ So far all our labels and comments are written in English, yet there is no expli
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 obelisk:Obelisk rdf:type rdfs:Class ;
-    # A label explicitly in english...
+    # A label explicitly in English...
     rdfs:label "Obelisk"@en ;
-    # ... as well as the comment.
-    rdfs:comment "An obelisk is a four-sided pillar with a pyramid-shaped top."@en .
+    # ... as well as a comment in English...
+    rdfs:comment "An obelisk is a four-sided pillar with a pyramid-shaped top."@en ;
+    # ...and the same comment in French...
+    rdfs:comment "Un obélisque est un pilier à quatre côtés dont le sommet est en forme de pyramide."@fr .
 
 obelisk:Sculptor rdf:type rdfs:Class ;
-    rdfs:label rdfs:label "Sculptor"@en ;
-    rdfs:comment "An artist who sculpts obelisks."@en .
-
-obelisk:ownedBy rdf:type rdf:Property ;
-    rdfs:label "owned by"@en ;
-    rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered."@en .
-
-obelisk:builtBy rdf:type rdf:Property ;
-    rdfs:label "built by"@en ;
-    rdfs:comment "Relationship between an obelisk and the person who built it."@en .
-
-obelisk:height rdf:type rdf:Property ;
-    rdfs:label "heigth"@en ;
-    # Note: so far we didn't specify any units for the height (we'll fix this properly later), but we can however provide a hint in the comment.
-    rdfs:comment "The distance from the ground to the highest point of the obelisk, in meters."@en .
+    rdfs:label "Sculptor"@en ;
+    rdfs:label "Sculpteur"@fr ;
+    rdfs:comment "An artist who sculpts obelisks."@en ;
+    rdfs:comment "Un artiste qui taille des obélisques"@fr .
 ```
 
 ## Adding some metadata
@@ -240,6 +240,7 @@ Much like we described each term with human-friendly labels and comments, we can
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 obelisk: rdf:type owl:Ontology ;
     dcterms:title "Obelisk ontology" ;
