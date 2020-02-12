@@ -57,21 +57,33 @@ now looks like:
 
 ### Things, and Properties of Things
 
-So from the above we can see that we want to describe both 'Things' (e.g. Obelisks and Sculptors), and the Properties of those things (e.g. their height, or who built them). So to distinguish between things and their properties, RDF allows us explicitly state which is which - i.e. 'things' are called Classes, and 'properties' are called Properties.
+So from the above we can see that we want to describe both 'Things' (e.g.
+Obelisks and Sculptors), and the Properties of those things (e.g. their height,
+or who built them). So to distinguish between things and their properties, RDF
+allows us explicitly state which is which - i.e. 'things' are called Classes,
+and 'properties' are called Properties.
 
 ### Defining Classes of Things
 
-In RDF, the general things that we can talk about are called __Classes__. Everything that went in a bubble in our first schema is therefore a Class, so we could add the following to our vocabulary:
+In RDF, the general things that we can talk about are called __Classes__.
+Everything that went in a bubble in our first schema is therefore a Class, so
+we could add the following to our vocabulary:
 - [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is a Class.
 - [obelisk:Person](http://w3id.org/obelisk/Person) is a Class.
 - [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor) is a Class.
 
-If we look at these sentences, they are structured exactly like the ones from the rest of our vocabulary. Let us underline the important bits in the same way:
+If we look at these sentences, they are structured exactly like the ones from
+the rest of our vocabulary. Let us underline the important bits in the same way:
 - [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) [is a](???) [class](???).
 - [obelisk:Person](http://w3id.org/obelisk/Person) [is a](???) [class](???).
 - [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor) [is a](???) [class](???).
 
-What we need now are IRIs for the "[is a](???)" property and the "[Class](???)" Class. Fortunately, these are defined in the RDF and RDFS vocabularies: "[is a](???)" is defined by [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type), and "[class](???)" by [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class). Therefore, we can now write:
+What we need now are IRIs for the "[is a](???)" property and the "[Class](???)"
+Class. Fortunately, these are defined in the RDF and RDFS vocabularies:
+"[is a](???)" is defined by
+[rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type), and "[class](???)"
+by [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class). Therefore, we can
+now write:
 
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
@@ -83,16 +95,23 @@ obelisk:Person rdf:type rdfs:Class .
 obelisk:Sculptor rdf:type rdfs:Class .
 ```
 
-And congratulations, you've just created your first snippet of valid RDF! This particular RDF syntax is called Turtle, there are many other standardized syntaxes, but we don't need to cover them in this tutorial.
+And congratulations, you've just created your first snippet of valid RDF! This
+particular RDF syntax is called Turtle, there are many other standardized
+syntaxes, but we don't need to cover them in this tutorial.
 
 ### Defining properties of things
 
-The properties of things in RDF are called properties (how convenient). Therefore, as we did for Classes, we might write:
+The properties of things in RDF are called properties (how convenient).
+Therefore, as we did for Classes, we might write:
 - [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
 - [obelisk:builtBy](http://w3id.org/obelisk/builtBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
 - [obelisk:height](http://w3id.org/obelisk/height) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
 
-We already know that [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) is identified by the IRI [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type), and [property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property) is identified by [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property) so we can now go ahead and change that into:
+We already know that [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) is
+identified by the IRI [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type),
+and [property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property) is
+identified by [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
+so we can now go ahead and change that into:
 - [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
 - [obelisk:builtBy](http://w3id.org/obelisk/builtBy) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
 - [obelisk:height](http://w3id.org/obelisk/height) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
@@ -118,7 +137,11 @@ obelisk:height rdf:type rdf:Property .
 
 ### Using labels and comments
 
-So far we have created identifiers that are primarily intended for machines (although it is certainly not recommended, the IRIs themselves do not need to be meaningful to humans at all). For example, the following would technically be an equivalent vocabulary:
+So far we have created identifiers that are primarily intended for machines
+(although it is certainly not recommended, the IRIs themselves do not need to
+be meaningful to humans at all). For example, the following would technically
+be an equivalent vocabulary:
+
 ```turtle
 @prefix o: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -132,7 +155,15 @@ o:p002 rdf:type rdf:Property .
 o:p003 rdf:type rdf:Property .
 ```
 
-Even if we don't want our vocabulary to look like this, the point is that it's really useful to also provide human-readable descriptions of the terms in our vocabularies. To do so we'll use the properties [`rdfs:label`](http://www.w3.org/2000/01/rdf-schema#label) to add a human-readable label for the term identified by the IRI, and [`rdfs:comment`](http://www.w3.org/2000/01/rdf-schema#comment) to add a few sentences describing what is meant by the term in the context we use it. This could lead to something like this:
+Even if we don't want our vocabulary to look like this, the point is that it's
+really useful to also provide human-readable descriptions of the terms in our
+vocabularies. To do so we'll use the properties
+[`rdfs:label`](http://www.w3.org/2000/01/rdf-schema#label) to add a
+human-readable label for the term identified by the IRI, and
+[`rdfs:comment`](http://www.w3.org/2000/01/rdf-schema#comment) to add a few
+sentences describing what is meant by the term in the context we use it. This
+could lead to something like this:
+
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -157,12 +188,14 @@ obelisk:builtBy rdf:type rdf:Property ;
     rdfs:comment "Relationship between an obelisk and the person who built it." .
 
 obelisk:height rdf:type rdf:Property ;
-    rdfs:label "heigth" ;
+    rdfs:label "height" ;
     # Note: so far we didn't specify any units for the height (we'll fix this properly later), but we can however provide a hint in the comment.
     rdfs:comment "The distance from the ground to the highest point of the obelisk, in meters." .
 ```
 
-Please note that we are using a shortcut provided by the Turtle syntax to avoid repeating the thing that we talk about when adding multiple properties to it (e.g. `obelisk:ownedBy` in the next snippet):
+Please note that we are using a shortcut provided by the Turtle syntax to avoid
+repeating the thing that we talk about when adding multiple properties to it
+(e.g. `obelisk:ownedBy` in the next snippet):
 - The long version:  
 ```turtle
 obelisk:ownedBy rdf:type rdf:Property .
@@ -184,7 +217,7 @@ explicit indication that the text is actually in English within the vocabulary
 itself. To make the language of any text explicit, RDF provides the concept of a
 __language tag__, which can be placed directly after the text string itself. The
 value of these language tags is defined by the international IETF standard 
-(BCP-47)[https://tools.ietf.org/html/bcp47] - for example, we can use `@en` for
+[BCP-47](https://tools.ietf.org/html/bcp47) - for example, we can use `@en` for
 English, or `@fr` for French.
 
 This example shows how easy it is to explicitly provide both English and French
@@ -210,11 +243,27 @@ obelisk:Sculptor rdf:type rdfs:Class ;
     rdfs:comment "Un artiste qui taille des obélisques"@fr .
 ```
 
+Of course for many text values the concept of 'language' is meaningless, for
+instance Social Security Numbers in the United States are often written as 
+stings, as they contain hyphens (e.g. '123-12-7890'), or the concept of a 
+username (or nickname) will most often not have any associated language. For
+these common use-cases, simply not specifying a language tag at all is expected. 
+
 ## Adding some metadata
 
-The finishing touch to this vocabulary is to add some metadata about the vocabulary itself, so that people we share this vocabulary with (or who search for it, or who just stumble across it on the web), can know who created it, and when, and what it's intended purpose is without having to go through all the details of the individual terms contained within it.
+The finishing touch to this vocabulary is to add some metadata about the
+vocabulary itself, so that people we share this vocabulary with (or who search
+for it, or who just stumble across it on the web), can know who created it, and
+when, and what it's intended purpose is, without having to go through all the
+details of the individual terms contained within it.
 
-We already decided that the IRI of the vocabulary would be `http://w3id.org/obelisk/`, so this is the identifier we are going to use in RDF to say stuff about the vocabulary itself. In Linked Data terminology a vocabulary is called an [`owl:Ontology`](http://www.w3.org/2002/07/owl#Ontology), so the first thing to say is:
+We already decided that the IRI of our vocabulary would be
+`http://w3id.org/obelisk/`, so this is the identifier we are going to use in
+RDF to say stuff about the vocabulary itself. In Linked Data terminology a
+vocabulary is called an
+[`owl:Ontology`](http://www.w3.org/2002/07/owl#Ontology), so the first thing to
+say is:
+
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -233,7 +282,15 @@ obelisk:Obelisk a rdfs:Class ;
 
 ### Adding a description
 
-Much like we described each term with human-friendly labels and comments, we can add a title ([`dcterms:title`](http://purl.org/dc/terms/title)) and a description ([`dcterms:description`](http://purl.org/dc/terms/description)) to our vocabulary. To make it easier to reuse, we can also indicate a preferred prefix ([`vann:preferredNamespacePrefix`](http://purl.org/vocab/vann/preferredNamespacePrefix)) and a preferred IRI ([`vann:preferredNamespaceUri`](http://purl.org/vocab/vann/preferredNamespaceUri)) (since multiple IRIs may point to the same vocabulary).
+Much like we described each term with human-friendly labels and comments, we
+can now add a title (using the property
+[`dcterms:title`](http://purl.org/dc/terms/title)) and a description (using the
+property [`dcterms:description`](http://purl.org/dc/terms/description)) to
+our vocabulary. To make it easier to reuse, we can also indicate a suggested
+or preferred prefix ([`vann:preferredNamespacePrefix`](http://purl.org/vocab/vann/preferredNamespacePrefix))
+and a suggested or preferred IRI ([`vann:preferredNamespaceUri`](http://purl.org/vocab/vann/preferredNamespaceUri))
+(since multiple IRIs may point to the same vocabulary).
+
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -258,6 +315,8 @@ obelisk:Obelisk a rdfs:Class ;
 # ...
 ```
 
-A reference version of this final vocabulary is available [here](/assets/misc/tutorials/quickstart-obelisk.ttl), and you can experiment with the syntax using a <a href="http://www.easyrdf.org/converter?data=%40prefix%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%20.%0A%40prefix%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20.%0A%40prefix%20owl%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%20.%0A%40prefix%20vann%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fvocab%2Fvann%2F%3E%20.%0A%40prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%20.%0A%0A%40prefix%20obelisk%3A%20%3Chttp%3A%2F%2Fw3id.org%2Fobelisk%2F%3E%20.%0A%0Aobelisk%3A%20rdf%3Atype%20owl%3AOntology%20%3B%0A%20%20%20%20%23%20Description%0A%20%20%20%20dcterms%3Atitle%20%22Obelisk%20ontology%22%20%3B%0A%20%20%20%20dcterms%3Adescription%20%22%22%22%0A%20%20%20%20The%20obelisk%20ontology%20aims%20at%20describing%20obelisks.%0A%20%20%20%20%22%22%22%20%3B%0A%20%20%20%20vann%3ApreferredNamespacePrefix%20%22obelisk%22%20%3B%0A%20%20%20%20vann%3ApreferredNamespaceURI%20%3Chttp%3A%2F%2Fw3id.org%2Fobelisk%2F%3E%20.%0A%0Aobelisk%3AObelisk%20a%20rdfs%3AClass%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22Obelisk%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22An%20obelisk%20is%20a%20four-sided%20pilar%20with%20a%20pyramid-shaped%20top.%22%20.%0A%0Aobelisk%3ASculptor%20a%20rdfs%3AClass%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22Sculptor%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22An%20artist%20who%20sculpts%20obelisks.%22%20.%0A%0Aobelisk%3AownedBy%20a%20rdf%3AProperty%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22owned%20by%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22Relationship%20between%20an%20obelisk%20and%20the%20person%20who%20owns%20it%2C%20which%20is%20typically%20the%20person%20who%20ordered%20it%2C%20or%20to%20whom%20it%20was%20offered.%22%20.%0A%0Aobelisk%3AbuiltBy%20a%20rdf%3AProperty%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22built%20by%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22Relationship%20between%20an%20obelisk%20and%20the%20person%20who%20built%20it.%22%20.%0A%0Aobelisk%3Aheigth%20a%20rdf%3AProperty%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22heigth%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22The%20distance%20from%20the%20ground%20to%20the%20highest%20point%20of%20the%20obelisk%2C%20in%20meters.%22%20.%0A&uri=https%3A%2F%2Fw3id.org%2Fobelisk" target="_blank">live RDF validator</a>.
+A reference version of this final vocabulary is available
+[here](/assets/misc/tutorials/quickstart-obelisk.ttl), and you can experiment
+with the syntax using a <a href="http://www.easyrdf.org/converter?data=%40prefix%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%20.%0A%40prefix%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20.%0A%40prefix%20owl%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%20.%0A%40prefix%20vann%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fvocab%2Fvann%2F%3E%20.%0A%40prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%20.%0A%0A%40prefix%20obelisk%3A%20%3Chttp%3A%2F%2Fw3id.org%2Fobelisk%2F%3E%20.%0A%0Aobelisk%3A%20rdf%3Atype%20owl%3AOntology%20%3B%0A%20%20%20%20%23%20Description%0A%20%20%20%20dcterms%3Atitle%20%22Obelisk%20ontology%22%20%3B%0A%20%20%20%20dcterms%3Adescription%20%22%22%22%0A%20%20%20%20The%20obelisk%20ontology%20aims%20at%20describing%20obelisks.%0A%20%20%20%20%22%22%22%20%3B%0A%20%20%20%20vann%3ApreferredNamespacePrefix%20%22obelisk%22%20%3B%0A%20%20%20%20vann%3ApreferredNamespaceURI%20%3Chttp%3A%2F%2Fw3id.org%2Fobelisk%2F%3E%20.%0A%0Aobelisk%3AObelisk%20a%20rdfs%3AClass%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22Obelisk%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22An%20obelisk%20is%20a%20four-sided%20pilar%20with%20a%20pyramid-shaped%20top.%22%20.%0A%0Aobelisk%3ASculptor%20a%20rdfs%3AClass%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22Sculptor%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22An%20artist%20who%20sculpts%20obelisks.%22%20.%0A%0Aobelisk%3AownedBy%20a%20rdf%3AProperty%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22owned%20by%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22Relationship%20between%20an%20obelisk%20and%20the%20person%20who%20owns%20it%2C%20which%20is%20typically%20the%20person%20who%20ordered%20it%2C%20or%20to%20whom%20it%20was%20offered.%22%20.%0A%0Aobelisk%3AbuiltBy%20a%20rdf%3AProperty%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22built%20by%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22Relationship%20between%20an%20obelisk%20and%20the%20person%20who%20built%20it.%22%20.%0A%0Aobelisk%3Aheight%20a%20rdf%3AProperty%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22height%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22The%20distance%20from%20the%20ground%20to%20the%20highest%20point%20of%20the%20obelisk%2C%20in%20meters.%22%20.%0A&uri=https%3A%2F%2Fw3id.org%2Fobelisk" target="_blank">live RDF validator</a>.
 
 Next step: [publish your vocabulary on your Pod](/for-developers/apps/vocabularies/publish/quickstart).
