@@ -4,7 +4,7 @@ title: This Week in Solid 2020-01-30
 permalink: /this-week-in-solid/2020-01-30
 tags: [weekly, updates]
 categories: [Updates]
-author: Mitzi László
+author: 
 ---
 
 {% include twis-intro.md %}
@@ -85,5 +85,3 @@ If you have any new apps, Pods, or identity providers, or there are updates to e
 * [Inrupt is hiring](https://inrupt.com/careers) a Head of Business Development, Project Manager, DevOps Engineer, and Senior Front-End Engineer/Architect.  
 
 Until next week!
-
-[Mitzi László](https://github.com/Mitzi-Laszlo)
