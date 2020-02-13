@@ -79,6 +79,7 @@ If you have any new apps, Pods, or identity providers, or there are updates to e
 * [Solidarity](https://scenaristeur.github.io/solidarity/) is the start of a new chat forum project based on LongChat and inbox
 * [Golf Course Assistant](https://gca-solid.now.sh/) is an app where golfers can track their score on the course. Built with the solid-react SDK.
 * [Portal](https://github.com/steamory/portal) is a competely new data browser that allows you to explore your personal data in SoLiD Pod.
+* [Matthias Evering](https://github.com/ewingson) has upgraded [solidweb.org](https://solidweb.org), an experimental server, to 5.2.3
 
 ### Job Openings 
 * [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
