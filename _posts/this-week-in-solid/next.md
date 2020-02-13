@@ -4,7 +4,7 @@ title: This Week in Solid 2020-01-30
 permalink: /this-week-in-solid/2020-01-30
 tags: [weekly, updates]
 categories: [Updates]
-author: Mitzi László
+author: 
 ---
 
 {% include twis-intro.md %}
@@ -13,7 +13,7 @@ author: Mitzi László
 
 ### [Press](https://solidproject.org/press)
 
-[Jon Henshaw](https://twitter.com/henshaw) published an article about the work Angelo Veltrans has been doing. [Read more here](https://www.coywolf.news/social/solid-profile-design/). 
+[Jon Henshaw](https://twitter.com/henshaw) published an article about the work Angelo Veltens has been doing. [Read more here](https://www.coywolf.news/social/solid-profile-design/). 
 
 We saw the first Solid Event in Africa led by Ali Siragedien in [Solid Khartoum](http://solid-khartoum.atspace.cc). You can watch a [recording of the event here](https://youtu.be/BhFFCzjAqm4). 
 
@@ -83,8 +83,6 @@ If you have any new apps, Pods, or identity providers, or there are updates to e
 
 ### Job Openings 
 * [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
-* [Inrupt is hiring](https://inrupt.com/careers) a Head of Business Development, Project Manager, DevOps Engineer, and Senior Front-End Engineer/Architect.  
+* [Inrupt is hiring](https://inrupt.com/careers) a Head of Business Development, DevOps Engineer, and Senior Front-End Engineer/Architect.  
 
 Until next week!
-
-[Mitzi László](https://github.com/Mitzi-Laszlo)
