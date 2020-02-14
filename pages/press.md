@@ -579,6 +579,12 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ## Mentions of Solid in Articles
 
+### 2020
+
+2020-02-13 [solid at ground level](https://trav.page/log/solid-ground/)
+
+2020-02-12 [a solid foundation for a new web](https://trav.page/log/solid-foundation/)
+
 ### 2019
 
 2019-11-20 [LSE Business Review: How to turn trust into a competitive advantage](https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/) 
