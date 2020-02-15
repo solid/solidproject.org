@@ -684,7 +684,7 @@ Apple joins Google, Facebook, and Twitter in data-sharing project](https://myjoy
 
 2019-06-07 [Medium: DID: The Future of Identity](https://medium.com/clean-integration/did-the-future-of-identity-becaedd842c1)
 
-2019-06-06 [Technology Things: Revolt on the horizon? How young people really feel about digital technology](http://technology-things.com/revolt-on-the-horizon-how-young-people-really-feel-about-digital-technology/)
+2019-06-06 [The conversation: Revolt on the horizon? How young people really feel about digital technology](https://theconversation.com/revolt-on-the-horizon-how-young-people-really-feel-about-digital-technology-117209)
 
 2019-06-06 [Ethan Zuckerman's Blog: Sir Tim versus Black Mirror](http://www.ethanzuckerman.com/blog/2019/06/06/sir-tim-versus-black-mirror/)
 
