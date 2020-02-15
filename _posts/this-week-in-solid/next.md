@@ -23,6 +23,8 @@ Michiel de Jong presented on the [Workshop on Cloud Services for File Synchronis
 
 [Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_%E2%80%93_January_30th,_2020) led by Jeroen van Beele had another event on the 30th January.
 
+[Travis Vachon](https://robboss.art/@travis) is publishing a series of articles about the Solid app prototyping he's been doing: [a solid foundation for a new web](https://trav.page/log/solid-foundation) and [solid at ground level](https://trav.page/log/solid-ground/)
+
 There are a few upcoming events where you can learn more and meet others working on Solid: 
 
 {%
@@ -80,6 +82,7 @@ If you have any new apps, Pods, or identity providers, or there are updates to e
 * [Golf Course Assistant](https://gca-solid.now.sh/) is an app where golfers can track their score on the course. Built with the solid-react SDK.
 * [Portal](https://github.com/steamory/portal) is a competely new data browser that allows you to explore your personal data in SoLiD Pod.
 * [Matthias Evering](https://github.com/ewingson) has upgraded [solidweb.org](https://solidweb.org), an experimental server, to 5.2.3
+* [Concept](https://useconcept.art/) ([GitHub](https://github.com/travis/concept)) is an embarrassingly simple clone of [notion.so](https://notion.so) built on Solid. Currently very much in alpha.
 
 ### Job Openings 
 * [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
