@@ -22,6 +22,7 @@ Please be aware that this page is still a work in progress. You wrote a Solid-co
 ## More apps
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
 
+* [Concept](https://useconcept.art) ([GitHub](https://github.com/travis/concept)) is an embarrassingly simple clone of [notion.so](https://notion.so) built on Solid, currently in early alpha. 
 * [Launcher Exploration](https://launcher-exploration.inrupt.app/) (code on https://github.com/inrupt/launcher-exploration)
 * [Friend Requests Exploration](https://friend-requests-exploration.inrupt.app/) (code on https://github.com/inrupt/friend-requests-exploration)
 * [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype) (deployed as [Sigmafied](https://sigmafied.com)). 2019. [Sharon Statsianis](https://github.com/SharonStrats). 
