@@ -94,6 +94,7 @@ The third Solid Event is a good place to gather local companies and institutions
 
 | Date | Event | Organizer(s) | Recordings and Slides |
 |------|-------|--------------|--------------|
+|2020-02-18|[Solid Barcelona](https://www.meetup.com/MyData-Barcelona/events/268485856/)|[MyData Barcelona](https://mydata.barcelona/), [Noel De Martin](https://noeldemartin.com)|[Slides & Summary](https://speakerdeck.com/noeldemartin/an-introduction-to-solid)
 |2019-12-10|[Solid Enschede](https://www.utwente.nl/en/digital-society/events/2019/12/63530/solid-christmas-meetup-enschede-how-to-fix-the-internet)|Erwin Folmer |
 |2019-11-20|[Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
 |2019-11-21|[Solid Montreal](https://www.meetup.com/Montreal-Decentralized-Linked-Data-Meetup/events/266218723/?fbclid=IwAR2sJy5LIwzjJG52HSyfj88TSW4t5w_svUsWKA-STNG_e-pwrkfoLC5ROpE)|[David H Mason](https://github.com/vid)|
@@ -117,7 +118,7 @@ The third Solid Event is a good place to gather local companies and institutions
 | 2019-03-21 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-57623377072) | [Kelly O'Brien](https://github.com/InruptKelly) ||
 | 2019-02-20 | [Solid Saxony](https://forum.solidproject.org/t/solid-meetup-saxony-germany/1215) | [Team 4C](https://wefourc.com/) ||
 | 2019-02-08 | Solid Stockholm | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
-| 2019-01-09 | [Solid Berlin](https://supermarkt-berlin.net/event/solid-meetup-berlin/) | [Christian Buggedei](https://github.com/JollyOrc) ||
+| 2019-01-09 | Solid Berlin | [Christian Buggedei](https://github.com/JollyOrc) ||
 | 2018-12-12 | Solid Oslo | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
 | 2018-12-11 | [Solid Utrecht](https://www.meetup.com/Solid-Netherlands/) | [Pierluigi Casale](https://www.linkedin.com/in/pierluigi-casale-41271430/) ||
 | 2018-12-05 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-52634666705) | [Mitzi László](https://github.com/Mitzi-Laszlo) ||
