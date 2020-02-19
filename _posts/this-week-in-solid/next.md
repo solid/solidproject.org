@@ -4,7 +4,7 @@ title: This Week in Solid 2020-01-30
 permalink: /this-week-in-solid/2020-01-30
 tags: [weekly, updates]
 categories: [Updates]
-author: Mitzi László
+author: 
 ---
 
 {% include twis-intro.md %}
@@ -13,7 +13,7 @@ author: Mitzi László
 
 ### [Press](https://solidproject.org/press)
 
-[Jon Henshaw](https://twitter.com/henshaw) published an article about the work Angelo Veltrans has been doing. [Read more here](https://www.coywolf.news/social/solid-profile-design/). 
+[Jon Henshaw](https://twitter.com/henshaw) published an article about the work Angelo Veltens has been doing. [Read more here](https://www.coywolf.news/social/solid-profile-design/). 
 
 We saw the first Solid Event in Africa led by Ali Siragedien in [Solid Khartoum](http://solid-khartoum.atspace.cc). You can watch a [recording of the event here](https://youtu.be/BhFFCzjAqm4). 
 
@@ -22,6 +22,8 @@ At the [P2P Festival in Paris](https://p2p.paris/fr/event/festival-0/) there was
 Michiel de Jong presented on the [Workshop on Cloud Services for File Synchronisation and Sharing](https://cs3.deic.dk) on the 27th of January. 
 
 [Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_%E2%80%93_January_30th,_2020) led by Jeroen van Beele had another event on the 30th January.
+
+[Travis Vachon](https://robboss.art/@travis) is publishing a series of articles about the Solid app prototyping he's been doing: [a solid foundation for a new web](https://trav.page/log/solid-foundation) and [solid at ground level](https://trav.page/log/solid-ground/)
 
 There are a few upcoming events where you can learn more and meet others working on Solid: 
 
@@ -79,11 +81,9 @@ If you have any new apps, Pods, or identity providers, or there are updates to e
 * [Solidarity](https://scenaristeur.github.io/solidarity/) is the start of a new chat forum project based on LongChat and inbox
 * [Golf Course Assistant](https://gca-solid.now.sh/) is an app where golfers can track their score on the course. Built with the solid-react SDK.
 * [Portal](https://github.com/steamory/portal) is a competely new data browser that allows you to explore your personal data in SoLiD Pod.
-
+* [Concept](https://useconcept.art/) ([GitHub](https://github.com/travis/concept)) is an embarrassingly simple clone of [notion.so](https://notion.so) built on Solid. Currently very much in alpha.
 ### Job Openings 
 * [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
-* [Inrupt is hiring](https://inrupt.com/careers) a Head of Business Development, Project Manager, DevOps Engineer, and Senior Front-End Engineer/Architect.  
+* [Inrupt is hiring](https://inrupt.com/careers) a Head of Business Development, DevOps Engineer, and Senior Front-End Engineer/Architect.  
 
 Until next week!
-
-[Mitzi László](https://github.com/Mitzi-Laszlo)
