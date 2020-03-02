@@ -23,7 +23,9 @@ Michiel de Jong presented on the [Workshop on Cloud Services for File Synchronis
 
 [Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_%E2%80%93_January_30th,_2020) led by Jeroen van Beele had another event on the 30th January.
 
-[Travis Vachon](https://robboss.art/@travis) is publishing a series of articles about the Solid app prototyping he's been doing: [a solid foundation for a new web](https://trav.page/log/solid-foundation) and [solid at ground level](https://trav.page/log/solid-ground/)
+[Travis Vachon](https://robboss.art/@travis) is publishing a series of articles about the Solid app prototyping he's been doing: [a solid foundation for a new web](https://trav.page/log/solid-foundation), [solid at ground level](https://trav.page/log/solid-ground/) and [writing the web with solid](https://trav.page/log/write-solid)
+
+The [Bay Area Solid Interest Club](https://meetabit.com/events/february-2020-bay-area-solid-interest-club-meetup) had its first meetup on February 20th at the downtown San Francisco offices of [CircleCI](https://circleci.com). [Travis Vachon](https://robboss.art/@travis) presented on the motivations and current status of the Solid project to a crowd of 15.
 
 There are a few upcoming events where you can learn more and meet others working on Solid: 
 
@@ -37,10 +39,10 @@ There are a few upcoming events where you can learn more and meet others working
 
 {%
   include talk.html
-    date="2020-02-10"
-    title="Solid San Francisco"
-    website="https://meetabit.com/events/february-2020-bay-area-solid-interest-club-meetup"
-    speaker="Travis Vachon"
+    date="2020-04-02"
+    title="Bay Area Solid Interest Club"
+    website="https://meetabit.com/events/4-2-20-bay-area-solid-interest-club-meetup"
+    speaker="TBD"
 %}
 
 {%
