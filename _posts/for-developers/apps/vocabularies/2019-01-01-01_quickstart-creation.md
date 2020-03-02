@@ -35,7 +35,8 @@ RDF is the language used to build vocabularies for use across the Web (aka
 Linked Data). In RDF, everything is identified by IRIs (which are simply
 standard web URIs (Universal Resource Identifiers), but just a little bit more
 modern in that they can contain characters from a more _Internationalised_ set
-of characters (e.g. 'α', 'δ', or 'ό')).
+of characters (e.g. 'α', 'δ', or 'ό') - for more information, see
+ [Wikipedia](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)).
 
 First, we'll need an IRI to represent (or identify) our new vocabulary (as we
 said, everything in RDF is identified with IRIs!), e.g. 
@@ -57,16 +58,16 @@ now looks like:
 
 ### Things, and Properties of Things
 
-So from the above we can see that we want to describe both 'Things' (e.g.
-Obelisks and Sculptors), and the Properties of those things (e.g. their height,
-or who built them). So to distinguish between things and their properties, RDF
-allows us explicitly state which is which - i.e. 'things' are called Classes,
-and 'properties' are called Properties.
+From the above we can see that we want to describe both 'Things' (e.g.
+Obelisks and Sculptors), and the 'Properties' of those things (e.g. their
+height, or who owns them). RDF allows us to explicitly distinguish between
+these by referring to 'things' as Classes, and 'properties' as, well, 
+Properties!
 
 ### Defining Classes of Things
 
 In RDF, the general things that we can talk about are called __Classes__.
-Everything that went in a bubble in our first schema is therefore a Class, so
+Therefore everything that went into a bubble in our diagram above is a Class, so
 we could add the following to our vocabulary:
 - [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is a Class.
 - [obelisk:Person](http://w3id.org/obelisk/Person) is a Class.
@@ -172,7 +173,7 @@ could lead to something like this:
 obelisk:Obelisk rdf:type rdfs:Class ;
     # A label for readability...
     rdfs:label "Obelisk" ;
-    # ... and a more descriptive comment for understandability.
+    # ... and a more descriptive comment for a fuller explanation of this 'thing'.
     rdfs:comment "An obelisk is a four-sided pillar with a pyramid-shaped top." .
 
 obelisk:Sculptor rdf:type rdfs:Class ;
@@ -205,7 +206,8 @@ obelisk:ownedBy rdfs:comment "Relationship between an obelisk and the person who
 - The shortcut:
 ```turtle
 obelisk:ownedBy rdf:type rdf:Property ;
-    # We removed the repetitions of obelisk:ownedBy, and replaced the end of line by ; instead of .
+    # We removed the repetitions of obelisk:ownedBy, and replaced the end of
+    # line by ; instead of .
     rdfs:label "owned by" ;
     rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered." .
 ```
@@ -245,7 +247,7 @@ obelisk:Sculptor rdf:type rdfs:Class ;
 
 Of course for many text values the concept of 'language' is meaningless, for
 instance Social Security Numbers in the United States are often written as 
-stings, as they contain hyphens (e.g. '123-12-7890'), or the concept of a 
+strings, as they contain hyphens (e.g. '123-12-7890'), or the concept of a 
 username (or nickname) will most often not have any associated language. For
 these common use-cases, simply not specifying a language tag at all is expected. 
 
@@ -273,7 +275,7 @@ say is:
 # `obelisk:` is equivalent to http://w3id.org/obelisk/
 obelisk: rdf:type owl:Ontology .
 
-# The remainder of the vocabulary is unchanged
+# The remainder of the vocabulary is unchanged.
 obelisk:Obelisk a rdfs:Class ;
     rdfs:label "Obelisk" ;
     rdfs:comment "An obelisk is a four-sided pilar with a pyramid-shaped top." .
@@ -301,19 +303,33 @@ and a suggested or preferred IRI ([`vann:preferredNamespaceUri`](http://purl.org
 
 obelisk: rdf:type owl:Ontology ;
     dcterms:title "Obelisk ontology" ;
-    # The description can be a multi-line text
+    # The description can be a multi-line text.
     dcterms:description """
     The obelisk ontology aims at describing obelisks.
     """ ;
     vann:preferredNamespacePrefix "obelisk" ;
     vann:preferredNamespaceURI <http://w3id.org/obelisk/> .
 
-# The remainder of the vocabulary is unchanged
+# The remainder of the vocabulary is unchanged.
 obelisk:Obelisk a rdfs:Class ;
     rdfs:label "Obelisk" ;
     rdfs:comment "An obelisk is a four-sided pilar with a pyramid-shaped top." ;
 # ...
 ```
+
+## Some simple naming conventions
+
+You may have noticed some of the simple naming conventions used in our examples
+so far. These conventions are extremely common (but not universal!) across RDF
+vocabularies.
+
+ - The basic convention is to use [Camel Case](https://en.wikipedia.org/wiki/Camel_case)
+for all your terms, e.g. 'ownedBy' or 'builtBy'.
+ - Capitalize the first letter of Class terms, e.g. `Obelisk`, or `Sculptor`.
+ - Lower-case the first letter of Property terms, e.g. `height` or `ownedBy`.
+ - Lower-case prefixes, e.g. `@prefix obelisk: <...>` 
+
+## Reference 
 
 A reference version of this final vocabulary is available
 [here](/assets/misc/tutorials/quickstart-obelisk.ttl), and you can experiment
