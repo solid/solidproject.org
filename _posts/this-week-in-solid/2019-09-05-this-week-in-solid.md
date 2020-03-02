@@ -23,7 +23,7 @@ Next weeks call will be on the 12th September at 1600 CEST on [this line](https:
 ### Talks & Articles
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week. 
 
-* [Accelerating the pace of change for data ownership by David Lee in The Scotsman](https://www.scotsman.com/business/accelerating-the-pace-of-change-for-data-ownership-1-4993209)
+* Accelerating the pace of change for data ownership by David Lee in The Scotsman (article currently unavailable)
 
 Upcoming Solid talks: 
 * Mitzi L to speak at the [Nextcloud conference on the 15th September](https://nextcloud.com/conf-2019/)
