@@ -615,7 +615,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 2019-09-02 [El Pais: Privacidad: La ‘startup’ asturiana que ayuda al inventor de internet a crear la nueva web](https://retina.elpais.com/retina/2019/09/02/innovacion/1567416042_149910.html)
 
-2019-08-29 [Scotsman: Accelerating the pace of change for data ownership](https://www.scotsman.com/business/accelerating-the-pace-of-change-for-data-ownership-1-4993209)
+2019-08-29 Scotsman: Accelerating the pace of change for data ownership (article unavailable at the moment)
 
 2019-08-18 [Coin Telegraph: Would Blockchain Better Protect User Data Than FaceApp? Experts Answer](https://cointelegraph.com/news/would-blockchain-better-protect-user-data-than-faceapp-experts-answer)
 
