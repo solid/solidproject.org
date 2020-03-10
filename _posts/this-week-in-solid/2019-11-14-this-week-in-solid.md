@@ -32,7 +32,7 @@ Tune in next week on the 14th November at 1000 CEST on [this line](https://zoom.
 There are few upcoming events where you can learn more and meet others working on Solid: 
 * 2019-11-14 Mitzi László will be speaking at the [ECP Jaarcongres](https://ecp.nl/jaarcongres/programma/#event-158) in the Hague 
 * 2019-11-20 [Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw) organised by Kartika Tulusan
-* 2019-11-21 [Solid Montreal](https://www.meetup.com/Montreal-Decentralized-Linked-Data-Meetup/events/266218723/?fbclid=IwAR2sJy5LIwzjJG52HSyfj88TSW4t5w_svUsWKA-STNG_e-pwrkfoLC5ROpE) organised by [David H Manson](https://github.com/vid)|
+* 2019-11-21 Solid Montreal, organised by [David H Manson](https://github.com/vid)
 * 2019-12-10 [Solid Enschede](https://www.pldn.nl/index.php/Solid_Christmas_Meetup_Enschede_-_How_to_Fix_the_Internet!) organised by Erwin Folmer
 * 2019-01-xx (date to be confirmed) Solid Amsterdam organised by [Jeroen van Beele](https://github.com/jjvbeele)
 

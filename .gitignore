@@ -6,3 +6,7 @@ vendor
 .bundle
 
 .DS_Store
+
+# IntelliJ
+.idea/
+*.iml

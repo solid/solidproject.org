@@ -7,7 +7,12 @@
   "excludeFiles": [
     "_site/press.html",
     "pages/press.md",
+    "_site/events.html",
+    "pages/events.md",
     "_site/this-week-in-solid",
     "_posts/this-week-in-solid"
+  ],
+  "dictionary": [
+    "SNS"
   ]
 }

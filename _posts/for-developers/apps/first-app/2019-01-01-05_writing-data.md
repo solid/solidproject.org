@@ -21,10 +21,10 @@ async function addNote(note, notesList) {
   newNote.addRef(rdf.type, schema.TextDigitalDocument);
 
   // Set the Subject's `schema:text` to the actual note contents:
-  newNote.addLiteral(schema.text, note);
+  newNote.addString(schema.text, note);
 
   // Store the date the note was created (i.e. now):
-  newNote.addLiteral(schema.dateCreated, new Date(Date.now()))
+  newNote.addDateTime(schema.dateCreated, new Date(Date.now()))
 
   const success = await notesList.save([newNote]);
   return success;

@@ -7,30 +7,33 @@
 @prefix obelisk: <http://w3id.org/obelisk/> .
 
 obelisk: rdf:type owl:Ontology ;
-    # Description
-    dcterms:title "Obelisk ontology" ;
-    dcterms:description """
-    The obelisk ontology aims at describing obelisks.
-    """ ;
+    # Description.
+    dcterms:title "Obelisk ontology"@en ;
+    dcterms:description "The obelisk ontology aims at describing obelisks."@en ;
     vann:preferredNamespacePrefix "obelisk" ;
     vann:preferredNamespaceURI <http://w3id.org/obelisk/> .
 
 obelisk:Obelisk a rdfs:Class ;
-    rdfs:label "Obelisk" ;
-    rdfs:comment "An obelisk is a four-sided pilar with a pyramid-shaped top." .
+    rdfs:label "Obelisk"@en ;
+    rdfs:comment "An obelisk is a four-sided pilar with a pyramid-shaped top."@en ;
+    # ...and the same comment in French using the 'fr' language tag (and also
+    # using a multi-line string value with the triple quote characters)...
+    rdfs:comment """Un obélisque est un pilier à quatre côtés dont le sommet
+ est en forme de pyramide."""@fr .
 
 obelisk:Sculptor a rdfs:Class ;
-    rdfs:label "Sculptor" ;
-    rdfs:comment "An artist who sculpts obelisks." .
+    rdfs:label "Sculptor"@en ;
+    rdfs:comment "An artist who sculpts obelisks."@en .
 
 obelisk:ownedBy a rdf:Property ;
-    rdfs:label "owned by" ;
-    rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered." .
+    rdfs:label "owned by"@en ;
+    rdfs:comment """Relationship between an obelisk and the person who owns it,
+ which is typically the person who ordered it, or to whom it was offered."""@en .
 
 obelisk:builtBy a rdf:Property ;
-    rdfs:label "built by" ;
-    rdfs:comment "Relationship between an obelisk and the person who built it." .
+    rdfs:label "built by"@en ;
+    rdfs:comment "Relationship between an obelisk and the person who built it."@en .
 
-obelisk:heigth a rdf:Property ;
-    rdfs:label "heigth" ;
-    rdfs:comment "The distance from the ground to the highest point of the obelisk, in meters." .
+obelisk:height a rdf:Property ;
+    rdfs:label "heigth"@en ;
+    rdfs:comment "The distance from the ground to the highest point of the obelisk, in meters."@en .
