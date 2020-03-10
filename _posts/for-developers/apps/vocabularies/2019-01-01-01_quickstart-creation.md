@@ -327,7 +327,8 @@ vocabularies.
 for all your terms, e.g. 'ownedBy' or 'builtBy'.
  - Capitalize the first letter of Class terms, e.g. `Obelisk`, or `Sculptor`.
  - Lower-case the first letter of Property terms, e.g. `height` or `ownedBy`.
- - Lower-case prefixes, e.g. `@prefix obelisk: <...>` 
+ - Lower-case prefixes, e.g. `@prefix obelisk: <...>`.
+ - Don't use hyphens, use underscores instead, because it simplifies using them in some programming languages.
 
 ## Reference 
 
