@@ -263,7 +263,7 @@ obelisk: rdf:type owl:Ontology ;
     vann:preferredNamespacePrefix "obelisk" ;
     vann:preferredNamespaceUri <http://w3id.org/obelisk/> ;
     # Ownership information
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     # Note that people are identified by their webid
     dcterms:creator <https://cleopatra.solid.community/profile/card#me> ;
     dcterms:contributor <https://jcaesar.solid.community/profile/card#me> ;
@@ -307,7 +307,7 @@ obelisk: rdf:type owl:Ontology ;
     vann:preferredNamespacePrefix "obelisk" ;
     vann:preferredNamespaceUri <http://w3id.org/obelisk/> ;
     # Ownership
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:creator <https://cleopatra.solid.community/profile/card#me> ;
     dcterms:contributor <https://jcaesar.solid.community/profile/card#me> ;
     dcterms:publisher <https://jcaesar.solid.community/profile/organizations/spqr.ttl#spqr>;
