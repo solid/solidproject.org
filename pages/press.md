@@ -630,6 +630,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 2019-07-31 [The Verge: Brain-computer interfaces are developing faster than the policy debate around them](https://www.theverge.com/interface/2019/7/31/20747916/facebook-brain-computer-interface-policy-neuralink)
 
 2019-07-31 [Joy Online: Apple joins Google, Facebook, and Twitter in data-sharing project](https://web.archive.org/web/20191016140751/https://myjoyonline.com/technology/2019/july-31st/apple-joins-google-facebook-and-twitter-in-data-sharing-project.php)
+
 2019-07-31 [Medium: The future of the decentralized web](https://medium.com/berkman-klein-center/the-future-of-the-decentralized-web-707915f12360)
 
 2019-07-30 [Medium: 9 Components of the Decentralised Ecosystem that we Need to Build a Decentralised Society](https://medium.com/swlh/9-components-of-the-decentralised-ecosystem-that-we-need-to-build-a-decentralised-society-f07834d2d2c9)
