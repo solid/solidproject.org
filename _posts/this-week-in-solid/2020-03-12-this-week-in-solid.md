@@ -1,7 +1,7 @@
 ---
 layout: this-week-in-solid
-title: This Week in Solid 2020-03-19
-permalink: /this-week-in-solid/2020-03-19
+title: This Week in Solid 2020-03-12
+permalink: /this-week-in-solid/2020-03-12
 tags: [weekly, updates]
 categories: [Updates]
 author:
@@ -13,6 +13,14 @@ author:
 ### [Events](https://solidproject.org/events)
 
 There are a few upcoming events where you can learn more and meet others working on Solid:
+
+{%
+ include talk.html
+  date="2020-03-09"
+  title="Solid Gijón"
+  website="https://www.meetup.com/es-ES/AsturiasHacking/events/268794238/"
+  speaker="Sergio and Azahara"
+%}
 
 {%
  include talk.html
