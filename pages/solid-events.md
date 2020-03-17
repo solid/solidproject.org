@@ -8,7 +8,7 @@ Solid Events are an opportunity for people working on Solid or who are intereste
 
 Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you reach out to the Solid Manager on info@solidproject.org.
 
-In light of the covid-19 pandemic Solid Events are moving online for the foreseeable future. [Tune in](https://zoom.us/j/606342071) on the first Thursday of every month at 1600 CET. 
+In light of the COVID-19 pandemic Solid Events are moving online for the foreseeable future. [Tune in](https://zoom.us/j/606342071) on the first Thursday of every month at 1600 CET. 
 
 If you had upcoming Solid Events planned reach out to the Solid Manager on info@solidproject.org to arrange moving the content online with Solid World.
 
