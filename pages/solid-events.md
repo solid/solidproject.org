@@ -18,6 +18,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 
 | Date | Event | Organizer(s) | Recordings and Slides |
 |———|-------|--------------|--------------|
+| 2020-03-05 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/events/268684820/) | [Li Lu](https://github.com/SolidToronto) ||
 | 2020-02-20 | [Solid San Francisco](https://meetabit.com/events/february-2020-bay-area-solid-interest-club-meetup) | [Travis Vachon](https://github.com/travis) | - |
 | 2020-02-19 | [Solid Oviedo](https://ingenieriainformatica.uniovi.es/actualidad/eventos/-/asset_publisher/uS6D/content/conferencia-solid-search:-introduccion-a-solid-y-como-cambiar-el-paradigma-de-los-buscadores-de-co?redirect=%2F) | [Alejandro Juan García](https://gitter.im/alexcorvis84) | [recording](https://youtu.be/xBopDO2NTxo) and [slides](https://docs.google.com/presentation/d/19Glq6dcIa83nliQR1fvS9ZzYglogFD7mT5Pb5JLFrIQ/edit?usp=sharing) |
 |2020-02-18|[Solid Barcelona](https://www.meetup.com/MyData-Barcelona/events/268485856/)| [Noel De Martin](https://noeldemartin.com)|[slides](https://speakerdeck.com/noeldemartin/an-introduction-to-solid)
