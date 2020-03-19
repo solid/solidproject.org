@@ -12,23 +12,15 @@ author:
 
 ### [Events](https://solidproject.org/events)
 
-There are a few upcoming events where you can learn more and meet others working on Solid:
+In light of the COVID-19 pandemic Solid Events are moving online for the foreseeable future.
 
-{%
- include talk.html
-  date="2020-04-02"
-  title="Solid San Francisco"
-  website="https://meetabit.com/events/4-2-20-bay-area-solid-interest-club-meetup"
-  speaker="TBD"
-%}
+[Tune in](https://zoom.us/j/606342071) on the 2nd April 2020 at 1600 CEST to join.
 
-{%
- include talk.html
-  date="2020-04-15"
-  title="Solid Boston"
-  website="https://www.meetup.com/DWeb-BOS/events/269144252/"
-  speaker="Jackson Morgan"
-%}
+If you had upcoming Solid Events planned reach out to the Solid Manager on info@solidproject.org to arrange moving the content online with Solid World.
+
+Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on info@solidproject.org to get a speaking slot at the next event.
+
+There will be an online Solid Event every first Thursday of the month.
 
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
 
