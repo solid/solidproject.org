@@ -6,6 +6,10 @@ permalink: /use-solid/apps
 
 Please be aware that this page is still a work in progress. You wrote a Solid-compatible app that's not listed? Feel free to [add it to this list](https://github.com/solid/solidproject.org/edit/staging/pages/use-solid/apps.md).
 
+Disclaimer: The list below does not represent an endorsement by the Solid Project. The apps on the list do not undergo any testing at this time, and there is no guarantee of security or quality implied by their inclusion on this list. The goal of the list is to showcase the vibrancy of the Solid community and encourage early app builders to collaborate and learn from each other.
+
+If you believe one of the apps below is insecure or non-functional and should be removed from the list, please raise an issue [here] (https://github.com/solid/solidproject.org/issues) and tag the app's creator or maintainer. If the creator or maintainer of the app does not respond within 24 hours to indicate that they will fix the problem, a Solid Administrator will remove the app from the listing.
+
 # Solid Apps
 
 ## Show case
