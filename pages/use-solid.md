@@ -35,6 +35,7 @@ You can pick a Provider in the following list. However, keep in mind that Solid 
 |-----------------------------------|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------:|:--------------------:|
 | [inrupt.net](https://inrupt.net) | [Inrupt, Inc.](https://inrupt.com/terms-of-service) | [Amazon](https://aws.amazon.com) | USA |
 | [solid.authing.cn](https://solid.authing.cn) | [Authing](https://authing.cn) | [Tencent Cloud](https://cloud.tencent.com) | China |
+| [solidweb.org](https://solidweb.org) | [Matthias Evering](https://github.com/ewingson) | [Hosteurope](https://www.hosteurope.de/) | Germany |
 
 If you are a provider you can add your service to this list by emailing [info@solidproject.org](mailto:info@solidproject.org).
 
