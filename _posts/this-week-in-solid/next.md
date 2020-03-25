@@ -22,12 +22,12 @@ From now on, there will be an online Solid Event every first Thursday of the mon
 
 ### External Grants
 
-SIDN Fonds has a grant called [Je Data de Baas](https://www.sidnfonds.nl/nieuws/follow-up-call-je-data-de-baas) that could be suitable for Solid app projects.
+SIDN Fonds has a grant called [Je Data de Baas](https://www.sidnfonds.nl/nieuws/follow-up-call-je-data-de-baas) and there is an EU initiative called [Dapsi](https://dapsi.ngi.eu/) that could be suitable for Solid app projects.
 
 If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/staging/_posts/this-week-in-solid/next.md) to let others know about it via the next edition.
 
 ### Job Openings
-* [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information
-* [Inrupt is hiring](https://inrupt.com/careers) a Head of Business Development, DevOps Engineer, and Senior Front-End Engineer/Architect.)
+* [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
+* [Inrupt is hiring](https://inrupt.com/careers) a DevOps Engineer and Technical Writer. Email jobs@inrupt.com for more information.
 
 Have you seen any articles or talks about Solid this week? If you've seen any talks, articles, or written blog posts about Solid please do send them over for next week.
