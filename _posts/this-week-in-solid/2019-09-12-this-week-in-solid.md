@@ -30,7 +30,7 @@ Solid Events are run by members of the Solid community like you. If you are inte
 |Date|Event|Organiser|
 | ------------- | ------------- |------------- |
 |12-09-2019|[Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-70748445505)|[Christian Buggedei](https://github.com/JollyOrc)|
-|10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
+|10-10-2019|Solid Amsterdam|[Jeroen van Beele](https://github.com/jjvbeele)|
 
 ## Solid Implementation
 

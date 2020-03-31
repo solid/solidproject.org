@@ -657,7 +657,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 2019-07-16 [B2B NN: Tim Berners-Lee's Memories of Creating the Web Involve at Least 3 Classic B2B Scenarios](https://www.b2bnn.com/2019/07/tim-berners-lee-inrupt/)
 
-2019-07-16 [AmericanInno: ‘One Giant Leap for Mankind’: These Eight Boston Companies Are Working on Moonshots of Their Own](https://www.americaninno.com/roundups/one-giant-leap-for-mankind-these-eight-boston-companies-are-working-on-moonshots-of-their-own/)
+2019-07-16 [AmericanInno: ‘One Giant Leap for Mankind’: These Eight Boston Companies Are Working on Moonshots of Their Own](https://web.archive.org/web/20200131053729/https://www.americaninno.com/roundups/one-giant-leap-for-mankind-these-eight-boston-companies-are-working-on-moonshots-of-their-own/)
 
 2019-07-16 [CMO Australia: Online consumer tracking and the challenges for marketing](https://www.cmo.com.au/article/663801/online-consumer-tracking-challenges-marketing/)
 

@@ -29,7 +29,7 @@ Upcoming talks on Solid include:
 ### Upcoming Solid Events
 Solid Events are run by members of the Solid community like you. If you are interested in organising a Solid Event you may be interested in reading the tips for a organising successful Solid events [here](https://github.com/solid/information/blob/master/solid-events.md).
 
-This week [Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707) by [Jeroen van Beele](https://github.com/jjvbeele) and [Solid Copenhagen](https://www.meetup.com/Solid-Copenhagen-Meetup-Group/events/264871687/) by Sarmad Reda were a great success! 
+This week Solid Amsterdam by [Jeroen van Beele](https://github.com/jjvbeele) and [Solid Copenhagen](https://www.meetup.com/Solid-Copenhagen-Meetup-Group/events/264871687/) by Sarmad Reda were a great success!
 
 ## Solid Implementation
 If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list), or there are updates to existing Solid implementations, make sure to add them to the list so they get included in next week's edition. This week there are no updates on Solid implementation. 

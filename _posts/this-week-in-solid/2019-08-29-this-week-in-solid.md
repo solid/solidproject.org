@@ -28,7 +28,7 @@ Solid Events are run by members of the Solid community like you. If you are inte
 
 |Date|Event|Organiser|
 | ------------- | ------------- |------------- |
-|10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
+|10-10-2019|Solid Amsterdam|[Jeroen van Beele](https://github.com/jjvbeele)|
 
 ## Solid Implementation
 If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list) or there are updates to existing Solid implementations make sure to add them to the list so they get included in next weeks edition. This week there are no new Pods and apps or updates to existing Pods and apps. 
