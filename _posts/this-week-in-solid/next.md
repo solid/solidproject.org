@@ -1,7 +1,7 @@
 ---
 layout: this-week-in-solid
-title: This Week in Solid 2020-04-02
-permalink: /this-week-in-solid/2020-04-02
+title: This Week in Solid 2020-04-01
+permalink: /this-week-in-solid/2020-04-01
 tags: [weekly, updates]
 categories: [Updates]
 author:
