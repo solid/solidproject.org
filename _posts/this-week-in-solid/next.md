@@ -22,11 +22,11 @@ Are you interested in speaking about what you have been building on Solid? Reach
 
 ### Covid-19 Hackathon
 
-Come take part in the MIT Covid-19 Hackathon on the 3rd April until 5th April. This is a great opportunity to share Solid expertise and values and apply them to an urgent and humanitarian use case. Solid was born out of a MIT project, so it’s fitting for us to contribute to this hackathon. Hope to see you there next weekend!
+Come take part in the MIT Covid-19 Hackathon on the 3rd April until 5th April. This is a great opportunity to share Solid expertise and values and apply them to an urgent and humanitarian use case. Solid was born out of an MIT project, so it’s fitting for us to contribute to this hackathon. Hope to see you there next weekend!
 
 ## Solid Implementation
 
-If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list), or there are updates to existing Solid implementations, make sure to add them to the list so they get included in next week's edition.
+If you have any new [apps](https://github.com/solid/solid-apps), [Pods](https://github.com/solid/pods), or [identity providers](https://github.com/solid/solid-idp-list), or if there are updates to existing Solid implementations, make sure to add them to the list so they get included in next week's edition.
 
 * [Golf Companion app](https://gca-solid.now.sh/login)
 
