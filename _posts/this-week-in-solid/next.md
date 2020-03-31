@@ -18,7 +18,7 @@ Solid Events are open gatherings for anyone interested in Solid; run and organis
 
 If you have any questions for the presenters [pop them in this thread](https://forum.solidproject.org/t/solid-world-april-2020/2788).
 
-Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on info@solidproject.org to get a speaking slot at the next event.
+Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on [info@solidproject.org](mailto:info@solidproject.org) to get a speaking slot at the next event.
 
 ### Covid-19 Hackathon
 
@@ -36,5 +36,5 @@ Have you seen any articles or talks about Solid this week? If you've seen any ta
 * [Co-Immunology and the Web](https://medium.com/@bblfish/co-immunology-and-the-web-43379b46688e) by [Henry Story](https://medium.com/@bblfish)
 
 ### Job Openings
-* [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
-* [Inrupt is hiring](https://inrupt.com/careers) a DevOps Engineer and Technical Writer. Email jobs@inrupt.com for more information.
+* [Digita is hiring](https://www.digita.ai/careers) a Full Stack Developer and a Linked Data Principal. Email [tom@digita.ai](mailto:tom@digita.ai) for more information.
+* [Inrupt is hiring](https://inrupt.com/careers) a DevOps Engineer and Technical Writer. Email [jobs@inrupt.com](mailto:jobs@inrupt.com) for more information.
