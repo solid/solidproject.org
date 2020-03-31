@@ -39,7 +39,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 |2019-05-29 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-61643210502) | [Christian Buggedei](https://www.linkedin.com/in/buggedei)||
 | 2019-05-22 | [Solid London](https://www.meetup.com/Solid-London/) | [Paul Worrall](https://www.linkedin.com/in/worrall/) |[Inaugral Solid London Video](https://youtu.be/urxRBvpEjR4)|
 | 2019-05-13 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/) | [Li Lu](https://github.com/SolidToronto) || 
-| 2019-05-08 | [Solid New York](https://www.meetup.com/NextWeb-NYC/) | Brian Cort ||
+| 2019-05-08 | Solid New York | Brian Cort ||
 | 2019-05-02 | [Solid Seattle](https://www.eventbrite.com/e/solid-seattle-tickets-60131990402) | [Jon Pederson](https://www.linkedin.com/in/jonpederson/) ||
 | 2019-04-09 | [Solid San Jose](https://www.meetup.com/San-Jose-SOLID-Technology-decentralized-Web-Meetup/events/260087036/) | [John Bartas](http://www.bartas.net/resume.html) ||
 | 2019-04-09 | [Solid Utrecht](https://www.pldn.nl/index.php/PLDN-Solid_Kick-Off_%E2%80%93_April_9th_2019) | [Pieter van Everdingen](https://www.linkedin.com/in/pietervaneverdingen/) ||
