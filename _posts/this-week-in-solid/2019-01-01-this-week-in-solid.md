@@ -15,28 +15,11 @@ You can always check here for the most current issue as well as find a record of
 
 We're currently working on next week's edition. You can contribute by [making a Pull Request](https://github.com/solid/solidproject.org/edit/master/_posts/this-week-in-solid/next.md)!
 
-[This Year in Solid 2019](https://github.com/solid/solidproject.org/blob/master/_posts/this-week-in-solid/2019-12-18-this-week-in-solid.md) is being put together to be published on the 18th of December to give a recap of the highlights. [Submit pull requests](https://github.com/solid/solidproject.org/blob/master/_posts/this-week-in-solid/2019-12-18-this-week-in-solid.md) if you would like something to be mentioned. 
+# Previous Issues
 
-# Past Issues
-
-* [12th December 2019]({{site.baseUrl}}/this-week-in-solid/2019-12-12)
-* [5th December 2019]({{site.baseUrl}}/this-week-in-solid/2019-12-05)
-* [28th November 2019]({{site.baseUrl}}/this-week-in-solid/2019-11-28)
-* [21st November 2019]({{site.baseUrl}}/this-week-in-solid/2019-11-21)
-* [14th November 2019]({{site.baseUrl}}/this-week-in-solid/2019-11-14)
-* [7th November 2019]({{site.baseUrl}}/this-week-in-solid/2019-11-07)
-* [31st October 2019]({{site.baseUrl}}/this-week-in-solid/2019-10-31)
-* [17th October 2019]({{site.baseUrl}}/this-week-in-solid/2019-10-17)
-* [10th October 2019]({{site.baseUrl}}/this-week-in-solid/2019-10-10)
-* [3rd October 2019]({{site.baseUrl}}/this-week-in-solid/2019-10-03)
-* [26th September 2019]({{site.baseUrl}}/this-week-in-solid/2019-09-26)
-* [19th September 2019]({{site.baseUrl}}/this-week-in-solid/2019-09-19)
-* [12th September 2019]({{site.baseUrl}}/this-week-in-solid/2019-09-12)
-* [5th September 2019]({{site.baseUrl}}/this-week-in-solid/2019-09-05)
-* [29th August 2019]({{site.baseUrl}}/this-week-in-solid/2019-08-29)
-* [22nd August 2019]({{site.baseUrl}}/this-week-in-solid/2019-08-22)
-* [15th August 2019]({{site.baseUrl}}/this-week-in-solid/2019-08-15)
-* [8th August 2019]({{site.baseUrl}}/this-week-in-solid/2019-08-08)
-* [1st August 2019]({{site.baseUrl}}/this-week-in-solid/2019-08-01)
-* [25th July 2019]({{site.baseUrl}}/this-week-in-solid/2019-07-25)
-* [18th July 2019]({{site.baseUrl}}/this-week-in-solid/2019-07-18)
+{% for post in site.posts limit: 5 %}
+{% unless post.exclude %}
+* [{{ post.title }}]({{ post.url }})
+{% endunless %}
+{% endfor %}
+* [All issues…]({{site.baseurl}}/this-week-in-solid/archive)
