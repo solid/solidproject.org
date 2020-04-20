@@ -1,7 +1,8 @@
 ---
 layout: this-week-in-solid
-title: This Week in Solid
-permalink: /this-week-in-solid
+title: This Month in Solid
+permalink: /this-month-in-solid
+redirect_from: /this-week-in-solid
 exclude: true
 ---
 
@@ -13,7 +14,7 @@ You can always check here for the most current issue as well as find a record of
 
 # Next Up
 
-We're currently working on next week's edition. You can contribute by [making a Pull Request](https://github.com/solid/solidproject.org/edit/master/_posts/this-week-in-solid/next.md)!
+We're currently working on next month's edition. You can contribute by [making a Pull Request](https://github.com/solid/solidproject.org/edit/master/_posts/this-week-in-solid/next.md)!
 
 # Previous Issues
 
@@ -22,4 +23,4 @@ We're currently working on next week's edition. You can contribute by [making a 
 * [{{ post.title }}]({{ post.url }})
 {% endunless %}
 {% endfor %}
-* [All issues…]({{site.baseurl}}/this-week-in-solid/archive)
+* [All issues…]({{site.baseurl}}/this-month-in-solid/archive)
