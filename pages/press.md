@@ -735,7 +735,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 2019-04-05 [Medium: Why Internet failed and how we can fix it](https://medium.com/blockchangers/why-internet-failed-and-how-we-can-fix-it-c786254ca71f)
 
-2019-04-05 [Bitcoin News: What Article 13 Means for the Cryptocurrency Industry](https://news.bitcoin.com/what-article-13-means-for-the-cryptocurrency-industry/)
+2019-04-05 [Bitcoin News: What Article 13 Means for the Cryptocurrency Industry](https://web.archive.org/web/20191219065103/https://news.bitcoin.com/what-article-13-means-for-the-cryptocurrency-industry/)
 
 2019-04-05 [MSN: Tim Berners-Lee Says We've Messed Up The Internet But It Can Be Fixed](https://www.msn.com/en-au/news/techandscience/tim-berners-lee-says-weve-messed-up-the-internet-but-it-can-be-fixed/ar-BBVCXbX)
 

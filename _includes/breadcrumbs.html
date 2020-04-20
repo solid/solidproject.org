@@ -28,6 +28,13 @@
             </a>
           </li>
         {% endif %}
+        {% if page.url contains '/this-week-in-solid/' and page.url != '/this-week-in-solid' %}
+          <li>
+            <a href="{{site.baseurl}}/this-week-in-solid">
+              This Week in Solid
+            </a>
+          </li>
+        {% endif %}
         {% if page.title %}
           <li>
             <a href="{{site.baseurl + page.url}}">
