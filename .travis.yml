@@ -23,7 +23,7 @@ script:
 
 before_deploy:
   - pushd _site
-  - rm CNAME
+  - rm CNAME | true
   - touch .nojekyll
   - popd
 
