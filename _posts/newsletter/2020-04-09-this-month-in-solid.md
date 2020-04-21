@@ -29,7 +29,7 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-10181202
 
 Darcy, a Solid based app led by [Christian Buggedei](https://github.com/JollyOrc) [won a €10k seed award from Mozilla](https://www.patreon.com/posts/35809190) and will be speaking at [Solid World May](https://www.eventbrite.com/e/solid-world-tickets-101812024506).
 
-####Solid Implementations
+#### Solid Implementations
 
 * [Golf Companion app](https://gca-solid.now.sh/login)
 
