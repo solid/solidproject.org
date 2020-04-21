@@ -1,7 +1,7 @@
 ---
 layout: this-week-in-solid
-title: This Month in Solid 2020-05-07
-permalink: /this-month-in-solid/2020-05-07
+title: This Month in Solid 2020-04-09
+permalink: /this-month-in-solid/2020-04-09
 tags: [monthly, updates]
 categories: [Updates]
 ---

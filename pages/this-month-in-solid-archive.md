@@ -1,10 +1,11 @@
 ---
 layout: this-week-in-solid
-title: This Week in Solid — all issues
-permalink: /this-week-in-solid/archive
+title: This Month in Solid — all issues
+permalink: /this-month-in-solid/archive
+redirect_from: /this-week-in-solid/archive
 ---
 
-# This Week in Solid — all issues
+# This Month in Solid — all issues
 
 {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
 

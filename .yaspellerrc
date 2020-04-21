@@ -9,6 +9,9 @@
     "pages/press.md",
     "_site/events.html",
     "pages/events.md",
+    "pages/this-month-in-solid-archive.md",
+    "_site/this-month-in-solid",
+    "_posts/this-month-in-solid"
     "pages/this-week-in-solid-archive.md",
     "_site/this-week-in-solid",
     "_posts/this-week-in-solid"
