@@ -17,7 +17,7 @@ Want something mentioned? Contact the Solid Manager at info@solidproject.org. Th
 
 Want to get involved? [Contributions are welcome.](https://solidproject.org/standardisation)
 
-[This Year in Solid 2019](https://github.com/solid/solidproject.org/blob/master/_posts/newsletter/2019-12-18-this-week-in-solid.md) is being co-created to give an overview of the highlights. If there is something you'd like to mention make sure to [submit a pull request](https://github.com/solid/solidproject.org/blob/master/_posts/newsletter/2019-12-18-this-week-in-solid.md) or contact info@solidproject.org. 
+[This Year in Solid 2019](https://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/2019-12-18-this-week-in-solid.md) is being co-created to give an overview of the highlights. If there is something you'd like to mention make sure to [submit a pull request](https://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/2019-12-18-this-week-in-solid.md) or contact info@solidproject.org.
 
 Every Thursday there is an hour-long public call where newcomers can introduce themselves, anyone can ask general questions about Solid, and we recap the weeks' works on Solid. 
 
