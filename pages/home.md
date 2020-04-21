@@ -108,7 +108,7 @@ permalink: /
 
   <div class="columns">
     <div class="column is-half-desktop is-offset-one-quarter-desktop">
-      {% include newsletter.html %}
+      {% include subscribe.html %}
     </div>
   </div>
 
