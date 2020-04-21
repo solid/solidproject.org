@@ -11,8 +11,8 @@
     link: "/faqs"
 - name: What's New
   sublinks:
-  - name: This week in Solid
-    link: "/this-week-in-solid"
+  - name: This Month in Solid
+    link: "/newsletter"
   - name: Press
     link: "/press"
   - name: Solid events
