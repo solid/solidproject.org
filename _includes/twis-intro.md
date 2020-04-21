@@ -4,7 +4,7 @@ Hello and welcome to another edition of This Week in Solid!
 
 This is a weekly summary of Solid progress.
 
-Want something mentioned? Contact the Solid Manager at info@solidproject.org. This Week in Solid is openly developed [on GitHub](http://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/solidproject.org/pulls).
+Want something mentioned? Contact the Solid Manager at info@solidproject.org. This Week in Solid is openly developed [on GitHub](https://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/next.md). If you find any errors in this week's issue please [submit a pull request](https://github.com/solid/solidproject.org/pulls).
 
 Want to get involved? [Contributions are welcome.](https://solidproject.org/standardisation)
 

@@ -15,7 +15,7 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 A big thank you to Travis Vachon, David Faveris, and Astrid Gamoneda for presenting at the first Solid World last Thursday. 
 
-In the first talk, [Travis Vachon](https://github.com/travis) from the USA presented a Solid app called [Concept](http://github.com/travis/concept). Concept is a Google docs equivalent that allows users to control their data. Travis built the concept with the aim to allow grassroots campaigns to organise themselves. Patch and WebSockets allowed for rudimentary collaborative editing and now wants to focus on embedding calendars and spreadsheets. 
+In the first talk, [Travis Vachon](https://github.com/travis) from the USA presented a Solid app called [Concept](https://github.com/travis/concept). Concept is a Google docs equivalent that allows users to control their data. Travis built the concept with the aim to allow grassroots campaigns to organise themselves. Patch and WebSockets allowed for rudimentary collaborative editing and now wants to focus on embedding calendars and spreadsheets. 
 
 In the second talk, [David Faveris](https://forum.solidproject.org/u/Smag0) from France presented a Solid app called [Solidarity](https://github.com/scenaristeur/solidarity). Solidarity is a chat app built using the Shighl library, which fills the gap between the Solidarity UI and Solid Pods. David worked closely with designer Julian Cole who has been working with Shighl to allow for easy installation and minimal dependencies while working with linked data. 
 
