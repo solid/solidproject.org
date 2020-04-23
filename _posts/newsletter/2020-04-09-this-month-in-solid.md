@@ -19,7 +19,7 @@ In the first talk, [Travis Vachon](https://github.com/travis) from the USA prese
 
 In the second talk, [David Faveris](https://forum.solidproject.org/u/Smag0) from France presented a Solid app called [Solidarity](https://github.com/scenaristeur/solidarity). Solidarity is a chat app built using the Shighl library, which fills the gap between the Solidarity UI and Solid Pods. David worked closely with designer Julian Cole who has been working with Shighl to allow for easy installation and minimal dependencies while working with linked data. 
 
-In the third talk, [Astrid Gamoneda Arrunada](https://github.com/empathyco/solid-pods-management/commits?author=astrd) from Spain presented a Solid app called [OhMyPod!](https://ohmypod.netlify.com/login)  developed by [Empathy](https://www.empathy.co/). OhMyPod! has a file management system with the ability to add friends with personal profiles. OhMyPod! is built using Inrupt React Generator, LDflex library and solid-file-client library. Astrid also looked at rdflib, which is powerful but complicated and somewhat slow. 
+In the third talk, [Astrid Gamoneda Arrunada](https://github.com/empathyco/solid-pods-management/commits?author=astrd) from Spain presented a Solid app called [OhMyPod!](https://ohmypod.netlify.com/login)  developed by [Empathy](https://www.empathy.co/). OhMyPod! has a file management system with the ability to add friends with personal profiles. OhMyPod! is built using Inrupt React Generator, LDflex library and solid-file-client library. Astrid also looked at rdflib, which she found powerful but complicated and somewhat slow. 
 
 If you missed Solid World you can [watch the recording [here](https://vimeo.com/404963568). 
 
