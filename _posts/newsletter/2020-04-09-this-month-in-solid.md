@@ -21,7 +21,7 @@ In the second talk, [David Faveris](https://forum.solidproject.org/u/Smag0) from
 
 In the third talk, [Astrid Gamoneda Arrunada](https://github.com/empathyco/solid-pods-management/commits?author=astrd) from Spain presented a Solid app called [OhMyPod!](https://ohmypod.netlify.com/login)  developed by [Empathy](https://www.empathy.co/). OhMyPod! has a file management system with the ability to add friends with personal profiles. OhMyPod! is built using Inrupt React Generator, LDflex library and solid-file-client library. Astrid also looked at rdflib, which she found powerful but complicated and somewhat slow. 
 
-If you missed Solid World you can [watch the recording [here](https://vimeo.com/404963568). 
+If you missed Solid World you can watch the recording [here](https://vimeo.com/404963568). 
 
 The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-101812024506?aff=erelexpmlt) will happen soon on the 7th May 2020. If you have any content requests or would like to present at the next Solid world email mitzil@inrupt.com. 
 
