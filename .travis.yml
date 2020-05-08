@@ -13,6 +13,7 @@ script:
       --typhoeus_config '{"timeout":60}'
       --http-status-ignore '0,301,302,403,410,429,500,501,502,503,522,999'
       _site
+      | true
   # Lock the yaspeller version.
   # This will prevent our builds from suddenly failing if yaspeller
   # e.g. (purely hypothetically *cough*) adds a fuzzier typo checker.
@@ -22,7 +23,7 @@ script:
 
 before_deploy:
   - pushd _site
-  - rm CNAME
+  - rm CNAME | true
   - touch .nojekyll
   - popd
 

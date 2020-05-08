@@ -55,7 +55,7 @@ To log into Solid apps and/or access data on Pods, you just have to provide your
 
 ## How does Solid relate to other Web standards?
 
-**Solid does not reinvent the wheel**. When you use Solid you will still be able to access your data using the same Web browser on the same computer. Solid is still the web, but with a few things added and a few assumptions overturned ((see quote at 33:30](https://www.bbc.co.uk/programmes/m000bj15)). 
+**Solid does not reinvent the wheel**. When you use Solid you will still be able to access your data using the same Web browser on the same computer. Solid is still the web, but with a few things added and a few assumptions overturned ([see quote at 33:30](https://www.bbc.co.uk/programmes/m000bj15)). 
 
 Solid adds: 
 * An identification system so that instead of having to sign in to everything with Google or Facebook you can sign in with your favourite Solid provider and you won't be tracked. 
@@ -77,18 +77,7 @@ Solid is built on top of existing Web standards. The core Solid specification re
 
 <details>
 <summary><a>More details</a></summary>
-The Solid standard is open as are some of its implementations such as [Node Solid Server](https://github.com/solid/node-solid-server) meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
-</details>
-
-# Storage 
-
-## Are Solid users expected to setup their own servers and self-host?
-
-**No**. Self-hosting means that your data would sit at home on your own physical hard drive or server. Self-hosting is possible but not essential when using Solid, and it currently requires some technical knowledge. A Solid user can rely on an Identity Provider and a Pod Provider, and is **not expected to have any particular expertise**. It is also possible to self-host and become a small Identity Provider and Pod Provider, to provide Solid to your family, association, friends...
-
-<details>
-<summary><a>More details</a></summary>
-The Solid standard is open as are some of its implementations such as such as [Node Solid Server](https://github.com/solid/node-solid-server) meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
+The Solid standard is open as are some of its implementations such as such as <a href="https://github.com/solid/node-solid-server">Node Solid Server</a> meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
 </details>
 
 ## Can data exist in more than one Pod? 
@@ -100,7 +89,7 @@ The Solid standard is open as are some of its implementations such as such as [N
 **Eventually, yes**. The Solid long term vision includes local first and a flexibility of different topologies of patch-passing sync networks. However, there are no implementations yet. 
 
 ## When I want to leave a Pod provider, can I take my data with me?
-Yes, unless the Pod provider doesn't allow you to. The best way to understand the service of a particular Pod provider is to read the Terms. There are some support tools like [Terms of Service Don't Read](https://tosdr.org) to help you understand the small print more easily.
+Yes, unless the Pod provider doesn't allow you to. The best way to understand the service of a particular Pod provider is to read the Terms. There are some support tools like [Terms of Service; Didn't Read](https://tosdr.org) to help you understand the small print more easily.
 
 <details>
 <summary><a>More details</a></summary>
@@ -131,7 +120,7 @@ You can find out the differences between each of the service providers by lookin
 
 Having two WebIDs with two different identity providers or the same identity provider is very much like having two email addresses. These WebIDs are unrelated to each other, and can have different data sharing preferences attached to them, e.g. one allowed to access your company documents, and the other your health record. 
 
-## If I join Solid, can I stop using it when I want ?
+## If I join Solid, can I stop using it when I want?
 **Yes**. To leave Solid, you will need to: 
 1. Delete your Pod(s)
 2. Delete your WebID 
@@ -146,7 +135,7 @@ Technically, you may host your <a href="http://xmlns.com/foaf/spec/">FOAF</a> pr
 # The Business Model 
 
 ## Will Pod providers get paid? By who? 
-**This will be determined by the market**. It is likely that several business models emerge, some where the user pays for storage, and some funded by advertising for instance, like on the current Web platforms. However, with Solid, if the terms of your Pod Provider change, or if you want to switch to an advertising-free Provider, you can do so conveniently without loosing your data, such as your contacts and chat history.
+**This will be determined by the market**. It is likely that several business models emerge, some where the user pays for storage, and some funded by advertising for instance, like on the current Web platforms. However, with Solid, if the terms of your Pod Provider change, or if you want to switch to an advertising-free Provider, you can do so conveniently without losing your data, such as your contacts and chat history.
 
 ## If everyone used Solid would I lose my favourite internet services? 
 **No**. Search engines and communication tools do not need to track you to work. Hopefully over time all the nice things you get from silos which don’t let you determine your data sharing preferences will be echoed by new solid-compatible ones which do.
@@ -221,18 +210,11 @@ Pod providers have commitments to the individuals and legal entities that they p
 
 **No**. Solid is **not a company**, it is an open standard. Could it dominate the technical landscape, by being adopted by many? Yes, that would be ideal, so we would have one interoperable Solid web, not many. However, being compliant with Solid does not require developers to ask permission from anyone before building their applications, and does not prevent users from choosing the apps they want, and share their data how they see fit. In that sense, Solid cannot become a monopoly, in the same way that the Web is not considered a tech monopoly.
 
-## Could a Solid app of Pod become another tech giant monopoly? 
+## Could a Solid app or Pod become another tech giant monopoly? 
 **No**. Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
 
 ## As a Pod provider are you legally responsible for the data you are storing?
 Pod providers have commitments to the individuals and legal entities that they provide services to based on the law of the countries in which the hosting provider is operating. As a Pod provider you should seek professional advice on how to be compliant. As an individual Solid user, you should carefully read the agreement with your hosting provider before agreeing. 
-
-## Could Solid become another tech giant monopoly?
-
-**No**. Solid is **not a company** it is an open standard. Could it dominate the technical landscape, by being adopted by many? Yes, that would be ideal, so we would have one interoperable Solid web, not many. However, being compliant with Solid does not require developers to ask permission from anyone before building their applications, and does not prevent users from choosing the apps they want, and share their data how they see fit. In that sense, Solid cannot become a monopoly, in the same way that the Web is not considered a tech monopoly.
-
-## Could a Solid app of Pod become another tech giant monopoly? 
-**No**. Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
 
 ## Is it opt-in or opt-out to share my data when using Solid?
 Opt-in. The default is for you not to share your data. You have to give your active consent to share your data.

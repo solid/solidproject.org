@@ -1,0 +1,37 @@
+<div id="newsletter" class="section">
+  <form
+    action="https://tinyletter.com/ThisWeekInSolid"
+    class="card"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/ThisWeekInSolid', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+  >
+    <div class="card-body section">
+      <h2 class="title">
+        {% if page.url == "/newsletter" %}
+          This Month in Solid
+        {% else %}
+          <a href="{{site.baseUrl}}/newsletter" title="View past editions of This Month in Solid">
+            This Month in Solid
+          </a>
+        {% endif %}
+      </h2>
+      <p class="content">
+        <label for="tlemail">
+          Leave your email address to get a bite-sized overview of everything Solid, delivered straight to your inbox once a month.
+        </label>
+      </p>
+      <div class="field">
+        <div class="control">
+          <input class="input is-large" type="email" name="email" placeholder="yourmail@example.com" id="tlemail"/>
+        </div>
+      </div>
+      <input type="hidden" value="1" name="embed"/>
+      <div class="field">
+        <div class="control">
+          <input type="submit" class="button is-large" value="Subscribe" />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
