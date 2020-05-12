@@ -34,7 +34,7 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104
 #### Solid Implementations
 
 * [Solid Health](https://github.com/jasonpaulos/solid-health)
-* [DVO](https://dvo1.github.io/profile/index.html 10)
+* [DVO](https://dvo1.github.io/profile/index.html)
 * [Snap](https://michiels-nlt-kit.herokuapp.com)
 * [Darcy](https://ibex.darcy.is/feed)
 
