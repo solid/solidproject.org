@@ -13,40 +13,45 @@ categories: [Updates]
 
 Solid World is an opportunity to meet people who are interested in or currently working on Solid.
 
-A big thank you to Travis Vachon, David Faveris, and Astrid Gamoneda for presenting at the first Solid World last Thursday. 
+A big thank you to Christian Buggedei, Walter Almeida, Glen Simister, Manoharan Ramachandran, and Michiel de Jong for presenting at Solid World May last Thursday.
 
-In the first talk, [Travis Vachon](https://github.com/travis) from the USA presented a Solid app called [Concept](https://github.com/travis/concept). Concept is a Google docs equivalent that allows users to control their data. Travis built the concept with the aim to allow grassroots campaigns to organise themselves. Patch and WebSockets allowed for rudimentary collaborative editing and now wants to focus on embedding calendars and spreadsheets. 
+In the first talk, Christian Buggedei presented Darcy, a social network that knows nothing about you.Of note, Darcy recently won a Mozilla grant. You can find the Darcy source code here. Christian Buggedei is a founder and technology expert.
 
-In the second talk, [David Faveris](https://forum.solidproject.org/u/Smag0) from France presented a Solid app called [Solidarity](https://github.com/scenaristeur/solidarity). Solidarity is a chat app built using the Shighl library, which fills the gap between the Solidarity UI and Solid Pods. David worked closely with designer Julian Cole who has been working with Shighl to allow for easy installation and minimal dependencies while working with linked data. 
+In the second talk, Walter Almeida presented GO for modeling and generating Solid apps quickly with minimum code. He demonstrated the GO connector between Pod and Sparql endpoints using a location tracking Solid app that leverages dbPedia.org as a data source for countries and places. You can find the Go location app source code here.
 
-In the third talk, [Astrid Gamoneda Arrunada](https://github.com/empathyco/solid-pods-management/commits?author=astrd) from Spain presented a Solid app called [OhMyPod!](https://ohmypod.netlify.com/login)  developed by [Empathy](https://www.empathy.co/). OhMyPod! has a file management system with the ability to add friends with personal profiles. OhMyPod! is built using Inrupt React Generator, LDflex library and solid-file-client library. Astrid also looked at rdflib, which is powerful but complicated and somewhat slow. 
+In the third talk, Manoharan Ramachandran presented the Solid app built by Open University's blockchain team, looking into how to support immunity passports as mentioned by the UK government daily briefings. The Solid app facilitates the instant verification of tamper-proof test results whilst preserving privacy.
 
-If you missed Solid World you can [watch the recording [here](https://vimeo.com/404963568). 
+In the fourth talk, Glen Simister presented the DVO Profile Manager, a public profile (or resume), which anyone can create for free, and update. DVO Profile Manager works in conjunction with the DVO Toolbar, a browser extension which allows people to like, dislike, and comment on any URL. You can find the DVO Profile Manager source code here.
 
-The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-101812024506?aff=erelexpmlt) will happen soon on the 7th May 2020. If you have any content requests or would like to present at the next Solid world email mitzil@inrupt.com. 
+In the fifth talk, Michiel de Jong presented his latest experiment, SNAP on Solid, explaining how Solid inboxes can be used as the messaging layer for Network Ledger Technology. Check out the SNAP source code here.
 
-### In Other News  
+If you missed Solid World you can [watch the recording [here]().
 
-Darcy, a Solid based app led by [Christian Buggedei](https://github.com/JollyOrc) [won a €10k seed award from Mozilla](https://www.patreon.com/posts/35809190), and he will be speaking at [Solid World May](https://www.eventbrite.com/e/solid-world-tickets-101812024506).
+The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612) will happen soon on the 4th June  2020. If you have any content requests or would like to present at the next Solid world email m.laszlo@inrupt.com.
+
+### In Other News
 
 #### Solid Implementations
 
-* [Golf Companion app](https://gca-solid.now.sh/login)
+* [Solid Health](https://github.com/jasonpaulos/solid-health)
+* [DVO](https://dvo1.github.io/profile/index.html 10)
+* [Snap](https://michiels-nlt-kit.herokuapp.com)
+* [Darcy](https://ibex.darcy.is/feed)
 
-#### Articles
+#### Articles mentioning Solid
 
-* [We’re fixing the internet](https://blog.mozilla.org/blog/2020/03/30/were-fixing-the-internet-join-us/) on Mozilla
-* [Co-Immunology and the Web](https://medium.com/@bblfish/co-immunology-and-the-web-43379b46688e) by [Henry Story](https://medium.com/@bblfish)
+* 2020-05-06 [What Happens When You Get Sick Right Now?](https://hackernoon.com/what-happens-when-you-get-sick-right-now-mh12x3y82)
+* 2020-04-29 [New App for COVID-19 Combines Blockchain With Web Inventor's Privacy Tech](https://cointelegraph.com/news/new-app-for-covid-19-combines-blockchain-with-web-inventors-privacy-tech)
+* 2020-04-15 [COVID-19 Antibody Test Certification: There's an app for that](https://arxiv.org/abs/2004.07376)
+* 2020-04-14 [Scale, distribution, and occupying Mars: COVID-19 is a catalyst](https://www.zdnet.com/article/scale-distribution-and-occupying-mars-covid-19-is-a-catalyst/)
 
 #### External Grants
 
-SIDN Fonds has a grant called [Je Data de Baas](https://www.sidnfonds.nl/nieuws/follow-up-call-je-data-de-baas) and there is an EU initiative called [DAPSI](https://dapsi.ngi.eu/) that could be suitable for Solid app projects.
+There are an EU initiative [DAPSI](https://dapsi.ngi.eu/) and [NGI Pointer](https://www.ngi.eu/ngi-projects/ngi-pointer/) that could be suitable for Solid app projects.
 
 If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/next.md) to let others know about it via the next edition.
 
 #### Job Openings
 
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
-
-* [Inrupt](https://inrupt.com/careers) is hiring a DevOps Engineer and Technical Writer. Email jobs@inrupt.com for more information.
- 
+* [Inrupt](https://inrupt.com/careers) is hiring a Technical Writer. Email jobs@inrupt.com for more information.
