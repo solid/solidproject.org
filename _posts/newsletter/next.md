@@ -55,3 +55,5 @@ If you know of more grants that could be interesting for the Solid community [su
 
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
 * [Inrupt](https://inrupt.com/careers) is hiring a Technical Writer. Email jobs@inrupt.com for more information.
+
+#### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md) 
