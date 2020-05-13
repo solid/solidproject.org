@@ -25,7 +25,7 @@ In the fourth talk, Glen Simister presented the DVO Profile Manager, a public pr
 
 In the fifth talk, Michiel de Jong presented his latest experiment, SNAP on Solid, explaining how Solid inboxes can be used as the messaging layer for Network Ledger Technology. Check out the [SNAP source code on GitHub](https://github.com/ledgerloops/snap-solid/).
 
-If you missed Solid World you can [watch the recording [here](https://vimeo.com/415976385).
+If you missed Solid World you can [watch the recording on Vimeo](https://vimeo.com/415976385).
 
 The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612) will happen soon on the 4th June  2020. If you have any content requests or would like to present at the next Solid world email m.laszlo@inrupt.com.
 
