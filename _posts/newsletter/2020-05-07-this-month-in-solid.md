@@ -15,7 +15,7 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 A big thank you to Christian Buggedei, Walter Almeida, Glen Simister, Manoharan Ramachandran, and Michiel de Jong for presenting at Solid World May last Thursday.
 
-In the first talk, Christian Buggedei presented Darcy, a social network that knows nothing about you.Of note, Darcy recently won a Mozilla grant. You can find the Darcy source code here. Christian Buggedei is a founder and technology expert.
+In the first talk, Christian Buggedei presented Darcy, a social network that knows nothing about you. Of note, Darcy recently won a Mozilla grant. You can find the Darcy source code here. Christian Buggedei is a founder and technology expert.
 
 In the second talk, Walter Almeida presented GO for modeling and generating Solid apps quickly with minimum code. He demonstrated the GO connector between Pod and Sparql endpoints using a location tracking Solid app that leverages dbPedia.org as a data source for countries and places. You can find the Go location app source code here.
 
