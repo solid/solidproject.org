@@ -23,7 +23,7 @@ In the third talk, Manoharan Ramachandran presented the Solid app built by Open 
 
 In the fourth talk, Glen Simister presented the DVO Profile Manager, a public profile (or resume), which anyone can create for free, and update. DVO Profile Manager works in conjunction with the DVO Toolbar, a browser extension which allows people to like, dislike, and comment on any URL. You can find [the DVO Profile Manager source code on GitHub](https://github.com/dvo/profile).
 
-In the fifth talk, Michiel de Jong presented his latest experiment, SNAP on Solid, explaining how Solid inboxes can be used as the messaging layer for Network Ledger Technology. Check out the SNAP source code here.
+In the fifth talk, Michiel de Jong presented his latest experiment, SNAP on Solid, explaining how Solid inboxes can be used as the messaging layer for Network Ledger Technology. Check out the [SNAP source code on GitHub](https://github.com/ledgerloops/snap-solid/).
 
 If you missed Solid World you can [watch the recording [here](https://vimeo.com/415976385).
 
