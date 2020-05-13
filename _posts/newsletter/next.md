@@ -56,4 +56,19 @@ If you know of more grants that could be interesting for the Solid community [su
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
 * [Inrupt](https://inrupt.com/careers) is hiring a Technical Writer. Email jobs@inrupt.com for more information.
 
-#### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md) 
+#### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
+
+A [Submission for Auxiliary Resources](https://github.com/solid/specification/pull/156) has received editorial approval and has been merged into the [Editor's Draft](https://github.com/solid/specification) of the upcoming Solid protocol specification. An auxiliary resource may provide supplementary information about a given Solid resource, or affect how that resource and others associated with it are processed, served, or interpreted. This is the first (of several) candidate proposals from a [Solid panel](https://github.com/solid/data-interoperability-panel) to make it into the editor's draft.
+
+A [Submission for Resource Access](https://github.com/solid/specification/pull/157) has received editorial approval and has also been merged into the [Editor's Draft](https://github.com/solid/specification). This submission provides clarity around containment of linked resources, shared slash semantics, and URI persistence.
+
+The editorial team has been holding productive meetings every 2-3 weeks aimed at advancing progress towards normative Solid ecosystem specifications. Minutes are posted in the [Solid W3C Community Group Wiki](https://www.w3.org/community/solid/wiki/Meetings), including minutes from our meetings in April:
+* [Minutes](https://www.w3.org/community/solid/wiki/Meetings#2020-04-08T13:30:00Z) from April 8th
+* [Minutes](https://www.w3.org/community/solid/wiki/Meetings#2020-04-24_1600CET) from April 24th
+
+Other notable activity related to the Solid specification include:
+
+* A draft candidate proposal for WebID-OIDC is underway in the [Authentication Panel](https://github.com/solid/authentication-panel) based on rough consensus agreement around key elements of the protocol needed to support the development of reference implementations.
+* Use cases for server managed auxiliary resources related to resource provenance, auditing, and access history are being undertaken in the [Data Interoperability Panel](https://github.com/solid/data-interoperability-panel).
+* Work towards a normative specification for [web access control](https://github.com/solid/web-access-control-spec) will begin soon, organized through the [Authorization Panel](https://github.com/solid/authorization-and-access-control-panel).
+* [Problems and Goals](https://github.com/solid/data-interoperability-panel/blob/master/problems-and-goals.md) for an interoperable Solid ecosystem have been published by the [Data Interoperability Panel](https://github.com/solid/data-interoperability-panel).
