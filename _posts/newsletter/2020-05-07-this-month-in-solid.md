@@ -70,5 +70,5 @@ Other notable activity related to the Solid specification include:
 
 * A draft candidate proposal for WebID-OIDC is underway in the [Authentication Panel](https://github.com/solid/authentication-panel) based on rough consensus agreement around key elements of the protocol needed to support the development of reference implementations.
 * Use cases for server managed auxiliary resources related to resource provenance, auditing, and access history are being undertaken in the [Data Interoperability Panel](https://github.com/solid/data-interoperability-panel).
-* Work towards a normative specification for [web access control](https://github.com/solid/web-access-control-spec) will begin soon, organized through the [Authorization Panel](https://github.com/solid/authorization-and-access-control-panel).
+* Work towards a normative specification for [Web Access Control](https://github.com/solid/web-access-control-spec) will begin soon, organized through the [Authorization Panel](https://github.com/solid/authorization-and-access-control-panel).
 * [Problems and Goals](https://github.com/solid/data-interoperability-panel/blob/master/problems-and-goals.md) for an interoperable Solid ecosystem have been published by the [Data Interoperability Panel](https://github.com/solid/data-interoperability-panel).
