@@ -17,7 +17,7 @@ A big thank you to Christian Buggedei, Walter Almeida, Glen Simister, Manoharan 
 
 In the first talk, Christian Buggedei presented Darcy, a social network that knows nothing about you. Of note, Darcy recently won a Mozilla grant. You can find the Darcy source code here. Christian Buggedei is a founder and technology expert.
 
-In the second talk, Walter Almeida presented GO for modeling and generating Solid apps quickly with minimum code. He demonstrated the GO connector between Pod and Sparql endpoints using a location tracking Solid app that leverages dbPedia.org as a data source for countries and places. You can find the Go location app source code here.
+In the second talk, Walter Almeida presented GO for modeling and generating Solid apps quickly with minimum code. He demonstrated the GO connector between Pod and Sparql endpoints using a location tracking Solid app that leverages DBpedia as a data source for countries and places. You can find the [Go location app source code on GitHub](https://github.com/walteralmeida/GOForSolidVisitedPlacesApplication/).
 
 In the third talk, Manoharan Ramachandran presented the Solid app built by Open University's blockchain team, looking into how to support immunity passports as mentioned by the UK government daily briefings. The Solid app facilitates the instant verification of tamper-proof test results whilst preserving privacy.
 
