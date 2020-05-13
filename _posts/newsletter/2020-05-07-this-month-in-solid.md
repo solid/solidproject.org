@@ -27,7 +27,7 @@ In the fifth talk, Michiel de Jong presented his latest experiment, SNAP on Soli
 
 If you missed Solid World you can [watch the recording on Vimeo](https://vimeo.com/415976385).
 
-The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612) will happen soon on the 4th June  2020. If you have any content requests or would like to present at the next Solid world email m.laszlo@inrupt.com.
+The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612) will happen soon on the 4th June 2020. If you have any content requests or would like to present at the next Solid world email [m.laszlo@inrupt.com](mailto:m.laszlo@inrupt.com).
 
 ### Articles mentioning Solid
 
