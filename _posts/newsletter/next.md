@@ -25,9 +25,16 @@ In the fourth talk, Glen Simister presented the DVO Profile Manager, a public pr
 
 In the fifth talk, Michiel de Jong presented his latest experiment, SNAP on Solid, explaining how Solid inboxes can be used as the messaging layer for Network Ledger Technology. Check out the SNAP source code here.
 
-If you missed Solid World you can [watch the recording [here]().
+If you missed Solid World you can [watch the recording [here](https://vimeo.com/415976385).
 
 The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612) will happen soon on the 4th June  2020. If you have any content requests or would like to present at the next Solid world email m.laszlo@inrupt.com.
+
+### Articles mentioning Solid
+
+* 2020-05-06 [What Happens When You Get Sick Right Now?](https://hackernoon.com/what-happens-when-you-get-sick-right-now-mh12x3y82)
+* 2020-04-29 [New App for COVID-19 Combines Blockchain With Web Inventor's Privacy Tech](https://cointelegraph.com/news/new-app-for-covid-19-combines-blockchain-with-web-inventors-privacy-tech)
+* 2020-04-15 [COVID-19 Antibody Test Certification: There's an app for that](https://arxiv.org/abs/2004.07376)
+* 2020-04-14 [Scale, distribution, and occupying Mars: COVID-19 is a catalyst](https://www.zdnet.com/article/scale-distribution-and-occupying-mars-covid-19-is-a-catalyst/)
 
 ### In Other News
 
@@ -37,13 +44,6 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104
 * [DVO](https://dvo1.github.io/profile/index.html)
 * [Snap](https://michiels-nlt-kit.herokuapp.com)
 * [Darcy](https://ibex.darcy.is/feed)
-
-#### Articles mentioning Solid
-
-* 2020-05-06 [What Happens When You Get Sick Right Now?](https://hackernoon.com/what-happens-when-you-get-sick-right-now-mh12x3y82)
-* 2020-04-29 [New App for COVID-19 Combines Blockchain With Web Inventor's Privacy Tech](https://cointelegraph.com/news/new-app-for-covid-19-combines-blockchain-with-web-inventors-privacy-tech)
-* 2020-04-15 [COVID-19 Antibody Test Certification: There's an app for that](https://arxiv.org/abs/2004.07376)
-* 2020-04-14 [Scale, distribution, and occupying Mars: COVID-19 is a catalyst](https://www.zdnet.com/article/scale-distribution-and-occupying-mars-covid-19-is-a-catalyst/)
 
 #### External Grants
 
@@ -56,7 +56,7 @@ If you know of more grants that could be interesting for the Solid community [su
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
 * [Inrupt](https://inrupt.com/careers) is hiring a Technical Writer. Email jobs@inrupt.com for more information.
 
-#### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
+### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
 
 A [Submission for Auxiliary Resources](https://github.com/solid/specification/pull/156) has received editorial approval and has been merged into the [Editor's Draft](https://github.com/solid/specification) of the upcoming Solid protocol specification. An auxiliary resource may provide supplementary information about a given Solid resource, or affect how that resource and others associated with it are processed, served, or interpreted. This is the first (of several) candidate proposals from a [Solid panel](https://github.com/solid/data-interoperability-panel) to make it into the editor's draft.
 
