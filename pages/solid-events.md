@@ -4,20 +4,20 @@ title: Solid Events
 permalink: /events
 ---
 
-Solid Events are an opportunity for people working on Solid or who are interested about learning more about Solid to meet in person locally. 
+Solid Events are an opportunity for people working on Solid or who are interested about learning more about Solid to meet in person locally. Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you reach out to the Solid Manager on info@solidproject.org.
 
-Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you reach out to the Solid Manager on info@solidproject.org.
+In light of the COVID-19 pandemic Solid Events are moving online for the foreseeable future.Tune in on the first Thursday of every month at 1600 CET to join.
 
-In light of the COVID-19 pandemic Solid Events are moving online for the foreseeable future. [Tune in](https://zoom.us/j/606342071) on the first Thursday of every month at 1600 CET. 
-
-If you had upcoming Solid Events planned reach out to the Solid Manager on info@solidproject.org to arrange moving the content online with Solid World.
+You can read the upcoming agenda on the [Solid World June invite](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612)
 
 Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on info@solidproject.org to get a speaking slot at the next event.
 
-# Past events
+# Past Solid Events
 
-| Date | Event | Organizer(s) | Recordings and Slides |
+| Date | Event | Organiser | Recordings and Slides |
 |---|-------|--------------|--------------|
+|2020-05-07|[Solid World May](https://www.eventbrite.com/e/solid-world-tickets-101812024506#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/415976385)|
+|2020-04-02|[Solid World April](https://www.eventbrite.com/e/solid-world-tickets-100417571660#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/404963568)|
 | 2020-03-05 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/events/268684820/) | [Li Lu](https://github.com/SolidToronto) ||
 | 2020-02-20 | [Solid San Francisco](https://meetabit.com/events/february-2020-bay-area-solid-interest-club-meetup) | [Travis Vachon](https://github.com/travis) | - |
 | 2020-02-19 | [Solid Oviedo](https://ingenieriainformatica.uniovi.es/actualidad/eventos/-/asset_publisher/uS6D/content/conferencia-solid-search:-introduccion-a-solid-y-como-cambiar-el-paradigma-de-los-buscadores-de-co?redirect=%2F) | [Alejandro Juan García](https://gitter.im/alexcorvis84) | [recording](https://youtu.be/xBopDO2NTxo) and [slides](https://docs.google.com/presentation/d/19Glq6dcIa83nliQR1fvS9ZzYglogFD7mT5Pb5JLFrIQ/edit?usp=sharing) |
