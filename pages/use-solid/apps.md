@@ -36,7 +36,6 @@ Want to add a Solid-compatible app to this list? Contact the Solid Manager via i
 ## Games
 * [Golf Companion Assistant](https://gca-solid.now.sh/login). [source code](https://github.com/michaud/gca-solid) under [GNU Affero General Public License (c) 2020](https://github.com/michaud/gca-solid/blob/master/LICENCE) [Michaud](https://github.com/michaud)
 * [Solid Chess](https://pheyvaer.github.io/solid-chess/) decentralised chess game [Source code](https://github.com/pheyvaer/solid-chess) [MIT License Copyright (c) 2018](https://github.com/pheyvaer/solid-chess/blob/master/LICENSE.md) [Pieter Heyvaert](https://github.com/pheyvaer)
-* [2048](http://webize.github.io/2048/) is a tile based game. [source code](https://github.com/webize/2048) is under [MIT License Copyright (c) 2016](https://github.com/webize/2048/blob/master/LICENSE) [Webize](https://github.com/webize)
 
 ## Rating
 * [Linked Beer](https://ozcanseker.github.io/Social-linked-beer/) search for and rate beers listed by brewery. 2019. Özcan Seker. [source code](https://github.com/ozcanseker/Social-linked-beer)
