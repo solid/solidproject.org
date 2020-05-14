@@ -47,6 +47,8 @@ Want to add a Solid-compatible app to this list? Contact the Solid Manager via i
 ## Project Management
 * [RiseFor Mobilisation](https://git.happy-dev.fr/startinblox/applications/risefor-mobilisation) (deployed as [Referendum Signons](https://referendum.signons.fr)) is an app for organising referenda; it uses Solid under the hood.
 * [Solidbase](https://app.solidbase.info) agricultural project management. [source code](https://lab.allmende.io/solidbase/solidbase) is under [GNU AGPL3 (c) 2017](https://lab.allmende.io/solidbase/solidbase/blob/master/LICENSE) [Allmende Lab](https://lab.allmende.io)
+
+## Blogs 
 * [Concept](https://useconcept.art) ([GitHub](https://github.com/travis/concept)) is an embarrassingly simple clone of [notion.so](https://notion.so) built on Solid, currently in early alpha.
 * [Notepod](https://notepod.vincenttunru.com/) is a simple note-taking app that stores notes in your Solid Pod. [source code](https://github.com/Vinnl/notepod) by [Vincent Tunru](https://github.com/Vinnl)
 * [OEdit](https://edit.o.team) an editor app for raw files using the vs interface. [source code](https://github.com/jaxoncreed/o-edit) by [Jackson Morgan](https://github.com/jaxoncreed).
@@ -58,6 +60,19 @@ Want to add a Solid-compatible app to this list? Contact the Solid Manager via i
 ## Finance
 * [Snap](https://michiels-nlt-kit.herokuapp.com)
 * [Firefly-iii](https://github.com/firefly-iii/firefly-iii). [source code](https://github.com/firefly-iii/firefly-iii) is under [GNU General Public License v3.0 9c0 2017](https://github.com/firefly-iii/firefly-iii/blob/master/LICENSE) by [James Cole](https://github.com/JC5)
+
+## Health
+* [Solid Health](https://github.com/jasonpaulos/solid-health)
+
+## Navigation 
+* [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype) (deployed as [Sigmafied](https://sigmafied.com)). 2019. [Sharon Statsianis](https://github.com/SharonStrats).
+
+## Other
+* [Spoggy](https://spoggy.herokuapp.com/)
+* [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) uses the national weather service API so it is currently only able to fetch weather in the United States.2019. Dylan Martin.
+* [Solid Calendar](https://bitbucket.org/dylanmartin/solidcalendar/src/master/) is a way to create, store, and query events using a user's card. 2019. Dylan Martin.
+* [Linked Pipes](https://applications.linkedpipes.com/). 2019. [@aorumbayev](https://github.com/aorumbayev)
+* [Hello World](https://melvincarvalho.github.io/helloworld/) [Source code](https://github.com/melvincarvalho/helloworld) [MIT License Copyright (c) 2015](https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho)
 
 ## Pod Management
 * [DVO](https://dvo1.github.io/profile/index.html 10)
@@ -84,18 +99,5 @@ Want to add a Solid-compatible app to this list? Contact the Solid Manager via i
 * [SPARQL Fiddle](https://jeff-zucker.github.io/sparql-fiddle/) online fiddle to run SPARQL against  Pods. [Source code](https://github.com/jeff-zucker/sparql-fiddle) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/sparql-fiddle/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker)
 * [Inbox](https://github.com/solid/solid-inbox) processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu)
 * [Solid Notify](https://solid-notify.5apps.com/) sends you a desktop notification when a Solid resource changes.
-
-## Health
-* [Solid Health](https://github.com/jasonpaulos/solid-health)
-
-## Navigation 
-* [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype) (deployed as [Sigmafied](https://sigmafied.com)). 2019. [Sharon Statsianis](https://github.com/SharonStrats).
-
-## Other
-* [Spoggy](https://spoggy.herokuapp.com/)
-* [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) uses the national weather service API so it is currently only able to fetch weather in the United States.2019. Dylan Martin.
-* [Solid Calendar](https://bitbucket.org/dylanmartin/solidcalendar/src/master/) is a way to create, store, and query events using a user's card. 2019. Dylan Martin.
-* [Linked Pipes](https://applications.linkedpipes.com/). 2019. [@aorumbayev](https://github.com/aorumbayev)
-* [Hello World](https://melvincarvalho.github.io/helloworld/) [Source code](https://github.com/melvincarvalho/helloworld) [MIT License Copyright (c) 2015](https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho)
 
 Disclaimer: The list below does not represent an endorsement by the Solid Project. The apps on the list do not undergo any testing at this time, and there is no guarantee of security or quality implied by their inclusion on this list. The goal of the list is to showcase the vibrancy of the Solid community and encourage early app builders to collaborate and learn from each other. If you believe one of the apps below is insecure or non-functional and should be removed from the list, please raise an issue [here](https://github.com/solid/solidproject.org/issues) and tag the app's creator or maintainer. If the creator or maintainer of the app does not respond within 24 hours to indicate that they will fix the problem, a Solid Creator will remove the app from the listing.
