@@ -5,7 +5,7 @@ permalink: funding
 ---
 
 # Funding
-If you know of any grants or channels to apply to resources that would allow developers to focus on building their application on solid, please do share then here.
+If you know of any grants or channels to apply to resources that would allow developers to focus on building their application on solid, please do share them here.
 
 * [GitHub Sponsors](https://github.com/sponsors)
 * [DuckDuckGo Donations](https://duckduckgo.com/donations)
