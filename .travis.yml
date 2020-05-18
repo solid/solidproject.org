@@ -15,11 +15,11 @@ script:
       _site
       | true
   # Lock the yaspeller version.
-  # This will prevent our builds from suddenly failing if yaspeller
+  # This will prevent spell checks from suddenly failing if yaspeller
   # e.g. (purely hypothetically *cough*) adds a fuzzier typo checker.
   - npm install yaspeller@6.0.*
   - npm install yaspeller-ci@1.0.2
-  - npx yaspeller-ci --dictionary dictionary.json **/*.md
+  - npx yaspeller-ci --dictionary dictionary.json **/*.md | true
 
 before_deploy:
   - pushd _site
