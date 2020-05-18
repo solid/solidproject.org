@@ -23,7 +23,7 @@ Editors are responsible for maintaining and reviewing suggestions to the Solid s
 
 ## Sarven Capadisli
 **Solid Editor**
-Sarven Capadisli is a developer at Inrupt. He contributes to the advancement of open Web platform specifications and the development of social decentralised applications and was part of the MIT Solid project. He is active as an information architect and scientist in linked research communication.
+Sarven Capadisli is a technical architect at Inrupt. He contributes to the advancement of open Web platform specifications and the development of social decentralised applications and was part of the MIT Solid project. He is active as an information architect and scientist in linked research communication.
 
 ## Ruben Verborgh
 **Solid Editor**
