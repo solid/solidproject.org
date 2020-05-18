@@ -177,7 +177,7 @@ obelisk:Obelisk rdf:type rdfs:Class ;
     rdfs:comment "An obelisk is a four-sided pillar with a pyramid-shaped top." .
 
 obelisk:Sculptor rdf:type rdfs:Class ;
-    rdfs:label rdfs:label "Sculptor" ;
+    rdfs:label "Sculptor" ;
     rdfs:comment "An artist who sculpts obelisks." .
 
 obelisk:ownedBy rdf:type rdf:Property ;
