@@ -6,7 +6,7 @@ permalink: standardisation
 
 You can read the most up to date version of the [Solid Specification](https://solid.github.io/specification/).
 
-Anyone can contribute to the Solid Specification by making suggestions by submitting [issues](https://github.com/solid/specification/issues) and [pull requests](https://github.com/solid/specification/pulls). Before contributing to the Solid Specification please read the [Code of Conduct](#conduct).
+Anyone can contribute to the Solid Specification by making suggestions by submitting [issues](https://github.com/solid/specification/issues) and [pull requests](https://github.com/solid/specification/pulls). Before contributing to the Solid Specification please read the [Code of Conduct](#conduct) and [join the W3C Solid Community Group](https://www.w3.org/community/solid/). 
 
 It is suggested that you present your proposals at the [relevant calls and communication channels](https://www.w3.org/community/solid/wiki/Main_Page). You can read a [record of call agendas and minutes](https://www.w3.org/community/solid/wiki/Meetings). 
 
