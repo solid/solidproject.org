@@ -15,19 +15,19 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 A big thank you to Christian Buggedei, Walter Almeida, Glen Simister, Manoharan Ramachandran, and Michiel de Jong for presenting at Solid World May last Thursday.
 
-In the first talk, Christian Buggedei presented Darcy, a social network that knows nothing about you.Of note, Darcy recently won a Mozilla grant. You can find the Darcy source code here. Christian Buggedei is a founder and technology expert.
+In the first talk, Christian Buggedei presented Darcy, a social network that knows nothing about you. Of note, Darcy recently won a Mozilla grant. You can find the Darcy source code here. Christian Buggedei is a founder and technology expert.
 
-In the second talk, Walter Almeida presented GO for modeling and generating Solid apps quickly with minimum code. He demonstrated the GO connector between Pod and Sparql endpoints using a location tracking Solid app that leverages dbPedia.org as a data source for countries and places. You can find the Go location app source code here.
+In the second talk, Walter Almeida presented GO for modeling and generating Solid apps quickly with minimum code. He demonstrated the GO connector between Pod and SPARQL endpoints using a location tracking Solid app that leverages DBpedia as a data source for countries and places. You can find the [Go location app source code on GitHub](https://github.com/walteralmeida/GOForSolidVisitedPlacesApplication/).
 
 In the third talk, Manoharan Ramachandran presented the Solid app built by Open University's blockchain team, looking into how to support immunity passports as mentioned by the UK government daily briefings. The Solid app facilitates the instant verification of tamper-proof test results whilst preserving privacy.
 
-In the fourth talk, Glen Simister presented the DVO Profile Manager, a public profile (or resume), which anyone can create for free, and update. DVO Profile Manager works in conjunction with the DVO Toolbar, a browser extension which allows people to like, dislike, and comment on any URL. You can find the DVO Profile Manager source code here.
+In the fourth talk, Glen Simister presented the DVO Profile Manager, a public profile (or resume), which anyone can create for free, and update. DVO Profile Manager works in conjunction with the DVO Toolbar, a browser extension which allows people to like, dislike, and comment on any URL. You can find [the DVO Profile Manager source code on GitHub](https://github.com/dvo/profile).
 
-In the fifth talk, Michiel de Jong presented his latest experiment, SNAP on Solid, explaining how Solid inboxes can be used as the messaging layer for Network Ledger Technology. Check out the SNAP source code here.
+In the fifth talk, Michiel de Jong presented his latest experiment, SNAP on Solid, explaining how Solid inboxes can be used as the messaging layer for Network Ledger Technology. Check out the [SNAP source code on GitHub](https://github.com/ledgerloops/snap-solid/).
 
-If you missed Solid World you can [watch the recording [here](https://vimeo.com/415976385).
+If you missed Solid World you can [watch the recording on Vimeo](https://vimeo.com/415976385).
 
-The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612) will happen soon on the 4th June  2020. If you have any content requests or would like to present at the next Solid world email m.laszlo@inrupt.com.
+The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612) will happen soon on the 4th June 2020. If you have any content requests or would like to present at the next Solid world email [m.laszlo@inrupt.com](mailto:m.laszlo@inrupt.com).
 
 ### Articles mentioning Solid
 
@@ -47,7 +47,7 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104
 
 #### External Grants
 
-There are an EU initiative [DAPSI](https://dapsi.ngi.eu/) and [NGI Pointer](https://www.ngi.eu/ngi-projects/ngi-pointer/) that could be suitable for Solid app projects.
+There are EU initiatives [DAPSI](https://dapsi.ngi.eu/) and [NGI Pointer](https://www.ngi.eu/ngi-projects/ngi-pointer/) that could be suitable for Solid app projects.
 
 If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/next.md) to let others know about it via the next edition.
 
@@ -70,5 +70,5 @@ Other notable activity related to the Solid specification include:
 
 * A draft candidate proposal for WebID-OIDC is underway in the [Authentication Panel](https://github.com/solid/authentication-panel) based on rough consensus agreement around key elements of the protocol needed to support the development of reference implementations.
 * Use cases for server managed auxiliary resources related to resource provenance, auditing, and access history are being undertaken in the [Data Interoperability Panel](https://github.com/solid/data-interoperability-panel).
-* Work towards a normative specification for [web access control](https://github.com/solid/web-access-control-spec) will begin soon, organized through the [Authorization Panel](https://github.com/solid/authorization-and-access-control-panel).
+* Work towards a normative specification for [Web Access Control](https://github.com/solid/web-access-control-spec) will begin soon, organized through the [Authorization Panel](https://github.com/solid/authorization-and-access-control-panel).
 * [Problems and Goals](https://github.com/solid/data-interoperability-panel/blob/master/problems-and-goals.md) for an interoperable Solid ecosystem have been published by the [Data Interoperability Panel](https://github.com/solid/data-interoperability-panel).

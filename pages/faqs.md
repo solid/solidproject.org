@@ -213,9 +213,6 @@ Pod providers have commitments to the individuals and legal entities that they p
 ## Could a Solid app or Pod become another tech giant monopoly? 
 **No**. Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
 
-## As a Pod provider are you legally responsible for the data you are storing?
-Pod providers have commitments to the individuals and legal entities that they provide services to based on the law of the countries in which the hosting provider is operating. As a Pod provider you should seek professional advice on how to be compliant. As an individual Solid user, you should carefully read the agreement with your hosting provider before agreeing. 
-
 ## Is it opt-in or opt-out to share my data when using Solid?
 Opt-in. The default is for you not to share your data. You have to give your active consent to share your data.
 
