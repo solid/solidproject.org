@@ -20,7 +20,7 @@ If you believe one of the apps below is insecure or non-functional and should be
 * [Solid Focus](https://noeldemartin.github.io/solid-focus/) keep track of your to do list. [Source code](https://github.com/NoelDeMartin/solid-focus) [GNU General Public License v3.0 (c) 2018](https://github.com/NoelDeMartin/solid-focus/blob/master/LICENSE) [Noel de Martin](https://github.com/NoelDeMartin)
 * [Mark Book](https://markbook.org) is for creating bookmarks. [Source code](https://github.com/melvincarvalho/solid-bookmark) [MIT License Copyright (c) 2018](https://github.com/melvincarvalho/solid-bookmark/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) 
 * [Tadanime](https://pheyvaer.github.io/tadanime/index.html) helps you rate your anime series and movies. [Tadanime](https://github.com/pheyvaer/tadanime) [MIT License Copyright (c) 2018](https://github.com/pheyvaer/tadanime/blob/master/LICENSE.md) [Pieter Heyvaert](https://github.com/pheyvaer)
-* [Holon](https://scenaristeur.github.io/holon/) playing with ShEx Shapes. Creates a form from a remote shape and store data on your Pod.
+* [Holon](https://scenaristeur.github.io/holon/) playing with ShEx Shapes. Creates a form from a remote shape and store data on your Pod. [Holon source code](https://github.com/scenaristeur/holon)
 
 ## More apps
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
