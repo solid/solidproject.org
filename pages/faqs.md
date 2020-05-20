@@ -236,13 +236,12 @@ That’s up to you, Solid just gives you the choice.
 ## Is it wise to trust people to make ethical decisions on such a complicated issue?
 There is a lot of variation in what people feel to be right and wrong, and ultimately it is down to you to decide what to do with your data. Solid does try to help you make informed choices by providing relevant information and by constantly validating the accuracy of that information.
 
-## Are apps vulnerable to “Origin” being escaped? 
+## Are apps vulnerable to an “Origin” bypass? 
 
-The Solid specification [warns](https://github.com/solid/web-access-control-spec#adding-trusted-web-apps) that the “trusted apps” feature is new and experimental because 
-it is known that [Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) is escapable. 
+The Solid specification [warns](https://github.com/solid/web-access-control-spec#adding-trusted-web-apps) that the “trusted apps” feature is new and experimental, as it is known that [Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) has the common weakness ([CWE-346](https://cwe.mitre.org/data/definitions/346.html)) of "origin validation".  
 
 Currently when a user gives a Solid web app access to their Pod, the app Origin is added to that user’s list of trusted apps. The app then receives a token that allows it to interact with the Pod on behalf of the user, and only the Origin included with those interactions is verified using the list of trusted apps. 
 
-Although standard browsers automatically include the Origin when they send HTTPS requests, a non-browser client is not required to send one. This means anyone with access to the aforementioned Origin-based token can use non-browser clients to gain access to the Pod.
+Although standard browsers automatically include the Origin when they send HTTPS requests, a non-browser client is not required to send one. This means anyone with access to the aforementioned Origin-based token can use non-browser clients to bypass Origin validation for the Pod.
 
 Solutions already are planned to revise and replace this experimental use of Origin, in order to evolve security of the trusted app feature.
