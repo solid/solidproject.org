@@ -27,7 +27,7 @@ Sarven Capadisli is a technical architect at Inrupt. He contributes to the advan
 
 ## Ruben Verborgh
 **Solid Editor**
-Ruben Verborgh is a professor of decentralised Web technology at IDLab, Ghent University – imec, and a research affiliate at the Decentralised Information Group of CSAIL at MIT. Additionally, he acts as a technology advocate for Inrupt and the Solid ecosystem wherein people and organisations control their own data. He focuses on ecosystem architecture and developer experience.
+[Ruben Verborgh](https://ruben.verborgh.org/) focuses on ecosystem architecture and developer experience.
 
 ## Justin Bingham
 **Solid Editor**
