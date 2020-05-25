@@ -11,13 +11,13 @@ Want to add a Solid-compatible app to this list? Contact the Solid Manager via i
 # Solid Apps
 
 ## Show Case
-* [Solid Chess](https://pheyvaer.github.io/solid-chess/) decentralised chess game [Source code](https://github.com/pheyvaer/solid-chess) [MIT License Copyright (c) 2018](https://github.com/pheyvaer/solid-chess/blob/master/LICENSE.md) [Pieter Heyvaert](https://github.com/pheyvaer)
-* [Dokieli](https://dokie.li) is a client side editor for decentralised article publishing, annotations, and social interactions. [Dokieli](https://github.com/linkeddata/dokieli) [Apache License v2.0 2012](https://github.com/linkeddata/dokieli/blob/master/LICENSE) [Sarven Capadisli](https://github.com/csarven)
 * [Notepod](https://notepod.vincenttunru.com/) is a simple note-taking app that stores notes in your Solid Pod. It was created as a demonstration of how to create Solid apps — inspect [its commit messages](https://gitlab.com/vincenttunru/notepod/commits/master) for more detailed guidance on [reading data](https://gitlab.com/vincenttunru/notepod/commit/5c534abdd2d6ed18be8ddc256427fb7bc0baae71), [authenticating](https://gitlab.com/vincenttunru/notepod/commit/f42f8ae6e55f1a1996050d5061252b5ac615b5aa), and more.
 * [Poddit](https://vincenttunru.gitlab.io/poddit/). 2019. Vincent Tunru.
+* [Solid Chess](https://pheyvaer.github.io/solid-chess/) decentralised chess game [Source code](https://github.com/pheyvaer/solid-chess) [MIT License Copyright (c) 2018](https://github.com/pheyvaer/solid-chess/blob/master/LICENSE.md) [Pieter Heyvaert](https://github.com/pheyvaer)
 * [Solid Focus](https://noeldemartin.github.io/solid-focus/) keep track of your to do list. [Source code](https://github.com/NoelDeMartin/solid-focus) [GNU General Public License v3.0 (c) 2018](https://github.com/NoelDeMartin/solid-focus/blob/master/LICENSE) [Noel de Martin](https://github.com/NoelDeMartin)
 * [Mark Book](https://markbook.org) is for creating bookmarks. [Source code](https://github.com/melvincarvalho/solid-bookmark) [MIT License Copyright (c) 2018](https://github.com/melvincarvalho/solid-bookmark/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho)
 * [Tadanime](https://pheyvaer.github.io/tadanime/index.html) helps you rate your anime series and movies. [Tadanime](https://github.com/pheyvaer/tadanime) [MIT License Copyright (c) 2018](https://github.com/pheyvaer/tadanime/blob/master/LICENSE.md) [Pieter Heyvaert](https://github.com/pheyvaer)
+* [Dokieli](https://dokie.li) is a client side editor for decentralised article publishing, annotations, and social interactions. [Dokieli](https://github.com/linkeddata/dokieli) [Apache License v2.0 2012](https://github.com/linkeddata/dokieli/blob/master/LICENSE) [Sarven Capadisli](https://github.com/csarven)
 
 ## Social 
 * [Solidarity](https://scenaristeur.github.io/solidarity/). [source code](https://github.com/scenaristeur/solidarity) is under [MIT License Copyright (c) 2019](https://github.com/scenaristeur/shighl/blob/master/LICENSE)[David Faveris](http://smag0.blogspot.com/2013/12/smag0-le-projet.html)
