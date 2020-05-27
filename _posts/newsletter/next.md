@@ -15,7 +15,7 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 
 
-If you missed Solid World you can [watch the recording [here]().
+If you missed Solid World you can [watch the recording here]().
 
 The [next Solid World]() will happen soon on the 6th July  2020. If you have any content requests or would like to present at the next Solid world email info@solidproject.org.
 
@@ -44,4 +44,3 @@ If you know of more grants that could be interesting for the Solid community [su
 ### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
 
 Invitation to provide feedback to improve the efficiency of panels [via this issue](https://github.com/solid/process/issues/202). 
-
