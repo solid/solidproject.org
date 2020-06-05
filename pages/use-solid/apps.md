@@ -63,8 +63,9 @@ Want to add a Solid-compatible app to this list? Contact the Solid Manager via i
 ## Health
 * [Solid Health](https://github.com/jasonpaulos/solid-health)
 
-## Navigation 
+## Geolocation 
 * [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype) (deployed as [Sigmafied](https://sigmafied.com)). 2019. [Sharon Statsianis](https://github.com/SharonStrats).
+* [Solid Geolocation Challenge Entries](https://arquisoft.github.io/course1920.html#SolidChallen2020) 
 
 ## Other
 * [Spoggy](https://spoggy.herokuapp.com/)
