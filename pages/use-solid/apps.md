@@ -6,6 +6,9 @@ permalink: /use-solid/apps
 
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).
 
+The criteria for an app to be Solid-compatible are: 
+* possible for app user to login with a WebID
+
 Want to add a Solid-compatible app to this list? Contact the Solid Manager via info@solidproject.org or submit a [submit a pull request](https://github.com/solid/solidproject.org/edit/staging/pages/use-solid/apps.md).
 
 # Solid Apps
