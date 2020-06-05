@@ -607,6 +607,14 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ### 2020
 
+2020-06-12 [CHANGEMAKERS: Davi Ottenheimer on Data Ethics and How to Save the Web](https://alltechishuman.org/blog/changemakers-davi-ottenheimer-on-data-ethics-and-how-to-save-the-internet) 
+
+2020-06-02 [Data privacy, trust, and smart city services](https://opencommons.org/solid/)
+
+2020-06-02 [Low-code development platform Generative Objects : the journey to open source](https://modeling-languages.com/low-code-open-source-platform-generative-objects/)
+
+2020-05-20 [Open University Solid initiative](https://blockchain.open.ac.uk/#covid-19)
+
 2020-05-06 [What Happens When You Get Sick Right Now?](https://hackernoon.com/what-happens-when-you-get-sick-right-now-mh12x3y82)
 
 2020-04-29 [New App for COVID-19 Combines Blockchain With Web Inventor's Privacy Tech](https://cointelegraph.com/news/new-app-for-covid-19-combines-blockchain-with-web-inventors-privacy-tech)
