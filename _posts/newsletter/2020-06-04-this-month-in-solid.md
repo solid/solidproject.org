@@ -15,7 +15,7 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 This month the theme of Solid World was geolocation and Sharon Stratsianis kicked off with a talk on the benefits of Geolocation on Solid. The capstone project of her Masters of Information Technology and Distributed Computing at Melbourne University was on Semantic Web and Location Privacy.
 
-Associate Professor Jose Emilio Labra Gayo directs the Web Semantics Reseach Group (WESO) at the Univesity of Oviedo. He explained how he taught approximately one hundred second year bachelor of engineering students how to build Solid apps and explained the course assignments the students were given.
+Associate Professor [Jose Emilio Labra Gayo](http://labra.weso.es/) directs the Web Semantics Reseach Group (WESO) at the Univesity of Oviedo. He explained how he taught approximately one hundred second year bachelor of engineering students how to build Solid apps and explained the course assignments the students were given.
 
 In the third talk, Ángel Maldonado, founder and CEO of Empathy.co, introduced Empathy's vision for decentralised commerce, as a platform that serves the consumers and not the brands, one that tracks, locates and profiles the store at the service of the consumer as well as the ongoing with work the University of Oviedo. Empathy serves brands such as Inditex, Kroger or Carrefour to connect with their consumers, humanly through Search, Navigation and UI Componentry.
 
@@ -80,7 +80,8 @@ detailing an approach for application registration.
 
 Efforts are underway to
 [receive feedback and propose improvements](https://github.com/solid/process/issues/202) to
-the way Solid Panels are organized and managed. We received a wide range of
-constructive feedback on how panels can be improved, as well as feedback on
-how spec-related activities are reported and communicated. As a starting point,
-the [forum will be utilized more](https://forum.solidproject.org/t/updates-on-spec-related-activities-in-the-forum/3107) for communications and subsequent discussions.
+the way Solid Panels are organized and managed.
+
+The Solid Project forum
+[will be utilized more](https://forum.solidproject.org/t/updates-on-spec-related-activities-in-the-forum/3107)
+for communications and subsequent discussions on spec-related activities.
