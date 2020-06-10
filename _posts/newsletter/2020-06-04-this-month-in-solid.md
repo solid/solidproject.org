@@ -53,8 +53,34 @@ If you know of more grants that could be interesting for the Solid community [su
 
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
 
-### [Update from the Specification Editors]() (include link to w3c solid community group monthly updates page)
+### Update from the Specification Editors
 
-Contributions to the Solid specification are done via panels. If you have contributed to the panels or considered contributing to the panels please provide feedback on how to improve the efficiency [via this issue](https://github.com/solid/process/issues/202).
+A Submission for
+[Resource Type Heuristics](https://github.com/solid/specification/pull/160)
+has been merged into the
+[Editor's Draft](https://github.com/solid/specification) of the upcoming
+Solid protocol specification.
 
-(to be submitted by the editors)
+The editorial team has been holding productive monthly meetings
+aimed at advancing progress towards normative Solid ecosystem specifications.
+Minutes are posted in the
+[Solid W3C Community Group Wiki](https://www.w3.org/community/solid/wiki/Meetings),
+including [minutes](https://www.w3.org/community/solid/wiki/Meetings#2020-05-15_1600CET)
+from our May 15th session.
+
+The [Interoperability Panel](https://github.com/solid/data-interoperability-panel)
+is working on a
+[Use Cases and Requirements](https://github.com/solid/data-interoperability-panel/pull/41)
+document template that will be submitted to the
+[Specification](https://github.com/solid/specification) repository for the
+submission and curation of UCRs, as well as making substantial progress on an
+interoperable client ecosystem proposal, with a
+[recent submission](https://github.com/solid/data-interoperability-panel/pull/42)
+detailing an approach for application registration.
+
+Efforts are underway to
+[receive feedback and propose improvements](https://github.com/solid/process/issues/202) to
+the way Solid Panels are organized and managed. We received a wide range of
+constructive feedback on how panels can be improved, as well as feedback on
+how spec-related activities are reported and communicated. As a starting point,
+the [forum will be utilized more](https://forum.solidproject.org/t/updates-on-spec-related-activities-in-the-forum/3107) for communications and subsequent discussions.
