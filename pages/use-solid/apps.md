@@ -11,6 +11,7 @@ Want to add a Solid-compatible app to this list? Contact the Solid Manager via i
 # Solid Apps
 
 ## Show Case
+* [Solidarity](https://scenaristeur.github.io/solidarity/). [source code](https://github.com/scenaristeur/solidarity) is under [MIT License Copyright (c) 2019](https://github.com/scenaristeur/shighl/blob/master/LICENSE)[David Faveris](http://smag0.blogspot.com/2013/12/smag0-le-projet.html)
 * [Notepod](https://notepod.vincenttunru.com/) is a simple note-taking app that stores notes in your Solid Pod. It was created as a demonstration of how to create Solid apps — inspect [its commit messages](https://gitlab.com/vincenttunru/notepod/commits/master) for more detailed guidance on [reading data](https://gitlab.com/vincenttunru/notepod/commit/5c534abdd2d6ed18be8ddc256427fb7bc0baae71), [authenticating](https://gitlab.com/vincenttunru/notepod/commit/f42f8ae6e55f1a1996050d5061252b5ac615b5aa), and more.
 * [Poddit](https://vincenttunru.gitlab.io/poddit/). 2019. Vincent Tunru.
 * [Solid Chess](https://pheyvaer.github.io/solid-chess/) decentralised chess game [Source code](https://github.com/pheyvaer/solid-chess) [MIT License Copyright (c) 2018](https://github.com/pheyvaer/solid-chess/blob/master/LICENSE.md) [Pieter Heyvaert](https://github.com/pheyvaer)
@@ -64,8 +65,9 @@ Want to add a Solid-compatible app to this list? Contact the Solid Manager via i
 ## Health
 * [Solid Health](https://github.com/jasonpaulos/solid-health)
 
-## Navigation 
+## Geolocation 
 * [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype) (deployed as [Sigmafied](https://sigmafied.com)). 2019. [Sharon Statsianis](https://github.com/SharonStrats).
+* [Solid Geolocation Challenge Entries](https://arquisoft.github.io/course1920.html#SolidChallen2020) 
 
 ## Other
 * [Spoggy](https://spoggy.herokuapp.com/)
