@@ -4,32 +4,36 @@ title: Press
 permalink: press
 ---
 
-Are you looking to get a speaker or interview about Solid? Contact us on press@solidproject.org with a description of what you are looking for. 
+Are you looking to get a speaker or interview about Solid? Contact us on [press@solidproject.org](mailto:press@solidproject.org) with a description of what you are looking for.
 
 ## Upcoming Talks
 
 {%
   include talk.html
-    date="2020-01-10"
-    title="P2P"
-    website="https://p2p.paris/fr/event/festival-0/"
-    speaker="Alice Poggioli"
+    date="2020-06-04"
+    title="Solid World June"
+    website="https://www.eventbrite.com/e/solid-world-june-tickets-104631158612"
+    speaker="TBC"
+%}
+
+## Past Talks Mentioning Solid
+
+### 2020
+
+{%
+  include talk.html
+    date="2020-05-07"
+    title="Solid World May"
+    website="https://www.eventbrite.com/e/solid-world-tickets-101812024506#"
+    speaker="Christian Buggedei, Walter Almeida, Glen Simister, Manoharan Ramachandran, Michiel de Jong"
 %}
 
 {%
   include talk.html
-    date="2020-01-11"
-    title="P2P"
-    website="https://p2p.paris/fr/event/festival-0/"
-    speaker="Jonas Smedegaard"
-%}
-
-{%
-  include talk.html
-    date="2020-01-27"
-    title="Workshop on Cloud Services for File Synchronisation and Sharing"
-    website="https://cs3.deic.dk"
-    speaker="Michiel de Jong"
+    date="2020-04-02"
+    title="Solid World April"
+    website="https://www.eventbrite.com/e/solid-world-tickets-100417571660#"
+    speaker="Travis Vachon, David Faveris, Astrid Gamoneda Arrunada"
 %}
 
 {%
@@ -48,7 +52,29 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
     speaker="Maria Dimou, Sarven Capadisli, and Mitzi László"
 %}
 
-## Past Talks Mentioning Solid 
+{%
+  include talk.html
+    date="2020-01-27"
+    title="Workshop on Cloud Services for File Synchronisation and Sharing"
+    website="https://cs3.deic.dk"
+    speaker="Michiel de Jong"
+%}
+
+{%
+  include talk.html
+    date="2020-01-11"
+    title="P2P"
+    website="https://p2p.paris/fr/event/festival-0/"
+    speaker="Jonas Smedegaard"
+%}
+
+{%
+  include talk.html
+    date="2020-01-10"
+    title="P2P"
+    website="https://p2p.paris/fr/event/festival-0/"
+    speaker="Alice Poggioli"
+%}
 
 ### 2019
 
@@ -450,7 +476,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
     website="https://www.elag2018.org"
     speaker="Ruben Verborgh"
     slides="http://slides.verborgh.org/ELAG-2018/"
-%} 
+%}
 
 {%
   include talk.html
@@ -458,7 +484,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
     title="ACM Turing Lecture - Utopia to Dystopia in 29 short years"
     website="https://www.w3.org/2018/Talks/0529-timbl-turing/timbl-turing-slides-utopia-to-dystopia.html"
     speaker="Tim Berners-Lee"
-%} 
+%}
 
 {%
   include talk.html
@@ -581,13 +607,86 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 ### 2020
 
+2020-06-12 [CHANGEMAKERS: Davi Ottenheimer on Data Ethics and How to Save the Web](https://alltechishuman.org/blog/changemakers-davi-ottenheimer-on-data-ethics-and-how-to-save-the-internet) 
+
+2020-06-02 [Data privacy, trust, and smart city services](https://opencommons.org/solid/)
+
+2020-06-02 [Low-code development platform Generative Objects : the journey to open source](https://modeling-languages.com/low-code-open-source-platform-generative-objects/)
+
+2020-05-20 [Open University Solid initiative](https://blockchain.open.ac.uk/#covid-19)
+
+2020-05-06 [What Happens When You Get Sick Right Now?](https://hackernoon.com/what-happens-when-you-get-sick-right-now-mh12x3y82)
+
+2020-04-29 [New App for COVID-19 Combines Blockchain With Web Inventor's Privacy Tech](https://cointelegraph.com/news/new-app-for-covid-19-combines-blockchain-with-web-inventors-privacy-tech)
+
+2020-04-15 [COVID-19 Antibody Test Certification: There's an app for that](https://arxiv.org/abs/2004.07376)
+
+2020-04-14 [Scale, distribution, and occupying Mars: COVID-19 is a catalyst](https://www.zdnet.com/article/scale-distribution-and-occupying-mars-covid-19-is-a-catalyst/)
+
+2020-04-07 [Henry’s Take: Princeton Blockchain Meetup, Digital Identities, And A Cool Ceo Named Ed Zabar](https://njtechweekly.com/henrys-take-princeton-blockchain-meetup-digital-identities-and-a-cool-ceo-named-ed-zabar/)
+
+2020-04-04 [Can Solid Save The Internet?](https://hackaday.com/2020/04/04/can-solid-save-the-internet/)
+
+2020-04-01 [An Interview with Bruce Schneier, Renowned Security Technologist](https://thepolitic.org/an-interview-with-bruce-schneier-renowned-security-technologist/)
+
+2020-03-30 [Solid Promises A New Approach To How The Web Works](https://hackaday.com/2020/03/30/solid-promises-a-new-approach-to-how-the-web-works/)
+
+2020-03-29 [Co-Immunology and the Web](https://blog.usejournal.com/co-immunology-and-the-web-43379b46688e)
+
+2020-03-27 [Accenture Published Accenture Technology Vision 2020 - Five Trends to Look For](https://www.newkerala.com/news/2020/43499.htm)
+
+2020-02-25 [Bruce Schneier joins Inrupt to work on a vision for the future of the internet](https://reclaimthenet.org/bruce-schneier-joins-inrupt-solid/)
+
+2020-02-24 [Berners-Lee's Solid project: Schneier joins team to give you back control over data](https://www.zdnet.com/article/berners-lees-solid-project-schneier-joins-team-to-give-you-back-control-over-data/)
+
+2020-02-24 [10 things in tech you need to know today](https://www.businessinsider.my/10-things-in-tech-you-need-to-know-today-february-24-2020-2)
+
+2020-02-24 [Source Code Newsletter](https://mailchi.mp/protocol/nid66issxj?e=91fe210859)
+
+2020-02-24 [Internet pioneer Tim Berners-Lee is on a hiring spree](https://telecoms.com/502629/internet-pioneer-tim-berners-lee-is-on-a-hiring-spree/)
+
+2020-02-24 [Tim Berners-Lee expands Inrupt team to ‘restore power’ on the web](https://www.siliconrepublic.com/enterprise/tim-berners-lee-expands-inrupt-team-open-source-web)
+
+2020-02-24 [World Wide Web's Sir Tim swells his let's-remake-the-internet startup with Bruce Schneier, fellow tech experts](https://www.theregister.co.uk/2020/02/24/solid_nrupt_plans/)
+
+2020-02-21 [Syndication: Inrupt, Tim Berners-Lee’s Solid, and Me](https://securityboulevard.com/2020/02/inrupt-tim-berners-lees-solid-and-me/)
+
+2020-02-18 [The privacy paradox: How we got trapped in a data dystopia](https://www.cityam.com/the-privacy-paradox-how-we-got-trapped-in-a-data-dystopia/)
+
+2020-02-17 [Key technology trends that will redefine businesses over the next three years](https://www.helpnetsecurity.com/2020/02/17/technology-future-businesses/)
+
+2020-02-14 [Accenture Technology Vision 2020 Predicts Key Tech Trends](https://channeldrive.in/accenture-technology-vision-2020-predicts-key-tech-trends/)
+
+2020-02-13 [5 tech trends to focus on for better customer and stakeholder relationships](https://www.techrepublic.com/article/5-tech-trends-to-focus-on-for-better-customer-and-stakeholder-relationships/)
+
 2020-02-13 [solid at ground level](https://trav.page/log/solid-ground/)
+
+2020-02-13 [Accenture Technology Vision 2020: The Focus Must Be on People](https://www.eweek.com/innovation/accenture-technology-vision-2020-the-focus-must-be-on-people)
 
 2020-02-12 [a solid foundation for a new web](https://trav.page/log/solid-foundation/)
 
+2020-02-12 [Accenture Technology Vision 2020: From Tech-Clash to Trust, the Focus Must Be on People](https://finance.yahoo.com/news/accenture-technology-vision-2020-tech-120000395.html?guccounter=1)
+
+2020-02-05 [This year privacy-first tech will (slowly) start going mainstream](https://www.wired.co.uk/article/privacy-first-technology)
+
+2020-02-05 [I hear you but I’m not listening!](https://www.acorel.nl/2018/10/i-hear-you-but-im-not-listening/)
+
+2020-01-23 [Developer offers a glimpse of what a ‘Solid’ decentralized social network presence might look like](https://www.coywolf.news/social/solid-profile-design/)
+
+2020-01-22 [The Inventor of the World Wide Web wrote an Inspiring Letter to the Women’s Technology Empowerment Centre in Lagos | Read it Here](https://www.bellanaija.com/2020/01/tim-berners-lees/)
+
+2020-01-20 [Freeing the Web From Big Tech](https://www.thenewamerican.com/print-magazine/item/34519-freeing-the-web-from-big-tech)
+
+2020-01-18 [Why decentralization is the future for social media](https://decrypt.co/16935/why-decentralization-is-the-future-for-social-media)
+
+2020-01-16 [Letters to Young People Who Inspire Us, by Madeleine Albright, Michelle Bachelet, Tim Berners-Lee and More](https://time.com/5764511/open-letters-to-youth-activists/)
+
+2020-01-05 [
+Unfuck digital ! — Why we should reboot the digital revolution.](https://medium.com/@AlexGlasneck/unfuck-digital-why-we-should-reboot-the-digital-revolution-4652237ab05f)
+
 ### 2019
 
-2019-11-20 [LSE Business Review: How to turn trust into a competitive advantage](https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/) 
+2019-11-20 [LSE Business Review: How to turn trust into a competitive advantage](https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/)
 
 2019-11-13 [MRWeb: Berners-Lee Raises Funds to 'Reimagine the Web'](http://www.mrweb.com/drno/news28902.htm)
 
@@ -595,15 +694,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 2019-11-08 [New American: Web 2.0 Was Hijacked and Broken by Big Tech. Privacy Pioneers Are Building a Better Web 3.0](https://www.thenewamerican.com/tech/computers/item/33988-web-2-0-was-hijacked-and-broken-by-big-tech-privacy-pioneers-are-building-a-better-web-3-0)
 
-2019-11-4 [The Inquirer: Sir Tim Berners-Lee's Inrupt startup receives £5m investment](https://www.theinquirer.net/inquirer/news/3083354/tim-berners-lee-inrupt-gdp5m-investment) 
+2019-11-4 [The Inquirer: Sir Tim Berners-Lee's Inrupt startup receives £5m investment](https://www.theinquirer.net/inquirer/news/3083354/tim-berners-lee-inrupt-gdp5m-investment)
 
 2019-10-29 [Decrypt: Tim Berners-Lee marks Internet’s 50th with Contract for the Web](https://decrypt.co/10857/tim-berners-lee-internet-50th-anniversary-contract-for-the-web)
 
 2019-10-28 [Bostino: Meet Janeiro Digital CTO Justin Bingham](https://www.americaninno.com/boston/boston-speaks-up/meet-janeiro-digital-cto-justin-bingham/)
 
-2019-10-26 [Wall Street Journal: Tech Giants Have Hijacked the Web. It’s Time for a Reboot.](https://www.wsj.com/articles/tech-giants-have-hijacked-the-web-its-time-for-a-reboot-11572062420) 
+2019-10-26 [Wall Street Journal: Tech Giants Have Hijacked the Web. It’s Time for a Reboot.](https://www.wsj.com/articles/tech-giants-have-hijacked-the-web-its-time-for-a-reboot-11572062420)
 
-2019-10-23 [PC Magazine: Tim Berners-Lee: IT Leaders Must Build Values into Their Companies and Systems](https://www.pcmag.com/article/371488/tim-berners-lee-it-leaders-must-build-values-into-their-com) 
+2019-10-23 [PC Magazine: Tim Berners-Lee: IT Leaders Must Build Values into Their Companies and Systems](https://www.pcmag.com/article/371488/tim-berners-lee-it-leaders-must-build-values-into-their-com)
 
 2019-10-11 [Computing: Solid's Ruben Verborgh: 'We need competition based on quality of service not on data harvesting'](https://www.computing.co.uk/ctg/analysis/3082496/solids-ruben-verborgh-we-need-competition-based-on-quality-of-service-not-on-data-harvesting)
 
@@ -667,15 +766,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 2019-06-25 [Mercola: Google buries Mercola in their latest search engine update, Part 2 of 2]( https://articles.mercola.com/sites/articles/archive/2019/06/25/google-broad-core-algorithm-update-buries-mercola.aspx)
 
-2019-06-21 [The Record: Reinventing the World Wide Web](https://www.therecord.com/news-story/9447408-reinventing-the-world-wide-web/) 
+2019-06-21 [The Record: Reinventing the World Wide Web](https://www.therecord.com/news-story/9447408-reinventing-the-world-wide-web/)
 
-2019-06-17 [Shaping Linked Data apps](https://ruben.verborgh.org/blog/2019/06/17/shaping-linked-data-apps/) 
+2019-06-17 [Shaping Linked Data apps](https://ruben.verborgh.org/blog/2019/06/17/shaping-linked-data-apps/)
 
 2019-06-14 [Faro de Vigo: Miitzi László: "No hay inteligencia artificial, solo es una extensión de la humana"](https://www.farodevigo.es/sociedad/2019/06/14/miitzi-laszlo-hay-inteligencia-artificial/2123354.html)
 
 2019-06-13 [Computing: Blockchain latest news: Zilliqa's smart contracts and Facebook's crypto tease](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle)
 
-2019-06-12 [Next Billion Seconds Podcast: Episode 3.09 The Future of the Web with Sean White](https://nextbillionseconds.com/2019/06/12/episode-3-09-the-future-of-the-web-with-sean-white/) 
+2019-06-12 [Next Billion Seconds Podcast: Episode 3.09 The Future of the Web with Sean White](https://nextbillionseconds.com/2019/06/12/episode-3-09-the-future-of-the-web-with-sean-white/)
 
 2019-06-10 [Medium: Here’s what NNG got wrong about Privacy (+ Lessons learned from Game of Thrones Season 8)](https://medium.com/greater-than-experience-design/heres-what-nng-group-got-wrong-about-privacy-lessons-learned-from-game-of-thrones-season-8-de6daef19ea2)
 
@@ -829,7 +928,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on press@s
 
 2019-03-05 [Yahoo News: 30 years later, Berners-Lee sees mission to fix internet's ills](https://news.yahoo.com/30-years-later-berners-lee-sees-mission-fix-171158879.html)
 
-2019-03-01 [Medium: What Would More Democratic A.I. Look Like?](https://onezero.medium.com/what-would-more-democratic-a-i-look-like-ea729f5f7b0a) 
+2019-03-01 [Medium: What Would More Democratic A.I. Look Like?](https://onezero.medium.com/what-would-more-democratic-a-i-look-like-ea729f5f7b0a)
 
 2019-02-26 [Communications of ACM:cience in Europe: Beyond Boundaries]](https://cacm.acm.org/magazines/2019/4/235597-web-science-in-europe/fulltext)
 
