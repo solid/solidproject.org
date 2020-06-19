@@ -5,8 +5,12 @@ permalink: funding
 ---
 
 # Funding
-If you know of any grants or channels to apply to resources that would allow developers to focus on building their application on solid, please do share then here.
+If you know of any grants or channels to apply to resources that would allow developers to focus on building their Solid applications, please do share them on this list by [submitting a pull request](https://github.com/solid/solidproject.org/blob/staging/pages/funding.md) or by emailing the Solid Manager on info@solidproject.org.  
 
+* [Grant for the web](https://forum.grantfortheweb.org/t/call-for-proposals-early-2020/959) 
+* [Je Data de Baas](https://www.sidnfonds.nl/nieuws/follow-up-call-je-data-de-baas) by SIDN
+* [EU DAPSI](https://dapsi.ngi.eu/)
+* [NGI Pointer](https://www.ngi.eu/ngi-projects/ngi-pointer/)
 * [GitHub Sponsors](https://github.com/sponsors)
 * [DuckDuckGo Donations](https://duckduckgo.com/donations)
 * [The Knight Foundation](https://knightfoundation.org) and [The Knight Foundation for Technology Innovation](https://knightfoundation.org/programs/technology)
