@@ -16,6 +16,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 
 | Date | Event | Organiser | Recordings and Slides |
 |---|-------|--------------|--------------|
+|2020-06-04|[Solid World June](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/425919959)|
 |2020-05-07|[Solid World May](https://www.eventbrite.com/e/solid-world-tickets-101812024506#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/415976385)|
 |2020-04-02|[Solid World April](https://www.eventbrite.com/e/solid-world-tickets-100417571660#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/404963568)|
 | 2020-03-05 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/events/268684820/) | [Li Lu](https://github.com/SolidToronto) ||
