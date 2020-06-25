@@ -1,5 +1,20 @@
 # solidproject.org website strategy 
 
-## aim of website 
+solidproject.org is a hub for:
+* updates on the Solid specification work as govererned by the [agreed process](https://github.com/solid/process) 
+* listing developer tools offered by other parties to implement the Solid specification 
+* listing of implementation of the Solid specification into user products (i.e. apps, Pods, identity providers) 
+* news about Solid 
 
-## target audience
+## aim and target audience of website 
+
+| Target Audience  | Aim |
+| ------------- | ------------- |
+| Enterprises  | to provide an adequate overview of why and how to implemnt Solid in their enteprise  |
+| Developers | to provide an adequate overview of information to be able to implement Solid technically  |
+| Users  | to provide an adequate overview of why and how to use Solid  |
+
+## Three most important user paths
+1. Enterprises: https://solidproject.org/for-enterprises/ with aim to convince enterprises to implement Solid 
+2. Developers: https://solidproject.org/for-developers/ with aim to start building an app 
+3. Users: https://solidproject.org/use-solid/ with aim to start using an app 
