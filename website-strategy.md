@@ -1,6 +1,7 @@
 # solidproject.org website strategy 
 
 solidproject.org is a hub for:
+* a single source of truth describing what Solid is (and is not) 
 * updates on the Solid specification work as govererned by the [agreed process](https://github.com/solid/process) 
 * listing developer tools offered by other parties to implement the Solid specification 
 * listing of implementation of the Solid specification into user products (i.e. apps, Pods, identity providers) 
