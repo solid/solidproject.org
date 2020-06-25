@@ -8,7 +8,7 @@ Solid Events are an opportunity for people working on Solid or who are intereste
 
 In light of the COVID-19 pandemic Solid Events are moving online for the foreseeable future. Tune in on the first Thursday of every month at 1600 CET to join.
 
-You can read the upcoming agenda on the [Solid World June invite](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612)
+You can read the upcoming agenda on the [Solid World July invite](https://www.eventbrite.com/e/solid-world-tickets-108099311952?aff=erelexpmlt)
 
 Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on info@solidproject.org to get a speaking slot at the next event.
 
