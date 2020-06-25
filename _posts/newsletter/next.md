@@ -25,6 +25,8 @@ The [next Solid World]() will happen on the 6th July 2020. If you have any conte
 
 #### Solid Implementations
 
+* [Generator Smag](https://scenaristeur.github.io/generator-smag/) 
+
 #### External Grants
 
 If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/next.md) to let others know about it via the next edition.
