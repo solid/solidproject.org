@@ -15,6 +15,8 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 If you missed Solid World you can [watch the recording here]().
 
+This month, Solid Manager, Mitzi László gave an overview of Solid as well as a mid-year recap. This was followed by a presentation by Sarven Capadisli on behalf of the Editors to give an overview of the specification progress this month. The two early companies to work on Solid introduced themselves and gave a quick update on what they are currently working on. Kelly O'Brien from Inrupt spoke about the UK covid project with Open University and Kingsley Idehen introduced OpenLink. 
+
 The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-111960609196) will happen on the 6th August 2020. If you have any content requests or would like to present at the next Solid world email info@solidproject.org.
 
 ### Articles and Talks mentioning Solid
