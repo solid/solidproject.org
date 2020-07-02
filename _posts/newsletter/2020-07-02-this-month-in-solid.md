@@ -24,7 +24,7 @@ categories: [Updates]
 
 Solid World is an opportunity to meet people who are interested in or currently working on Solid.
 
-If you missed Solid World you can [watch the recording here]().
+If you missed Solid World you can [watch the recording here](https://vimeo.com/434767351).
 
 This month, Solid Manager, Mitzi László gave an overview of Solid as well as a mid-year recap. This was followed by a presentation by Sarven Capadisli on behalf of the Editors to give an overview of the specification progress this month. The two early companies to work on Solid introduced themselves and gave a quick update on what they are currently working on. Kelly O'Brien from Inrupt spoke about the UK covid project with Open University and Kingsley Idehen introduced OpenLink. 
 
