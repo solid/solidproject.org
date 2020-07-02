@@ -15,7 +15,7 @@ Research on Solid at MIT started in 2015 and current areas of focus include veri
 #[IMEC](https://www.ugent.be/ea/idlab/en) 
 Ghent, Belgium 
 
-#CERN (https://indico.cern.ch/event/915906/)
+#[CERN](https://indico.cern.ch/event/915906/)
 Geneva, Switzerland 
 
 #[Open University](https://blockchain.open.ac.uk/#covid-19)
