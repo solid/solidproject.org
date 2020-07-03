@@ -6,6 +6,9 @@ labels: ''
 assignees: ''
 
 ---
+**Search terms you've used**
+
+<!-- What search terms have you used to check whether this bug was already reported? -->
 
 **Describe the bug**
 A clear and concise description of what the bug is.
