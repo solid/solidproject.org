@@ -16,7 +16,7 @@ The criteria for an app to be Solid-compatible are:
 
 Please note that apps falling into the following categories will not be listed on this page, even if they match the criteria above:
 * Apps intentionally or indirectly causing harm to anyone
-* Apps which purpose would be widely considered unethical
+* Apps with a purpose that could be widely considered unethical
 * Apps designed to enable the generation and/or dissemination of hate speech
 * Apps encouraging stereotypes or violent behaviours towards any person or group
 * Apps having malicious intent, such as data theft
