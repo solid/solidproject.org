@@ -13,7 +13,7 @@ Research on Solid at MIT started in 2015 and current areas of focus include veri
 
 # [Oxford University Computer Science Lab](http://www.cs.ox.ac.uk) - [Oxford Martin School's program on Ethical Web and Data Architectures](https://www.oxfordmartin.ox.ac.uk/ethical-web-and-data-architectures)
 
-# [Ghent University](https://www.ugent.be/en) - [IMEC](https://www.ugent.be/ea/idlab/en) 
+# The [KNowledge on Web Scale (KNoWS)](https://knows.idlab.ugent.be/) group at [Ghent University](https://www.ugent.be/en) – [imec](https://www.imec-int.com/) 
 Ghent, Belgium 
 
 # [CERN](https://home.cern) - [Indico](https://indico.cern.ch/event/915906/)
