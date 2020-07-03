@@ -6,7 +6,9 @@ labels: ''
 assignees: ''
 
 ---
+**Search terms you've used**
 
+<!-- What search terms have you used to check whether this feature has been requested before? -->
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
