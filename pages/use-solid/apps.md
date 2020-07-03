@@ -21,7 +21,7 @@ Please note that apps falling into the following categories will not be listed o
 * Apps encouraging stereotypes or violent behaviours towards any person or group
 * Apps having malicious intent, such as data theft
 * Apps designed to fullfill illegal purposes, such as drug traffic, stolen information exchange, extorsion...
-* Apps sharing users' information with any thrid-party without user consent
+* Apps sharing users' information with any third-party without user consent
 * Apps that have been reported to have important technical or security issues that compromise its users' Pods
 
 Want to add an eligible Solid-compatible app to this list? Contact the Solid Manager via info@solidproject.org or submit a [submit a pull request](https://github.com/solid/solidproject.org/edit/staging/pages/use-solid/apps.md).
