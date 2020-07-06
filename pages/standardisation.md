@@ -13,7 +13,7 @@ It is suggested that you present your proposals at the relevant calls and commun
 * Mondays at 2130 CEST Interoperability Panel on [this line](https://global.gotomeeting.com/join/620786365) 
 * Wednesday at 1600 CEST Authorization Panel
 * Wednesday at 1700 CEST Solid Team 
-* Friday at 1400 CEST Editors Call
+* Friday at 1400 CEST Editors Call on [this line](https://meet.zrh.init7.net/solid-specification)
 
 You can read a [record of call agendas and minutes](https://www.w3.org/community/solid/wiki/Meetings). 
 
