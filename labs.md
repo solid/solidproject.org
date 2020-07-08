@@ -29,5 +29,3 @@ Oviedo, Spain
 
 
 # Past Labs
-
-### [MIT](https://www.mit.edu) - [CSAIL Solid Social Linked Data](https://www.csail.mit.edu/research/solid-social-linked-data)
