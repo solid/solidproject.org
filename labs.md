@@ -6,8 +6,6 @@ permalink: labs
 
 Here are some academic groups specifically doing research around Sold. If you are interested in being listed send an email to info@solidproject.org with a description of the research project and link to the website. 
 
-# Current Labs
-
 ### [MIT](https://www.mit.edu) - [DIG](http://dig.csail.mit.edu) 
 Boston, USA 
 
@@ -26,6 +24,3 @@ Milton Keynes, UK
 
 ### [University of Oviedo](http://www.uniovi.es/en)- [WESO](http://www.weso.es)
 Oviedo, Spain
-
-
-# Past Labs
