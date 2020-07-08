@@ -8,7 +8,7 @@ Here are some academic groups specifically doing research around Sold. If you ar
 
 # Past Labs
 
-#[MIT](https://www.mit.edu) - [DIG](http://dig.csail.mit.edu) 
+# [MIT](https://www.mit.edu) - [DIG](http://dig.csail.mit.edu) 
 Boston, USA 
 
 Starting in 2015 at [CSAIL Solid Social Linked Data](https://www.csail.mit.edu/research/solid-social-linked-data), the research on Solid at MIT focuses include verifiable credentials, privacy-preserving data aggregation on the decentralised web and investigating decentralised management of health and fitness data. 
