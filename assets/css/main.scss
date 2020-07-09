@@ -81,7 +81,8 @@ $footer-padding: 3rem 1.5rem 0;
 // in addition to the icon:
 $why-carousel-card-height: 10 * $size-5 * $body-line-height;
 $vertical-section-padding: nth($section-padding, 1);
-// $why-carousel-offset: (($why-carousel-card-height) / 2 + $vertical-section-padding);
+// This variable was used to have a partly-overlapping list of cards below the hero.
+// See commit 9990a2dd1b2953fe5804629b043b52a010a05321.
 $why-carousel-offset: 0;
 #home-hero {
   background-image: url('/assets/img/solid-bg-dark-ui.svg');
