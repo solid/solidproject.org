@@ -8,6 +8,10 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 ## Upcoming Talks
 
+## Past Talks Mentioning Solid
+
+### 2020
+
 {%
   include talk.html
     date="2020-06-04"
@@ -15,10 +19,6 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     website="https://www.eventbrite.com/e/solid-world-june-tickets-104631158612"
     speaker="TBC"
 %}
-
-## Past Talks Mentioning Solid
-
-### 2020
 
 {%
   include talk.html
@@ -42,6 +42,14 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="RSA"
     website="https://www.rsaconference.com/experts/davi-ottenheimer-3"
     speaker="Davi Ottenheimer"
+%}
+
+{%
+  include talk.html
+    date="2020-02-19"
+    title="A introduction to Solid & Solid Search"
+    website="https://ingenieriainformatica.uniovi.es/actualidad/eventos/-/asset_publisher/uS6D/content/conferencia-solid-search:-introduccion-a-solid-y-como-cambiar-el-paradigma-de-los-buscadores-de-co?redirect=%2F"
+    speaker="[Alejandro Juan Garcia](https://www.linkedin.com/in/alejandro-juan-garc%C3%ADa-a6087684/)"
 %}
 
 {%
