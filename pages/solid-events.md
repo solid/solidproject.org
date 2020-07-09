@@ -16,7 +16,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 
 | Date | Event | Organiser | Recordings and Slides |
 |---|-------|--------------|--------------|
-|2020-0702|[Solid World August](https://www.eventbrite.com/e/solid-world-tickets-108099311952?aff=erelexpmlt)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/434767351?utm_source=email&utm_medium=vimeo-comment_rcvd-2017&utm_campaign=31141) and [Slides](https://docs.google.com/presentation/d/1CyidWcwBs_1FPGLiFazExhjFXOQCSqZb78HyC7LFv_o/edit#slide=id.g8225d1e7b1_0_1)|
+|2020-0702|[Solid World August](https://www.eventbrite.com/e/solid-world-tickets-108099311952?aff=erelexpmlt)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/434767351) and [Slides](https://docs.google.com/presentation/d/1CyidWcwBs_1FPGLiFazExhjFXOQCSqZb78HyC7LFv_o/edit#slide=id.g8225d1e7b1_0_1)|
 |2020-06-04|[Solid World June](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/425919959)|
 |2020-05-07|[Solid World May](https://www.eventbrite.com/e/solid-world-tickets-101812024506#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/415976385)|
 |2020-04-02|[Solid World April](https://www.eventbrite.com/e/solid-world-tickets-100417571660#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/404963568)|
