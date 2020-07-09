@@ -11,3 +11,4 @@ If you would like to edit the table below or add an experimental Pod to this tab
 | https://dev.inrupt.net |  [Inrupt, Inc.](https://www.inrupt.com/)  |         USA         |        NSS 5.x       |
 | https://solidweb.org         |                         [Matthias Evering](https://github.com/ewingson)                      |                        Germany                         |         NSS 5.x          |        
 |https://ld.solidbase.info|https://github.com/y0va|?|NSS 5.1.0|
+|https://podware.org   |[Alessandra Donnini](https://github.com/etcware)|   Italy |   NSS 5.x   |
