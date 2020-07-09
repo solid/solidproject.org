@@ -3,6 +3,8 @@
   sublinks:
   - name: Use Solid
     link: "/use-solid"
+  - name: Solid Apps
+    link: "/use-solid/apps"
   - name: Implement Solid
     link: "/implement"
   - name: Team
