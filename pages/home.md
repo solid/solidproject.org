@@ -90,7 +90,7 @@ permalink: /
               Apps that give you the freedom to move
             </h2>
             <p class="content is-large">
-              When Solid apps start, they just store all the data they need to work in your pod.  They don't store the data themselves at some computer run by the person who owns the app.  So by default <b>you control all the data</b> in your solid world.  This is a massive improvement to the privacy world.
+              When Solid apps start, they just store all the data they need to work in your pod.  They don't store the data themselves at some computer run by the person who owns the app.  So by default <strong>you control all the data</strong> in your Solid world.  This is a massive improvement to your privacy.
             </p>
             <p class="content is-large">
               Solid app builders don't just store the data in your pod any old way.  They use Solid standard formats.  This means that you and the people you work with can actually use many different apps – at the same time even – to do stuff.
