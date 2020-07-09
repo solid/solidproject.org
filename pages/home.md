@@ -8,7 +8,7 @@ permalink: /
   <div class="hero-body">
     <div class="container">
       <h1 class="title has-text-centered is-size-3 is-size-2-tablet is-size-1-desktop">
-        The Web — Take 3
+        The Web — <a href="{{site.baseUrl}}/take3" title="Why Take 3?">Take 3</a>
       </h1>
       <p class="subtitle has-text-centered is-size-4 is-size-3-tablet is-size-2-desktop">
         Solid is a technology, like the Web, but a new level of standard which adds to the existing protocols to make it more powerful, particularly to empower individuals at home and at work.
