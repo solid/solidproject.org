@@ -54,7 +54,7 @@ permalink: /
           <div class="column is-offset-1 is-5">
             <h2 class="title">The last login you'll ever need</h2>
             <p class="content is-large">
-              Solid provides for the first time a <b>single global logon system</b>, so that when you log into any web site, instead of having  to log in with the usual 'f' and 'g' blue buttons, and then be tracked by Facebook and Google, you can log in with any Solid provider you trust, and that won't track you.
+              Solid provides for the first time a <b>single global logon system</b>, so that when you log into any web site, instead of having  to log in with the usual 'f' and 'g', etc, blue buttons, and then be tracked by Facebook, Google, or some other large social network, instead you can log in with any Solid provider you trust, and that won't track you.
             </p>
           </div>
         </div>
