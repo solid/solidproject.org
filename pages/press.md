@@ -987,3 +987,5 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 2019-01-03 [AEI Ideas: The future of privacy policy: A Q&A with author David Brin](https://www.aei.org/technology-and-innovation/the-future-of-privacy-policy-a-qa-with-author-david-brin/)
 
 2018-12-31 [NRC - Herstelwerk aan het kapotte internet](https://www.nrc.nl/nieuws/2018/12/31/herstelwerk-aan-het-kapotte-internet-a3127480)
+
+2009-08-17 [W3C - Socially Aware Cloud Storage by Tim Berners-Lee](https://www.w3.org/DesignIssues/CloudStorage.html) 
