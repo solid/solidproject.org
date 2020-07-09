@@ -35,11 +35,13 @@ permalink: /
 
   {%
     include choose-your-own-adventure.html
-      heading="Find out why you'll love Solid"
-      link1="/for-developers"
-      adventure1="As a developer"
-      link2="/for-enterprises"
-      adventure2="As an enterprise"
+      heading="Solid is great for…"
+      link1="/use-solid"
+      adventure1="Everyone"
+      link2="/for-developers"
+      adventure2="Developers"
+      link3="/for-enterprises"
+      adventure3="Enterprises"
   %}
 
   <div id="tour">
