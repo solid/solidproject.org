@@ -6,7 +6,7 @@ permalink: take3
 
 The original web, call it web 1, allowed people if they were technically capable to make their own web sites, to blog and to link from their own work to other work they valued. (This used URLs, HTTP and HTML).   
 
-With web 2, specific web sites, using the web app technology (Javascript), provided social and interactive functionality to users, so they could interact together and  in groups. This relied on the social network sites (SNS) storing all the data about all of the people and creating new value and insight -- for the user but also for ad systems which ran the companies revenue stream.  "Web 2.0" as some people call it is based on user-generated content. 
+With web 2, specific web sites, using the web app technology (JavaScript), provided social and interactive functionality to users, so they could interact together and  in groups. This relied on the social network sites (SNS) storing all the data about all of the people and creating new value and insight -- for the user but also for ad systems which ran the companies revenue stream.  "Web 2.0" as some people call it is based on user-generated content. 
 
 Solid, as a new wave, some people are calling web 3.0.   It can also be thought of as mid-course correction for the web.  It does add more power, but also questions and throttles back the emphasis on the only revenue model for the web being ads, and flips the privacy world right-side up.
 
