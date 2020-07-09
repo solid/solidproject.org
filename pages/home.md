@@ -8,9 +8,7 @@ permalink: /
   <div class="hero-body">
     <div class="container">
       <h1 class="title has-text-centered is-size-3 is-size-2-tablet is-size-1-desktop">
-        Switch between storage and apps
-        <br/>
-        while taking the data along 
+        Solid is a technology, like the Web, but a new level of standard which adds to the existing protocols to make it more powerful, particularly to empower individuals at home and at work.
       </h1>
     </div>
   </div>
