@@ -23,6 +23,8 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-11196060
 
 ### In Other News
 
+This month, there's been a website refresh, [check out the latest version of the website](https://solidproject.org). Anyone can make suggestions around how to improve the website by submitting an [issue](https://github.com/solid/solidproject.org/issues) or [pull request](https://github.com/solid/solidproject.org/pulls) for the [Creators](https://github.com/solid/process/blob/master/creators.md) to process. You can find a 
+
 https://www.linkedin.com/posts/empathyco_solidworld-activity-6685892403682979840-usNj
 
 #### Solid Implementations
