@@ -66,7 +66,7 @@ permalink: /
           <div class="column is-offset-1 is-5">
             <h2 class="title">Like peas in a Pod</h2>
             <p class="content is-large">
-              Solid provides separate places ("<a href="{{site.baseUrl}}/faqs#pod" title="Frequently Asked Questions - what is a Pod?">pods</a>") for you to store your data, a bit like Dropbox and GDrive and iCloud, but you have the <b>power to share</b> any file or folder or contact or event or whatever <b>with anyone who has a solid id</b>.  You store your data in any place you trust (including your own computer).
+              Solid provides separate places ("<a href="{{site.baseUrl}}/faqs#pod" title="Frequently Asked Questions - what is a Pod?">pods</a>") for you to store your data, a bit like Dropbox and Google Drive and iCloud, but you have the <strong>power to share</strong> any file or folder or contact or event or whatever <strong>with anyone who has a Solid ID</strong>.  You store your data in any place you trust (including your own computer).
             </p>
           </div>
           <div class="column is-hidden-touch is-offset-1 is-4">
