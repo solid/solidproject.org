@@ -36,7 +36,7 @@ Contact = [Jose Emilio Labra Gayo](http://labra.weso.es)
 ### [CERN](https://home.cern) - [Indico](https://indico.cern.ch/event/915906/)
 Geneva, Switzerland 
 
-CERN is heavily involved in open source, and working on making Indico Solid compatible. 
+CERN is heavily involved in open source, and working on making [Indico](https://indico.cern.ch) Solid compatible. 
 
 Contact = [Maria Dimou](http://dimou.web.cern.ch/dimou/)
 
