@@ -22,7 +22,7 @@ Contact = [Nigel Shadbolt](https://www.cs.ox.ac.uk/people/nigel.shadbolt/)
 ### The [KNowledge on Web Scale (KNoWS)](https://knows.idlab.ugent.be/) group at [Ghent University](https://www.ugent.be/en) – [imec](https://www.imec-int.com/) 
 Ghent, Belgium 
 
-IMEC has been involved in Solid for several years and are currently working on the community Solid server. 
+Imec has been involved in Solid for several years, focusing on data interoperability, querying, scalability, and the developer experience. They are currently building the [Solid Community Server](https://github.com/solid/community-server/).
 
 Contact = [Ruben Verborgh](https://ruben.verborgh.org)
 
