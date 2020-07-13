@@ -170,6 +170,10 @@ The Semantic Web and Linked Data technologies are centered on the question of in
 
 <a id="fewer_passwords"/>
 
+## Are all Solid compatible Pod providers and apps privacy preserving? 
+
+When software services are Solid compatible it means that you as a user are free to switch to a similar alternative and bring your data along. For example, if you wanted to switch messaging app you could bring your contacts and chat history with you to the new messaging app. 
+
 ## Does Solid mean we won’t need so many passwords? 
 **Yes**. When you use Solid, you only need to login to your Identity Provider. You can then use applications that interact with your Pod without logging in each of them individually, which is (in our opinion) simpler than having to create accounts on each and every service. However, you will still have to manage what data you would like to share with each application. 
 
