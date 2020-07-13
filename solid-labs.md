@@ -4,7 +4,7 @@ title: "Labs"
 permalink: labs
 ---
 
-Here are some academic groups specifically doing research around Sold. If you are interested in being listed send an email to info@solidproject.org with a description of the research project and link to the website. 
+Several academic groups conduct research around Solid. If you are interested in being listed send an email to info@solidproject.org with a description of the research project and link to the website. 
 
 ### [MIT](https://www.mit.edu) - [CSAIL DIG](http://dig.csail.mit.edu) 
 Boston, USA 
