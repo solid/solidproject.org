@@ -43,6 +43,6 @@ Contact [Maria Dimou](http://dimou.web.cern.ch/dimou/)
 ### [Open University] - [Open Blockchain Group](https://blockchain.open.ac.uk/#covid-19)
 Milton Keynes, UK
 
-The Open University runs an experimental server and works on a covid-19 immunity passport Solid app. 
+The Open University runs an experimental server and works on a COVID-19 immunity passport Solid app. 
 
 Contact [Manoharan Ramachandran](http://kmi.open.ac.uk/people/member/manoharan-ramachandran)
