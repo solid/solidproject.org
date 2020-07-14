@@ -28,6 +28,8 @@ This month, there's been a website refresh, [check out the latest version of the
 https://www.linkedin.com/posts/empathyco_solidworld-activity-6685892403682979840-usNj
 
 #### Solid Implementations
+
+* Apart from the standardisation work happening in Solid GitHub there is also [some running code](https://github.com/search?q=topic%3Arunning-code+fork%3Atrue+org%3Asolid&type=Repositories). There are currently three teams working on this running code which you can find [listed here](https://github.com/orgs/solid/teams/running-code). [One of the three teams](https://github.com/orgs/solid/teams/other) is working on [these repositories](https://github.com/orgs/solid/teams/other/repositories) of running code. If you are intersted in contributing to this running code you can find some good places to start in the column called 'to try experiments' of [this kanban board](https://github.com/solid/mashlib/projects/1). 
 * 
 
 #### Job Openings
