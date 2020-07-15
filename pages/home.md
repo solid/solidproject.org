@@ -74,7 +74,7 @@ permalink: /
           </div>
           <div class="column is-offset-1 is-5">
             <h2 class="title">
-              Apps that give you the freedom to move
+              Apps that give you the freedom to move - 
             </h2>
             <p class="content is-large">
               When Solid apps start, they just store all the data they need to work in your pod.  They don't store the data themselves at some computer run by the person who owns the app.  So by default <strong>you control all the data</strong> in your Solid world.  This is a massive improvement to your privacy.
