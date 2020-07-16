@@ -19,7 +19,7 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-11196060
 
 ### Articles and Talks mentioning Solid
 
-* 
+* [TIME - We Need to Change How We Share Our Personal Data Online in the Age of COVID-19](https://time.com/5867314/we-need-to-change-how-we-share-our-personal-data-online-in-the-age-of-covid-19/)
 
 ### In Other News
 
