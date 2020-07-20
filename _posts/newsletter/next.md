@@ -19,7 +19,8 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-11196060
 
 ### Articles and Talks mentioning Solid
 
-* 
+* [TIME - We Need to Change How We Share Our Personal Data Online in the Age of COVID-19](https://time.com/5867314/we-need-to-change-how-we-share-our-personal-data-online-in-the-age-of-covid-19/)
+* [The Future of Online Identity is Decentralized by Yarmo Mackenbach](https://yarmo.eu/post/future-online-identity-decentralized)
 
 ### In Other News
 
@@ -28,6 +29,8 @@ This month, there's been a website refresh, [check out the latest version of the
 https://www.linkedin.com/posts/empathyco_solidworld-activity-6685892403682979840-usNj
 
 #### Solid Implementations
+
+* Apart from the standardisation work happening in Solid GitHub there is also [some running code](https://github.com/search?q=topic%3Arunning-code+fork%3Atrue+org%3Asolid&type=Repositories). There are currently three teams working on this running code which you can find [listed here](https://github.com/orgs/solid/teams/running-code). [One of the three teams](https://github.com/orgs/solid/teams/other) is working on [these repositories](https://github.com/orgs/solid/teams/other/repositories) of running code. If you are intersted in contributing to this running code you can find some good places to start in the column called 'to try experiments' of [this kanban board](https://github.com/solid/mashlib/projects/1). 
 * 
 
 #### Job Openings
