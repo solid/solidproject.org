@@ -79,7 +79,7 @@ permalink: /
             <p class="content is-large">
               When you use a Solid apps, it reads and writes data it work with in your Pod. This means that you can use
               three Solid apps that need to know your friend list (e.g. birthdays, recommanding books and instant messaging), 
-              and not duplicate your friend list three times! This means that you and the people you work with can actually use many different apps – at the same time even – to do stuff. 
+              and not duplicate your friend list three times! You and the people you work with can actually use many different apps – at the same time even – to do stuff. 
             </p>
             <p class="content is-large">
               Solid app builders use the Solid standard to interact with the date in your Pod. The data isn't stored at some computer run by the person who owns the app: by default <strong>you control all the data</strong> in your Solid world. This is an improvement to both your privacy and your experience with apps.
