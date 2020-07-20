@@ -74,15 +74,15 @@ permalink: /
           </div>
           <div class="column is-offset-1 is-5">
             <h2 class="title">
-              Apps that give you the freedom to move - 
+              Your data is one, your apps are many
             </h2>
             <p class="content is-large">
-              When Solid apps start, they just store all the data they need to work in your pod.  They don't store the data themselves at some computer run by the person who owns the app.  So by default <strong>you control all the data</strong> in your Solid world.  This is a massive improvement to your privacy.
+              When you use a Solid apps, it reads and writes data it work with in your Pod. This means that you can use
+              three Solid apps that need to know your friend list (e.g. birthdays, recommanding books and instant messaging), 
+              and not duplicate your friend list three times! This means that you and the people you work with can actually use many different apps – at the same time even – to do stuff. 
             </p>
             <p class="content is-large">
-              Solid app builders don't just store the data in your pod any old way.  They use Solid standard formats.  This means that you and the people you work with can actually use many different apps – at the same time even – to do stuff.
-              Websites, you can browse them on any device
-              and with a browser you choose.
+              Solid app builders use the Solid standard to interact with the date in your Pod. The data isn't stored at some computer run by the person who owns the app: by default <strong>you control all the data</strong> in your Solid world. This is an improvement to both your privacy and your experience with apps.
             </p>
           </div>
         </div>
