@@ -33,10 +33,10 @@ Classes at WESO now have the tradition of a competition for the best Solid app p
 
 Contact [Jose Emilio Labra Gayo](http://labra.weso.es)
 
-### [CERN](https://home.cern) - [Indico](https://indico.cern.ch/event/915906/)
+### [CERN](https://home.cern) - [CERN-Solid collaboration entry point](https://indico.cern.ch/category/11962/)
 Geneva, Switzerland 
 
-CERN is heavily involved in open source, and working on making [Indico](https://indico.cern.ch) Solid compatible. 
+CERN is heavily involved in open source, and follows Solid work. 
 
 Contact [Maria Dimou](http://dimou.web.cern.ch/dimou/)
 
