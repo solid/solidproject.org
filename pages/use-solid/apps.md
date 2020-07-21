@@ -63,6 +63,8 @@ Want to add an eligible Solid-compatible app to this list? Contact the Solid Man
 * [Twee-Fi](https://factsmission.github.io/twee-fi/) helps you review claims and rate trustworthiness of tweets. [Twee-Fi](https://github.com/factsmission/twee-fi) [MIT License Copyright (c) 2018](https://github.com/factsmission/twee-fi/blob/master/LICENSE) [FactsMission](https://factsmission.com)
 * [Mark Book](https://markbook.org) is for creating bookmarks. [Source code](https://github.com/melvincarvalho/solid-bookmark) [MIT License Copyright (c) 2018](https://github.com/melvincarvalho/solid-bookmark/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho)
 
+## Music 
+* [Media Kraken](https://noeldemartin.github.io/media-kraken/) let's you track your media and never miss a beat. 2020. [Noel de Martin](https://github.com/NoelDeMartin). [documentation](https://github.com/NoelDeMartin/media-kraken/tree/main/docs) and [source code](https://github.com/NoelDeMartin/media-kraken) which is under GNU General Public License v3.0. Give feedback about the app via [this thread](https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333).
 
 ## Project Management
 * [RiseFor Mobilisation](https://git.happy-dev.fr/startinblox/applications/risefor-mobilisation) (deployed as [Referendum Signons](https://referendum.signons.fr)) is an app for organising referenda; it uses Solid under the hood.
