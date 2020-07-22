@@ -63,6 +63,7 @@ Want to add an eligible Solid-compatible app to this list? Contact the Solid Man
 * [Twee-Fi](https://factsmission.github.io/twee-fi/) helps you review claims and rate trustworthiness of tweets. [Twee-Fi](https://github.com/factsmission/twee-fi) [MIT License Copyright (c) 2018](https://github.com/factsmission/twee-fi/blob/master/LICENSE) [FactsMission](https://factsmission.com)
 * [Mark Book](https://markbook.org) is for creating bookmarks. [Source code](https://github.com/melvincarvalho/solid-bookmark) [MIT License Copyright (c) 2018](https://github.com/melvincarvalho/solid-bookmark/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho)
 
+
 ## Project Management
 * [RiseFor Mobilisation](https://git.happy-dev.fr/startinblox/applications/risefor-mobilisation) (deployed as [Referendum Signons](https://referendum.signons.fr)) is an app for organising referenda; it uses Solid under the hood.
 * [Solidbase](https://app.solidbase.info) agricultural project management. [source code](https://lab.allmende.io/solidbase/solidbase) is under [GNU AGPL3 (c) 2017](https://lab.allmende.io/solidbase/solidbase/blob/master/LICENSE) [Allmende Lab](https://lab.allmende.io)
@@ -118,6 +119,8 @@ Want to add an eligible Solid-compatible app to this list? Contact the Solid Man
 * [graphMetrix](https://graphmetrix.net/#/) allows you to browse your Solid Pod offering multiple views of information including overview, graph, doc, gallery and grid as well as easy to use Solid collaboration control and file management. 30 day free trial followed by a $10 per user/per month. 2018 [graphMetrix](https://graphmetrix.com/#/solid)
 * LinkedPipes Applications create your own visualisers based on linked data. [Source code](https://github.com/linkedpipes/applications) [Apache License 2.0 (c) 2018](https://github.com/linkedpipes/applications/blob/master/LICENSE) [Jakub Klimek](https://github.com/jakubklimek)
 * [SPARQL Fiddle](https://jeff-zucker.github.io/sparql-fiddle/) online fiddle to run SPARQL against  Pods. [Source code](https://github.com/jeff-zucker/sparql-fiddle) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/sparql-fiddle/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker)
+
+# Historical Solid Apps 
 * [Inbox](https://github.com/solid/solid-inbox) processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu)
 
 Disclaimer: The list above does not represent an endorsement by the Solid Project. The apps on the list do not undergo any testing at this time, and there is no guarantee of security or quality implied by their inclusion on this list. The goal of the list is to showcase the vibrancy of the Solid community and encourage early app builders to collaborate and learn from each other. If you believe one of the apps below is insecure or non-functional and should be removed from the list, please raise an issue [here](https://github.com/solid/solidproject.org/issues) and tag the app's creator or maintainer. If the creator or maintainer of the app does not respond within 24 hours to indicate that they will fix the problem, a Solid Creator will remove the app from the listing.
