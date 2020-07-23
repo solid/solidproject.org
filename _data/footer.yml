@@ -11,8 +11,8 @@
     link: "/team"
   - name: FAQs
     link: "/faqs"
-  - name: Solid Labs
-    link: "/solid-labs"
+  - name: Labs
+    link: "/labs"
 - name: What's New
   sublinks:
   - name: This Month in Solid
