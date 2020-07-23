@@ -9,10 +9,10 @@
     link: "/implement"
   - name: Team
     link: "/team"
-  - name: FAQs
-    link: "/faqs"
   - name: Labs
     link: "/labs"
+  - name: FAQs
+    link: "/faqs"
 - name: What's New
   sublinks:
   - name: This Month in Solid
