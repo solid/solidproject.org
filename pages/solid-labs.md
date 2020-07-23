@@ -26,7 +26,7 @@ Imec has been involved in Solid for several years, focusing on data interoperabi
 
 Contact [Ruben Verborgh](https://ruben.verborgh.org)
 
-### [University of Oviedo](http://www.uniovi.es/en)- [WESO](http://www.weso.es)
+### [University of Oviedo](http://www.uniovi.es/en) - [WESO](http://www.weso.es)
 Oviedo, Spain
 
 Classes at WESO now have the tradition of a competition for the best Solid app produced during their course. 
