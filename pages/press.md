@@ -8,9 +8,33 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 ## Upcoming Talks
 
+{%
+  include talk.html
+    date="2020-08-06"
+    title="Solid World August"
+    website="https://www.eventbrite.com/e/solid-world-tickets-111960609196"
+    speaker="TBC"
+%}
+
 ## Past Talks Mentioning Solid
 
 ### 2020
+
+{%
+  include talk.html
+    date="2020-07-02"
+    title="Solid World July"
+    website="https://www.eventbrite.com/e/solid-world-tickets-108099311952#"
+    speaker="Sarven Capadisli, Kingsley Idehen, Kelly O'Brien, and Oz Olivo"
+%}
+
+{%
+  include talk.html
+    date="2020-06-24"
+    title="BBC Rethink: Rethinking Digital Access"
+    website="https://www.bbc.co.uk/sounds/play/p08ht9tf"
+    speaker="Tim Berners-Lee"
+%}
 
 {%
   include talk.html
