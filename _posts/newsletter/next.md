@@ -21,6 +21,8 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-11196060
 
 * [TIME - We Need to Change How We Share Our Personal Data Online in the Age of COVID-19](https://time.com/5867314/we-need-to-change-how-we-share-our-personal-data-online-in-the-age-of-covid-19/)
 * [The Future of Online Identity is Decentralized by Yarmo Mackenbach](https://yarmo.eu/post/future-online-identity-decentralized)
+* [Tem Big Tech: stop data in privékluizen](https://www.nrc.nl/nieuws/2020/07/28/tem-big-tech-stop-data-in-prive-kluizen-a4007191)
+* [The Web's Big Build](https://websbigbuild.org)
 
 ### In Other News
 
