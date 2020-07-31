@@ -11,11 +11,7 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-Solid World is an opportunity to meet people who are interested in or currently working on Solid.
-
-If you missed Solid World you can [watch the recording here]().
-
-The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-111960609196) will happen on the 3rd September 2020. If you have any content requests or would like to present at the next Solid world email info@solidproject.org.
+Solid World is an opportunity to meet people who are interested in or currently working on Solid. If you missed Solid World you can [watch the recording here]().The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-115477011851?aff=erelexpmlt) will happen on the 3rd September 2020. 
 
 ### Articles and Talks mentioning Solid
 
@@ -26,9 +22,9 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-11196060
 
 ### In Other News
 
-This month, there's been a website refresh, [check out the latest version of the website](https://solidproject.org). Anyone can make suggestions around how to improve the website by submitting an [issue](https://github.com/solid/solidproject.org/issues) or [pull request](https://github.com/solid/solidproject.org/pulls) for the [Creators](https://github.com/solid/process/blob/master/creators.md) to process. You can find a 
+This month, there's been a website refresh, [check out the latest version of the website](https://solidproject.org). Anyone can make suggestions around how to improve the website by submitting an [issue](https://github.com/solid/solidproject.org/issues) or [pull request](https://github.com/solid/solidproject.org/pulls) for the [Creators](https://github.com/solid/process/blob/master/creators.md) to process. 
 
-https://www.linkedin.com/posts/empathyco_solidworld-activity-6685892403682979840-usNj
+[Check out](https://www.linkedin.com/posts/empathyco_solidworld-activity-6685892403682979840-usNj) the winners of the Inrupt, Inc. #SolidWorld challenge from the Universidad de Oviedo. 
 
 #### Solid Implementations
 
