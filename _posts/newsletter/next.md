@@ -26,7 +26,7 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 This month, there's been a website refresh, [check out the latest version of the website](https://solidproject.org). Anyone can make suggestions around how to improve the website by submitting an [issue](https://github.com/solid/solidproject.org/issues) or [pull request](https://github.com/solid/solidproject.org/pulls) for the [Creators](https://github.com/solid/process/blob/master/creators.md) to process. 
 
-[Check out](https://www.linkedin.com/posts/empathyco_solidworld-activity-6685892403682979840-usNj) the winners of the Inrupt, Inc. #SolidWorld challenge from the Universidad de Oviedo. 
+[Check out](https://www.linkedin.com/posts/empathyco_solidworld-activity-6685892403682979840-usNj) the winners of the Solid geolocation challenge at the Universidad de Oviedo. 
 
 #### Solid Implementations
 
