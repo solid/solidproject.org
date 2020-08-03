@@ -77,7 +77,6 @@ Want to add an eligible Solid-compatible app to this list? Contact the Solid Man
 * [OEdit](https://edit.o.team) an editor app for raw files using the vs interface. [source code](https://github.com/jaxoncreed/o-edit) by [Jackson Morgan](https://github.com/jaxoncreed).
 * [Solid Focus](https://noeldemartin.github.io/solid-focus/) keep track of your to do list. [Source code](https://github.com/NoelDeMartin/solid-focus) [GNU General Public License v3.0 (c) 2018](https://github.com/NoelDeMartin/solid-focus/blob/master/LICENSE) [Noel de Martin](https://github.com/NoelDeMartin)
 * [Plume](https://thewebalyst.solid.community/plume/) blogging platform. [Source code](https://github.com/theWebalyst/solid-plume/) [MIT License Copyright (c) 2015](https://github.com/theWebalyst/solid-plume/blob/gh-pages/LICENSE) [Andrei Sambra](https://github.com/deiu)
-* [Warp](https://linkeddata.github.io/warp/) file browser. [Source code](https://github.com/linkeddata/warp) MIT License Copyright (c) 2014](https://github.com/linkeddata/warp/blob/gh-pages/LICENSE) [Andrei Samba](https://github.com/deiu)
 * [Dokieli](https://dokie.li) is a client side editor for decentralised article publishing, annotations, and social interactions. [Dokieli](https://github.com/linkeddata/dokieli) [Apache License v2.0 2012](https://github.com/linkeddata/dokieli/blob/master/LICENSE) [Sarven Capadisli](https://github.com/csarven)
 
 ## Finance
@@ -122,6 +121,7 @@ Want to add an eligible Solid-compatible app to this list? Contact the Solid Man
 * [graphMetrix](https://graphmetrix.net/#/) allows you to browse your Solid Pod offering multiple views of information including overview, graph, doc, gallery and grid as well as easy to use Solid collaboration control and file management. 30 day free trial followed by a $10 per user/per month. 2018 [graphMetrix](https://graphmetrix.com/#/solid)
 * LinkedPipes Applications create your own visualisers based on linked data. [Source code](https://github.com/linkedpipes/applications) [Apache License 2.0 (c) 2018](https://github.com/linkedpipes/applications/blob/master/LICENSE) [Jakub Klimek](https://github.com/jakubklimek)
 * [SPARQL Fiddle](https://jeff-zucker.github.io/sparql-fiddle/) online fiddle to run SPARQL against  Pods. [Source code](https://github.com/jeff-zucker/sparql-fiddle) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/sparql-fiddle/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker)
+* [Warp](https://linkeddata.github.io/warp/) file browser. [Source code](https://github.com/linkeddata/warp) MIT License Copyright (c) 2014](https://github.com/linkeddata/warp/blob/gh-pages/LICENSE) [Andrei Samba](https://github.com/deiu)
 
 # Historical Solid Apps 
 * [Inbox](https://github.com/solid/solid-inbox) processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu)
