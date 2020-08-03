@@ -19,6 +19,8 @@ Solid World is an opportunity to meet people who are interested in or currently 
 * [The Future of Online Identity is Decentralized by Yarmo Mackenbach](https://yarmo.eu/post/future-online-identity-decentralized)
 * [Tem Big Tech: stop data in privékluizen](https://www.nrc.nl/nieuws/2020/07/28/tem-big-tech-stop-data-in-prive-kluizen-a4007191)
 * [The Web's Big Build](https://websbigbuild.org)
+* [Digital Identity as an Investment](https://medium.com/digital-diplomacy/digital-identity-as-an-investment-d6c2ef21431d)
+* [MIT Technology Review - A plan to redesign the internet could make apps that no one controls](https://www.technologyreview.com/2020/07/01/1004725/redesign-internet-apps-no-one-controls-data-privacy-innovation-cloud/)
 
 ### In Other News
 
