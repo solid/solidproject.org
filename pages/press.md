@@ -6,7 +6,9 @@ permalink: press
 
 Are you looking to get a speaker or interview about Solid? Contact us on [press@solidproject.org](mailto:press@solidproject.org) with a description of what you are looking for.
 
-## Upcoming Talks
+## Talks Mentioning Solid
+
+### 2020
 
 {%
   include talk.html
@@ -15,10 +17,6 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     website="https://www.eventbrite.com/e/solid-world-tickets-111960609196"
     speaker="TBC"
 %}
-
-## Past Talks Mentioning Solid
-
-### 2020
 
 {%
   include talk.html
