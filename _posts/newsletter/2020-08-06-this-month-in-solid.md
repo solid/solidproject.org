@@ -38,3 +38,5 @@ This month, there's been a website refresh, [check out the latest version of the
 * [Contact Inrupt careers](https://inrupt.com/careers) 
 
 ### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
+
+(insert update)
