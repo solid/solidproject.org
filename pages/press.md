@@ -24,6 +24,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="Solid World July"
     website="https://www.eventbrite.com/e/solid-world-tickets-108099311952#"
     speaker="Sarven Capadisli, Kingsley Idehen, Kelly O'Brien, and Oz Olivo"
+    video="https://vimeo.com/434767351"    
 %}
 
 {%
@@ -39,7 +40,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2020-06-04"
     title="Solid World June"
     website="https://www.eventbrite.com/e/solid-world-june-tickets-104631158612"
-    speaker="TBC"
+    speaker="Sharon Stratsianis, Associate Professor Jose Emilio Labra Gayo, Ángel Maldonado"
+    video="https://vimeo.com/425919959"
 %}
 
 {%
