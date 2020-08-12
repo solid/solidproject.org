@@ -11,7 +11,7 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-Solid World is an opportunity to meet people who are interested in or currently working on Solid. If you missed Solid World you can [watch the recording here]().The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-115477011851?aff=erelexpmlt) will happen on the 3rd September 2020. 
+Solid World is an opportunity to meet people who are interested in or currently working on Solid. If you missed Solid World you can [watch the recording here](https://vimeo.com/446435972).The [next Solid World](https://www.eventbrite.com/e/solid-world-tickets-115477011851) will happen on the 3rd September 2020. 
 
 ### Articles and Talks mentioning Solid
 
