@@ -38,7 +38,7 @@ server {
 ssl_certificate /etc/letsencrypt/live/example.org/fullchain.pem;
 ssl_certificate_key /etc/letsencrypt/live/example.org/privkey.pem;
 
-root /var/www/html;
+root /var/www/example.org; #webroot
 
   ## [Optional] Enable HTTP Strict Transport Security
   ## HSTS is a feature improving protection against MITM attacks
