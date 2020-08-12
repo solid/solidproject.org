@@ -54,7 +54,7 @@ Nicolas is a developer at Inrupt. He joined the company after his PhD on the Sem
 
 ## Jeff Zucker
 **Creator**
-Jeff Zucker is a developer at Sandy River Basin Watershed Council and Nozzl Media. He is the author of a number of widely used Perl open source software tools and five published books. He has also worked for the United Nations, the New York City Department for the Ageing, Columbia University, Columbia-Presbyterian Hospital and a number of not-for-profit agencies and educational institutions in Oregon, USA.
+Jeff Zucker has developed software for and led projects at UNICEF, UNESCO, New York City Department for the Ageing, Columbia University, and at not-for-profit agencies internationally and in Oregon, USA.  He is the published author of books and articles on multi-cultural education, adult literacy, and the relationship of technology to society as well as a number of open source software packages. 
 
 # Administrators
 Administrators are responsible for administration of tools, systems, and services used for advancing Solid.
