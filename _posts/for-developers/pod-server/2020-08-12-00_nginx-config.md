@@ -9,6 +9,7 @@ exclude: true
 Nginx config
 
 * create or modify /etc/nginx/sites-available/default as follows (example editor nano)
+
 `$ nano /etc/nginx/sites-available/default`
 
 ```
