@@ -9,7 +9,7 @@ exclude: true
 Nginx config
 
 * create or modify /etc/nginx/sites-available/default as follows (example editor nano)
-* nano /etc/nginx/sites-available/default
+`$ nano /etc/nginx/sites-available/default`
 
 ```
 # Nginx configuration for Solid on Port 8443
@@ -68,4 +68,4 @@ root /var/www/example.org; #webroot
 }
 ```
 
-* `systemctl restart nginx`
+ `$ systemctl restart nginx`
