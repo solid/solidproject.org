@@ -765,6 +765,12 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 ### 2020
 
+2020-07-28 [Tem Big Tech: stop data in privékluizen](https://www.nrc.nl/nieuws/2020/07/28/tem-big-tech-stop-data-in-prive-kluizen-a4007191)
+
+2020-07-12 [The Future of Online Identity is Decentralized by Yarmo Mackenbach](https://yarmo.eu/post/future-online-identity-decentralized)
+
+2020-07-01 [MIT Technology Review - A plan to redesign the internet could make apps that no one controls](https://www.technologyreview.com/2020/07/01/1004725/redesign-internet-apps-no-one-controls-data-privacy-innovation-cloud/)
+
 2020-06-12 [CHANGEMAKERS: Davi Ottenheimer on Data Ethics and How to Save the Web](https://alltechishuman.org/blog/changemakers-davi-ottenheimer-on-data-ethics-and-how-to-save-the-internet) 
 
 2020-06-02 [Solid: Social Linked Data](https://www.csail.mit.edu/research/solid-social-linked-data)
