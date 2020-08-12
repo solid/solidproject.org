@@ -6,7 +6,9 @@ permalink: press
 
 Are you looking to get a speaker or interview about Solid? Contact us on [press@solidproject.org](mailto:press@solidproject.org) with a description of what you are looking for.
 
-## Upcoming Talks
+## Talks Mentioning Solid
+
+### 2020
 
 {%
   include talk.html
@@ -16,16 +18,13 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     speaker="TBC"
 %}
 
-## Past Talks Mentioning Solid
-
-### 2020
-
 {%
   include talk.html
     date="2020-07-02"
     title="Solid World July"
     website="https://www.eventbrite.com/e/solid-world-tickets-108099311952#"
     speaker="Sarven Capadisli, Kingsley Idehen, Kelly O'Brien, and Oz Olivo"
+    video="https://vimeo.com/434767351"    
 %}
 
 {%
@@ -41,7 +40,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2020-06-04"
     title="Solid World June"
     website="https://www.eventbrite.com/e/solid-world-june-tickets-104631158612"
-    speaker="TBC"
+    speaker="Sharon Stratsianis, Associate Professor Jose Emilio Labra Gayo, Ángel Maldonado"
+    video="https://vimeo.com/425919959"
 %}
 
 {%

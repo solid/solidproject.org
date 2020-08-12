@@ -40,7 +40,8 @@ Want to add an eligible Solid-compatible app to this list? Contact the Solid Man
 * [Holon](https://scenaristeur.github.io/holon/) playing with ShEx Shapes. Creates a form from a remote shape and store data on your Pod. [Holon source code](https://github.com/scenaristeur/holon)
 * [Dokieli](https://dokie.li) is a client side editor for decentralised article publishing, annotations, and social interactions. [Dokieli](https://github.com/linkeddata/dokieli) [Apache License v2.0 2012](https://github.com/linkeddata/dokieli/blob/master/LICENSE) [Sarven Capadisli](https://github.com/csarven)
 
-## Social 
+## Social
+* [LongChat](https://solid-chat.5apps.com/), the default chat pane of Solid OS. [source code](https://github.com/solid/chat-pane) under [MIT License Copyright (C) 2020](https://github.com/solid/chat-pane/blob/master/LICENSE.md)
 * [Darcy](https://ibex.darcy.is/feed)
 * [SNS](https://electrapro-pk.github.io/SNS/) A social network based on Solid build on core JavaScript by [Jackson Morgan](https://github.com/jaxoncreed)
 * [Solidarity](https://scenaristeur.github.io/solidarity/). [source code](https://github.com/scenaristeur/solidarity) is under [MIT License Copyright (c) 2019](https://github.com/scenaristeur/shighl/blob/master/LICENSE)[David Faveris](http://smag0.blogspot.com/2013/12/smag0-le-projet.html)
