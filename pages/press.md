@@ -581,6 +581,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="CNI Fall 2017 Meeting - Herbert van der Sompel"
     speaker="Herbert van der Sompel"
     slides="https://www.slideshare.net/hvdsomp/paul-evan-peters-lecture/"
+    video="https://vimeo.com/248056214"    
 %}
 
 
