@@ -426,6 +426,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     website="https://www.apidays.co/paris"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Slides-APIdays-2018/"
+    video="https://www.youtube.com/watch?v=NPBo39Dgvto"    
 %}
 
 {%
@@ -434,13 +435,13 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="MozFest"
     website="https://wiki.mozilla.org/Mozfest/2018"
     speaker="Tim Berners-Lee"
-    video="https://www.youtube.com/watch?v=elfSzMATcB4"
+    video="https://yewtu.be/watch?v=NPBo39Dgvto"
 %}
 
 {%
   include talk.html
     date="2018-10-08"
-    title="ISWC 2019 Workshop on Decentralising the Semantic Web"
+    title="ISWC 2018 Workshop on Decentralising the Semantic Web"
     website="https://iswc2018.desemweb.org"
     speaker="Tim Berners-Lee & Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Solid-DeSemWeb-2018/"
