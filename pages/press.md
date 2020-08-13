@@ -468,7 +468,6 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
   include talk.html
     date="2018-09-13"
     title="Web Foundation Seminar "
-    website="https://www.european-big-data-value-forum.eu"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Web-Foundation-2018/"
 %}
