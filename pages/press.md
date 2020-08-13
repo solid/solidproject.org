@@ -480,6 +480,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     website="http://www.oslcfest.org"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/OSLC-Fest-2018/"
+    video="https://video-iad3-1.xx.fbcdn.net/v/t42.26565-2/10000000_162399378735175_9037554020939641955_n.mp4?_nc_cat=109&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9zZCJ9&_nc_ohc=jM2VxLM0aUMAX-uUZF1&_nc_ht=video-iad3-1.xx&oh=c0cc7af4f65ba472c397dc97ad9c64ff&oe=5F3524D7"    
 %}
 
 {%
