@@ -457,9 +457,9 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
-    date="2018-09-14"
+    date="2018-11-14"
     title="Big Data in Media workshop at the European Big Data Value Forum"
-    website="https://www.european-big-data-value-forum.eu"
+    website="https://2018.european-big-data-value-forum.eu/"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Slides-EBDVF-2018/"
 %}
