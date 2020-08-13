@@ -426,7 +426,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     website="https://www.apidays.co/paris"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Slides-APIdays-2018/"
-    video="https://www.youtube.com/watch?v=NPBo39Dgvto"    
+    video="https://yewtu.be/watch?v=NPBo39Dgvto"    
 %}
 
 {%
@@ -435,7 +435,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="MozFest"
     website="https://wiki.mozilla.org/Mozfest/2018"
     speaker="Tim Berners-Lee"
-    video="https://yewtu.be/watch?v=NPBo39Dgvto"
+    video="https://www.youtube.com/watch?v=elfSzMATcB4"
 %}
 
 {%
