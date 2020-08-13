@@ -426,6 +426,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     website="https://www.apidays.co/paris"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Slides-APIdays-2018/"
+    video="https://yewtu.be/watch?v=NPBo39Dgvto"    
 %}
 
 {%
@@ -440,7 +441,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 {%
   include talk.html
     date="2018-10-08"
-    title="ISWC 2019 Workshop on Decentralising the Semantic Web"
+    title="ISWC 2018 Workshop on Decentralising the Semantic Web"
     website="https://iswc2018.desemweb.org"
     speaker="Tim Berners-Lee & Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Solid-DeSemWeb-2018/"
@@ -457,9 +458,9 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
-    date="2018-09-14"
+    date="2018-11-14"
     title="Big Data in Media workshop at the European Big Data Value Forum"
-    website="https://www.european-big-data-value-forum.eu"
+    website="https://2018.european-big-data-value-forum.eu/"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Slides-EBDVF-2018/"
 %}
@@ -468,7 +469,6 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
   include talk.html
     date="2018-09-13"
     title="Web Foundation Seminar "
-    website="https://www.european-big-data-value-forum.eu"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Web-Foundation-2018/"
 %}
@@ -480,6 +480,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     website="http://www.oslcfest.org"
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/OSLC-Fest-2018/"
+    video="https://video-iad3-1.xx.fbcdn.net/v/t42.26565-2/10000000_162399378735175_9037554020939641955_n.mp4?_nc_cat=109&_nc_sid=985c63&efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9zZCJ9&_nc_ohc=jM2VxLM0aUMAX-uUZF1&_nc_ht=video-iad3-1.xx&oh=c0cc7af4f65ba472c397dc97ad9c64ff&oe=5F3524D7"    
 %}
 
 {%
@@ -581,6 +582,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="CNI Fall 2017 Meeting - Herbert van der Sompel"
     speaker="Herbert van der Sompel"
     slides="https://www.slideshare.net/hvdsomp/paul-evan-peters-lecture/"
+    video="https://vimeo.com/248056214"    
 %}
 
 
