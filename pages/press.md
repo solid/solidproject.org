@@ -50,6 +50,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="Solid World May"
     website="https://www.eventbrite.com/e/solid-world-tickets-101812024506#"
     speaker="Christian Buggedei, Walter Almeida, Glen Simister, Manoharan Ramachandran, Michiel de Jong"
+    video="https://vimeo.com/415976385"    
 %}
 
 {%
@@ -58,6 +59,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="Solid World April"
     website="https://www.eventbrite.com/e/solid-world-tickets-100417571660#"
     speaker="Travis Vachon, David Faveris, Astrid Gamoneda Arrunada"
+    video="https://vimeo.com/404963568"    
 %}
 
 {%
@@ -95,9 +97,10 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 {%
   include talk.html
     date="2020-01-11"
-    title="P2P"
-    website="https://p2p.paris/fr/event/festival-0/"
+    title="Introduction à SOLID BOX"
+    website="https://p2p.paris/fr/talks/intro-solid-box/"
     speaker="Jonas Smedegaard"
+    slides="https://dr.jones.dk/box/talk/p2p/#(1)"    
 %}
 
 {%
@@ -351,7 +354,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2019-03-28"
     title="Beyond Data Event "
     speaker="Ruben Verborgh"
-    video="https://rubenverborgh.github.io/Beyond-Data-Event-2019/"
+    slides="https://rubenverborgh.github.io/Beyond-Data-Event-2019/"
+    
 %}
 
 {%
@@ -579,7 +583,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 {%
   include talk.html
     date="2017-12-12"
-    title="CNI Fall 2017 Meeting - Herbert van der Sompel"
+    title="CNI Fall 2017 Meeting - Closing Plenary - Scholarly Communication: Deconstruct & Decentralize?"
+    website="https://www.cni.org/events/membership-meetings/past-meetings/fall-2017/plenary-sessions-f17-2#closing"    
     speaker="Herbert van der Sompel"
     slides="https://www.slideshare.net/hvdsomp/paul-evan-peters-lecture/"
     video="https://vimeo.com/248056214"    
