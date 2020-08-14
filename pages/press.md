@@ -521,6 +521,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="ACM Turing Lecture - Utopia to Dystopia in 29 short years"
     website="https://www.w3.org/2018/Talks/0529-timbl-turing/timbl-turing-slides-utopia-to-dystopia.html"
     speaker="Tim Berners-Lee"
+    video="https://invidious.13ad.de/watch?v=BaMa4u4Fio4"    
 %}
 
 {%
