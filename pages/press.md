@@ -1028,6 +1028,8 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2018-12-31 [NRC - Herstelwerk aan het kapotte internet](https://www.nrc.nl/nieuws/2018/12/31/herstelwerk-aan-het-kapotte-internet-a3127480)
 
+2018-10-16 [Tim Berners-Lee Introduces "Solid" Decentralized Identity Platform](https://www.infoq.com/news/2018/10/solid-identity-platform/)
+
 2018-10-06 [Tim Berners-Lee unveils next step for Solid, a decentralized Web platform with privacy built-in as standard](https://www.privateinternetaccess.com/blog/tim-berners-lee-unveils-solid-a-decentralized-web-platform-with-privacy-built-in-as-standard/)
 
 2018-10-05 [How solid is Tim’s plan to redecentralize the web?](https://redecentralize.org/blog/2018/10/05/how-solid.html)
