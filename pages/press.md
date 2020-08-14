@@ -1026,7 +1026,11 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2019-01-03 [AEI Ideas: The future of privacy policy: A Q&A with author David Brin](https://www.aei.org/technology-and-innovation/the-future-of-privacy-policy-a-qa-with-author-david-brin/)
 
+### 2018
+
 2018-12-31 [NRC - Herstelwerk aan het kapotte internet](https://www.nrc.nl/nieuws/2018/12/31/herstelwerk-aan-het-kapotte-internet-a3127480)
+
+2018-10-29 [An introduction to SOLID, Tim Berners-Lee’s new, re-decentralized Web](https://www.freecodecamp.org/news/an-introduction-to-solid-tim-berners-lees-new-re-decentralized-web-25d6b78c523b/)
 
 2018-10-16 [Tim Berners-Lee Introduces "Solid" Decentralized Identity Platform](https://www.infoq.com/news/2018/10/solid-identity-platform/)
 
