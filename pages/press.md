@@ -727,6 +727,10 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 ### 2019
 
+2019-12-06 [The personal data web, social linked data and data vaults explained](https://medium.com/digita-ai/the-personal-data-web-social-linked-data-and-data-vaults-explained-48d40f520034)
+
+2019-11-29 [‘Solid’ Decentralized social apps, where users control their data and privacy, could replace Facebook](https://www.coywolf.news/social/solid-decentralized-network/)
+
 2019-11-20 [LSE Business Review: How to turn trust into a competitive advantage](https://blogs.lse.ac.uk/businessreview/2019/11/20/how-to-turn-trust-into-a-competitive-advantage/)
 
 2019-11-13 [MRWeb: Berners-Lee Raises Funds to 'Reimagine the Web'](http://www.mrweb.com/drno/news28902.htm)
