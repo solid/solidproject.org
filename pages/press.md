@@ -723,7 +723,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 2020-01-23 [Developer offers a glimpse of what a ‘Solid’ decentralized social network presence might look like](https://www.coywolf.news/social/solid-profile-design/)
 
-2020-01-22 [The Inventor of the World Wide Web wrote an Inspiring Letter to the Women’s Technology Empowerment Centre in Lagos | Read it Here](https://www.bellanaija.com/2020/01/tim-berners-lees/)
+2020-01-22 [The Inventor of the World Wide Web wrote an Inspiring Letter to the Women’s Technology Empowerment Centre in Lagos Read it Here](https://www.bellanaija.com/2020/01/tim-berners-lees/)
 
 2020-01-20 [Freeing the Web From Big Tech](https://www.thenewamerican.com/print-magazine/item/34519-freeing-the-web-from-big-tech)
 
