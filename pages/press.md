@@ -865,6 +865,8 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2019-05-02 [ICT Works: Democratizing Access to Data is the Next Frontier in International Development](https://www.ictworks.org/democratizing-access-data-frontier/#.Xdwg9S2ZOTe)
 
+2020-04-09 [Winning a Mozilla Seed award](https://darcy.is/winning-a-mozilla-seed-award/)
+
 2019-04-01 [BTC Wires: What Does Article 13 Mean For Crypto Industry?](https://www.btcwires.com/round-the-block/what-does-article-13-mean-for-crypto-industry/)
 
 2019-04-02 [CNET: Web inventor Tim Berners-Lee wants to give you your data back](https://www.cnet.com/news/web-inventor-tim-berners-lee-wants-to-give-you-your-data-back/)
