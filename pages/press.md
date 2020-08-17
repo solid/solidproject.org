@@ -50,6 +50,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="Solid World May"
     website="https://www.eventbrite.com/e/solid-world-tickets-101812024506#"
     speaker="Christian Buggedei, Walter Almeida, Glen Simister, Manoharan Ramachandran, Michiel de Jong"
+    video="https://vimeo.com/415976385"    
 %}
 
 {%
@@ -58,6 +59,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="Solid World April"
     website="https://www.eventbrite.com/e/solid-world-tickets-100417571660#"
     speaker="Travis Vachon, David Faveris, Astrid Gamoneda Arrunada"
+    video="https://vimeo.com/404963568"    
 %}
 
 {%
@@ -95,9 +97,10 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 {%
   include talk.html
     date="2020-01-11"
-    title="P2P"
-    website="https://p2p.paris/fr/event/festival-0/"
+    title="Introduction à SOLID BOX"
+    website="https://p2p.paris/fr/talks/intro-solid-box/"
     speaker="Jonas Smedegaard"
+    slides="https://dr.jones.dk/box/talk/p2p/#(1)"    
 %}
 
 {%
@@ -351,7 +354,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2019-03-28"
     title="Beyond Data Event "
     speaker="Ruben Verborgh"
-    video="https://rubenverborgh.github.io/Beyond-Data-Event-2019/"
+    slides="https://rubenverborgh.github.io/Beyond-Data-Event-2019/"
+    
 %}
 
 {%
@@ -517,6 +521,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="ACM Turing Lecture - Utopia to Dystopia in 29 short years"
     website="https://www.w3.org/2018/Talks/0529-timbl-turing/timbl-turing-slides-utopia-to-dystopia.html"
     speaker="Tim Berners-Lee"
+    video="https://invidious.13ad.de/watch?v=BaMa4u4Fio4"    
 %}
 
 {%
@@ -579,7 +584,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 {%
   include talk.html
     date="2017-12-12"
-    title="CNI Fall 2017 Meeting - Herbert van der Sompel"
+    title="CNI Fall 2017 Meeting - Closing Plenary - Scholarly Communication: Deconstruct & Decentralize?"
+    website="https://www.cni.org/events/membership-meetings/past-meetings/fall-2017/plenary-sessions-f17-2#closing"    
     speaker="Herbert van der Sompel"
     slides="https://www.slideshare.net/hvdsomp/paul-evan-peters-lecture/"
     video="https://vimeo.com/248056214"    
@@ -1020,6 +1026,18 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2019-01-03 [AEI Ideas: The future of privacy policy: A Q&A with author David Brin](https://www.aei.org/technology-and-innovation/the-future-of-privacy-policy-a-qa-with-author-david-brin/)
 
+### 2018
+
 2018-12-31 [NRC - Herstelwerk aan het kapotte internet](https://www.nrc.nl/nieuws/2018/12/31/herstelwerk-aan-het-kapotte-internet-a3127480)
+
+2018-10-29 [An introduction to SOLID, Tim Berners-Lee’s new, re-decentralized Web](https://www.freecodecamp.org/news/an-introduction-to-solid-tim-berners-lees-new-re-decentralized-web-25d6b78c523b/)
+
+2018-10-16 [Tim Berners-Lee Introduces "Solid" Decentralized Identity Platform](https://www.infoq.com/news/2018/10/solid-identity-platform/)
+
+2018-10-06 [Tim Berners-Lee unveils next step for Solid, a decentralized Web platform with privacy built-in as standard](https://www.privateinternetaccess.com/blog/tim-berners-lee-unveils-solid-a-decentralized-web-platform-with-privacy-built-in-as-standard/)
+
+2018-10-05 [How solid is Tim’s plan to redecentralize the web?](https://redecentralize.org/blog/2018/10/05/how-solid.html)
+
+2018-09-23 [The only way to save the Internet is to claim it back from Big Data](https://mastersofmedia.hum.uva.nl/blog/2018/09/23/solid-and-the-decentralisation-of-the-web-the-only-way-to-save-the-internet-is-to-claim-it-back-from-big-data/)
 
 2009-08-17 [W3C - Socially Aware Cloud Storage by Tim Berners-Lee](https://www.w3.org/DesignIssues/CloudStorage.html) 
