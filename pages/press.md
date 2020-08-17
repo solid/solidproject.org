@@ -454,6 +454,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2018-10-04"
+    title="SOLID - The New Internet by Prof. Tim Berner Lee"
+    website="https://www.techsoul.in"
+    speaker="AjayKumar"
+    video="https://yewtu.be/watch?v=ia2_QNhYWck"
+%}
+
+{%
+  include talk.html
     date="2018-09-19"
     title="Linked Data Scholarship course at KU Leuven"
     website="https://onderwijsaanbod.kuleuven.be/syllabi/e/F0XO5AE.htm#activetab=doelstellingen_idp935024"
