@@ -18,6 +18,7 @@ email: info@solidproject.org
 url: 'https://solidproject.org/'
 twitter_username: project_solid
 github_username: solid
+repository: solid/solidproject.org
 
 # Build settings
 markdown: kramdown
