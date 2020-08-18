@@ -1062,6 +1062,30 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2018-10-05 [How solid is Tim’s plan to redecentralize the web?](https://redecentralize.org/blog/2018/10/05/how-solid.html)
 
+2018-09-29 [Exclusive: Tim Berners-Lee tells us his radical new plan to upend the World Wide Web](https://web.archive.org/web/20181001103951/https://www.fastcompany.com/90243936/exclusive-tim-berners-lee-tells-us-his-radical-new-plan-to-upend-the-world-wide-web)
+
+2018-09-28 [One Small Step for the Web…](https://inrupt.com/blog/one-small-step-for-the-web)
+
 2018-09-23 [The only way to save the Internet is to claim it back from Big Data](https://mastersofmedia.hum.uva.nl/blog/2018/09/23/solid-and-the-decentralisation-of-the-web-the-only-way-to-save-the-internet-is-to-claim-it-back-from-big-data/)
 
+2018-08-27 [Decentralising the web: OmiseGO on the importance of user experience for new platforms](https://web.archive.org/web/20180730050637/https://www.computing.co.uk/ctg/news/3036546/decentralising-the-web-omisego-on-the-importance-of-user-experience)
+
+2018-07-03 [About Solid](https://web.archive.org/web/20180703172221/https://github.com/solid/solid)
+
+2018-07-02 [Tim Berners-Lee, Inventor of the Web, Plots a Radical Overhaul of His Creation](https://web.archive.org/web/20180630083946/https://www.wired.com/2017/04/tim-berners-lee-inventor-web-plots-radical-overhaul-creation/)
+
+2018-07-01 [“I was devastated”: Tim Berners-Lee, the man who created the World Wide Web, has some regrets](https://www.vanityfair.com/news/2018/07/the-man-who-created-the-world-wide-web-has-some-regrets)
+
+### 2016
+
+2016-08-10 [How the father of the World Wide Web plans to reclaim it from Facebook and Google](http://www.digitaltrends.com/web/ways-to-decentralize-the-web/)
+
+### 2015
+
+2015-11-02 [Web inventor Tim Berners-Lee's next project: a platform that gives users control of their data](https://web.archive.org/web/20181006054539/https://www.csail.mit.edu/news/web-inventor-tim-berners-lees-next-project-platform-gives-users-control-their-data)
+
+### 2009
+
 2009-08-17 [W3C - Socially Aware Cloud Storage by Tim Berners-Lee](https://www.w3.org/DesignIssues/CloudStorage.html) 
+
+2009-08-16 [W3C - Read-Write Linked Data by Tim Berners-Lee](https://www.w3.org/DesignIssues/ReadWriteLinkedData.html)
