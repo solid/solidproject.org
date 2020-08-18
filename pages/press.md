@@ -47,6 +47,16 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-05-21"
+    title="Data privacy, trust, and smart city services"
+    website="https://opencommons.org/solid/"
+    speaker="Jeff Zucker"
+    video="https://www.yew.tube.com/watch?v=oaVE9OcPrm8"
+    slide="https://opencommons.org/wp-content/uploads/2020/05/zucker.pdf"    
+%}
+
+{%
+  include talk.html
     date="2020-05-07"
     title="Solid World May"
     website="https://www.eventbrite.com/e/solid-world-tickets-101812024506#"
@@ -650,8 +660,6 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 2020-06-12 [CHANGEMAKERS: Davi Ottenheimer on Data Ethics and How to Save the Web](https://alltechishuman.org/blog/changemakers-davi-ottenheimer-on-data-ethics-and-how-to-save-the-internet) 
 
-2020-06-02 [Data privacy, trust, and smart city services](https://opencommons.org/solid/)
-
 2020-06-02 [Low-code development platform Generative Objects : the journey to open source](https://modeling-languages.com/low-code-open-source-platform-generative-objects/)
 
 2020-05-20 [Open University Solid initiative](https://blockchain.open.ac.uk/#covid-19)
@@ -773,7 +781,7 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2019-07-31 [The Verge: Brain-computer interfaces are developing faster than the policy debate around them](https://www.theverge.com/interface/2019/7/31/20747916/facebook-brain-computer-interface-policy-neuralink)
 
-2019-07-31 [Joy Online: Apple joins Google, Facebook, and Twitter in data-sharing project](https://web.archive.org/web/20191016140751/https://myjoyonline.com/technology/2019/july-31st/apple-joins-google-facebook-and-twitter-in-data-sharing-project.php)
+2019-07-30 [Apple joins Google, Facebook, and Twitter in data-sharing project](https://www.theverge.com/2019/7/30/20746868/apple-data-transfer-project-google-microsoft-twitter)
 
 2019-07-31 [Medium: The future of the decentralized web](https://medium.com/berkman-klein-center/the-future-of-the-decentralized-web-707915f12360)
 
