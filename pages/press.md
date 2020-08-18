@@ -1077,4 +1077,4 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2009-08-17 [W3C - Socially Aware Cloud Storage by Tim Berners-Lee](https://www.w3.org/DesignIssues/CloudStorage.html) 
 
-2009-08-16 [[W3C - Read-Write Linked Data by Tim Berners-Lee](https://www.w3.org/DesignIssues/ReadWriteLinkedData.html)
+2009-08-16 [W3C - Read-Write Linked Data by Tim Berners-Lee](https://www.w3.org/DesignIssues/ReadWriteLinkedData.html)
