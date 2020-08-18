@@ -8,14 +8,14 @@ Solid Events are an opportunity for people working on Solid or who are intereste
 
 In light of the COVID-19 pandemic Solid Events are moving online for the foreseeable future. Tune in on the first Thursday of every month at 1600 CET to join.
 
-You can read the upcoming agenda on the [Solid World August invite](https://www.eventbrite.com/e/solid-world-tickets-111960609196?aff=erelexpmlt)
-
 Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on info@solidproject.org to get a speaking slot at the next event.
 
-# Past Solid Events
+# Solid Events
 
 | Date | Event | Organiser | Recordings and Slides |
 |---|-------|--------------|--------------|
+2020-09-03|[Solid World September](https://www.eventbrite.com/e/solid-world-tickets-115477011851)|[Solid Team](https://solidproject.org/team)|The tentative agenda will be made available on the [Eventbrite page](https://www.eventbrite.com/e/solid-world-tickets-115477011851)|
+2020-08-06|[Solid World August](https://www.eventbrite.com/e/solid-world-tickets-111960609196#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/446435972) and slides: [Community Solid Server (Ruben V.)](https://rubenverborgh.github.io/Solid-World-August-2020/), [Community Roadmap (Tim B.L.)](https://solidos.solid.community/public/Roadmap/Tasks/)|
 |2020-07-02|[Solid World July](https://www.eventbrite.com/e/solid-world-tickets-108099311952?aff=erelexpmlt)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/434767351) and [Slides](https://docs.google.com/presentation/d/1CyidWcwBs_1FPGLiFazExhjFXOQCSqZb78HyC7LFv_o/edit#slide=id.g8225d1e7b1_0_1)|
 |2020-06-04|[Solid World June](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/425919959)|
 |2020-05-07|[Solid World May](https://www.eventbrite.com/e/solid-world-tickets-101812024506#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/415976385)|
