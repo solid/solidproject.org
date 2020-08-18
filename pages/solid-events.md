@@ -12,7 +12,7 @@ You can read the upcoming agenda on the [Solid World August invite](https://www.
 
 Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on info@solidproject.org to get a speaking slot at the next event.
 
-# Past Solid Events
+# Solid Events
 
 | Date | Event | Organiser | Recordings and Slides |
 |---|-------|--------------|--------------|
