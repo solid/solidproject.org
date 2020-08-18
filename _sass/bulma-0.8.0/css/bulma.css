@@ -934,12 +934,14 @@ a.has-text-dark:hover, a.has-text-dark:focus {
   background-color: #363636 !important;
 }
 
+<!-------https://solidproject.org/logo-usage-guidelines#primary---------->
+  
 .has-text-primary {
-  color: #00d1b2 !important;
+  color: #7C4DFF !important;
 }
 
 a.has-text-primary:hover, a.has-text-primary:focus {
-  color: #009e86 !important;
+  color: #DAE0E6 !important;
 }
 
 .has-background-primary {
@@ -947,15 +949,21 @@ a.has-text-primary:hover, a.has-text-primary:focus {
 }
 
 .has-text-link {
-  color: #3273dc !important;
+  color: #7C4DFF !important;
 }
 
 a.has-text-link:hover, a.has-text-link:focus {
-  color: #205bbc !important;
+  color: #DAE0E6 !important;
 }
 
-.has-background-link {
-  background-color: #3273dc !important;
+<!-------https://solidproject.org/logo-usage-guidelines#tertiary---------->
+
+.has-background-link-fp {
+  background-color:  #FF6969 !important;
+}
+
+.has-background-link-cb {
+  background-color:  #083575 !important;
 }
 
 .has-text-info {
