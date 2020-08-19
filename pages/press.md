@@ -1,8 +1,3 @@
----
-layout: page
-title: Press
-permalink: press
----
 
 Are you looking to get a speaker or interview about Solid? Contact us on [press@solidproject.org](mailto:press@solidproject.org) with a description of what you are looking for.
 
