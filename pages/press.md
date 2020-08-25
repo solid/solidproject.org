@@ -51,7 +51,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="Data privacy, trust, and smart city services"
     website="https://opencommons.org/solid/"
     speaker="Jeff Zucker"
-    video="https://www.yew.tube.com/watch?v=oaVE9OcPrm8"
+    video="https://yewtu.be/watch?v=oaVE9OcPrm8"
     slide="https://opencommons.org/wp-content/uploads/2020/05/zucker.pdf"    
 %}
 
@@ -85,8 +85,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
   include talk.html
     date="2020-02-19"
     title="A introduction to Solid & Solid Search"
-    website="https://ingenieriainformatica.uniovi.es/actualidad/eventos/-/asset_publisher/uS6D/content/conferencia-solid-search:-introduccion-a-solid-y-como-cambiar-el-paradigma-de-los-buscadores-de-co?redirect=%2F"
-    speaker="[Alejandro Juan Garcia](https://www.linkedin.com/in/alejandro-juan-garc%C3%ADa-a6087684/)"
+    website="https://ingenieriainformatica.uniovi.es/actualidad/eventos/-/asset_publisher/uS6D/content/conferencia-solid-search:-introduccion-a-solid-y-paradigmas-de-los-buscadores?redirect=%2Factualidad%2Feventos"
+    speaker="Alejandro Juan Garcia"
 %}
 
 {%
@@ -94,14 +94,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2020-02-07"
     title="Solid CERN"
     website="https://indico.cern.ch/e/CERN-Solid-brainstorming"
+    slides="https://indico.cern.ch/event/866085/contributions/3724639/attachments/1983527/3305185/20200107_CERN.pdf"    
     speaker="Maria Dimou, Sarven Capadisli, and Mitzi László"
 %}
 
 {%
   include talk.html
     date="2020-01-27"
-    title="Workshop on Cloud Services for File Synchronisation and Sharing"
-    website="https://cs3.deic.dk"
+    title="Keynote:May we please store your personal data?"
+    website="https://indico.cern.ch/event/854707/program"
     speaker="Michiel de Jong"
 %}
 
@@ -117,8 +118,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 {%
   include talk.html
     date="2020-01-10"
-    title="P2P"
-    website="https://p2p.paris/fr/event/festival-0/"
+    title="Atelier prospective sur le standard Solid - Bâtir le web de demain"
+    website="https://p2p.paris/fr/talks/workshop-future-solid-specifications/"
     speaker="Alice Poggioli"
 %}
 
