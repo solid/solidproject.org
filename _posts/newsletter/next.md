@@ -20,7 +20,7 @@ Solid World is an opportunity to meet people who are interested in or currently 
 ### In Other News
 
 #### Solid Implementations
-* 
+* new Pod provider [graphMetrix](https://graphmetrix.com/trinpod) 
 
 #### Job Openings
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
