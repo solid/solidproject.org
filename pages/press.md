@@ -131,7 +131,6 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="MyData Madrid"
     website="https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/"
     speaker="Alejandro Juan García"
-    slides="https://docs.google.com/presentation/d/1Ivgvc24WbVTaZe8Pw8JTm_UBPmWo6Fetn_7QrbflbKg/edit#slide=id.g75bc5c0dc1_0_158"
 %}
 
 {%
