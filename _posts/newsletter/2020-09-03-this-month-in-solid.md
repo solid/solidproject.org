@@ -18,6 +18,7 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 #### Solid Implementations
 * [TrinPod](https://graphmetrix.com/trinpod) is an industrial strength Pod provider with conceptual computing through Trinity AI Capable of handling a massive amount of data. Available next month. [Sign up now](https://graphmetrix.com/trinpod) for early access.
+* [Walder](https://github.com/KNowledgeOnWebScale/walder) is a content management system that can be driven by one or multiple Pods
 
 #### Funding 
 * [NGI Atlantic](https://ngiatlantic.eu/ngiatlanticeu-2nd-open-call) - also check out the [NGI Twinning Lab](https://ngiatlantic.eu/twinning-lab?field_country_value=2&field_organisation_type_value=All&field_choose_the_ngi_topic_focus_value=All)
