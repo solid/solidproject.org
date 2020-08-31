@@ -22,6 +22,9 @@ Solid World is an opportunity to meet people who are interested in or currently 
 #### Solid Implementations
 * [TrinPod](https://graphmetrix.com/trinpod) is an industrial strength Pod provider with conceptual computing through Trinity AI Capable of handling a massive amount of data. Available next month. [Sign up now](https://graphmetrix.com/trinpod) for early access.
 
+#### Funding 
+* [NGI Atlantic](https://ngiatlantic.eu/ngiatlanticeu-2nd-open-call) 
+
 #### Job Openings
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
 * [Contact Inrupt careers](https://inrupt.com/careers) 
