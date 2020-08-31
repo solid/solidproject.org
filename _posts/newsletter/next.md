@@ -14,9 +14,6 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 28th September 2020 - vitual event [Virtuele themanamiddag "Solid - de burger in regie van zijn gegevens](https://overheid.vlaanderen.be/opleiding/solid)
 
-### [Press](https://solidproject.org/press)
-* 
-
 ### In Other News
 
 #### Solid Implementations
