@@ -697,7 +697,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 2020-02-24 [Berners-Lee's Solid project: Schneier joins team to give you back control over data](https://www.zdnet.com/article/berners-lees-solid-project-schneier-joins-team-to-give-you-back-control-over-data/)
 
-2020-02-24 [10 things in tech you need to know today](https://www.businessinsider.my/10-things-in-tech-you-need-to-know-today-february-24-2020-2)
+<!------- 2020-02-24 [10 things in tech you need to know today](https://www.businessinsider.my/10-things-in-tech-you-need-to-know-today-february-24-2020-2) ---------->
 
 2020-02-24 [Source Code Newsletter](https://mailchi.mp/protocol/nid66issxj?e=91fe210859)
 
