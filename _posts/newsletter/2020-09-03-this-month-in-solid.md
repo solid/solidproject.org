@@ -10,7 +10,7 @@ categories: [Updates]
 ## Updates
 
 ### [Events](https://solidproject.org/events)
-Solid World is an opportunity to meet people who are interested in or currently working on Solid. If you missed Solid World you can [watch the recording here]().The [next Solid World]() will happen on the 1st October 2020. 
+Solid World is an opportunity to meet people who are interested in or currently working with Solid. If you missed Solid World you can [watch the recording here](#). The [next Solid World](#) will happen on the 1st October 2020. 
 
 28th September 2020 - virtual event [Virtuele themanamiddag "Solid - de burger in regie van zijn gegevens](https://overheid.vlaanderen.be/opleiding/solid)
 
