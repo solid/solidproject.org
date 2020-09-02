@@ -17,7 +17,7 @@ Solid World is an opportunity to meet people who are interested in or currently 
 ### In Other News
 
 #### Solid Implementations
-* 
+* [PoPock](https://scenaristeur.github.io/solid-vue-panes/chat)
 
 #### Funding 
 * 
