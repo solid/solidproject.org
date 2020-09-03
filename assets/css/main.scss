@@ -57,21 +57,12 @@ $footer-padding: 3rem 1.5rem 0;
 
 // Import only what you need from Bulma
 @import "bulma-0.8.0/sass/base/_all.sass";
-@import "bulma-0.8.0/sass/elements/button.sass";
-@import "bulma-0.8.0/sass/elements/content.sass";
-@import "bulma-0.8.0/sass/elements/container.sass";
-@import "bulma-0.8.0/sass/elements/image.sass";
-@import "bulma-0.8.0/sass/elements/title.sass";
+@import "bulma-0.8.0/sass/components/_all.sass";
+@import "bulma-0.8.0/sass/elements/_all.sass";
 @import "bulma-0.8.0/sass/form/_all.sass";
-@import "bulma-0.8.0/sass/components/breadcrumb.sass";
-@import "bulma-0.8.0/sass/components/card.sass";
-@import "bulma-0.8.0/sass/components/menu.sass";
-@import "bulma-0.8.0/sass/components/message.sass";
-@import "bulma-0.8.0/sass/components/navbar.sass";
-@import "bulma-0.8.0/sass/layout/hero.sass";
-@import "bulma-0.8.0/sass/grid/columns.sass";
-@import "bulma-0.8.0/sass/layout/section.sass";
-@import "bulma-0.8.0/sass/layout/footer.sass";
+@import "bulma-0.8.0/sass/grid/_all.sass";
+@import "bulma-0.8.0/sass/layout/_all.sass";
+@import "bulma-0.8.0/sass/utilities/_all.sass";
 
 body {
   display: flex;
