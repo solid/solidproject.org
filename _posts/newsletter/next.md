@@ -25,5 +25,6 @@ Solid World is an opportunity to meet people who are interested in or currently 
 #### Job Openings
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Linked Data Principal. Email tom@digita.ai for more information.
 * [Contact Inrupt careers](https://inrupt.com/careers) 
+* O Team is recruiting a ETL (Extract Transform Load) Engineer, a Linked Data Ontology Designer, and a JavaScript Developer. Email jobs@o.team for more information. 
 
 ### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
