@@ -18,6 +18,7 @@ Solid World is an opportunity to meet people who are interested in or currently 
 
 #### Solid Implementations
 * [PoPock](https://scenaristeur.github.io/solid-vue-panes/chat)
+* see an [announcement](https://forum.solidproject.org/t/making-access-to-solid-pods-data-a-breeze-solideal-storage/3427) of [Solideal](https://github.com/solideal/storage)
 
 #### Funding 
 * 
