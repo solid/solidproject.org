@@ -29,7 +29,7 @@ If you missed Solid World you can [watch the recording here](https://vimeo.com/4
 ### In Other News
 
 #### Solid Implementations
-* As Ruben Verborgh mentioned in Solid World, the Community Solid Server is making great strides. Not yet production-ready, but you can follow along or contribute [here]. (https://github.com/solid/community-server)
+* As Ruben Verborgh mentioned in Solid World, the Community Solid Server is making great strides. Not yet production-ready, but you can follow along or contribute [here](https://github.com/solid/community-server).
 * Inrupt announced the [Beta release](https://inrupt.com/inrupt-beta-live) of the Enterprise Solid Server, Dev Toolkit, and PodBrowser.
 * [TrinPod](https://graphmetrix.com/trinpod) is an industrial strength Pod provider with conceptual computing through Trinity AI Capable of handling a massive amount of data. Available next month. [Sign up now](https://graphmetrix.com/trinpod) for early access.
 * [Walder](https://github.com/KNowledgeOnWebScale/walder) is a content management system that can be driven by one or multiple Pods
