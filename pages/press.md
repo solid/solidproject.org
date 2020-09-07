@@ -1005,8 +1005,6 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2019-02-15 [Mac Observer: Sir Tim Berners-Lee Wants to Fix the Web with New Startup](https://www.macobserver.com/link/tim-berners-lee-inrupt/)
 
-2019-02-19 [News Broadcast Network: Highlights & transcript from Zuckerberg’s 20K-word ethics talk](https://newsbroadcastnetwork.com/highlights-transcript-from-zuckerbergs-20k-word-ethics-talk-techcrunch/)
-
 2019-02-20 [TechCrunch: Highlights & transcript from Zuckerberg’s 20K-word ethics talk](https://techcrunch.com/2019/02/20/zuckerberg-harvard-zittrain/)
 
 2019-02-20 [Online Tech Tips: Highlights & transcript from Zuckerberg’s 20K-word ethics talk](https://online-techtips.blogspot.com/2019/02/highlights-transcript-from-zuckerbergs.html)
