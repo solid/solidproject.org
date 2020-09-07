@@ -698,7 +698,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 2020-02-24 [Berners-Lee's Solid project: Schneier joins team to give you back control over data](https://www.zdnet.com/article/berners-lees-solid-project-schneier-joins-team-to-give-you-back-control-over-data/)
 
-2020-02-24 [10 things in tech you need to know today](https://www.businessinsider.my/10-things-in-tech-you-need-to-know-today-february-24-2020-2)
+<!------- 2020-02-24 [10 things in tech you need to know today](https://www.businessinsider.my/10-things-in-tech-you-need-to-know-today-february-24-2020-2) ---------->
 
 2020-02-24 [Source Code Newsletter](https://mailchi.mp/protocol/nid66issxj?e=91fe210859)
 
@@ -777,7 +777,7 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2019-09-02 [El Pais: Privacidad: La ‘startup’ asturiana que ayuda al inventor de internet a crear la nueva web](https://retina.elpais.com/retina/2019/09/02/innovacion/1567416042_149910.html)
 
-2019-08-29 Scotsman: Accelerating the pace of change for data ownership (article unavailable at the moment)
+2019-08-29 [Scotsman: Accelerating the pace of change for data ownership](https://www.thefreelibrary.com/Accelerating+the+pace+of+change+for+data+ownership.-a0597843558)
 
 2019-08-18 [Coin Telegraph: Would Blockchain Better Protect User Data Than FaceApp? Experts Answer](https://cointelegraph.com/news/would-blockchain-better-protect-user-data-than-faceapp-experts-answer)
 
@@ -995,7 +995,7 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2019-03-01 [Medium: What Would More Democratic A.I. Look Like?](https://onezero.medium.com/what-would-more-democratic-a-i-look-like-ea729f5f7b0a)
 
-2019-02-26 [Communications of ACM:cience in Europe: Beyond Boundaries]](https://cacm.acm.org/magazines/2019/4/235597-web-science-in-europe/fulltext)
+2019-02-26 [Communications of ACM:Web Science in Europe: Beyond Boundaries](https://cacm.acm.org/magazines/2019/4/235597-web-science-in-europe/fulltext)
 
 2019-03-30 [How a chess app interacts with Solid](https://pieterheyvaert.com/blog/2019/03/30/solid-chess-interaction)
 
@@ -1055,6 +1055,8 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 
 2018-12-31 [NRC - Herstelwerk aan het kapotte internet](https://www.nrc.nl/nieuws/2018/12/31/herstelwerk-aan-het-kapotte-internet-a3127480)
 
+2018-11-29 [Tim Berners-Lee�s Solid Project: Can It Save the Web?] (https://www.extremetech.com/extreme/281334-tim-berners-lees-solid-project-can-it-save-the-web)
+
 2018-10-29 [An introduction to SOLID, Tim Berners-Lee’s new, re-decentralized Web](https://www.freecodecamp.org/news/an-introduction-to-solid-tim-berners-lees-new-re-decentralized-web-25d6b78c523b/)
 
 2018-10-16 [Tim Berners-Lee Introduces "Solid" Decentralized Identity Platform](https://www.infoq.com/news/2018/10/solid-identity-platform/)
@@ -1068,6 +1070,8 @@ Unfuck digital ! — Why we should reboot the digital revolution.](https://mediu
 2018-09-28 [One Small Step for the Web…](https://inrupt.com/blog/one-small-step-for-the-web)
 
 2018-09-23 [The only way to save the Internet is to claim it back from Big Data](https://mastersofmedia.hum.uva.nl/blog/2018/09/23/solid-and-the-decentralisation-of-the-web-the-only-way-to-save-the-internet-is-to-claim-it-back-from-big-data/)
+
+2018-08-29 [Solid Could Change The Internet As You Know It ](https://qrius.com/solid-could-change-the-internet-as-you-know-it/)
 
 2018-08-27 [Decentralising the web: OmiseGO on the importance of user experience for new platforms](https://web.archive.org/web/20180730050637/https://www.computing.co.uk/ctg/news/3036546/decentralising-the-web-omisego-on-the-importance-of-user-experience)
 
