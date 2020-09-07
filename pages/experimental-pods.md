@@ -1,6 +1,6 @@
 Here is a list of experimental Pods for developers to test Solid apps against. 
 
-If you would like to edit the table below or add an experimental Pod to this table [submit a pull reqest](https://github.com/solid/solidproject.org/pulls) or email info@solidproject.org with details. 
+If you would like to edit the table below or add an experimental Pod to this table [submit a pull request](https://github.com/solid/solidproject.org/pulls) or email info@solidproject.org with details. 
 
 | Link | Responsible for Hosting| Location of Hosting | Solid Server Version |
 |-------------------|-------------------|-------------------|-------------------|
