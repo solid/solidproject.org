@@ -256,3 +256,12 @@ $why-carousel-offset: 0;
   display: block;
   text-align: right;
 }
+
+// For some reason browser don't highlight this item as clickable,
+// even though it does expand.
+// I was wondering if that was intentional, but an MDN example also adds a pointer cursor,
+// so it felt safe to do so as well:
+// https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details#Customizing_the_appearance
+details > summary {
+  cursor: pointer;
+}
