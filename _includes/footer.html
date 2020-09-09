@@ -1,4 +1,4 @@
-<footer id="footer" class="footer">
+<footer id="footer" class="footer" role="navigation">
   <div class="container">
     <div class="columns">
       {% for item in site.data.footer %}
@@ -28,8 +28,7 @@
 
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{site.baseUrl}}/">
-        <img
+      <a class="navbar-item" href="{{site.baseUrl}}/"> <img
           src="{{ site.baseurl }}/assets/img/solid-emblem.svg"
           alt="[Solid logo]"
         />
@@ -46,6 +45,7 @@
             src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/github.svg"
             alt="GitHub"
             class="brand-icon"
+	    aria-label="Github"
           />
         </span>
       </a>
@@ -55,6 +55,7 @@
             src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/twitter.svg"
             alt="Twitter"
             class="brand-icon"
+	    aria-label="Twitter"
           />
         </span>
       </a>
@@ -64,6 +65,7 @@
             src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/brands/vimeo-v.svg"
             alt="Vimeo"
             class="brand-icon"
+	    aria-label="Vimeo"
           />
         </span>
       </a>
