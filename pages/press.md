@@ -12,6 +12,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-09-03"
+    title="Solid World September"
+    website="https://ipfs.io/ipfs/QmSH1aut6uikU8EEqRN3FLY6fXqVHcSJcw1JBqBgWvYLe9"
+    speaker="Tim Berners-Lee, Ruben Verborgh, Oz Olivo"
+    video="https://vimeo.com/454813146"
+%}
+
+{%
+  include talk.html
     date="2020-08-06"
     title="Solid World August"
     website="https://www.eventbrite.com/e/solid-world-tickets-111960609196"
