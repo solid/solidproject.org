@@ -15,7 +15,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2020-09-03"
     title="Solid World September"
     website="https://www.eventbrite.com/e/solid-world-tickets-115477011851"
-    speaker="Tim Berners-Lee, Ruben Verborgh, Oz Olivo, Max Leonard and Hannes Ricklefs (BBC R&D), Charlotte Sadd (NatWest Group), Jackson Morgan (O Team)"
+    speaker="Tim Berners-Lee, Ruben Verborgh, Oz Olivo, Max Leonard and Hannes Ricklefs (BBC R&D), Charlotte Sadd (NatWest Group), Jackson Morgan (O Team), Alexandre Boulier (Startin'blox)"
     video="https://vimeo.com/454813146"
 %}
 
