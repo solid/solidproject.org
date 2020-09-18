@@ -15,7 +15,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2020-09-03"
     title="Solid World September"
     website="https://www.eventbrite.com/e/solid-world-tickets-115477011851"
-    speaker="Tim Berners-Lee, Ruben Verborgh, Oz Olivo"
+    speaker="Tim Berners-Lee, Ruben Verborgh, Oz Olivo, Max Leonard and Hannes Ricklefs (BBC R&D), Charlotte Sadd (NatWest Group), Jackson Morgan (O Team), Alexandre Boulier (Startin'blox)"
     video="https://vimeo.com/454813146"
 %}
 
@@ -913,8 +913,6 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 2019-04-05 [ZDNet: Solid, l'idÃ©e de Tim Berners-Lee pour reprendre le contrÃ´le des donnÃ©es](https://www.zdnet.fr/actualites/solid-l-idee-de-tim-berners-lee-pour-reprendre-le-controle-des-donnees-39882941.htm)
 
 2019-04-05 [Bitcoin News: What Article 13 Means for the Cryptocurrency Industry](https://web.archive.org/web/20191219065103/https://news.bitcoin.com/what-article-13-means-for-the-cryptocurrency-industry/)
-
-2019-04-05 [MSN: Tim Berners-Lee Says We've Messed Up The Internet But It Can Be Fixed](https://www.msn.com/en-au/news/techandscience/tim-berners-lee-says-weve-messed-up-the-internet-but-it-can-be-fixed/ar-BBVCXbX)
 
 2019-04-05 [LifeHacker AU: Tim Berners-Lee Says We've Messed Up The Internet But It Can Be Fixed](https://www.lifehacker.com.au/2019/04/berners-lee-says-weve-messed-up-the-internet-but-it-can-be-fixed/)
 

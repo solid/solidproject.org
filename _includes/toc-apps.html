@@ -1,6 +1,6 @@
 {% assign categories_list = "Writing a Solid application AND Vocabularies AND Common patterns AND Tools and libraries" | split: " AND " %}
 {% assign subcategories_list = "Overview AND Quickstart AND Discover AND Create AND Code AND Other" | split: " AND " %}
-<ul class="menu-list">
+<ul class="menu-list" role="navigation">
   {% for cat in categories_list %}
     {% if cat == page.categories[0] %}
       <li>
