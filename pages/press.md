@@ -679,6 +679,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 2020-06-12 [CHANGEMAKERS: Davi Ottenheimer on Data Ethics and How to Save the Web](https://alltechishuman.org/blog/changemakers-davi-ottenheimer-on-data-ethics-and-how-to-save-the-internet) 
 
+2020-06-02 [Solid: Social Linked Data](https://www.csail.mit.edu/research/solid-social-linked-data)
+
 2020-06-02 [Low-code development platform Generative Objects : the journey to open source](https://modeling-languages.com/low-code-open-source-platform-generative-objects/)
 
 2020-05-20 [Open University Solid initiative](https://blockchain.open.ac.uk/#covid-19)
@@ -1070,6 +1072,8 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 
 2018-10-05 [How solid is Timâ€™s plan to redecentralize the web?](https://redecentralize.org/blog/2018/10/05/how-solid.html)
 
+2018-09-30 [Berners-Lee launches startup to commercialise his Solid decentralised web project](https://www.computing.co.uk/news/3063625/berners-lee-launches-startup-to-commercialise-his-solid-decentralised-web-project)
+
 2018-09-29 [Exclusive: Tim Berners-Lee tells us his radical new plan to upend the World Wide Web](https://web.archive.org/web/20181001103951/https://www.fastcompany.com/90243936/exclusive-tim-berners-lee-tells-us-his-radical-new-plan-to-upend-the-world-wide-web)
 
 2018-09-28 [One Small Step for the Webâ€¦](https://inrupt.com/blog/one-small-step-for-the-web)
@@ -1079,6 +1083,8 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 2018-08-29 [Solid Could Change The Internet As You Know It ](https://qrius.com/solid-could-change-the-internet-as-you-know-it/)
 
 2018-08-27 [Decentralising the web: OmiseGO on the importance of user experience for new platforms](https://web.archive.org/web/20180730050637/https://www.computing.co.uk/ctg/news/3036546/decentralising-the-web-omisego-on-the-importance-of-user-experience)
+
+2018-08-14 [Decentralising the web: The key takeaways](https://web.archive.org/web/20200915050439/https://www.computing.co.uk/news/3036546/decentralising-the-web-the-key-takeaways)
 
 2018-07-03 [About Solid](https://web.archive.org/web/20180703172221/https://github.com/solid/solid)
 
