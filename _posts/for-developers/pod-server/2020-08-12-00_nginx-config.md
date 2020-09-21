@@ -12,7 +12,7 @@ Nginx config
 
 `$ nano /etc/nginx/sites-available/default`
 
-```
+```nginx
 # Nginx configuration for Solid on Port 8443
 ## Redirects all HTTP traffic to the HTTPS host
 server {
