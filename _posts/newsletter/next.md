@@ -13,6 +13,7 @@ categories: [Updates]
 Solid World is an opportunity to meet people who are interested in or currently working on Solid. If you missed Solid World you can [watch the recording here]().The [next Solid World]() will happen on the 5th November 2020. 
 
 ### [Press](https://solidproject.org/press)
+* [Daily Beast - One Simple Trick to Fix the Web: Give Us Back Our Data! by Ruben Verborgh](https://www.thedailybeast.com/one-simple-trick-to-fix-the-web-give-us-back-our-data)
 
 ### In Other News
 
