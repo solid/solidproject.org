@@ -10,8 +10,8 @@ categories: [Updates]
 ## Updates
 
 ### [Events](https://solidproject.org/events)
-* Solid World is an opportunity to meet people who are interested in or currently working on Solid. If you missed Solid World you can [watch the recording here]().The [next Solid World]() will happen on the 5th November 2020. 
-* 28th September 2020 - "Solid - Citizens in control of their own data— A virtual event in which the Prime Minister of Flanders explains why the Flemish government is investigating the concept with great interest to improve its services. Information Flanders, Imec and Ghent University are organizing a theme afternoon about Solid in which they propose Flemish initiatives in the fields of culture and media, mobility and GovTech.
+
+28th September 2020 - "Solid - Citizens in control of their own data— A virtual event in which the Prime Minister of Flanders explains why the Flemish government is investigating the concept with great interest to improve its services. Information Flanders, Imec and Ghent University are organizing a theme afternoon about Solid in which they propose Flemish initiatives in the fields of culture and media, mobility and GovTech.
 
 ### [Press](https://solidproject.org/press)
 * [Daily Beast - One Simple Trick to Fix the Web: Give Us Back Our Data! by Ruben Verborgh](https://www.thedailybeast.com/one-simple-trick-to-fix-the-web-give-us-back-our-data)
