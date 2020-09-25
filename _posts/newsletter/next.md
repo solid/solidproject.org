@@ -21,6 +21,8 @@ Solid World is an opportunity to meet people who are interested in or currently 
 * [PoPock](https://scenaristeur.github.io/solid-vue-panes/chat)
 * see an [announcement](https://forum.solidproject.org/t/making-access-to-solid-pods-data-a-breeze-solideal-storage/3427) of [Solideal](https://github.com/solideal/storage)
 * solid-file-client version 1.1.0 has been published. New functions have been added: 1)atomic delete on line with NSS >5.2.4 2) zip/unzip 3) acl builder
+* [Hubl](https://hubl.world/en/), a collaborative tools for distributed organization developed by [Startin'blox](https://startinblox.com/en/). It includes a chat, a job board, a skill directory and so many features are coming. Here is the [code](https://git.startinblox.com/applications/hubl), [Startin'blox documentation](https://docs.startinblox.com) and if you want to meet us it's on community.startinblox.com
+* [Coopedia](https://coopedia.starter.coop/en/), collaborative search engine for cooperative entrepreneurship, built to inspire the next generation of cooperative entrepreneurs worldwide developed by [Startin'blox](https://startinblox.com/en/). Here is the [developper pack](https://coopseurope.coop/sites/default/files/Developer%20Pack%20Coopedia.pdf), [Startin'blox documentation](https://docs.startinblox.com) and if you want to meet us it's on community.startinblox.com
 
 #### Funding 
 * 
