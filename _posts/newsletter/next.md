@@ -11,6 +11,17 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
+This month at Solid World we heard from a pair of guest presenters diving into the practicalities of building sophisticated, scalable Solid apps and services.
+
+Justin Bingham, founder and CTO of [Janeiro Digital](https://www.janeirodigital.com/), presented their work with the NHS in the United Kingdom. We learned how the NHS aims to improve patients’ access to their complete personal records, and their ability to share additional data with their doctors between their appointments to improve their overall health. With Solid, Janeiro Digital has built a solution that gives patients the control to access, share, and manage their medical information with various services there to help them. 
+
+Justin and Josh Collins, Janeiro Digital’s VP of Technology, highlighted how the company’s XFORM Health technology made it possible to integrate existing data silos into Solid Pods in a standardized, interoperable format. They also demonstrated the functional and intuitive patient-focused user interface they were able to build on top of this Pod data.
+
+We also heard from one of Inrupt’s engineering leads, Jack Lawson, about their React SDK V2. To begin, he went over the three major components that make up the React SDK — authentication, visualization, and data syncing. Next, he discussed how the open source toolkit is meant to make it easy for developers to build Solid applications, avoiding stress over tedious details, offering a smooth implementation, and providing the opportunity to leverage Inrupt’s best practices and coding standards. Unfortunately, we ran out of time to see the demo, but plan to see in the near future!   
+
+If you missed Solid World you can look out for recordings of the guest presentations coming soon to [our Vimeo page](https://vimeo.com/solidworld). The next Solid World will take place on the 5th November 2020. Follow along at [solidproject.org/events](http://solidproject.org/events) as we finalize the agenda, which will highlight Solid-based projects from several industries and research areas.
+
+
 28th September 2020 - "Solid - Citizens in control of their own data— A virtual event in which the Prime Minister of Flanders explains why the Flemish government is investigating the concept with great interest to improve its services. Information Flanders, Imec and Ghent University are organizing a theme afternoon about Solid in which they propose Flemish initiatives in the fields of culture and media, mobility and GovTech.
 
 ### [Press](https://solidproject.org/press)
