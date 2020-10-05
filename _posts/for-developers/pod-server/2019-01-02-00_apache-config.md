@@ -88,3 +88,4 @@ SSLCertificateKeyFile /etc/letsencrypt/live/example.org/privkey.pem
 SSLCertificateChainFile /etc/letsencrypt/live/example.org/fullchain.pem
 </VirtualHost>
 ```
+`systemctl restart apache2`
