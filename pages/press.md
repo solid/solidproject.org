@@ -14,7 +14,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
   include talk.html
     date="2020-10-04"
     title="Nextcloud Conference 2020"
-    website="https://www.youtube.com/watch?v=PtnbAf8uQ-M&feature=youtu.be&t=22640"
+    website="https://nextcloud.com/conf-2020/"
+    video="https://www.youtube.com/watch?v=PtnbAf8uQ-M&t=22640"
     speaker="Michiel de Jong"
 %}
 
