@@ -12,6 +12,23 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-10-04"
+    title="Nextcloud Conference 2020"
+    website="https://www.youtube.com/watch?v=PtnbAf8uQ-M&feature=youtu.be&t=22640"
+    speaker="Michiel de Jong"
+%}
+
+{%
+  include talk.html
+    date="2020-10-01"
+    title="Solid World October"
+    website="https://www.eventbrite.com/e/solid-world-tickets-119073298441#"
+    speaker="Tim Berners-Lee, Oz Olivo, Ruben Verborgh, Sarven Capadisli, Justin Bingham, Josh Collins, Jack Lawson"
+%}
+
+
+{%
+  include talk.html
     date="2020-09-03"
     title="Solid World September"
     website="https://www.eventbrite.com/e/solid-world-tickets-115477011851"
