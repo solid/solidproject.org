@@ -11,7 +11,7 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-This month at Solid World we heard from a pair of guest presenters diving into the practicalities of building sophisticated, scalable Solid apps and services.
+1 October 2020 - This month at Solid World we heard from a pair of guest presenters diving into the practicalities of building sophisticated, scalable Solid apps and services.
 
 Justin Bingham, founder and CTO of [Janeiro Digital](https://www.janeirodigital.com/), presented their work with the NHS in the United Kingdom. We learned how the NHS aims to improve patients’ access to their complete personal records, and their ability to share additional data with their doctors between their appointments to improve their overall health. With Solid, Janeiro Digital has built a solution that gives patients the control to access, share, and manage their medical information with various services there to help them. 
 
