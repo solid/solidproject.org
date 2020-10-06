@@ -38,3 +38,10 @@ This month, there's been a website refresh, [check out the latest version of the
 * [Contact Inrupt careers](https://inrupt.com/careers) 
 
 ### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
+
+* Key requirements pertaining to read and write operations are included in the Editors Draft: https://solid.github.io/specification/
+* Updates to Use Cases and Requirements for Authorization: https://github.com/solid/authorization-panel/blob/master/proposals/wac-ucr/index.bs and Data Interoperability: https://github.com/solid/data-interoperability-panel/blob/master/proposals/use-cases-and-requirements/index.bs
+* Progress on Proposals to Authentication: https://github.com/solid/authentication-panel/blob/master/oidc-authentication.md , Data Interop: https://github.com/solid/data-interoperability-panel/tree/master/proposals/ecosystem
+* General exchange concerning existing Authorization issues as well as considerations for new functionality: https://github.com/solid/authorization-panel/issues
+
+Join us in the W3C Solid Community Group. Links to activities are available at https://www.w3.org/community/solid/wiki/Main_Page
