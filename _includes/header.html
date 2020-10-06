@@ -7,16 +7,16 @@
           alt="[Solid logo]"
         />
       </a>
-      <a class="is-hidden-mobile navbar-item navbar-brand-name is-uppercase is-size-4" href="{{site.baseUrl}}/">
+      <a class="navbar-item navbar-brand-name is-uppercase is-size-4" href="{{site.baseUrl}}/">
         Solid
       </a>
     </div>
   
-    <div class="navbar-menu">
-      <div class="navbar-end">
+    <div class="navbar-menu is-hidden-mobile">
+      <div class="navbar-end is-hidden-mobile">
         {% for item in site.data.navigation %}
           <a
-            class="navbar-item is-size-6 is-size-5-tablet"
+            class="navbar-item is-size-6 is-size-5-tablet is-hidden-mobile"
             href="{{ item.link }}"
           >{{ item.name }}</a>
         {% endfor %}

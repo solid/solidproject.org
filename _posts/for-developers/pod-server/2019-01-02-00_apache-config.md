@@ -14,7 +14,7 @@ Apache config<br />
 `$ cd /etc/apache2/mods-enabled`<br />
 `$ ln -s ../mods-available/ssl.conf ssl.conf`<br />
 * edit 000-default.conf<br />
-`nano /etc/apache2/sites-available/000-default.conf`<br />
+`$ nano /etc/apache2/sites-available/000-default.conf`<br />
 add to config in the appropriate section as follows<br />
 
 ```apache
@@ -73,7 +73,7 @@ ProxyPassReverse / https://localhost:8443/
 ```
 
 * edit default-ssl.conf<br />
-`nano /etc/apache2/sites-available/default-ssl.conf`<br />
+`$ nano /etc/apache2/sites-available/default-ssl.conf`<br />
 add to config in the appropriate section as follows<br />
 
 ```apache
@@ -88,3 +88,4 @@ SSLCertificateKeyFile /etc/letsencrypt/live/example.org/privkey.pem
 SSLCertificateChainFile /etc/letsencrypt/live/example.org/fullchain.pem
 </VirtualHost>
 ```
+`$ systemctl restart apache2`
