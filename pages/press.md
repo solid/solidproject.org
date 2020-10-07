@@ -12,6 +12,24 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-10-04"
+    title="Nextcloud Conference 2020"
+    website="https://nextcloud.com/conf-2020/"
+    video="https://www.youtube.com/watch?v=PtnbAf8uQ-M&t=22640"
+    speaker="Michiel de Jong"
+%}
+
+{%
+  include talk.html
+    date="2020-10-01"
+    title="Solid World October"
+    website="https://www.eventbrite.com/e/solid-world-tickets-119073298441#"
+    speaker="Tim Berners-Lee, Oz Olivo, Ruben Verborgh, Sarven Capadisli, Justin Bingham, Josh Collins, Jack Lawson"
+%}
+
+
+{%
+  include talk.html
     date="2020-09-03"
     title="Solid World September"
     website="https://www.eventbrite.com/e/solid-world-tickets-115477011851"
@@ -679,6 +697,8 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 2020-06-12 [CHANGEMAKERS: Davi Ottenheimer on Data Ethics and How to Save the Web](https://alltechishuman.org/blog/changemakers-davi-ottenheimer-on-data-ethics-and-how-to-save-the-internet) 
 
+2020-06-02 [Solid: Social Linked Data](https://www.csail.mit.edu/research/solid-social-linked-data)
+
 2020-06-02 [Low-code development platform Generative Objects : the journey to open source](https://modeling-languages.com/low-code-open-source-platform-generative-objects/)
 
 2020-05-20 [Open University Solid initiative](https://blockchain.open.ac.uk/#covid-19)
@@ -914,8 +934,6 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 
 2019-04-05 [Bitcoin News: What Article 13 Means for the Cryptocurrency Industry](https://web.archive.org/web/20191219065103/https://news.bitcoin.com/what-article-13-means-for-the-cryptocurrency-industry/)
 
-2019-04-05 [MSN: Tim Berners-Lee Says We've Messed Up The Internet But It Can Be Fixed](https://www.msn.com/en-au/news/techandscience/tim-berners-lee-says-weve-messed-up-the-internet-but-it-can-be-fixed/ar-BBVCXbX)
-
 2019-04-05 [LifeHacker AU: Tim Berners-Lee Says We've Messed Up The Internet But It Can Be Fixed](https://www.lifehacker.com.au/2019/04/berners-lee-says-weve-messed-up-the-internet-but-it-can-be-fixed/)
 
 2019-04-05 [Dev.to: How a chess app interacts with Solid](https://dev.to/phadventure/how-a-chess-app-interacts-with-solid-409a)
@@ -1072,6 +1090,8 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 
 2018-10-05 [How solid is Timâ€™s plan to redecentralize the web?](https://redecentralize.org/blog/2018/10/05/how-solid.html)
 
+2018-09-30 [Berners-Lee launches startup to commercialise his Solid decentralised web project](https://www.computing.co.uk/news/3063625/berners-lee-launches-startup-to-commercialise-his-solid-decentralised-web-project)
+
 2018-09-29 [Exclusive: Tim Berners-Lee tells us his radical new plan to upend the World Wide Web](https://web.archive.org/web/20181001103951/https://www.fastcompany.com/90243936/exclusive-tim-berners-lee-tells-us-his-radical-new-plan-to-upend-the-world-wide-web)
 
 2018-09-28 [One Small Step for the Webâ€¦](https://inrupt.com/blog/one-small-step-for-the-web)
@@ -1081,6 +1101,8 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 2018-08-29 [Solid Could Change The Internet As You Know It ](https://qrius.com/solid-could-change-the-internet-as-you-know-it/)
 
 2018-08-27 [Decentralising the web: OmiseGO on the importance of user experience for new platforms](https://web.archive.org/web/20180730050637/https://www.computing.co.uk/ctg/news/3036546/decentralising-the-web-omisego-on-the-importance-of-user-experience)
+
+2018-08-14 [Decentralising the web: The key takeaways](https://web.archive.org/web/20200915050439/https://www.computing.co.uk/news/3036546/decentralising-the-web-the-key-takeaways)
 
 2018-07-03 [About Solid](https://web.archive.org/web/20180703172221/https://github.com/solid/solid)
 
