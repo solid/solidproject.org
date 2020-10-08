@@ -14,6 +14,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 
 | Date | Event | Organiser | Recordings and Slides |
 |---|-------|--------------|--------------|
+2020-11-05|[Solid World November](https://www.eventbrite.com/e/solid-world-tickets-124481709143)|[Solid Team](https://solidproject.org/team)||
 2020-10-01|[Solid World October](https://www.eventbrite.com/e/solid-world-tickets-119073298441)|[Solid Team](https://solidproject.org/team)||
 2020-09-03|[Solid World September](https://www.eventbrite.com/e/solid-world-tickets-115477011851)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/454813146) and slides: [Community Solid Server update (Ruben V.)](https://rubenverborgh.github.io/Solid-World-September-2020/#)|
 2020-08-06|[Solid World August](https://www.eventbrite.com/e/solid-world-tickets-111960609196#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/446435972) and slides: [Community Solid Server (Ruben V.)](https://rubenverborgh.github.io/Solid-World-August-2020/), [Community Roadmap (Tim B.L.)](https://solidos.solid.community/public/Roadmap/Tasks/)|
