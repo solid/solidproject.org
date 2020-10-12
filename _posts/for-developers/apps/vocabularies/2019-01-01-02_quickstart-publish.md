@@ -10,7 +10,7 @@ exclude: true
 To share your vocabulary across different apps, the best way is to **make it
 publicly available online**. One easy way of publishing your vocabulary is
 **putting it in your Pod**. For instance, the obelisk vocabulary is published on
-[Cleopatra's Pod](https://cleopatra.solid.community/public/voc/obelisk.ttl).
+[Cleopatra's Pod](https://cleopatra.solidcommunity.net/public/voc/obelisk.ttl).
 
 It's quite a straightforward operation:
 - create it as a new `Source` in a directory where people can access it,

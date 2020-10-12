@@ -10,7 +10,7 @@ published: true
 
 # How to create your own vocabulary
 
-Let's build a very simple vocabulary describing [obelisks](https://en.wikipedia.org/wiki/Obelisk) (tall, four-sided, narrow tapering monuments that end in a pyramid-like shape), so that [Cleopatra](https://cleopatra.solid.community/profile/card#me) and [Caesar](https://jcaesar.solid.community/profile/card#me) can share information about their personal collections.
+Let's build a very simple vocabulary describing [obelisks](https://en.wikipedia.org/wiki/Obelisk) (tall, four-sided, narrow tapering monuments that end in a pyramid-like shape), so that [Cleopatra](https://cleopatra.solidcommunity.net/profile/card#me) and [Caesar](https://jcaesar.solidcommunity.net/profile/card#me) can share information about their personal collections.
 
 ## From plain English to a graphical representation
 
