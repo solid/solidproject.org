@@ -34,7 +34,7 @@ You can pick a Provider in the following list. However, keep in mind that Solid 
 | Provider | Responsible for Domain Name and Terms | Responsible for Hosting | Location of Hosting |
 |-----------------------------------|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------:|:--------------------:|
 | [inrupt.net](https://inrupt.net) | [Inrupt, Inc.](https://inrupt.com/terms-of-service) | [Amazon](https://aws.amazon.com) | USA |
-| [solid.community](https://solid.community/)| [solid.community GitLab group](https://gitlab.com/solid.community/support) |  | UK|
+| [solidcommunity.net](https://solidcommunity.net/) | [Solid Project](https://github.com/solid/solidcommunity.net_operations) | [Digital Ocean](https://www.digitalocean.com) | UK |
 
 If you are a provider you can add your service to this list by emailing [info@solidproject.org](mailto:info@solidproject.org).
 
