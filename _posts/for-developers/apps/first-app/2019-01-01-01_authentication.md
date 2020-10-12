@@ -16,7 +16,7 @@ To obtain this permission, we will be using [solid-auth-client](https://www.npmj
 2. If not, ask the user for their Identity Provider.
 3. Then call `auth.login()` with the Identity Provider as the first argument.
 
-You can ask the user for their Identity Provider using a regular `<input type="url">`, or using [a convenience library](https://www.npmjs.com/package/@solid/react/) that suggests the most commonly used Providers — at the time of writing, [solid.community](https://solid.community/) and [inrupt.net](https://inrupt.net/).
+You can ask the user for their Identity Provider using a regular `<input type="url">`, or using [a convenience library](https://www.npmjs.com/package/@solid/react/) that suggests the most commonly used Providers — at the time of writing, [solidcommunity.net](https://solidcommunity.net/) and [inrupt.net](https://inrupt.net/).
 
 In code, that process would look roughly as follows:
 
@@ -32,7 +32,7 @@ async function getWebId() {
 
   /* 2. User has not logged in; ask for their Identity Provider: */
   // Implement `getIdentityProvider` to get a string with the user's Identity Provider (e.g.
-  // `https://inrupt.net` or `https://solid.community`) using a method of your choice.
+  // `https://inrupt.net` or `https://solidcommunity.net`) using a method of your choice.
   const identityProvider = await getIdentityProvider();
 
   /* 3. Initiate the login process - this will redirect the user to their Identity Provider: */

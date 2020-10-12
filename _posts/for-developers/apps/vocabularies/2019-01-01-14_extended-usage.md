@@ -7,10 +7,10 @@ categories: [Vocabularies, Create]
 exclude: true
 ---
 
-Now that we have a vocabulary, we can use it to describe data. To this end, let us introduce the two most renowned obelisks designers of their time: [Vuittonluis](https://vuittonluis.solid.community/profile/card#me) and [G. Armani](https://garmani.solid.community/profile/card#me). if you look up their profile, you will notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor):
+Now that we have a vocabulary, we can use it to describe data. To this end, let us introduce the two most renowned obelisks designers of their time: [Vuittonluis](https://vuittonluis.solidcommunity.net/profile/card#me) and [G. Armani](https://garmani.solidcommunity.net/profile/card#me). if you look up their profile, you will notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor):
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
-# The next line defines an empty prefix ":", which points to the current document (e.g. https://garmani.solid.community/profile/card)
+# The next line defines an empty prefix ":", which points to the current document (e.g. https://garmani.solidcommunity.net/profile/card)
 @prefix : <#>.
 
 :me
@@ -19,25 +19,25 @@ Now that we have a vocabulary, we can use it to describe data. To this end, let 
 #...
 ```
 
-In this case, the thing that we are talking about is [`:me`](https://garmani.solid.community/profile/card#me), and we are saying that this thing is of type [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor). [Vuittonluis](https://vuittonluis.solid.community/profile/card#me) keeps track of the [obelisks he sold to VIP](https://vuittonluis.solid.community/public/gallery/prestigious%20sales/). For instance, he built a [custom one](https://vuittonluis.solid.community/public/gallery/prestigious%20sales/cleopatra.ttl#cleopatras_obelisk) for his queen [Cleopatra](https://cleopatra.solid.community/profile/card#me):
+In this case, the thing that we are talking about is [`:me`](https://garmani.solidcommunity.net/profile/card#me), and we are saying that this thing is of type [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor). [Vuittonluis](https://vuittonluis.solidcommunity.net/profile/card#me) keeps track of the [obelisks he sold to VIP](https://vuittonluis.solidcommunity.net/public/gallery/prestigious%20sales/). For instance, he built a [custom one](https://vuittonluis.solidcommunity.net/public/gallery/prestigious%20sales/cleopatra.ttl#cleopatras_obelisk) for his queen [Cleopatra](https://cleopatra.solidcommunity.net/profile/card#me):
 ```turtle
 @prefix : <#>.
 @prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :cleopatras_obelisk a obelisk:Obelisk ;
-    obelisk:ownedBy <https://cleopatra.solid.community/profile/card#me> ;
-    obelisk:builtBy <https://vuittonluis.solid.community/profile/card#me> ;
+    obelisk:ownedBy <https://cleopatra.solidcommunity.net/profile/card#me> ;
+    obelisk:builtBy <https://vuittonluis.solidcommunity.net/profile/card#me> ;
     obelisk:heigth "25.0"^^xsd:float.
 ```
 
-[Cleopatra](<https://cleopatra.solid.community/profile/card#me>) has a [collection of obelisks](https://cleopatra.solid.community/public/collections/My%20obelisk%20collection/). Let's check it out:
+[Cleopatra](<https://cleopatra.solidcommunity.net/profile/card#me>) has a [collection of obelisks](https://cleopatra.solidcommunity.net/public/collections/My%20obelisk%20collection/). Let's check it out:
 ```turtle
 @prefix : <#>.
 @prefix coll: <>.
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix obelisk: <http://w3id.org/obelisk/> .
-@prefix me: <https://cleopatra.solid.community/profile/card#me> .
+@prefix me: <https://cleopatra.solidcommunity.net/profile/card#me> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -52,9 +52,9 @@ coll:
 
 :myDesignerObelisk a obelisk:Obelisk ;
     obelisk:ownedBy me: ;
-    obelisk:builtBy <https://vuittonluis.solid.community/profile/card#me>;
+    obelisk:builtBy <https://vuittonluis.solidcommunity.net/profile/card#me>;
     obelisk:heigth "25.0"^^xsd:float ;
-    rdfs:seeAlso <https://vuittonluis.solid.community/public/gallery/prestigious%20sales/cleopatra.ttl#cleopatras_obelisk> .
+    rdfs:seeAlso <https://vuittonluis.solidcommunity.net/public/gallery/prestigious%20sales/cleopatra.ttl#cleopatras_obelisk> .
 
 :myOwnObelisk a obelisk:Obelisk ;
     obelisk:ownedBy me: ;
