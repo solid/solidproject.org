@@ -80,6 +80,7 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 * [Hello World](https://melvincarvalho.github.io/helloworld/) [Source code](https://github.com/melvincarvalho/helloworld) [MIT License Copyright (c) 2015](https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho)
 
 ## Pod Management
+* [Inox](https://inox.app) helps you see what happened to your data accross multiple pods.
 * [Solid Notify](https://solid-notify.5apps.com/) sends you a desktop notification when a Solid resource changes.
 * [SolidVC](https://github.com/kezike/solid-vc) is a [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid.
 * [PoPock](https://scenaristeur.github.io/solid-vue-panes) Your POds in the POCKet a very modular SoLiD application that is based on webcomponents, vuejs, vue-bootstrap, using community libs like solid-file-client, ldflex-query, tripledoc switching. [source](https://github.com/scenaristeur/solid-vue-panes)
