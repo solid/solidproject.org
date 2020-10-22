@@ -43,3 +43,6 @@ If you are a provider you can add your service to this list by emailing [info@so
 The way to get most control of your data is to **self-host**. Self-hosting means that your data is physically stored on a hard drive you hold at home, and managed by [a software](/for-developers/pod-server) you run on your own machine. This way, you don't have to entrust any third party with your data. Currently, this option still requires some technical background, and it may not be suitable for everyone yet. 
 
 We would like to make self-hosting a more user-friendly option in the future. The great thing about Solid is the flexibility it offers: you can choose to outsource the work for now and pick a provider, and **move to self-hosting later** on when the tools are ready for you. 
+
+# Browsing through data
+There is a handy [userguide](https://github.com/solid/userguide/blob/master/README.md) used by developers, about browsing through Solid pod data.
