@@ -18,9 +18,9 @@ obelisk: rdf:type owl:Ontology ;
     vann:preferredNamespaceURI <http://w3id.org/obelisk/> ;
     # Ownership
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:creator <https://cleopatra.solid.community/profile/card#me> ;
-    dcterms:contributor <https://jcaesar.solid.community/profile/card#me> ;
-    dcterms:publisher <https://jcaesar.solid.community/profile/organizations/spqr.ttl#spqr>;
+    dcterms:creator <https://cleopatra.solidcommunity.net/profile/card#me> ;
+    dcterms:contributor <https://jcaesar.solidcommunity.net/profile/card#me> ;
+    dcterms:publisher <https://jcaesar.solidcommunity.net/profile/organizations/spqr.ttl#spqr>;
     # Version
     owl:versionIRI <http://w3id.org/obelisk/2019/10/09/ns> ;
     owl:priorVersion <http://w3id.org/obelisk/2019/10/08/ns> ;

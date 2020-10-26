@@ -144,7 +144,7 @@ obelisk:heigth a owl:DataProperty ;
     rdfs:range xsd:float.
 ```
 
-And why stop there? [Cleopatra](https://cleopatra.solid.community/profile/card#me) and [Caesar](https://jcaesar.solid.community/profile/card#me) want their vocabulary to be reused throughout the entire Roman empire, so they decide to also provide Italian translations for their labels and comments.
+And why stop there? [Cleopatra](https://cleopatra.solidcommunity.net/profile/card#me) and [Caesar](https://jcaesar.solidcommunity.net/profile/card#me) want their vocabulary to be reused throughout the entire Roman empire, so they decide to also provide Italian translations for their labels and comments.
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -265,10 +265,10 @@ obelisk: rdf:type owl:Ontology ;
     # Ownership information
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     # Note that people are identified by their webid
-    dcterms:creator <https://cleopatra.solid.community/profile/card#me> ;
-    dcterms:contributor <https://jcaesar.solid.community/profile/card#me> ;
+    dcterms:creator <https://cleopatra.solidcommunity.net/profile/card#me> ;
+    dcterms:contributor <https://jcaesar.solidcommunity.net/profile/card#me> ;
     # Here, the publisher is not a person, but an institution
-    dcterms:publisher <https://jcaesar.solid.community/profile/organizations/spqr.ttl#spqr> .
+    dcterms:publisher <https://jcaesar.solidcommunity.net/profile/organizations/spqr.ttl#spqr> .
 
 # The remainder of the vocabulary is unchanged
 obelisk:Obelisk a rdfs:Class ;
@@ -308,9 +308,9 @@ obelisk: rdf:type owl:Ontology ;
     vann:preferredNamespaceUri <http://w3id.org/obelisk/> ;
     # Ownership
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:creator <https://cleopatra.solid.community/profile/card#me> ;
-    dcterms:contributor <https://jcaesar.solid.community/profile/card#me> ;
-    dcterms:publisher <https://jcaesar.solid.community/profile/organizations/spqr.ttl#spqr>;
+    dcterms:creator <https://cleopatra.solidcommunity.net/profile/card#me> ;
+    dcterms:contributor <https://jcaesar.solidcommunity.net/profile/card#me> ;
+    dcterms:publisher <https://jcaesar.solidcommunity.net/profile/organizations/spqr.ttl#spqr>;
     # Version
     owl:versionInfo "0.1.0" ;
     dcterms:issued "52BC-01-01" ;

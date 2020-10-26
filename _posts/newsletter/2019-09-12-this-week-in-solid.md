@@ -70,7 +70,7 @@ An exception to this rule is that if a given resource is about a very specific t
 
 #### How will this affect my experience of the data browser
 
-If the Solid server that hosts your Pod is using a version of the data browser that includes this feature _(note: solid.community and inrupt.net will upgrade to this as soon as we've fixed some bugs, probably by early October, 2019)_, you may notice that some views disappear. To access these views, you will have to set user roles for yourself. You can do this through Preferences, which you can access through your Dashboard (which is globally available through your user menu, or on the root of your Pod).
+If the Solid server that hosts your Pod is using a version of the data browser that includes this feature _(note: solidcommunity.net and inrupt.net will upgrade to this as soon as we've fixed some bugs, probably by early October, 2019)_, you may notice that some views disappear. To access these views, you will have to set user roles for yourself. You can do this through Preferences, which you can access through your Dashboard (which is globally available through your user menu, or on the root of your Pod).
 
 To get a complete list of views and which ones that are connected to the various user roles, please refer to [this document that describes the current state of the data browser (work in progress)](https://megoth.inrupt.net/public/SolidDataBrowser//current.html#conceptual-model-of-panes-in-the-current-data-browser).
 

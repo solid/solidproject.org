@@ -7,10 +7,10 @@ categories: [Vocabularies, Quickstart]
 exclude: true
 ---
 
-Now that we have a vocabulary, let's use it to describe some real obelisk data! To this end, let us introduce the two most renowned obelisk sculptors of all time: [Vuittonluis](https://vuittonluis.solid.community/profile/card#me) and [G. Armani](https://garmani.solid.community/profile/card#me). If you look up their profiles, you'll notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor):
+Now that we have a vocabulary, let's use it to describe some real obelisk data! To this end, let us introduce the two most renowned obelisk sculptors of all time: [Vuittonluis](https://vuittonluis.solidcommunity.net/profile/card#me) and [G. Armani](https://garmani.solidcommunity.net/profile/card#me). If you look up their profiles, you'll notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor):
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
-# The next line defines an empty prefix ":", which points to the current document (e.g. https://garmani.solid.community/profile/card)
+# The next line defines an empty prefix ":", which points to the current document (e.g. https://garmani.solidcommunity.net/profile/card)
 @prefix : <#>.
 
 # "a" is the standard shorthand for "rdf:type".
@@ -19,12 +19,12 @@ Now that we have a vocabulary, let's use it to describe some real obelisk data! 
 #...
 ```
 The following chart could be a graphical representation for this:
-[G. Armani](https://garmani.solid.community/profile/card) is a [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor)
+[G. Armani](https://garmani.solidcommunity.net/profile/card) is a [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor)
 
 ![G. Armani]({{site.baseurl}}/assets/img/tutorials/vocabularies/obelisk_vocab_2.png)
 We see on the top half our vocabulary, in its own document, and in the bottom half a snippet of the G.Armani's profile documentument. The profile document does not define new classes and properties: it is composed of data, which is described using existing vocabularies (such as the Obelisk vocabulary) by referencing the IRI of their terms (here, [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor) for instance).
 
-Describing data uses the same syntax as building a vocabulary: the thing that we are talking about is [`:me`](https://garmani.solid.community/profile/card#me), and we are saying that this thing is of [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor).  
+Describing data uses the same syntax as building a vocabulary: the thing that we are talking about is [`:me`](https://garmani.solidcommunity.net/profile/card#me), and we are saying that this thing is of [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor).  
 
 ## Linking data in your Pod... and beyond!
 
