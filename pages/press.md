@@ -12,6 +12,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-10-06"
+    title="SEMIC Workshop, 6 October 2020"
+    website="https://ec.europa.eu/isa2/news/solid-workshop-highlights_en"
+    slide="https://rubenverborgh.github.io/SEMIC-Workshop-2020/"
+    speaker="Ruben Verborgh"
+%}
+
+{%
+  include talk.html
     date="2020-10-04"
     title="Nextcloud Conference 2020"
     website="https://nextcloud.com/conf-2020/"
