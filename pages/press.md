@@ -831,6 +831,8 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 
 2019-10-23 [PC Magazine: Tim Berners-Lee: IT Leaders Must Build Values into Their Companies and Systems](https://www.pcmag.com/article/371488/tim-berners-lee-it-leaders-must-build-values-into-their-com)
 
+2019-10-20 [Data ownership and the semantic web: Interview with Professor Ruben Verborgh (Part 2)](https://tapmydata.com/data-ownership-and-the-semantic-web-interview-with-professor-ruben-verborgh-part-2/)
+
 2019-10-11 [Computing: Solid's Ruben Verborgh: 'We need competition based on quality of service not on data harvesting'](https://www.computing.co.uk/ctg/analysis/3082496/solids-ruben-verborgh-we-need-competition-based-on-quality-of-service-not-on-data-harvesting)
 
 2019-09-24 [Give me all my data Facebook: Interview with professor Ruben Verborgh (Part 1)](https://tapmydata.com/give-me-my-data-facebook-interview-with-ruben-verborgh/)
