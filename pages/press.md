@@ -1149,6 +1149,10 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 
 2018-07-01 [â€œI was devastatedâ€: Tim Berners-Lee, the man who created the World Wide Web, has some regrets](https://www.vanityfair.com/news/2018/07/the-man-who-created-the-world-wide-web-has-some-regrets)
 
+### 2017
+
+2017       [Chapter 4 :Decentralising the Social Web  (and other stories)](http://dr.amy.gy/chapter4#social-and-personal-datastores)
+
 ### 2016
 
 2016-08-10 [How the father of the World Wide Web plans to reclaim it from Facebook and Google](http://www.digitaltrends.com/web/ways-to-decentralize-the-web/)
