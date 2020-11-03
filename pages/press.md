@@ -111,6 +111,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-03-30"
+    title="Personal data, universality, and the World Wide Web"
+    website="https://studiegids.ugent.be/2019/EN/studiefiches/B001581.pdf"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Technology-Human-Rights-2020/"
+%}
+
+{%
+  include talk.html
     date="2020-02-24"
     title="RSA"
     website="https://www.rsaconference.com/experts/davi-ottenheimer-3"
