@@ -833,6 +833,8 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 
 2019-10-11 [Computing: Solid's Ruben Verborgh: 'We need competition based on quality of service not on data harvesting'](https://www.computing.co.uk/ctg/analysis/3082496/solids-ruben-verborgh-we-need-competition-based-on-quality-of-service-not-on-data-harvesting)
 
+2019-09-24 [Give me all my data Facebook: Interview with professor Ruben Verborgh (Part 1)](https://tapmydata.com/give-me-my-data-facebook-interview-with-ruben-verborgh/)
+
 2019-09-16 [Computing: Blockchain latest news: ICOs are not dead, but they're certainly changing says Diacle](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle/page/2)
 
 2019-09-13 [Computing: Blockchain latest news: Santander unveils $20 million bond that lives on the Ethereum blockchain](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle)
