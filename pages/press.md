@@ -163,6 +163,14 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2019-12-20"
+    title="Solid Winter Meetup Enschede - How To Fix The Internet"
+    website="https://www.utwente.nl/en/digital-society/events/2019/12/63530/solid-winter-meetup-enschede-how-to-fix-the-internet"
+    speaker="Ruben Verborgh"
+%}
+
+{%
+  include talk.html
     date="2019-12-11"
     title="MyData Madrid"
     website="https://www.meetup.com/es-ES/MyData-Madrid/events/tpmwjryzqbqb/"
