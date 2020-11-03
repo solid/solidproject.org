@@ -12,6 +12,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-10-28"
+    title="Data as the key to smarter innovation"
+    website="https://versnellingsplan.nl/english/"
+    slide="https://rubenverborgh.github.io/Meetup-Versnellingsplan/"
+    speaker="Ruben Verborgh"
+%}
+
+{%
+  include talk.html
     date="2020-10-06"
     title="SEMIC Workshop, 6 October 2020"
     website="https://ec.europa.eu/isa2/news/solid-workshop-highlights_en"
