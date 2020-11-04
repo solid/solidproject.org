@@ -154,6 +154,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-02-18"
+    title="An introduction to Solid"
+    website="https://speakerdeck.com/noeldemartin/an-introduction-to-solid"
+    slides="https://speakerdeck.com/noeldemartin/an-introduction-to-solid"
+    speaker="NoelDeMartin"
+%}
+
+{%
+  include talk.html
     date="2020-02-07"
     title="Solid CERN"
     website="https://indico.cern.ch/e/CERN-Solid-brainstorming"
