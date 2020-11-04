@@ -129,6 +129,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-02-27"
+    title="Showcasing an app that uses the Solid protocol for decentralized storage"
+    website="https://speakerdeck.com/noeldemartin/showcasing-an-app-that-uses-the-solid-protocol-for-decentralized-storage"
+    speaker="NoelDeMartin"
+    slides="https://speakerdeck.com/noeldemartin/showcasing-an-app-that-uses-the-solid-protocol-for-decentralized-storage"
+%}
+
+{%
+  include talk.html
     date="2020-02-24"
     title="RSA"
     website="https://www.rsaconference.com/experts/davi-ottenheimer-3"
