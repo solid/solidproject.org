@@ -434,6 +434,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2019-03-10"
+    title="Designing For the Next 30 Years of the Web"
+    website="https://schedule.sxsw.com/2019/events/PP93227"
+    speaker="John Bruce, Justin Bingham"
+    audio="http://audio.sxsw.com/2019/events/PP93227.mp3"
+%}
+
+{%
+  include talk.html
     date="2019-03-06"
     title="Washington Post Live"
     website="https://www.washingtonpost.com/gdpr-consent/?destination=%2fblogs%2fpost-live%2f%3f"
