@@ -688,6 +688,14 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2016-04-12"
+    title="Building Decentralized Applications For The Social Web"
+    website="http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web"
+    speaker="Andrei Sambra, Amy Guy, Sarven Capadisli, Nicola Greco"
+%}
+
+{%
+  include talk.html
     date="2016-04-07"
     title="IPRI meeting"
     website="https://2016.decentralizedweb.net"
