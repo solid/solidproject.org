@@ -10,26 +10,27 @@ exclude: true
 # Getting Started Tutorial
 
 This tutorial creates an introductory application that uses Inrupt's
-JavaScript client libraries to read your user profile data.
+JavaScript client libraries to read and write your user profile data.
 
 Alternatively, to create a sample application using Inrupt's Solid React SDK,
 refer to Inrupt's [Solid React SDK documentation](https://docs.inrupt.com/developer-tools/javascript/react-sdk/).
 
-The tutorial uses [npm](https://www.npmjs.com/get-npm) and [Parcel](https://parceljs.org/)
+This tutorial uses [npm](https://www.npmjs.com/get-npm) and [Parcel](https://parceljs.org/)
 to run the application locally on `localhost:1234`.
 
 ![Locally Run Getting Started Application]({{site.baseurl}}/assets/img/tutorials/locally-run-application.png)
 
 ## Prerequisites
 
-#### Register Your Pod and Create Your Profile
-
 **NOTE:** This tutorial assumes the creation of a testing Pod on
    `https://solidcommunity.net/`. If your Pod is not on 
    `https://solidcommunity.net/` (e.g. perhaps you created your Pod on 
-   `https://pod.inrupt.com`), you'll just need to change the `oidcIssuer`
-    value in the application's `index.js` file accordingly.
+   `https://pod.inrupt.com`), then you'll just need to change the value of the
+   `IDENTITY_PROVIDER` variable in the application's `index.js` file (shown
+    below) accordingly, and you can ignore the following Pod registration steps.
    
+### Register Your Pod and Create Your Profile
+
 If you don't already have a Pod, simply register one now:
 
  - Open a browser to `https://solidcommunity.net/`.
@@ -51,7 +52,7 @@ Node.js installation.
 
 1. Initialize the application
     
-    * Create a directory for the project:
+    * Create a directory for the application:
     
     ```shell
       mkdir my-demo-app
@@ -63,18 +64,18 @@ Node.js installation.
       cd my-demo-app
     ```
     
-    * Create an empty application:
+    * Create a brand new, empty application:
     
         ```shell
           npm init
         ```
    
         * During initialization, you can either hit return to accept the
-          default values (including empty values) or supply your own values.
+          default values (including empty values), or supply your own values.
     
-        * When prompted ``Is this OK? (yes)``, enter to accept ``yes``.
+        * When prompted ``Is this OK? (yes)``, hit return to accept ``yes``.
 
-2. Install Inrupt client libraries:
+2. Install the Inrupt client libraries:
 
     ```shell
     npm install @inrupt/solid-client @inrupt/solid-client-authn-browser @inrupt/vocab-common-rdf
@@ -89,8 +90,7 @@ Node.js installation.
         ```
 
 4. Edit the `package.json` file to list the browsers supported by
-   this application. Specifically, add the `browserslist` field and
-   value:
+   this application. Specifically, add the `browserslist` field and value:
 
    **NOTE:** Be sure to add the comma after the preceding field before adding
       the `browserslist` field.
@@ -110,19 +110,18 @@ Node.js installation.
     ```
 
    **NOTE:** Without the `browserslist` specification, Parcel would need to
-   inject a compatibility layer to avoid a `regeneratorRuntime`
-   reference error since the sample application uses `async`
-   functions. As an alternative to modifying the `package.json` file,
-   you could import `regenerator-runtime/runtime` in your JavaScript
-   code to inject a compatibility layer.
+   inject a compatibility layer to avoid a `regeneratorRuntime` reference error
+   since our sample application uses `async` functions.
+   
+   As an alternative to modifying the `package.json` file, you could import
+   `regenerator-runtime/runtime` in your JavaScript code, which will inject a
+    suitable compatibility layer.
 
 5. Create the Application:
 
-    In the `my-demo-app` directory, create the files for the application.
-    The tutorial provides an explanation of the JavaScript code at the :ref:`end of the
-    tutorial <getting-started-code-details>`.
+    In the `my-demo-app` directory, create the files for our application.
 
-    * Create the `my-demo.css` file with the following content:
+    * Create a `my-demo.css` file with the following content:
 
         ```css
         h2,h3 {
@@ -210,21 +209,21 @@ Node.js installation.
         
                     <dl class="display">
                         <dt>Writing status:&nbsp</dt>
-                        <strong><span id="labelWriteStatus"></span></strong>
+                        <strong><span id="labelWriteStatus">...not written yet...</span></strong>
                     </dl>
                 </div>
         
                 <div id="read" class="panel">
                     <div class="row">
                         <label id="readlabel" for="webID"
-                        >3. Read back your name (or anyone's!):
+                        >3. Read back name (anyone's!) from their WebID:
                         </label>
                         <input
                                 type="url"
                                 id="webID"
                                 name="webID"
                                 size="50"
-                                value="Your name here"
+                                value="...not logged in yet - but enter any WebID to read from it's profile..."
                         />
                         <button name="btnRead" id="btnRead">Read Profile</button>
                     </div>
@@ -371,7 +370,7 @@ Node.js installation.
         ```
       
    **NOTE:** If your Pod is not on `https://solidcommunity.net`, modify the
-      `oidcIssuer` value accordingly.
+      value of the `IDENTITY_PROVIDER` variable accordingly.
 
 6. Run the Application:
 
@@ -381,7 +380,7 @@ Node.js installation.
         npx parcel index.html
         ```
 
-       The output resembles the following:
+       The output should resemble the following:
 
         ```shell
           Server running at http://localhost:1234
@@ -390,7 +389,7 @@ Node.js installation.
         ```
 
         If there are warnings with regards to the various source maps, you
-        can ignore them.
+        can safely ignore them.
 
 7. Open `localhost:1234` in a browser.
 
@@ -402,16 +401,16 @@ Node.js installation.
       Enter your username and password to log in.
 
     * The first time you log into your Pod with this brand new application you
-      just created, you'll be prompted to authorize it (named 
-      `http://localhost:1234`) to access your Pod. To allow the application to
-      read and write to your Pod, click `Authorize`.
+      just created, you'll be prompted to authorize it to access your Pod (it'll
+      be named `http://localhost:1234`). To allow the application to read and
+      write to your Pod, click `Authorize`.
 
-    * You should be redirected back to your client application page.
+    * You should be redirected back to our client application.
 
         **NOTE:** If you encounter redirect issues trying to log in, you may
         need to clear your browser's cache.
           
-    * You should see a message telling you:
+    * You should now see a message telling you:
          ```
          Your session is logged in with the WebID [<your WebID>].
          ```
@@ -422,7 +421,7 @@ your Solid profile.
    * Let's start by simply clicking the `Read Profile` button.
        * You should see the name you entered when you registered your Pod. 
 
-   * Now let's update your name. Simply enter a new name in the 'Write your
+   * Now let's update your name. Simply enter a new name in the '2. Write your
    name' textfield, and click the 'Write to Profile' button.
        * You should see the message:
            ```
@@ -434,9 +433,8 @@ your Solid profile.
        * You should see the updated name displayed!
 
    You can also read the public profiles of anyone else in the world with a
-   Solid Pod by simply entering their WebID into the text box of section 3 of
-   the application; e.g., `https://docs-example.inrupt.net/profile/card#me`
-   (**NOTE:** If you do try that example WebID, you should see the name
+   Solid Pod by simply entering their WebID into the text box of section 3;
+    e.g., `https://docs-example.inrupt.net/profile/card#me` (**NOTE:** If you do try that example WebID, you should see the name
    `Changing Docs Example`!).
 
 10. Exit the Application
