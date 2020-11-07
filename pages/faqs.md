@@ -142,8 +142,8 @@ Technically, you may host your <a href="http://xmlns.com/foaf/spec/">FOAF</a> pr
 
 # The Bigger Picture  
 
-## Doesn't the [Data Transfer Project](https://datatransferproject.dev) fix the data concerns? 
-It’s a great start. The next step is to build a healthy array of options for users to make their data work for themselves.
+## Doesn't the Data Transfer Projecthttps://datatransferproject.dev fix the data concerns?
+The [Data Transfer Project](https://datatransferproject.dev) is a great start. The next step is to build a healthy array of options for users to make their data work for themselves.
 
 ## How to integrate iOS and Android apps into Solid? 
 
@@ -154,9 +154,9 @@ It is possible for developers to take an iOS or Android app and make it Solid co
 Currently there are no developer kits in development for Android or iOS. If you really want to have an app that can be installed on Android or iOS, you might consider writing it as a progressive web app or writing it as a hybrid app.
 </details>
 
-## Arguably the [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) or [Linked Data](https://en.wikipedia.org/wiki/Linked_data) never took off, so why is Solid working with it? 
+## Arguably the Semantic Web or Linked Data never took off, so why is Solid working with it?
 
-The Semantic Web and Linked Data principles and technologies have always meant to **make data more reusable**, and to **make data independent from applications**, which is why it is at the core of Solid.
+The [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) principles and technologies have always meant to **make data more reusable**, and to **make data independent from applications**, which is why it is at the core of Solid.
 
 <details>
 <summary class="has-text-primary">More details</summary>
