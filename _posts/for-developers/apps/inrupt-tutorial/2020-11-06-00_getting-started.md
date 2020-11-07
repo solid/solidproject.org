@@ -327,7 +327,7 @@ Node.js installation.
           // Update the page with the retrieved values.
           document.getElementById("labelWriteStatus").innerHTML = `Wrote [${name}] as name successfully!`;
           document.getElementById("labelFN").style.color = `red`;
-          document.getElementById("labelFN").innerHTML = `...click the 'Read Profile' button to to see what the name might be now...?!`;
+          document.getElementById("labelFN").innerHTML = `...click the 'Read Profile' button to see what the name might be now...?!`;
         }
         
         // 3. Read profile
@@ -417,7 +417,7 @@ Node.js installation.
          ```
 
 9. Now that you're logged in, you can freely read and write the information in
-your profile.
+your Solid profile.
 
    * Let's start by simply clicking the `Read Profile` button.
        * You should see the name you entered when you registered your Pod. 
