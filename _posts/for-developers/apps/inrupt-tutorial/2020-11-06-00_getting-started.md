@@ -30,7 +30,7 @@ to run the application locally on `localhost:1234`.
    `https://pod.inrupt.com`), you'll just need to change the `oidcIssuer`
     value in the application's `index.js` file accordingly.
    
-If you don't already have a Pod:
+If you don't already have a Pod, simply register one now:
 
  - Open a browser to `https://solidcommunity.net/`.
 
@@ -40,36 +40,6 @@ If you don't already have a Pod:
 
    You'll be redirected to your public Solid Pod URL:
    `https://<yourusername>.solidcommunity.net/`.
-
- - Click `Log in` on the upper right corner (a dialog box should popup labelled
- `Log in to solidcommunity.net`)
-
- - From the list of identity providers, click on the blue button labelled
- `solidcommunity.net` (**_NOTE:_** do *not* click the blue button labelled 'Solid Community'!).
-
- - Enter your `Username` and `Password`, and click `Log in`.
- 
- - Click on the hyperlink in the text saying: `You are logged in as https://<yourusername>.solidcommunity.net/profile/card#me.`
-
- - Click on the small person icon in the upper-right corner of the
- screen, and select `Edit your profile` from the drop-down menu that appears.
-
-   **NOTE:** You may need to reload the page if you don't see that person icon.
-
- - Edit your profile.
- 
-   **NOTE:** Remember that all your profile information is `public`.
-
-   For this tutorial:
-
-   1. Enter any name you like in the `Name` field.
-
-   2. Enter a role in the `Role` field.
-
-   Your data will be saved automatically (i.e. there is no 'Save' button).
-
- - Log out. Move your mouse to the person icon in the upper-right
-   corner to display additional menu items, and click `Log out`.
 
 ### Install `npm`
 
@@ -159,11 +129,6 @@ Node.js installation.
             margin: 1rem 1.2rem 1rem 1.4rem;
         }
         
-        body * {
-           margin-left: .5rem;
-           margin-right: 1rem;
-        }
-        
         header {
            border-bottom: #5795b9 solid;
            padding-left: .5rem;
@@ -201,14 +166,6 @@ Node.js installation.
           display: grid;
           grid-template-columns:  max-content auto;
         }
-        
-        dt {
-          grid-column-start: 1;
-        }
-        
-        dd {
-          grid-column-start: 2;
-        }
         ```
    
     * Create an `index.html` file with the following content:
@@ -216,40 +173,67 @@ Node.js installation.
         ```html
         <!DOCTYPE html>
         <html>
-          <head>
-            <meta charset="utf-8">
-            <title>Getting Started: Inrupt JavaScript Client Libraries</title>
-            <script defer src="./index.js" ></script>
-            <link rel="stylesheet" href="my-demo.css" />
-          </head>
-          <body>
-            
-            <header>
-                <h2>Getting Started</h2>
-                <h3>using the Inrupt JavaScript Client Libraries</h3>
-            </header>
-            <section id="login" class="panel">
-                <div class="row">
-                  <label id="labelLogin" for="btnLogin">1. Click the button to log in to [<span id="identity_provider">...provided by the JavaScript code...</span>]: </label>
-                  <button name="btnLogin" id="btnLogin">Login</button> 
-                  <p id="labelStatus"></p>
-                </div>
-            </section>
+            <head>
+                <meta charset="utf-8" />
+                <title>Getting Started: Inrupt JavaScript Client Libraries</title>
+                <script defer src="./index.js"></script>
+                <link rel="stylesheet" href="my-demo.css" />
+            </head>
         
-            <div id="read" class="panel" >
-              <div class="row">
-                <label id="readlabel" for="webID">2. Enter a WebID: </label>
-                <input type="url" id="webID" name="webID"  size="50" pattern="https://.*" value="https://docs-example.inrupt.net/profile/card#me">
-                <button name="btnRead" id="btnRead" >Read Profile</button>
-              </div>
-              <dl class="display"> 
-                  <dt>Formatted Name (FN): </dt>
-                  <dd id="labelFN"></dd>
-                  <dt>Role: </dt>
-                  <dd id="labelRole"></dd>
-              </dl>
-            </div>
-          </body>
+            <body>
+                <header>
+                    <h2>Getting Started</h2>
+                    <h3>with Inrupt JavaScript Client Libraries</h3>
+                </header>
+                <section id="login" class="panel">
+                    <div class="row">
+                        <label id="labelLogin" for="btnLogin">1. Click the button to log into
+                            <span id="identity_provider">...provided by the JavaScript code...</span>:
+                        </label>
+                        <button name="btnLogin" id="btnLogin">Login</button>
+                        <p id="labelStatus"></p>
+                    </div>
+                </section>
+        
+                <div id="read" class="panel">
+                    <div class="row">
+                        <label id="writelabel" for="name">2. Write your name: </label>
+                        <input
+                                type="text"
+                                id="input_name"
+                                name="name"
+                                size="50"
+                                value="Your name here"
+                        />
+                        <button name="btnWrite" id="btnWrite">Write to Profile</button>
+                    </div>
+        
+                    <dl class="display">
+                        <dt>Writing status:&nbsp</dt>
+                        <strong><span id="labelWriteStatus"></span></strong>
+                    </dl>
+                </div>
+        
+                <div id="read" class="panel">
+                    <div class="row">
+                        <label id="readlabel" for="webID"
+                        >3. Read back your name (or anyone's!):
+                        </label>
+                        <input
+                                type="url"
+                                id="webID"
+                                name="webID"
+                                size="50"
+                                value="Your name here"
+                        />
+                        <button name="btnRead" id="btnRead">Read Profile</button>
+                    </div>
+                    <dl class="display">
+                        <dt>Formatted Name (FN) read from Pod:&nbsp</dt>
+                        <strong><span id="labelFN">...not read yet...</span></strong>
+                    </dl>
+                </div>
+            </body>
         </html>
         ```
 
@@ -259,29 +243,34 @@ Node.js installation.
         import {
           getSolidDataset,
           getThing,
-          getStringNoLocale
+          setThing,
+          getStringNoLocale,
+          setStringNoLocale,
+          saveSolidDatasetAt
         } from "@inrupt/solid-client";
         
         import { Session } from "@inrupt/solid-client-authn-browser";
         
         import { VCARD } from "@inrupt/vocab-common-rdf";
         
-        
-        const session = new Session();
-      
         const IDENTITY_PROVIDER = "https://solidcommunity.net";
-      
         document.getElementById("identity_provider").innerHTML = `[<a target="_blank" href="${IDENTITY_PROVIDER}">${IDENTITY_PROVIDER}</a>]`;
         
+        const session = new Session();
+        
         const buttonLogin = document.querySelector("#btnLogin");
+        const buttonWrite = document.querySelector("#btnWrite");
         const buttonRead = document.querySelector("#btnRead");
         
         // 1a. Start Login Process. Call session.login() function.
         async function login() {
-          if ( !session.info.isLoggedIn && !new URL(window.location.href).searchParams.get("code")) {
+          if (
+            !session.info.isLoggedIn &&
+            !new URL(window.location.href).searchParams.get("code")
+          ) {
             await session.login({
-              oidcIssuer: IDENTITY_PROVIDER,
-              redirectUrl: "http://localhost:1234",
+              oidcIssuer: "https://solidcommunity.net",
+              redirectUrl: window.location.href
             });
           }
         }
@@ -289,13 +278,14 @@ Node.js installation.
         // 1b. Login Redirect. Call session.handleIncomingRedirect() function.
         // When redirected after login, finish the process by retrieving session information.
         async function handleRedirectAfterLogin() {
-          // If redirected, has code
-          if (new URL(window.location.href).searchParams.get("code")) {
-            await session.handleIncomingRedirect(window.location.href);
-        
+          await session.handleIncomingRedirect(window.location.href);
+          if (session.info.isLoggedIn) {
             // Update the page with the status.
-            document.getElementById("labelStatus").textContent = "Your session is logged in.";
+            document.getElementById(
+              "labelStatus"
+            ).innerHTML = `Your session is logged in with the WebID [<a target="_blank" href="${session.info.webId}">${session.info.webId}</a>].`;
             document.getElementById("labelStatus").setAttribute("role", "alert");
+            document.getElementById("webID").value = session.info.webId;
           }
         }
         
@@ -304,7 +294,43 @@ Node.js installation.
         // If the function is called when not part of the login redirect, the function is a no-op.
         handleRedirectAfterLogin();
         
-        // 2. Read profile
+        // 2. Write to profile
+        async function writeProfile() {
+          if (!session.info.isLoggedIn) {
+            // You must be authenticated to write.
+            return;
+          }
+          const webID = session.info.webId;
+          const name = document.getElementById("input_name").value;
+        
+          // To write to a profile, you must be authenticated. That is the role of the fetch
+          // parameter in the following call.
+          let myProfileDataset = await getSolidDataset(webID, {
+            fetch: session.fetch
+          });
+        
+          let profile = getThing(myProfileDataset, webID);
+        
+          // Using the name provided in text field, update the name in your profile.
+          // VCARD.fn object is a convenience object that includes the identifier string "http://www.w3.org/2006/vcard/ns#fn".
+          // As an alternative, you can pass in the "http://www.w3.org/2006/vcard/ns#fn" string instead of VCARD.fn.
+          profile = setStringNoLocale(profile, VCARD.fn, name);
+        
+          // Write back the profile to the dataset.
+          myProfileDataset = setThing(myProfileDataset, profile);
+        
+          // Write back the dataset to your Pod.
+          await saveSolidDatasetAt(webID, myProfileDataset, {
+            fetch: session.fetch
+          });
+        
+          // Update the page with the retrieved values.
+          document.getElementById("labelWriteStatus").innerHTML = `Wrote [${name}] as name successfully!`;
+          document.getElementById("labelFN").style.color = `red`;
+          document.getElementById("labelFN").innerHTML = `...click the 'Read Profile' button to to see what the name might be now...?!`;
+        }
+        
+        // 3. Read profile
         async function readProfile() {
           const webID = document.getElementById("webID").value;
         
@@ -312,7 +338,7 @@ Node.js installation.
           // For illustrative purposes, shows both an authenticated and non-authenticated reads.
         
           let myDataset;
-          if (session.isLoggedIn){
+          if (session.isLoggedIn) {
             myDataset = await getSolidDataset(webID, { fetch: session.fetch });
           } else {
             myDataset = await getSolidDataset(webID);
@@ -323,24 +349,23 @@ Node.js installation.
           // Get the formatted name (fn) using the property identifier "http://www.w3.org/2006/vcard/ns#fn".
           // VCARD.fn object is a convenience object that includes the identifier string "http://www.w3.org/2006/vcard/ns#fn".
           // As an alternative, you can pass in the "http://www.w3.org/2006/vcard/ns#fn" string instead of VCARD.fn.
-         
-          const fn = getStringNoLocale(profile, VCARD.fn);
         
-          // VCARD.role obect is a convenience object that includes the identifier string "http://www.w3.org/2006/vcard/ns#role"
-          // As an alternative, you can pass in the "http://www.w3.org/2006/vcard/ns#role" string instead of VCARD.role.
-        
-          const role = getStringNoLocale(profile, VCARD.role);
+          const formattedName = getStringNoLocale(profile, VCARD.fn);
         
           // Update the page with the retrieved values.
-          document.getElementById("labelFN").textContent = fn;
-          document.getElementById("labelRole").textContent = role;
+          document.getElementById("labelFN").style.color = `black`;
+          document.getElementById("labelFN").innerHTML = `[${formattedName}]`;
         }
         
-        buttonLogin.onclick = function() {  
+        buttonLogin.onclick = function () {
           login();
         };
         
-        buttonRead.onclick = function() {  
+        buttonWrite.onclick = function () {
+          writeProfile();
+        };
+        
+        buttonRead.onclick = function () {
           readProfile();
         };
         ```
@@ -374,33 +399,45 @@ Node.js installation.
     * Click `Login` to login.
 
     * If you have logged out of your Pod, you are prompted to log in.
-      Enter your username and password and log in.
+      Enter your username and password to log in.
 
-    * You will be prompted to authorize `http://localhost:1234` to
-      access your Pod. To allow the application to read and write to your
-      Pod, click `Authorize`.
+    * The first time you log into your Pod with this brand new application you
+      just created, you'll be prompted to authorize it (named 
+      `http://localhost:1234`) to access your Pod. To allow the application to
+      read and write to your Pod, click `Authorize`.
 
-    * You are redirected back to our client application page.
+    * You should be redirected back to your client application page.
 
-        **NOTE:** If you encounter redirect issues trying to log in, you may need to
-          clear your browser's cache.
+        **NOTE:** If you encounter redirect issues trying to log in, you may
+        need to clear your browser's cache.
           
-    * You should see a message telling you: "Your session is logged in."
+    * You should see a message telling you:
+         ```
+         Your session is logged in with the WebID [<your WebID>].
+         ```
 
-9. Read your `public` profile data.
+9. Now that you're logged in, you can freely read and write the information in
+your profile.
 
-   **NOTE:** Because the profile data is public, you do not need to log in to
-      read the data. The application does so to show how to make
-      authenticated read requests.
+   * Let's start by simply clicking the `Read Profile` button.
+       * You should see the name you entered when you registered your Pod. 
 
-   * Enter your WebID (e.g., `https://<username>.solidcommunity.net/profile/card#me`).
+   * Now let's update your name. Simply enter a new name in the 'Write your
+   name' textfield, and click the 'Write to Profile' button.
+       * You should see the message:
+           ```
+           Wrote [<your new name>] as name successfully!
+           ```
+         
+   * Now let's verify that your profile really was updated by clicking again on
+   the 'Read Profile' button.
+       * You should see the updated name displayed!
 
-   * Click `Read Profile`.
-
-   * The page should display your formatted name and role.
-
-   You can also read the public profiles of anyone else with a Solid Pod by
-   simply entering their WebID; e.g., `https://docs-example.inrupt.net/profile/card#me`.
+   You can also read the public profiles of anyone else in the world with a
+   Solid Pod by simply entering their WebID into the text box of section 3 of
+   the application; e.g., `https://docs-example.inrupt.net/profile/card#me`
+   (**NOTE:** If you do try that example WebID, you should see the name
+   `Changing Docs Example`!).
 
 10. Exit the Application
 
