@@ -142,7 +142,7 @@ Technically, you may host your <a href="http://xmlns.com/foaf/spec/">FOAF</a> pr
 
 # The Bigger Picture  
 
-## Doesn't the Data Transfer Projecthttps://datatransferproject.dev fix the data concerns?
+## Doesn't the Data Transfer Project fix the data concerns?
 The [Data Transfer Project](https://datatransferproject.dev) is a great start. The next step is to build a healthy array of options for users to make their data work for themselves.
 
 ## How to integrate iOS and Android apps into Solid? 
