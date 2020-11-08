@@ -10,7 +10,8 @@ exclude: true
 # Getting Started Tutorial
 
 This tutorial creates an introductory application that uses Inrupt's
-JavaScript client libraries to read and write your user profile data.
+[JavaScript Client Libraries](https://github.com/inrupt/solid-client-js) to read
+and write your user profile data.
 
 Alternatively, to create a sample application using Inrupt's Solid React SDK,
 refer to Inrupt's [Solid React SDK documentation](https://docs.inrupt.com/developer-tools/javascript/react-sdk/).
@@ -223,7 +224,7 @@ Node.js installation.
                                 id="webID"
                                 name="webID"
                                 size="50"
-                                value="...not logged in yet - but enter any WebID to read from it's profile..."
+                                value="...not logged in yet - but enter any WebID to read from its profile..."
                         />
                         <button name="btnRead" id="btnRead">Read Profile</button>
                     </div>
@@ -252,14 +253,34 @@ Node.js installation.
         
         import { VCARD } from "@inrupt/vocab-common-rdf";
         
+        // If your Pod is *not* on `solidcommunity.net`, change this to your identity provider.
         const IDENTITY_PROVIDER = "https://solidcommunity.net";
         document.getElementById("identity_provider").innerHTML = `[<a target="_blank" href="${IDENTITY_PROVIDER}">${IDENTITY_PROVIDER}</a>]`;
+      
+        const NOT_ENTERED_WEBID = "...not logged in yet - but enter any WebID to read from its profile...";
         
         const session = new Session();
         
         const buttonLogin = document.querySelector("#btnLogin");
         const buttonWrite = document.querySelector("#btnWrite");
         const buttonRead = document.querySelector("#btnRead");
+      
+        // Click button if the user hits the 'Enter' key when entering name.
+        document.querySelector("#input_name").addEventListener("keyup", event => {
+          if(event.key === "Enter") {
+            buttonWrite.click();
+            event.preventDefault();
+          }
+        });
+        
+        // Click button if the user hits the 'Enter' key when entering WebID.
+        document.querySelector("#webID").addEventListener("keyup", event => {
+          if(event.key === "Enter") {
+            buttonRead.click();
+            event.preventDefault();
+          }
+        });
+        
         
         // 1a. Start Login Process. Call session.login() function.
         async function login() {
@@ -296,14 +317,15 @@ Node.js installation.
         
         // 2. Write to profile
         async function writeProfile() {
+          const name = document.getElementById("input_name").value;
+        
           if (!session.info.isLoggedIn) {
             // You must be authenticated to write.
-            document.getElementById("labelWriteStatus").innerHTML = `...you can't write until you first login!`;
+            document.getElementById("labelWriteStatus").innerHTML = `...you can't write [${name}] until you first login!`;
             document.getElementById("labelWriteStatus").style.color = `red`;
             return;
           }
           const webID = session.info.webId;
-          const name = document.getElementById("input_name").value;
         
           // To write to a profile, you must be authenticated. That is the role of the fetch
           // parameter in the following call.
@@ -337,14 +359,34 @@ Node.js installation.
         async function readProfile() {
           const webID = document.getElementById("webID").value;
         
+          if (webID === NOT_ENTERED_WEBID) {
+            document.getElementById("labelFN").innerHTML = `Login first, or enter a WebID (any WebID!) to read from its profile`;
+            document.getElementById("labelFN").style.color = `red`;
+            return false;
+          }
+        
+          try {
+            new URL(webID);
+          } catch (_) {
+            document.getElementById("labelFN").innerHTML = `Provided WebID [${webID}] is not a valid URL - please try again`;
+            document.getElementById("labelFN").style.color = `red`;
+            return false;
+          }
+        
           // Profile is public data; i.e., you do not need to be logged in to read the data.
           // For illustrative purposes, shows both an authenticated and non-authenticated reads.
         
           let myDataset;
-          if (session.isLoggedIn) {
-            myDataset = await getSolidDataset(webID, { fetch: session.fetch });
-          } else {
-            myDataset = await getSolidDataset(webID);
+          try {
+            if (session.isLoggedIn) {
+              myDataset = await getSolidDataset(webID, {fetch: session.fetch});
+            } else {
+              myDataset = await getSolidDataset(webID);
+            }
+          } catch (error) {
+            document.getElementById("labelFN").innerHTML = `Entered value [${webID}] does not appear to be a WebID. Error: [${error}]`;
+            document.getElementById("labelFN").style.color = `red`;
+            return false;
           }
         
           const profile = getThing(myDataset, webID);
