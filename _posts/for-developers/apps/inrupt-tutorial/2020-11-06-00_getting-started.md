@@ -269,6 +269,7 @@ Node.js installation.
           ) {
             await session.login({
               oidcIssuer: "https://solidcommunity.net",
+              clientName: "Inrupt tutorial client app",
               redirectUrl: window.location.href
             });
           }
@@ -297,6 +298,8 @@ Node.js installation.
         async function writeProfile() {
           if (!session.info.isLoggedIn) {
             // You must be authenticated to write.
+            document.getElementById("labelWriteStatus").innerHTML = `...you can't write until you first login!`;
+            document.getElementById("labelWriteStatus").style.color = `red`;
             return;
           }
           const webID = session.info.webId;
@@ -325,8 +328,9 @@ Node.js installation.
         
           // Update the page with the retrieved values.
           document.getElementById("labelWriteStatus").innerHTML = `Wrote [${name}] as name successfully!`;
+          document.getElementById("labelWriteStatus").style.color = `black`;
           document.getElementById("labelFN").style.color = `red`;
-          document.getElementById("labelFN").innerHTML = `...click the 'Read Profile' button to see what the name might be now...?!`;
+          document.getElementById("labelFN").innerHTML = `...click the 'Read Profile' button to to see what the name might be now...?!`;
         }
         
         // 3. Read profile
