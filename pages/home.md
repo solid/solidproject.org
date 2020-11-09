@@ -48,7 +48,7 @@ permalink: /
           
             <p class="content has-text-centered is-large">
               Pods are like secure personal web servers for data.
-              All data in a pod is accessible
+              All data in a pod is
               accesible via the 
               <a href="https://solid.github.io/specification/">Solid Protocol</a>.
               When data is stored in someone's 
