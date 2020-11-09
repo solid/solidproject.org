@@ -12,6 +12,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-10-28"
+    title="Data as the key to smarter innovation"
+    website="https://versnellingsplan.nl/english/"
+    slide="https://rubenverborgh.github.io/Meetup-Versnellingsplan/"
+    speaker="Ruben Verborgh"
+%}
+
+{%
+  include talk.html
     date="2020-10-06"
     title="SEMIC Workshop, 6 October 2020"
     website="https://ec.europa.eu/isa2/news/solid-workshop-highlights_en"
@@ -111,6 +120,24 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-03-30"
+    title="Personal data, universality, and the World Wide Web"
+    website="https://studiegids.ugent.be/2019/EN/studiefiches/B001581.pdf"
+    speaker="Ruben Verborgh"
+    slides="https://rubenverborgh.github.io/Technology-Human-Rights-2020/"
+%}
+
+{%
+  include talk.html
+    date="2020-02-27"
+    title="Showcasing an app that uses the Solid protocol for decentralized storage"
+    website="https://speakerdeck.com/noeldemartin/showcasing-an-app-that-uses-the-solid-protocol-for-decentralized-storage"
+    speaker="NoelDeMartin"
+    slides="https://speakerdeck.com/noeldemartin/showcasing-an-app-that-uses-the-solid-protocol-for-decentralized-storage"
+%}
+
+{%
+  include talk.html
     date="2020-02-24"
     title="RSA"
     website="https://www.rsaconference.com/experts/davi-ottenheimer-3"
@@ -123,6 +150,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="A introduction to Solid & Solid Search"
     website="https://ingenieriainformatica.uniovi.es/actualidad/eventos/-/asset_publisher/uS6D/content/conferencia-solid-search:-introduccion-a-solid-y-paradigmas-de-los-buscadores?redirect=%2Factualidad%2Feventos"
     speaker="Alejandro Juan Garcia"
+%}
+
+{%
+  include talk.html
+    date="2020-02-18"
+    title="An introduction to Solid"
+    website="https://speakerdeck.com/noeldemartin/an-introduction-to-solid"
+    slides="https://speakerdeck.com/noeldemartin/an-introduction-to-solid"
+    speaker="NoelDeMartin"
 %}
 
 {%
@@ -160,6 +196,14 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 %}
 
 ### 2019
+
+{%
+  include talk.html
+    date="2019-12-20"
+    title="Solid Winter Meetup Enschede - How To Fix The Internet"
+    website="https://www.utwente.nl/en/digital-society/events/2019/12/63530/solid-winter-meetup-enschede-how-to-fix-the-internet"
+    speaker="Ruben Verborgh"
+%}
 
 {%
   include talk.html
@@ -404,6 +448,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     speaker="Ruben Verborgh"
     slides="https://rubenverborgh.github.io/Beyond-Data-Event-2019/"
     
+%}
+
+{%
+  include talk.html
+    date="2019-03-10"
+    title="Designing For the Next 30 Years of the Web"
+    website="https://schedule.sxsw.com/2019/events/PP93227"
+    speaker="John Bruce, Justin Bingham"
+    audio="http://audio.sxsw.com/2019/events/PP93227.mp3"
 %}
 
 {%
@@ -662,6 +715,14 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2016-04-12"
+    title="Building Decentralized Applications For The Social Web"
+    website="http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web"
+    speaker="Andrei Sambra, Amy Guy, Sarven Capadisli, Nicola Greco"
+%}
+
+{%
+  include talk.html
     date="2016-04-07"
     title="IPRI meeting"
     website="https://2016.decentralizedweb.net"
@@ -703,6 +764,12 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 ## Mentions of Solid in Articles
 
 ### 2020
+
+2020-07-28 [Tem Big Tech: stop data in privékluizen](https://www.nrc.nl/nieuws/2020/07/28/tem-big-tech-stop-data-in-prive-kluizen-a4007191)
+
+2020-07-12 [The Future of Online Identity is Decentralized by Yarmo Mackenbach](https://yarmo.eu/post/future-online-identity-decentralized)
+
+2020-07-01 [MIT Technology Review - A plan to redesign the internet could make apps that no one controls](https://www.technologyreview.com/2020/07/01/1004725/redesign-internet-apps-no-one-controls-data-privacy-innovation-cloud/)
 
 2020-06-12 [CHANGEMAKERS: Davi Ottenheimer on Data Ethics and How to Save the Web](https://alltechishuman.org/blog/changemakers-davi-ottenheimer-on-data-ethics-and-how-to-save-the-internet) 
 
@@ -805,7 +872,11 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 
 2019-10-23 [PC Magazine: Tim Berners-Lee: IT Leaders Must Build Values into Their Companies and Systems](https://www.pcmag.com/article/371488/tim-berners-lee-it-leaders-must-build-values-into-their-com)
 
+2019-10-20 [Data ownership and the semantic web: Interview with Professor Ruben Verborgh (Part 2)](https://tapmydata.com/data-ownership-and-the-semantic-web-interview-with-professor-ruben-verborgh-part-2/)
+
 2019-10-11 [Computing: Solid's Ruben Verborgh: 'We need competition based on quality of service not on data harvesting'](https://www.computing.co.uk/ctg/analysis/3082496/solids-ruben-verborgh-we-need-competition-based-on-quality-of-service-not-on-data-harvesting)
+
+2019-09-24 [Give me all my data Facebook: Interview with professor Ruben Verborgh (Part 1)](https://tapmydata.com/give-me-my-data-facebook-interview-with-ruben-verborgh/)
 
 2019-09-16 [Computing: Blockchain latest news: ICOs are not dead, but they're certainly changing says Diacle](https://www.computing.co.uk/ctg/news/3033006/blockchain-ico-not-dead-changing-diacle/page/2)
 
@@ -1118,6 +1189,10 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 2018-07-02 [Tim Berners-Lee, Inventor of the Web, Plots a Radical Overhaul of His Creation](https://web.archive.org/web/20180630083946/https://www.wired.com/2017/04/tim-berners-lee-inventor-web-plots-radical-overhaul-creation/)
 
 2018-07-01 [â€œI was devastatedâ€: Tim Berners-Lee, the man who created the World Wide Web, has some regrets](https://www.vanityfair.com/news/2018/07/the-man-who-created-the-world-wide-web-has-some-regrets)
+
+### 2017
+
+2017       [Chapter 4 :Decentralising the Social Web  (and other stories)](http://dr.amy.gy/chapter4#social-and-personal-datastores)
 
 ### 2016
 
