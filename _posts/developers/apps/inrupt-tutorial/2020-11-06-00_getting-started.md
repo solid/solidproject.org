@@ -439,7 +439,7 @@ Node.js installation.
         If there are warnings with regards to the various source maps, you
         can safely ignore them.
 
-7. Open `localhost:1234` in a browser. If you want, you can also check out the running app on CodeSandobox. Note that you'll have to open the app in a new window (button in the upper right hand corner) to be able to log in.<span> 
+7. Open `localhost:1234` in a browser. If you want, you can also check out the running app on CodeSandbox. Note that you'll have to open the app in a new window (button in the upper right hand corner) to be able to log in.<span> 
 [![Edit on CodeSandbox]({{site.baseUrl}}/assets/img/play-codesandbox.svg)](https://codesandbox.io/s/musing-bouman-n1ghd)
 </span>
 
