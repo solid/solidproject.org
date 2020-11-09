@@ -110,8 +110,13 @@ $why-carousel-offset: 0;
   .hero-body {
     // The regular large Hero is given equal paddings of 18rem by Bulma 0.8.0.
     // We move the title up by 8rem, so that the cards can partly overlap the hero.
-    padding-top: 18rem - $why-carousel-offset / 2;
-    padding-bottom: 18rem + $why-carousel-offset / 2;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  #get-a-pod {
+    background-color: #363E78;
+    border-color: #363E78;
+    color: #fff;
   }
 }
 
@@ -127,24 +132,19 @@ $why-carousel-offset: 0;
   background-position: right $why-carousel-offset;
 }
 
-#landing-cards {
+#ecosystem {
+  background-image: url('/assets/img/solid-bg-dark-ui.svg');
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  padding-bottom: 2rem;
-  
-  .card {
-    min-height: 32rem;
-    border-radius: $radius;
-    word-break: keep-all;
-  }  
-
-  .image {
-    display: inline-block;
+  a, a:visited {
+    color: white;
+    text-decoration: none;
   }
-
-  .title {
-    margin: $gap 0;
+  a:hover {
+    text-decoration: underline;
   }
-
 }
 
 #why-carousel {
@@ -206,13 +206,25 @@ $why-carousel-offset: 0;
 
 #tour {
   .section {
-    margin: $gap * 5 0;
+    
+    padding: 1rem 1.5rem;
 
     &:first-child {
-      margin-top: 0;
+      padding-top: 3rem;
     }
+    
     &:last-child {
-      margin-bottom: 0;
+      padding-bottom: 3rem;
+    }
+  
+  }
+
+  .image {
+    @media (max-width: $tablet) {
+      height: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 

@@ -25,7 +25,7 @@ permalink: /
         </a>
         -->
         <a href="{{site.baseurl}}/users/">
-          <button class="button is-primary">Get a Pod</button>        
+          <button class="button" id="get-a-pod">Get a Pod</button>        
         </a>
         <a href="{{site.baseurl}}/developers/tutorials/getting-started">
           <button class="button is-primary">Developer Tutorial</button>
@@ -37,122 +37,99 @@ permalink: /
 
 <div id="landing-content">
 
-  <section id="overview" class="section">
-
-    <div class="container">
-
-        <p class="subtitle has-text-centered is-3">
-          Solid lets people store their data in decentralized data stores 
-          called <b>Pods</b>.
-        </p> 
-
+  <div id="tour">
+    <section class="section">
+      <div class="container">
         <div class="columns">
-          <div class="column is-half-desktop is-offset-one-quarter-desktop">
-          
-            <p class="content has-text-centered is-large">
-              Pods are like secure personal web servers for data.
-              All data in a pod is
-              accesible via the 
-              <a href="https://solid.github.io/specification/">Solid Protocol</a>.
-              When data is stored in someone's 
-              pod, they control who and what can access it.
-            </p>
-            
-            <p class="content has-text-centered is-large">
+          <div class="column is-offset-1 is-4">
+            <figure class="image">
+              <img src="{{site.baseurl}}/assets/img/solid-pod-tour.svg" alt="[]" />
+            </figure>
+          </div>
+          <div class="column is-offset-1 is-5">
+            <h2 class="title">All of your data, under your control</h2>
+            <p class="content is-large">
+            Solid lets people store their data securely in decentralized data stores 
+            called <b>Pods</b>. Pods are like secure personal web servers for data.
+            All data in a pod is accesible via the 
+            <a href="https://solid.github.io/specification/">Solid Protocol</a>.
+            When data is stored in someone's 
+            pod, they control who and what can access it.</p>
+                                
+            <p class="content is-large">
             Solid is led by the inventor of the Web, 
             <b><a href="{{site.baseurl}}/team/">Sir Tim Berners-Lee</a></b>, 
             to help realise his vision 
             for its future.</p>
-            
-          </div>
-        </div>
-        
-    </div>
-  </section>
-  
-  <section id="landing-cards">
-
-    <div class="container">
-    
-      <div class="columns">
-  
-        <div class="column">
-
-          <div class="card">
-            <div class="card-body has-text-centered section">
-              <figure class="image is-64x64">
-                <img
-                  src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/download.svg"
-                  alt="[]"
-                />
-              </figure>
-              <p class="title is-size-4 is-uppercase">
-                <strong>Store anything</strong>
-              </p>
-              <hr/>
-              <p class="content is-size-5">
-                Any kind of data can be stored in a Solid pod, including regular files that you might store in a Google Drive or Dropbox folder, but it is the ability to store Linked Data that makes Solid special.
-              </p>
             </div>
-          </div>
-          
         </div>
-        <div class="column">    
-        
-          <div class="card">
-            <div class="card-body has-text-centered section">
-              <figure class="image is-64x64">
-                <img
-                  src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/share-alt-square.svg"
-                  alt="[]"
-                />
-              </figure>
-              <p class="title is-size-4 is-uppercase">
-                <strong>Use Interoperable Data Standards</strong>
-              </p>
-              <hr/>
-              <p class="content is-size-5">
-                Linked Data gives Solid 
-                a common way to describe things and 
-                how they relate to each other, in a way that other people and 
-                machines can understand. This means the data stored by Solid
-                is portable and completely interoperable.
-              </p>
-            </div>
-          </div>
-        
-        </div>
-        <div class="column">    
-        
-          <div class="card">
-            <div class="card-body has-text-centered section">
-              <figure class="image is-64x64">
-                <img
-                  src="{{site.baseurl}}/assets/img/fontawesome-free-5.11.2-web/svgs/solid/share-square.svg"
-                  alt="[]"
-                />
-              </figure>
-              <p class="title is-size-4 is-uppercase">
-                <strong>Share it Safely</strong>
-              </p>
-              <hr/>
-              <p class="content is-size-5">
-                Anyone or anything that accesses data in a Solid pod uses a 
-                unique ID, authenticated by a decentralized extension of the OpenID Connect 
-                protocol. Solid's access control system uses these IDs to 
-                determine whether a person or application has access to a 
-                resource in a pod.
-              </p>
-            </div>
-          </div>
-        
-        </div>
-      
+        <hr>
       </div>
-    
-    </div>  
-      
-  </section>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-offset-1 is-5">
+            <h2 class="title">Store anything</h2>
+            <p class="content is-large">
+              Any kind of data can be stored in a Solid pod, including regular files that you might store in a Google Drive or Dropbox folder, but it is the ability to store <b>Linked Data</b> that makes Solid special.
+            </p>
+          </div>
+          <div class="column is-offset-1 is-4">
+            <figure class="image">
+              <img src="{{site.baseurl}}/assets/img/store-anything-tour.svg" alt="[]" />
+            </figure>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-offset-1 is-4">
+            <figure class="image">
+              <img src="{{site.baseurl}}/assets/img/interoperability-tour.svg" alt="[]" />
+            </figure>
+          </div>
+          <div class="column is-offset-1 is-5">
+            <h2 class="title">
+              Using interoperable data standards
+            </h2>
+            <p class="content is-large">
+            Linked Data gives Solid 
+            a common way to describe things and 
+            how they relate to each other, in a way that other people and 
+            machines can understand. This means the data stored by Solid
+            is portable and completely interoperable.
+            </p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-offset-1 is-5">
+            <h2 class="title">Share it safely</h2>
+            <p class="content is-large">
+              Anyone or anything that accesses data in a Solid pod uses a 
+              unique ID, authenticated by a decentralized extension of the OpenID Connect 
+              protocol. Solid's access control system uses these IDs to 
+              determine whether a person or application has access to a 
+              resource in a pod.
+            </p>
+          </div>
+          <div class="column is-offset-1 is-4">
+            <figure class="image">
+              <img src="{{site.baseurl}}/assets/img/share-it-safely-tour.svg" alt="[]" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
   
   <section id="ecosystem" class="hero is-dark is-medium">
     <div class="hero-body">
