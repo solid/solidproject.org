@@ -1,10 +1,12 @@
 ---
 layout: for-developers
 title: "Describe data"
-permalink: /for-developers/apps/vocabularies/use/quickstart
+permalink: /developers/vocabularies/use/quickstart
 tags: [apps]
 categories: [Vocabularies, Quickstart]
 exclude: true
+redirect_from:
+  - /developers/vocabularies/use/quickstart
 ---
 
 Now that we have a vocabulary, let's use it to describe some real obelisk data! To this end, let us introduce the two most renowned obelisk sculptors of all time: [Vuittonluis](https://vuittonluis.solidcommunity.net/profile/card#me) and [G. Armani](https://garmani.solidcommunity.net/profile/card#me). If you look up their profiles, you'll notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor):
@@ -49,4 +51,4 @@ You can see the previous graphs translated into RDF in the file `src/collection.
 
 However, it's not really convenient to manage vocabularies as plain text: it is error-prone, hard to maintain, and unpleasant to read.
 
-Next step: [quickstart guide to using your vocabulary in code](/for-developers/apps/vocabularies/code/quickstart).
+Next step: [quickstart guide to using your vocabulary in code](/developers/vocabularies/code/quickstart).

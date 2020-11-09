@@ -1,10 +1,12 @@
 ---
 layout: for-developers
 title: "Describe data for Solid"
-permalink: /for-developers/apps/vocabularies/use/extended
+permalink: /developers/vocabularies/use/extended
 tags: [apps]
 categories: [Vocabularies, Create]
 exclude: true
+redirect_from:
+  - /developers/vocabularies/use/extended
 ---
 
 Now that we have a vocabulary, we can use it to describe data. To this end, let us introduce the two most renowned obelisks designers of their time: [Vuittonluis](https://vuittonluis.solidcommunity.net/profile/card#me) and [G. Armani](https://garmani.solidcommunity.net/profile/card#me). if you look up their profile, you will notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor):
@@ -63,8 +65,8 @@ coll:
     rdfs:comment "I made this one myself!" .
 ```
 
-Some of the elements (e.g. [ldp:Container](http://www.w3.org/ns/ldp#Container)) in there are specific to how Solid represents data storage. If you want to find out more about that, you can look up the [description of this vocabulary](/for-developers/apps/vocabularies/well-known/technical). Otherwise, we can conclude this short tutorial by creating a nice collection of obelisks in your own pod. You can see the vocabulary snippet into `src/collection.js`.
+Some of the elements (e.g. [ldp:Container](http://www.w3.org/ns/ldp#Container)) in there are specific to how Solid represents data storage. If you want to find out more about that, you can look up the [description of this vocabulary](/developers/vocabularies/well-known/technical). Otherwise, we can conclude this short tutorial by creating a nice collection of obelisks in your own pod. You can see the vocabulary snippet into `src/collection.js`.
 
 <iframe src="https://codesandbox.io/embed/my-first-obelisk-collection-1ybvq?fontsize=14" title="my first obelisk collection" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-However, it's not really convenient to manage vocabularies as plain text: it is error-prone, hard to maintain, and unpleasant to read. To address this issue, we introduce some helper libraries that enable [publishing your vocabulary as code artifacts](/for-developers/apps/vocabularies/publish/artifacts), and to [use your vocabulary in your code](/for-developers/apps/vocabularies/code).
+However, it's not really convenient to manage vocabularies as plain text: it is error-prone, hard to maintain, and unpleasant to read. To address this issue, we introduce some helper libraries that enable [publishing your vocabulary as code artifacts](/developers/vocabularies/publish/artifacts), and to [use your vocabulary in your code](/developers/vocabularies/code).

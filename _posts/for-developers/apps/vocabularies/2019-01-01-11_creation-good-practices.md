@@ -1,10 +1,12 @@
 ---
 layout: for-developers
 title: "Vocabulary building best practices"
-permalink: /for-developers/apps/vocabularies/create/best-practices
+permalink: /developers/vocabularies/create/best-practices
 tags: [apps]
 categories: [Vocabularies, Create]
 exclude: true
+redirect_from:
+  - /developers/vocabularies/create/best-practices
 ---
 
 Writing a vocabulary is good, writing a good vocabulary is better. To make it easier on others (and on yourself) when using your vocabulary, here is a set of good practices that you might consider applying. There are also external resources that we recommend you read:
@@ -19,7 +21,7 @@ Basically, a vocabulary is code. And what should you always do when you write co
 
 #### At the term granularity
 
-There are tools within RDF to help you document your vocabulary. First, remember that an IRI should primarily be a machine-understandable identifier: it's nice if it's readable by humans, but it's not its intended use. Therefore,  you should always use `rdfs:label` and `rdfs:comment` to attach human-understandable descriptions to your concepts (please refer to [the vocabulary documentation](/for-developers/apps/vocabularies/well-known) for more information). Pro tip: you can use the requirements you defined earlier to build the comments.
+There are tools within RDF to help you document your vocabulary. First, remember that an IRI should primarily be a machine-understandable identifier: it's nice if it's readable by humans, but it's not its intended use. Therefore,  you should always use `rdfs:label` and `rdfs:comment` to attach human-understandable descriptions to your concepts (please refer to [the vocabulary documentation](/developers/vocabularies/well-known) for more information). Pro tip: you can use the requirements you defined earlier to build the comments.
 
 For instance:
 ```
@@ -51,7 +53,7 @@ The Webcomic ontology aims at describing webcomics, the things they talk about, 
                                foaf:primaryTopic "Webcomics" .
 ```
 
-In the [publication](/for-developers/apps/vocabularies/publish) tutorial, we'll discuss in more details the important metadata to attach to your vocabulary.
+In the [publication](/developers/vocabularies/publish) tutorial, we'll discuss in more details the important metadata to attach to your vocabulary.
 
 ## "Human-friendly" documentation
 
@@ -86,4 +88,4 @@ Vocabularies should have a focused scope and a defined, identifiable purpose. In
 
 Ontology design patterns are similar to design patterns in software engineering: they capture application-agnostic structures, with identified characteristics, providing a solution to a known recurrent issue. Similarly to ontology modules, ontology design patterns are reusable by nature. You can find some ontology design patterns on this [dedicated portal](http://ontologydesignpatterns.org). The key takeaway is that ontology design patterns __capture modeling efforts__: using them is a way to capitalize on previous work.
 
-Let's implement these good practices by [improving the vocabulary we created](/for-developers/apps/vocabularies/create/extended) in the quickstart tutorial
+Let's implement these good practices by [improving the vocabulary we created](/developers/vocabularies/create/extended) in the quickstart tutorial

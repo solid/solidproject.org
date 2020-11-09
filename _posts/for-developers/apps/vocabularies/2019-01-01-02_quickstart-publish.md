@@ -1,10 +1,12 @@
 ---
 layout: for-developers
 title: "Publish your vocabulary on your Pod"
-permalink: /for-developers/apps/vocabularies/publish/quickstart
+permalink: /developers/vocabularies/publish/quickstart
 tags: [apps]
 categories: [Vocabularies, Quickstart]
 exclude: true
+redirect_from:
+  - /developers/vocabularies/publish/quickstart
 ---
 
 To share your vocabulary across different apps, the best way is to **make it
@@ -25,7 +27,7 @@ that your vocabulary grows hugely successful, and is used by multiple
 applications to describe the data they operate on. If you want to change your
 Pod provider, the IRI of your vocabulary would change, and all the applications
 depending on it would break. In our
-[advanced tutorial](/for-developers/apps/vocabularies/publish), we'll detail
+[advanced tutorial](/developers/vocabularies/publish), we'll detail
 how to get a nice IRI, one that can be as **permanent** as possible.
 
-Next step: [use your vocabulary to describe some data](/for-developers/apps/vocabularies/use/quickstart).
+Next step: [use your vocabulary to describe some data](/developers/vocabularies/use/quickstart).

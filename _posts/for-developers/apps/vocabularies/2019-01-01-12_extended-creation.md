@@ -1,13 +1,15 @@
 ---
 layout: for-developers
 title: "Improve your vocabulary"
-permalink: /for-developers/apps/vocabularies/create/extended
+permalink: /developers/vocabularies/create/extended
 tags: [apps]
 categories: [Vocabularies, Create]
 exclude: true
+redirect_from:
+  - /developers/vocabularies/create/extended
 ---
 
-This tutorial extends the [quickstart vocabulary creation](/for-developers/apps/vocabularies/create/quickstart), so make sure to complete it first. Just as a reminder, here is a graphical representation of the terms we want to include in our vocabs:
+This tutorial extends the [quickstart vocabulary creation](/developers/vocabularies/create/quickstart), so make sure to complete it first. Just as a reminder, here is a graphical representation of the terms we want to include in our vocabs:
 
 ![The obelisk vocabulary]({{site.baseurl}}/assets/img/tutorials/vocabularies/obelisk_vocab_1.png)
 
@@ -48,7 +50,7 @@ obelisk:height rdf:type owl:DataProperty .
 
 ### Connecting to other vocabularies
 
-Terms in vocabularies are identified by IRI, and it's not for decoration: it means that you can use the identifiers across the entire Web. The cool thing about that is that it makes it really easy to reuse terms from remote vocabularies in your own vocabularies. For instance, [`obelisk:Obelisk`](http://w3id.org/obelisk/Obelisk) is quite a specific term, so it makes perfect sense to define it ourselves. What about [`obelisk:Person`](http://w3id.org/obelisk/Person) ? Maybe there is a reference vocabulary out there that defines the concept of person... And if you pay a quick visit to [our list of well-known vocabularies](/for-developers/apps/vocabularies/well-known), you will see that indeed there is! For instance, [Friend of a Friend](http://xmlns.com/foaf/0.1/) (foaf for short) defines the term [foaf:Person](http://xmlns.com/foaf/0.1/Person), and it would make our vocabulary easier to integrate into any application if we just reused this term instead of defining our own. Therefore, our vocabulary could look more something like this:
+Terms in vocabularies are identified by IRI, and it's not for decoration: it means that you can use the identifiers across the entire Web. The cool thing about that is that it makes it really easy to reuse terms from remote vocabularies in your own vocabularies. For instance, [`obelisk:Obelisk`](http://w3id.org/obelisk/Obelisk) is quite a specific term, so it makes perfect sense to define it ourselves. What about [`obelisk:Person`](http://w3id.org/obelisk/Person) ? Maybe there is a reference vocabulary out there that defines the concept of person... And if you pay a quick visit to [our list of well-known vocabularies](/developers/vocabularies/well-known), you will see that indeed there is! For instance, [Friend of a Friend](http://xmlns.com/foaf/0.1/) (foaf for short) defines the term [foaf:Person](http://xmlns.com/foaf/0.1/Person), and it would make our vocabulary easier to integrate into any application if we just reused this term instead of defining our own. Therefore, our vocabulary could look more something like this:
 
 ```turtle
 @prefix obelisk: <http://w3id.org/obelisk/> .
@@ -281,7 +283,7 @@ obelisk:Obelisk a rdfs:Class ;
 
 ### Versioning the vocabulary
 
-A vocabulary may change over time, and so it is helpful to also provide some explicit version information. Details about versioning a vocabulary are given later in the [vocabulary publication tutorial](/for-developers/apps/vocabularies/publish), but we can add some basic information here, e.g.:
+A vocabulary may change over time, and so it is helpful to also provide some explicit version information. Details about versioning a vocabulary are given later in the [vocabulary publication tutorial](/developers/vocabularies/publish), but we can add some basic information here, e.g.:
 - a version number ([`owl:versionInfo`](http://www.w3.org/2002/07/owl#versionInfo))
 - an initial publication date ([`dcterms:issued`](http://purl.org/dc/terms/issued))
 - a version release date ([`dcterms:modified`](http://purl.org/dc/terms/modified))
@@ -355,4 +357,4 @@ obelisk:heigth a owl:DataProperty ;
 ```
 A reference version of this final vocabulary is available [here](/assets/misc/tutorials/quickstart-obelisk.ttl).
 
-You can now use this vocabulary to [describe data for Solid](/for-developers/apps/vocabularies/use/extended). If you want a more advanced tutorial to create vocabularies, you can learn about [the NeOn methodology](/for-developers/apps/vocabularies/create/methodology).
+You can now use this vocabulary to [describe data for Solid](/developers/vocabularies/use/extended). If you want a more advanced tutorial to create vocabularies, you can learn about [the NeOn methodology](/developers/vocabularies/create/methodology).

@@ -1,10 +1,12 @@
 ---
 layout: for-developers
 title: "Use Nginx as a reverse proxy"
-permalink: for-developers/pod-server/nginx
+permalink: self-hosting/nss/nginx
 tags: [pod-server]
 categories: [Running a Pod Server]
 exclude: true
+redirect_from:
+  - /for-developers/pod-server/nginx
 ---
 Nginx config
 

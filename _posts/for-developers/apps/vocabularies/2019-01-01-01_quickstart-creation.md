@@ -1,11 +1,13 @@
 ---
 layout: for-developers
 title: "How to create your own vocabulary"
-permalink: /for-developers/apps/vocabularies/create/quickstart
+permalink: /developers/vocabularies/create/quickstart
 tags: [apps]
 categories: [Vocabularies, Quickstart]
 exclude: true
 published: true
+redirect_from:
+  - /developers/vocabularies/create/quickstart
 ---
 
 # How to create your own vocabulary
@@ -336,4 +338,4 @@ A reference version of this final vocabulary is available
 [here](/assets/misc/tutorials/quickstart-obelisk.ttl), and you can experiment
 with the syntax using a <a href="http://www.easyrdf.org/converter?data=%40prefix%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%20.%0A%40prefix%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20.%0A%40prefix%20owl%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%20.%0A%40prefix%20vann%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fvocab%2Fvann%2F%3E%20.%0A%40prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%20.%0A%0A%40prefix%20obelisk%3A%20%3Chttp%3A%2F%2Fw3id.org%2Fobelisk%2F%3E%20.%0A%0Aobelisk%3A%20rdf%3Atype%20owl%3AOntology%20%3B%0A%20%20%20%20%23%20Description%0A%20%20%20%20dcterms%3Atitle%20%22Obelisk%20ontology%22%20%3B%0A%20%20%20%20dcterms%3Adescription%20%22%22%22%0A%20%20%20%20The%20obelisk%20ontology%20aims%20at%20describing%20obelisks.%0A%20%20%20%20%22%22%22%20%3B%0A%20%20%20%20vann%3ApreferredNamespacePrefix%20%22obelisk%22%20%3B%0A%20%20%20%20vann%3ApreferredNamespaceURI%20%3Chttp%3A%2F%2Fw3id.org%2Fobelisk%2F%3E%20.%0A%0Aobelisk%3AObelisk%20a%20rdfs%3AClass%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22Obelisk%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22An%20obelisk%20is%20a%20four-sided%20pilar%20with%20a%20pyramid-shaped%20top.%22%20.%0A%0Aobelisk%3ASculptor%20a%20rdfs%3AClass%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22Sculptor%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22An%20artist%20who%20sculpts%20obelisks.%22%20.%0A%0Aobelisk%3AownedBy%20a%20rdf%3AProperty%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22owned%20by%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22Relationship%20between%20an%20obelisk%20and%20the%20person%20who%20owns%20it%2C%20which%20is%20typically%20the%20person%20who%20ordered%20it%2C%20or%20to%20whom%20it%20was%20offered.%22%20.%0A%0Aobelisk%3AbuiltBy%20a%20rdf%3AProperty%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22built%20by%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22Relationship%20between%20an%20obelisk%20and%20the%20person%20who%20built%20it.%22%20.%0A%0Aobelisk%3Aheight%20a%20rdf%3AProperty%20%3B%0A%20%20%20%20rdfs%3Alabel%20%22height%22%20%3B%0A%20%20%20%20rdfs%3Acomment%20%22The%20distance%20from%20the%20ground%20to%20the%20highest%20point%20of%20the%20obelisk%2C%20in%20meters.%22%20.%0A&uri=https%3A%2F%2Fw3id.org%2Fobelisk" target="_blank">live RDF validator</a>.
 
-Next step: [publish your vocabulary on your Pod](/for-developers/apps/vocabularies/publish/quickstart).
+Next step: [publish your vocabulary on your Pod](/developers/vocabularies/publish/quickstart).

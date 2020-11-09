@@ -1,10 +1,12 @@
 ---
 layout: for-developers
 title: "Code with your vocabulary"
-permalink: /for-developers/apps/vocabularies/code/quickstart
+permalink: /developers/vocabularies/code/quickstart
 tags: [apps]
 categories: [Vocabularies, Quickstart]
 exclude: true
+redirect_from:
+  - /developers/vocabularies/code/quickstart
 ---
 
 In this part of the tutorial, we will build on the [quickstart version](https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl) of the Obelisk vocabulary to develop a simple JavaScript application that answers the question: "Is this person an obelisk sculptor ?"
@@ -53,4 +55,4 @@ If you want to be recognised as an obelisk sculptor, you can uncomment line 35. 
 
 Congratulations, you are now familiar with what's in a vocabulary, and saw how to code using one.
 
-Next step: find out the [well-known vocabularies](/for-developers/apps/vocabularies/well-known)
+Next step: find out the [well-known vocabularies](/developers/vocabularies/well-known)

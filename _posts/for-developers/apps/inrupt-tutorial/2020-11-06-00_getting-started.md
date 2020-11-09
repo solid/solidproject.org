@@ -1,13 +1,15 @@
 ---
 layout: for-developers
-title: Create your first app using Inrupt libraries
-permalink: /for-developers/apps/create-first-app-inrupt
+title: Getting Started
+permalink: /developers/tutorials/getting-started
 tags: [apps]
-categories: [Writing a Solid application]
+categories: [Tutorials]
 exclude: true
+redirect_from:
+  - /for-developers/apps/first-app/
 ---
 
-# Getting Started Tutorial
+# Getting Started
 
 This tutorial creates an introductory application that uses Inrupt's
 [JavaScript Client Libraries](https://github.com/inrupt/solid-client-js) to read

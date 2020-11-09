@@ -1,10 +1,12 @@
 ---
 layout: for-developers
 title: "NeOn, a vocabulary creation methodology"
-permalink: /for-developers/apps/vocabularies/create/methodology
+permalink: /developers/vocabularies/create/methodology
 tags: [apps]
 categories: [Vocabularies, Create]
 exclude: true
+redirect_from:
+  - /developers/vocabularies/create/methodology
 ---
 
 ### The NeOn methodology
@@ -55,4 +57,4 @@ At this point, your vocabulary is basically a graph, with bubbles connected by a
 
 At some point, you will be happy with your vocabulary as a drawing, but in this form it cannot be used by applications. To this end, it must be __implemented into RDF__. To do so, you can use [Protégé](https://protege.stanford.edu/), a tool that will help you implement your vocabulary through a GUI, without having to write the RDF directly.
 
-Next step, [publish your vocabulary](/for-developers/apps/vocabularies/publish)!
+Next step, [publish your vocabulary](/developers/vocabularies/publish)!

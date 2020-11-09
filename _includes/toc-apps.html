@@ -1,17 +1,15 @@
-{% assign categories_list = "Writing a Solid application AND Vocabularies AND Common patterns AND Tools and libraries" | split: " AND " %}
+{% assign categories_list = "Tutorials AND Vocabularies AND Tools and libraries" | split: " AND " %}
 {% assign subcategories_list = "Overview AND Quickstart AND Discover AND Create AND Code AND Other" | split: " AND " %}
 <ul class="menu-list" role="navigation">
   {% for cat in categories_list %}
     {% if cat == page.categories[0] %}
       <li>
-        {% if cat == "Writing a Solid application"%}
-          <a href="/for-developers/apps/first-app">{{ cat }}</a>
+        {% if cat == "Tutorials"%}
+          <a href="/developers/tutorials/getting-started">{{ cat }}</a>
         {% elsif cat == "Vocabularies" %}
-          <a href="/for-developers/apps/vocabularies">{{ cat }}</a>
-        {% elsif cat == "Common patterns" %}
-          <a href="/for-developers/apps/common-patterns">{{ cat }}</a>
+          <a href="/developers/vocabularies">{{ cat }}</a>
         {% elsif cat == "Tools and libraries" %}
-          <a href="/for-developers/apps/tools">{{ cat }}</a>
+          <a href="/developers/tools">{{ cat }}</a>
         {% endif %}
         <!-- This is for categories with sub-categories -->
         {% if page.categories[1] %}
@@ -20,15 +18,15 @@
               <li>
                 {% if subcat == page.categories[1] %}
                   {% if subcat == "Overview" %}
-                    <a href="/for-developers/apps/vocabularies">{{ subcat }}</a>
+                    <a href="/developers/vocabularies">{{ subcat }}</a>
                   {% elsif subcat == "Quickstart" %}
-                    <a href="/for-developers/apps/vocabularies/create/quickstart">{{ subcat }}</a>
+                    <a href="/developers/vocabularies/create/quickstart">{{ subcat }}</a>
                   {% elsif subcat == "Discover" %}
-                    <a href="/for-developers/apps/vocabularies/well-known">{{ subcat }}</a>
+                    <a href="/developers/vocabularies/well-known">{{ subcat }}</a>
                   {% elsif subcat == "Create" %}
-                    <a href="/for-developers/apps/vocabularies/create">{{ subcat }}</a>
+                    <a href="/developers/vocabularies/create">{{ subcat }}</a>
                   {% elsif subcat == "Code" %}
-                    <a href="/for-developers/apps/vocabularies/code">{{ subcat }}</a>
+                    <a href="/developers/vocabularies/code">{{ subcat }}</a>
                   {% endif %}
                   <ul>
                     {% for post in site.categories[cat] reversed %}
@@ -44,15 +42,15 @@
                   </ul>
                 {% else %}
                   {% if subcat == "Overview" %}
-                    <a href="/for-developers/apps/vocabularies">{{ subcat }}</a>
+                    <a href="/developers/vocabularies">{{ subcat }}</a>
                   {% elsif subcat == "Quickstart" %}
-                    <a href="/for-developers/apps/vocabularies/create/quickstart">{{ subcat }}</a>
+                    <a href="/developers/vocabularies/create/quickstart">{{ subcat }}</a>
                   {% elsif subcat == "Discover" %}
-                    <a href="/for-developers/apps/vocabularies/well-known">{{ subcat }}</a>
+                    <a href="/developers/vocabularies/well-known">{{ subcat }}</a>
                   {% elsif subcat == "Create" %}
-                    <a href="/for-developers/apps/vocabularies/create">{{ subcat }}</a>
+                    <a href="/developers/vocabularies/create">{{ subcat }}</a>
                   {% elsif subcat == "Code" %}
-                    <a href="/for-developers/apps/vocabularies/code">{{ subcat }}</a>
+                    <a href="/developers/vocabularies/code">{{ subcat }}</a>
                   {% endif %}
                 {% endif %}
               </li>
@@ -71,17 +69,15 @@
           </ul>
         {% endif %}
       </li>
-                    <a href="/for-developers/apps/vocabularies">{{ subcat }}</a>
+                    <a href="/developers/vocabularies">{{ subcat }}</a>
     {% else %}
       <li>
-        {% if cat == "Writing a Solid application"%}
-          <a href="/for-developers/apps/first-app">{{ cat }}</a>
+        {% if cat == "Tutorials" %}
+          <a href="/developers/tutorials/getting-started">{{ cat }}</a>
         {% elsif cat == "Vocabularies" %}
-          <a href="/for-developers/apps/vocabularies">{{ cat }}</a>
-        {% elsif cat == "Common patterns" %}
-          <a href="/for-developers/apps/common-patterns">{{ cat }}</a>
+          <a href="/developers/vocabularies">{{ cat }}</a>
         {% elsif cat == "Tools and libraries" %}
-          <a href="/for-developers/apps/tools">{{ cat }}</a>
+          <a href="/developers/tools">{{ cat }}</a>
         {% endif %}
       </li>
     {% endif %}

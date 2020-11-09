@@ -1,10 +1,12 @@
 ---
 layout: for-developers
 title: "Use Apache as a reverse proxy"
-permalink: for-developers/pod-server/apache
+permalink: self-hosting/nss/apache
 tags: [pod-server]
 categories: [Running a Pod Server]
 exclude: true
+redirect_from:
+  - /for-developers/pod-server/apache
 ---
 
 Apache config<br />
