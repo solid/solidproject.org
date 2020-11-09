@@ -7,7 +7,7 @@ categories: [Vocabularies, Quickstart]
 exclude: true
 published: true
 redirect_from:
-  - /developers/vocabularies/create/quickstart
+  - /for-developers/apps/vocabularies/create/quickstart
 ---
 
 # How to create your own vocabulary

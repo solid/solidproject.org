@@ -6,7 +6,7 @@ tags: [apps]
 categories: [Vocabularies, Quickstart]
 exclude: true
 redirect_from:
-  - /developers/vocabularies/code/quickstart
+  - /for-developers/apps/vocabularies/code/quickstart
 ---
 
 In this part of the tutorial, we will build on the [quickstart version](https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl) of the Obelisk vocabulary to develop a simple JavaScript application that answers the question: "Is this person an obelisk sculptor ?"
