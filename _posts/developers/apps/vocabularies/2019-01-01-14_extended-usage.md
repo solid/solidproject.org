@@ -6,7 +6,7 @@ tags: [apps]
 categories: [Vocabularies, Create]
 exclude: true
 redirect_from:
-  - /developers/vocabularies/use/extended
+  - /for-developers/apps/vocabularies/use/extended
 ---
 
 Now that we have a vocabulary, we can use it to describe data. To this end, let us introduce the two most renowned obelisks designers of their time: [Vuittonluis](https://vuittonluis.solidcommunity.net/profile/card#me) and [G. Armani](https://garmani.solidcommunity.net/profile/card#me). if you look up their profile, you will notice that each of them describes himself as an [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor):

@@ -6,7 +6,7 @@ tags: [apps]
 categories: [Vocabularies, Create]
 exclude: true
 redirect_from:
-  - /developers/vocabularies/create/extended
+  - /for-developers/apps/vocabularies/create/extended
 ---
 
 This tutorial extends the [quickstart vocabulary creation](/developers/vocabularies/create/quickstart), so make sure to complete it first. Just as a reminder, here is a graphical representation of the terms we want to include in our vocabs:

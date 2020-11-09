@@ -6,7 +6,7 @@ tags: [apps]
 categories: [Vocabularies, Create]
 exclude: true
 redirect_from:
-  - /developers/vocabularies/create/best-practices
+  - /for-developers/apps/vocabularies/create/best-practices
 ---
 
 Writing a vocabulary is good, writing a good vocabulary is better. To make it easier on others (and on yourself) when using your vocabulary, here is a set of good practices that you might consider applying. There are also external resources that we recommend you read:

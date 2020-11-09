@@ -6,7 +6,7 @@ tags: [apps]
 categories: [Vocabularies, Create]
 exclude: true
 redirect_from:
-  - /developers/vocabularies/create/methodology
+  - /for-developers/apps/vocabularies/create/methodology
 ---
 
 ### The NeOn methodology

@@ -7,7 +7,7 @@ categories: [Vocabularies, Create]
 exclude: true
 published: true
 redirect_from:
-  - /developers/vocabularies/publish/artifacts
+  - /for-developers/apps/vocabularies/publish/artifacts
 ---
 
 Disclaimer: The resources described in this page are not publicly available yet, but they will be release soon.

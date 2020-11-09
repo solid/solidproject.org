@@ -6,7 +6,7 @@ tags: [apps]
 categories: [Vocabularies, Quickstart]
 exclude: true
 redirect_from:
-  - /developers/vocabularies/publish/quickstart
+  - /for-developers/apps/vocabularies/publish/quickstart
 ---
 
 To share your vocabulary across different apps, the best way is to **make it
