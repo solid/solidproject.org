@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page-no-toc
 title: Team
 permalink: team
 ---

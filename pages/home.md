@@ -58,7 +58,7 @@ permalink: /
             <p class="content has-text-centered is-large">
             Solid is led by the inventor of the Web, 
             <b><a href="{{site.baseurl}}/team/">Sir Tim Berners-Lee</a></b>, 
-            to help realize his vision 
+            to help realise his vision 
             for its future.</p>
             
           </div>
