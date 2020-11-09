@@ -11,7 +11,7 @@ redirect_from:
 # Get a Pod and a WebID
 Pods are where you store your data. Your WebID lets you login to Solid apps and Pods as well as letting you connect to other people using Solid.
 
-Once you get a pod and WebID, you can 
+Once you get a Pod and WebID, you can 
 [develop your first application](/developers/tutorials/getting-started/), 
 and check out some applications [developed by the community](/apps).
 
