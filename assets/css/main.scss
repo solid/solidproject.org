@@ -2,6 +2,7 @@
 ---
 @import './lato-font.scss';
 @import './rouge-themes/monokai.scss';
+//@import 'debug.css';
 
 @charset "utf-8";
 
@@ -116,6 +117,26 @@ $why-carousel-offset: 0;
   // The background image starts in the top right, so align it to the right side
   // to make it visible at the top:
   background-position: right $why-carousel-offset;
+}
+
+#landing-cards {
+
+  padding-bottom: 2rem;
+  
+  .card {
+    min-height: 25rem;
+    border-radius: $radius;
+    word-break: keep-all;
+  }  
+
+  .image {
+    display: inline-block;
+  }
+
+  .title {
+    margin: $gap 0;
+  }
+
 }
 
 #why-carousel {

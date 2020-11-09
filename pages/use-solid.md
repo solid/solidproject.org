@@ -1,7 +1,10 @@
 ---
 layout: page
 title: Use Solid Apps
-permalink: /use-solid/
+permalink: /users/
+redirect_from:
+  - /use-solid/
+
 ---
 
 # Using Solid apps
