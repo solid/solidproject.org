@@ -1,9 +1,10 @@
-- name: Use Solid
-  link: /use-solid
-- name: For Developers
-  link: /for-developers
-- name: For Enterprises
-  link: /for-enterprises
-- name: FAQ
-  link: /faqs
-
+- name: Developers
+  link: /developers
+- name: Users
+  link: /users
+- name: Newsletter
+  link: /newsletter
+- name: Events
+  link: /events
+- name: Specification
+  link: /specification

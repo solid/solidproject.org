@@ -7,24 +7,17 @@
             Home
           </a>
         </li>
-        {% if page.url contains '/use-solid/' %}
+        {% if page.url contains '/users/' %}
           <li>
-            <a href="{{site.baseurl}}/use-solid/">
-              Use Solid
+            <a href="{{site.baseurl}}/users/">
+              Using Solid
             </a>
           </li>
         {% endif %}
-        {% if page.url contains '/for-developers/' and page.url != '/for-developers/' %}
+        {% if page.url contains '/developers/' and page.url != '/developers/' %}
           <li>
-            <a href="{{site.baseurl}}/for-developers/">
-              For Developers
-            </a>
-          </li>
-        {% endif %}
-        {% if page.url contains '/for-enterprises/' and page.url != '/for-enterprises/' %}
-          <li>
-            <a href="{{site.baseurl}}/for-enterprises/">
-              For Enterprises
+            <a href="{{site.baseurl}}/developers/">
+              Developers
             </a>
           </li>
         {% endif %}

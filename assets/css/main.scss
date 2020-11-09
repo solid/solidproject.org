@@ -2,6 +2,7 @@
 ---
 @import './lato-font.scss';
 @import './rouge-themes/monokai.scss';
+//@import 'debug.css';
 
 @charset "utf-8";
 
@@ -94,10 +95,18 @@ $why-carousel-offset: 0;
     color: white;
     text-decoration: none;
   }
+  .image {
+    width: 25%;
+    max-width: 256px;
+    min-width: 128px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   a:hover {
     text-decoration: underline;
   }
-
   .hero-body {
     // The regular large Hero is given equal paddings of 18rem by Bulma 0.8.0.
     // We move the title up by 8rem, so that the cards can partly overlap the hero.
@@ -116,6 +125,26 @@ $why-carousel-offset: 0;
   // The background image starts in the top right, so align it to the right side
   // to make it visible at the top:
   background-position: right $why-carousel-offset;
+}
+
+#landing-cards {
+
+  padding-bottom: 2rem;
+  
+  .card {
+    min-height: 32rem;
+    border-radius: $radius;
+    word-break: keep-all;
+  }  
+
+  .image {
+    display: inline-block;
+  }
+
+  .title {
+    margin: $gap 0;
+  }
+
 }
 
 #why-carousel {

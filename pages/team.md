@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-no-toc
 title: Team
 permalink: team
 ---
@@ -58,10 +58,6 @@ Administrators are responsible for administration of tools, systems, and service
 ## Tim Berners-Lee
 **Administrator**
 Sir Tim Berners-Lee is co-founder and Chief Technology Officer of Inrupt.
-
-## Mitzi László
-**Administrator**
-Mitzi László is Communications Manager at Inrupt.
 
 ## Jackson Morgan
 **Administrator**
