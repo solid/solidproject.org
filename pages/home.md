@@ -7,9 +7,12 @@ permalink: /
 <section id="home-hero" class="hero is-dark is-large">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title has-text-centered is-size-3 is-size-2-tablet is-size-1-desktop">
-        Solid
-      </h1>
+      <figure class="image">
+        <img
+          src="{{site.baseurl}}/assets/img/solid-emblem.svg"
+          alt="Solid Logo"
+        />
+      </figure>
       <p class="subtitle has-text-centered is-size-4 is-size-3-tablet is-size-2-desktop">
       Using Web standards to
       let people control their data, and choose the

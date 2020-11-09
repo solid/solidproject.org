@@ -95,10 +95,18 @@ $why-carousel-offset: 0;
     color: white;
     text-decoration: none;
   }
+  .image {
+    width: 25%;
+    max-width: 256px;
+    min-width: 128px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   a:hover {
     text-decoration: underline;
   }
-
   .hero-body {
     // The regular large Hero is given equal paddings of 18rem by Bulma 0.8.0.
     // We move the title up by 8rem, so that the cards can partly overlap the hero.
