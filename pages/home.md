@@ -40,7 +40,7 @@ permalink: /
 
         <p class="subtitle has-text-centered is-3">
           Solid lets people store their data in decentralized data stores 
-          called <b>pods</b>.
+          called <b>Pods</b>.
         </p> 
 
         <div class="columns">
