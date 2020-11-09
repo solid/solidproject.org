@@ -12,7 +12,7 @@ permalink: /
       </h1>
       <p class="subtitle has-text-centered is-size-4 is-size-3-tablet is-size-2-desktop">
       Using Web standards to
-      let us control our data, and choose the
+      let people control their data, and choose the
       applications and services to use with it.
       </p>
       <div class="buttons is-centered">
