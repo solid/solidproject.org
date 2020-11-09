@@ -1,8 +1,12 @@
-- name: About
-  link: /about
 - name: Developers
   link: /developers
 - name: Users
   link: /users
-- name: News
+- name: Newsletter
   link: /newsletter
+- name: Events
+  link: /events
+- name: Press
+  link: /press
+- name: Specification
+  link: /specification

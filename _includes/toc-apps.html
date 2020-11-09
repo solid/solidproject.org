@@ -25,8 +25,6 @@
                     <a href="/developers/vocabularies/well-known">{{ subcat }}</a>
                   {% elsif subcat == "Create" %}
                     <a href="/developers/vocabularies/create">{{ subcat }}</a>
-                  {% elsif subcat == "Code" %}
-                    <a href="/developers/vocabularies/code">{{ subcat }}</a>
                   {% endif %}
                   <ul>
                     {% for post in site.categories[cat] reversed %}
@@ -49,8 +47,6 @@
                     <a href="/developers/vocabularies/well-known">{{ subcat }}</a>
                   {% elsif subcat == "Create" %}
                     <a href="/developers/vocabularies/create">{{ subcat }}</a>
-                  {% elsif subcat == "Code" %}
-                    <a href="/developers/vocabularies/code">{{ subcat }}</a>
                   {% endif %}
                 {% endif %}
               </li>

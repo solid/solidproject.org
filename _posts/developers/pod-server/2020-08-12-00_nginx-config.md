@@ -1,16 +1,17 @@
 ---
 layout: for-developers
-title: "Use Nginx as a reverse proxy"
+title: "Using Nginx as a reverse proxy"
 permalink: self-hosting/nss/nginx
 tags: [pod-server]
-categories: [Running a Pod Server]
+categories: [Running Node Solid Server]
 exclude: true
 redirect_from:
   - /for-developers/pod-server/nginx
 ---
-Nginx config
 
-* create or modify /etc/nginx/sites-available/default as follows (example editor nano)
+# Using Nginx as a Reverse Proxy
+
+Create or modify /etc/nginx/sites-available/default as follows (example editor nano)
 
 `$ nano /etc/nginx/sites-available/default`
 

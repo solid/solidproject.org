@@ -1,15 +1,16 @@
 ---
 layout: for-developers
-title: "Use Apache as a reverse proxy"
+title: "Using Apache as a reverse proxy"
 permalink: self-hosting/nss/apache
 tags: [pod-server]
-categories: [Running a Pod Server]
+categories: [Running Node Solid Server]
 exclude: true
 redirect_from:
   - /for-developers/pod-server/apache
 ---
 
-Apache config<br />
+# Using Apache as a Reverse Proxy
+
 * enable modules (ssl.conf, ssl.load, proxy.conf, proxy.load, proxy_html.conf, proxy_html.load, proxy_http.conf, proxy_http.load, rewrite.load, socache_shmcb.load)<br />
 * this is done by creating symlinks in `/etc/apache2/mods-enabled/` pointing to `/etc/apache2/mods-available/*`<br />
 * sample for one module other modules equivalent<br />

@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Use Solid Apps
-permalink: /users/
+title: Get a Pod
+permalink: /users/get-a-pod
 redirect_from:
-  - /use-solid/
+  - /use-solid
+  - /users
 
 ---
 
-# Using Solid apps
-To get started with Solid you will first need a Pod and a WebID, after which you can start [using Solid apps]({{site.baseUrl}}/use-solid/apps). 
-
-<img class="illustration" src="{{site.baseUrl}}/assets/img/use-solid/apps.svg" alt="[]"/>
-
 # Get a Pod and a WebID
-Pods are where you store your data. Your WebID lets you login to Solid apps and Pods as well as letting you connect to other people using Solid. 
+Pods are where you store your data. Your WebID lets you login to Solid apps and Pods as well as letting you connect to other people using Solid.
+
+Once you get a pod and WebID, you can 
+[develop your first application](/developers/tutorials/getting-started/), 
+and check out some applications [developed by the community](/apps).
 
 ## How to pick a Provider
 

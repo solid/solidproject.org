@@ -16,14 +16,16 @@ permalink: /
       applications and services to use with it.
       </p>
       <div class="buttons is-centered">
+        <!--
         <a href="{{site.baseurl}}/about/">
           <button class="button is-primary">About Solid</button>
         </a>
-        <a href="{{site.baseurl}}/developers/">
-          <button class="button is-primary">Developer Tutorial</button>
-        </a>
+        -->
         <a href="{{site.baseurl}}/users/">
           <button class="button is-primary">Get a Pod</button>        
+        </a>
+        <a href="{{site.baseurl}}/developers/tutorials/getting-started">
+          <button class="button is-primary">Developer Tutorial</button>
         </a>
       </div>
     </div>
@@ -48,7 +50,7 @@ permalink: /
               Pods are like secure personal web servers for data.
               All data in a pod is accessible
               accesible via the 
-              <a href="{{site.baseurl}}/about/">Solid Protocol</a>.
+              <a href="https://solid.github.io/specification/">Solid Protocol</a>.
               When data is stored in someone's 
               pod, they control who and what can access it.
             </p>
@@ -86,7 +88,7 @@ permalink: /
               </p>
               <hr/>
               <p class="content is-size-5">
-                Any kind of data can be stored in a Solid pod, including regular files that you might store in a Google Drive or Dropbox folder, but it is the ability to store <a href="{{site.baseurl}}/about/">Linked Data</a> that makes Solid special.
+                Any kind of data can be stored in a Solid pod, including regular files that you might store in a Google Drive or Dropbox folder, but it is the ability to store Linked Data that makes Solid special.
               </p>
             </div>
           </div>
@@ -107,7 +109,7 @@ permalink: /
               </p>
               <hr/>
               <p class="content is-size-5">
-                <a href="{{site.baseurl}}/about/">Linked Data</a> gives Solid 
+                Linked Data gives Solid 
                 a common way to describe things and 
                 how they relate to each other, in a way that other people and 
                 machines can understand. This means the data stored by Solid
@@ -156,7 +158,7 @@ permalink: /
         applications and data</p>
         <p class="subtitle is-4">
         Data stored in Solid pods can power ecosystems of
-        <a class="has-text-primary" href="{{site.baseurl}}/about/#interoperable-applications">interoperable applications</a> where individuals are free to use their data 
+        interoperable applications where individuals are free to use their data 
         seamlessly across different applications and services.</p>
       </div>
     </div>

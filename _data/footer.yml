@@ -1,15 +1,15 @@
 - name: Home
   link: "/"
   sublinks:
-  - name: Use Solid
-    link: "/use-solid"
+  - name: Using Solid
+    link: "/users"
+  - name: Get a Pod
+    link: "/users/get-a-pod"
   - name: Solid Apps
-    link: "/use-solid/apps"
-  - name: Implement Solid
-    link: "/implement"
+    link: "/apps"
   - name: Team
     link: "/team"
-  - name: Labs
+  - name: Research Labs
     link: "/labs"
   - name: FAQs
     link: "/faqs"
@@ -17,25 +17,25 @@
   sublinks:
   - name: This Month in Solid
     link: "/newsletter"
+  - name: Solid Events
+    link: "/events"
   - name: Press
     link: "/press"
-  - name: Solid events
-    link: "/events"
-- name: For Developers
-  link: "/for-developers"
+- name: Developers
+  link: "/developers"
   sublinks:
-  - name: Writing apps
-    link: "/for-developers/apps"
-  - name: Running a Pod server
-    link: "/for-developers/pod-server"
+  - name: Getting Started
+    link: "/developers/tutorial/getting-started"
+  - name: Self-Hosting
+    link: "/self-hosting/"
   - name: Funding
     link: "/funding"
   - name: Forum
     link: "https://forum.solidproject.org"
 - name: More
   sublinks:
-  - name: Standardisation
-    link: "/standardisation"
+  - name: Specification
+    link: "/specification"
   - name: License
     link: "/license"
   - name: Logo usage guidelines
