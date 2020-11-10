@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Use Solid Apps
-permalink: /use-solid/apps
+title: Solid Applications
+permalink: /apps
+redirect_from:
+  - /use-solid/apps
 ---
 
 These Solid-compatible apps will store your data on [your own Pod]({{site.baseUrl}}/use-solid).

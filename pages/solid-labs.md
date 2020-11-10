@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: page-no-toc
 title: "Labs"
 permalink: labs
 ---
+
+# Research Labs
 
 Several academic groups conduct research around Solid. If you are interested in being listed send an email to info@solidproject.org with a description of the research project and link to the website. 
 
@@ -40,7 +42,7 @@ CERN is heavily involved in open source, and follows Solid work.
 
 Contact [Maria Dimou](http://dimou.web.cern.ch/dimou/)
 
-### [Open University] - [Open Blockchain Group](https://blockchain.open.ac.uk/#covid-19)
+### Open University - [Open Blockchain Group](https://blockchain.open.ac.uk/#covid-19)
 Milton Keynes, UK
 
 The Open University runs an experimental server and works on a COVID-19 immunity passport Solid app. 
