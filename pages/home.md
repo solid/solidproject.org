@@ -24,7 +24,7 @@ permalink: /
           <button class="button is-primary">About Solid</button>
         </a>
         -->
-        <a href="{{site.baseurl}}/users/">
+        <a href="{{site.baseurl}}/users/get-a-pod">
           <button class="button" id="get-a-pod">Get a Pod</button>        
         </a>
         <a href="{{site.baseurl}}/developers/tutorials/getting-started">
@@ -58,7 +58,7 @@ permalink: /
                                 
             <p class="content is-large">
             Solid is led by the inventor of the Web, 
-            <b><a href="{{site.baseurl}}/team/">Sir Tim Berners-Lee</a></b>, 
+            <b><a href="{{site.baseurl}}/team">Sir Tim Berners-Lee</a></b>, 
             to help realise his vision 
             for its future.</p>
             </div>
