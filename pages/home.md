@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<section id="home-hero" class="hero is-dark is-large">
+<section id="home-hero" class="hero is-dark is-medium">
   <div class="hero-body">
     <div class="container">
       <figure class="image">
