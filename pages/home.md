@@ -21,13 +21,13 @@ permalink: /
       <div class="buttons is-centered">
         <!--
         <a href="{{site.baseurl}}/about/">
-          <button class="button is-primary">About Solid</button>
+          <button class="button is-black is-large">About Solid</button>
         </a>
         -->
-        <a href="{{site.baseurl}}/users/get-a-pod" class="button is-black">
+        <a href="{{site.baseurl}}/users/get-a-pod" class="button is-black is-large">
           Get a Pod
         </a>
-        <a href="{{site.baseurl}}/developers/tutorials/getting-started" class="button is-primary">
+        <a href="{{site.baseurl}}/developers/tutorials/getting-started" class="button is-primary is-large">
           Developer Tutorial
         </a>
       </div>
