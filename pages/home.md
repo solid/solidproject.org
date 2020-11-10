@@ -63,7 +63,6 @@ permalink: /
             for its future.</p>
             </div>
         </div>
-        <hr>
       </div>
     </section>
     <section class="section">
@@ -81,7 +80,6 @@ permalink: /
             </figure>
           </div>
         </div>
-        <hr>
       </div>
     </section>
     <section class="section">
@@ -105,7 +103,6 @@ permalink: /
             </p>
           </div>
         </div>
-        <hr>
       </div>
     </section>
     <section class="section">

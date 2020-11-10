@@ -187,15 +187,10 @@ $why-carousel-offset: 0;
 
 #tour {
   .section {
-    
-    padding: 1rem 1.5rem;
-
-    &:first-child {
-      padding-top: 3rem;
-    }
+    border-bottom: 2px solid $grey-lightest;
     
     &:last-child {
-      padding-bottom: 3rem;
+      border-style: none;
     }
   
   }
