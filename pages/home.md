@@ -24,11 +24,11 @@ permalink: /
           <button class="button is-primary">About Solid</button>
         </a>
         -->
-        <a href="{{site.baseurl}}/users/get-a-pod">
-          <button class="button" id="get-a-pod">Get a Pod</button>        
+        <a href="{{site.baseurl}}/users/get-a-pod" class="button is-black">
+          Get a Pod
         </a>
-        <a href="{{site.baseurl}}/developers/tutorials/getting-started">
-          <button class="button is-primary">Developer Tutorial</button>
+        <a href="{{site.baseurl}}/developers/tutorials/getting-started" class="button is-primary">
+          Developer Tutorial
         </a>
       </div>
     </div>

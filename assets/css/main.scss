@@ -14,9 +14,9 @@ $secondary: #1fca86;
 $grey-lightest: #f4f4f4;
 $grey-lighter: #d8d8d8;
 $grey-light: #d9d9d9;
-$grey-dark: #5a5a5a;
-$black-ter: #202542;
-$dark: $black-ter;
+$grey-dark: #202542;
+$black-ter: #363E78;
+$dark: $grey-dark;
 
 // Initialise derived variables, so they can be overriden:
 @import "bulma-0.8.0/sass/utilities/_all.sass";
@@ -106,11 +106,6 @@ $why-carousel-offset: 0;
   }
   a:hover {
     text-decoration: underline;
-  }
-  #get-a-pod {
-    background-color: #363E78;
-    border-color: #363E78;
-    color: #fff;
   }
 }
 
