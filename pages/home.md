@@ -51,8 +51,8 @@ permalink: /
             <p class="content is-large">
             Solid lets people store their data securely in decentralized data stores 
             called <b>Pods</b>. Pods are like secure personal web servers for data.
-            All data in a pod is accesible via the 
-            <a href="https://solid.github.io/specification/">Solid Protocol</a>.
+            All data in a pod is accessible via the 
+            <a href="https://solid.github.io/specification/" target="_blank">Solid Protocol</a>.
             When data is stored in someone's 
             pod, they control who and what can access it.</p>
                                 
@@ -100,7 +100,7 @@ permalink: /
             Linked Data gives Solid 
             a common way to describe things and 
             how they relate to each other, in a way that other people and 
-            machines can understand. This means the data stored by Solid
+            machines can understand. This means that the data stored by Solid
             is portable and completely interoperable.
             </p>
           </div>
@@ -115,8 +115,8 @@ permalink: /
             <h2 class="title">Share it safely</h2>
             <p class="content is-large">
               Anyone or anything that accesses data in a Solid pod uses a 
-              unique ID, authenticated by a decentralized extension of the OpenID Connect 
-              protocol. Solid's access control system uses these IDs to 
+              unique ID, authenticated by a decentralized extension of OpenID 
+              Connect. Solid's access control system uses these IDs to 
               determine whether a person or application has access to a 
               resource in a pod.
             </p>
