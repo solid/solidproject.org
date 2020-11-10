@@ -25,9 +25,9 @@
   link: "/developers"
   sublinks:
   - name: Getting Started
-    link: "/developers/tutorial/getting-started"
+    link: "/developers/tutorials/getting-started"
   - name: Self-hosting
-    link: "/self-hosting/"
+    link: "/self-hosting"
   - name: Funding
     link: "/funding"
   - name: Forum
