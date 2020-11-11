@@ -14,9 +14,9 @@ $secondary: #1fca86;
 $grey-lightest: #f4f4f4;
 $grey-lighter: #d8d8d8;
 $grey-light: #d9d9d9;
-$grey-dark: #5a5a5a;
-$black-ter: #202542;
-$dark: $black-ter;
+$grey-dark: #202542;
+$black-ter: #363E78;
+$dark: $grey-dark;
 
 // Initialise derived variables, so they can be overriden:
 @import "bulma-0.8.0/sass/utilities/_all.sass";
@@ -107,17 +107,6 @@ $why-carousel-offset: 0;
   a:hover {
     text-decoration: underline;
   }
-  .hero-body {
-    // The regular large Hero is given equal paddings of 18rem by Bulma 0.8.0.
-    // We move the title up by 8rem, so that the cards can partly overlap the hero.
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-  #get-a-pod {
-    background-color: #363E78;
-    border-color: #363E78;
-    color: #fff;
-  }
 }
 
 #landing-content {
@@ -137,14 +126,6 @@ $why-carousel-offset: 0;
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-size: cover;
-
-  a, a:visited {
-    color: white;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
 }
 
 #why-carousel {
@@ -206,15 +187,10 @@ $why-carousel-offset: 0;
 
 #tour {
   .section {
-    
-    padding: 1rem 1.5rem;
-
-    &:first-child {
-      padding-top: 3rem;
-    }
+    border-bottom: 2px solid $grey-lightest;
     
     &:last-child {
-      padding-bottom: 3rem;
+      border-style: none;
     }
   
   }
