@@ -77,10 +77,10 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-}
-  
-#sticky-footer {
-  flex: 1;
+
+  #main {
+    flex-grow: 1;
+  }
 }
 
 #breadcrumb {
