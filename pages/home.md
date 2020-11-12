@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<section id="home-hero" class="hero is-dark is-large">
+<section id="home-hero" class="hero is-dark is-medium">
   <div class="hero-body">
     <div class="container">
       <figure class="image">
@@ -21,14 +21,14 @@ permalink: /
       <div class="buttons is-centered">
         <!--
         <a href="{{site.baseurl}}/about/">
-          <button class="button is-primary">About Solid</button>
+          <button class="button is-black is-large">About Solid</button>
         </a>
         -->
-        <a href="{{site.baseurl}}/users/get-a-pod">
-          <button class="button" id="get-a-pod">Get a Pod</button>        
+        <a href="{{site.baseurl}}/users/get-a-pod" class="button is-black is-large">
+          Get a Pod
         </a>
-        <a href="{{site.baseurl}}/developers/tutorials/getting-started">
-          <button class="button is-primary">Developer Tutorial</button>
+        <a href="{{site.baseurl}}/developers/tutorials/getting-started" class="button is-primary is-large">
+          Developer Tutorial
         </a>
       </div>
     </div>
@@ -63,7 +63,6 @@ permalink: /
             for its future.</p>
             </div>
         </div>
-        <hr>
       </div>
     </section>
     <section class="section">
@@ -81,7 +80,6 @@ permalink: /
             </figure>
           </div>
         </div>
-        <hr>
       </div>
     </section>
     <section class="section">
@@ -105,7 +103,6 @@ permalink: /
             </p>
           </div>
         </div>
-        <hr>
       </div>
     </section>
     <section class="section">
