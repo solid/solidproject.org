@@ -3,7 +3,7 @@ layout: page
 title: Implement
 permalink: implement
 redirect_from:
-  - /for-enterprises
+  - /for-enterprises/
 ---
 
 Are you in the business of apps, identification, or storage and interested in implementing Solid?
