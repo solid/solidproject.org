@@ -16,6 +16,6 @@ solidproject.org is a hub for:
 | Users  | to provide an adequate overview of why and how to use Solid  |
 
 ## Three most important user paths
-1. Enterprises: https://solidproject.org/for-enterprises/ with aim to convince enterprises to implement Solid
-2. Developers: https://solidproject.org/for-developers/ with aim to start building an app
-3. Users: https://solidproject.org/use-solid/ with aim to start using an app
+1. Enterprises: https://solidproject.org/implement with aim to convince enterprises to implement Solid
+2. Developers: https://solidproject.org/developers with aim to start building an app
+3. Users: https://solidproject.org/users/get-a-pod with aim to start using an app
