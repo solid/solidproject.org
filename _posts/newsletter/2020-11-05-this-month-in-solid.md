@@ -23,7 +23,7 @@ Our first presenter for November’s Solid World was Frédéric Hennequin, who i
 
 Our final presenter was Pieter Heyvaert, the Development Lead and Developer Advocate at Ghent University - IDLab, imec. He discussed the creation of a job application service for those with dyslexia or dyscalculia. The frontend is easy to use and understand by giving the user various ways to upload or input their information and resume by audio, video, or text in addition to a reader option. Lastly, he explained why they are using Solid on the backend, and how data flows are architected. 
 
-Register for Solid World December here, and keep an eye out for agenda updates over the coming weeks.
+[Register for Solid World December here](https://www.eventbrite.com/e/solid-world-tickets-128665029567), and keep an eye out for agenda updates over the coming weeks.
 
   
 ### [Press](https://solidproject.org/press)
