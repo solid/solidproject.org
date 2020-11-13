@@ -26,16 +26,6 @@ Our final presenter was Pieter Heyvaert, the Development Lead and Developer Advo
 [Register for Solid World December here](https://www.eventbrite.com/e/solid-world-tickets-128665029567), and keep an eye out for agenda updates over the coming weeks.
 
   
-### [Press](https://solidproject.org/press)
-
-* 
-
-### In Other News
-
-#### Solid Implementations
-
-*
-
 #### Job Openings
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Tech Leader. Email tom@digita.ai for more information.
 * [Contact Inrupt careers](https://inrupt.com/careers) 
