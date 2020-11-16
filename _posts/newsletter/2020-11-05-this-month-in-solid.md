@@ -15,7 +15,7 @@ categories: [Updates]
 
 Recently, there was a change in the Solid Community Pod server. During Solid World, Tim Berners-Lee confirmed that the service is back up and running at solidcommunity.net. There are a few members in the Solid community to thank for helping with this: Justin Bingham, Jackson Morgan, Jeff Zucker, Alain Bourgeois, Eric Prud'hommeaux, and Michiel de Jong. 
 
-As usual, Ruben Verborgh shared a progress update on the Community Solid Server, focusing on impressive new database flexibility. The recording for the full demo is coming soon. And Osmar (Oz) Olivo gave a preview of big news about Inrupt’s roadmap for bringing Solid to developers and organizations. You can keep up with the latest on [Inrupt's blog](https://inrupt.com/blog).
+As usual, Ruben Verborgh shared a progress update on the Community Solid Server, focusing on impressive new database flexibility. The recording for the full demo is on the [Solid World Vimeo](https://vimeo.com/479873289) account. And Osmar (Oz) Olivo gave a preview of big news about Inrupt’s roadmap for bringing Solid to developers and organizations. You can keep up with the latest on [Inrupt's blog](https://inrupt.com/blog).
 
 Following a major announcement last month from the Minister President of Flanders about the government’s embrace of Solid, both of our guest presenters came from that region.
 
