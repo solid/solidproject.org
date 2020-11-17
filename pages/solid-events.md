@@ -14,6 +14,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |---|-------|--------------|--------------|
+2020-12-03|[Solid World December](https://www.eventbrite.com/e/solid-world-tickets-128665029567)|[Solid Team](https://solidproject.org/team)||
 2020-11-05|[Solid World November](https://www.eventbrite.com/e/solid-world-tickets-124481709143)|[Solid Team](https://solidproject.org/team)|[Full recording](https://vimeo.com/479873289). [Notes](https://indico.cern.ch/event/974494/attachments/2140273/3606052/SolidWorld2020-11-05notes.pdf) by attendant Maria Dimou.|
 2020-10-01|[Solid World October](https://www.eventbrite.com/e/solid-world-tickets-119073298441)|[Solid Team](https://solidproject.org/team)|[Recording of Inrupt demonstrating their React SDK](https://vimeo.com/468132352). [Recording of Janeiro Digital demonstrating their work on Personal Health Stores for the NHS.](https://vimeo.com/471703581) [Notes](https://indico.cern.ch/event/963601/attachments/2116869/3573995/SolidWorld2020-10-01notes.pdf) by attendant Maria Dimou.|
 2020-09-03|[Solid World September](https://www.eventbrite.com/e/solid-world-tickets-115477011851)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/454813146) and slides: [Community Solid Server update (Ruben V.)](https://rubenverborgh.github.io/Solid-World-September-2020/#)|
