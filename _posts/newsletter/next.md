@@ -11,7 +11,7 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-**<3 December 2020>** - <description>
+**3 December 2020** - Register for December's Solid World [today](https://www.eventbrite.com/e/128665029567)!
   
 ### [Press](https://solidproject.org/press)
 
