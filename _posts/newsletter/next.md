@@ -1,7 +1,7 @@
 ---
 layout: newsletter
-title: This Month in Solid 2020-10-01
-permalink: /newsletter/2020-10-01
+title: This Month in Solid 2020-12-03
+permalink: /newsletter/2020-12-03
 tags: [monthly, updates]
 categories: [Updates]
 ---
@@ -11,7 +11,7 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-**<date month year>** - <description>
+**<3 December 2020>** - <description>
   
 ### [Press](https://solidproject.org/press)
 
