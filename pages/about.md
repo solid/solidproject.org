@@ -7,7 +7,7 @@ permalink: /about
 
 # About Solid
 
-Solid is a mid-course correction for the Web by its creator, 
+Solid is a mid-course correction for the Web by its inventor, 
 [Sir Tim Berners-Lee](/team). It realizes Tim's original vision for the 
 Web as a medium for the secure, decentralized exchange of public 
 and private data.
@@ -19,7 +19,7 @@ and private data.
 The [first web browser](https://worldwideweb.cern.ch/) was also an editor. 
 The idea being that not only could everyone read content on the web, but 
 they could also help create it. It was 
-to be a collaborative space for all mankind.
+to be a collaborative space for everyone.
 
 However, when the first browser that popularized the web came along, called 
 Mosaic, it included multimedia and editing was taken out. It was considered 
@@ -46,6 +46,7 @@ and medical to financial and civil.
 
 When your data is siloed away from you:
 
+* You have hardly any visibility into what is being retained.
 * You have little control over how it is used, or who is using it. 
 * You have little choice in which applications you can use to access it.
 * It is hard to use as a cohesive unit, specifically because it is siloed,
@@ -65,7 +66,7 @@ and accessed using standard, open, and interoperable mediums.
 * Any kind of information can be stored
 in a Solid pod. 
 * You can share slices of your data with the people, organizations, 
-and applications you choose.
+and applications you choose, and you can revoke that access at any time.
 
 Because everything is interoperable, different applications can
 read and write the same data, instead of creating new data silos that make 
