@@ -7,6 +7,7 @@ categories: [Tutorials]
 exclude: true
 redirect_from:
   - /for-developers/apps/first-app/
+  - /for-developers/apps/
 ---
 
 # Getting Started
