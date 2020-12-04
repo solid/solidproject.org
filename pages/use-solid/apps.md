@@ -11,7 +11,7 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 # Solid Apps
 
 ## Show Case
-* [Media Kraken](https://noeldemartin.github.io/media-kraken/) let's you track your media and never miss a beat. 2020. [Noel De Martin](https://noeldemartin.com). [documentation](https://github.com/NoelDeMartin/media-kraken/tree/main/docs) and [source code](https://github.com/NoelDeMartin/media-kraken) which is under GNU General Public License v3.0. Give feedback about the app via [this thread](https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333).
+* [Media Kraken](https://noeldemartin.github.io/media-kraken/) lets you track your media and never miss a beat. 2020. [Noel De Martin](https://noeldemartin.com). [documentation](https://github.com/NoelDeMartin/media-kraken/tree/main/docs) and [source code](https://github.com/NoelDeMartin/media-kraken) which is under GNU General Public License v3.0. Give feedback about the app via [this thread](https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333).
 * [Solidarity](https://scenaristeur.github.io/solidarity/). [source code](https://github.com/scenaristeur/solidarity) is under [MIT License Copyright (c) 2019](https://github.com/scenaristeur/shighl/blob/master/LICENSE)[David Faveris](http://smag0.blogspot.com/2013/12/smag0-le-projet.html)
 * [Notepod](https://notepod.vincenttunru.com/) is a simple note-taking app that stores notes in your Solid Pod. It was created as a demonstration of how to create Solid apps — inspect [its commit messages](https://gitlab.com/vincenttunru/notepod/commits/master) for more detailed guidance on [reading data](https://gitlab.com/vincenttunru/notepod/commit/5c534abdd2d6ed18be8ddc256427fb7bc0baae71), [authenticating](https://gitlab.com/vincenttunru/notepod/commit/f42f8ae6e55f1a1996050d5061252b5ac615b5aa), and more.
 * [Poddit](https://vincenttunru.gitlab.io/poddit/). 2019. Vincent Tunru.
@@ -48,14 +48,14 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 * [Twee-Fi](https://factsmission.github.io/twee-fi/) helps you review claims and rate trustworthiness of tweets. [Twee-Fi](https://github.com/factsmission/twee-fi) [MIT License Copyright (c) 2018](https://github.com/factsmission/twee-fi/blob/master/LICENSE) [FactsMission](https://factsmission.com)
 * [Mark Book](https://markbook.org) is for creating bookmarks. [Source code](https://github.com/melvincarvalho/solid-bookmark) [MIT License Copyright (c) 2018](https://github.com/melvincarvalho/solid-bookmark/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho)
 
-## Movies 
-* [Media Kraken](https://noeldemartin.github.io/media-kraken/) let's you track your media and never miss a beat. 2020. [Noel De Martin](https://noeldemartin.com). [documentation](https://github.com/NoelDeMartin/media-kraken/tree/main/docs) and [source code](https://github.com/NoelDeMartin/media-kraken) which is under GNU General Public License v3.0. Give feedback about the app via [this thread](https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333).
+## Movies
+* [Media Kraken](https://noeldemartin.github.io/media-kraken/) lets you track your media and never miss a beat. 2020. [Noel De Martin](https://noeldemartin.com). [documentation](https://github.com/NoelDeMartin/media-kraken/tree/main/docs) and [source code](https://github.com/NoelDeMartin/media-kraken) which is under GNU General Public License v3.0. Give feedback about the app via [this thread](https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333).
 
 ## Project Management
 * [RiseFor Mobilisation](https://git.happy-dev.fr/startinblox/applications/risefor-mobilisation) (deployed as [Referendum Signons](https://referendum.signons.fr)) is an app for organising referenda; it uses Solid under the hood.
 * [Solidbase](https://app.solidbase.info) agricultural project management. [source code](https://lab.allmende.io/solidbase/solidbase) is under [GNU AGPL3 (c) 2017](https://lab.allmende.io/solidbase/solidbase/blob/master/LICENSE) [Allmende Lab](https://lab.allmende.io)
 
-## Blogs 
+## Blogs
 * [Concept](https://useconcept.art) ([GitHub](https://github.com/travis/concept)) is an embarrassingly simple clone of [notion.so](https://notion.so) built on Solid, currently in early alpha.
 * [Notepod](https://notepod.vincenttunru.com/) is a simple note-taking app that stores notes in your Solid Pod. [source code](https://github.com/Vinnl/notepod) by [Vincent Tunru](https://github.com/Vinnl)
 * [OEdit](https://edit.o.team) an editor app for raw files using the vs interface. [source code](https://github.com/jaxoncreed/o-edit) by [Jackson Morgan](https://github.com/jaxoncreed).
@@ -70,9 +70,9 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 ## Health
 * [Solid Health](https://github.com/jasonpaulos/solid-health)
 
-## Geolocation 
+## Geolocation
 * [Solid LBS](https://github.com/SharonStrats/SOLIDLBSPrototype) (deployed as [Sigmafied](https://sigmafied.com)). 2019. [Sharon Statsianis](https://github.com/SharonStrats).
-* [Solid Geolocation Challenge Entries](https://arquisoft.github.io/course1920.html#SolidChallen2020) 
+* [Solid Geolocation Challenge Entries](https://arquisoft.github.io/course1920.html#SolidChallen2020)
 
 ## Other
 * [Spoggy](https://spoggy.herokuapp.com/)
@@ -108,12 +108,12 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 * [SPARQL Fiddle](https://jeff-zucker.github.io/sparql-fiddle/) online fiddle to run SPARQL against  Pods. [Source code](https://github.com/jeff-zucker/sparql-fiddle) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/sparql-fiddle/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker)
 * [Warp](https://linkeddata.github.io/warp/) file browser. [Source code](https://github.com/linkeddata/warp) MIT License Copyright (c) 2014](https://github.com/linkeddata/warp/blob/gh-pages/LICENSE) [Andrei Samba](https://github.com/deiu)
 
-# Historical Solid Apps 
+# Historical Solid Apps
 * [Inbox](https://github.com/solid/solid-inbox) processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu)
 
 # Apps inclusion and exclusion criteria
 
-The criteria for an app to be Solid-compatible are: 
+The criteria for an app to be Solid-compatible are:
 * If identifying users is necessary, they must be able to login using their WebID and pointing to the Identity Provider of their choice
 * Data consumed by the app should be fetched from Solid Pods if possible
 * Data generated by the app should be stored in Solid Pods
