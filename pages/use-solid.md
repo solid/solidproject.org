@@ -34,11 +34,7 @@ To recap, some questions you may want to consider are:
 
 You can pick a Provider in the following list. However, keep in mind that Solid is about freedom: **you won't be tied to the provider you choose now**, and you will have the ability to **move your data elsewhere** if you want to.
 
-| Provider | Responsible for Domain Name and Terms | Responsible for Hosting | Location of Hosting |
-|-----------------------------------|:---------------------------------------------------:|:-------------------------------------------------:|:-------------------:|:--------------------:|
-| [inrupt.net](https://inrupt.net) | [Inrupt, Inc.](https://inrupt.com/terms-of-service) | [Amazon](https://aws.amazon.com) | USA |
-| [solidcommunity.net](https://solidcommunity.net/) | [Solid Project](https://github.com/solid/solidcommunity.net_operations) | [Digital Ocean](https://www.digitalocean.com) | UK |
-| [solidweb.org](https://solidweb.org) | [Solid Grassroots](https://gitlab.com/groups/solidweb.org/-/group_members) | [Hosteurope](https://www.hosteurope.de) | Germany |
+  {% include pod-provider-table.html %}
 
 If you are a provider you can add your service to this list by emailing [info@solidproject.org](mailto:info@solidproject.org).
 
