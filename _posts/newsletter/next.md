@@ -37,7 +37,7 @@ In finishing out this year and the last 2020 This Month in Solid newsletter, we 
 
 #### Solid Implementations
 
-* Test out the new releases of the [Community Solid Server (CSS)](https://github.com/solid/community-server/) by Ruben Verborgh and [Inrupt's Pod Spaces](signup.pod.inrupt.com) by Osmar (Oz) Olivo from the last Solid World.
+* Test out the new releases of the [Community Solid Server (CSS)](https://github.com/solid/community-server/) by Ruben Verborgh and [Inrupt's Pod Spaces](https://signup.pod.inrupt.com) by Osmar (Oz) Olivo from the last Solid World.
 
 #### Job Openings
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Tech Leader. Email tom@digita.ai for more information.
@@ -45,4 +45,3 @@ In finishing out this year and the last 2020 This Month in Solid newsletter, we 
 * O Team is recruiting a ETL (Extract Transform Load) Engineer, a Linked Data Ontology Designer, and a JavaScript Developer. Email [jobs@o.team](mailto:jobs@o.team) for more information. 
 
 ### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
-
