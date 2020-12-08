@@ -26,7 +26,7 @@ The next speaker was Jan Schill from [CERN](https://home.cern/), who was telling
 
 The final presenter that we heard from was Wouter Janssens, one of the Co-Founders and CEO of [Digita](https://www.digita.ai/). Wouter showcased the user interface of their data browser, [Inox](https://www.inox.app/). He informed us of the ease you could have to access your data in your pod. You use information from your various vaults for your banking, governmental or personal needs in one space. It was thrilling to see the engagement from participants when they were learning how Inox works.
 
-In finishing out this year and the last 2020 This Month in Solid newsletter, we are eager to continue growing and contributing in Solid and hope you are as well. So to keep the momentum, start testing out the CSS, the Inrupt Pod Spaces or any of the other great Solid applications. If you’re new to Solid, this is a great time to start building your own application/services and getting your feet wet. As always, please send us ([info@solidproject.org](info@solidproject.org)) suggestions or ideas for what you’d like to see highlighted in future Solid World events.
+In finishing out this year and the last 2020 This Month in Solid newsletter, we are eager to continue growing and contributing in Solid and hope you are as well. So to keep the momentum, start testing out the CSS, the Inrupt Pod Spaces or any of the other great Solid applications. If you’re new to Solid, this is a great time to start building your own application/services and getting your feet wet. As always, please send us ([info@solidproject.org](mailto:info@solidproject.org)) suggestions or ideas for what you’d like to see highlighted in future Solid World events.
 
   
 ### [Press](https://solidproject.org/press)
@@ -40,7 +40,7 @@ In finishing out this year and the last 2020 This Month in Solid newsletter, we 
 * Test out the new releases of the [Community Solid Server (CSS)](https://github.com/solid/community-server/) by Ruben Verborgh and [Inrupt's Pod Spaces](https://signup.pod.inrupt.com) by Osmar (Oz) Olivo from the last Solid World.
 
 #### Job Openings
-* [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Tech Leader. Email tom@digita.ai for more information.
+* [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Tech Leader. Email [tom@digita.ai](mailto:tom@digita.ai) for more information.
 * [Contact Inrupt careers](https://inrupt.com/careers) 
 * O Team is recruiting a ETL (Extract Transform Load) Engineer, a Linked Data Ontology Designer, and a JavaScript Developer. Email [jobs@o.team](mailto:jobs@o.team) for more information. 
 
