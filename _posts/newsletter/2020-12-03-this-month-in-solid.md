@@ -29,9 +29,6 @@ The final presenter that we heard from was Wouter Janssens, one of the Co-Founde
 In finishing out this year and the last 2020 This Month in Solid newsletter, we are eager to continue growing and contributing in Solid and hope you are as well. So to keep the momentum, start testing out the CSS, the Inrupt Pod Spaces or any of the other great Solid applications. If you’re new to Solid, this is a great time to start building your own application/services and getting your feet wet. As always, please send us ([info@solidproject.org](mailto:info@solidproject.org)) suggestions or ideas for what you’d like to see highlighted in future Solid World events.
 
   
-### [Press](https://solidproject.org/press)
-
-* 
 
 ### In Other News
 
@@ -43,5 +40,3 @@ In finishing out this year and the last 2020 This Month in Solid newsletter, we 
 * [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Tech Leader. Email [tom@digita.ai](mailto:tom@digita.ai) for more information.
 * [Contact Inrupt careers](https://inrupt.com/careers) 
 * O Team is recruiting a ETL (Extract Transform Load) Engineer, a Linked Data Ontology Designer, and a JavaScript Developer. Email [jobs@o.team](mailto:jobs@o.team) for more information. 
-
-### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
