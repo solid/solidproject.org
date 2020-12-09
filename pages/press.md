@@ -14,6 +14,24 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2020-12-03"
+    title="Solid World December"
+    website="https://vimeo.com/487088029"
+    slide="https://indico.cern.ch/event/977577/attachments/2150316/3635690/SolidWorld2020-12-03presentation.pdf"
+    speaker="Jan Schill & Maria Dimou,Frederic Lebeau,Wouter Janssens"
+%}
+
+{%
+  include talk.html
+    date="2020-11-05"
+    title="Solid World November"
+    website="https://vimeo.com/479873289"
+    slide="https://indico.cern.ch/event/974494/attachments/2140273/3606052/SolidWorld2020-11-05notes.pdf"
+    speaker="Frederic Hennequin,Pieter Heyvaert"
+%}
+
+{%
+  include talk.html
     date="2020-10-28"
     title="Data as the key to smarter innovation"
     website="https://versnellingsplan.nl/english/"
