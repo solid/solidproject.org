@@ -53,7 +53,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 | 2019-03-27 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-55479654139) | [Christian Buggedei](https://github.com/JollyOrc) ||
 | 2019-03-22 | [Solid Boston](https://www.eventbrite.com/e/solid-startup-workshop-boston-tickets-57623868542) | [Kelly O'Brien](https://github.com/InruptKelly) ||
 | 2019-03-21 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-57623377072) | [Kelly O'Brien](https://github.com/InruptKelly) ||
-| 2019-02-20 | [Solid Saxony](https://forum.solidproject.org/t/solid-meetup-saxony-germany/1215) | [Team 4C](https://wefourc.com/) ||
+| 2019-02-20 | [Solid Saxony](https://forum.solidproject.org/t/solid-meetup-saxony-germany/1215) | [Team 4C](https://web.archive.org/web/20191021031741/https://www.wefourc.com/) ||
 | 2019-02-08 | Solid Stockholm | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
 | 2019-01-09 | Solid Berlin | [Christian Buggedei](https://github.com/JollyOrc) ||
 | 2018-12-12 | Solid Oslo | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
