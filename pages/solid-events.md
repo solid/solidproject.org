@@ -10,7 +10,7 @@ Solid Events are an opportunity for people working on Solid or who are intereste
 
 In light of the COVID-19 pandemic Solid Events are moving online for the foreseeable future. Tune in on the first Thursday of every month at 1600 CET to join.
 
-Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on info@solidproject.org to get a speaking slot at the next event.
+Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on [info@solidproject.org](mailto:info@solidproject.org) to get a speaking slot at the next event.
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |---|-------|--------------|--------------|
