@@ -27,10 +27,10 @@ Are you interested in speaking about what you have been building on Solid? Reach
 | 2020-04-02 | [Solid World April](https://www.eventbrite.com/e/solid-world-tickets-100417571660#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/404963568)|
 | 2020-03-05 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/events/268684820/) | [Li Lu](https://github.com/SolidToronto) ||
 | 2020-02-20 | [Solid San Francisco](https://meetabit.com/events/february-2020-bay-area-solid-interest-club-meetup) | [Travis Vachon](https://github.com/travis) | - |
-| 2020-02-19 | [Solid Oviedo](https://ingenieriainformatica.uniovi.es/actualidad/eventos/-/asset_publisher/uS6D/content/conferencia-solid-search:-introduccion-a-solid-y-como-cambiar-el-paradigma-de-los-buscadores-de-co?redirect=%2F) | [Alejandro Juan García](https://gitter.im/alexcorvis84) | [recording](https://youtu.be/xBopDO2NTxo) and [slides](https://docs.google.com/presentation/d/19Glq6dcIa83nliQR1fvS9ZzYglogFD7mT5Pb5JLFrIQ/edit?usp=sharing) |
+| 2020-02-19 | [Solid Oviedo](https://ingenieriainformatica.uniovi.es/actualidad/eventos/-/asset_publisher/uS6D/content/conferencia-solid-search:-introduccion-a-solid-y-como-cambiar-el-paradigma-de-los-buscadores-de-co?redirect=%2F) | [Alejandro Juan GarcÃ­a](https://gitter.im/alexcorvis84) | [recording](https://youtu.be/xBopDO2NTxo) and [slides](https://docs.google.com/presentation/d/19Glq6dcIa83nliQR1fvS9ZzYglogFD7mT5Pb5JLFrIQ/edit?usp=sharing) |
 | 2020-02-18 | [Solid Barcelona](https://www.meetup.com/MyData-Barcelona/events/268485856/)| [Noel De Martin](https://noeldemartin.com)|[slides](https://speakerdeck.com/noeldemartin/an-introduction-to-solid)
 | 2020-02-10 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-88843267605)|Christian Buggedei||
-| 2020-01-30 | [Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020)|[Jeroen van Beele](https://github.com/jjvbeele) |
+| 2020-01-30 | [Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020) | [Jeroen van Beele](https://github.com/jjvbeele) |
 | 2020-01-07 | [Solid Khartoum](http://solid-khartoum.atspace.cc)|[Ali Siragedien](https://github.com/alisirag)| [recording](https://youtu.be/BhFFCzjAqm4)|
 | 2019-12-10 | [Solid Enschede](https://www.utwente.nl/en/digital-society/events/2019/12/63530/solid-christmas-meetup-enschede-how-to-fix-the-internet)|Erwin Folmer |
 | 2019-11-20 | [Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
@@ -43,9 +43,9 @@ Are you interested in speaking about what you have been building on Solid? Reach
 | 2019-07-05 | [Solid San Jose](https://www.meetup.com/San-Jose-SOLID-Technology-decentralized-Web-Meetup/events/262620128/)|[John Bartas](http://www.bartas.net/resume.html)||
 | 2019-06-28 | [Solid Hague](https://www.meetup.com/vierdevrijdag/events/jjtxlqyzjblc/)|Bart Roorda| [The PLDN, Linked Data, Solid Intro & Demo](https://www.slideshare.net/PLDN/solid-the-hague-june-28th-2019-153348635)|
 | 2019-06-12 | [Solid Oviedo](https://www.eventbrite.com/e/solid-oviedo-solid-chat-challenge-prize-ceremony-tickets-61938296111)|[Jose Emilio Labra Gayo](https://github.com/labra)||
-| 2019-05-29�| [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-61643210502) | [Christian Buggedei](https://www.linkedin.com/in/buggedei)||
+| 2019-05-29 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-61643210502) | [Christian Buggedei](https://www.linkedin.com/in/buggedei)||
 | 2019-05-22 | [Solid London](https://www.meetup.com/Solid-London/) | [Paul Worrall](https://www.linkedin.com/in/worrall/) |[Inaugral Solid London Video](https://youtu.be/urxRBvpEjR4)|
-| 2019-05-13 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/) | [Li Lu](https://github.com/SolidToronto) || 
+| 2019-05-13 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/) | [Li Lu](https://github.com/SolidToronto) ||Â 
 | 2019-05-08 |  Solid New York | Brian Cort ||
 | 2019-05-02 | [Solid Seattle](https://www.eventbrite.com/e/solid-seattle-tickets-60131990402) | [Jon Pederson](https://www.linkedin.com/in/jonpederson/) ||
 | 2019-04-09 | [Solid San Jose](https://www.meetup.com/San-Jose-SOLID-Technology-decentralized-Web-Meetup/events/260087036/) | [John Bartas](http://www.bartas.net/resume.html) ||
@@ -58,5 +58,5 @@ Are you interested in speaking about what you have been building on Solid? Reach
 | 2019-01-09 |  Solid Berlin | [Christian Buggedei](https://github.com/JollyOrc) ||
 | 2018-12-12 |  Solid Oslo | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
 | 2018-12-11 |  Solid Utrecht | [Pierluigi Casale](https://www.linkedin.com/in/pierluigi-casale-41271430/) ||
-| 2018-12-05 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-52634666705) | [Mitzi László](https://github.com/Mitzi-Laszlo) ||
+| 2018-12-05 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-52634666705) | [Mitzi LÃ¡szlÃ³](https://github.com/Mitzi-Laszlo) ||
 | 2016-04-11 | [Solid Montreal](http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web)|[International World Wide Web Conference](http://www2016.ca)||
