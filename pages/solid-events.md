@@ -58,5 +58,5 @@ Are you interested in speaking about what you have been building on Solid? Reach
 | 2019-01-09 |  Solid Berlin | [Christian Buggedei](https://github.com/JollyOrc) ||
 | 2018-12-12 |  Solid Oslo | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
 | 2018-12-11 |  Solid Utrecht | [Pierluigi Casale](https://www.linkedin.com/in/pierluigi-casale-41271430/) ||
-| 2018-12-05 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-52634666705) | [Mitzi LÃ¡szlÃ³](https://github.com/Mitzi-Laszlo) ||
+| 2018-12-05 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-52634666705) | [Mitzi László](https://github.com/Mitzi-Laszlo) ||
 | 2016-04-11 | [Solid Montreal](http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web)|[International World Wide Web Conference](http://www2016.ca)||
