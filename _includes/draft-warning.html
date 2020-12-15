@@ -4,6 +4,7 @@
     document.location.hostname === 'localhost'
     || document.location.hostname === 'solid.github.io'
     || document.location.hostname.substring(document.location.hostname.length - 10) === "vercel.app"
+    || document.location.hostname.substring(document.location.hostname.length - 11) === "netlify.app"
   ) {
     const draftWarningElement = document.getElementById('draft-warning')
     draftWarningElement.innerHTML = `
