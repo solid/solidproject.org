@@ -292,3 +292,10 @@ $why-carousel-offset: 0;
 details > summary {
   cursor: pointer;
 }
+
+.make-sticky{
+	position: sticky;
+	transition: top .3 linear;
+	z-index: 42;
+	top: .625rem;
+}
