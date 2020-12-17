@@ -62,9 +62,9 @@ store called a Pod. It is like a personal Web server for your data.
 
 * You control the data in your Pod. 
 * It is all stored
-and accessed using standard, open, and interoperable mediums. 
+and accessed using standard, open, and interoperable data formats and protocols.
 * Any kind of information can be stored
-in a Solid pod. 
+in a Solid Pod. 
 * You can share slices of your data with the people, organizations, 
 and applications you choose, and you can revoke that access at any time.
 
@@ -82,7 +82,7 @@ forcing you to relinquish control of what's yours.
 A Solid Server hosts one or more Solid Pods, accessible via the
 [Solid Protocol](https://solid.github.io/specification/#protocol).
 
-A pod hosted on a Solid Server is fully compartmentalized from 
+A Pod hosted on a Solid Server is fully compartmentalized from 
 any others. It has its own set of data and access rules, and is
 fully controlled by whoever it belongs to (i.e. you).
 
@@ -91,7 +91,7 @@ you by an expanding network of
 [Pod Providers](/users/get-a-pod), or you can 
 [host it yourself](/self-hosting/).
 
-You can also have more than one pod, hosted in different places. This is 
+You can also have more than one Pod, hosted in different places. This is 
 effectively transparent to the applications and services you use, because
 your data, wherever it is hosted, or data that has been shared with you, 
 is all linked through your 
@@ -109,5 +109,55 @@ the Solid Server to ensure data isn't corrupted by disparate applications.
 
 This means that you can share select portions of your data with other 
 people and groups you trust, or with an emerging ecosystem of 
-applications and services, that can read and write data in your pod using
-standard patterns for application interoperability.
+applications and services, that can read and write data in your Pod using
+standard patterns for application interoperability. And just as you
+can share your data with others, they can also share their data with you. 
+This creates rich and collaborative experiences across a combination of
+both personal and shared data.
+
+
+## How can I get involved?
+
+Solid is a burgeoning technology that is already being applied in the
+real-world to solve practical problems, introducing exciting 
+new ways for people to control their data and extract value from it.
+
+The Solid ecosystem evolves and
+expands thanks to the efforts of the Solid Community. There is
+much more work to do, and many exciting problems left to solve. We invite
+and encourage you to join in!
+
+You can engage with others in the community through the 
+[Forum](https://forum.solidproject.org) or 
+live [Gitter Chat](https://gitter.im/solid/chat). 
+
+Attend our monthly
+[Solid World](/events) event, along with [many others](/events) hosted across
+the world by community members.
+
+Check out some of the exciting work underway in several prestigious 
+[Research Labs](/labs) across the world.
+
+If you are an organization interested in how Solid can help address
+specific problems or use-cases, reach out to the [Solid Team](/team) by
+sending an e-mail to [info@solidproject.org](mailto:info@solidproject.org),
+and we're happy to provide some guidance.
+
+Contribute to the [Specification](/specification) by proposing 
+changes, identifying problems, or suggesting new use cases. These can be
+submitted on Github by
+[creating a new issue](https://github.com/solid/specification/issues/new) or 
+pull request. You can also engage
+with any of our [Panels](/specification), all of which are actively working 
+on proposals to the specification in specific topic areas, from 
+authentication to interoperability.
+
+Extend an existing codebase or create a new one that's compatible with
+the Solid specification. Contribute to any of our existing 
+[tools and libraries](/developers/tools), or make new ones!
+
+[Learn to develop](/developers) Solid applications and [share them](/apps) 
+with the community! 
+
+[Get a pod](/users/get-a-pod) and try some applications
+out for yourself!
