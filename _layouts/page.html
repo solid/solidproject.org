@@ -9,7 +9,11 @@ layout: base
       </article>
     </div>
     <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
+    {% for page in site.pages %}{% if page.title == "press" %}
       <div class="menu is-large make-sticky">
+	      {% else %}
+		<div class="menu is-large">
+    {% endif %}{% endfor %}
         {% include toc.html html=content class="menu-list" %}
       </div>
     </aside>

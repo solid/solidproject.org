@@ -187,7 +187,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     title="Solid CERN"
     website="https://indico.cern.ch/e/CERN-Solid-brainstorming"
     slides="https://indico.cern.ch/event/866085/contributions/3724639/attachments/1983527/3305185/20200107_CERN.pdf"    
-    speaker="Maria Dimou, Sarven Capadisli, and Mitzi LÃ¡szlÃ³"
+    speaker="Maria Dimou, Sarven Capadisli, and Mitzi L�szl�"
 %}
 
 {%
@@ -256,7 +256,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2019-11-14"
     title="ECP"
     website="https://ecp.nl/"
-    speaker="Mitzi LÃ¡szlÃ³ & Pieter van Everdingen"
+    speaker="Mitzi L�szl� ter van Everdingen"
 %}
 
 {%
@@ -272,7 +272,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2019-10-24"
     title="Ada Lovelace Festival"
     website="https://www.ada-lovelace-festival.com/"
-    speaker="Mitzi LÃ¡szlÃ³"
+    speaker="Mitzi L�szl�"
 %}
 
 {%
@@ -289,7 +289,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2019-10-10"
     title="European Data Ethics Forum"
     website="https://dataethics.eu/conference19/"
-    speaker="Mitzi LÃ¡szlÃ³"
+    speaker="Mitzi L�szl�"
 %}
 
 {%
@@ -334,7 +334,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2019-09-15"
     title="NextCloud Conference"
     website="https://nextcloud.com/fr_FR/blog/nextcloud-conference-2019-talks-now-online/"
-    speaker="Mitzi LÃ¡szlÃ³"
+    speaker="Mitzi L�szl�"
 %}
 
 {%
@@ -388,7 +388,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2019-07-01"
     title="Berkman Klein"
     website="https://cyber.harvard.edu/"
-    speaker="Mitzi LÃ¡szlÃ³ & Justin Bingham"
+    speaker="Mitzi L�szl� & Justin Bingham"
 %}
 
 {%
@@ -511,7 +511,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
     date="2019-02-07"
     title="Hackers & Founders"
     website="https://hackersandfounders.nl/"
-    speaker="Mitzi LÃ¡szlÃ³"
+    speaker="Mitzi L�szl�"
 %}
 
 {%
