@@ -47,7 +47,7 @@ A WebID is an <a href="https://tools.ietf.org/html/rfc3987">Internationalised Re
 To log into Solid apps and/or access data on Pods, you just have to provide your WebID and login to your Identity Provider, like "Sign in with Google" today. It is possible for the same company or organisation to be both a Pod Provider and a Identity Provider although they are **distinct separable services** that are compatible with other Pod Providers and Identity Providers (which means you are free to choose the provider that suits you the most). 
 <details> 
 <summary class="has-text-primary">More details...</summary>
-<p>An Identity Provider implements an identification protocol (e.g. [OIDC](https://openid.net/connect/), and allows you to prove that you own the WebID.</p>
+<p>An Identity Provider implements an identification protocol (e.g. [OIDC](https://openid.net/connect/)), and allows you to prove that you own the WebID.</p>
 <p>A Pod Provider delivers storage space under one or more domains, usually (but not necessarily) pointed to by <code>&lt;webID&gt; solid:storage &lt;pod&gt;</code> statements included in the profile document associated to the WebID.</p>
 </details>
 
