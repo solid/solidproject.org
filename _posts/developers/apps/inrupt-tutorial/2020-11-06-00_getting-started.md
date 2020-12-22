@@ -202,7 +202,7 @@ In the `my-demo-app` directory, create the files for the application.
                             id="input_name"
                             name="name"
                             size="50"
-                            value="Your name here"
+                            placeholder="Your name here"
                     />
                     <button name="btnWrite" id="btnWrite">Write to Profile</button>
                 </div>
