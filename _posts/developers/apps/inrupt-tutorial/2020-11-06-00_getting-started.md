@@ -447,9 +447,6 @@ In the `my-demo-app` directory, create the files for the application.
 
     * Once logged in, you should be redirected back to the client application.
 
-      > **TIP:** If you encounter redirect issues trying to log in, you may
-      need to clear your browser's cache.
-        
       Back in the application, you should see a message stating `Your session is logged in with the WebID [<your WebID>].` and the WebID textfield should display your WebID.
       
       
