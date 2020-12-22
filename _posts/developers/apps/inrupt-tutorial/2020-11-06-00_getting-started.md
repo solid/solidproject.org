@@ -223,7 +223,7 @@ In the `my-demo-app` directory, create the files for the application.
                             id="webID"
                             name="webID"
                             size="50"
-                            value="...not logged in yet - but enter any WebID to read from its profile..."
+                            placeholder="...not logged in yet - but enter any WebID to read from its profile..."
                     />
                     <button name="btnRead" id="btnRead">Read Profile</button>
                 </div>
