@@ -67,7 +67,7 @@ Node.js installation.
     cd my-demo-app
     ```
     
-1. Create a brand new application (Omit the `-y` to override the default values):
+1. Create a brand new application (Omit the `--yes` to override the default values):
     
     ```shell
     npm init --yes
