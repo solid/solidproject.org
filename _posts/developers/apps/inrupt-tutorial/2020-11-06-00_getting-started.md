@@ -263,12 +263,12 @@ In the `my-demo-app` directory, create the files for the application.
     
     const session = new Session();
     
-    const buttonLogin = document.querySelector("#btnLogin");
-    const buttonWrite = document.querySelector("#btnWrite");
-    const buttonRead = document.querySelector("#btnRead");
+    const buttonLogin = document.getElementById("btnLogin");
+    const buttonWrite = document.getElementById("btnWrite");
+    const buttonRead = document.getElementById("btnRead");
   
     // Click button if the user hits the 'Enter' key when entering name.
-    document.querySelector("#input_name").addEventListener("keyup", event => {
+    document.getElementById("input_name").addEventListener("keyup", event => {
       if(event.key === "Enter") {
         buttonWrite.click();
         event.preventDefault();
@@ -276,7 +276,7 @@ In the `my-demo-app` directory, create the files for the application.
     });
     
     // Click button if the user hits the 'Enter' key when entering WebID.
-    document.querySelector("#webID").addEventListener("keyup", event => {
+    document.getElementById("webID").addEventListener("keyup", event => {
       if(event.key === "Enter") {
         buttonRead.click();
         event.preventDefault();
