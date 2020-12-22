@@ -37,7 +37,7 @@ to run the application locally on `localhost:1234`.
 
 If you don't already have a Pod, you can register one now:
 
- 1. Open a browser to `https://solidcommunity.net/`.
+ 1. Open a browser to https://solidcommunity.net/.
 
  2. Click `Register`.
 
