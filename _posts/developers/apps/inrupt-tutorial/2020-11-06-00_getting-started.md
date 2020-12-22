@@ -70,7 +70,7 @@ Node.js installation.
 1. Create a brand new application (Omit the `-y` to override the default values):
     
     ```shell
-    npm init -y
+    npm init --yes
     ```
 
 ### 2. Install the Inrupt Client Libraries
