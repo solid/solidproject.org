@@ -18,7 +18,19 @@
     </a>
     </div>
 
-    <div class="navbar-menu navbar-end" id="tar">
+  <div class="navbar-menu" id="tar">
+    <ul>
+      {% for item in site.data.navigation %}
+      <li><a
+            class="navbar-item is-size-6 is-size-5-tablet is-hidden-mobile"
+            href="{{ item.link }}"
+	    >{{ item.name }}</a>
+      </li>
+        {% endfor %}
+    </ul>
+    </div>
+
+    <div class="navbar-menu navbar-end"
         {% for item in site.data.navigation %}
           <a
             class="navbar-item is-size-6 is-size-5-tablet is-hidden-mobile"
