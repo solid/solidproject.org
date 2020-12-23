@@ -27,7 +27,7 @@ to run the application locally on `localhost:1234`.
 
 > You can also try out the application in CodeSandbox.
 >
-> [![Edit on CodeSandbox]({{site.baseUrl}}/assets/img/play-codesandbox.svg)](https://codesandbox.io/s/musing-bouman-n1ghd)
+> [![Edit on CodeSandbox]({{site.baseUrl}}/assets/img/play-codesandbox.svg)](https://codesandbox.io/s/laughing-voice-7xbmf?hidenavigation=1&module=%2Findex.js&view=editor)
 >
 > Inside CodeSandbox, rather than running the application in the embedded browser, open the application in a new window to be able to log in.
 
@@ -124,46 +124,51 @@ In the `my-demo-app` directory, create the files for the application.
 1. Create a `my-demo.css` file with the following content:
 
     ```css
-    h2,h3 {
-        margin: 1rem 1.2rem 1rem 1.4rem;
+    h2,
+    h3 {
+      margin: 1rem 1.2rem 1rem 1.4rem;
     }
-    
+
     header {
-        border-bottom: #5795b9 solid;
-        padding-left: .5rem;
+      border-bottom: #5795b9 solid;
+      padding-left: 0.5rem;
     }
-    
+
     .panel {
-        border: 1px solid #005b81;
-        border-radius: 4px;
-        box-shadow: rgb(184, 196, 194) 0px 4px 10px -4px;
-        box-sizing: border-box;
-    
-        padding: 1rem 1.5rem;
-        margin: 1rem 1.2rem 1rem 1.2rem;
+      border: 1px solid #005b81;
+      border-radius: 4px;
+      box-shadow: rgb(184, 196, 194) 0px 4px 10px -4px;
+      box-sizing: border-box;
+
+      padding: 1rem 1.5rem;
+      margin: 1rem 1.2rem 1rem 1.2rem;
     }
-    
+
     #login {
-        background: white;
+      background: white;
     }
-    
+
     #read {
-        background: #e6f4f9;
+      background: #e6f4f9;
     }
-    
-    #labelStatus[role="alert"] {
-        padding-left: 1rem;
-        color: purple;
+
+    .labelStatus[role="alert"] {
+      padding-left: 1rem;
+      color: purple;
     }
-    
+
     .display {
-        margin-left: 1rem;
-        color: gray;
+      margin-left: 1rem;
+      color: gray;
     }
-    
+
     dl {
       display: grid;
-      grid-template-columns:  max-content auto;
+      grid-template-columns: max-content auto;
+    }
+
+    dd {
+      font-weight: bold;
     }
     ```
    
@@ -172,67 +177,78 @@ In the `my-demo-app` directory, create the files for the application.
     ```html
     <!DOCTYPE html>
     <html>
-        <head>
-            <meta charset="utf-8" />
-            <title>Getting Started: Inrupt JavaScript Client Libraries</title>
-            <script defer src="./index.js"></script>
-            <link rel="stylesheet" href="my-demo.css" />
-        </head>
-    
-        <body>
-            <header>
-                <h2>Getting Started</h2>
-                <h3>with Inrupt JavaScript Client Libraries</h3>
-            </header>
-            <section id="login" class="panel">
-                <div class="row">
-                    <label id="labelLogin" for="btnLogin">1. Click the button to log into
-                        <span id="solid_identity_provider">...provided by the JavaScript code...</span>:
-                    </label>
-                    <button name="btnLogin" id="btnLogin">Login</button>
-                    <p id="labelStatus"></p>
-                </div>
-            </section>
-    
-            <div id="read" class="panel">
-                <div class="row">
-                    <label id="writelabel" for="name">2. Write your name: </label>
-                    <input
-                            type="text"
-                            id="input_name"
-                            name="name"
-                            size="50"
-                            placeholder="Your name here"
-                    />
-                    <button name="btnWrite" id="btnWrite">Write to Profile</button>
-                </div>
-    
-                <dl class="display">
-                    <dt>Writing status:&nbsp</dt>
-                    <strong><span id="labelWriteStatus">...not written yet...</span></strong>
-                </dl>
-            </div>
-    
-            <div id="read" class="panel">
-                <div class="row">
-                    <label id="readlabel" for="webID"
-                    >3. Read back name (anyone's!) from their WebID:
-                    </label>
-                    <input
-                            type="url"
-                            id="webID"
-                            name="webID"
-                            size="50"
-                            placeholder="...not logged in yet - but enter any WebID to read from its profile..."
-                    />
-                    <button name="btnRead" id="btnRead">Read Profile</button>
-                </div>
-                <dl class="display">
-                    <dt>Formatted Name (FN) read from Pod:&nbsp</dt>
-                    <strong><span id="labelFN">...not read yet...</span></strong>
-                </dl>
-            </div>
-        </body>
+      <head>
+        <meta charset="utf-8" />
+        <title>Getting Started: Inrupt JavaScript Client Libraries</title>
+        <script defer src="./index.js"></script>
+        <link rel="stylesheet" href="my-demo.css" />
+      </head>
+
+      <body>
+        <header>
+          <h2>Getting Started</h2>
+          <h3>with Inrupt JavaScript Client Libraries</h3>
+        </header>
+        <section id="login" class="panel">
+          <div class="row">
+            <label id="labelLogin" for="btnLogin"
+              >1. Click the button to log into
+              <span id="identity_provider"
+                >...provided by the JavaScript code...</span
+              >:
+            </label>
+            <button name="btnLogin" id="btnLogin">Login</button>
+            <p id="labelStatus" class="labelStatus"></p>
+          </div>
+        </section>
+
+        <div id="read" class="panel">
+          <div class="row">
+            <form id="writeForm">
+              <label id="writelabel" for="name">2. Write your name: </label>
+              <input
+                type="text"
+                id="input_name"
+                name="name"
+                size="50"
+                placeholder="Your name here"
+              />
+              <button type="submit">
+                Write to Profile
+              </button>
+            </form>
+          </div>
+
+          <dl class="display">
+            <dt>Writing status:&nbsp</dt>
+            <dd id="labelWriteStatus" class="labelStatus">...not written yet...</dd>
+          </dl>
+        </div>
+
+        <div id="read" class="panel">
+          <div class="row">
+            <form id="readForm">
+              <label id="readlabel" for="webID"
+                >3. Read back name (anyone's!) from their WebID:
+              </label>
+              <input
+                type="url"
+                id="webID"
+                name="webID"
+                size="50"
+                placeholder="...not logged in yet - but enter any WebID to read from its profile..."
+              />
+              <button type="submit" name="btnRead" id="btnRead">
+                Read Profile
+              </button>
+            </form>
+          </div>
+          <dl class="display">
+            <dt>Formatted Name (FN) read from Pod:&nbsp</dt>
+            <dd id="labelFN">...not read yet...</dd>
+          </dl>
+        </div>
+      </body>
     </html>
     ```
 
@@ -250,40 +266,24 @@ In the `my-demo-app` directory, create the files for the application.
       setStringNoLocale,
       saveSolidDatasetAt
     } from "@inrupt/solid-client";
-    
     import { Session } from "@inrupt/solid-client-authn-browser";
-    
     import { VCARD } from "@inrupt/vocab-common-rdf";
-    
-    // If your Pod is *not* on `solidcommunity.net`, change this to your Solid identity provider.
+
+    // If your Pod is *not* on `solidcommunity.net`, change this to your identity provider.
     const SOLID_IDENTITY_PROVIDER = "https://solidcommunity.net";
-    document.getElementById("solid_identity_provider").innerHTML = `[<a target="_blank" href="${SOLID_IDENTITY_PROVIDER}">${SOLID_IDENTITY_PROVIDER}</a>]`;
-  
-    const NOT_ENTERED_WEBID = "...not logged in yet - but enter any WebID to read from its profile...";
-    
+    document.getElementById(
+      "identity_provider"
+    ).innerHTML = `[<a target="_blank" href="${SOLID_IDENTITY_PROVIDER}">${SOLID_IDENTITY_PROVIDER}</a>]`;
+
+    const NOT_ENTERED_WEBID =
+      "...not logged in yet - but enter any WebID to read from its profile...";
+
     const session = new Session();
-    
+
     const buttonLogin = document.getElementById("btnLogin");
-    const buttonWrite = document.getElementById("btnWrite");
-    const buttonRead = document.getElementById("btnRead");
-  
-    // Click button if the user hits the 'Enter' key when entering name.
-    document.getElementById("input_name").addEventListener("keyup", event => {
-      if(event.key === "Enter") {
-        buttonWrite.click();
-        event.preventDefault();
-      }
-    });
-    
-    // Click button if the user hits the 'Enter' key when entering WebID.
-    document.getElementById("webID").addEventListener("keyup", event => {
-      if(event.key === "Enter") {
-        buttonRead.click();
-        event.preventDefault();
-      }
-    });
-    
-    
+    const writeForm = document.getElementById("writeForm");
+    const readForm = document.getElementById("readForm");
+
     // 1a. Start Login Process. Call session.login() function.
     async function login() {
       if (
@@ -311,110 +311,119 @@ In the `my-demo-app` directory, create the files for the application.
         document.getElementById("webID").value = session.info.webId;
       }
     }
-    
+
     // The example has the login redirect back to the index.html.
     // This calls the function to process login information.
     // If the function is called when not part of the login redirect, the function is a no-op.
     handleRedirectAfterLogin();
-    
+
     // 2. Write to profile
     async function writeProfile() {
       const name = document.getElementById("input_name").value;
-    
+
       if (!session.info.isLoggedIn) {
         // You must be authenticated to write.
-        document.getElementById("labelWriteStatus").innerHTML = `...you can't write [${name}] until you first login!`;
-        document.getElementById("labelWriteStatus").style.color = `red`;
+        document.getElementById(
+          "labelWriteStatus"
+        ).textContent = `...you can't write [${name}] until you first login!`;
+        document.getElementById("labelWriteStatus").setAttribute("role", "alert");
         return;
       }
       const webID = session.info.webId;
-    
+
       // To write to a profile, you must be authenticated. That is the role of the fetch
       // parameter in the following call.
       let myProfileDataset = await getSolidDataset(webID, {
         fetch: session.fetch
       });
-    
+
       let profile = getThing(myProfileDataset, webID);
-    
+
       // Using the name provided in text field, update the name in your profile.
       // VCARD.fn object is a convenience object that includes the identifier string "http://www.w3.org/2006/vcard/ns#fn".
       // As an alternative, you can pass in the "http://www.w3.org/2006/vcard/ns#fn" string instead of VCARD.fn.
       profile = setStringNoLocale(profile, VCARD.fn, name);
-    
+
       // Write back the profile to the dataset.
       myProfileDataset = setThing(myProfileDataset, profile);
-    
+
       // Write back the dataset to your Pod.
       await saveSolidDatasetAt(webID, myProfileDataset, {
         fetch: session.fetch
       });
-    
+
       // Update the page with the retrieved values.
-      document.getElementById("labelWriteStatus").innerHTML = `Wrote [${name}] as name successfully!`;
-      document.getElementById("labelWriteStatus").style.color = `black`;
-      document.getElementById("labelFN").style.color = `red`;
-      document.getElementById("labelFN").innerHTML = `...click the 'Read Profile' button to to see what the name might be now...?!`;
+      document.getElementById(
+        "labelWriteStatus"
+      ).textContent = `Wrote [${name}] as name successfully!`;
+      document.getElementById("labelWriteStatus").setAttribute("role", "alert");
+      document.getElementById(
+        "labelFN"
+      ).textContent = `...click the 'Read Profile' button to to see what the name might be now...?!`;
     }
-    
+
     // 3. Read profile
     async function readProfile() {
       const webID = document.getElementById("webID").value;
-    
+
       if (webID === NOT_ENTERED_WEBID) {
-        document.getElementById("labelFN").innerHTML = `Login first, or enter a WebID (any WebID!) to read from its profile`;
-        document.getElementById("labelFN").style.color = `red`;
+        document.getElementById(
+          "labelFN"
+        ).textContent = `Login first, or enter a WebID (any WebID!) to read from its profile`;
         return false;
       }
-    
+
       try {
         new URL(webID);
       } catch (_) {
-        document.getElementById("labelFN").innerHTML = `Provided WebID [${webID}] is not a valid URL - please try again`;
-        document.getElementById("labelFN").style.color = `red`;
+        document.getElementById(
+          "labelFN"
+        ).textContent = `Provided WebID [${webID}] is not a valid URL - please try again`;
         return false;
       }
-    
+
       // Profile is public data; i.e., you do not need to be logged in to read the data.
       // For illustrative purposes, shows both an authenticated and non-authenticated reads.
-    
+
       let myDataset;
       try {
-        if (session.isLoggedIn) {
-          myDataset = await getSolidDataset(webID, {fetch: session.fetch});
+        if (session.info.isLoggedIn) {
+          myDataset = await getSolidDataset(webID, { fetch: session.fetch });
         } else {
           myDataset = await getSolidDataset(webID);
         }
       } catch (error) {
-        document.getElementById("labelFN").innerHTML = `Entered value [${webID}] does not appear to be a WebID. Error: [${error}]`;
-        document.getElementById("labelFN").style.color = `red`;
+        document.getElementById(
+          "labelFN"
+        ).textContent = `Entered value [${webID}] does not appear to be a WebID. Error: [${error}]`;
         return false;
       }
-    
+
       const profile = getThing(myDataset, webID);
-    
+
       // Get the formatted name (fn) using the property identifier "http://www.w3.org/2006/vcard/ns#fn".
       // VCARD.fn object is a convenience object that includes the identifier string "http://www.w3.org/2006/vcard/ns#fn".
       // As an alternative, you can pass in the "http://www.w3.org/2006/vcard/ns#fn" string instead of VCARD.fn.
-    
+
       const formattedName = getStringNoLocale(profile, VCARD.fn);
-    
+
       // Update the page with the retrieved values.
-      document.getElementById("labelFN").style.color = `black`;
-      document.getElementById("labelFN").innerHTML = `[${formattedName}]`;
+      document.getElementById("labelFN").textContent = `[${formattedName}]`;
     }
-    
+
     buttonLogin.onclick = function () {
       login();
     };
-    
-    buttonWrite.onclick = function () {
+
+    writeForm.addEventListener("submit", (event) => {
+      event.preventDefault();
       writeProfile();
-    };
-    
-    buttonRead.onclick = function () {
+    });
+
+    readForm.addEventListener("submit", (event) => {
+      event.preventDefault();
       readProfile();
-    };
+    });
     ```
 
 ## Run the Application
