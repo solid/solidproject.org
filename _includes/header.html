@@ -10,17 +10,31 @@
       <a class="navbar-item navbar-brand-name is-uppercase is-size-4" href="{{site.baseUrl}}/">
         Solid
       </a>
+
+          <a role="button" class="navbar-burger is-hidden-desktop" aria-label="menu" aria-expanded="false" data-target="tar" style="display:block;">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
     </div>
-  
-    <div class="navbar-menu is-hidden-mobile">
-      <div class="navbar-end is-hidden-mobile">
+
+    <div class="navbar-menu" id="tar">
+      <div class="navbar-start">
+      {% for item in site.data.navigation %}
+	<a
+	  class="navbar-item"
+	  href="{{ item.link }}"
+	>{{ item.name }}</a>
+      {% endfor %}
+      </div>
+    <div class="navbar-end">
         {% for item in site.data.navigation %}
           <a
             class="navbar-item is-size-6 is-size-5-tablet is-hidden-mobile"
             href="{{ item.link }}"
           >{{ item.name }}</a>
         {% endfor %}
-      </div>
+	</div>
     </div>
   </nav>
 </header>
