@@ -27,10 +27,7 @@
 
     // 1a. Start Login Process. Call session.login() function.
     async function login() {
-      if (
-        !session.info.isLoggedIn &&
-        !new URL(window.location.href).searchParams.get("code")
-      ) {
+      if (!session.info.isLoggedIn) {
         await session.login({
           oidcIssuer: SOLID_IDENTITY_PROVIDER,
           clientName: "Inrupt tutorial client app",
