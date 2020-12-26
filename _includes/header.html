@@ -1,32 +1,31 @@
 <header>
   <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{site.baseUrl}}/">
-        <img
-          src="{{ site.baseurl }}/assets/img/solid-emblem.svg"
-          alt="[Solid logo]"
-        />
-      </a>
-      <a class="navbar-item navbar-brand-name is-uppercase is-size-4" href="{{site.baseUrl}}/">
-        Solid
-      </a>
-
-          <a role="button" class="navbar-burger is-hidden-desktop" aria-label="menu" aria-expanded="false" data-target="tar" style="display:block;">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-    </div>
-
-    <div class="navbar-menu" id="tar">
-      <div class="navbar-start">
+    <div class="navbar-item has-dropdown">
+      <div class="navbar-dropdown is-hidden-tablet has-background-primary" id="tar">
       {% for item in site.data.navigation %}
 	<a
-	  class="navbar-item"
+	  class="navbar-item is-size-4"
 	  href="{{ item.link }}"
 	>{{ item.name }}</a>
       {% endfor %}
-      </div>
+       </div>
+    </div>
+    <div class="navbar-brand">
+	    <span>
+	      <a class="navbar-item">
+		<img
+		    src="{{ site.baseurl }}/assets/img/solid-emblem.svg"
+		    alt="[Solid logo]"
+		    /></a>
+	            <a role="button" class="navbar-burger is-hidden-tablet" aria-label="menu" aria-expanded="false" data-target="tar" style="display:block;"></a></span>
+
+      <a class="navbar-item navbar-brand-name is-uppercase is-size-4 is-hidden-mobile" href="{{site.baseUrl}}/">
+        Solid
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+
     <div class="navbar-end">
         {% for item in site.data.navigation %}
           <a
