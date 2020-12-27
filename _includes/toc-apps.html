@@ -10,6 +10,7 @@
           <a href="/developers/vocabularies">{{ cat }}</a>
         {% elsif cat == "Tools and libraries" %}
           <a href="/developers/tools">{{ cat }}</a>
+	  {% include toc.html html=content class="menu-list" h_min=2 h_max=6 %}
         {% endif %}
         <!-- This is for categories with sub-categories -->
         {% if page.categories[1] %}
@@ -34,6 +35,7 @@
                             href="{{ post.url }}"
                             {% if page.url == post.url %} class="is-active" {% endif %}
                           >{{ post.title }}</a>
+			  {% include toc.html html=content class="menu-list" h_min=2 h_max=6 %}
                         </li>
                       {% endif %}
                     {% endfor %}
@@ -60,7 +62,7 @@
                 <a
                   href="{{ post.url }}"
                   {% if page.url == post.url %} class="is-active" {% endif %}
-                >{{ post.title }}</a></li>
+		  >{{ post.title }}</a>{% include toc.html html=content class="menu-list" h_min=2 h_max=6 %}}</li>
             {% endfor %}
           </ul>
         {% endif %}
@@ -74,6 +76,7 @@
           <a href="/developers/vocabularies">{{ cat }}</a>
         {% elsif cat == "Tools and libraries" %}
           <a href="/developers/tools">{{ cat }}</a>
+	  {% include toc.html html=content class="menu-list" h_min=2 h_max=6 %}
         {% endif %}
       </li>
     {% endif %}
