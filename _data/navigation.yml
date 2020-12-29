@@ -1,3 +1,5 @@
+- name: About Solid
+  link: /about
 - name: Developers
   link: /developers
 - name: Users
@@ -6,5 +8,3 @@
   link: /newsletter
 - name: Events
   link: /events
-- name: Specification
-  link: /specification
