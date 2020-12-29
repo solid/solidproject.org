@@ -1,7 +1,7 @@
 ---
 layout: newsletter
-title: This Month in Solid 2020-10-01
-permalink: /newsletter/2020-10-01
+title: This Month in Solid 2020-01-07
+permalink: /newsletter/2020-01-07
 tags: [monthly, updates]
 categories: [Updates]
 ---
@@ -11,7 +11,7 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-**<date month year>** - <description>
+**7 January 2020** - 
   
 ### [Press](https://solidproject.org/press)
 
@@ -21,12 +21,9 @@ categories: [Updates]
 
 #### Solid Implementations
 
-*
+* 
 
 #### Job Openings
-* [Digita](https://www.digita.ai/careers) is hiring a Full Stack Developer and a Tech Leader. Email tom@digita.ai for more information.
-* [Contact Inrupt careers](https://inrupt.com/careers) 
-* O Team is recruiting a ETL (Extract Transform Load) Engineer, a Linked Data Ontology Designer, and a JavaScript Developer. Email [jobs@o.team](mailto:jobs@o.team) for more information. 
+* 
 
 ### Update from the [Specification Editors](https://github.com/solid/process/blob/master/editors.md)
-
