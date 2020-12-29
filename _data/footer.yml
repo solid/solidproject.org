@@ -1,6 +1,8 @@
 - name: Home
   link: "/"
   sublinks:
+  - name: About Solid
+    link: "/about"
   - name: Using Solid
     link: "/users"
   - name: Get a Pod

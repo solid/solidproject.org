@@ -19,11 +19,6 @@ permalink: /
       applications and services to use with it.
       </p>
       <div class="buttons is-centered">
-        <!--
-        <a href="{{site.baseurl}}/about/">
-          <button class="button is-black is-large">About Solid</button>
-        </a>
-        -->
         <a href="{{site.baseurl}}/users/get-a-pod" class="button is-black is-large">
           Get a Pod
         </a>
@@ -49,7 +44,8 @@ permalink: /
           <div class="column is-offset-1 is-5">
             <h2 class="title">All of your data, under your control</h2>
             <p class="content is-large">
-            Solid lets people store their data securely in decentralized data stores 
+            <a href="{{site.baseurl}}/about">Solid</a> lets people store their 
+            data securely in decentralized data stores 
             called <b>Pods</b>. Pods are like secure personal web servers for data.
             All data in a pod is accessible via the 
             <a href="https://solid.github.io/specification/" target="_blank">Solid Protocol</a>.
