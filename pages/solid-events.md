@@ -12,6 +12,9 @@ In light of the COVID-19 pandemic Solid Events are moving online for the foresee
 
 Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on [info@solidproject.org](mailto:info@solidproject.org) to get a speaking slot at the next event.
 
+<div class="table-container">
+<table class="table">
+
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
 | 2020-01-07 | [Solid World January](https://www.eventbrite.com/e/solid-world-tickets-132301957717)|[Solid Team](https://solidproject.org/team)||
@@ -60,3 +63,5 @@ Are you interested in speaking about what you have been building on Solid? Reach
 | 2018-12-11 |  Solid Utrecht | [Pierluigi Casale](https://www.linkedin.com/in/pierluigi-casale-41271430/) ||
 | 2018-12-05 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-52634666705) | [Mitzi László](https://github.com/Mitzi-Laszlo) ||
 | 2016-04-11 | [Solid Montreal](http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web)|[International World Wide Web Conference](http://www2016.ca)||
+
+</table></div>
