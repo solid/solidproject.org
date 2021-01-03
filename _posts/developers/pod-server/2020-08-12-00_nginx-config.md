@@ -67,6 +67,9 @@ root /var/www/example.org; #webroot
     proxy_set_header    X-Forwarded-Ssl     on;
     proxy_set_header    X-Forwarded-For     $proxy_add_x_forwarded_for;
     proxy_set_header    X-Forwarded-Proto   $scheme;
+    
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
   }
 
 }
