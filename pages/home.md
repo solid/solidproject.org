@@ -14,13 +14,17 @@ permalink: /
         />
       </figure>
       <p class="subtitle has-text-centered is-size-4 is-size-3-tablet is-size-2-desktop">
-      Using Web standards to
-      let people control their data, and choose the
-      applications and services to use with it.
+
+        Solid: Your data, your choices.<br>
+        Advancing Web standards to empower people.<br>
+        
       </p>
       <div class="buttons is-centered">
-        <a href="{{site.baseurl}}/users/get-a-pod" class="button is-black is-large">
-          Get a Pod
+        <a href="{{site.baseurl}}/about" class="button is-info  is-large"> 
+          About Solid
+        </a>
+        <a href="https://solid.github.io/specification/" class="button is-link is-large">
+          Ongoing Work
         </a>
         <a href="{{site.baseurl}}/developers/tutorials/getting-started" class="button is-primary is-large">
           Developer Tutorial
@@ -42,22 +46,20 @@ permalink: /
             </figure>
           </div>
           <div class="column is-offset-1 is-5">
-            <h2 class="title">All of your data, under your control</h2>
+            <h2 class="title">Your pod: All your data, under your control</h2>
             <p class="content is-large">
-            <a href="{{site.baseurl}}/about">Solid</a> lets people store their 
-            data securely in decentralized data stores 
-            called <b>Pods</b>. Pods are like secure personal web servers for data.
-            All data in a pod is accessible via the 
-            <a href="https://solid.github.io/specification/" target="_blank">Solid Protocol</a>.
-            When data is stored in someone's 
-            pod, they control who and what can access it.</p>
-                                
-            <p class="content is-large">
-            Solid is led by the inventor of the Web, 
-            <b><a href="{{site.baseurl}}/team">Sir Tim Berners-Lee</a></b>, 
-            to help realise his vision 
-            for its future.</p>
+              <a href="{{site.baseurl}}/about">Solid</a> lets you store your 
+              data securely in decentralized data stores 
+              called <b>Pods</b>. Pods are secure personal Web servers for data.
+              You control who can use your data, choosing the people and apps 
+              that can access it.
+            </p>
+            <div class="buttons">
+              <a href="{{site.baseurl}}/users/get-a-pod" class="button is-large is-primary">
+                Get your own Pod
+              </a>              
             </div>
+          </div>
         </div>
       </div>
     </section>
@@ -67,7 +69,10 @@ permalink: /
           <div class="column is-offset-1 is-5">
             <h2 class="title">Store anything</h2>
             <p class="content is-large">
-              Any kind of data can be stored in a Solid pod, including regular files that you might store in a Google Drive or Dropbox folder, but it is the ability to store <b>Linked Data</b> that makes Solid special.
+              Any kind of data can be stored in a Solid pod, including
+              regular documents that you might store in a Google Drive
+              or Dropbox folder. What makes Solid special is the ability to store 
+              data in a way that promotes interoperability.
             </p>
           </div>
           <div class="column is-offset-1 is-4">
@@ -88,14 +93,14 @@ permalink: /
           </div>
           <div class="column is-offset-1 is-5">
             <h2 class="title">
-              Using interoperable data standards
+              Interoperable data standards
             </h2>
             <p class="content is-large">
-            Linked Data gives Solid 
-            a common way to describe things and 
-            how they relate to each other, in a way that other people and 
-            machines can understand. This means that the data stored by Solid
-            is portable and completely interoperable.
+              Solid promotes interoperability; that is, different
+              applications can work with the same data. Solid supports
+              a <strong>common/shared</strong> way of describing things
+              and their relationships to one another such that
+              different applications can understand.
             </p>
           </div>
         </div>
