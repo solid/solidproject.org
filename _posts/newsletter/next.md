@@ -19,6 +19,8 @@ categories: [Updates]
 
 ### In Other News
 
+* In the german podcast [programmier.bar](https://programmier.bar), [Angelo Veltens](https://angelo.veltens.org/profile/card#me) explains the fundamentals of Solid: [programmier.bar Folge 79 - Solid Project mit Angelo Veltens](https://www.programmier.bar/podcast-episodes/folge-79-solid-project-mit-angelo-veltens)
+
 #### Solid Implementations
 
 * 
