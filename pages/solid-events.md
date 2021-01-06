@@ -14,7 +14,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
-| 2020-01-07 | [Solid World January](https://www.eventbrite.com/e/solid-world-tickets-132301957717)|[Solid Team](https://solidproject.org/team)||
+| 2021-01-07 | [Solid World January](https://www.eventbrite.com/e/solid-world-tickets-132301957717)|[Solid Team](https://solidproject.org/team)||
 | 2020-12-29 | [Solid Networking December](https://www.eventbrite.com/e/solid-networking-december-tickets-131244348379)|[Jackson Morgan](https://twitter.com/otherJackson)||
 | 2020-12-03 | [Solid World December](https://www.eventbrite.com/e/solid-world-tickets-128665029567)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/487088029). From Ruben's presentation: the [Community Server](https://github.com/solid/community-server/), [Ruben's live list](https://rubenverborgh.github.io/solid-list-viewer/) with [his CSS Pod](https://css.verborgh.org/list). From CERN's presentation: [slides](https://indico.cern.ch/event/977577/attachments/2150316/3635690/SolidWorld2020-12-03presentation.pdf), [Indico source code](https://github.com/indico/) and the [Indico webpage](https://getindico.io/). The [Data Village website](https://www.datavillage.me/). Digita's [Inox](https://www.inox.app/).|
 | 2020-11-05 | [Solid World November](https://www.eventbrite.com/e/solid-world-tickets-124481709143)|[Solid Team](https://solidproject.org/team)|[Full recording](https://vimeo.com/479873289). [Notes](https://indico.cern.ch/event/974494/attachments/2140273/3606052/SolidWorld2020-11-05notes.pdf) by attendant Maria Dimou.|
