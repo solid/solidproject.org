@@ -122,42 +122,48 @@ Solid is a burgeoning technology that is already being applied in the
 real-world to solve practical problems, introducing exciting 
 new ways for people to control their data and extract value from it.
 
-The Solid ecosystem evolves and
-expands thanks to the efforts of the Solid Community. There is
-much more work to do, and many exciting problems left to solve. We invite
-and encourage you to join in!
+The Solid ecosystem evolves and expands thanks to the efforts of the
+Solid Community. Check out some of the [applications](/apps) created by
+the community as well as some of the exciting work underway in several
+prestigious [Research Labs](/labs) across the world.
 
-You can engage with others in the community through the 
-[Forum](https://forum.solidproject.org) or 
-live [Gitter Chat](https://gitter.im/solid/chat). 
+There is much more work to do, and many exciting problems left to
+solve. We invite and encourage you to join in!
 
-Attend our monthly
-[Solid World](/events) event, along with [many others](/events) hosted across
-the world by community members.
+### Engage with the Community
 
-Check out some of the exciting work underway in several prestigious 
-[Research Labs](/labs) across the world.
+- [Join the Solid Project Forum](https://forum.solidproject.org).
 
-If you are an organization interested in how Solid can help address
-specific problems or use-cases, reach out to the [Solid Team](/team) by
-sending an e-mail to [info@solidproject.org](mailto:info@solidproject.org),
-and we're happy to provide some guidance.
+- [Join the live Gitter Chat](https://gitter.im/solid/chat). 
 
-Contribute to the [Specification](/specification) by proposing 
-changes, identifying problems, or suggesting new use cases. These can be
-submitted on Github by
-[creating a new issue](https://github.com/solid/specification/issues/new) or 
-pull request. You can also engage
-with any of our [Panels](/specification), all of which are actively working 
-on proposals to the specification in specific topic areas, from 
-authentication to interoperability.
+- [Attend the monthly Solid World](/events).
 
-Extend an existing codebase or create a new one that's compatible with
-the Solid specification. Contribute to any of our existing 
-[tools and libraries](/developers/tools), or make new ones!
+- [Attend other events](/events) hosted across the world by community
+  members.
 
-[Learn to develop](/developers) Solid applications and [share them](/apps) 
-with the community! 
+For organizations interested in how Solid can help address specific
+problems or use-cases, email the [Solid Team](/team) at
+[info@solidproject.org](mailto:info@solidproject.org), and we'll be happy
+to provide some guidance.
 
-[Get a pod](/users/get-a-pod) and try some applications
-out for yourself!
+### Strengthen to the Specification
+
+- [Contribute to the Specification](/specification) by proposing
+  changes, identifying problems, or suggesting new use cases.
+
+- [Engage with the Panels](/specification), all of which are actively
+  working on proposals to the specification in specific topic areas,
+  from authentication to interoperability.
+
+### Contribute to the Ecosystem
+
+- [Get a pod](/users/get-a-pod) and try out some [applications](/apps)
+  for yourself!
+
+- [Contribute to existing tools and libraries](/developers/tools) or
+  make new ones!
+
+- [Learn to develop](/developers) Solid applications and [share
+  them](/apps) with the community!
+
+
