@@ -146,7 +146,7 @@ problems or use-cases, email the [Solid Team](/team) at
 [info@solidproject.org](mailto:info@solidproject.org), and we'll be happy
 to provide some guidance.
 
-### Strengthen to the Specification
+### Strengthen the Specification
 
 - [Contribute to the Specification](/specification) by proposing
   changes, identifying problems, or suggesting new use cases.
