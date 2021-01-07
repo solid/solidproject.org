@@ -383,7 +383,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 {%
   include talk.html
     date="2019-08-11"
-    title="Die RÃ¼ckeroberung des Social Web"
+    title="Die Rückeroberung des Social Web"
     speaker="Angelo Veltens"
     speaker-webid="https://angelo.veltens.org/profile/card#me"
     slides="https://angelo.veltens.org/slides/2019/solid-einfuehrung"
