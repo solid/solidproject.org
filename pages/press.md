@@ -14,6 +14,22 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
   include talk.html
+    date="2021-01-01"
+    title="programmier.bar Folge 79 - Solid Project mit Angelo Veltens"
+    website="https://www.programmier.bar/podcast-episodes/folge-79-solid-project-mit-angelo-veltens"
+    speaker="Angelo Veltens"
+%}
+
+{%
+  include talk.html
+    date="2020-12-11"
+    title="Programar es una mierda episodio 72 - Controla tus datos con el estándar web SOLID"
+    website="https://www.ivoox.com/episodio-72-controla-tus-datos-el-audios-mp3_rf_62216005_1.html"
+    speaker="Virginia Balseiro"
+%}
+
+{%
+  include talk.html
     date="2020-12-03"
     title="Solid World December"
     website="https://vimeo.com/487088029"
