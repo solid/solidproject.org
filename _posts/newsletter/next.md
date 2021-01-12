@@ -14,7 +14,7 @@ Hello and welcome to another edition of This Month in Solid!
 
 This is a monthly summary of Solid progress.
 
-Want something mentioned? Contact the Solid team at info@solidproject.org. This Month in Solid is openly developed [on GitHub](https://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/next.md). If you find any errors in this month’s issue, please [submit a pull request](https://github.com/solid/solidproject.org/pulls).
+Want something mentioned? Contact the Solid team at info@solidproject.org. This Month in Solid is openly developed [on GitHub](https://github.com/solid/solidproject.org/blob/master/_posts/newsletter/next.md). If you find any errors in this month’s issue, please [submit a pull request](https://github.com/solid/solidproject.org/pulls).
 
 ## Updates
 
