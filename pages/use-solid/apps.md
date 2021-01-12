@@ -80,6 +80,7 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 * [Solid Calendar](https://bitbucket.org/dylanmartin/solidcalendar/src/master/) is a way to create, store, and query events using a user's card. 2019. Dylan Martin.
 * [Linked Pipes](https://applications.linkedpipes.com/). 2019. [@aorumbayev](https://github.com/aorumbayev)
 * [Hello World](https://melvincarvalho.github.io/helloworld/) [Source code](https://github.com/melvincarvalho/helloworld) [MIT License Copyright (c) 2015](https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho)
+* [Solid RSS](https://rrustom.github.io/solid-rss/) is a simple RSS Feed that lets you store your favorite feeds and articles in your pod. [Source code](https://github.com/RRustom/solid-rss). [Rami Rustom](https://github.com/RRustom), 2021.
 
 ## Pod Management
 * [Inox](https://inox.app) helps you see what happened to your data accross multiple pods.
