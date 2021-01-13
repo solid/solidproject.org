@@ -108,6 +108,7 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 * LinkedPipes Applications create your own visualisers based on linked data. [Source code](https://github.com/linkedpipes/applications) [Apache License 2.0 (c) 2018](https://github.com/linkedpipes/applications/blob/master/LICENSE) [Jakub Klimek](https://github.com/jakubklimek)
 * [SPARQL Fiddle](https://jeff-zucker.github.io/sparql-fiddle/) online fiddle to run SPARQL against  Pods. [Source code](https://github.com/jeff-zucker/sparql-fiddle) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/sparql-fiddle/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker)
 * [Warp](https://linkeddata.github.io/warp/) file browser. [Source code](https://github.com/linkeddata/warp) MIT License Copyright (c) 2014](https://github.com/linkeddata/warp/blob/gh-pages/LICENSE) [Andrei Samba](https://github.com/deiu)
+* [Assemblage](https://gitlab.com/omd_public/assemblage) is a composable data browser aimed to provide a great user experience for Solid POD services, as well as other RDF sources, both for desktop and mobile web browsers. [Source code](https://gitlab.com/omd_public/assemblage) and [demo video](https://youtu.be/hYFEBAdkzmc).
 
 # Historical Solid Apps
 * [Inbox](https://github.com/solid/solid-inbox) processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu)
