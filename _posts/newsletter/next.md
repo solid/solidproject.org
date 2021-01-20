@@ -24,4 +24,4 @@ categories: [Updates]
 
 #### Job Openings
 
-* 
+* [OECO Group is looking for a full-stack Solid developer in Kontich, Belgium](https://www.linkedin.com/jobs/view/2365589216/)
