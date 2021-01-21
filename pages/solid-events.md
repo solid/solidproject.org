@@ -9,8 +9,11 @@ permalink: /events
 Solid Events are an opportunity for people who are working on Solid or are interested in Solid to meet. Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you, reach out to the Solid Manager at [info@solidproject.org](mailto:info@solidproject.org).
 
 
-{:.has-background-light .has-text-danger}
-> In light of the COVID-19 pandemic, Solid Events are moving online for the foreseeable future. Join Solid World on the first Thursday of every month at 1600 CET.
+<div class="message is-info">
+  <p class="message-body">
+    In light of the COVID-19 pandemic, Solid Events are moving online for the foreseeable future. Join Solid World on the first Thursday of every month at 1600 CET.
+  </p>
+</div>
 
 Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager at [info@solidproject.org](mailto:info@solidproject.org).
 
