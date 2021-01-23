@@ -10,25 +10,26 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 ## Talks Mentioning Solid
 
+### 2021
+
+{%
+include talk.html
+  date="2021-01-07"
+  title="Solid World January"
+  website="https://vimeo.com/solidworld"
+  video="https://vimeo.com/498076263"
+  speaker="Maria Dimou, Tim Berners-Lee, Ruben Verborgh, Osmar Olivo, Sarven Capadisli"
+%}
+
+{%
+include talk.html
+  date="2021-01-01"
+  title="programmier.bar Folge 79 - Solid Project mit Angelo Veltens"
+  website="https://www.programmier.bar/podcast-episodes/folge-79-solid-project-mit-angelo-veltens"
+  speaker="Angelo Veltens"
+%}
+
 ### 2020
-
-{%
-  include talk.html
-    date="2021-01-07"
-    title="Solid World January"
-    website="https://vimeo.com/solidworld"
-    video="https://vimeo.com/498076263"
-    speaker="Maria Dimou, Tim Berners-Lee, Ruben Verborgh, Osmar Olivo, Sarven Capadisli"
-%}
-
-
-{%
-  include talk.html
-    date="2021-01-01"
-    title="programmier.bar Folge 79 - Solid Project mit Angelo Veltens"
-    website="https://www.programmier.bar/podcast-episodes/folge-79-solid-project-mit-angelo-veltens"
-    speaker="Angelo Veltens"
-%}
 
 {%
   include talk.html
