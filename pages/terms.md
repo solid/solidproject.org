@@ -8,7 +8,7 @@ permalink: terms
 
 ## URI Persistence Policy
 
-Last modified: 2021-01-12
+Last modified: 2021-01-25
 
 When information is made available on the Web, it is important for the integrity of the Web, and the society based upon it, that the URIs used to reference information be used well into the future, and that the information persist as identified.
 
@@ -29,5 +29,5 @@ No representation is made about the persistence policies for any other informati
 
 The intent is to set an example by reducing the failure of links due to clumsy management or inadequate commitment to information persistence, and to provide a stable reference base of information about Solid-related topics as a service to the community.
 
-Tim Berners-Lee
-2021-01-12
+Solid Project
+2021-01-25
