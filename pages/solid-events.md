@@ -6,16 +6,28 @@ permalink: /events
 
 # Solid Events
 
-Solid Events are an opportunity for people working on Solid or who are interested about learning more about Solid to meet in person locally. Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you reach out to the Solid Manager on info@solidproject.org.
+Solid Events are an opportunity for people who are working on Solid or are interested in Solid to meet. Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you, reach out to the Solid Manager at [info@solidproject.org](mailto:info@solidproject.org).
 
-In light of the COVID-19 pandemic Solid Events are moving online for the foreseeable future. Tune in on the first Thursday of every month at 1600 CET to join.
 
-Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager on [info@solidproject.org](mailto:info@solidproject.org) to get a speaking slot at the next event.
+<div class="message is-info">
+  <p class="message-body">
+    In light of the COVID-19 pandemic, Solid Events are moving online for the foreseeable future. Join Solid World on the first Thursday of every month at 1600 CET.
+  </p>
+</div>
+
+Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager at [info@solidproject.org](mailto:info@solidproject.org).
+
+## 2021 Events
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
 | 2021-02-04 | [Solid World February](https://www.eventbrite.com/e/solid-world-tickets-135541896461)|[Solid Team](https://solidproject.org/team)||
-| 2021-01-07 | [Solid World January](https://www.eventbrite.com/e/solid-world-tickets-132301957717)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/498076263).  Resources from event: [Solid Operating System (OS) Roadmap](https://solidos.solidcommunity.net/public/Roadmap/Tasks/index.ttl#this), [Community Solid Server (CSS)](https://solid.github.io/community-server/docs/), [Inrupt's Enterprise Solid Server (ESS)](https://inrupt.com/products/enterprise-solid-server), [Ruben's Code for the lights](https://github.com/RubenVerborgh/solid-hue), [Specifications](https://solid.github.io/specification/#work-items), [Specifications Panels (open to all)](https://github.com/solid/process/blob/master/panels.md).|
+| 2021-01-07 | [Solid World January](https://www.eventbrite.com/e/solid-world-tickets-132301957717)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/498076263).  <br>Resources from event: [Solid Operating System (OS) Roadmap](https://solidos.solidcommunity.net/public/Roadmap/Tasks/index.ttl#this), [Community Solid Server (CSS)](https://solid.github.io/community-server/docs/), [Inrupt's Enterprise Solid Server (ESS)](https://inrupt.com/products/enterprise-solid-server), [Ruben's Code for the lights](https://github.com/RubenVerborgh/solid-hue), [Specifications](https://solid.github.io/specification/#work-items), [Specifications Panels (open to all)](https://github.com/solid/process/blob/master/panels.md).|
+
+## 2020 Events
+
+| Date | Event | Organiser | Recordings, Slides and Notes |
+|----|-------|-------------|------------------------------|
 | 2020-12-29 | [Solid Networking December](https://www.eventbrite.com/e/solid-networking-december-tickets-131244348379)|[Jackson Morgan](https://twitter.com/otherJackson)||
 | 2020-12-03 | [Solid World December](https://www.eventbrite.com/e/solid-world-tickets-128665029567)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/487088029). From Ruben's presentation: the [Community Server](https://github.com/solid/community-server/), [Ruben's live list](https://rubenverborgh.github.io/solid-list-viewer/) with [his CSS Pod](https://css.verborgh.org/list). From CERN's presentation: [slides](https://indico.cern.ch/event/977577/attachments/2150316/3635690/SolidWorld2020-12-03presentation.pdf), [Indico source code](https://github.com/indico/) and the [Indico webpage](https://getindico.io/). The [Data Village website](https://www.datavillage.me/). Digita's [Inox](https://www.inox.app/).|
 | 2020-11-05 | [Solid World November](https://www.eventbrite.com/e/solid-world-tickets-124481709143)|[Solid Team](https://solidproject.org/team)|[Full recording](https://vimeo.com/479873289). [Notes](https://indico.cern.ch/event/974494/attachments/2140273/3606052/SolidWorld2020-11-05notes.pdf) by attendant Maria Dimou.|
@@ -33,6 +45,11 @@ Are you interested in speaking about what you have been building on Solid? Reach
 | 2020-02-10 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-88843267605)|Christian Buggedei||
 | 2020-01-30 | [Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020) | [Jeroen van Beele](https://github.com/jjvbeele) |
 | 2020-01-07 | [Solid Khartoum](http://solid-khartoum.atspace.cc)|[Ali Siragedien](https://github.com/alisirag)| [recording](https://youtu.be/BhFFCzjAqm4)|
+
+## Earlier Events
+
+| Date | Event | Organiser | Recordings, Slides and Notes |
+|----|-------|-------------|------------------------------|
 | 2019-12-10 | [Solid Enschede](https://www.utwente.nl/en/digital-society/events/2019/12/63530/solid-christmas-meetup-enschede-how-to-fix-the-internet)|Erwin Folmer |
 | 2019-11-20 | [Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
 | 2019-11-21 |  Solid Montreal|[David H Mason](https://github.com/vid)|
