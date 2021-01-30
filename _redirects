@@ -1,3 +1,5 @@
 /github/* https://solid.github.io/specification/:splat 200
 
-/TR /tr 200
+/TR/* /tr/* 200
+
+/STR/* https://shapetrees.org/TR/specification/:splat 200
