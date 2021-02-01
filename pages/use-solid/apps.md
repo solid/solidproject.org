@@ -24,7 +24,7 @@ These Solid-compatible apps will store your data on [your own Pod]({{site.baseUr
 
 ## Social
 * [LongChat](https://solid-chat.5apps.com/), the default chat pane of Solid OS. [source code](https://github.com/solid/chat-pane) under [MIT License Copyright (C) 2020](https://github.com/solid/chat-pane/blob/master/LICENSE.md)
-* [Darcy](https://ibex.darcy.is/feed)
+* [Darcy](https://darcy.is/darcy-solid-apps/) aims to deliver a comprehensive suite of Solid applications that create an enduser-friendly decentralized and moderated social network.
 * [SNS](https://electrapro-pk.github.io/SNS/) A social network based on Solid build on core JavaScript by [Jackson Morgan](https://github.com/jaxoncreed)
 * [Solidarity](https://scenaristeur.github.io/solidarity/). [source code](https://github.com/scenaristeur/solidarity) is under [MIT License Copyright (c) 2019](https://github.com/scenaristeur/shighl/blob/master/LICENSE)[David Faveris](http://smag0.blogspot.com/2013/12/smag0-le-projet.html)
 * [OChat](https://chat.o.team). [source code](https://github.com/jaxoncreed/o-chat) from 2019 by [Jackson Morgan](https://github.com/jaxoncreed).
