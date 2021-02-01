@@ -6,7 +6,7 @@ permalink: /events
 
 # Solid Events
 
-Solid Events are an opportunity for people who are working on Solid or are interested in Solid to meet. Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you, reach out to the Solid Manager at [info@solidproject.org](mailto:info@solidproject.org).
+Solid Events provide an opportunity to meet others who are working on Solid or are interested in Solid. Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you, reach out to the Solid Manager at [info@solidproject.org](mailto:info@solidproject.org).
 
 
 <div class="message is-info">
