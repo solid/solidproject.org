@@ -20,11 +20,8 @@ permalink: /
         
       </p>
       <div class="buttons is-centered">
-        <a href="{{site.baseurl}}/about" class="button is-info  is-large"> 
-          About Solid
-        </a>
-        <a href="https://solid.github.io/specification/" class="button is-link is-large">
-          Ongoing Work
+        <a href="{{site.baseurl}}/users/get-a-pod"  class="button is-info  is-large"> 
+          Get a Pod
         </a>
         <a href="{{site.baseurl}}/developers/tutorials/getting-started" class="button is-primary is-large">
           Developer Tutorial
@@ -69,11 +66,15 @@ permalink: /
           <div class="column is-offset-1 is-5">
             <h2 class="title">Store anything</h2>
             <p class="content is-large">
-              Any kind of data can be stored in a Solid pod, including
+              Any kind of data can be stored in a Solid Pod, including
               regular documents that you might store in a Google Drive
-              or Dropbox folder. What makes Solid special is the ability to store 
-              data in a way that promotes interoperability.
+              or Dropbox folder.
             </p>
+            <div class="buttons">
+              <a href="{{site.baseurl}}/apps" class="button is-large is-primary">
+                Try out some Applications
+              </a>              
+            </div>
           </div>
           <div class="column is-offset-1 is-4">
             <figure class="image">
@@ -96,12 +97,19 @@ permalink: /
               Interoperable data standards
             </h2>
             <p class="content is-large">
-              Solid promotes interoperability; that is, different
+              What makes Solid special is the ability to store 
+              data in a way that promotes interoperability.
+              That is, different
               applications can work with the same data. Solid supports
               a <strong>common/shared</strong> way of describing things
               and their relationships to one another such that
               different applications can understand.
             </p>
+            <div class="buttons">
+              <a href="https://solid.github.io/specification/" class="button is-link is-large">
+                Read the Interoperability Spec and Other Standards
+              </a>             
+            </div>
           </div>
         </div>
       </div>
@@ -112,7 +120,7 @@ permalink: /
           <div class="column is-offset-1 is-5">
             <h2 class="title">Share it safely</h2>
             <p class="content is-large">
-              Anyone or anything that accesses data in a Solid pod uses a 
+              Anyone or anything that accesses data in a Solid Pod uses a 
               unique ID, authenticated by a decentralized extension of OpenID 
               Connect. Solid's access control system uses these IDs to 
               determine whether a person or application has access to a 
