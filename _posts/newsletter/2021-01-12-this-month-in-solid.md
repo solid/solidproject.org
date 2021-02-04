@@ -14,7 +14,7 @@ Hello and welcome to another edition of This Month in Solid!
 
 This is a monthly summary of Solid progress.
 
-Want something mentioned? Contact the Solid team at info@solidproject.org. This Month in Solid is openly developed [on GitHub](https://github.com/solid/solidproject.org/blob/master/_posts/newsletter/next.md). If you find any errors in this month’s issue, please [submit a pull request](https://github.com/solid/solidproject.org/pulls).
+Want something mentioned? Contact the Solid team at info@solidproject.org. This Month in Solid is openly developed [on GitHub](https://github.com/solid/solidproject.org/blob/main/_posts/newsletter/next.md). If you find any errors in this month’s issue, please [submit a pull request](https://github.com/solid/solidproject.org/pulls).
 
 ## Updates
 
@@ -31,7 +31,7 @@ Next we heard from Ruben Verborgh, who used the Community Solid Server to demons
 
 There were many resources shared during the Solid World, but no worries if you missed them: we have the links and resources available [here](https://solidproject.org/events). 
 
-As we kick off the first month of 2021, we would like to extend another thank you for contributing and participating in the Solid community. Remember if you have any updates on what you’re building and want to share, you can. Just [submit a pull request](https://github.com/solid/solidproject.org/blob/master/_posts/newsletter/next.md) to add the updates to the upcoming This Month in Solid newsletter under the implementation header. If you would like to speak at a Solid World or have any other suggestions feel free to reach out to us at info@solidproject.org.
+As we kick off the first month of 2021, we would like to extend another thank you for contributing and participating in the Solid community. Remember if you have any updates on what you’re building and want to share, you can. Just [submit a pull request](https://github.com/solid/solidproject.org/blob/main/_posts/newsletter/next.md) to add the updates to the upcoming This Month in Solid newsletter under the implementation header. If you would like to speak at a Solid World or have any other suggestions feel free to reach out to us at info@solidproject.org.
 
 
 ### In Other News
