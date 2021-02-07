@@ -42,7 +42,7 @@ Darcy, a Solid-based open social platform led by [Christian Buggedei](https://gi
 
 SIDN Fonds has a grant called [Je Data de Baas](https://www.sidnfonds.nl/nieuws/follow-up-call-je-data-de-baas) and there is an EU initiative called [DAPSI](https://dapsi.ngi.eu/) that could be suitable for Solid app projects.
 
-If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/master/_posts/newsletter/next.md) to let others know about it via the next edition.
+If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/main/_posts/newsletter/next.md) to let others know about it via the next edition.
 
 #### Job Openings
 
