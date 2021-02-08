@@ -27,7 +27,7 @@ to run the application locally on `localhost:1234`.
 
 > You can also try out the application in CodeSandbox.
 >
-> [![Edit on CodeSandbox]({{site.baseUrl}}/assets/img/play-codesandbox.svg)](https://codesandbox.io/s/github/solid/solidproject.org/tree/master/_posts/developers/apps/inrupt-tutorial/codesandbox/?hidenavigation=1&module=%2Findex.js&view=editor)
+> [![Edit on CodeSandbox]({{site.baseUrl}}/assets/img/play-codesandbox.svg)](https://codesandbox.io/s/github/solid/solidproject.org/tree/main/_posts/developers/apps/inrupt-tutorial/codesandbox/?hidenavigation=1&module=%2Findex.js&view=editor)
 >
 > Inside CodeSandbox, rather than running the application in the embedded browser, open the application in a new window to be able to log in.
 

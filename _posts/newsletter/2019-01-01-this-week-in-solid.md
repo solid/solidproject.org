@@ -14,7 +14,7 @@ You can always check here for the most current issue as well as find a record of
 
 # Next Up
 
-We're currently working on next month's edition. You can contribute by [making a Pull Request](https://github.com/solid/solidproject.org/edit/master/_posts/newsletter/next.md)!
+We're currently working on next month's edition. You can contribute by [making a Pull Request](https://github.com/solid/solidproject.org/edit/main/_posts/newsletter/next.md)!
 
 # Previous Issues
 
