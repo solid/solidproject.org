@@ -14,6 +14,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
 include talk.html
+  date="2021-02-04"
+  title="Solid World February"
+  website="https://vimeo.com/solidworld"
+  video="https://vimeo.com/508623332"
+  speaker="Noel DeMartin, Jasmine, Hindia Mohammed,& Solid Team"
+%}
+
+{%
+include talk.html
   date="2021-01-07"
   title="Solid World January"
   website="https://vimeo.com/solidworld"
