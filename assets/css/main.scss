@@ -292,3 +292,26 @@ $why-carousel-offset: 0;
 details > summary {
   cursor: pointer;
 }
+
+#header-navbar {
+  .has-dropdown {  
+    a {
+      background-color: $grey-dark;
+      color: white;
+      &:hover {
+        color: $primary;
+      }
+    }
+  
+    .navbar-dropdown {
+      background-color: $grey-dark;
+      a.navbar-item {
+        &:hover, &:focus {
+          background-color: white;
+          color: $primary;
+        }
+      }
+  
+    }
+  }
+}
