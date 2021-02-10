@@ -23,7 +23,7 @@ Next, Jasmine Leonard presented [PodExplorer](https://podexplorer.gigalixirapp.c
 Finally, Hindia Mohammed from [Ekseli](https://ekseli.fi/) gave us a business to business (B2B) view of applications. Hindia, the CTO of Ekseli,  presented Projectware. The project management application provides two interfaces: the Delivery and Sales Portals. In addition to presenting Projectware, Hindia shared the ways Ekseli engages in the Solid Community. Contributions in various facets are essential for the Solid ecosystem to thrive. 
  
 
-This Solid World was certainly rewarding to see new, consistent, and supportive Solid community members present at Solid World. It’s important to note that Solid welcomes all level developers (beginners to seasoned) and those new to the community. If you would like to learn more about presenting at a future Solid World, please fill out [this form](https://es1cz4pb7oi.typeform.com/to/nietD34f). As we continue to build on Solid, we also need to give new community members the resources and spaces to be active. 
+This Solid World was certainly rewarding to see new, consistent, and supportive Solid community members present at Solid World. It’s important to note that Solid welcomes developers of all levels (beginners to seasoned) and those new to the community. If you would like to learn more about presenting at a future Solid World, please fill out [this form](https://es1cz4pb7oi.typeform.com/to/nietD34f). As we continue to build on Solid, we also need to give new community members the resources and spaces to be active. 
 
   
 ### [Press](https://solidproject.org/press)
