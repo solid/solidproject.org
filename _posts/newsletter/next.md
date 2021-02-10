@@ -31,7 +31,7 @@ This Solid World was certainly rewarding to see new, consistent, and supportive 
 ### Community Spotlight
 
 * [Digita](https://www.digita.ai/) for their [introduction videos](https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g)
-* Virginia Balseiro created the [Women of Solid](https://www.womenofsolid.org/)
+* [Virginia Balseiro](https://www.virginiabalseiro.com) created the [Women of Solid](https://www.womenofsolid.org/)
 
 #### Job Openings
 
