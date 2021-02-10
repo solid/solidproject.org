@@ -30,7 +30,7 @@ This Solid World was certainly rewarding to see new, consistent, and supportive 
 
 ### Community Spotlight
 
-* [Digita](https://www.digita.ai/) for their [introduction videos](https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g)
+* [Digita](https://www.digita.ai/) for their [introduction videos](https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g) and for finding the [NSS vulnerability](https://inrupt.com/security/advisories/) 
 * [Virginia Balseiro](https://www.virginiabalseiro.com) created the [Women of Solid](https://www.womenofsolid.org/)
 
 #### Job Openings
