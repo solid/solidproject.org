@@ -21,7 +21,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
-| 2021-02-04 | [Solid World February](https://www.eventbrite.com/e/solid-world-tickets-135541896461)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/508623332). |
+| 2021-02-04 | [Solid World February](https://www.eventbrite.com/e/solid-world-tickets-135541896461)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/508623332).<br/> Resources: [Notes](https://codimd.web.cern.ch/s/XMkykenm3#) by attendant Maria Dimou.|
 | 2021-01-07 | [Solid World January](https://www.eventbrite.com/e/solid-world-tickets-132301957717)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/498076263).  <br>Resources from event: [Solid Operating System (OS) Roadmap](https://solidos.solidcommunity.net/public/Roadmap/Tasks/index.ttl#this), [Community Solid Server (CSS)](https://solid.github.io/community-server/docs/), [Inrupt's Enterprise Solid Server (ESS)](https://inrupt.com/products/enterprise-solid-server), [Ruben's Code for the lights](https://github.com/RubenVerborgh/solid-hue), [Specifications](https://solid.github.io/specification/#work-items), [Specifications Panels (open to all)](https://github.com/solid/process/blob/master/panels.md).|
 
 ## 2020 Events
