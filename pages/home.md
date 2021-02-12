@@ -48,9 +48,8 @@ permalink: /
             <p class="content is-large">
 
               <a href="{{site.baseurl}}/about">Solid</a> is a project that envisions an ecosystem where 
-              people securely store their data in Pods, and applications can 
-              access data from any Pod if they have 
-              been granted access.
+              people securely store their data in Pods, deciding which applications to grant/revoke access to their data, and
+              applications can access data from any Pod if they have been granted access to that data.
             </p>
             <p class="content is-large">
               Underlying the ecosystem are the Solid specifications. The
@@ -70,7 +69,7 @@ permalink: /
           <div class="column is-offset-1 is-5">
             <h2 class="title">Your pod: All your data, under your control</h2>
             <p class="content is-large">
-              <a href="{{site.baseurl}}/about">Solid</a> lets you store your 
+              With <a href="{{site.baseurl}}/about">Solid</a>, you can store your 
               data securely in decentralized data stores 
               called <b>Pods</b>. Pods are secure personal Web servers for data.
               You control who can use your data, choosing the people and apps 
