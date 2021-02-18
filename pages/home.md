@@ -51,7 +51,7 @@ permalink: /
               <a href="{{site.baseurl}}/TR/protocol">specification</a> 
               that lets people store their data securely in decentralized data stores 
               called <b>Pods</b>. Pods are like secure personal web servers for 
-              data. When data is stored in someone's pod, they control which 
+              data. When data is stored in someone's Pod, they control which 
               people and applications can access it.
             </p>
             
@@ -153,7 +153,7 @@ permalink: /
         <p class="title is-3">Solid creates interoperable ecosystems of
         applications and data</p>
         <p class="subtitle is-4">
-        Data stored in Solid pods can power ecosystems of
+        Data stored in Solid Pods can power ecosystems of
         interoperable applications where individuals are free to use their data 
         seamlessly across different applications and services.</p>
       </div>
