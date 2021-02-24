@@ -1,61 +1,11 @@
 ---
-layout: page
+layout: page-about
 title: About Solid
 permalink: /about
 
 ---
 
 # About Solid
-
-Solid is a mid-course correction for the Web by its inventor, 
-[Sir Tim Berners-Lee](/team). It realizes Tim's original vision for the 
-Web as a medium for the secure, decentralized exchange of public 
-and private data.
-
-<img src="/assets/img/timbl-cern.jpg"/>
-
-## Why fix the Web?
-
-The [first web browser](https://worldwideweb.cern.ch/) was also an editor. 
-The idea being that not only could everyone read content on the web, but 
-they could also help create it. It was 
-to be a collaborative space for everyone.
-
-However, when the first browser that popularized the web came along, called 
-Mosaic, it included multimedia and editing was taken out. It was considered 
-too difficult a problem. This change was the first curtailing of the web’s 
-promise and spawned an effort led by Tim and others to get the write 
-functionality back. It was dubbed the ‘read-write web’ and led to Richard 
-McManus' 
-[seminal article](https://web.archive.org/web/20181214015324/http://readwrite.com/2003/04/19/the_readwrite_w) 
-published in 2003.
-
-The issue with writing data, as Wikipedia and others have learned, is that you 
-need a degree of control over who can write what. That means you need to have 
-permissions to dictate what individuals can do to the data. And to have 
-permissions you need to have a system for identity - a way of uniquely 
-authenticating that an individual is who they purport to be.
-
-Of course the social networks solved this problem within their own systems 
-using their own specific identity and access control, but these were not 
-standard, not interoperable, and gave you no choice in what applications you
-could use to access that data. You had to have your entire personal
-or professional life within one silo for it to work. And since the Web
-is ubiquitous, these silos exist across the data spectrum, from social
-and medical to financial and civil. 
-
-When your data is siloed away from you:
-
-* You have hardly any visibility into what is being retained.
-* You have little control over how it is used, or who is using it. 
-* You have little choice in which applications you can use to access it.
-* It is hard to use as a cohesive unit, specifically because it is siloed,
-scattered across proprietary vendors, interfaces, and data formats.
-
-All of these factors combine to make it very hard to access all of your
-own data, and put it to work on your behalf.
-
-## Why is Solid better?
 
 Solid lets you bring your data together into a decentralized data 
 store called a Pod. It is like a personal Web server for your data.
@@ -114,56 +64,3 @@ standard patterns for application interoperability. And just as you
 can share your data with others, they can also share their data with you. 
 This creates rich and collaborative experiences across a combination of
 both personal and shared data.
-
-
-## How can I get involved?
-
-Solid is a burgeoning technology that is already being applied in the
-real-world to solve practical problems, introducing exciting 
-new ways for people to control their data and extract value from it.
-
-The Solid ecosystem evolves and expands thanks to the efforts of the
-Solid Community. Check out some of the [applications](/apps) created by
-the community as well as some of the exciting work underway in several
-prestigious [Research Labs](/labs) across the world.
-
-There is much more work to do, and many exciting problems left to
-solve. We invite and encourage you to join in!
-
-### Engage with the Community
-
-- [Join the Solid Project Forum](https://forum.solidproject.org).
-
-- [Join the live Gitter Chat](https://gitter.im/solid/chat). 
-
-- [Attend the monthly Solid World](/events).
-
-- [Attend other events](/events) hosted across the world by community
-  members.
-
-For organizations interested in how Solid can help address specific
-problems or use-cases, email the [Solid Team](/team) at
-[info@solidproject.org](mailto:info@solidproject.org), and we'll be happy
-to provide some guidance.
-
-### Strengthen the Specification
-
-- [Contribute to the Specification](/specification) by proposing
-  changes, identifying problems, or suggesting new use cases.
-
-- [Engage with the Panels](/specification), all of which are actively
-  working on proposals to the specification in specific topic areas,
-  from authentication to interoperability.
-
-### Contribute to the Ecosystem
-
-- [Get a pod](/users/get-a-pod) and try out some [applications](/apps)
-  for yourself!
-
-- [Contribute to existing tools and libraries](/developers/tools) or
-  make new ones!
-
-- [Learn to develop](/developers) Solid applications and [share
-  them](/apps) with the community!
-
-

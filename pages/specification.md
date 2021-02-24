@@ -1,5 +1,5 @@
 ---
-layout: page-no-toc
+layout: page-about
 title: Specification
 permalink: specification
 redirect_from:
