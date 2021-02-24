@@ -14,12 +14,13 @@ permalink: /
         />
       </figure>
       <p class="subtitle has-text-centered is-size-4 is-size-3-tablet is-size-2-desktop">
-      Using Web standards to
-      let people control their data, and choose the
-      applications and services to use with it.
+
+        Solid: Your data, your choice.<br>
+        Advancing Web standards to empower people.<br>
+        
       </p>
       <div class="buttons is-centered">
-        <a href="{{site.baseurl}}/users/get-a-pod" class="button is-black is-large">
+        <a href="{{site.baseurl}}/users/get-a-pod"  class="button is-info  is-large"> 
           Get a Pod
         </a>
         <a href="{{site.baseurl}}/developers/tutorials/getting-started" class="button is-primary is-large">
@@ -41,23 +42,27 @@ permalink: /
               <img src="{{site.baseurl}}/assets/img/solid-pod-tour.svg" alt="[]" />
             </figure>
           </div>
+
           <div class="column is-offset-1 is-5">
-            <h2 class="title">All of your data, under your control</h2>
+            
             <p class="content is-large">
-            <a href="{{site.baseurl}}/about">Solid</a> lets people store their 
-            data securely in decentralized data stores 
-            called <b>Pods</b>. Pods are like secure personal web servers for data.
-            All data in a pod is accessible via the 
-            <a href="https://solid.github.io/specification/" target="_blank">Solid Protocol</a>.
-            When data is stored in someone's 
-            pod, they control who and what can access it.</p>
-                                
-            <p class="content is-large">
-            Solid is led by the inventor of the Web, 
-            <b><a href="{{site.baseurl}}/team">Sir Tim Berners-Lee</a></b>, 
-            to help realise his vision 
-            for its future.</p>
+
+              <b>Solid</b> is a 
+              <a href="{{site.baseurl}}/TR/protocol">specification</a> 
+              that lets people store their data securely in decentralized data stores 
+              called <b>Pods</b>. Pods are like secure personal web servers for 
+              data. When data is stored in someone's Pod, they control which 
+              people and applications can access it.
+            </p>
+            
+            <div class="buttons">              
+              <a href="{{site.baseurl}}/about" class="button is-link is-large">
+                Learn more
+              </a>              
             </div>
+            
+          </div>
+
         </div>
       </div>
     </section>
@@ -65,10 +70,21 @@ permalink: /
       <div class="container">
         <div class="columns">
           <div class="column is-offset-1 is-5">
-            <h2 class="title">Store anything</h2>
+            <h2 class="title">Your Pod: All your data, under your control</h2>
             <p class="content is-large">
-              Any kind of data can be stored in a Solid pod, including regular files that you might store in a Google Drive or Dropbox folder, but it is the ability to store <b>Linked Data</b> that makes Solid special.
+              
+              Any kind of data can be stored in a Solid Pod, from structured
+              data to regular files that you might store in a Google Drive
+              or Dropbox folder. People can
+              grant or revoke access to any slice of their
+              data as needed.
+              
             </p>
+            <div class="buttons">
+              <a href="{{site.baseurl}}/users/get-a-pod" class="button is-large is-primary">
+                Get your own Pod
+              </a>              
+            </div>
           </div>
           <div class="column is-offset-1 is-4">
             <figure class="image">
@@ -88,15 +104,22 @@ permalink: /
           </div>
           <div class="column is-offset-1 is-5">
             <h2 class="title">
-              Using interoperable data standards
+              Fully interoperable standards
             </h2>
             <p class="content is-large">
-            Linked Data gives Solid 
-            a common way to describe things and 
-            how they relate to each other, in a way that other people and 
-            machines can understand. This means that the data stored by Solid
-            is portable and completely interoperable.
+              All data in a Solid Pod is stored and accessed using standard, 
+              open, and <b>interoperable data formats and protocols</b>. 
+              Solid uses a common, shared way of describing things
+              and their relationships to one another that
+              different applications can understand. This gives
+              Solid the unique ability to allow different applications to
+              work with the same data.              
             </p>
+            <div class="buttons">
+              <a href="https://solid.github.io/specification/" class="button is-link is-large">
+                Read the Specifications
+              </a>             
+            </div>
           </div>
         </div>
       </div>
@@ -107,11 +130,11 @@ permalink: /
           <div class="column is-offset-1 is-5">
             <h2 class="title">Share it safely</h2>
             <p class="content is-large">
-              Anyone or anything that accesses data in a Solid pod uses a 
+              Anyone or anything that accesses data in a Solid Pod uses a 
               unique ID, authenticated by a decentralized extension of OpenID 
               Connect. Solid's access control system uses these IDs to 
               determine whether a person or application has access to a 
-              resource in a pod.
+              resource in a Pod.
             </p>
           </div>
           <div class="column is-offset-1 is-4">
@@ -130,7 +153,7 @@ permalink: /
         <p class="title is-3">Solid creates interoperable ecosystems of
         applications and data</p>
         <p class="subtitle is-4">
-        Data stored in Solid pods can power ecosystems of
+        Data stored in Solid Pods can power ecosystems of
         interoperable applications where individuals are free to use their data 
         seamlessly across different applications and services.</p>
       </div>
