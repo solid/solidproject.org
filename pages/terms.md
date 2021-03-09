@@ -23,6 +23,7 @@ Pledge:
 As of this note, persistent resources include:
 
 * The home page "https://solidproject.org/";
+* Those which start "https://solidproject.org/" immediately followed by four decimal digits;
 * Those which start "https://solidproject.org/TR/" immediately followed by four decimal digits.
 
 No representation is made about the persistence policies for any other information on the site.
