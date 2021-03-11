@@ -32,6 +32,6 @@ We continue to build steps to give individuals, organizations, and developers th
 #### Community Spotlight
 * Angelo Veltens – For his work testing the chat apps that were posted on the forum recently, and working with the developers to help them pinpoint issues he encountered. Also got back to someone who did not manage to get Solid working in a browser extension a while ago, sharing how he now did manage to do that.
 
-Alain Bourgeois – He's done a great job of keeping NSS up to date as well as supporting a few applications.
+* Alain Bourgeois – He's done a great job of keeping NSS up to date as well as supporting a few applications.
 
 Want something mentioned? Contact the Solid team at info@solidproject.org. If you would like to speak at Solid World please fill [this form out](https://es1cz4pb7oi.typeform.com/to/nietD34f).
