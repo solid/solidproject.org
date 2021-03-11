@@ -27,6 +27,6 @@ We continue to build steps to give individuals, organizations, and developers th
  
 ### In Other News
 
-* Solid Networking Event – March 26, 2021 at 10 AM Eastern Time
+* [Solid Networking Event](https://jackson.solidcommunity.net/public/solid-networking/03-2021.html) – March 26, 2021 at 10 AM Eastern Time
 
 #### Community Spotlight
