@@ -10,7 +10,7 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-**11 March 2021** — It was exciting to see the great turnout at March’s Solid World. We continue to grow in the Solid community as reflected in Solid World’s highest attendance ever. During the event, we got to touch on a lot of great ideas related to the growing market of interoperability. 
+**04 March 2021** — It was exciting to see the great turnout at March’s Solid World. We continue to grow in the Solid community as reflected in Solid World’s highest attendance ever. During the event, we got to touch on a lot of great ideas related to the growing market of interoperability. 
 
 Tim Berners-Lee kicked off the event with shout-outs to last month’s Community Spotlights: [Virginia Balseiro](https://www.virginiabalseiro.com/) for building [Women of Solid](https://www.womenofsolid.org/) and [Digita](https://www.digita.ai/) for their [introduction videos](https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g) as well as their contributions in discovering and reporting bugs.
 
