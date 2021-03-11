@@ -10,7 +10,7 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-**11 March 2021** — It was exciting to see the great turnout at March’s Solid World. We continue to grow in the Solid community as reflected in Solid World’s highest attendance ever. During the event, we got to touch on a lot of great ideas related to the growing market of interoperability. 
+**04 March 2021** — It was exciting to see the great turnout at March’s Solid World. We continue to grow in the Solid community as reflected in Solid World’s highest attendance ever. During the event, we got to touch on a lot of great ideas related to the growing market of interoperability. 
 
 Tim Berners-Lee kicked off the event with shout-outs to last month’s Community Spotlights: [Virginia Balseiro](https://www.virginiabalseiro.com/) for building [Women of Solid](https://www.womenofsolid.org/) and [Digita](https://www.digita.ai/) for their [introduction videos](https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g) as well as their contributions in discovering and reporting bugs.
 
@@ -30,3 +30,8 @@ We continue to build steps to give individuals, organizations, and developers th
 * Solid Networking Event – March 26, 2021 at 10 AM Eastern Time
 
 #### Community Spotlight
+* Angelo Veltens – For his work testing the chat apps that were posted on the forum recently, and working with the developers to help them pinpoint issues he encountered. Also got back to someone who did not manage to get Solid working in a browser extension a while ago, sharing how he now did manage to do that.
+
+Alain Bourgeois – He's done a great job of keeping NSS up to date as well as supporting a few applications.
+
+Want something mentioned? Contact the Solid team at info@solidproject.org. If you would like to speak at Solid World please fill [this form out](https://es1cz4pb7oi.typeform.com/to/nietD34f).
