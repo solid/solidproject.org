@@ -12,7 +12,7 @@ categories: [Updates]
 
 **11 March 2021** — It was exciting to see the great turnout at March’s Solid World. We continue to grow in the Solid community as reflected in Solid World’s highest attendance ever. During the event, we got to touch on a lot of great ideas related to the growing market of interoperability. 
 
-Tim Berners-Lee kicked off the event with shout-outs to last month’s Community Spotlights: Virginia Balseiro for building Women of Solid and [Digita](https://www.digita.ai/) for their [introduction videos](https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g) as well as their contributions in discovering and reporting bugs.
+Tim Berners-Lee kicked off the event with shout-outs to last month’s Community Spotlights: [Virginia Balseiro](https://www.virginiabalseiro.com/) for building [Women of Solid](https://www.womenofsolid.org/) and [Digita](https://www.digita.ai/) for their [introduction videos](https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g) as well as their contributions in discovering and reporting bugs.
 
 Next, Ruben Verborgh gave updates and a demo of the Community Solid Server (CSS). Recently, CSS’s version 0.8 was released with 1.0 on the horizon. He also created a [chat from his pod](https://css.verborgh.org/public/2021/Solid%20World/Chat/), where attendees were able to engage with during the event. 
 
@@ -33,4 +33,3 @@ We continue to build steps to give individuals, organizations, and developers th
 
 * Angelo Veltens – For job testing the chat apps that were posted on the forum recently, and working with the developers to help them pinpoint issues he encountered. Also got back to someone who did not manage to get Solid working in a browser extension a while ago, sharing how he now did manage to do that.
 * Alain Bourgeois – He's done a great job of keeping NSS up to date as well as supporting a few applications.
-
