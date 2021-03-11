@@ -31,5 +31,5 @@ We continue to build steps to give individuals, organizations, and developers th
 
 #### Community Spotlight
 
-* Angelo Veltens – For job testing the chat apps that were posted on the forum recently, and working with the developers to help them pinpoint issues he encountered. Also got back to someone who did not manage to get Solid working in a browser extension a while ago, sharing how he now did manage to do that.
+* Angelo Veltens – For his work testing the chat apps that were posted on the forum recently, and working with the developers to help them pinpoint issues he encountered. Also got back to someone who did not manage to get Solid working in a browser extension a while ago, sharing how he now did manage to do that.
 * Alain Bourgeois – He's done a great job of keeping NSS up to date as well as supporting a few applications.
