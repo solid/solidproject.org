@@ -14,6 +14,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
 include talk.html
+  date="2021-03-04"
+  title="Solid World March"
+  website="https://vimeo.com/solidworld"
+  video="https://vimeo.com/519676585"
+  speaker="Dmitri Zagidulin, Dick Van Gelder, Liam Broza, & Solid Team"
+%}
+
+{%
+include talk.html
   date="2021-02-04"
   title="Solid World February"
   website="https://vimeo.com/solidworld"
