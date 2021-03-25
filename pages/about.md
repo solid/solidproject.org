@@ -5,62 +5,81 @@ permalink: /about
 
 ---
 
-# About Solid
+# Solid
 
-Solid lets you bring your data together into a decentralized data 
-store called a Pod. It is like a personal Web server for your data.
+Solid is a [specification](https://solidproject.org/TR/protocol) that
+lets people store their data securely in decentralized data stores
+called Pods. Pods are like secure personal web servers for your data.
 
-* You control the data in your Pod. 
-* It is all stored
-and accessed using standard, open, and interoperable data formats and protocols.
-* Any kind of information can be stored
-in a Solid Pod. 
-* You can share slices of your data with the people, organizations, 
-and applications you choose, and you can revoke that access at any time.
+* Any kind of information can be stored in a Solid Pod.
 
-Because everything is interoperable, different applications can
-read and write the same data, instead of creating new data silos that make 
-your data difficult to use in its entirety.
+* You control access to the data in your Pod. You decide what data to
+  share and with whom (be it individuals, organizations, and/or
+  applications). Furthermore, you can revoke access at any time.
 
-Consequently, you can do more with your data, because the applications 
-you decide to use can be granted access to a wider and more diverse 
-set of information. This lets them give you more value, without 
-forcing you to relinquish control of what's yours.
+* To store and access data in your Pod, applications use standard,
+  open, and interoperable data formats and protocols.
 
-## How does Solid work?
+## Solid Servers and Pods
 
-A Solid Server hosts one or more Solid Pods, accessible via the
-[Solid Protocol](https://solid.github.io/specification/#protocol).
+A Solid Server hosts one or more Solid Pods. Pods are where you store
+your data:
 
-A Pod hosted on a Solid Server is fully compartmentalized from 
-any others. It has its own set of data and access rules, and is
-fully controlled by whoever it belongs to (i.e. you).
+- Each Pod is fully controlled by the Pod owner (i.e., you).
 
-You decide where to host your Pod. You can opt to have it hosted for
-you by an expanding network of 
-[Pod Providers](/users/get-a-pod), or you can 
-[host it yourself](/self-hosting/).
+- Each Pod's data and access rules are fully distinct from those of other Pods.
 
-You can also have more than one Pod, hosted in different places. This is 
-effectively transparent to the applications and services you use, because
-your data, wherever it is hosted, or data that has been shared with you, 
-is all linked through your 
-[Identity](https://solid.github.io/specification/#identity).
+<img src="{{site.baseurl}}/assets/img/solid-pod-tour.svg" alt="[]" />
 
-You can store any kind of data in a Solid Pod, and you can
-determine who or what can access that data at a granular level,
-using Solid's 
-[Authentication](https://solid.github.io/specification/#authentication) and 
-[Authorization](https://solid.github.io/specification/#authorization) systems.
+You can get a Pod from a [Pod Provider](/users/get-a-pod), or you may choose to 
+[self-host](/self-hosting/) your Pod. 
 
-The linked data model makes the data you store 
-interoperable by using open, standard formats, that can be validated by 
-the Solid Server to ensure data isn't corrupted by disparate applications.
+You can even have multiple Pods. They can be hosted by the same Pod
+Provider or by different Providers or be self-hosted or any combination
+thereof. The number of Pods you have as well as which Solid Server or
+Servers you use is effectively transparent to the applications and
+services that you use. This is because, in the Solid ecosystem, data is
+linked through your
+[Identity](https://solidproject.org/TR/protocol#identity) and not
+through the specifics of your Pod. This is true for your own data as
+well as for data that others have shared with you.
 
-This means that you can share select portions of your data with other 
-people and groups you trust, or with an emerging ecosystem of 
-applications and services, that can read and write data in your Pod using
-standard patterns for application interoperability. And just as you
-can share your data with others, they can also share their data with you. 
+#### Data
+
+You can store any kind of data in a Solid Pod. 
+
+<img src="{{site.baseurl}}/assets/img/store-anything-tour.svg" alt="[]" />
+
+What makes Solid special is the ability to store data in a way that
+promotes interoperability. Specifically, Solid supports storing Linked Data.
+Structuring data as Linked Data means that different applications can work
+with the same data.
+
+#### Access
+
+With Solid's 
+[Authentication](https://solidproject.org/TR/protocol#authentication) and 
+[Authorization](https://solidproject.org/TR/protocol#authorization) systems, 
+you determine which people and applications can access your data. You grant or revoke access 
+to any slice of your data as needed.  Consequently, you can do more with your data, 
+because the applications you decide to use can be granted access to a wider and more diverse 
+set of information.
+
+And just as you can share your data with others, they can also share their data with you. 
 This creates rich and collaborative experiences across a combination of
 both personal and shared data.
+
+## Solid Applications
+
+Solid applications store and access data in Pods using the
+[Solid Protocol](https://solidproject.org/TR/protocol).
+
+Within the interoperable Solid ecosystem, different applications can
+access the same data instead of requiring separate data silos specifically for the
+applications. For example, instead of inputing your email with your bank
+statement notification service, with your phone's billing service, etc., you can
+instead store this information in your Pod and grant access to read your email information
+to these disparate services/applications.
+
+For developer resources, see [Developer Resources](/developers). For a listing of 
+some Solid applications, see [Solid Applications](/apps).
