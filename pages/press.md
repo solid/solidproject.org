@@ -14,6 +14,15 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 {%
 include talk.html
+  date="2021-04-01"
+  title="Solid World April"
+  website="https://vimeo.com/solidworld/review/531907097/eda903e37f"
+  video="https://vimeo.com/solidworld/review/531907097/eda903e37f"
+  speaker="Kai Gilb, Frederick Gibson, Yvo Brevoort, Tony Rodriguez & Solid Team"
+%}
+
+{%
+include talk.html
   date="2021-03-04"
   title="Solid World March"
   website="https://vimeo.com/solidworld"
