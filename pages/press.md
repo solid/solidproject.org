@@ -1233,9 +1233,9 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 
 2018-12-31 [NRC - Herstelwerk aan het kapotte internet](https://www.nrc.nl/nieuws/2018/12/31/herstelwerk-aan-het-kapotte-internet-a3127480)
 
-2018-11-29 [Tim Berners-Lee's Solid Project: Can It Save the Web?] (https://www.extremetech.com/extreme/281334-tim-berners-lees-solid-project-can-it-save-the-web)
+2018-11-29 [Tim Berners-Lee's Solid Project: Can It Save the Web?](https://www.extremetech.com/extreme/281334-tim-berners-lees-solid-project-can-it-save-the-web)
 
-2018-10-29 [An introduction to SOLID, Tim Berners-Leeâ€™s new, re-decentralized Web](https://www.freecodecamp.org/news/an-introduction-to-solid-tim-berners-lees-new-re-decentralized-web-25d6b78c523b/)
+2018-10-29 [An introduction to SOLID, Tim Berners-Lee's new, re-decentralized Web](https://www.freecodecamp.org/news/an-introduction-to-solid-tim-berners-lees-new-re-decentralized-web-25d6b78c523b/)
 
 2018-10-16 [Tim Berners-Lee Introduces "Solid" Decentralized Identity Platform](https://www.infoq.com/news/2018/10/solid-identity-platform/)
 
