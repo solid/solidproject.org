@@ -23,7 +23,7 @@ Our first guest presenter was [Graph Metrix](https://graphmetrix.com). Kai Gilb 
 
 Following Graphmetrix was the [PDS Interop](https://pdsinterop.org) group (made up of four developers) working with [Nextcloud](https://nextcloud.com/). [Yvo Brevoort](https://github.com/ylebre) talked about their journey on Solid by building a [Solid Test Suite](https://github.com/solid/test-suite). It helped them learn about the ecosystem and build a foundation for different servers to be interoperable. They also have two server-related projects, the [PHP Solid Server](https://github.com/pdsinterop/php-solid-server) and the [Nextcloud Solid Server](https://github.com/pdsinterop/solid-nextcloud). They are moving into the next steps in their venture and are looking for help. With that said, if you’re interested, reach out to [Yvo Brevoort](https://github.com/ylebre).  
 
-Our final presenter was Antonio Rodríguez Santiesteban from [Spoter.ME](https://spoter.me). He explained how they are building a Solid Pod Provider that is scalable, resilient and has open microservices architecture. The demo showcased how to access your Pod and add files and other information to it. With the Pod provider up and running, they invite users, application developers, and application providers to test it out if you would like to reach out to them at info@spoter.me. 
+Our final presenter was Antonio Rodríguez Santiesteban from [Spoter.ME](https://spoter.me). He explained how they are building a Solid Pod Provider that is scalable, resilient and has open microservices architecture. The demo showcased how to access your Pod and add files and other information to it. With the Pod provider up and running, they invite users, application developers, and application providers to test it out; if you would like to, reach out to them at [info@spoter.me](mailto:info@spoter.me).
 
 Solid World brought great presenters and showcased how different Solid services are. From seeing interoperability between servers, test-users are getting their foot in the door. If you would like to present at a future Solid World, fill out the [Solid World speaker form](https://es1cz4pb7oi.typeform.com/to/nietD34f). Lastly, the Solid Team can address any questions, comments, or concerns at info@solidproject.org. 
 
@@ -34,4 +34,4 @@ Solid World brought great presenters and showcased how different Solid services 
 
 #### Community Spotlight
 
-* Sharon Stratsianis for her work on SolidOS
+* Sharon Stratsianis for her work on SolidOS.
