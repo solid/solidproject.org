@@ -1,7 +1,7 @@
 ---
 layout: newsletter
-title: This Month in Solid 2020-03-11
-permalink: /newsletter/2020-03-11
+title: This Month in Solid 2020-04-08
+permalink: /newsletter/2020-04-08
 tags: [monthly, updates]
 categories: [Updates]
 ---
@@ -10,26 +10,28 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-**11 March 2021** — It was exciting to see the great turnout at March’s Solid World. We continue to grow in the Solid community as reflected in Solid World’s highest attendance ever. During the event, we got to touch on a lot of great ideas related to the growing market of interoperability. 
+**1 April 2021** — 
+It’s always great to hear how contributors are improving Solid, its ecosystem, and the community. During [Solid World April](https://vimeo.com/531907097), we heard from a few server developers about their work with Solid. Before hearing from our presenters, we kicked off the event, getting a high-level overview from Tim Berners-Lee.
 
-Tim Berners-Lee kicked off the event with shout-outs to last month’s Community Spotlights: [Virginia Balseiro](https://www.virginiabalseiro.com/) for building [Women of Solid](https://www.womenofsolid.org/) and [Digita](https://www.digita.ai/) for their [introduction videos](https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g) as well as their contributions in discovering and reporting bugs.
+Tim commemorated the [Web’s 32nd birthday](https://webfoundation.org/2021/03/web-birthday-32/) by reflecting on building a better web. He emphasized that Solid is at the forefront of improving the web. Lastly, he shouted out three Community Spotlights, Angelo Veltens, Alain Bourgeois, and Sharon Stratsianis, for their contributions to the Solid community.
 
-Next, Ruben Verborgh gave updates and a demo of the Community Solid Server (CSS). Recently, CSS’s version 0.8 was released with 1.0 on the horizon. He also created a [chat from his pod](https://css.verborgh.org/public/2021/Solid%20World/Chat/), where attendees were able to engage with during the event. 
+Next, we heard a quick update and demo from Ruben Vergborgh regarding the Community Solid Server (CSS). Continuous updates on the CSS are building toward the V1.0 release. 
 
-For Inrupt’s update, Osmar Olivo, VP of Product, gave us a sneak peek that  Enterprise Solid Server (ESS) version 1.1 will be released in early spring. He also reminded us to try out and [give feedback](https://inrupt.atlassian.net/servicedesk/customer/portal/7) for [Pod Spaces](https://signup.pod.inrupt.com/).  
+Osmar (Oz) Olivo, the VP of Product at Inrupt, gave Solid World attendees a preview of some release news that will be coming later this month, focused on security. He also mentioned the Swedish Government’s work with Solid, and encouraged users of Inrupt’s products, to fill out  their [product survey](https://www.research.net/r/GWWJB7V). 
 
-Next were our two guest presenters for Solid World. We heard from Dmitri Zagidulin and Liam Broza from [LifeScope](https://lifescope.io/), who let us know about their work with Solid. They are working on creating a “companion intelligence” by using Artificial Intelligence (AI) to create a digital memory of yourself, one that builds up a more accurate, personalized, and improved experience on the web. They will be using Solid to help with decentralizing their data storage and authorization. You can access their slides [here](https://docs.google.com/presentation/d/1vg9y_o0KtaC1j9w6yxpukEeoOsdbMCQa2zh1hQO2pYw).  
+Our first guest presenter was [Graph Metrix](https://graphmetrix.com). Kai Gilb and Frederick Gilbert presented their work on Solid. It focused on building a conceptual AI, an ontology, and support of a one-world data model. With these three concepts in mind, they showcased TrinPod, where all your information can live. We saw just how in-depth their work could be with a flow chart and the layers of files, folders, and other information that one person can have. Their targeted use cases center around construction, productivity applications, logistics, and property. It showed versatility and a solution for real-world pain points by leveraging Solid. If you would like to create your own TrinPod, you can [sign up for a free account](https://trinpod.us/) and start using their suite of applications. 
 
-Last but not least, we heard from Dick van Gelder from Creafree. He discussed the importance of us coming together as a collective to support and protect intellectual property. Working with existing laws, we can use Solid to build a space for people to create and share their creations. The ability to gather and use all your data with different applications is just a start. You can access his slides [here](https://ln2.sync.com/dl/53b6274d0/fcs466su-bs8bgykx-hkfmpz2a-rmwamczt/view/default/9895814900003). 
+Following Graphmetrix was the [PDS Interop](https://pdsinterop.org) group (made up of four developers) working with [Nextcloud](https://nextcloud.com/). [Yvo Brevoort](https://github.com/ylebre) talked about their journey on Solid by building a [Solid Test Suite](https://github.com/solid/test-suite). It helped them learn about the ecosystem and build a foundation for different servers to be interoperable. They also have two server-related projects, the [PHP Solid Server](https://github.com/pdsinterop/php-solid-server) and the [Nextcloud Solid Server](https://github.com/pdsinterop/solid-nextcloud). They are moving into the next steps in their venture and are looking for help. With that said, if you’re interested, reach out to [Yvo Brevoort](https://github.com/ylebre).  
 
-We continue to build steps to give individuals, organizations, and developers the ability to use data in a new, innovative, and valuable way. Solid is always growing in size and contributions. As we continue through this year, it will be exciting to see how we can grow in interoperability and integrations together!
+Our final presenter was Antonio Rodríguez Santiesteban from [Spoter.ME](https://spoter.me). He explained how they are building a Solid Pod Provider that is scalable, resilient and has open microservices architecture. The demo showcased how to access your Pod and add files and other information to it. With the Pod provider up and running, they invite users, application developers, and application providers to test it out if you would like to reach out to them at info@spoter.me. 
+
+Solid World brought great presenters and showcased how different Solid services are. From seeing interoperability between servers, test-users are getting their foot in the door. If you would like to present at a future Solid World, fill out the [Solid World speaker form](https://es1cz4pb7oi.typeform.com/to/nietD34f). Lastly, the Solid Team can address any questions, comments, or concerns at info@solidproject.org. 
 
  
 ### In Other News
 
-* Solid Networking Event – March 26, 2021 at 10 AM Eastern Time
+* Solid Networking Event – Friday, April 30, 2021 at 10 AM Eastern Time
 
 #### Community Spotlight
 
-* Angelo Veltens – For his work testing the chat apps that were posted on the forum recently, and working with the developers to help them pinpoint issues he encountered. Also got back to someone who did not manage to get Solid working in a browser extension a while ago, sharing how he now did manage to do that.
-* Alain Bourgeois – He's done a great job of keeping NSS up to date as well as supporting a few applications.
+* Sharon Stratsianis for her work on SolidOS
