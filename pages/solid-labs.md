@@ -8,6 +8,12 @@ permalink: labs
 
 Several academic groups conduct research around Solid. If you are interested in being listed send an email to info@solidproject.org with a description of the research project and link to the website. 
 
+### [BBC R&D](https://www.bbc.co.uk/rd) - [A BBC for the data economy](https://www.bbc.co.uk/rd/projects/new-forms-value-bbc-data-economy)
+
+BBC R&D have been using Solid to power research into ways that the BBC can deliver new types of data-based services to inform, educate and entertain in ways that gives maximum respect to the agency and privacy of their audience. 
+
+Contact: [https://www.bbc.co.uk/rd/contacts](https://www.bbc.co.uk/rd/contacts)
+
 ### [MIT](https://www.mit.edu) - [CSAIL DIG](http://dig.csail.mit.edu) 
 Boston, USA 
 
