@@ -45,7 +45,4 @@ To keep up-to-date with Solid specification progress, you can:
 You can also receive these updates by signing up for
 [This Month in Solid](https://solidproject.org/newsletter). 
 
-* Read the record of call agendas and minutes:
-  + [Authentication Panel Meeting Notes](https://github.com/solid/authentication-panel/tree/master/meetings)
-  + [Interoperability Panel](https://github.com/solid/data-interoperability-panel/tree/master/meetings) 
-  + [Authorization Panel](https://github.com/solid/authorization-panel/tree/main/meetings) 
+* Read the record of [call agendas and minutes](https://www.w3.org/community/solid/wiki/Meetings).
