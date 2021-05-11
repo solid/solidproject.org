@@ -836,6 +836,10 @@ include talk.html
 
 ## Mentions of Solid in Articles
 
+### 2021
+
+2021-04-15 [Interview: Web inventor Tim Berners-Lee thinks his creation is out of control. Here’s his plan to save it](https://www.sciencefocus.com/future-technology/interview-web-inventor-tim-berners-lee-thinks-his-creation-is-out-of-control-heres-his-plan-to-save-it/)
+
 ### 2020
 
 2020-07-28 [Tem Big Tech: stop data in privékluizen](https://www.nrc.nl/nieuws/2020/07/28/tem-big-tech-stop-data-in-prive-kluizen-a4007191)
