@@ -55,7 +55,6 @@ redirect_from:
 | [Linked Beer](https://ozcanseker.github.io/Social-linked-beer/) | Search for and rate beers listed by brewery. <br>- 2019. Özcan Seker. [source code](https://github.com/ozcanseker/Social-linked-beer) |
 | [Tadanime](https://pheyvaer.github.io/tadanime/index.html)   | Rate your anime series and movies. <br>- [Tadanime](https://github.com/pheyvaer/tadanime) [MIT License Copyright (c) 2018](https://github.com/pheyvaer/tadanime/blob/master/LICENSE.md) [Pieter Heyvaert](https://github.com/pheyvaer) |
 | [Twee-Fi](https://factsmission.github.io/twee-fi/)           | Helps you review claims and rate trustworthiness of tweets.  <br>- [Twee-Fi](https://github.com/factsmission/twee-fi) [MIT License Copyright (c) 2018](https://github.com/factsmission/twee-fi/blob/master/LICENSE) [FactsMission](https://factsmission.com) |
-| [Mark Book](https://markbook.org)                            | App for creating bookmarks. <br>- [Source code](https://github.com/melvincarvalho/solid-bookmark) [MIT License Copyright (c) 2018](https://github.com/melvincarvalho/solid-bookmark/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) |
 
 ## Movies
 
@@ -118,6 +117,7 @@ redirect_from:
 | Application                                                                    | Description                                                                                               |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------| 
 | [Inox](https://inox.app)                                                       | Helps you see what happened to your data accross multiple pods.                                           |
+| [drive](https://drive.owntech.de)                                              | Tool to create and share resources with contacts                              |
 | [Solid Notify](https://solid-notify.5apps.com/)                                | Sends you a desktop notification when a Solid resource changes.                                           |
 | [SolidVC](https://github.com/kezike/solid-vc)                                  | [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid. |
 | [PoPock](https://scenaristeur.github.io/solid-vue-panes)                       | Your POds in the POCKet. A very modular SoLiD application that is based on webcomponents, vuejs, vue-bootstrap, using community libs like solid-file-client, ldflex-query, tripledoc switching. [source](https://github.com/scenaristeur/solid-vue-panes) |
@@ -145,6 +145,7 @@ redirect_from:
 
 # Historical Solid Apps
 * [Inbox](https://github.com/solid/solid-inbox) processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu) |
+| [Mark Book](https://markbook.org)                            | App for creating bookmarks. <br>- [Source code](https://github.com/melvincarvalho/solid-bookmark) [MIT License Copyright (c) 2018](https://github.com/melvincarvalho/solid-bookmark/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) |
 
 # Apps inclusion and exclusion criteria
 

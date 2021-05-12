@@ -68,13 +68,19 @@
         return;
       }
       const webID = session.info.webId;
+      // The WebID can contain a hash fragment (e.g. `#me`) to refer to profile data
+      // in the profile dataset. If we strip the hash, we get the URL of the full
+      // dataset.
+      const profileDocumentUrl = new URL(webID);
+      profileDocumentUrl.hash = "";
 
       // To write to a profile, you must be authenticated. That is the role of the fetch
       // parameter in the following call.
-      let myProfileDataset = await getSolidDataset(webID, {
+      let myProfileDataset = await getSolidDataset(profileDocumentUrl.href, {
         fetch: session.fetch
       });
 
+      // The profile data is a "Thing" in the profile dataset.
       let profile = getThing(myProfileDataset, webID);
 
       // Using the name provided in text field, update the name in your profile.
@@ -86,7 +92,7 @@
       myProfileDataset = setThing(myProfileDataset, profile);
 
       // Write back the dataset to your Pod.
-      await saveSolidDatasetAt(webID, myProfileDataset, {
+      await saveSolidDatasetAt(profileDocumentUrl.href, myProfileDataset, {
         fetch: session.fetch
       });
 
@@ -120,15 +126,18 @@
         return false;
       }
 
+      const profileDocumentUrl = new URL(webID);
+      profileDocumentUrl.hash = "";
+
       // Profile is public data; i.e., you do not need to be logged in to read the data.
       // For illustrative purposes, shows both an authenticated and non-authenticated reads.
 
       let myDataset;
       try {
         if (session.info.isLoggedIn) {
-          myDataset = await getSolidDataset(webID, { fetch: session.fetch });
+          myDataset = await getSolidDataset(profileDocumentUrl.href, { fetch: session.fetch });
         } else {
-          myDataset = await getSolidDataset(webID);
+          myDataset = await getSolidDataset(profileDocumentUrl.href);
         }
       } catch (error) {
         document.getElementById(
