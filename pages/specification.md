@@ -29,20 +29,15 @@ and communication channels, which include the following weekly recurring meeting
 
 | Panel | When | Meeting Link |
 | ----- |------|--------------|
-| [Authentication Panel](https://www.w3.org/community/solid/wiki/Authentication_Panel)   | Mondays at 1600 CEST   | [Meeting](https://inrupt.my.webex.com/inrupt.my/j.php?MTID=m131f1588eb27afc298276f1cbf077a79) |
-| [Interoperability Panel](https://www.w3.org/community/solid/wiki/Interoperability_Panel) | Mondays at 2130 CEST   | [Meeting](https://global.gotomeeting.com/join/620786365) |
-| [Authorization Panel](https://www.w3.org/community/solid/wiki/Authorization_Panel)   | Wednesday at 1600 CEST | [Meeting](https://global.gotomeeting.com/join/544111573) |
+| [Authentication Panel](https://www.w3.org/community/solid/wiki/Authentication_Panel)   | Mondays at 16:00 Central European / 10:00 Eastern | [Meeting](https://meet.jit.si/solid-authentication) |
+| [Interoperability Panel](https://www.w3.org/community/solid/wiki/Interoperability_Panel) | Tuesdays at 16:00 Central European / 10:00 Eastern | [Meeting](https://meet.jit.si/solid-data-interoperability) |
+| [Authorization Panel](https://www.w3.org/community/solid/wiki/Authorization_Panel)   | Wednesday at 16:00 Central European / 10:00 Eastern | [Meeting](https://meet.jit.si/solid-authorization) |
 
-Submitted proposals undergo an Editorial review process. For more information
+All proposals undergo an Editorial review process. For more information
 on proposal submissions and reviews, see the 
-[Solid Panel proposal process](https://github.com/solid/process#reviewing-proposals).
+[Solid Process](https://github.com/solid/process#reviewing-proposals).
 
 ## Track Progress
 
-To keep up-to-date with Solid specification progress, you can:
-
-* Read the [monthly updates by the Editors](https://www.w3.org/community/solid/wiki/Main_Page). 
-You can also receive these updates by signing up for
-[This Month in Solid](https://solidproject.org/newsletter). 
-
-* Read the record of [call agendas and minutes](https://www.w3.org/community/solid/wiki/Meetings).
+Keep up-to-date with specification progress by signing up for
+[This Month in Solid](https://solidproject.org/newsletter).
