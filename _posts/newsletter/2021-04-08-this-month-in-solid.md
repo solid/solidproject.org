@@ -11,7 +11,7 @@ categories: [Updates]
 ### [Events](https://solidproject.org/events)
 
 **1 April 2021** — 
-It’s always great to hear how contributors are improving Solid, its ecosystem, and the community. During [Solid World April](https://vimeo.com/531907097), we heard from a few server developers about their work with Solid. Before hearing from our presenters, we kicked off the event, getting a high-level overview from Tim Berners-Lee.
+It’s always fantastic to hear how contributors are improving Solid, its ecosystem, and the community. During [Solid World April](https://vimeo.com/531907097), we heard from a few server developers about their work with Solid. Before hearing from our presenters, we kicked off the event, getting a high-level overview from Tim Berners-Lee.
 
 Tim commemorated the [Web’s 32nd birthday](https://webfoundation.org/2021/03/web-birthday-32/) by reflecting on building a better web. He emphasized that Solid is at the forefront of improving the web. Lastly, he shouted out three Community Spotlights, Angelo Veltens, Alain Bourgeois, and Sharon Stratsianis, for their contributions to the Solid community.
 
