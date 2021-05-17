@@ -1,169 +1,85 @@
 ---
-layout: page
+layout: page-about
 title: About Solid
 permalink: /about
 
 ---
 
-# About Solid
+# Solid
 
-Solid is a mid-course correction for the Web by its inventor, 
-[Sir Tim Berners-Lee](/team). It realizes Tim's original vision for the 
-Web as a medium for the secure, decentralized exchange of public 
-and private data.
+Solid is a [specification](https://solidproject.org/TR/protocol) that
+lets people store their data securely in decentralized data stores
+called Pods. Pods are like secure personal web servers for your data.
 
-<img src="/assets/img/timbl-cern.jpg"/>
+* Any kind of information can be stored in a Solid Pod.
 
-## Why fix the Web?
+* You control access to the data in your Pod. You decide what data to
+  share and with whom (be it individuals, organizations, and/or
+  applications). Furthermore, you can revoke access at any time.
 
-The [first web browser](https://worldwideweb.cern.ch/) was also an editor. 
-The idea being that not only could everyone read content on the web, but 
-they could also help create it. It was 
-to be a collaborative space for everyone.
+* To store and access data in your Pod, applications use standard,
+  open, and interoperable data formats and protocols.
 
-However, when the first browser that popularized the web came along, called 
-Mosaic, it included multimedia and editing was taken out. It was considered 
-too difficult a problem. This change was the first curtailing of the web’s 
-promise and spawned an effort led by Tim and others to get the write 
-functionality back. It was dubbed the ‘read-write web’ and led to Richard 
-McManus' 
-[seminal article](https://web.archive.org/web/20181214015324/http://readwrite.com/2003/04/19/the_readwrite_w) 
-published in 2003.
+## Solid Servers and Pods
 
-The issue with writing data, as Wikipedia and others have learned, is that you 
-need a degree of control over who can write what. That means you need to have 
-permissions to dictate what individuals can do to the data. And to have 
-permissions you need to have a system for identity - a way of uniquely 
-authenticating that an individual is who they purport to be.
+A Solid Server hosts one or more Solid Pods. Pods are where you store
+your data:
 
-Of course the social networks solved this problem within their own systems 
-using their own specific identity and access control, but these were not 
-standard, not interoperable, and gave you no choice in what applications you
-could use to access that data. You had to have your entire personal
-or professional life within one silo for it to work. And since the Web
-is ubiquitous, these silos exist across the data spectrum, from social
-and medical to financial and civil. 
+- Each Pod is fully controlled by the Pod owner (i.e., you).
 
-When your data is siloed away from you:
+- Each Pod's data and access rules are fully distinct from those of other Pods.
 
-* You have hardly any visibility into what is being retained.
-* You have little control over how it is used, or who is using it. 
-* You have little choice in which applications you can use to access it.
-* It is hard to use as a cohesive unit, specifically because it is siloed,
-scattered across proprietary vendors, interfaces, and data formats.
+<img src="{{site.baseurl}}/assets/img/solid-pod-tour.svg" alt="[]" />
 
-All of these factors combine to make it very hard to access all of your
-own data, and put it to work on your behalf.
+You can get a Pod from a [Pod Provider](/users/get-a-pod), or you may choose to 
+[self-host](/self-hosting/) your Pod. 
 
-## Why is Solid better?
+You can even have multiple Pods. They can be hosted by the same Pod
+Provider or by different Providers or be self-hosted or any combination
+thereof. The number of Pods you have as well as which Solid Server or
+Servers you use is effectively transparent to the applications and
+services that you use. This is because, in the Solid ecosystem, data is
+linked through your
+[Identity](https://solidproject.org/TR/protocol#identity) and not
+through the specifics of your Pod. This is true for your own data as
+well as for data that others have shared with you.
 
-Solid lets you bring your data together into a decentralized data 
-store called a Pod. It is like a personal Web server for your data.
+#### Data
 
-* You control the data in your Pod. 
-* It is all stored
-and accessed using standard, open, and interoperable data formats and protocols.
-* Any kind of information can be stored
-in a Solid Pod. 
-* You can share slices of your data with the people, organizations, 
-and applications you choose, and you can revoke that access at any time.
+You can store any kind of data in a Solid Pod. 
 
-Because everything is interoperable, different applications can
-read and write the same data, instead of creating new data silos that make 
-your data difficult to use in its entirety.
+<img src="{{site.baseurl}}/assets/img/store-anything-tour.svg" alt="[]" />
 
-Consequently, you can do more with your data, because the applications 
-you decide to use can be granted access to a wider and more diverse 
-set of information. This lets them give you more value, without 
-forcing you to relinquish control of what's yours.
+What makes Solid special is the ability to store data in a way that
+promotes interoperability. Specifically, Solid supports storing Linked Data.
+Structuring data as Linked Data means that different applications can work
+with the same data.
 
-## How does Solid work?
+#### Access
 
-A Solid Server hosts one or more Solid Pods, accessible via the
-[Solid Protocol](https://solid.github.io/specification/#protocol).
+With Solid's 
+[Authentication](https://solidproject.org/TR/protocol#authentication) and 
+[Authorization](https://solidproject.org/TR/protocol#authorization) systems, 
+you determine which people and applications can access your data. You grant or revoke access 
+to any slice of your data as needed.  Consequently, you can do more with your data, 
+because the applications you decide to use can be granted access to a wider and more diverse 
+set of information.
 
-A Pod hosted on a Solid Server is fully compartmentalized from 
-any others. It has its own set of data and access rules, and is
-fully controlled by whoever it belongs to (i.e. you).
-
-You decide where to host your Pod. You can opt to have it hosted for
-you by an expanding network of 
-[Pod Providers](/users/get-a-pod), or you can 
-[host it yourself](/self-hosting/).
-
-You can also have more than one Pod, hosted in different places. This is 
-effectively transparent to the applications and services you use, because
-your data, wherever it is hosted, or data that has been shared with you, 
-is all linked through your 
-[Identity](https://solid.github.io/specification/#identity).
-
-You can store any kind of data in a Solid Pod, and you can
-determine who or what can access that data at a granular level,
-using Solid's 
-[Authentication](https://solid.github.io/specification/#authentication) and 
-[Authorization](https://solid.github.io/specification/#authorization) systems.
-
-The linked data model makes the data you store 
-interoperable by using open, standard formats, that can be validated by 
-the Solid Server to ensure data isn't corrupted by disparate applications.
-
-This means that you can share select portions of your data with other 
-people and groups you trust, or with an emerging ecosystem of 
-applications and services, that can read and write data in your Pod using
-standard patterns for application interoperability. And just as you
-can share your data with others, they can also share their data with you. 
+And just as you can share your data with others, they can also share their data with you. 
 This creates rich and collaborative experiences across a combination of
 both personal and shared data.
 
+## Solid Applications
 
-## How can I get involved?
+Solid applications store and access data in Pods using the
+[Solid Protocol](https://solidproject.org/TR/protocol).
 
-Solid is a burgeoning technology that is already being applied in the
-real-world to solve practical problems, introducing exciting 
-new ways for people to control their data and extract value from it.
+Within the interoperable Solid ecosystem, different applications can
+access the same data instead of requiring separate data silos specifically for the
+applications. For example, instead of inputing your email with your bank
+statement notification service, with your phone's billing service, etc., you can
+instead store this information in your Pod and grant access to read your email information
+to these disparate services/applications.
 
-The Solid ecosystem evolves and expands thanks to the efforts of the
-Solid Community. Check out some of the [applications](/apps) created by
-the community as well as some of the exciting work underway in several
-prestigious [Research Labs](/labs) across the world.
-
-There is much more work to do, and many exciting problems left to
-solve. We invite and encourage you to join in!
-
-### Engage with the Community
-
-- [Join the Solid Project Forum](https://forum.solidproject.org).
-
-- [Join the live Gitter Chat](https://gitter.im/solid/chat). 
-
-- [Attend the monthly Solid World](/events).
-
-- [Attend other events](/events) hosted across the world by community
-  members.
-
-For organizations interested in how Solid can help address specific
-problems or use-cases, email the [Solid Team](/team) at
-[info@solidproject.org](mailto:info@solidproject.org), and we'll be happy
-to provide some guidance.
-
-### Strengthen the Specification
-
-- [Contribute to the Specification](/specification) by proposing
-  changes, identifying problems, or suggesting new use cases.
-
-- [Engage with the Panels](/specification), all of which are actively
-  working on proposals to the specification in specific topic areas,
-  from authentication to interoperability.
-
-### Contribute to the Ecosystem
-
-- [Get a pod](/users/get-a-pod) and try out some [applications](/apps)
-  for yourself!
-
-- [Contribute to existing tools and libraries](/developers/tools) or
-  make new ones!
-
-- [Learn to develop](/developers) Solid applications and [share
-  them](/apps) with the community!
-
-
+For developer resources, see [Developer Resources](/developers). For a listing of 
+some Solid applications, see [Solid Applications](/apps).
