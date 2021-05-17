@@ -26,7 +26,7 @@ redirect_from:
 
 | Application                                                  | Description                                                                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [Liquid Chat](https://liqid.chat/)                           | by [Jackson Morgan](https://github.com/jaxoncreed) |
+| [Liqid Chat](https://liqid.chat/)                           | by [Jackson Morgan](https://github.com/jaxoncreed) |
 | [LongChat](https://solid-chat.5apps.com/)                    | Default chat pane of Solid OS. <br>- [Source code](https://github.com/solid/chat-pane) under [MIT License Copyright (C) 2020](https://github.com/solid/chat-pane/blob/master/LICENSE.md) |
 | [Darcy](https://darcy.is/darcy-solid-apps/)                  | Aims to deliver a comprehensive suite of Solid applications that create an enduser-friendly decentralized and moderated social network.         |
 | [SNS](https://electrapro-pk.github.io/SNS/)                  | A social network based on Solid build on core JavaScript by [Jackson Morgan](https://github.com/jaxoncreed) |
