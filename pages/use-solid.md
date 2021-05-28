@@ -40,6 +40,7 @@ The following table lists some Pod Provider:
 | [inrupt.net](https://inrupt.net)                   | [Inrupt, Inc.](https://inrupt.com/terms-of-service)                        | [Amazon](https://aws.amazon.com)              | USA              |
 | [solidcommunity.net](https://solidcommunity.net/)  | [Solid Project](https://github.com/solid/solidcommunity.net_operations)    | [Digital Ocean](https://www.digitalocean.com) | UK               |
 | [solidweb.org](https://solidweb.org)               | [Solid Grassroots](https://gitlab.com/groups/solidweb.org/-/group_members) | [Hosteurope](https://www.hosteurope.de)       | Germany          |
+| [trinpod.us](https://trinpod.us)                   | [Graphmetrix, Inc.](https://graphmetrix.com/terms)                         | [Amazon](https://aws.amazon.com)                                                              | USA             |
 
 If you are a provider who wants to add your service to this list, email [info@solidproject.org](mailto:info@solidproject.org).
 
