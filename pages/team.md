@@ -17,6 +17,10 @@ Sir Tim Berners-Lee is co-founder and Chief Technology Officer of Inrupt. Named 
 # Editors
 Editors are responsible for maintaining and reviewing suggestions to the Solid specification.  
 
+## Kay Kim
+**Solid Editor**
+Kay is a technical writer at Inrupt and a newcomer to Solid.
+
 ## Sarven Capadisli
 **Solid Editor**
 [Sarven Capadisli](https://csarven.ca/#i) contributes to the advancement of technical specifications in the Solid ecosystem and aims to ensure open consensus within a common ethical framework. He is a technical architect at Inrupt and has been involved in the evolution of Solid alongside TimBL at MIT since 2015.
