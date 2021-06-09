@@ -8,7 +8,7 @@ categories: [Updates]
 
 ### [Events](https://solidproject.org/events)
 
-**3 June 2021** – 03 June 2021 – Another [Solid World](https://vimeo.com/558597018) in the books! We explored how Solid reorients data to be human-centric with intersecting ideas like verifiable credentials, privacy-by-design, data reuse, and consent. 
+**3 June 2021** – Solid World June – Another [Solid World](https://vimeo.com/558597018) in the books! We explored how Solid reorients data to be human-centric with intersecting ideas like verifiable credentials, privacy-by-design, data reuse, and consent. 
 
 Solid World June kicked off with Tim Berners-Lee giving us updates about the last few weeks. One of the highlights was [his in-person visit to the Flemish Government](https://www.tijd.be/app/carousel1/tim-berners-lee-de-bedenker-van-het-internet-we-kunnen-het-wereldwijde-web-nog-fiksen/10309722.html). Right now, the Flanders Government wants to give everyone in Flanders a Solid Pod. People in Flanders (and all-around) feel a sense of excitement from seeing all the possibilities Solid has to offer and the promise of seeing one another physically. He expressed his hopes that others in the community soon get the opportunity to collaborate and feel the vibrancy of our community in person. 
 
