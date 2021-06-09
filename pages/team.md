@@ -46,7 +46,7 @@ Creators are responsible for maintaining and reviewing suggestions to solidproje
 
 ## Kyra Assaad
 **Creator**
-Kyra Assaad is the Product Designer at Inrupt. She works to ensure that the Solid user experience is accessible and useable for all. She serves as one of the chairs of (and helped form) the Solid Diversity, Equity, and Inclusion (DEI) team. Whose goal is to increase the representation and participation of women and people of colour in the Solid community.
+Kyra Assaad is the Product Designer at Inrupt. She works to ensure that the Solid user experience is accessible and useable for all. She serves as one of the chairs of (and helped form) the Solid Diversity, Equity, and Inclusion (DEI) team. Whose goal is to increase voices in the Solid community by inviting individuals from all underrepresented groups..
 
 ## Virginia Balseiro
 **Creator**
