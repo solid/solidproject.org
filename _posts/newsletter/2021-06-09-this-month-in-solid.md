@@ -14,7 +14,7 @@ Solid World June kicked off with Tim Berners-Lee giving us updates about the las
 
 Next, we heard from Ruben Verborgh. Who broke down the need to know about verifiable credentials (VC). His focus was on connecting the dots between how VC is a standard from the W3C and how it affects Solid Pods and gives you consent back. 
 
-Oz Olivo, the VP of Product at Inrupt, was the final Solid roadmap update. He discussed the next steps Inrupt planning for their version 1.2 release, some of the features fell in line with the theme of this month. 
+Oz Olivo, the VP of Product at Inrupt, completed the Solid roadmap update. He discussed the next steps Inrupt planning for their version 1.2 release, some of the features fell in line with the theme of this month. 
 
 Our first presenter, Eliott Behar, focused on privacy, Solid, and law converge for the better. He explained how Solid not only meets the standards of General Data Protection Regulation (GDPR) but exceeds them. Eliott went over the six lawful bases that make up the GDPR described, but the most questions are the sixth, third-party processors. Solid makes it possible to see and give permissions to share data with these third parties, but how will the community design this?
 
