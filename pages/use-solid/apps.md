@@ -70,11 +70,12 @@ redirect_from:
 | [RiseFor Mobilisation](https://git.happy-dev.fr/startinblox/applications/risefor-mobilisation) <br>(deployed as [Referendum Signons](https://referendum.signons.fr)) | An app for organising referenda; it uses Solid under the hood. |
 | [Solidbase](https://app.solidbase.info) | Agricultural project management. <br>- [Source code](https://lab.allmende.io/solidbase/solidbase) is under [GNU AGPL3 (c) 2017](https://lab.allmende.io/solidbase/solidbase/blob/master/LICENSE) [Allmende Lab](https://lab.allmende.io) |
 
-## Blogs
+## Content, Notes, Blogging and Publishing
 
 | Application                                                  | Description                                                                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [Concept](https://useconcept.art) ([GitHub](https://github.com/travis/concept)) |  An embarrassingly simple clone of [notion.so](https://notion.so) built on Solid, currently in early alpha.     |
+| [Concept](https://useconcept.art) ([GitHub](https://github.com/travis/concept)) |  An embarrassingly simple clone of [notion.so](https://notion.so) built on Solid. Deprecated by Understory Garden.    |
+| [Understory Garden](https://understory.garden) ([GitHub](https://github.com/understory-garden/understory.garden)) |  A simple and lightweight personal CMS and   web publishign platform that stores content and deployment configurations in your Solid pod. |
 | [Notepod](https://notepod.vincenttunru.com/)                 | A simple note-taking app that stores notes in your Solid Pod. <br>- [Source code](https://github.com/Vinnl/notepod) by [Vincent Tunru](https://github.com/Vinnl) |
 | [OEdit](https://edit.o.team)                                | An editor app for raw files using the vs interface. <br>- [source code](https://github.com/jaxoncreed/o-edit) by [Jackson Morgan](https://github.com/jaxoncreed).|
 | [Solid Focus](https://noeldemartin.github.io/solid-focus/)  | Keep track of your to do list. <br>- [Source code](https://github.com/NoelDeMartin/solid-focus) [GNU General Public License v3.0 (c) 2018](https://github.com/NoelDeMartin/solid-focus/blob/master/LICENSE) [Noel de Martin](https://github.com/NoelDeMartin) |
