@@ -12,7 +12,7 @@ categories: [Updates]
 
 Solid World June kicked off with Tim Berners-Lee giving us updates about the last few weeks. One of the highlights was [his in-person visit to the Flemish Government](https://www.tijd.be/app/carousel1/tim-berners-lee-de-bedenker-van-het-internet-we-kunnen-het-wereldwijde-web-nog-fiksen/10309722.html). Right now, the Flanders Government wants to give everyone in Flanders a Solid Pod. People in Flanders (and all-around) feel a sense of excitement from seeing all the possibilities Solid has to offer and the promise of seeing one another physically. He expressed his hopes that others in the community soon get the opportunity to collaborate and feel the vibrancy of our community in person. 
 
-Next, we heard from Ruben Verborgh. Who broke down the need to know about verifiable credentials (VC). His focus was on connecting the dots between how VC is a standard from the W3C and how it affects Solid Pods and gives you consent back. 
+Next, we heard from Ruben Verborg, who broke down the need to know about verifiable credentials (VC). His focus was on connecting the dots between how VC is a standard from the W3C and how it can be used to confirm consent to access data stored in Solid Pods. 
 
 Oz Olivo, the VP of Product at Inrupt, completed the Solid roadmap update. He discussed the next steps Inrupt planning for their version 1.2 release, some of the features fell in line with the theme of this month. 
 
