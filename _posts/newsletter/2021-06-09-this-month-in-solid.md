@@ -34,7 +34,7 @@ The survey will be open until **Friday, June 25, 4:00pm Eastern Time**.
 
 ### In Other News
 * [Digital Garden Club Event](https://www.eventbrite.com/e/understory-digital-garden-club-tickets-151311208899) – Monthly Basis
-* Solid Networking Event – June 24, 2021 at 10 AM Eastern Time
+* Solid Networking Event – June 25, 2021 at 10 AM Eastern Time
 * [Diversity, Equity, & Inclusion Meeting](https://vimeo.com/561179521) July 8, 2021 at 11 AM ET/ 5 PM CEST 
 
 #### Community Spotlight
