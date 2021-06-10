@@ -74,7 +74,6 @@ redirect_from:
 
 | Application                                                  | Description                                                                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [Concept](https://useconcept.art) ([GitHub](https://github.com/travis/concept)) |  An embarrassingly simple clone of [notion.so](https://notion.so) built on Solid. Deprecated by Understory Garden.    |
 | [Understory Garden](https://understory.garden) ([GitHub](https://github.com/understory-garden/understory.garden)) |  A simple and lightweight personal CMS and   web publishing platform that stores content and deployment configurations in your Solid pod. |
 | [Notepod](https://notepod.vincenttunru.com/)                 | A simple note-taking app that stores notes in your Solid Pod. <br>- [Source code](https://github.com/Vinnl/notepod) by [Vincent Tunru](https://github.com/Vinnl) |
 | [OEdit](https://edit.o.team)                                | An editor app for raw files using the vs interface. <br>- [source code](https://github.com/jaxoncreed/o-edit) by [Jackson Morgan](https://github.com/jaxoncreed).|
