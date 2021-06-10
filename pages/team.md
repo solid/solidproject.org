@@ -46,7 +46,7 @@ Kay is a technical writer at Inrupt and a newcomer to Solid.
 
 ## Kyra Assaad
 **Creator**
-Kyra Assaad is the Product Designer at Inrupt. She works to ensure that the Solid user experience is accessible and useable for all. She serves as one of the chairs of (and helped form) the Solid Diversity, Equity, and Inclusion (DEI) team. Whose goal is to increase voices in the Solid community by inviting individuals from all underrepresented groups..
+Kyra Assaad is the Product Designer at Inrupt. She works to ensure that the Solid user experience is accessible and useable for all. She helped form and serves as one of the chairs of the Solid Diversity, Equity, and Inclusion (DEI) team, in order to increase representation and participation of women and people of color in the Solid community.
 
 ## Virginia Balseiro
 **Creator**
