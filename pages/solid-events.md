@@ -22,6 +22,7 @@ Are you interested in speaking about what you have been building on Solid? Reach
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
 |2021-07-01|[Solid World](https://www.eventbrite.com/e/158443820733)|[Solid Team](https://solidproject.org/team)||
+|2021-06-21|[NLnet; NGI webinar on Linked Data](https://nlnet.nl/events/20210621/LinkedData/index.html)|[NLnet foundation](https://nlnet.nl/foundation/)||
 |2021-06-03| [Solid World](https://www.eventbrite.com/e/147210272889)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/558597018)<br/>Tim’s Flanders Press: [Read about the news from Flanders](https://www.tijd.be/app/carousel1/tim-berners-lee-de-bedenker-van-het-internet-we-kunnen-het-wereldwijde-web-nog-fiksen/10309722.html); [Digita](https://www.digita.ai/): [Digita Resources](https://digita.ai/resources) and [Reuse Patterns](https://go.digita.ai/reuse-patterns); [Swedish Public Employment Service](https://www.digg.se/om-oss/nyheter/2021/vardefullt-for-individen-att-fa-okad-insyn-och-kontroll-over-sin-data): [Proof of Concept (PoC)](https://gitlab.com/arbetsformedlingen/individdata/rupoc)|
 | 2021-05-27 | [Your Personal Linked Data Graphs with Solid](http://www.lotico.com/index.php/Your_Personal_Linked_Data_Graphs_with_Solid)|[Lotico](http://www.lotico.com)||
 | 2021-05-07 | [Understory Digital Garden Club — Solid](https://www.eventbrite.com/e/understory-digital-garden-club-tickets-151311208899)|[Understory](https://www.understory.coop/)||
