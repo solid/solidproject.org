@@ -15,7 +15,10 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
   </p>
 </div>
 
-Are you interested in speaking about what you have been building on Solid? Reach out to the Solid Manager at [info@solidproject.org](mailto:info@solidproject.org).
+
+- Interested in speaking at an upcoming Solid World? You can fill out the [Solid World Speaker form](https://es1cz4pb7oi.typeform.com/to/nietD34f).
+
+- Have a topic suggestion for an upcoming Solid World? You can fill out the [Solid World Topic Suggestions form](https://es1cz4pb7oi.typeform.com/to/yQNMvK0N).
 
 ## 2021 Events
 
