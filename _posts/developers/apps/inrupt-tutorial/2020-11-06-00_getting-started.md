@@ -18,7 +18,7 @@ redirect_from:
 
 This tutorial creates an introductory application that uses Inrupt's
 [JavaScript Client Libraries](https://github.com/inrupt/solid-client-js) to read
-and write to your name to your user profile.
+and write your name to your user profile.
 
 This tutorial uses [npm](https://www.npmjs.com/get-npm) and [Parcel](https://parceljs.org/)
 to run the application locally on `localhost:1234`.
