@@ -41,7 +41,7 @@ If you don't already have a Pod, you can register one now:
 
  2. Click `Register`.
 
- 3. Fill in the registration form and click `Register`. 
+ 3. Fill in the registration form and click `Register`.
 
     You'll be redirected to your public Solid Pod URL: `https://<yourusername>.solidcommunity.net/`.
 
@@ -54,21 +54,21 @@ Node.js installation.
 ## Build the Application
 
 ### 1. Initialize the Application
-    
+
 1. Create a directory for the application:
-    
+
     ```shell
     mkdir my-demo-app
     ```
-    
+
 1. Go into the newly created directory:
-    
+
     ```shell
     cd my-demo-app
     ```
-    
+
 1. Create a brand new application (Omit the `--yes` to override the default values):
-    
+
     ```shell
     npm init --yes
     ```
@@ -84,7 +84,7 @@ npm install @inrupt/solid-client @inrupt/solid-client-authn-browser @inrupt/voca
 ### 3. Install Parcel
 
 1. Use `npm` to install `Parcel`:
-    
+
     ```shell
     npm install parcel-bundler
     ```
@@ -108,11 +108,11 @@ npm install @inrupt/solid-client @inrupt/solid-client-authn-browser @inrupt/voca
       "last 3 edge versions"
     ]
     ```
-    
+
     Without the `browserslist` specification, Parcel would need to
     inject a compatibility layer to avoid a `regeneratorRuntime` reference error
     since our sample application uses `async` functions.
-   
+
     As an alternative to modifying the `package.json` file, you could import
     `regenerator-runtime/runtime` in your JavaScript code, which will inject a
     suitable compatibility layer.
@@ -128,7 +128,7 @@ In the `my-demo-app` directory, create the files for the application.
     {% include_relative codesandbox/my-demo.css %}
 
     ```
-   
+
 1. Create an `index.html` file with the following content:
 
     ```html
@@ -137,11 +137,11 @@ In the `my-demo-app` directory, create the files for the application.
 
     ```
 
-1. Create an `index.js` file with the following content:   
+1. Create an `index.js` file with the following content:
 
     > **NOTE:** If your Pod is not on `https://solidcommunity.net`, modify the
       value of the `SOLID_IDENTITY_PROVIDER` variable accordingly.
-  
+
     ```javascript
 
     {% include_relative codesandbox/index.js %}
@@ -164,12 +164,12 @@ In the `my-demo-app` directory, create the files for the application.
       Built in 2ms.
     ```
 
-1. Open `localhost:1234` in a browser. 
+1. Open `localhost:1234` in a browser.
 
 1. Click the `Login` button.
 
     * The first time you log into your Pod with this application (it'll
-      be named `http://localhost:1234`), you'll 
+      be named `http://localhost:1234`), you'll
       be prompted to authorize it to access your Pod . To allow the application to
       read and write to your Pod, click `Authorize`.
 
@@ -179,23 +179,23 @@ In the `my-demo-app` directory, create the files for the application.
     * Once logged in, you should be redirected back to the client application.
 
       Back in the application, you should see a message stating `Your session is logged in with the WebID [<your WebID>].` and the WebID textfield should display your WebID.
-      
-      
+
+
 
 1. Now that you're logged in, you can read and write the information in
 your Solid profile.
 
-   1. First, click the `Read Profile` button. 
-      
-      You should see the name you entered when you registered your Pod. 
+   1. First, click the `Read Profile` button.
+
+      You should see the name you entered when you registered your Pod.
 
    1. To update your name, enter a new name in the `2. Write your name`
         textfield, and click the `Write to Profile` button. You should see the message:
-        
+
         ```
         Wrote [<your new name>] as name successfully!
         ```
-         
+
    1. Verify that your profile was updated by clicking on
         the `Read Profile` button again. You should see the updated name displayed!
 
@@ -213,16 +213,16 @@ your Solid profile.
 
 For more information on the functions:
 
-- [solid-client API](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/README.html)
-  - [getSolidDataset()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/_resource_soliddataset_.html#getsoliddataset)
-  - [getThing()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/_thing_thing_.html#getthing)
-  - [saveSolidDatasetAt()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/_resource_soliddataset_.html#savesoliddatasetat)
-  - [setStringNoLocale()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/_thing_set_.html#setstringnolocale)
-  - [setThing()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/_thing_thing_.html#setthing)
+- [solid-client API](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/index.html)
+  - [getSolidDataset()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/resource_soliddataset.html#getsoliddataset)
+  - [getThing()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/thing_thing.html#getthing)
+  - [saveSolidDatasetAt()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/resource_soliddataset.html#savesoliddatasetat)
+  - [setStringNoLocale()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/thing_set.html#setstringnolocale)
+  - [setThing()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client/modules/thing_thing.html#setthing)
 
 
-- [solid-client-authn-browser API](https://docs.inrupt.com/developer-tools/api/javascript/solid-client-authn-browser/README.html)
+- [solid-client-authn-browser API](https://docs.inrupt.com/developer-tools/api/javascript/solid-client-authn-browser/index.html)
 
-  - [Session.login()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client-authn-browser/classes/_session_.session.html#login)
+  - [Session.login()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client-authn-browser/classes/session.html#login)
 
-  - [Session.handleIncomingRedirect()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client-authn-browser/classes/_session_.session.html#handleincomingredirect)
+  - [Session.handleIncomingRedirect()](https://docs.inrupt.com/developer-tools/api/javascript/solid-client-authn-browser/classes/session.html#handleincomingredirect)
