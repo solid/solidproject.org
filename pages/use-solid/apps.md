@@ -144,10 +144,11 @@ redirect_from:
 | [SPARQL Fiddle](https://jeff-zucker.github.io/sparql-fiddle/)                | Online fiddle to run SPARQL against  Pods. <br>- [Source code](https://github.com/jeff-zucker/sparql-fiddle) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/sparql-fiddle/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker) |
 | [Assemblage](https://gitlab.com/omd_public/assemblage) | A composable data browser aimed to provide a great user experience for Solid POD services, as well as other RDF sources, both for desktop and mobile web browsers. [Source code](https://gitlab.com/omd_public/assemblage) and [demo video](https://youtu.be/hYFEBAdkzmc). |
 | [Warp](https://linkeddata.github.io/warp/)                                   | File browser. <br>- [Source code](https://github.com/linkeddata/warp) [MIT License Copyright (c) 2014](https://github.com/linkeddata/warp/blob/gh-pages/LICENSE) [Andrei Samba](https://github.com/deiu) |
+| [Penny](https://penny.vincenttunru.com/)                                   | File browser. <br>- [Source code](https://github.com/linkeddata/warp) [MIT License Copyright (c) 2014](https://github.com/linkeddata/warp/blob/gh-pages/LICENSE) [Vincent Turu](https://gitlab.com/Vinnl) |
 
 # Historical Solid Apps
 * [Inbox](https://github.com/solid/solid-inbox) processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu) |
-| [Mark Book](https://markbook.org)                            | App for creating bookmarks. <br>- [Source code](https://github.com/melvincarvalho/solid-bookmark) [MIT License Copyright (c) 2018](https://github.com/melvincarvalho/solid-bookmark/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) |
+| [Mark Book](https://markbook.org)                            | App for creating bookmarks. <br>- [Source code](https://gitlab.com/vincenttunru/penny) [GNU AFFERO GENERAL PUBLIC LICENSE (c) 2007](https://gitlab.com/vincenttunru/penny/-/blob/main/LICENCE) [Melvin Carvalho](https://github.com/melvincarvalho) |
 
 # Apps inclusion and exclusion criteria
 
