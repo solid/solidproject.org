@@ -24,7 +24,8 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
-|2021-07-01|[Solid World](https://www.eventbrite.com/e/158443820733)|[Solid Team](https://solidproject.org/team)||
+|2021-08-05|[Solid World](https://www.eventbrite.co.uk/e/solid-world-august-2021-tickets-158445927033?aff=erelexpmlt)|[Solid Team](https://solidproject.org/team)||
+|2021-07-01|[Solid World](https://www.eventbrite.com/e/158443820733)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/572726511)|
 |2021-06-21|[NLnet; NGI webinar on Linked Data](https://nlnet.nl/events/20210621/LinkedData/index.html)|[NLnet foundation](https://nlnet.nl/foundation/)||
 | 2021-06-21 | [DI2F: Decentralising The Internet With IPFS and Filecoin](https://networking.ifip.org/2021/workshops/di2f-decentralising-the-internet-with-ipfs-and-filecoin)|[Aalto University, Finland](https://www.aalto.fi/en)|<em>Solid over the Interplanetary File System</em><br>Fabrizio Parrillo (U. Basel, Switzerland), Christian F Tschudin (U. Basel, Switzerland)|
 |2021-06-03| [Solid World](https://www.eventbrite.com/e/147210272889)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/558597018)<br/>Tim’s Flanders Press: [Read about the news from Flanders](https://www.tijd.be/app/carousel1/tim-berners-lee-de-bedenker-van-het-internet-we-kunnen-het-wereldwijde-web-nog-fiksen/10309722.html); [Digita](https://www.digita.ai/): [Digita Resources](https://digita.ai/resources) and [Reuse Patterns](https://go.digita.ai/reuse-patterns); [Swedish Public Employment Service](https://www.digg.se/om-oss/nyheter/2021/vardefullt-for-individen-att-fa-okad-insyn-och-kontroll-over-sin-data): [Proof of Concept (PoC)](https://gitlab.com/arbetsformedlingen/individdata/rupoc)|
