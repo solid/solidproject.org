@@ -77,7 +77,7 @@ Solid is built on top of existing Web standards. The core Solid specification re
 
 <details>
 <summary class="has-text-primary">More details</summary>
-The Solid standard is open as are some of its implementations such as such as <a href="https://github.com/solid/node-solid-server">Node Solid Server</a> meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
+The Solid standard is open as are some of its implementations such as the <a href="https://github.com/solid/community-server">Community Solid Server</a> meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
 </details>
 
 ## Can data exist in more than one Pod? 
