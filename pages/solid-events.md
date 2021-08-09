@@ -24,7 +24,10 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
-|2021-08-05|[Solid World](https://www.eventbrite.co.uk/e/solid-world-august-2021-tickets-158445927033?aff=erelexpmlt)|[Solid Team](https://solidproject.org/team)||
+|2021-09-02|[Solid World](https://www.eventbrite.co.uk/e/solid-world-september-2021-tickets-166560808863)|[Solid Team](https://solidproject.org/team)||
+|2021-08-05|[Solid World](https://www.eventbrite.co.uk/e/solid-world-august-2021-tickets-158445927033?aff=erelexpmlt)|[Solid Team](https://solidproject.org/team)| [SW Recording](https://vimeo.com/585006498) Ruben's Update: github.com/solid/community-server & 
+solidproject.org/self-hosting/css; Oz Update: [Compability Survey](research.net/r/solidappcompatibility); [Jeff’s Presentaion](github.com/jeff-zucker/deit/blob/main/Jeff-Talk.md); Kyra’s update: [DEI Team Gitter](gitter.im/solid/DEIT) Attend the DEI Team meeting – Tuesday, August 10, 11:00am ET
+[Meet on Jitsi](meet.jit.si/IntriguingSuspensionsSeekAhead), [Kyra's email](kyra.assaad@inrupt.com), [Twitter](Twitter.com/KyraAssaad); [Sarven’s Presentation](hackmd.io/RbcQL4SVQM6S17xVgYPyvA)|
 |2021-07-01|[Solid World](https://www.eventbrite.com/e/158443820733)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/572726511)|
 |2021-06-21|[NLnet; NGI webinar on Linked Data](https://nlnet.nl/events/20210621/LinkedData/index.html)|[NLnet foundation](https://nlnet.nl/foundation/)||
 | 2021-06-21 | [DI2F: Decentralising The Internet With IPFS and Filecoin](https://networking.ifip.org/2021/workshops/di2f-decentralising-the-internet-with-ipfs-and-filecoin)|[Aalto University, Finland](https://www.aalto.fi/en)|<em>Solid over the Interplanetary File System</em><br>Fabrizio Parrillo (U. Basel, Switzerland), Christian F Tschudin (U. Basel, Switzerland)|
