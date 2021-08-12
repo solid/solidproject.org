@@ -1,7 +1,7 @@
 ---
 layout: newsletter
-title: This Month in Solid 2021-07-08
-permalink: /newsletter/2021-07-08
+title: This Month in Solid 2021-08-12
+permalink: /newsletter/2021-08-12
 tags: [monthly, updates]
 categories: [Updates]
 ---
