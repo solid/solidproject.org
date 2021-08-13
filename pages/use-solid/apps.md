@@ -108,7 +108,7 @@ redirect_from:
 | [Spoggy](https://spoggy.herokuapp.com/)                                        |                                                                                                           |
 | [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) | Uses the national weather service API so it is currently only able to fetch weather in the United States. <br> 2019. Dylan Martin. |
 | [Solid Calendar](https://bitbucket.org/dylanmartin/solidcalendar/src/master/)  | A way to create, store, and query events using a user's card. <br>2019. Dylan Martin. |
-| [Linked Pipes](https://applications.linkedpipes.com/)                          | 2019. [@aorumbayev](https://github.com/aorumbayev)                                    |
+| [Linked Pipes Applications](https://applications.linkedpipes.com/)             | Linked Data visualizations sharing and collaboration via Solid. 2020. [Source code](https://github.com/linkedpipes/applications) [Paper](https://doi.org/10.1007/978-3-030-62327-2_25) [@aorumbayev](https://github.com/aorumbayev) [@jakubklimek](https://github.com/jakubklimek) |
 | [Hello World](https://melvincarvalho.github.io/helloworld/)                    | [Source code](https://github.com/melvincarvalho/helloworld) [MIT License Copyright (c) 2015](https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) |
 | [Solid RSS](https://rrustom.github.io/solid-rss/)                              | A simple RSS Feed that lets you store your favorite feeds and articles in your pod. <br>- [Source code](https://github.com/RRustom/solid-rss). [Rami Rustom](https://github.com/RRustom), 2021. |
 
