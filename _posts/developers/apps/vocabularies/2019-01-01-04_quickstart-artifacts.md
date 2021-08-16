@@ -49,7 +49,7 @@ From there, we can build a simple app that tells you, based on a person's WebID,
 - used on line 16 to get an IRI (`OBELISK.Sculptor.value`),
 - used on line 20 to get a label (`OBELISK.Sculptor.labelInLang()`).
 
-<iframe src="https://codesandbox.io/embed/lit-using-generated-artifact-8vfyf?fontsize=14" title="lit-using-generated-artifact" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/lit-using-generated-artifact-forked-br4fg?fontsize=14" title="lit-using-generated-artifact" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 If you want to be recognised as an obelisk sculptor, you can uncomment line 35. You will have to add this app to your authorized apps to be able to write into your Pod.
 
