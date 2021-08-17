@@ -27,7 +27,7 @@ The LIT artifact generator (publicly available here: https://github.com/inrupt/a
 ### Generate the artifact
 
 To generate a JavaScript artifact with the default options, you can use the following command:
-- `lit-artifact-generator generate --inputResources https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl --outputDirectory /path/to/a/directory --noprompt`.
+`npx @inrupt/artifact-generator generate https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl --noprompt`.
 
 You can specify a local vocabulary file rather than an IRI if your vocabulary is not yet available online.
 
