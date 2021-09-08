@@ -21,7 +21,7 @@ As the CSS progresses, Oz reminded us that Inrupt’s Enterprise Solid Server is
 
 ##### SolidProject Updates: Justin Bingham
 
-Our first presenter was Justin Bingham, the CTO at Janeiro and Solid Team Member. Over the last few months, the Solid Team assigned one of the team members as the project manager to help with the different projects and initiatives. Since the change, Justin leads us through the various tasks they were able to complete. First was migrating the Community Forum to Discourse.org. The second was changing the process of the Solid Application Listing by making it a more collaborative review and submission [by having it on the Forum](https://forum.solidproject.org/c/applications/41). Their latest work is on making substantial updates to the [solidproject.org website](solidproject.org). We all will be excited to see how the changes go!
+Our first presenter was Justin Bingham, the CTO at Janeiro Digital and Solid Team Member. Over the last few months, the Solid Team assigned one of the team members as the project manager to help with the different projects and initiatives. Since the change, Justin leads us through the various tasks they were able to complete. First was migrating the Community Forum to Discourse.org. The second was changing the process of the Solid Application Listing by making it a more collaborative review and submission [by having it on the Forum](https://forum.solidproject.org/c/applications/41). Their latest work is on making substantial updates to the [solidproject.org website](solidproject.org). We all will be excited to see how the changes go!
 
 ##### Solid DEI Updates: Jeff Zucker
 
