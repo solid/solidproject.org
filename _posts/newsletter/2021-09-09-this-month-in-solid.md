@@ -37,8 +37,6 @@ If you'd like to consider it for your mailer, the notebook can be found here: ht
 * AJamesPhillips (username) who is very engaged in the community
 
 ### Opportunities
-* Recruitment Available: We are strengthening our team - www.instans.net - we are bidding for a contract with the Scottish Government to build a MVP for a carbon emissions tracking app, for companies to manage CO2 emissions in their supply chain.
-
-We would like to know who is out there, and who might be interested in participating with us in a 4 month accelerator Oct 2021 to Jan 2022. Ideally, a full stack developer experienced with Node.js, SOLID, handling login and authentication. Experience (or interest in learning) search and query would be beneficial.
-
+* Recruitment Available: We are strengthening our team - https://www.instans.net - we are bidding for a contract with the Scottish Government to build a MVP for a carbon emissions tracking app, for companies to manage CO2 emissions in their supply chain.\
+We would like to know who is out there, and who might be interested in participating with us in a 4 month accelerator Oct 2021 to Jan 2022. Ideally, a full stack developer experienced with Node.js, Solid, handling login and authentication. Experience (or interest in learning) search and query would be beneficial.\
 We are an equal opportunities employer and value diversity. contact@instans.net
