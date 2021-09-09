@@ -28,6 +28,8 @@ It’s amazing all that’s capable with Solid, especially when building applica
 ### In Other News
 
 * Solid Networking Event – Every last Friday of the month. The upcoming gathering is on September 25, 2021 at 11 AM Eastern Time
+* David Schmudde created a Node Solid Server notebook in Nextjournal. With a single click a person can remix the notebook and quickly get a Solid server up and running. It also includes thorough documentation on every step and provides an overview of the ideas behind Solid.
+If you'd like to consider it for your mailer, the notebook can be found here: https://nextjournal.com/schmudde/node-solid-server.
 
 #### Community Spotlight
 
