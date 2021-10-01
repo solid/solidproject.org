@@ -67,7 +67,6 @@ SSLEngine On
 SSLProxyEngine On
 SSLProxyVerify None
 SSLProxyCheckPeerCN Off
-SSLProxyPeerName Off
 SSLProxyCheckPeerExpire Off
 ProxyPreserveHost On
 
@@ -75,8 +74,11 @@ SSLCertificateFile /etc/letsencrypt/live/example.org/cert.pem
 SSLCertificateKeyFile /etc/letsencrypt/live/example.org/privkey.pem
 SSLCertificateChainFile /etc/letsencrypt/live/example.org/fullchain.pem
 
-ProxyPass / https://localhost:8443/
-ProxyPassReverse / https://localhost:8443/
+RewriteEngine On
+RequestHeader set X-Forwarded-Proto https
+
+ProxyPass / http://localhost:3000/
+ProxyPassReverse / http://localhost:3000/
 </VirtualHost>
 ```
 
