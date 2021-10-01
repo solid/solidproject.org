@@ -293,24 +293,28 @@ details > summary {
 }
 
 #header-navbar {
-  .has-dropdown {  
-    a {
-      background-color: $grey-dark;
-      color: white;
-      &:hover {
+  .navbar-brand img {
+    margin-right: 1.5em;
+  }
+  .navbar-link {
+    border: none;
+    background-color: transparent;
+  }
+  a {
+    color: white;
+    &:hover, &:focus {
+      color: $primary;
+    }
+  }
+  
+  .navbar-dropdown {
+    background-color: $grey-dark;
+    a.navbar-item {
+      &:hover, &:focus {
+        background-color: white;
         color: $primary;
       }
     }
-  
-    .navbar-dropdown {
-      background-color: $grey-dark;
-      a.navbar-item {
-        &:hover, &:focus {
-          background-color: white;
-          color: $primary;
-        }
-      }
-  
-    }
+
   }
 }
