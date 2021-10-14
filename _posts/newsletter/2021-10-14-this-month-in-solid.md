@@ -1,7 +1,7 @@
 ---
 layout: newsletter
-title: This Month in Solid 2021-09-09
-permalink: /newsletter/2021-09-09
+title: This Month in Solid 2021-10-14
+permalink: /newsletter/2021-10-14
 tags: [monthly, updates]
 categories: [Updates]
 ---
@@ -16,7 +16,7 @@ The vitality of Solid is thriving and healthy, as we began to hear from our mont
 
 Next, we heard from Osmar Olivo, the VP of Product at Inrupt. He presented the big news that Inrupt is holding their first [Developer Workshop](https://workshop.inrupt.com/home). It’s focused on giving all new or enthusiast developers the opportunity and support to build using Solid. You also get a chance to win a cash prize. If you feel ready to sign up you can [fill out the registration form here](https://es1cz4pb7oi.typeform.com/to/JH20sRdf). In addition to this great announcement, soon, we will hear more about their upcoming 1.2 release, which is in line with Ruben’s talk about consent. 
 
-There were many updates from the Solid Team. Kyra Assaad, a team member, gave us a breakdown of all their action items. First was the SolidPrroejct.org refresh. To improve the website experience for those visiting, they invite participants to schedule a time to run through the site with Marrelle. If you want to help, [sign up here](https://calendly.com/marrelle-bailey/website-research). In addition to the website refresh, they’re also cleaning up the Solid GitHub organization archiving repos. Also, starting Implementer feedback sessions, it’s for those implementing Solid compliant server or client technologies. To reach out, contact feedback@solidproject.org. Her final update was that the Notification Panel is going to start meeting on the 2nd and 4th Thursday of every month. Their mission is to extend technical protocols and vocabularies to facilitate notification exchange in Solid. Learn more at github.com/solid/notifications-panel.  
+There were many updates from the Solid Team. Kyra Assaad, a team member, gave us a breakdown of all their action items. First was the SolidProject.org refresh. To improve the website experience for those visiting, they invite participants to schedule a time to run through the site with Marrelle. If you want to help, [sign up here](https://calendly.com/marrelle-bailey/website-research). In addition to the website refresh, they’re also cleaning up the Solid GitHub organization by archiving repos. Also, we are starting Implementer feedback sessions, it’s for those implementing Solid compliant server or client technologies. To reach out, contact feedback@solidproject.org. Her final update was that the Notification Panel is going to start meeting on the 2nd and 4th Thursday of every month. Their mission is to extend technical protocols and vocabularies to facilitate notification exchange in Solid. Learn more at github.com/solid/notifications-panel.  
 
 Tani Olhanoski was our first featured presenter for this month. Right now, Metaverse and AI content are hot topics of conversation. And Tani and her team see the value in Solid becoming a Metaverse. Solid could be a space like Ready Player One or the novel Snow Crash by Neal Stephenson that is decentralized, interoperable, and experiential. To take a step in this direction, her team has created [Mysilio](https://www.mysilio.com/). It’s a shared Solid infrastructure, hosts pods, and is a no-code front-end builder. Mysilio helps creators to make their own custom social worlds. There’s an opportunity to [sign-up for their waitlist](https://mailchi.mp/865966fe3848/mysilio-waitlist). To reach out for questions or feedback, reach out to hello@mysilio.com. 
 
