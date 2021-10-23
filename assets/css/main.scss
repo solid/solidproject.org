@@ -318,3 +318,11 @@ details > summary {
 
   }
 }
+
+// (Presumably) Bulma makes the `<code>` elements have a black font,
+// whereas Rouge (the Kramdown syntax highlighters) gives it a dark
+// background, making non-highlighted words invisible.
+// This defaults those words to white, making them readable again:
+.highlight {
+  color: white;
+}
