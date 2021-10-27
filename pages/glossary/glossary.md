@@ -2,7 +2,7 @@
 
 **Note:** This is a **work in progress** - feedback/ammendments are welcome. Links to related definitions will be added later.
 
-**See Also** [Solid : Core Concepts and terms](Solid_Core_concepts) for these terms organized thematically.
+**See Also** [Solid : Core Concepts and terms](Solid_Core_concepts.md) for these terms organized thematically.
 
 
 ### Access Mode
