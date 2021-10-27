@@ -1,121 +1,122 @@
 # Glossary of Solid Terms and Core Concepts
 
-**Note:** This is very much a **work in progress** - feedback/ammendments are welcome. This glossary originated as an [idea in the  Diversity, Equity, & Inclusion group](https://github.com/solid/deit/issues/15). The aim is to provide better support for newcomers and thus increase the inclusivity of the Solid community. It is not meant to be a technical last word or explain all of the implications of terms, rather to provide a basic knoweledge sufficient for reading further elsewhere.  The style should emphasize simple phrasing in small chunks which can be individually digested.  If you know how to submit PRs and Issues, please do.  If you don't and have some feedback, ping @jeff-zucker in the [gitter chatroom](https://gitter.im/solid/chat).
+**Note:** This is a **work in progress** - feedback/ammendments are welcome. Links to related definitions will be added later.
 
-| Core Concepts | Basic Terms | Advanced Terms |                                  
-| -- | -- | -- |                                                                    
-| **Reusable Identity** | WebID, IDP, Idenity Provider | OIDC, TLS, CORS, Origin, DPoP, JWT |
-| **Control of Data Access** | WAC | ACL, ACP |
-| **Decentralized Storage** | Pod, Pod-Provider, Self-hosting,<br>Serverless Pod, CSS, ESS, NSS, | LDP, LDN, Solid-REST |
-| **Semantic Linking** | Linked Data, Semantic Web, RDF, Turtle, | JSON-LD, RDFa, N3, N-Triples,<br> OWL, SPARQL, knowledge graph,  |
-| **Persistent Vocabularies** |   ontology, namespace, prefix | foaf:, pim:, schema:
-| **Interoperable Apps** | interoperability, specs, | SolidOS, shapes, footprints, SHEX, SHACL |
-| **Community Involvement** | github, PR, issue, WiP, DEI,<br>Solid Team, Solid Process,  |
+**See Also** [Solid : Core Concepts and terms](Solid_Core_concepts) for these terms organized thematically.
 
 
-## Core Concepts Included So Far
+### Access Mode
+A permission to read, create, modify, or share data. For each resource in your Pod, you can specify which Access modes you grant to specific Agents or classees of Agents.  The basic modes are Read
 
-* Decentralized storage
-* Reusable identity
-* User Control
-* Semantic linking
+### ACL
+Access Control Resource
 
-## Core Concepts to be done
+### ACP
+Access Control Policy
 
-* Persistent vocabularies
-* Reusable Data
-* Specifications
-* Community involvement
-* ?
+### Agent
+A person, social entity, or software.
 
-## Terms Included so far
+### Append Access Permission
 
-* Access Mode | ACL | ACP | Agent | Container | CSS | DPoP | DEI | ESS | Identity Provider | IdP | JSON-LD | JWT | LDP | Linked Data Platform | linked data | N3 | named graph | NSS | OIDC | OWL | object | Pod | Pod Provider | predicate | quad | Resource | RDF | RDFa | semantic web | Self-Hosted Pod | Solid Server | subject | Trinpod |  Triple | Turtle | SPARQL | WAC | Web Access Control | WebID
+### Control Access Permission
 
-## Terms to be done
+### CSS
+Community Solid Server
 
-* ontology, namespace, prefix, foaf:, pim:, schema:, interoperability, shapes, footprints, SHEX, SHACL, LDN, github, PR, issue, WiP, DEI, Solid Team, Solid Process, Code of Conduct, SolidOS ... * ?
+### DPoP
+Demonstration of Proof of Possession
 
-## <a name="storage" class="target">Decentralized Storage</a>
+### ESS
+Enterprise Solid Server
 
-Solid gives you control of your personal data by letting you store it where you choose; by enforcing your ability to manage who accesses it; and by not requireing use of large centralized sevices that have their own data agendas.  At the center of Solid is your Pod.
+### graph
 
-* A **Pod** is a personal on/offline data storage space that you control. When logged in, you can modify the data and make any part of it private, public, or available to specific audiences.  Personal data includes things like social media postings - in Solid, those belong to you, not to the social media company.
+### IdentityProvider
+An Identity Provider (abbreviated as **IdP**)  is a host service that provides Solid identity authentication.  When you register with an IdP, the IdP assigns you a WebID. Each time you login to the IdP, you are authenticatd as owning that WebID.  Identity Providers are also often Pod Providers but it does not matter if you get your WebID from one provider and store your Pod data with a different provider.
 
-* A **Pod Provider** is a host service that provides you Pod storage space and maintains Solid Server software that enforces the privacy rules you have defined. You are free to switch pod providers at any time. <img src="acronyms-pod.png" style="float:right; height:40vh; margin:1em;"/>
+### IdP
+See Identity Provider
 
-* A **Self-Hosted Pod** is a pod that you install and host yourself.  It may either be totlly private or public-facing with access rules you set.
+### JSON-LD
 
-* A **Solid Server** is the software used to provide access to Pods. It is maintained by the Pod Provider, or by you if you self-host. In either case, it enforces the access rules you set for your own Pod and serves your data in a way that makes its semantic relationships accessible.  Solid Servers may also provide identity services, see below under "Reusable Identity"
+### JWT
+Javascript Web Token
 
-* Current implementations of Solid Servers include **CSS** - Community Solid Server, **ESS** - Enterprise Solid Server, **NSS** - Node Solid Server, the **Trinpod** Solid Server, the **Nextcloud** Solid Server** and the **PHP** Solid Server.  Each server has its own features but all should follow the basic Solid rules for access control and semantic linking.
+### knowledge graph
+ 
+### LDP
 
-* Solid Servers are organized using portions of the specifications for the **Linked Data Platform** (abbreviated **LDP**).  One of LDP's organizing principles is containment - a **Container** contains **Resource**s.   You can think of a container as a folder and a resource as a file or sub-folder, but they could be implemented as a database or other mechanism rather than on a physical file system and can, unlike the file/folder analogy, have [semantic relationships]((#semantic_linking) other than containment. 
+### Linked Data Platform
 
-<hr>
-<span class="footer">
-    Basic Activities : [Get a Pod](link_tbd) ...  [Self-Host your own Pod](link_tbd)<br>
-    Deep Dive : [Solid Servers](link_tbd) ... [Linked Data Platform](link_tbd) ... [Become a Pod Provider](link_tbd)
-</span>
-<hr>
+### N3
 
-## Reusable Identity
+### named graph
 
-Solid provides single-sign-on without tying your sign-on to an email provider or social media company.  Your WebID is your passport anywhere in the Solidverse.
+### NSS
+Node Solid Server
 
-* A **WebID** is a universal identifier that uniquely identifies you wherever you go. After getting a WebID, you can login once and have that login and WebID recognized anywhere that uses Solid.  It's easy to have more than one WebID and they are anonymous by default.
+### object
 
-* An **IdentityProvider**, abbreviated as **IdP**  is a host service that provides Solid identity authentication.  When you register with an IdP, the IdP assigns you a WebID. Each time you login to the IdP, you are authenticatd as owning that WebID.  Identity Providers are also often Pod Providers but it does not matter if you get your WebID from one provider and store your Pod data with a different provider.
+### OIDC
 
-* Advanced terms : **OIDC** (OpenID Connect standard), **DPoP** (Demonstration of Proof of Possession), **JWT** (Javascript Web Token). See deep dive for details.
+### OpenID Connect
 
-<hr>
-<span class="footer">
-    Basic Activities : [Get a WebID]<br>
-    Deep Dive : [Become an Identity Provider](link_tbd) ... [WebID Specification](link_tbd) ... [Solid OIDC Specification](link_tbd)
-</span>
-<hr>
+### OWL
 
-## Control of Data Access
+### Pod
+A personal on/offline data storage space that you control. When logged in, you can modify the data and make any part of it private, 
+public, or available to specific audiences.  Personal data includes things like social media postings - in Solid, those belong to you,
+not to the social media company. A **Self-Hosted Pod** is a pod that you install and host yourself.  It may either be totlly private
+or public-facing with access rules you set.
 
-Solid gives you the ability to limit access to specific parts of your data.  You control not only who can read your data, but also who can collaborate with you in creating and editing  shared resources.
+### Pod Provider
+A host service that provides you Pod storage space and maintains Solid Server software that enforces the privacy rules you have defined.
+You are free to switch pod providers at any time.
 
-* An **Agent** is a person, social entity, or software requesting access.
+### predicate
 
-* An **Access Mode** is a permission to read, create, modify, or share data. For each resource in your Pod, you can specify which Access modes you grant to specific Agents or classees of Agents.  The roles below explain some  of the basic options.
+### PSS
+PHP Solid Server
 
-Role      | Access Modes            | Access Granted
-----------|-------------------------|----------------
-Owner     |  Read + Write + Control | can read, write, and control sharing
-Editor    |  Read + Write           | can read and change information
-Poster    |  Read + Append          | can add new information, and read but not change existing information
-Submitter |  Append                 | can add new information but not read any
-Viewer    |  Read                   | can read but not change information
+### quad
+RDF Triples may be grouped together in a **named graph**.  A triple with the URL of the graph it occurs in  is called a **quad**. 
 
-* Advanced Terms : **WAC** (Web Access Control), **ACL** (Access Control Resource), **ACP** (Access Control Policy).  See deep dive for details.
+### Read Access Permission
 
-<hr>
-<span class="footer">
-    Basic Activities : [Managing Access to your Pod](link_tbd)<br>
-    Deep Dive : [WAC Specification](link_tbd) ... [ACP Proposal](https://github.com/solid/authorization-panel/blob/main/proposals/acp/index.md)
-</span>
-<hr>
+### RDF
+Resource Description Framework is a language for describing the semantic web in ways that both humans and computers can understand. RDF can be represented using a number of syntaxes including **Turtle** (Terse RDF Triple Language), **JSON-LD** (JSON for Linked Data), **RDFa** (RDF in HTML attributes), **N3**, and others.  **OWL** (Web Ontology Language) is a language to create RDF vocabularies.  **SPARQL** (SPARQL Protocol and RDF Query Language) is a language to query RDF data sources.
 
-## Semantic Linking
+### RDFa
 
-Solid is not just about storing data, it is about linking data from different sources in ways that usefully enhance our understanding of the data.
+### Semantic Web
+The Semantic Web is a web based on **Linked Data** - meaningful relationships between resources. The link between the pages "The Color Purple" and "Alice Walker" is not just any link, it is an authorship link that holds meaning. ( _tbd : needs fixing)
 
-* The **Semantic Web** is a web based on **Linked Data** - meaningful relationships between resources. The link between the pages "The Color Purple" and "Alice Walker" is not just any link, it is an authorship link that holds meaning.
+### Solid Server
+The software used to provide access to Pods. It is maintained by the Pod Provider, or by you if you self-host your Pod.
+In either case, it enforces the access rules you set for your own Pod and serves your data in a way that makes its semantic
+relationships accessible.  Solid Servers may also provide identity services. Current implementations of Solid Servers include
 
-* **RDF** (**Resource Description Framework**) is a language for describing the semantic web in ways that both humans and computers can understand. RDF can be represented using a number of syntaxes including **Turtle** (Terse RDF Triple Language), **JSON-LD** (JSON for Linked Data), **RDFa** (RDF in HTML attributes), **N3**, and others.  **OWL** (Web Ontology Language) is a language to create RDF vocabularies.  **SPARQL** (SPARQL Protocol and RDF Query Language) is a language to query RDF data sources.
+### SPARQL
 
-* A **Triple** is an RDF statement.  RDF statements take the form of short sentences asserting that thingA is in some relationship with thingB. Each statement (triple) has three parts : a **subject** (thingA), a **predicate** (the relationship), and an **object** (thingB).
+### subject
 
-* RDF Triples may be grouped together in a **named graph**.  A triple with the URL of the graph it occurs in  is called a **quad**. 
+### Trinpod
+A Solid Server from graphmetrix
 
-<hr>
-<span class="footer">
-    Basic Activities : To Be Done!<br>
-    Deep Dive : To Be Done!
-</span>
-<hr>
+### Triple
+A Triple is an RDF statement.  RDF statements take the form of short sentences asserting that thingA is in some relationship with thingB. Each statement (triple) has three parts : a **subject** (thingA), a **predicate** (the relationship), and an **object** (thingB).
+
+### Turtle
+
+### WAC
+Web Access Control
+
+### WebID
+A WebID is a universal identifier that uniquely identifies you wherever you go. After getting a WebID, you can login once and have that login and WebID recognized anywhere that uses Solid.  It's easy to have more than one WebID and they are anonymous by default.
+
+### Write Access Permission
+
+<!-- to be added
+ontology, namespace, prefix, foaf:, pim:, schema:, interoperability, shapes, footprints, SHEX, SHACL, LDN, github, PR, issue, WiP, DEI, Solid Team, Solid Process, Code of Conduct, SolidOS
+-->
