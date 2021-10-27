@@ -1,8 +1,8 @@
-# Glossary of Solid Terms and Core Concepts
+# Glossary of Solid Terms
 
 **Note:** This is a **work in progress** - feedback/ammendments are welcome. Links to related definitions will be added later.
 
-**See Also** [Solid : Core Concepts and terms](Solid_Core_concepts.md) for these terms organized thematically.
+**See Also** [Solid : Core Concepts and terms](https://github.com/solid/solidproject.org/blob/glossary/pages/glossary/Solid_Core_Concepts.md) for these terms organized thematically.
 
 
 ### Access Mode
