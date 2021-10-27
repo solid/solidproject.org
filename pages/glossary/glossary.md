@@ -2,6 +2,17 @@
 
 **Note:** This is very much a **work in progress** - feedback/ammendments are welcome. This glossary originated as an [idea in the  Diversity, Equity, & Inclusion group](https://github.com/solid/deit/issues/15). The aim is to provide better support for newcomers and thus increase the inclusivity of the Solid community. It is not meant to be a technical last word or explain all of the implications of terms, rather to provide a basic knoweledge sufficient for reading further elsewhere.  The style should emphasize simple phrasing in small chunks which can be individually digested.  If you know how to submit PRs and Issues, please do.  If you don't and have some feedback, ping @jeff-zucker in the [gitter chatroom](https://gitter.im/solid/chat).
 
+| Core Concepts | Basic Terms | Advanced Terms |                                  
+| -- | -- | -- |                                                                    
+| **Reusable Identity** | WebID, IDP, Idenity Provider | OIDC, TLS, CORS, Origin, DPoP, JWT |
+| **Control of Data Access** | WAC | ACL, ACP |
+| **Decentralized Storage** | Pod, Pod-Provider, Self-hosting,<br>Serverless Pod, CSS, ESS, NSS, | LDP, LDN, Solid-REST |
+| **Semantic Linking** | Linked Data, Semantic Web, RDF, Turtle, | JSON-LD, RDFa, N3, N-Triples,<br> OWL, SPARQL, knowledge graph,  |
+| **Persistent Vocabularies** |   ontology, namespace, prefix | foaf:, pim:, schema:
+| **Interoperable Apps** | interoperability, specs, | SolidOS, shapes, footprints, SHEX, SHACL |
+| **Community Involvement** | github, PR, issue, WiP, DEI,<br>Solid Team, Solid Process,  |
+
+
 ## Core Concepts Included So Far
 
 * Decentralized storage
