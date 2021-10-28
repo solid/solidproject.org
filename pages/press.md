@@ -10,7 +10,78 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 ## Talks Mentioning Solid
 
+### 2021
+
+{%
+include talk.html
+  date="2021-04-01"
+  title="Solid World April"
+  video="https://vimeo.com/solidworld/review/531907097/eda903e37f"
+  speaker="Kai Gilb, Frederick Gibson, Yvo Brevoort, Tony Rodriguez & Solid Team"
+%}
+
+{%
+include talk.html
+  date="2021-03-04"
+  title="Solid World March"
+  website="https://vimeo.com/solidworld"
+  video="https://vimeo.com/519676585"
+  speaker="Dmitri Zagidulin, Dick Van Gelder, Liam Broza, & Solid Team"
+%}
+
+{%
+include talk.html
+  date="2021-02-04"
+  title="Solid World February"
+  website="https://vimeo.com/solidworld"
+  video="https://vimeo.com/508623332"
+  speaker="Noel DeMartin, Jasmine, Hindia Mohammed,& Solid Team"
+%}
+
+{%
+include talk.html
+  date="2021-01-07"
+  title="Solid World January"
+  website="https://vimeo.com/solidworld"
+  video="https://vimeo.com/498076263"
+  speaker="Maria Dimou, Tim Berners-Lee, Ruben Verborgh, Osmar Olivo, Sarven Capadisli"
+%}
+
+{%
+include talk.html
+  date="2021-01-01"
+  title="programmier.bar Folge 79 - Solid Project mit Angelo Veltens"
+  website="https://www.programmier.bar/podcast-episodes/folge-79-solid-project-mit-angelo-veltens"
+  speaker="Angelo Veltens"
+%}
+
 ### 2020
+
+{%
+  include talk.html
+    date="2020-12-11"
+    title="Programar es una mierda episodio 72 - Controla tus datos con el estándar web SOLID"
+    website="https://www.ivoox.com/episodio-72-controla-tus-datos-el-audios-mp3_rf_62216005_1.html"
+    speaker="Virginia Balseiro"
+%}
+
+{%
+  include talk.html
+    date="2020-12-03"
+    title="Solid World December"
+    website="https://vimeo.com/487088029"
+    slide="https://indico.cern.ch/event/977577/attachments/2150316/3635690/SolidWorld2020-12-03presentation.pdf"
+    speaker="Jan Schill & Maria Dimou, Frederic Lebeau, Wouter Janssens"
+%}
+
+{%
+  include talk.html
+    date="2020-11-05"
+    title="Solid World November"
+    website="https://vimeo.com/479873289"
+    slide="https://indico.cern.ch/event/974494/attachments/2140273/3606052/SolidWorld2020-11-05notes.pdf"
+    speaker="Frederic Hennequin, Pieter Heyvaert"
+%}
 
 {%
   include talk.html
@@ -349,7 +420,7 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 {%
   include talk.html
     date="2019-08-11"
-    title="Die RÃ¼ckeroberung des Social Web"
+    title="Die Rückeroberung des Social Web"
     speaker="Angelo Veltens"
     speaker-webid="https://angelo.veltens.org/profile/card#me"
     slides="https://angelo.veltens.org/slides/2019/solid-einfuehrung"
@@ -765,6 +836,10 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 ## Mentions of Solid in Articles
 
+### 2021
+
+2021-04-15 [Interview: Web inventor Tim Berners-Lee thinks his creation is out of control. Here’s his plan to save it](https://www.sciencefocus.com/future-technology/interview-web-inventor-tim-berners-lee-thinks-his-creation-is-out-of-control-heres-his-plan-to-save-it/)
+
 ### 2020
 
 2020-07-28 [Tem Big Tech: stop data in privékluizen](https://www.nrc.nl/nieuws/2020/07/28/tem-big-tech-stop-data-in-prive-kluizen-a4007191)
@@ -1162,9 +1237,9 @@ Unfuck digital ! â€” Why we should reboot the digital revolution.](https://
 
 2018-12-31 [NRC - Herstelwerk aan het kapotte internet](https://www.nrc.nl/nieuws/2018/12/31/herstelwerk-aan-het-kapotte-internet-a3127480)
 
-2018-11-29 [Tim Berners-Lee's Solid Project: Can It Save the Web?] (https://www.extremetech.com/extreme/281334-tim-berners-lees-solid-project-can-it-save-the-web)
+2018-11-29 [Tim Berners-Lee's Solid Project: Can It Save the Web?](https://www.extremetech.com/extreme/281334-tim-berners-lees-solid-project-can-it-save-the-web)
 
-2018-10-29 [An introduction to SOLID, Tim Berners-Leeâ€™s new, re-decentralized Web](https://www.freecodecamp.org/news/an-introduction-to-solid-tim-berners-lees-new-re-decentralized-web-25d6b78c523b/)
+2018-10-29 [An introduction to SOLID, Tim Berners-Lee's new, re-decentralized Web](https://www.freecodecamp.org/news/an-introduction-to-solid-tim-berners-lees-new-re-decentralized-web-25d6b78c523b/)
 
 2018-10-16 [Tim Berners-Lee Introduces "Solid" Decentralized Identity Platform](https://www.infoq.com/news/2018/10/solid-identity-platform/)
 

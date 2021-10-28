@@ -49,7 +49,7 @@ The [next Solid World](https://www.eventbrite.com/e/solid-world-june-tickets-104
 
 There are EU initiatives [DAPSI](https://dapsi.ngi.eu/) and [NGI Pointer](https://www.ngi.eu/ngi-projects/ngi-pointer/) that could be suitable for Solid app projects.
 
-If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/next.md) to let others know about it via the next edition.
+If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/main/_posts/newsletter/next.md) to let others know about it via the next edition.
 
 #### Job Openings
 

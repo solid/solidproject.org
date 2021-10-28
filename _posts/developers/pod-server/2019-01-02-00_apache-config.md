@@ -3,22 +3,27 @@ layout: for-developers
 title: "Using Apache as a reverse proxy"
 permalink: self-hosting/nss/apache
 tags: [pod-server]
-categories: [Running Node Solid Server]
+categories: [Running Community Solid Server]
 exclude: true
 redirect_from:
   - /for-developers/pod-server/apache
 ---
 
 # Using Apache as a Reverse Proxy
+A reverse proxy allows you to run a Solid server on a local port
+and let the proxy handle traffic to public HTTP and HTTPS ports.
 
-* enable modules (ssl.conf, ssl.load, proxy.conf, proxy.load, proxy_html.conf, proxy_html.load, proxy_http.conf, proxy_http.load, rewrite.load, socache_shmcb.load)<br />
-* this is done by creating symlinks in `/etc/apache2/mods-enabled/` pointing to `/etc/apache2/mods-available/*`<br />
-* sample for one module other modules equivalent<br />
-`$ cd /etc/apache2/mods-enabled`<br />
-`$ ln -s ../mods-available/ssl.conf ssl.conf`<br />
-* edit 000-default.conf<br />
-`$ nano /etc/apache2/sites-available/000-default.conf`<br />
-add to config in the appropriate section as follows<br />
+## Configuration
+* enable modules
+  (`ssl.conf`, `ssl.load`, `proxy.conf`, `proxy.load`, `proxy_html.conf`, `proxy_html.load`, `proxy_http.conf`, `proxy_http.load`, `rewrite.load`, `socache_shmcb.load`)
+  by creating symlinks in `/etc/apache2/mods-enabled/` pointing to `/etc/apache2/mods-available/*`
+```shell
+cd /etc/apache2/mods-enabled
+for module in ssl.conf ssl.load proxy.conf proxy.load proxy_html.conf proxy_html.load proxy_http.conf proxy_http.load rewrite.load shmcb.load;
+  do ln -s ../mods-available/$module $module;
+done
+```
+* edit the appropriate sections of `/etc/apache2/sites-available/000-default.conf` as follows, substituting `example.org` for your actual domain name:
 
 ```apache
 <VirtualHost *:80>
@@ -75,9 +80,7 @@ ProxyPassReverse / https://localhost:8443/
 </VirtualHost>
 ```
 
-* edit default-ssl.conf<br />
-`$ nano /etc/apache2/sites-available/default-ssl.conf`<br />
-add to config in the appropriate section as follows<br />
+* edit the appropriate sections of `/etc/apache2/sites-available/default-ssl.conf` as follows:
 
 ```apache
 <VirtualHost _default_:443>
@@ -91,4 +94,8 @@ SSLCertificateKeyFile /etc/letsencrypt/live/example.org/privkey.pem
 SSLCertificateChainFile /etc/letsencrypt/live/example.org/fullchain.pem
 </VirtualHost>
 ```
-`$ systemctl restart apache2`
+
+# Activating the configuration
+```shell
+systemctl restart apache2
+```

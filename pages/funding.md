@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: page-no-toc
 title: "Funding"
 permalink: funding
 ---
 
 # Funding
-If you know of any grants or channels to apply to resources that would allow developers to focus on building their Solid applications, please do share them on this list by [submitting a pull request](https://github.com/solid/solidproject.org/blob/staging/pages/funding.md) or by emailing the Solid Manager on info@solidproject.org.  
+If you know of any grants or channels to apply to resources that would allow developers to focus on building their Solid applications, please do share them on this list by [submitting a pull request](https://github.com/solid/solidproject.org/blob/main/pages/funding.md) or by emailing the Solid Manager on info@solidproject.org.
 
 * [Consensus Community Innovation Grants](http://agree.org/)
 * [DuckDuckGo Donations](https://duckduckgo.com/donations)

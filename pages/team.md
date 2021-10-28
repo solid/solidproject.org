@@ -1,5 +1,5 @@
 ---
-layout: page-no-toc
+layout: page-about
 title: Team
 permalink: team
 ---
@@ -40,13 +40,25 @@ Kjetil works a developer at Inrupt where he focuses on the Solid test suite deve
 # Creators
 Creators are responsible for maintaining and reviewing suggestions to solidproject.org which includes Solid content such as the newsletter This Month in Solid.
 
+## Kay Kim
+**Creator**
+Kay is a technical writer at Inrupt and a newcomer to Solid.
+
+## Kyra Assaad
+**Creator**
+Kyra Assaad is the Product Designer at Inrupt. She works to ensure that the Solid user experience is accessible and useable for all. Passionate about increasing representation and participation of women, people of colour and other under-represented groups in the Solid community, she helped form and now serves as one of the chairs of the Solid Diversity, Equity, and Inclusion (DEI) team.
+
+## Virginia Balseiro
+**Creator**
+Virginia Balseiro is a software engineer at Inrupt, mainly focusing on PodBrowser. She is the founder and organizer of Women of Solid, an online community for women interested in Solid. She also founded and organizes a community for people new to the world of web development, where they can support each other and participate in Open Source projects together.
+
 ## Vincent Tunru
 **Creator**
-Vincent is a front-end engineer at Inrupt. Before Inrupt he worked on finding out how technology can help ensuring open access to academic research. He is focusing on technical writing for app developers to learn how to build Solid apps.
+Vincent Tunru is a front-end engineer at Inrupt. Before Inrupt he worked on finding out how technology can help ensuring open access to academic research. He is focusing on technical writing for app developers to learn how to build Solid apps.
 
 ## Nicolas Seydoux
 **Creator**
-Nicolas is a developer at Inrupt. He joined the company after his PhD on the Semantic Web of Things, mixing semantic web and IoT. In this domain, he contributed to FOSS software and to an industrial standard acknowledging the importance of semantic interoperability. He also worked on decentralised reasoning and open data platforms.
+Nicolas Seydoux is a developer at Inrupt. He joined the company after his PhD on the Semantic Web of Things, mixing semantic web and IoT. In this domain, he contributed to FOSS software and to an industrial standard acknowledging the importance of semantic interoperability. He also worked on decentralised reasoning and open data platforms.
 
 ## Jeff Zucker
 **Creator**
@@ -66,3 +78,7 @@ Jackson Morgan is a full stack engineer at Inrupt.
 ## Justin Bingham
 **Administrator**
 Justin Bingham is co-founder and Chief Technology Officer of Janeiro Digital
+
+## Marrelle Bailey 
+**Administrator**
+Marrelle Bailey is the moderator for [Solid World](https://vimeo.com/solidworld) and works on managing the Solid Team projects. She is also the lead chair for the Diversity, Equity, and Inclusion Team for the Solid Community. She works at Inrupt as the Community & Communications Organizer.

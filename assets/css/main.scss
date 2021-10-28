@@ -33,7 +33,6 @@ $link: $primary;
 // Content
 .content {
   a {
-    font-weight: bold;
     text-decoration: underline;
   }
 }
@@ -291,4 +290,31 @@ $why-carousel-offset: 0;
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details#Customizing_the_appearance
 details > summary {
   cursor: pointer;
+}
+
+#header-navbar {
+  .navbar-brand img {
+    margin-right: 1.5em;
+  }
+  .navbar-link {
+    border: none;
+    background-color: transparent;
+  }
+  a {
+    color: white;
+    &:hover, &:focus {
+      color: $primary;
+    }
+  }
+  
+  .navbar-dropdown {
+    background-color: $grey-dark;
+    a.navbar-item {
+      &:hover, &:focus {
+        background-color: white;
+        color: $primary;
+      }
+    }
+
+  }
 }

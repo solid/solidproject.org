@@ -1,26 +1,39 @@
-<header>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{site.baseUrl}}/">
-        <img
-          src="{{ site.baseurl }}/assets/img/solid-emblem.svg"
-          alt="[Solid logo]"
-        />
-      </a>
-      <a class="navbar-item navbar-brand-name is-uppercase is-size-4" href="{{site.baseUrl}}/">
-        Solid
-      </a>
-    </div>
-  
-    <div class="navbar-menu is-hidden-mobile">
-      <div class="navbar-end is-hidden-mobile">
-        {% for item in site.data.navigation %}
-          <a
-            class="navbar-item is-size-6 is-size-5-tablet is-hidden-mobile"
-            href="{{ item.link }}"
-          >{{ item.name }}</a>
-        {% endfor %}
-      </div>
-    </div>
+<header id="header-navbar" class="navbar">
+  <a class="navbar-brand navbar-item navbar-link is-arrowless" href="{{site.baseUrl}}/">
+    <img
+      src="{{ site.baseurl }}/assets/img/solid-emblem.svg"
+      alt=""
+    />
+    <span class="is-uppercase is-size-4">Solid</span>
+  </a>
+
+  <nav class="navbar-menu is-hidden-mobile">
+    <ul class="navbar-end">
+      {% for item in site.data.navigation %}
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          {% if item.sublinks %}
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >{{ item.name }}</button>
+            <ul class="navbar-dropdown">
+              {% for menu in item.sublinks %}
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="{{ menu.link }}"
+                  >{{ menu.name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <a
+              class="navbar-link is-size-6 is-size-5-tablet is-arrowless"
+              href="{{ item.link }}"
+            >{{ item.name }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
   </nav>
 </header>

@@ -47,7 +47,7 @@ Chek out the following initiatives which could be a possible match for your work
 * [DAPSI](https://dapsi.ngi.eu/)
 * [NGI Pointer](https://www.ngi.eu/ngi-projects/ngi-pointer/)
 
-If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/staging/_posts/newsletter/next.md) to let others know about it via the next edition.
+If you know of more grants that could be interesting for the Solid community [submit a pull request](https://github.com/solid/solidproject.org/blob/main/_posts/newsletter/next.md) to let others know about it via the next edition.
 
 #### Job Openings
 

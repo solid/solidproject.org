@@ -1,6 +1,8 @@
 - name: Home
   link: "/"
   sublinks:
+  - name: About Solid
+    link: "/about"
   - name: Using Solid
     link: "/users"
   - name: Get a Pod
@@ -13,6 +15,10 @@
     link: "/labs"
   - name: FAQs
     link: "/faqs"
+  - name: Terms of Use
+    link: "/terms"
+  - name: Code of Conduct
+    link: "https://github.com/solid/process/blob/main/code-of-conduct.md"
 - name: What's New
   sublinks:
   - name: This Month in Solid
