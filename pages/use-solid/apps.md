@@ -74,7 +74,7 @@ redirect_from:
 
 | Application                                                  | Description                                                                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [Understory Garden](https://understory.garden) ([GitHub](https://github.com/understory-garden/understory.garden)) |  A simple and lightweight personal CMS and   web publishing platform that stores content and deployment configurations in your Solid pod. |
+| [Mysilio Garden](https://mysilio.garden) ([GitHub](https://github.com/mysilio-co/garden)) |  A simple and lightweight personal bidirectionally-linked knowledge management and web publishing platform that stores content and deployment configurations in your Solid pod. |
 | [Notepod](https://notepod.vincenttunru.com/)                 | A simple note-taking app that stores notes in your Solid Pod. <br>- [Source code](https://github.com/Vinnl/notepod) by [Vincent Tunru](https://github.com/Vinnl) |
 | [OEdit](https://edit.o.team)                                | An editor app for raw files using the vs interface. <br>- [source code](https://github.com/jaxoncreed/o-edit) by [Jackson Morgan](https://github.com/jaxoncreed).|
 | [Solid Focus](https://noeldemartin.github.io/solid-focus/)  | Keep track of your to do list. <br>- [Source code](https://github.com/NoelDeMartin/solid-focus) [GNU General Public License v3.0 (c) 2018](https://github.com/NoelDeMartin/solid-focus/blob/master/LICENSE) [Noel de Martin](https://github.com/NoelDeMartin) |
