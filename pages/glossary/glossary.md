@@ -9,7 +9,7 @@
 A permission to read, create, modify, or share data. For each resource in your Pod, you can specify which Access modes you grant to specific Agents or classees of Agents.  The basic modes are Read
 
 ### ACL
-Access Control Resource
+Access Control List
 
 ### ACP
 Access Control Policy
@@ -59,8 +59,10 @@ Node Solid Server
 ### object
 
 ### OIDC
+OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol. See also the [OpenID Connect Core 1.0 specification](https://openid.net/specs/openid-connect-core-1_0.html).
 
 ### OpenID Connect
+See [OIDC](#oidc).
 
 ### OWL
 
@@ -108,12 +110,13 @@ A Solid Server from graphmetrix
 A Triple is an RDF statement.  RDF statements take the form of short sentences asserting that thingA is in some relationship with thingB. Each statement (triple) has three parts : a **subject** (thingA), a **predicate** (the relationship), and an **object** (thingB).
 
 ### Turtle
+Turtle is serialization format for expressing data in the Resource Description Framework (RDF). Most specs in the Solid ecosystem require resources to be available at least in Turtle serialization.
 
 ### WAC
-Web Access Control
+Web Access Control is a decentralized cross-domain access control system [specification](https://solid.github.io/web-access-control-spec/).
 
 ### WebID
-A WebID is a universal identifier that uniquely identifies you wherever you go. After getting a WebID, you can login once and have that login and WebID recognized anywhere that uses Solid.  It's easy to have more than one WebID and they are anonymous by default.
+A WebID is a universal identifier that uniquely identifies you wherever you go. After getting a WebID, you can login once and have that login and WebID recognized anywhere that uses Solid. It's easy to have more than one WebID and they are anonymous by default. See also [the WebID specifications](https://www.w3.org/2005/Incubator/webid/spec/).
 
 ### Write Access Permission
 
