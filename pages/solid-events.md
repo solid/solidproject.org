@@ -11,7 +11,7 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 
 <div class="message is-info">
   <p class="message-body">
-    In light of the COVID-19 pandemic, Solid Events are moving online for the foreseeable future. Join Solid World on the SECOND Thursday of every month at 1600 CET.
+    In light of the COVID-19 pandemic, Solid Events are moving online for the foreseeable future. Join Solid World on the _second_ Thursday of every month at 1600 CET.
   </p>
 </div>
 
