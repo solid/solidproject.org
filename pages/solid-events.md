@@ -24,9 +24,7 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 ## 2022 Events
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
-
 |----|-------|-------------|------------------------------|
-
 |2022-01-13| Solid World |[Solid Team](https://solidproject.org/team)| Solid World will be back on 13th January 2022. Stay tuned for the Eventbrite link. |
 
 ## 2021 Events
