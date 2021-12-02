@@ -24,7 +24,7 @@ The following chart could be a graphical representation for this:
 [G. Armani](https://garmani.solidcommunity.net/profile/card) is a [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor)
 
 ![G. Armani]({{site.baseurl}}/assets/img/tutorials/vocabularies/obelisk_vocab_2.png)
-We see on the top half our vocabulary, in its own document, and in the bottom half a snippet of the G.Armani's profile documentument. The profile document does not define new classes and properties: it is composed of data, which is described using existing vocabularies (such as the Obelisk vocabulary) by referencing the IRI of their terms (here, [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor) for instance).
+We see on the top half our vocabulary, in its own document, and in the bottom half a snippet of the G.Armani's profile document. The profile document does not define new classes and properties: it is composed of data, which is described using existing vocabularies (such as the Obelisk vocabulary) by referencing the IRI of their terms (here, [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor) for instance).
 
 Describing data uses the same syntax as building a vocabulary: the thing that we are talking about is [`:me`](https://garmani.solidcommunity.net/profile/card#me), and we are saying that this thing is of [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [`obelisk:Sculptor`](http://w3id.org/obelisk/Sculptor).  
 
