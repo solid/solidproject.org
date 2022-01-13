@@ -32,7 +32,7 @@ with the following contents:
 
 ```nginx
 # The local Solid server instance
-upstream solid-community-server {
+upstream community-solid-server {
   server 127.0.0.1:3000;
 }
 
@@ -57,10 +57,10 @@ server {
     root /var/www/solid.example; # or a folder of your choice
   }
 
-  # Proxy all other trafic to the Solid server
+  # Proxy all other traffic to the Solid server
   location / {
     # Delegate to the Solid server, passing the original host and protocol
-    proxy_pass http://solid-community-server$request_uri;
+    proxy_pass http://community-solid-server$request_uri;
     proxy_set_header X-Forwarded-Host $host;
     proxy_set_header X-Forwarded-Proto $scheme;
 

@@ -11,7 +11,7 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 
 <div class="message is-info">
   <p class="message-body">
-    In light of the COVID-19 pandemic, Solid Events are moving online for the foreseeable future. Join Solid World on the _second_ Thursday of every month at 1600 CET.
+    In light of the COVID-19 pandemic, Solid Events are moving online for the foreseeable future. Join Solid World on the _second_ Thursday of every month at 1000 ET.
   </p>
 </div>
 
@@ -26,7 +26,7 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
-|2022-01-13| Solid World |[Solid Team](https://solidproject.org/team)| Solid World will be back on 13th January 2022. Stay tuned for the Eventbrite link. |
+|2022-01-13| Solid World |[Solid Team](https://solidproject.org/team)| Solid World will be back on 13th January 2022. Stay tuned for the agenda at [Eventbrite](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127). |
 
 ## 2021 Events
 
