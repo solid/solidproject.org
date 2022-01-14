@@ -26,7 +26,8 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
-|2022-01-13| Solid World |[Solid Team](https://solidproject.org/team)| Solid World will be back on 13th January 2022. Stay tuned for the agenda at [Eventbrite](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127). |
+|2022-02-10| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | Register for the event over on [Eventbrite](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127). Agenda will be announced shortly on Eventbrite. |
+|2022-01-13| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | Presentations: <br/ > Sarven Capadisli, W3C Solid Community Group Chair and Solid Editor, presented the recent milestone release of [Solid Protocol Version 0.9](https://solidproject.org/TR/protocol). <br/ > Ruben Verborgh, Professor of decentralized Web technology at Ghent University, presented [a vision on access, query and search across the decentralized Web, and the role that Web APIs play therein](https://rubenverborgh.github.io/Web-APIs-for-decentralized-knowledge-graphs/#). <br/ > All links from the meetup are shared on [SolidWorld Gitter Chat](https://gitter.im/solid/SolidWorld?at=61e056ca9b470f3897656603) |
 
 ## 2021 Events
 
