@@ -73,7 +73,7 @@ Sir Tim Berners-Lee is co-founder and Chief Technology Officer of Inrupt.
 
 ## Jackson Morgan
 **Administrator**
-Jackson Morgan is a full stack engineer at Inrupt.
+Jackson Morgan is a freelance Solid developer for [o.team](https://o.team)
 
 ## Justin Bingham
 **Administrator**
