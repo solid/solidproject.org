@@ -1,0 +1,376 @@
+###
+# Solid Glossary - jz 2021-11-16
+#
+#  note : I hope to get back to this soonish but my work on it has been delayed.
+#
+#  see also : the online app generated from this RDF at : https://jeff-zucker.solidcommunity.net/sp4/
+###
+
+@prefix : <#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+#################
+# Core Concepts #
+#################
+
+:SolidCoreConcepts
+  a skos:ConceptScheme ;
+  skos:prefLabel "Glossary of Solid Core Concepts, Terms, & Abbreviations" ;
+  skos:hasTopConcept 
+    :DecentralizedStorage, 
+    :ReusableIdentity, 
+    :UserControl, 
+    :SemanticLinking,
+    :InteroperableApps,
+    :CommunityInvolvement
+  .
+
+:DecentralizedStorage
+  a skos:Concept ;
+  skos:topConceptOf :SolidCoreConcepts ;
+  skos:broader :DecentralizedStorage ;
+  skos:prefLabel "Decentralized Storage"@en ;
+  skos:definition """
+Solid gives you control of your personal data by letting you store it where you choose; by enforcing your ability to manage who accesses it; and by not requireing use of large centralized sevices that have their own data agendas. At the center of Solid is your Pod.
+  """@en .
+
+:ReusableIdentity
+  a skos:Concept ;
+  skos:topConceptOf :SolidCoreConcepts ;
+  skos:prefLabel "Reusable Identity"@en ;
+  skos:definition """
+Solid provides single-sign-in without tying your sign-in to an email provider or social media company. Sign in once and get a passport to anywhere in the Solidverse.
+  """@en .
+
+:UserControl
+  a skos:Concept ;
+  skos:topConceptOf :SolidCoreConcepts ;
+  skos:prefLabel "User Control"@en ;
+  skos:definition """
+Solid gives you the ability to limit access to specific parts of your data. You control not only who can read your data, but also who can collaborate with you in creating and editing shared resources.
+  """@en .
+
+:SemanticLinking 
+  a skos:Concept ;
+  skos:topConceptOf :SolidCoreConcepts ;
+  skos:prefLabel "Semantic Linking"@en ;
+  skos:definition """
+Solid is not just about storing data, it is about linking data from different sources in ways that usefully enhance our understanding of the data.  
+  """@en .
+ 
+:InteroperableApps
+  a skos:Concept ;
+  skos:topConceptOf :SolidCoreConcepts ;
+  skos:prefLabel "Interoperable Apps"@en ;
+  skos:broader :InteroperableApps ;
+  skos:definition """
+Solid aims to reuse data. Things you gather with one app might be useful in a different app.  To gain the flexibility to share data across apps, Solid supports standard ways to storing and finding data that don't lock you in to a single vendor's apps and methods.
+  """@en .
+
+:CommunityInvolvement 
+  a skos:Concept ;
+  skos:topConceptOf :SolidCoreConcepts ;
+  skos:broader :CommunityInvolvement ;
+  skos:prefLabel "Community Involvement"@en ;
+  skos:definition """
+Solid is supported by a large, diverse, and welcoming open source community of visionaries, techies, and people who, regardless of their skill level, believe in the goals of Solid.  We are building the Solidverse together and that inludes you!
+  """@en .
+    
+#########
+# Terms #
+#########
+[]
+  a skos:Concept ;
+  skos:prefLabel "Access Control List"@en ;
+  skos:broader :UserControl ;
+  skos:definition """
+    An Access Control List (abbreviated ACL) is a way for you to
+    control who accesses your data. In the ACL, you give consent
+    for specific audiences to access specific parts of your data.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Access Control Policy"@en ;
+  skos:broader :UserControl ;
+  skos:definition """
+    One of the access control mechanisms that can be used with Solid.
+    Abbreviated as ACP.
+  """@en .
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Access Mode"@en ;
+  skos:broader :UserControl ;
+  skos:definition """
+    A permission to read, write, append, or control data. For each resource
+    in your Pod, you can specify which Access modes you grant to specific
+    audiences.
+  """@en .
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Agent"@en ;
+  skos:broader :InteroperableApps ;
+  skos:definition """
+    A person, group, organization, or softwarre application that
+    can perform actions, including requesting consent to access your data.
+  """@en .
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Append Access Mode"@en ;
+  skos:broader :UserControl ;
+  skos:definition """
+    An access mode which permits adding resources, but not deleting 
+    or viewing them.  Your email box has Append access - others can add
+    email messages to it, but they can not read, edit, or delete anything.
+  """@en .
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Application" ;
+  skos:broader :InteroperableApps ;
+  skos:definition """
+    A software application (abbreviated as "app"), also referred to as client application. It can be a web-based, server-based, command-line/CLI or native application.  In Solid, apps need your consent to access your data and can have their own WebID (see Client Identifier Document).
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Client" ;
+  skos:broader :InteroperableApps ;
+  skos:definition """
+    Also referred to as client application. See Application.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Client Identifier Document" ;
+  skos:broader :InteroperableApps ;
+  skos:definition """
+    A document that uniquely identifies an app (client).  It has its own WebID.
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Container" ;
+  skos:broader :DecentralizedStorage ;
+  skos:definition """
+In Solid, your data is stored in Containers which can be folders that contains files, or  database tables that contains records, or storage systems.  Whatever the storage, Containers can be accessed with URLs that end in a slash, for example "https://example.com/foo/bar/".
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Control Access Mode" ;
+  skos:broader :UserControl ;
+  skos:definition """
+An access mode that permits viewing and changing the ability to share resources.  If you have Control, you can lock others out.   of access to resources or open themdeclare resources, public or private, and can lock others deciopen a resource to the pubicto view and manage who has access to the applicable Resource. Applicable to the ACL authorization system.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "DEI" ;
+  skos:broader :CommunityInvolvement ;
+  skos:definition """
+See Diversity, Equity, and Inclusion.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Diversity, Equity, and Inclusion" ;
+  skos:broader :CommunityInvolvement ;
+  skos:definition """
+The guiding principles of the Solid community - to welcome people from of all backgrounds and abilities; to build a world that is equitable for all.  This is also the name of one of the core Solid teams that works to facilitate bring these principles to life in our own community.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "PR" ;
+  skos:broader :CommunityInvolvement ;
+  skos:definition """
+See Pull Request.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Pull Request" ;
+  skos:broader :CommunityInvolvement ;
+  skos:definition """
+A Pull Request, abbreviated PR, is a way of suggesting an edit to a document or piece of code.  See also Issue.  An issue suggests or comments on the document but a PR suggests specific changes in the document (for example, a code correction or a new paragraph for documentations).
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Issue" ;
+  skos:broader :CommunityInvolvement ;
+  skos:definition """
+An Issue is a way that anyone can suggest changes to any document or piece of code. Anyone of any skill level can submit an Issue and thus contribute to the written record of and the source code for the Solidverse. It could be aabout a bug, a feature request, or ar documentation change. If you have a suggestion and don't know how to create an Issue, just ask in the forum or chatroom. See also Pull Request.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Solid Process" ;
+  skos:broader :CommunityInvolvement ;
+  skos:definition """
+The Solid Process documents describes the strucuture of the Solid Project.  In combination with the Code of Conduct, it outlines responsibilities and roles and describes how anyone can participate in all parts of the process of building Solid, inclduing writing the rules for the process itself.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Solid Project" ;
+  skos:broader :CommunityInvolvement ;
+  skos:definition """
+The Solid Project is an open-source, community-run, organization founded on the Vision of and led by Sir Tim Berners-Lee.  The project is organized according to the transparent and open-to all Solid Process. The Solid Project community provides the solidproject.org website, a forum, chatroom and other communication channels.  The project also maintains solidcommunity.net, a free Pod and Identity provider and facilitates the writing of the Solid specifications and core software.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Default Access Mode" ;
+  skos:broader :UserControl ;
+  skos:definition """
+If a resource has no defined Access Control mechanism, it defaults to the access rules defined in its parent Container.  If /foo/bar/ has no access rules, then the rules for /foo/ become the default.  If /foo/ has no access rules the access rules for / become the default.  There must always be an access rule for the root Container.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Fallback ACL" ;
+  skos:broader :UserControl ;
+  skos:definition """
+    The default ACL for a resource.  See Default Access.
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "IRI" ;
+  skos:definition """
+Internationalized Resource Identifier. An IRI is similar to standard web URI
+  but allows for internationalized characters such as the umlaut Ä, or the Greek letter Δ.
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Identity Provider" ;
+  skos:broader :ReusableIdentity ;
+  skos:definition """
+An Identity Provider (abbreviated as **IdP**) is a host service that provides Solid identity authentication. When you register with an IdP, the IdP assigns you a WebID. Each time you login to the IdP, you are authenticatd as owning that WebID. Identity Providers are also often Pod Providers but it does not matter if you get your WebID from one provider and store your Pod data with a different provider.
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "IdP" ;
+  skos:broader :ReusableIdentity ;
+  skos:definition """
+See Identity Provider.
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Pod" ;
+  skos:broader :DecentralizedStorage ;
+  skos:definition """
+A personal on/offline data storage space that you control. When logged in, you can modify the data and make any part of it private,
+  public, or available to specific audiences. Personal data includes things like social media postings - in Solid, those belong to you,
+  not to the social media company.
+  """@en.
+
+  []
+  a skos:Concept ;
+  skos:prefLabel "Pod Provider" ;
+  skos:broader :DecentralizedStorage ;
+  skos:definition """
+A host service that provides you Pod storage space and maintains Solid Server software that enforces the privacy rules you have defined.
+You are free to switch pod providers at any time.
+  """@en.
+
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "RDF" ;
+  skos:broader :SemanticLinking ;
+  skos:definition """
+  Resource Description Framework is a language for describing the semantic web in ways that both humans and computers can understand. RDF can be represented using a number of syntaxes including **Turtle** (Terse RDF Triple Language), **JSON-LD** (JSON for Linked Data), **RDFa** (RDF in HTML attributes), **N3**, and others. **OWL** (Web Ontology Language) is a language to create RDF vocabularies. **SPARQL** (SPARQL Protocol and RDF Query Language) is a language to query RDF data sources.
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Read Access Mode" ;
+  skos:broader :UserControl ;
+  skos:definition """
+An Access mode which permits reading the contents of resources.  People and apps without Read access to a Pod can not see anything in the Pod.
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Semantic Web" ;
+  skos:broader :SemanticLinking ;
+  skos:definition """
+  The Semantic Web is a web based on **Linked Data** - meaningful relationships between resources. The link between the pages "The Color Purple" and "Alice Walker" is not just any link, it is an authorship link that holds meaning.
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Solid Server" ;
+  skos:broader :DecentralizedStorage ;
+  skos:definition """
+The software used to provide access to Pods. It is maintained by the Pod Provider, or by you if you self-host your Pod.
+  In either case, it enforces the access rules you set for your own Pod and serves your data in a way that makes its semantic
+  relationships accessible. Solid Servers may also provide identity services.
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Triple" ;
+  skos:broader :SemanticLinking ;
+  skos:definition """
+A Triple is an RDF statement. RDF statements take the form of short sentences asserting that thingA is in some relationship with thingB. Each statement (triple) has three parts : a **subject** (thingA), a **predicate** (the relationship), and an **object** (thingB).
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "WebID" ;
+  skos:broader :ReusableIdentity ;
+  skos:definition """
+A WebID is a universal identifier that uniquely identifies you wherever you go. After getting a WebID, you can login once and have that login and WebID recognized anywhere that uses Solid. It's easy to have more than one WebID and they are anonymous by default. A WebID is always a URL that points to a Profile describing the owner and providing pointers to the owners preferences.
+  """@en.
+  
+[]
+  a skos:Concept ;
+  skos:prefLabel "Write Access Mode" ;
+  skos:broader :UserControl ;
+  skos:definition """
+An Access Mode that permits adding, updating, and deleting resources.
+Write Access automatically grants Append Access, but not Read or Control access.
+  """@en.
+
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "SHACL"@en ;
+  skos:broader :InteroperableApps ;
+  skos:definition """
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "SHEX"@en ;
+  skos:broader :InteroperableApps ;
+  skos:definition """
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Shapes"@en ;
+  skos:broader :InteroperableApps ;
+  skos:definition """
+  """@en.
+
+[]
+  a skos:Concept ;
+  skos:prefLabel "Specifications"@en ;
+  skos:broader :InteroperableApps ;
+  skos:definition """
+  """@en.
+
+
+
+  
