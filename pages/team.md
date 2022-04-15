@@ -35,7 +35,7 @@ Dmitri is Senior Consulting Software Engineer at Digital Bazaar and co-founder o
 
 ## Kjetil Kjernsmo
 **Solid Editor**
-Kjetil works a developer at Inrupt where he focuses on the Solid test suite development. He has a PhD in  Informatics from the University of Oslo in Norway and has 20 years of experience with social and semantic web technology.
+Kjetil is a Senior Advisor with the Norwegian Agency for Development Cooperation, where he works as a technical expert on normative technologies and Digital Public Goods. He has a PhD in Informatics from the University of Oslo in Norway and has 25 years of experience with social and semantic web technology.
 
 # Creators
 Creators are responsible for maintaining and reviewing suggestions to solidproject.org which includes Solid content such as the newsletter This Month in Solid.
@@ -73,7 +73,7 @@ Sir Tim Berners-Lee is co-founder and Chief Technology Officer of Inrupt.
 
 ## Jackson Morgan
 **Administrator**
-Jackson Morgan is a full stack engineer at Inrupt.
+Jackson Morgan is a freelance Solid developer for [o.team](https://o.team)
 
 ## Justin Bingham
 **Administrator**
