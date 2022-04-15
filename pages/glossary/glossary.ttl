@@ -81,7 +81,7 @@ Solid is supported by a large, diverse, and welcoming open source community of v
 #########
 :access-control-list
   a skos:Concept ;
-  skos:prefLabel "Access Control List"@en ;
+  skos:prefLabel "access control list"@en ;
   skos:broader :UserControl ;
   skos:definition """
     An Access Control List (abbreviated ACL) is a way for you to
@@ -91,7 +91,7 @@ Solid is supported by a large, diverse, and welcoming open source community of v
 
 :access-control-policy
   a skos:Concept ;
-  skos:prefLabel "Access Control Policy"@en ;
+  skos:prefLabel "access control policy"@en ;
   skos:broader :UserControl ;
   skos:definition """
     One of the access control mechanisms that can be used with Solid.
@@ -100,7 +100,7 @@ Solid is supported by a large, diverse, and welcoming open source community of v
   
 :access-mode
   a skos:Concept ;
-  skos:prefLabel "Access Mode"@en ;
+  skos:prefLabel "access mode"@en ;
   skos:broader :UserControl ;
   skos:definition """
     A permission to read, write, append, or control data. For each resource
@@ -110,7 +110,7 @@ Solid is supported by a large, diverse, and welcoming open source community of v
   
 :agent
   a skos:Concept ;
-  skos:prefLabel "Agent"@en ;
+  skos:prefLabel "agent"@en ;
   skos:broader :InteroperableApps ;
   skos:definition """
     A person, group, organization, or softwarre application that
@@ -119,7 +119,7 @@ Solid is supported by a large, diverse, and welcoming open source community of v
   
 :append-access-mode
   a skos:Concept ;
-  skos:prefLabel "Append Access Mode"@en ;
+  skos:prefLabel "append access mode"@en ;
   skos:broader :UserControl ;
   skos:definition """
     An access mode which permits adding resources, but not deleting 
@@ -129,7 +129,7 @@ Solid is supported by a large, diverse, and welcoming open source community of v
 
 :application
   a skos:Concept ;
-  skos:prefLabel "Application" ;
+  skos:prefLabel "application" ;
   skos:broader :InteroperableApps ;
   skos:definition """
     A software application (abbreviated as "app"), also referred to as client application. It can be a web-based, server-based, command-line/CLI or native application.  In Solid, apps need your consent to access your data and can have their own WebID (see Client Identifier Document).
@@ -137,7 +137,7 @@ Solid is supported by a large, diverse, and welcoming open source community of v
   
 :client
   a skos:Concept ;
-  skos:prefLabel "Client" ;
+  skos:prefLabel "client" ;
   skos:broader :InteroperableApps ;
   skos:definition """
     Also referred to as client application. See Application.
@@ -145,7 +145,7 @@ Solid is supported by a large, diverse, and welcoming open source community of v
 
 :client-identifier-document
   a skos:Concept ;
-  skos:prefLabel "Client Identifier Document" ;
+  skos:prefLabel "client identifier document" ;
   skos:broader :InteroperableApps ;
   skos:definition """
     A document that uniquely identifies an app (client).  It has its own WebID.
@@ -153,7 +153,7 @@ Solid is supported by a large, diverse, and welcoming open source community of v
   
 :container
   a skos:Concept ;
-  skos:prefLabel "Container" ;
+  skos:prefLabel "container" ;
   skos:broader :DecentralizedStorage ;
   skos:definition """
 In Solid, your data is stored in Containers which can be folders that contains files, or  database tables that contains records, or storage systems.  Whatever the storage, Containers can be accessed with URLs that end in a slash, for example "https://example.com/foo/bar/".
@@ -161,7 +161,7 @@ In Solid, your data is stored in Containers which can be folders that contains f
 
 :control-access-mode
   a skos:Concept ;
-  skos:prefLabel "Control Access Mode" ;
+  skos:prefLabel "control access mode" ;
   skos:broader :UserControl ;
   skos:definition """
 An access mode that permits viewing and changing the ability to share resources.  If you have Control, you can lock others out.   of access to resources or open themdeclare resources, public or private, and can lock others deciopen a resource to the pubicto view and manage who has access to the applicable Resource. Applicable to the ACL authorization system.
@@ -193,7 +193,7 @@ See Pull Request.
 
 :pull-request
   a skos:Concept ;
-  skos:prefLabel "Pull Request" ;
+  skos:prefLabel "pull request" ;
   skos:broader :CommunityInvolvement ;
   skos:definition """
 A Pull Request, abbreviated PR, is a way of suggesting an edit to a document or piece of code.  See also Issue.  An issue suggests or comments on the document but a PR suggests specific changes in the document (for example, a code correction or a new paragraph for documentations).
@@ -201,7 +201,7 @@ A Pull Request, abbreviated PR, is a way of suggesting an edit to a document or 
 
 :issue
   a skos:Concept ;
-  skos:prefLabel "Issue" ;
+  skos:prefLabel "issue" ;
   skos:broader :CommunityInvolvement ;
   skos:definition """
 An Issue is a way that anyone can suggest changes to any document or piece of code. Anyone of any skill level can submit an Issue and thus contribute to the written record of and the source code for the Solidverse. It could be aabout a bug, a feature request, or ar documentation change. If you have a suggestion and don't know how to create an Issue, just ask in the forum or chatroom. See also Pull Request.
@@ -225,7 +225,7 @@ The Solid Project is an open-source, community-run, organization founded on the 
 
 :default-access-mode
   a skos:Concept ;
-  skos:prefLabel "Default Access Mode" ;
+  skos:prefLabel "default access mode" ;
   skos:broader :UserControl ;
   skos:definition """
 If a resource has no defined Access Control mechanism, it defaults to the access rules defined in its parent Container.  If /foo/bar/ has no access rules, then the rules for /foo/ become the default.  If /foo/ has no access rules the access rules for / become the default.  There must always be an access rule for the root Container.
@@ -233,7 +233,7 @@ If a resource has no defined Access Control mechanism, it defaults to the access
 
 :fallback-acl
   a skos:Concept ;
-  skos:prefLabel "Fallback ACL" ;
+  skos:prefLabel "fallback ACL" ;
   skos:broader :UserControl ;
   skos:definition """
     The default ACL for a resource.  See Default Access.
@@ -249,7 +249,7 @@ Internationalized Resource Identifier. An IRI is similar to standard web URI
   
 :identity-provider
   a skos:Concept ;
-  skos:prefLabel "Identity Provider" ;
+  skos:prefLabel "identity provider" ;
   skos:broader :ReusableIdentity ;
   skos:definition """
 An Identity Provider (abbreviated as **IdP**) is a host service that provides Solid identity authentication. When you register with an IdP, the IdP assigns you a WebID. Each time you login to the IdP, you are authenticatd as owning that WebID. Identity Providers are also often Pod Providers but it does not matter if you get your WebID from one provider and store your Pod data with a different provider.
@@ -275,7 +275,7 @@ A personal on/offline data storage space that you control. When logged in, you c
 
 :pod-provider
   a skos:Concept ;
-  skos:prefLabel "Pod Provider" ;
+  skos:prefLabel "Pod provider" ;
   skos:broader :DecentralizedStorage ;
   skos:definition """
 A host service that provides you Pod storage space and maintains Solid Server software that enforces the privacy rules you have defined.
@@ -292,7 +292,7 @@ You are free to switch pod providers at any time.
   
 :read-access-mode
   a skos:Concept ;
-  skos:prefLabel "Read Access Mode" ;
+  skos:prefLabel "read access mode" ;
   skos:broader :UserControl ;
   skos:definition """
 An Access mode which permits reading the contents of resources.  People and apps without Read access to a Pod can not see anything in the Pod.
@@ -300,7 +300,7 @@ An Access mode which permits reading the contents of resources.  People and apps
   
 :semantic-web
   a skos:Concept ;
-  skos:prefLabel "Semantic Web" ;
+  skos:prefLabel "semantic web" ;
   skos:broader :SemanticLinking ;
   skos:definition """
   The Semantic Web is a web based on **Linked Data** - meaningful relationships between resources. The link between the pages "The Color Purple" and "Alice Walker" is not just any link, it is an authorship link that holds meaning.
@@ -308,7 +308,7 @@ An Access mode which permits reading the contents of resources.  People and apps
   
 :solid-server
   a skos:Concept ;
-  skos:prefLabel "Solid Server" ;
+  skos:prefLabel "Solid server" ;
   skos:broader :DecentralizedStorage ;
   skos:definition """
 The software used to provide access to Pods. It is maintained by the Pod Provider, or by you if you self-host your Pod.
@@ -318,7 +318,7 @@ The software used to provide access to Pods. It is maintained by the Pod Provide
   
 :triple
   a skos:Concept ;
-  skos:prefLabel "Triple" ;
+  skos:prefLabel "triple" ;
   skos:broader :SemanticLinking ;
   skos:definition """
 A Triple is an RDF statement. RDF statements take the form of short sentences asserting that thingA is in some relationship with thingB. Each statement (triple) has three parts : a **subject** (thingA), a **predicate** (the relationship), and an **object** (thingB).
@@ -334,7 +334,7 @@ A WebID is a universal identifier that uniquely identifies you wherever you go. 
   
 :write-access-mode
   a skos:Concept ;
-  skos:prefLabel "Write Access Mode" ;
+  skos:prefLabel "write access mode" ;
   skos:broader :UserControl ;
   skos:definition """
 An Access Mode that permits adding, updating, and deleting resources.
@@ -357,14 +357,14 @@ Write Access automatically grants Append Access, but not Read or Control access.
 
 :shapes
   a skos:Concept ;
-  skos:prefLabel "Shapes"@en ;
+  skos:prefLabel "shapes"@en ;
   skos:broader :InteroperableApps ;
   skos:definition """
   """@en.
 
 :specifications
   a skos:Concept ;
-  skos:prefLabel "Specifications"@en ;
+  skos:prefLabel "specifications"@en ;
   skos:broader :InteroperableApps ;
   skos:definition """
   """@en.
