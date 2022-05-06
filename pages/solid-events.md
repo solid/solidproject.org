@@ -23,9 +23,8 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 ## 2022 Events
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
-|----|-------|-------------|------------------------------|
+|------|-------|-----------|-----------------------------|
 |2022-06-09| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | Register for the event over on [Eventbrite](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127). Agenda will be announced shortly on Eventbrite. |
-
 |2022-05-12| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | Presentation: <br/> Flanders Data Utility Company Team: Hear first-hand insight into how the Flemish Data Utility Company wants to stimulate citizens’ trust in sharing data, by focusing on responsible and secure data sharing. The Data Utility Company’s Solid Pod platform is designed to establish trusted data ecosystems on this groundbreaking technology. The Data Utility Company’s platform mitigates the costs and risks associated with innovative technology, lowering the threshold for organizations to enter the Solid ecosystem. |
 
 |2022-04-14| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | [Solid World Recording](https://vimeo.com/703101308) <br/> Presentation: <br/>  Philippe Duchesne, DataVillage & Luk Overmeire, VRT. DataVillage is developing a platform to perform confidential data processing on personal data, where end users can allow service providers to process their data to produce derived data, while having the guarantee that the original data will not be read by the service provider itself. DataVillage will be joined by VRT, the Flemish public broadcasting company, which is using the DataVillage platform to build a user-controlled content recommendation service for its audience. |
