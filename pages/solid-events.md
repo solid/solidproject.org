@@ -1,127 +1,109 @@
 ---
-layout: page
+layout: page-no-toc
 title: Solid Events
 permalink: /events
 ---
 
-Solid Events are an opportunity for the Solid community to meet in person locally. 
+# Solid Events
+
+Solid Events provide an opportunity to meet others who are working on Solid or are interested in Solid. Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you, reach out to the Solid Manager at [info@solidproject.org](mailto:info@solidproject.org).
 
 
-# Upcoming events
-
-| Date | Event | Organiser(s) |
-|------|-------|--------------|
-|2020-02-10|[Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-88843267605)|[Christian Buggedei](https://github.com/JollyOrc)|
-|2020-02-10|[Solid San Francisco](https://meetabit.com/events/february-2020-bay-area-solid-interest-club-meetup)|Travis Vachon|
-
-(past events are [listed below](#past-events))
-
-Solid Events are run by people like you. Here you can find a comprehensive guide to help you along the way. 
-
-Reach out to the Solid Manager on info@solidproject.org to set up a call and brainstorm the organisation of your event. 
-
-# Content 
-There are many formats to host a Solid Event. Here are some ideas: 
-
-## Speakers 
-Solid Events are a great opportunity to highlight local people building on Solid. You can shout out for local speakers on This Week in Solid. Partnering with local universities, particularly courses that teach linked data, is a great way to slot into the student network and integrate into the existing educational facilities. 
-
-## Debate Panel  
-If you decide to set up a debate panel, define a theme or opening question. One way to focus the conversation is to set it up as a debate panel with multiple teams defending a specific perspective. Allocating people to defend perspectives they do not necessarily agree with is a good way to open the mind and expand the debate.
-
-## Entrepreneur-Investor Pitching 
-One format is to invite local entrepreneurs and developers to pitch an idea for a Solid app or Pod Provider. You can also invite investors to pitch why their funds are appropriate for Solid values.
-
-## Hackathons 
-Hackathons are great for passing on knowledge between those who are familiar with Solid to those who are learning. It is useful to have a concrete target for your hackathon that you can work towards together. 
-
-# Team 
-A good team can make all the difference. Examples of roles include: promotion, ticketing, equipment support, presentation host. 
-
-# Venue
-Partnering with existing meetups or organisations that regularly host events has the benefit of learning from their experience and benefit from their existing setup. Make sure to select a venue that can accommodate the number of people 
-you expect with sufficient tables and chairs. 
-
-# Equipment
-Organising a projector, sound system, and laptop for displaying the presentation in advance is important for a smooth running event. Make sure you have the right cables and preferably do a trial run before the event. If you partner with a venue 
-that is familiar with hosting events, make sure to know who to contact about equipment setup. 
-
-# Invitation 
-Eventbrite provides invitation services that have been popular with Solid Event organisers. A standard Solid Event invite text could be: 
-
-> ## Introduction to Solid
->
-> ### About this Event
-> The web needs a mid-course correction. Solid, an open source project led by inventor of the web Sir Tim Berners-Lee. Solid lays the foundation for a future that puts users in control of their data and frees developers to focus on building apps that deliver value. Join us at `{insert location}` for an overview of  Solid  and an introduction to members of the Solid community. Learn how Solid works and how to get involved.The event will be organized by `{insert organiser details}`. 
->
-> ### Agenda 
->
-> `{insert agenda}`
-
-Once your invite is published make sure to submit a pull request to add it to the listing above or reach out to the Solid Team to ask for it to be published. 
-
-# Promotion
-Make sure to spread the news about the event in local channels. Share the invite with people who organise events with a  audiences that could share interests such as developers, data ethicists, and designers. Local media events, calendars, and developer groups can be a great way to tap into existing interest groups. Make sure to include your event in This Week in Solid. 
-
-# Join the Solid Event Organisers 
-Join the [solid/solid-events Gitter channel](https://gitter.im/solid/solid-events) to speak with other Solid Event organisers. 
-
-# Continuity 
-Having a series of Solid Events in your city is important for the network of local developers to grow and nurture the implementation of Solid. 
-
-A Solid Event triplet is a series of three events in the same city designed to have incremental engagement with your local network. 
-
-1.	Meet and Greet 
-Holding an informal meetup in a city is a good way to find out who else is working on Solid locally. 
-
-A general introduction to Solid to kickstart your Solid Event can be helpful for newcomers and to warm the attention of the crowd. If your event is general and targeted to a wide audience using Solid or looking to use Solid, it is important that you cover What, Why, How, When, described so anyone can understand. It is useful to talk about the core values that define the Solid design. Value based conversations can be an excellent route to moving these conversations forward. Questions to answer in the opening introduction include: What is Solid?Why should I use Solid? How can I use Solid?
-
-Demos of Solid solutions preferably by locals building on Solid help the audience focus on practical implementations. You can also ask Solid app developers for recorded demos. 
-
-At the end of the first Solid Event it’s a good idea to announce your local Solid Challenge. A Solid Challenge is a small aim where individuals or groups can aim towards and compete. Try and design the Solid Challenge to be relevant to the local setting. Perhaps you want to gauge the temperature at the first event and collect contact details of those interested in a Solid Challenge rather than announcing it immediately. Either way, make sure to follow up with a written description of the Solid Challenge aim as well as the prize criteria and the jury. Partnering with a local university is a good way to engage with student activity and the incorporate Solid into the local academic training. 
-
-2.	Solid Challenge Prize Ceremony 
-
-Set a date for the second Solid Event where you can announce the winner. This is a good opportunity to invite local businesses and institutions who may be interested in implementing Solid with the people who engaged in the Solid Challenge. 
-
-Having speakers at the second Solid Event who can introduce Solid to businesses is helpful. 
-
-3.	Company and Institutional demonstrations 
-The third Solid Event is a good place to gather local companies and institutions who have been working on implementing Solid. The first demonstrations are likely to be early stage which is helpful so that you can understand how best to complement and support each other. 
+<div class="message is-info">
+  <p class="message-body">
+    In light of the COVID-19 pandemic, Solid Events are moving online for the foreseeable future. Join Solid World on the _second_ Thursday of every month at 1000 ET.
+  </p>
+</div>
 
 
-# Past events
+- Interested in speaking at an upcoming Solid World? You can fill out the [Solid World Speaker form](https://es1cz4pb7oi.typeform.com/to/nietD34f).
 
-| Date | Event | Organizer(s) | Recordings and Slides |
-|------|-------|--------------|--------------|
-|2020-01-30|[Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020)|[Jeroen van Beele](https://github.com/jjvbeele) ||
-|2020-01-07|[Solid Khartoum](http://solid-khartoum.atspace.cc)|[Ali Siragedien](https://github.com/alisirag)|[video](https://youtu.be/BhFFCzjAqm4)|
-|2019-12-10|[Solid Enschede](https://www.utwente.nl/en/digital-society/events/2019/12/63530/solid-christmas-meetup-enschede-how-to-fix-the-internet)|Erwin Folmer |
-|2019-11-20|[Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
-|2019-11-21|[Solid Montreal](https://www.meetup.com/Montreal-Decentralized-Linked-Data-Meetup/events/266218723/?fbclid=IwAR2sJy5LIwzjJG52HSyfj88TSW4t5w_svUsWKA-STNG_e-pwrkfoLC5ROpE)|[David H Mason](https://github.com/vid)|
-|26-10-2019|[Solid London](https://www.eventbrite.com/e/solid-intro-workshop-this-is-for-everyone-join-the-movement-tickets-77597174237?aff=ebdssbdestsearch)|[Kartika Tulusan](https://github.com/ktulusan)|
-|11-10-2019|[Solid Copenhagen](https://www.meetup.com/Solid-Copenhagen-Meetup-Group/events/264871687/)|Sarmad Reda|
-|10-10-2019|[Solid Amsterdam](https://www.meetup.com/nl-NL/Solid-Netherlands/events/263745707)|[Jeroen van Beele](https://github.com/jjvbeele)|
-|12-09-2019|[Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-70748445505)|[Christian Buggedei](https://github.com/JollyOrc)|
-|2019-07-20|Solid Beijing|[Ivy Dom](https://github.com/leinue)|[Solid Beijing 2019](https://github.com/learnsolid/solid-beijing-2019)
-|2019-07-05|[Solid San Jose](https://www.meetup.com/San-Jose-SOLID-Technology-decentralized-Web-Meetup/events/262620128/)|[John Bartas](http://www.bartas.net/resume.html)||
-|2019-06-28|[Solid Hague](https://www.meetup.com/vierdevrijdag/events/jjtxlqyzjblc/)|Bart Roorda| [The PLDN, Linked Data, Solid Intro & Demo](https://www.slideshare.net/PLDN/solid-the-hague-june-28th-2019-153348635)|
-|2019-06-12|[Solid Oviedo](https://www.eventbrite.com/e/solid-oviedo-solid-chat-challenge-prize-ceremony-tickets-61938296111)|[Jose Emilio Labra Gayo](https://github.com/labra)||
-|2019-05-29  | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-61643210502) | [Christian Buggedei](https://www.linkedin.com/in/buggedei)||
+- Have another Solid oriented event to share? Make a pull request to the [solidproject.org events page](https://github.com/solid/solidproject.org/edit/main/pages/solid-events.md).
+
+## 2022 Events
+
+| Date | Event | Organiser | Recordings, Slides and Notes |
+|----|-------|-------------|------------------------------|
+|2022-05-12| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | Register for the event over on [Eventbrite](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127). Agenda will be announced shortly on Eventbrite. |
+|2022-04-14| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | [Solid World Recording](https://vimeo.com/703101308) <br/> Presentation: <br/>  Philippe Duchesne, DataVillage & Luk Overmeire, VRT. DataVillage is developing a platform to perform confidential data processing on personal data, where end users can allow service providers to process their data to produce derived data, while having the guarantee that the original data will not be read by the service provider itself. DataVillage will be joined by VRT, the Flemish public broadcasting company, which is using the DataVillage platform to build a user-controlled content recommendation service for its audience. |
+|2022-03-10| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | [Solid World Recording](https://vimeo.com/691410463) <br/> Presentations: <br/> Jasmine Leonard, Solid developer tool [PodPro](https://podpro.dev) <br/> Sebastien Rosset, [ActivityPods](https://github.com/assemblee-virtuelle/activitypods), a new kind of architecture for web applications which aims to reconcile the ActivityPub and Solid standards |
+|2022-02-10| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | [Solid World Recording](https://vimeo.com/677388784) <br/> Presentations: <br/> Gertjan de Mulder, [PROV4ITDaTa](https://prov4itdata.ilabt.imec.be/docs#adding-data-providers) <br/> Pete Edwards, [The V1.1 release of the Conformance Test Harness](https://github.com/solid/conformance-test-harness) <br/> All links from the meetup are shared on [Solid Forum](https://forum.solidproject.org/t/solid-world-february-2022/5100) |
+|2022-01-13| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | [Solid World Recording](https://vimeo.com/666799465) <br/> Presentations: <br/> [Sarven Capadisli](https://csarven.ca/#i), [W3C Solid Community Group](https://www.w3.org/community/solid/) Chair and Solid Editor, presented the recent milestone release of [Solid Protocol Version 0.9](https://solidproject.org/TR/protocol). <br/> Ruben Verborgh, Professor of decentralized Web technology at Ghent University, presented [a vision on access, query and search across the decentralized Web, and the role that Web APIs play therein](https://rubenverborgh.github.io/Web-APIs-for-decentralized-knowledge-graphs/#). <br/> All links from the meetup are shared on [Solid Forum](https://forum.solidproject.org/t/solid-world-january-2022/5034) |
+
+## 2021 Events
+
+| Date | Event | Organiser | Recordings, Slides and Notes |
+|----|-------|-------------|------------------------------|
+|2021-11-04| [Solid World](https://www.eventbrite.co.uk/e/solid-world-november-2021-tickets-188624118817)|[Solid Team](https://solidproject.org/team)|[Solid World Recording](https://vimeo.com/643594034) <br/> Presentations: <br/> [Timea Turdean gave an update about SolidOS - the operating system for Solid.](https://drive.google.com/file/d/1uFJgcv91LO7L9Mki4VwooRKG7Jp6ocPS/view?usp=sharing) SolidOS code home: [https://github.com/solidos/solidos](https://github.com/solidos/solidos)  <br/> Justin Bingham gave updates on the growth of specifications in Solid and the Solid team. <br/> Jeff Zucker explained the new Solid Glossary welcoming to newcomers. The glossary contains libraries, essential tools, documentation, and community topics. |
+|2021-10-21| [Solid Implementer  Feedback Session](https://global.gotomeeting.com/join/654935701)|[Solid Team](https://solidproject.org/team)|The Solid Editorial Team would like to increase communication with community members who are actively implementing Solid compliant server or client technologies. This session is open to the public, and we welcome everyone to attend this session. However, in an effort to maintain focus on the stated goals of the session, only individuals who are actively engaged in implementing Solid compliant server or client technologies will be queued to speak. To actively participate, an implementer must: 1. Be a member of the Solid Community Group 2. RSVP in advance to feedback@solidproject.org. Must be able to cite active implementation work. Legitimate citations include links to Github repositories, links to product descriptions on websites, or otherwise credible explanation of active work efforts. Implementers are encouraged to submit questions, issues, or topics in advance to feedback@solidproject.org. This may be included in the RSVP, or sent separately afterwards. Minutes will be recorded, and posted to https://github.com/solid/specification/tree/main/meetings.|
+|2021-10-07|[Solid World](https://www.eventbrite.com/e/166561545065)|[Solid Team](https://solidproject.org/team)|[Solid World Recording](https://vimeo.com/626489187), Schedule a Solid Project Review: https://calendly.com/marrelle-bailey/website-research, Join [Inrupt's Developer Workshop](https://sites.google.com/inrupt.com/developer-workshop/home), Tani's Presentation: [Website](https://www.mysilio.com/), [Waitlist](https://mailchi.mp/865966fe3848/mysilio-waitlist), Email: tani@mysilio.com; Enno's Presentation: [His slides](https://docs.google.com/presentation/d/1v_cQe6Y22Vc8q7eKjjTcCRTYLa6ajPoJTth_roC2pwI/edit#slide=id.g500fb08b99_0_9), [Strategy](https://netwerkdigitaalerfgoed.nl/activiteiten/nationale-strategie-digitaal-erfgoed/), [GitHub repo](https://github.com/netwerk-digitaal-erfgoed), [Maintiner app link](https://solid-crs.netwerkdigitaalerfgoed.nl/), [Presentation App](https://solid-crs-presentatie.netwerkdigitaalerfgoed.nl/), Contact Email: mailto:tech@netwerkdigitaalerfgoed.nl; Maria's & Jan's Presentation: [Slides](https://indico.cern.ch/event/1082763/), [CERN-Solid document index](http://solid.cern.ch), [Chat](https://gitter.im/cern-solid/community), [The completed PoC Project description](https://it-student-projects.web.cern.ch/projects/cern-solid-code-investigation), [Indico](https://getindico.io), The PoC Project repo: [Comment module](https://github.com/janschill/solid-comment), [Indico Registration autocomplete](https://github.com/janschill/solid-autocomplete), [CERN mirror of the repo](https://gitlab.cern.ch/cern-solid), [The current Follow-up project](https://it-student-projects.web.cern.ch/projects/cern-solid-server-hosting), [Policy document for a CERN Solid server](https://codimd.web.cern.ch/1VLKK_rYQYixHmwOuGL2fg#)|
+|2021-09-02|[Solid World](https://www.eventbrite.co.uk/e/solid-world-september-2021-tickets-166560808863)|[Solid Team](https://solidproject.org/team)|[Solid World Recording](https://vimeo.com/596683888); Ruben Presentation Links: [Community Solid Server Gitter](https://gitter.im/solid/community-server), [Support for authorizing groups of people](https://github.com/solid/community-server/pull/900), [Demo project for how to create your module](https://github.com/FUUbi/solid-css-demo-module), [InterPlanetary File System (IPFS) support](https://github.com/solid/community-server/issues/783), and [Public instance of the Community Solid Server](https://github.com/solid/community-server/discussions/941); Jackson's Presentation: [Interesting Chat](https://interesting.chat)|
+| 2021-08-10 | [Women of Solid](https://www.womenofsolid.org/meetup.html)| [Virginia Balseiro](https://virginiabalseiro.com/)| [Marrelle Bailey](https://www.linkedin.com/in/marrelle-bailey/) was the hostess.<br/>Talks: [Marrelle Bailey](https://www.linkedin.com/in/marrelle-bailey/) "You Matter As You", [Juliette Carter](https://www.linkedin.com/in/juliette-carter-38605ba5/) The BBC and Solid.<br/>[Maria Dimou](https://www.linkedin.com/in/mariadimou/) CERN-Solid Proof of Concept.<br/> [Recording](https://youtu.be/K-FQuV1jERU)<br/> Additional links: [You Matter As You slides](https://www.canva.com/design/DAEmqeWpFZA/pEuSHd-OC9f5rgAdGAYp1A/view?utm_content=DAEmqeWpFZA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton), [The BBC and Solid slides](https://docs.google.com/presentation/d/1QCp4RDmkLv_4lsVqzWYzMWkn5YMkHlHAF3oPYf0cGO8/), [CERN-Solid Proof of Concept slides](https://indico.cern.ch/event/1065884/).|
+|2021-08-05|[Solid World](https://www.eventbrite.co.uk/e/solid-world-august-2021-tickets-158445927033?aff=erelexpmlt)|[Solid Team](https://solidproject.org/team)| [Recording](https://vimeo.com/585006498)<br/> Also [Notes](https://indico.cern.ch/event/1065513/) by attendant Maria Dimou <br/>Ruben's Update: [Community server](https://github.com/solid/community-server) & [installation guide](https://solidproject.org/self-hosting/css) <br/>Oz Update: [Compability Survey](https://research.net/r/solidappcompatibility) <br/>[Jeff’s presentation](https://github.com/jeff-zucker/deit/blob/main/Jeff-Talk.md) <br/>[Kyra Assaad’s presentation](https://www.canva.com/design/DAEl-z5tMek/Q8DgVH52TN5Fu90tOBxn9w/view); [DEI Team Gitter](https://gitter.im/solid/DEIT);  [Kyra's Twitter](https://Twitter.com/KyraAssaad) <br/>[Sarven’s Presentation](https://www.w3.org/community/solid/wiki/Meetings#2021-08-05)|
+|2021-07-01|[Solid World](https://www.eventbrite.com/e/158443820733)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/572726511)|
+|2021-06-21|[NLnet; NGI webinar on Linked Data](https://nlnet.nl/events/20210621/LinkedData/index.html)|[NLnet foundation](https://nlnet.nl/foundation/)||
+| 2021-06-21 | [DI2F: Decentralising The Internet With IPFS and Filecoin](https://networking.ifip.org/2021/workshops/di2f-decentralising-the-internet-with-ipfs-and-filecoin)|[Aalto University, Finland](https://www.aalto.fi/en)|<em>Solid over the Interplanetary File System</em><br>Fabrizio Parrillo (U. Basel, Switzerland), Christian F Tschudin (U. Basel, Switzerland)|
+|2021-06-03| [Solid World](https://www.eventbrite.com/e/147210272889)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/558597018)<br/>Also [Notes](https://indico.cern.ch/event/1046020/) by attendant Maria Dimou. <br/>Tim’s Flanders Press: [Read about the news from Flanders](https://www.tijd.be/app/carousel1/tim-berners-lee-de-bedenker-van-het-internet-we-kunnen-het-wereldwijde-web-nog-fiksen/10309722.html); [Digita](https://www.digita.ai/): [Digita Resources](https://digita.ai/resources) and [Reuse Patterns](https://go.digita.ai/reuse-patterns); [Swedish Public Employment Service](https://www.digg.se/om-oss/nyheter/2021/vardefullt-for-individen-att-fa-okad-insyn-och-kontroll-over-sin-data): [Proof of Concept (PoC)](https://gitlab.com/arbetsformedlingen/individdata/rupoc)|
+| 2021-05-27 | [Your Personal Linked Data Graphs with Solid](http://www.lotico.com/index.php/Your_Personal_Linked_Data_Graphs_with_Solid)|[Lotico](http://www.lotico.com)||
+| 2021-05-07 | [Understory Digital Garden Club — Solid](https://www.eventbrite.com/e/understory-digital-garden-club-tickets-151311208899)|[Understory](https://www.understory.coop/)||
+| 2021-05-06 | [Solid World May](https://www.eventbrite.com/e/solid-world-may-2021-tickets-146761614941)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/546202189)<br/>Also [Notes](https://indico.cern.ch/event/1037390/) by attendant Maria Dimou. <br/>Jackson Morgan’s links: [Liqid Chat Demo](https://tinyurl.com/liqid-chat), [Twitter](https://twitter.com/otherJackson), [YouTube](https://www.youtube.com/channel/UCMVpUX6URfy5SnRn9OWteyQ), [LinkedIn](https://www.linkedin.com/in/jacksoncmorgan/), [TikTok](https://www.tiktok.com/@otherotherjackson), [Client Repo](https://github.com/o-development/ochat-client) [API Repo](https://github.com/o-development/ochat-api). <br/>Christian Buggedei's links: [Darcy.is](https://darcy.is/), [Help Needed](https://opencollective.com/darcy-is/updates/we-are-looking-for-help).<br/>Aaron Coburn's and Jack Lawson's links: [Notifications Demo](https://notifications-demo.docs.inrupt.com), [PodBrowser](https://podbrowser.inrupt.com), [Docs](https://docs.inrupt.com/ess/latest/services/service-websocket/).|
+| 2021-04-01 | [Solid World April](https://www.eventbrite.com/e/solid-world-april-2021-tickets-144512880917)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/solidworld/review/531907097/eda903e37f)<br/>Also [Notes](https://indico.cern.ch/event/1028037/) by attendant Maria Dimou. <br/>Tim's talk: [Web's 32nd Birthday](https://webfoundation.org/2021/03/web-birthday-32/).<br/>Oz’s talk: [Survey for the Universal API](https://www.research.net/r/GWWJB7V).<br/>Graphmetrix' talk: [Website](https://graphmetrix.com/), [sign up for a Trin Pod](https://trinpod.us/).<br/>Nextcloud/PDS Interop's talk: [PDS Interop Website](https://pdsinterop.org), [PDS Interop](https://github.com/pdsinterop), [Yvo Brevoort](https://github.com/ylebre), [Solid Test Suite](https://github.com/solid/test-suite), [PHP Solid Server](https://github.com/pdsinterop/php-solid-server), [Nextcloud Solid Server](https://github.com/pdsinterop/solid-nextcloud), [slides](http://solid-world.dev.muze.nl/).<br/>Spoter.Me's talk: [homepage](https://spoter.me).|
+| 2021-03-22 | [Women of Solid](https://www.womenofsolid.org/meetup.html)| [Virginia Balseiro](https://virginiabalseiro.com/)| [Marrelle Bailey](https://www.linkedin.com/in/marrelle-bailey/) was the hostess.<br/> [Virginia Balseiro](https://virginiabalseiro.com/) gave us a short introduction to Solid, [Timea Turdean](http://linkedin.com/in/timeaturdean) talked about RDF.<br/>[Sharon Stratsianis](https://www.linkedin.com/in/sharon-stratsianis-9341802/) told us about SolidOS.<br/>[Hindia M. Mohammed](https://www.linkedin.com/in/hindiamohammed/) presented on the authentication process in Solid.<br/>Recording for the first Women of Solid Meetup is [up on YouTube](https://youtu.be/FEPabu0_3z0).<br/> Additional links: [Introduction to Solid slides](https://docs.google.com/presentation/d/1dvpkYzwyCiQ7Fyiei6PwbPVm0P2dZQdvUyRcGQwRlek/edit?usp=sharing), [RDF in Solid slides](https://docs.google.com/presentation/d/1LyDNVcwHPQz30XS95gXsYoUkO5hmu8j7IPRefUBsCX8/edit?usp=sharing), [SolidOS slides](https://1drv.ms/p/s!Ap0EpVGWDqdSvVZRRimjuyCbQ_rg?e=MeB4I9), [Authentication in Solid slides](https://docs.google.com/presentation/d/1L3Z4RYoA6ZN4cBrZNPsqBgCO89UFTSFF-ElLdh5mh9o/edit?usp=sharing).|
+| 2021-03-04 | [Solid World March](https://www.eventbrite.com/e/solid-world-tickets-135552054845)|[Solid Team](https://solidproject.org/team)|[Recording](https://docs.google.com/document/d/1CitMmwmca2G4CEPLBKVF_KQ7Obk9qsdZGhhdOfIzJ5Q/edit#heading=h.yumvnttmitue). Also [Notes](https://indico.cern.ch/event/1015408/) by attendant Maria Dimou. <br/>Community Spotlights: [Virginia Balseiro](https://www.virginiabalseiro.com/) who created [Women of Solid](https://www.womenofsolid.org/) and [Digita](https://www.digita.ai/) for their [introduction videos](https://www.youtube.com/channel/UCA22hu-0VEHt5tCc7jad74g).<br/>Ruben Verborgh gave an update on Community Solid Server (CSS) (mentioned links: [his chat from his pod](https://css.verborgh.org/public/2021/Solid World/Chat/)).<br/> Osmar Olivo asked for [feedback](https://inrupt.atlassian.net/servicedesk/customer/portal/7) on [Pod Spaces](https://docs.inrupt.com/pod-spaces/).<br/> [LifeScope](https://lifescope.io/) presented what they're working on ([slides](https://docs.google.com/presentation/d/1vg9y_o0KtaC1j9w6yxpukEeoOsdbMCQa2zh1hQO2pYw)). <br/> Creafree ([slides](https://ln2.sync.com/dl/53b6274d0/fcs466su-bs8bgykx-hkfmpz2a-rmwamczt/view/default/9895814900003)). |
+| 2021-02-04 | [Solid World February](https://www.eventbrite.com/e/solid-world-tickets-135541896461)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/508623332). Also, [Notes](https://codimd.web.cern.ch/s/XMkykenm3#) by attendant Maria Dimou.<br/> Tim Berners-Lee’s Update: [New York Times](https://www.nytimes.com/2021/01/10/technology/tim-berners-lee-privacy-internet.html?smid=tw-share) and [Reuters Next conference](https://www.reuters.com/article/us-tech-bernerslee-interview/father-of-the-web-tim-berners-lee-prepares-do-over-idUSKBN29H1JK).<br/> Ruben Verborgh’s update on Community Solid Server: [recipes](https://github.com/solid/community-server-recipes). <br/> Osmar Olivo update on Node.js support: [Inrupt Solid Client Libraries](https://docs.inrupt.com/developer-tools/javascript/client-libraries/). <br/>[Noel DeMartin’s](https://noeldemartin.com/) Presentation: [Slides](file:///Users/marrellebailey/Downloads/NoelDeMartin-Slides.pdf), [Media Kraken](https://noeldemartin.github.io/media-kraken/login), [journal](https://noeldemartin.com/tasks/). <br/>Jasmine Leonard’s Presentation: [Slides](), [PodExplorer](https://podexplorer.gigalixirapp.com), [Solid Forum](https://forum.solidproject.org/), [Solid Website](http://solidproject.org/), [GitHub Repos](https://github.com/solid/solidproject.org). <br/>Hindia Mohammed’s Presentation: [Ekseli](https://ekseli.fi/)|
+| 2021-01-07 | [Solid World January](https://www.eventbrite.com/e/solid-world-tickets-132301957717)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/498076263).  <br>Resources from event: [Solid Operating System (OS) Roadmap](https://solidos.solidcommunity.net/public/Roadmap/Tasks/index.ttl#this), [Community Solid Server (CSS)](https://communitysolidserver.github.io/CommunitySolidServer/docs/), [Inrupt's Enterprise Solid Server (ESS)](https://inrupt.com/products/enterprise-solid-server), [Ruben's Code for the lights](https://github.com/RubenVerborgh/solid-hue), [Specifications](https://solid.github.io/specification/#work-items), [Specifications Panels (open to all)](https://github.com/solid/process/blob/master/panels.md).|
+
+## 2020 Events
+
+| Date | Event | Organiser | Recordings, Slides and Notes |
+|----|-------|-------------|------------------------------|
+| 2020-12-29 | [Solid Networking December](https://www.eventbrite.com/e/solid-networking-december-tickets-131244348379)|[Jackson Morgan](https://twitter.com/otherJackson)||
+| 2020-12-03 | [Solid World December](https://www.eventbrite.com/e/solid-world-tickets-128665029567)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/487088029). From Ruben's presentation: the [Community Server](https://github.com/solid/community-server/), [Ruben's live list](https://rubenverborgh.github.io/solid-list-viewer/) with [his CSS Pod](https://css.verborgh.org/list). From CERN's presentation: [slides](https://indico.cern.ch/event/977577/attachments/2150316/3635690/SolidWorld2020-12-03presentation.pdf), [Indico source code](https://github.com/indico/) and the [Indico webpage](https://getindico.io/). The [Data Village website](https://www.datavillage.me/). Digita's [Inox](https://www.inox.app/).|
+| 2020-11-05 | [Solid World November](https://www.eventbrite.com/e/solid-world-tickets-124481709143)|[Solid Team](https://solidproject.org/team)|[Full recording](https://vimeo.com/479873289). [Notes](https://indico.cern.ch/event/974494/attachments/2140273/3606052/SolidWorld2020-11-05notes.pdf) by attendant Maria Dimou.|
+| 2020-10-01 | [Solid World October](https://www.eventbrite.com/e/solid-world-tickets-119073298441)|[Solid Team](https://solidproject.org/team)|[Recording of Inrupt demonstrating their React SDK](https://vimeo.com/468132352). [Recording of Janeiro Digital demonstrating their work on Personal Health Stores for the NHS.](https://vimeo.com/471703581) [Notes](https://indico.cern.ch/event/963601/attachments/2116869/3573995/SolidWorld2020-10-01notes.pdf) by attendant Maria Dimou.|
+| 2020-09-03 | [Solid World September](https://www.eventbrite.com/e/solid-world-tickets-115477011851)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/454813146) and slides: [Community Solid Server update (Ruben V.)](https://rubenverborgh.github.io/Solid-World-September-2020/#)|
+| 2020-08-06 | [Solid World August](https://www.eventbrite.com/e/solid-world-tickets-111960609196#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/446435972) and slides: [Community Solid Server (Ruben V.)](https://rubenverborgh.github.io/Solid-World-August-2020/), [Community Roadmap (Tim B.L.)](https://solidos.solid.community/public/Roadmap/Tasks/). [Notes](https://indico.cern.ch/event/947969/attachments/2089239/3574007/SolidWorld2020-08-06notes.pdf) by attendant Maria Dimou.|
+| 2020-07-02 | [Solid World July](https://www.eventbrite.com/e/solid-world-tickets-108099311952?aff=erelexpmlt)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/434767351) and [Slides](https://docs.google.com/presentation/d/1CyidWcwBs_1FPGLiFazExhjFXOQCSqZb78HyC7LFv_o/edit#slide=id.g8225d1e7b1_0_1)|
+| 2020-06-04 | [Solid World June](https://www.eventbrite.com/e/solid-world-june-tickets-104631158612)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/425919959)|
+| 2020-05-07 | [Solid World May](https://www.eventbrite.com/e/solid-world-tickets-101812024506#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/415976385)|
+| 2020-04-02 | [Solid World April](https://www.eventbrite.com/e/solid-world-tickets-100417571660#)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/404963568)|
+| 2020-03-05 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/events/268684820/) | [Li Lu](https://github.com/SolidToronto) ||
+| 2020-02-20 | [Solid San Francisco](https://meetabit.com/events/february-2020-bay-area-solid-interest-club-meetup) | [Travis Vachon](https://github.com/travis) | - |
+| 2020-02-19 | [Solid Oviedo](https://ingenieriainformatica.uniovi.es/actualidad/eventos/-/asset_publisher/uS6D/content/conferencia-solid-search:-introduccion-a-solid-y-como-cambiar-el-paradigma-de-los-buscadores-de-co?redirect=%2F) | [Alejandro Juan García](https://gitter.im/alexcorvis84) | [recording](https://youtu.be/xBopDO2NTxo) and [slides](https://docs.google.com/presentation/d/19Glq6dcIa83nliQR1fvS9ZzYglogFD7mT5Pb5JLFrIQ/edit?usp=sharing) |
+| 2020-02-18 | [Solid Barcelona](https://www.meetup.com/MyData-Barcelona/events/268485856/)| [Noel De Martin](https://noeldemartin.com)|[slides](https://speakerdeck.com/noeldemartin/an-introduction-to-solid)
+| 2020-02-10 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-88843267605)|Christian Buggedei||
+| 2020-01-30 | [Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020) | [Jeroen van Beele](https://github.com/jjvbeele) |
+| 2020-01-07 | [Solid Khartoum](http://solid-khartoum.atspace.cc)|[Ali Siragedien](https://github.com/alisirag)| [recording](https://youtu.be/BhFFCzjAqm4)|
+
+## Earlier Events
+
+| Date | Event | Organiser | Recordings, Slides and Notes |
+|----|-------|-------------|------------------------------|
+| 2019-12-10 | [Solid Enschede](https://www.utwente.nl/en/digital-society/events/2019/12/63530/solid-christmas-meetup-enschede-how-to-fix-the-internet)|Erwin Folmer |
+| 2019-11-20 | [Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
+| 2019-11-21 |  Solid Montreal|[David H Mason](https://github.com/vid)|
+| 2019-10-26 | [Solid London](https://www.eventbrite.com/e/solid-intro-workshop-this-is-for-everyone-join-the-movement-tickets-77597174237?aff=ebdssbdestsearch)|[Kartika Tulusan](https://github.com/ktulusan)|
+| 2019-10-11 | [Solid Copenhagen](https://www.meetup.com/Solid-Copenhagen-Meetup-Group/events/264871687/)|Sarmad Reda|
+| 2019-10-10 |  Solid Amsterdam|[Jeroen van Beele](https://github.com/jjvbeele)|
+| 2019-09-12 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-70748445505)|[Christian Buggedei](https://github.com/JollyOrc)|
+| 2019-07-20 |  Solid Beijing|[Ivy Dom](https://github.com/leinue)|[Solid Beijing 2019](https://github.com/learnsolid/solid-beijing-2019)
+| 2019-07-05 | [Solid San Jose](https://www.meetup.com/San-Jose-SOLID-Technology-decentralized-Web-Meetup/events/262620128/)|[John Bartas](http://www.bartas.net/resume.html)||
+| 2019-06-28 | [Solid Hague](https://www.meetup.com/vierdevrijdag/events/jjtxlqyzjblc/)|Bart Roorda| [The PLDN, Linked Data, Solid Intro & Demo](https://www.slideshare.net/PLDN/solid-the-hague-june-28th-2019-153348635)|
+| 2019-06-12 | [Solid Oviedo](https://www.eventbrite.com/e/solid-oviedo-solid-chat-challenge-prize-ceremony-tickets-61938296111)|[Jose Emilio Labra Gayo](https://github.com/labra)||
+| 2019-05-29 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-61643210502) | [Christian Buggedei](https://www.linkedin.com/in/buggedei)||
 | 2019-05-22 | [Solid London](https://www.meetup.com/Solid-London/) | [Paul Worrall](https://www.linkedin.com/in/worrall/) |[Inaugral Solid London Video](https://youtu.be/urxRBvpEjR4)|
-| 2019-05-13 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/) | [Li Lu](https://github.com/SolidToronto) || 
-| 2019-05-08 | [Solid New York](https://www.meetup.com/NextWeb-NYC/) | Brian Cort ||
+| 2019-05-13 | [Solid Toronto](https://www.meetup.com/Solid-Toronto/) | [Li Lu](https://github.com/SolidToronto) ||
+| 2019-05-08 |  Solid New York | Brian Cort ||
 | 2019-05-02 | [Solid Seattle](https://www.eventbrite.com/e/solid-seattle-tickets-60131990402) | [Jon Pederson](https://www.linkedin.com/in/jonpederson/) ||
 | 2019-04-09 | [Solid San Jose](https://www.meetup.com/San-Jose-SOLID-Technology-decentralized-Web-Meetup/events/260087036/) | [John Bartas](http://www.bartas.net/resume.html) ||
 | 2019-04-09 | [Solid Utrecht](https://www.pldn.nl/index.php/PLDN-Solid_Kick-Off_%E2%80%93_April_9th_2019) | [Pieter van Everdingen](https://www.linkedin.com/in/pietervaneverdingen/) ||
 | 2019-03-27 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-55479654139) | [Christian Buggedei](https://github.com/JollyOrc) ||
 | 2019-03-22 | [Solid Boston](https://www.eventbrite.com/e/solid-startup-workshop-boston-tickets-57623868542) | [Kelly O'Brien](https://github.com/InruptKelly) ||
 | 2019-03-21 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-57623377072) | [Kelly O'Brien](https://github.com/InruptKelly) ||
-| 2019-02-20 | [Solid Saxony](https://forum.solidproject.org/t/solid-meetup-saxony-germany/1215) | [Team 4C](https://wefourc.com/) ||
-| 2019-02-08 | Solid Stockholm | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
-| 2019-01-09 | [Solid Berlin](https://supermarkt-berlin.net/event/solid-meetup-berlin/) | [Christian Buggedei](https://github.com/JollyOrc) ||
-| 2018-12-12 | Solid Oslo | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
-| 2018-12-11 | [Solid Utrecht](https://www.meetup.com/Solid-Netherlands/) | [Pierluigi Casale](https://www.linkedin.com/in/pierluigi-casale-41271430/) ||
+| 2019-02-20 | [Solid Saxony](https://forum.solidproject.org/t/solid-meetup-saxony-germany/1215) | [Team 4C](https://web.archive.org/web/20191021031741/https://www.wefourc.com/) ||
+| 2019-02-08 |  Solid Stockholm | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
+| 2019-01-09 |  Solid Berlin | [Christian Buggedei](https://github.com/JollyOrc) ||
+| 2018-12-12 |  Solid Oslo | [Eduardo Ibacache Rodriguez](https://github.com/eduardoinnorway) ||
+| 2018-12-11 |  Solid Utrecht | [Pierluigi Casale](https://www.linkedin.com/in/pierluigi-casale-41271430/) ||
 | 2018-12-05 | [Solid Boston](https://www.eventbrite.com/e/solid-boston-tickets-52634666705) | [Mitzi László](https://github.com/Mitzi-Laszlo) ||
-|2016-04-11|[Solid Montreal](http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web)|[International World Wide Web Conference](http://www2016.ca)|--------------|
-
+| 2016-04-11 | [Solid Montreal](http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web)|[International World Wide Web Conference](http://www2016.ca)||

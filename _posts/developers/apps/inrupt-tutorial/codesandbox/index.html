@@ -1,0 +1,76 @@
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8" />
+        <title>Getting Started: Inrupt JavaScript Client Libraries</title>
+        <script defer src="./index.js"></script>
+        <link rel="stylesheet" href="my-demo.css" />
+      </head>
+
+      <body>
+        <header>
+          <h2>Getting Started</h2>
+          <h3>with Inrupt JavaScript Client Libraries</h3>
+        </header>
+        <section id="login" class="panel">
+          <div class="row">
+            <label id="labelLogin" for="btnLogin"
+              >1. Click the button to log into
+              <span id="solid_identity_provider"
+                >...provided by the JavaScript code...</span
+              >:
+            </label>
+            <button name="btnLogin" id="btnLogin">Login</button>
+            <p id="labelStatus" class="labelStatus"></p>
+          </div>
+        </section>
+
+        <div id="read" class="panel">
+          <div class="row">
+            <form id="writeForm">
+              <label id="writelabel" for="input_name">2. Write your name: </label>
+              <input
+                type="text"
+                id="input_name"
+                name="name"
+                size="50"
+                placeholder="Your name here"
+              />
+              <button type="submit">
+                Write to Profile
+              </button>
+            </form>
+          </div>
+
+          <dl class="display">
+            <dt>Writing status:&nbsp</dt>
+            <dd id="labelWriteStatus" class="labelStatus">...not written yet...</dd>
+          </dl>
+        </div>
+
+        <div id="read" class="panel">
+          <div class="row">
+            <form id="readForm">
+              <label id="readlabel" for="webID"
+                >3. Read back name (anyone's!) from their WebID:
+              </label>
+              <input
+                type="url"
+                id="webID"
+                name="webID"
+                size="50"
+                placeholder="...not logged in yet - but enter any WebID to read from its profile..."
+              />
+              <button type="submit" name="btnRead" id="btnRead">
+                Read Profile
+              </button>
+            </form>
+          </div>
+          <dl class="display">
+            <dt>Formatted Name (FN) read from Pod:&nbsp</dt>
+            <dd id="labelFN">...not read yet...</dd>
+          </dl>
+        </div>
+      </body>
+    </html>

@@ -6,7 +6,7 @@ permalink: logo-usage-guidelines
 
 # Introduction
 
-These guidelines are to help you when representing the Solid brand in apps, communications, content, events, projects or assets. They incorporate guidance for visual elements such as logos, colours, typography, iconography and graphic devices. There is also guidance for writing such as tone and format. These guidelines are intended for digital application. For more specific print guidelines please contact [Mitzi László](https://github.com/Mitzi-Laszlo) for further guidance.
+These guidelines are to help you when representing the Solid brand in apps, communications, content, events, projects or assets. They incorporate guidance for visual elements such as logos, colours, typography, iconography and graphic devices. There is also guidance for writing such as tone and format. These guidelines are intended for digital application.
 
 Why do we need brand guidelines?
 -
@@ -18,7 +18,7 @@ Please use these guidelines for any instances where you are looking to reference
 
 For event organisers or communications/content creators
 -
-If you are looking to create Solid communications, collateral or content please follow all aspects of these guidelines. For guidance on creating user interfaces, videos, animation or sound please contact [Mitzi László](https://github.com/Mitzi-Laszlo) for further guidance.
+If you are looking to create Solid communications, collateral or content please follow all aspects of these guidelines.
 ___
 
 # Values

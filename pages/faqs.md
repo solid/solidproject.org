@@ -10,7 +10,7 @@ Got a question that's not here? Try asking on the [Solid forum](https://forum.so
 
 ## What exactly is personal data? 
 Personal data is personal. It refers to data sets describing a person ranging from physical attributes to their preferences and behaviour. Personal data is a legal concept, not a technical concept, and it is not utilised in all jurisdictions. 
-<details><summary><a>More details...</a> </summary>
+<details><summary class="has-text-primary">More details... </summary>
 Examples of personal data include: location, genome data, written communication, spoken communication, lists of contacts, internet browsing habits, financial transactions, supermarket spending, tax payments, criminal record, laptop and mobile phone camera lens recording, device microphone recordings, driving habits via car trackers, mobile and health records, fitness activity, nutrition, substance use, heartbeat, sleep patterns and other vital signs.
 
 In Europe <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e1489-1-1">personal data is defined under the General Data Protection Regulation (GDPR)</a> as "any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;"
@@ -34,8 +34,8 @@ A Pod is where data is stored on the Web with Solid. ([see quote](http://www.you
 
 **A WebID is a unique identifier** used to identify a specific user. An example of what a WebID could look like is: https://fulano.pod.provider/profile/card#me. To share data with a third party, a user associates sharing preferences to the WebID of that third party. Don't worry though: [it's not just one more login to remember](#fewer_passwords). 
 <details>
-<summary><a>More details...</a></summary>
-A WebID is an <a href="https://tools.ietf.org/html/rfc3987">Internationalised Resource Identifier (IRI)</a> that can be dereferenced as a <a href="http://xmlns.com/foaf/spec/">FOAF</a> profile document serialized in <a href="https://www.w3.org/RDF/">RDF</a> <a href="https://dvcs.w3.org/hg/WebID/raw-file/tip/spec/identity-respec.html">(source)</a>. In Solid, WebIDs are used to identify Agents i.e. people and organisations as well as to manage their access rights though <a href="https://solid.github.io/specification/wac/">Web Access Control</a>. 
+<summary class="has-text-primary">More details...</summary>
+A WebID is an <a href="https://tools.ietf.org/html/rfc3987">Internationalised Resource Identifier (IRI)</a> that can be dereferenced as a <a href="http://xmlns.com/foaf/spec/">FOAF</a> profile document serialized in <a href="https://www.w3.org/RDF/">RDF</a> <a href="https://dvcs.w3.org/hg/WebID/raw-file/tip/spec/identity-respec.html">(source)</a>. In Solid, WebIDs are used to identify Agents i.e. people and organisations as well as to manage their access rights though <a href="https://solid.github.io/web-access-control-spec/">Web Access Control</a>. 
 </details>
 
 ## How are Pods different from WebIDs?
@@ -46,8 +46,8 @@ A WebID is an <a href="https://tools.ietf.org/html/rfc3987">Internationalised Re
 
 To log into Solid apps and/or access data on Pods, you just have to provide your WebID and login to your Identity Provider, like "Sign in with Google" today. It is possible for the same company or organisation to be both a Pod Provider and a Identity Provider although they are **distinct separable services** that are compatible with other Pod Providers and Identity Providers (which means you are free to choose the provider that suits you the most). 
 <details> 
-<summary><a>More details...</a></summary>
-<p>An Identity Provider implements an identification protocol (e.g. [OIDC](https://openid.net/connect/)), and allows you to prove that you own the WebID.</p>
+<summary class="has-text-primary">More details...</summary>
+<p>An Identity Provider implements an identification protocol (e.g. <a href="https://openid.net/connect/">OIDC</a>), and allows you to prove that you own the WebID.</p>
 <p>A Pod Provider delivers storage space under one or more domains, usually (but not necessarily) pointed to by <code>&lt;webID&gt; solid:storage &lt;pod&gt;</code> statements included in the profile document associated to the WebID.</p>
 </details>
 
@@ -55,7 +55,7 @@ To log into Solid apps and/or access data on Pods, you just have to provide your
 
 ## How does Solid relate to other Web standards?
 
-**Solid does not reinvent the wheel**. When you use Solid you will still be able to access your data using the same Web browser on the same computer. Solid is still the web, but with a few things added and a few assumptions overturned ((see quote at 33:30](https://www.bbc.co.uk/programmes/m000bj15)). 
+**Solid does not reinvent the wheel**. When you use Solid you will still be able to access your data using the same Web browser on the same computer. Solid is still the web, but with a few things added and a few assumptions overturned ([see quote at 33:30](https://www.bbc.co.uk/programmes/m000bj15)). 
 
 Solid adds: 
 * An identification system so that instead of having to sign in to everything with Google or Facebook you can sign in with your favourite Solid provider and you won't be tracked. 
@@ -65,8 +65,8 @@ Solid adds:
 Solid overturns assumptions: 
 * When you start a Solid app, instead of the app storing the data itself, it stores it on your Pod. When you use the app, you choose which app to use, and you choose which Pod to use with which app. 
 <details>
-<summary><a>More details</a></summary>
-Solid is built on top of existing Web standards. The core Solid specification relies on <a href="https://www.w3.org/TR/ldp/">LDP</a> and <a href="https://solid.github.io/specification/wac/">WAC</a> (<a href="https://github.com/solid/web-access-control-spec">WAC draft</a>, both being based on <a href="https://tools.ietf.org/html/rfc2616">HTTP</a> and <a href="https://www.w3.org/RDF/">RDF</a> vocabularies. Solid also uses a subset of <a href="https://www.w3.org/TR/sparql11-overview/">SPARQL</a> UPDATE through HTTP PATCH queries. Identification in Solid is based on <a href="https://www.w3.org/2005/Incubator/webid/spec/tls/">WebID-TLS</a> and/or <a href="https://openid.net/connect/">OIDC</a>.
+<summary class="has-text-primary">More details</summary>
+Solid is built on top of existing Web standards. The core Solid specification relies on <a href="https://www.w3.org/TR/ldp/">LDP</a> and <a href="https://solid.github.io/web-access-control-spec/">WAC</a> (<a href="https://github.com/solid/web-access-control-spec">WAC draft</a>, both being based on <a href="https://tools.ietf.org/html/rfc2616">HTTP</a> and <a href="https://www.w3.org/RDF/">RDF</a> vocabularies. Solid also uses a subset of <a href="https://www.w3.org/TR/sparql11-overview/">SPARQL</a> UPDATE through HTTP PATCH queries. Identification in Solid is based on <a href="https://www.w3.org/2005/Incubator/webid/spec/tls/">WebID-TLS</a> and/or <a href="https://openid.net/connect/">OIDC</a>.
 </details>
 
 # Storage 
@@ -76,19 +76,8 @@ Solid is built on top of existing Web standards. The core Solid specification re
 **No**. Self-hosting means that your data would sit at home on your own physical hard drive or server. Self-hosting is possible but not essential when using Solid, and it currently requires some technical knowledge. A Solid user can rely on an Identity Provider and a Pod Provider, and is **not expected to have any particular expertise**. It is also possible to self-host and become a small Identity Provider and Pod Provider, to provide Solid to your family, association, friends...
 
 <details>
-<summary><a>More details</a></summary>
-The Solid standard is open as are some of its implementations such as [Node Solid Server](https://github.com/solid/node-solid-server) meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
-</details>
-
-# Storage 
-
-## Are Solid users expected to setup their own servers and self-host?
-
-**No**. Self-hosting means that your data would sit at home on your own physical hard drive or server. Self-hosting is possible but not essential when using Solid, and it currently requires some technical knowledge. A Solid user can rely on an Identity Provider and a Pod Provider, and is **not expected to have any particular expertise**. It is also possible to self-host and become a small Identity Provider and Pod Provider, to provide Solid to your family, association, friends...
-
-<details>
-<summary><a>More details</a></summary>
-The Solid standard is open as are some of its implementations such as such as [Node Solid Server](https://github.com/solid/node-solid-server) meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
+<summary class="has-text-primary">More details</summary>
+The Solid standard is open as are some of its implementations such as the <a href="https://github.com/CommunitySolidServer/CommunitySolidServer">Community Solid Server</a> meaning that anyone can self-host their own Identity and Pod or the Identity and Pod of a group of users. 
 </details>
 
 ## Can data exist in more than one Pod? 
@@ -100,10 +89,10 @@ The Solid standard is open as are some of its implementations such as such as [N
 **Eventually, yes**. The Solid long term vision includes local first and a flexibility of different topologies of patch-passing sync networks. However, there are no implementations yet. 
 
 ## When I want to leave a Pod provider, can I take my data with me?
-Yes, unless the Pod provider doesn't allow you to. The best way to understand the service of a particular Pod provider is to read the Terms. There are some support tools like [Terms of Service Don't Read](https://tosdr.org) to help you understand the small print more easily.
+Yes, unless the Pod provider doesn't allow you to. The best way to understand the service of a particular Pod provider is to read the Terms. There are some support tools like [Terms of Service; Didn't Read](https://tosdr.org) to help you understand the small print more easily.
 
 <details>
-<summary><a>More details</a></summary>
+<summary class="has-text-primary">More details</summary>
 The data in Solid Pods is structured according to Linked Data principles by the applications writing them in the first place. Therefore, the Pod Provider is completely neutral regarding the Pod <b>content</b>, and the same data structure should be supported by any Pod Provider. The storage technology picked by each Pod Provider is <a href="#how-storage">another question</a>. 
 </details>
 
@@ -114,7 +103,7 @@ The data in Solid Pods is structured according to Linked Data principles by the 
 **It depends on the Pod Provider**. From a user point of view, how the data is stored is not as important as how it is accessed and controlled. No matter who the Pod Provider is, in order to be Solid compliant, it has to expose data the same way: as resources in folders. However,the implementors of the standard are free to pick the underlying technologies according to their own purposes and constraints. That is why performance may vary from one Pod Provider to another.
 
 <details>
-<summary><a>More details</a></summary>
+<summary class="has-text-primary">More details</summary>
 As any standard, Solid only describes the interaction model the system must be compliant with. The Pod Provider only exposes a REST read-write interface to the clients, to which the storage technology is irrelevant, as it is in most Web-based systems. How this interface binds with the storage is specific to each Pod Provider.
 </details>
 
@@ -131,7 +120,7 @@ You can find out the differences between each of the service providers by lookin
 
 Having two WebIDs with two different identity providers or the same identity provider is very much like having two email addresses. These WebIDs are unrelated to each other, and can have different data sharing preferences attached to them, e.g. one allowed to access your company documents, and the other your health record. 
 
-## If I join Solid, can I stop using it when I want ?
+## If I join Solid, can I stop using it when I want?
 **Yes**. To leave Solid, you will need to: 
 1. Delete your Pod(s)
 2. Delete your WebID 
@@ -139,38 +128,38 @@ Having two WebIDs with two different identity providers or the same identity pro
 Each Pod Provider may offer a its own procedure to delete Pods, which means closing the storage space they rented to you. Once your Pods are deleted, you can delete your WebID by closing your account at your Identity Provider. As for Pod Providers, the exact procedure may differ from an Identity Provider to the other. Remember that you need to log in your Identity Provider to have access to your Pods: if you delete your Identity Provider account first, you may lock yourself out of your Pods.
 
 <details>
-<summary><a>More details</a></summary>
+<summary class="has-text-primary">More details</summary>
 Technically, you may host your <a href="http://xmlns.com/foaf/spec/">FOAF</a> profile independently from your Identity Provider, and have it point to a WebID you control. In this case, to fully delete your Solid identity, you may want to delete this profile document as well.
 </details>
 
 # The Business Model 
 
 ## Will Pod providers get paid? By who? 
-**This will be determined by the market**. It is likely that several business models emerge, some where the user pays for storage, and some funded by advertising for instance, like on the current Web platforms. However, with Solid, if the terms of your Pod Provider change, or if you want to switch to an advertising-free Provider, you can do so conveniently without loosing your data, such as your contacts and chat history.
+**This will be determined by the market**. It is likely that several business models emerge, some where the user pays for storage, and some funded by advertising for instance, like on the current Web platforms. However, with Solid, if the terms of your Pod Provider change, or if you want to switch to an advertising-free Provider, you can do so conveniently without losing your data, such as your contacts and chat history.
 
 ## If everyone used Solid would I lose my favourite internet services? 
 **No**. Search engines and communication tools do not need to track you to work. Hopefully over time all the nice things you get from silos which don’t let you determine your data sharing preferences will be echoed by new solid-compatible ones which do.
 
 # The Bigger Picture  
 
-## Doesn't the [Data Transfer Project](https://datatransferproject.dev) fix the data concerns? 
-It’s a great start. The next step is to build a healthy array of options for users to make their data work for themselves.
+## Doesn't the Data Transfer Project fix the data concerns?
+The [Data Transfer Project](https://datatransferproject.dev) is a great start. The next step is to build a healthy array of options for users to make their data work for themselves.
 
 ## How to integrate iOS and Android apps into Solid? 
 
 It is possible for developers to take an iOS or Android app and make it Solid compatible by following the standard and supporting documentation. 
 
 <details>
-<summary><a>More details</a></summary>
+<summary class="has-text-primary">More details</summary>
 Currently there are no developer kits in development for Android or iOS. If you really want to have an app that can be installed on Android or iOS, you might consider writing it as a progressive web app or writing it as a hybrid app.
 </details>
 
-## Arguably the [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) or [Linked Data](https://en.wikipedia.org/wiki/Linked_data) never took off, so why is Solid working with it? 
+## Arguably the Semantic Web or Linked Data never took off, so why is Solid working with it?
 
-The Semantic Web and Linked Data principles and technologies have always meant to **make data more reusable**, and to **make data independent from applications**, which is why it is at the core of Solid.
+The [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) and [Linked Data](https://en.wikipedia.org/wiki/Linked_data) principles and technologies have always meant to **make data more reusable**, and to **make data independent from applications**, which is why it is at the core of Solid.
 
 <details>
-<summary><a>More details</a></summary>
+<summary class="has-text-primary">More details</summary>
 The Semantic Web and Linked Data technologies are centered on the question of interoperability. By using these technologies, data is provided a context and is made more reusable. In order to achieve one of the goals of Solid and enable applications to share and reuse data without having the control over it, this kind of interoperability is key, and the Semantic Web and Linked Data principles and technologies seemed to be the fittest for this purpose. 
 </details>
 
@@ -204,7 +193,7 @@ All of your data will not necessarily be in one place, since you can store piece
 ## When I revoke access of an application to my data, can it still hold a copy of the data it previously accessed? 
 **Solid cannot delete the data you already sent out**. As soon as you start using Solid, you will be able to be more deliberate about your data sharing preferences from that point onwards. If you revoke the access of an application to your data at any point in time, and this application previously duplicated the data it had the right to access, the copy is not destroyed. However, the application is no longer able to update this copy according to the modifications you make on your Pod.
 <details>
-<summary><a>More details</a></summary>
+<summary class="has-text-primary">More details</summary>
 If you would like to ask for your data to be deleted from other services, In Europe there is a law called the <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN#d1e2589-1-1">Right to be Forgotten</a> which makes it possible for European citizens to ask for their data to be deleted. You can find template letters and instructions on how to exercise this right <a href="https://www.datarequests.org/blog/sample-letter-gdpr-erasure-request/">here</a>. 
 </details>
 
@@ -221,17 +210,7 @@ Pod providers have commitments to the individuals and legal entities that they p
 
 **No**. Solid is **not a company**, it is an open standard. Could it dominate the technical landscape, by being adopted by many? Yes, that would be ideal, so we would have one interoperable Solid web, not many. However, being compliant with Solid does not require developers to ask permission from anyone before building their applications, and does not prevent users from choosing the apps they want, and share their data how they see fit. In that sense, Solid cannot become a monopoly, in the same way that the Web is not considered a tech monopoly.
 
-## Could a Solid app of Pod become another tech giant monopoly? 
-**No**. Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
-
-## As a Pod provider are you legally responsible for the data you are storing?
-Pod providers have commitments to the individuals and legal entities that they provide services to based on the law of the countries in which the hosting provider is operating. As a Pod provider you should seek professional advice on how to be compliant. As an individual Solid user, you should carefully read the agreement with your hosting provider before agreeing. 
-
-## Could Solid become another tech giant monopoly?
-
-**No**. Solid is **not a company** it is an open standard. Could it dominate the technical landscape, by being adopted by many? Yes, that would be ideal, so we would have one interoperable Solid web, not many. However, being compliant with Solid does not require developers to ask permission from anyone before building their applications, and does not prevent users from choosing the apps they want, and share their data how they see fit. In that sense, Solid cannot become a monopoly, in the same way that the Web is not considered a tech monopoly.
-
-## Could a Solid app of Pod become another tech giant monopoly? 
+## Could a Solid app or Pod become another tech giant monopoly? 
 **No**. Although an app or Pod could become very popular, with Solid, it is always possible for users to leave to another competitor app or Pod. People want different things so it is unlikely that one size will fit all.  
 
 ## Is it opt-in or opt-out to share my data when using Solid?
@@ -257,3 +236,12 @@ That’s up to you, Solid just gives you the choice.
 ## Is it wise to trust people to make ethical decisions on such a complicated issue?
 There is a lot of variation in what people feel to be right and wrong, and ultimately it is down to you to decide what to do with your data. Solid does try to help you make informed choices by providing relevant information and by constantly validating the accuracy of that information.
 
+## Are apps vulnerable to an “Origin” bypass? 
+
+The Solid specification [warns](https://github.com/solid/web-access-control-spec#adding-trusted-web-apps) that the “trusted apps” feature is new and experimental, as it is known that [Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) has the common weakness ([CWE-346](https://cwe.mitre.org/data/definitions/346.html)) of "origin validation".  
+
+Currently when a user gives a Solid web app access to their Pod, the app Origin is added to that user’s list of trusted apps. The app then receives a token that allows it to interact with the Pod on behalf of the user, and only the Origin included with those interactions is verified using the list of trusted apps. 
+
+Although standard browsers automatically include the Origin when they send HTTPS requests, a non-browser client is not required to send one. This means anyone with access to the aforementioned Origin-based token can use non-browser clients to bypass Origin validation for the Pod.
+
+Solutions already are planned to revise and replace this experimental use of Origin, in order to evolve security of the trusted app feature.

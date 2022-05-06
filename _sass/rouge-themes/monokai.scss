@@ -2,6 +2,9 @@
   Downloaded from https://jwarby.github.io/jekyll-pygments-themes/languages/ruby.html
   as per https://jekyllrb.com/docs/liquid/tags/#stylesheets-for-syntax-highlighting
  */
+// The following line was added manually, because code without an explicit
+// language specifier was black-on-black:
+.highlight { color: #fff; }
 .highlight pre { background-color: #272822; }
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e } /* Comment */
