@@ -8,14 +8,6 @@ permalink: /events
 
 Solid Events provide an opportunity to meet others who are working on Solid or are interested in Solid. Solid Events are run by people like you. If you are interested in coordinating a Solid Event near you, reach out to the Solid Manager at [info@solidproject.org](mailto:info@solidproject.org).
 
-
-<div class="message is-info">
-  <p class="message-body">
-    In light of the COVID-19 pandemic, Solid Events are moving online for the foreseeable future. Join Solid World on the _second_ Thursday of every month at 1000 ET.
-  </p>
-</div>
-
-
 - Interested in speaking at an upcoming Solid World? You can fill out the [Solid World Speaker form](https://es1cz4pb7oi.typeform.com/to/nietD34f).
 
 - Have another Solid oriented event to share? Make a pull request to the [solidproject.org events page](https://github.com/solid/solidproject.org/edit/main/pages/solid-events.md).
@@ -26,6 +18,8 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 |------|-------|-----------|-----------------------------|
 |2022-06-09| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | Register for the event over on [Eventbrite](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127). Agenda will be announced shortly on Eventbrite. |
 |2022-05-12| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | Presentation: <br/> Flanders Data Utility Company Team: Hear first-hand insight into how the Flemish Data Utility Company wants to stimulate citizens’ trust in sharing data, by focusing on responsible and secure data sharing. The Data Utility Company’s Solid Pod platform is designed to establish trusted data ecosystems on this groundbreaking technology. The Data Utility Company’s platform mitigates the costs and risks associated with innovative technology, lowering the threshold for organizations to enter the Solid ecosystem. |
+|2022-05-09 | [Solid Minneapolis](https://www.meetup.com/minneapolis-solid-project/?_cookie-check=cqn1IP8uUoOs3A8S)| [Jon Wilson](https://github.com/orgs/SolidOS/people/YetAnotherJonWilson) |
+|2022-04-28 | [Solid Mcr - Manchester](https://www.meetup.com/solid-mcr/)| Mel W.|
 |2022-04-14| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | [Solid World Recording](https://vimeo.com/703101308) <br/> Presentation: <br/>  Philippe Duchesne, DataVillage & Luk Overmeire, VRT. DataVillage is developing a platform to perform confidential data processing on personal data, where end users can allow service providers to process their data to produce derived data, while having the guarantee that the original data will not be read by the service provider itself. DataVillage will be joined by VRT, the Flemish public broadcasting company, which is using the DataVillage platform to build a user-controlled content recommendation service for its audience. |
 |2022-03-10| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | [Solid World Recording](https://vimeo.com/691410463) <br/> Presentations: <br/> Jasmine Leonard, Solid developer tool [PodPro](https://podpro.dev) <br/> Sebastien Rosset, [ActivityPods](https://github.com/assemblee-virtuelle/activitypods), a new kind of architecture for web applications which aims to reconcile the ActivityPub and Solid standards |
 |2022-02-10| [Solid World](https://www.eventbrite.co.uk/e/solid-world-2022-tickets-223005725127) | [Solid Team](https://solidproject.org/team) | [Solid World Recording](https://vimeo.com/677388784) <br/> Presentations: <br/> Gertjan de Mulder, [PROV4ITDaTa](https://prov4itdata.ilabt.imec.be/docs#adding-data-providers) <br/> Pete Edwards, [The V1.1 release of the Conformance Test Harness](https://github.com/solid/conformance-test-harness) <br/> All links from the meetup are shared on [Solid Forum](https://forum.solidproject.org/t/solid-world-february-2022/5100) |
@@ -54,7 +48,7 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 | 2021-02-04 | [Solid World February](https://www.eventbrite.com/e/solid-world-tickets-135541896461)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/508623332). Also, [Notes](https://codimd.web.cern.ch/s/XMkykenm3#) by attendant Maria Dimou.<br/> Tim Berners-Lee’s Update: [New York Times](https://www.nytimes.com/2021/01/10/technology/tim-berners-lee-privacy-internet.html?smid=tw-share) and [Reuters Next conference](https://www.reuters.com/article/us-tech-bernerslee-interview/father-of-the-web-tim-berners-lee-prepares-do-over-idUSKBN29H1JK).<br/> Ruben Verborgh’s update on Community Solid Server: [recipes](https://github.com/solid/community-server-recipes). <br/> Osmar Olivo update on Node.js support: [Inrupt Solid Client Libraries](https://docs.inrupt.com/developer-tools/javascript/client-libraries/). <br/>[Noel DeMartin’s](https://noeldemartin.com/) Presentation: [Slides](file:///Users/marrellebailey/Downloads/NoelDeMartin-Slides.pdf), [Media Kraken](https://noeldemartin.github.io/media-kraken/login), [journal](https://noeldemartin.com/tasks/). <br/>Jasmine Leonard’s Presentation: [Slides](), [PodExplorer](https://podexplorer.gigalixirapp.com), [Solid Forum](https://forum.solidproject.org/), [Solid Website](http://solidproject.org/), [GitHub Repos](https://github.com/solid/solidproject.org). <br/>Hindia Mohammed’s Presentation: [Ekseli](https://ekseli.fi/)|
 | 2021-01-07 | [Solid World January](https://www.eventbrite.com/e/solid-world-tickets-132301957717)|[Solid Team](https://solidproject.org/team)|[Recording](https://vimeo.com/498076263).  <br>Resources from event: [Solid Operating System (OS) Roadmap](https://solidos.solidcommunity.net/public/Roadmap/Tasks/index.ttl#this), [Community Solid Server (CSS)](https://communitysolidserver.github.io/CommunitySolidServer/docs/), [Inrupt's Enterprise Solid Server (ESS)](https://inrupt.com/products/enterprise-solid-server), [Ruben's Code for the lights](https://github.com/RubenVerborgh/solid-hue), [Specifications](https://solid.github.io/specification/#work-items), [Specifications Panels (open to all)](https://github.com/solid/process/blob/master/panels.md).|
 
-## 2020 Events
+## Earlier Events
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
 |----|-------|-------------|------------------------------|
@@ -75,11 +69,6 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 | 2020-02-10 | [Solid Berlin](https://www.eventbrite.com/e/solid-meetup-berlin-tickets-88843267605)|Christian Buggedei||
 | 2020-01-30 | [Solid Amsterdam](https://www.pldn.nl/index.php/2nd_Solid_Amsterdam_Meetup_–_January_30th,_2020) | [Jeroen van Beele](https://github.com/jjvbeele) |
 | 2020-01-07 | [Solid Khartoum](http://solid-khartoum.atspace.cc)|[Ali Siragedien](https://github.com/alisirag)| [recording](https://youtu.be/BhFFCzjAqm4)|
-
-## Earlier Events
-
-| Date | Event | Organiser | Recordings, Slides and Notes |
-|----|-------|-------------|------------------------------|
 | 2019-12-10 | [Solid Enschede](https://www.utwente.nl/en/digital-society/events/2019/12/63530/solid-christmas-meetup-enschede-how-to-fix-the-internet)|Erwin Folmer |
 | 2019-11-20 | [Solid London](https://www.eventbrite.com/e/data-control-ethics-solid-workshop-this-is-for-everyone-join-the-movement-tickets-79208132657?ref=estw)|Kartika Tulusan|
 | 2019-11-21 |  Solid Montreal|[David H Mason](https://github.com/vid)|
