@@ -117,7 +117,6 @@ redirect_from:
 
 | Application                                                                    | Description                                                                                               |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------| 
-| [Inox](https://inox.app)                                                       | Helps you see what happened to your data accross multiple pods.                                           |
 | [drive](https://drive.owntech.de)                                              | Tool to create and share resources with contacts                              |
 | [Solid Notify](https://solid-notify.5apps.com/)                                | Sends you a desktop notification when a Solid resource changes.                                           |
 | [SolidVC](https://github.com/kezike/solid-vc)                                  | [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid. |
