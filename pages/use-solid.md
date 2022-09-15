@@ -41,6 +41,7 @@ The following table lists some Pod Provider:
 | [solidweb.org](https://solidweb.org)               | [Solid Grassroots](https://gitlab.com/groups/solidweb.org/-/group_members) | [Hosteurope](https://www.hosteurope.de)       | Germany          | [NSS](https://github.com/solid/node-solid-server)           |
 | [trinpod.us](https://trinpod.us)                   | [Graphmetrix, Inc.](https://graphmetrix.com/terms)                         | [Amazon](https://aws.amazon.com)              | USA              | [TrinPod](https://graphmetrix.com/construction/trinpod)     |
 | [use.id](https://get.use.id/)                      | [Digita](https://www.digita.ai/)                                           | [DigitalOcean](https://digitalocean.com/)              | EU              | [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer)     |
+| [solidweb.me](https://solidweb.me/)                | [Meisdata](https://github.com/serverproject-dev)                           | [Hosteurope](https://www.hosteurope.de)        | EU              | [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer)        |
 
 If you are a provider who wants to add your service to this list, email [info@solidproject.org](mailto:info@solidproject.org).
 
