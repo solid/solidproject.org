@@ -30,7 +30,7 @@ solve. We invite and encourage you to join in!
   members.
 
 For organizations interested in how Solid can help address specific
-problems or use-cases, email the [Solid Team](/team) at
+problems or use cases, email the [Solid Team](/team) at
 [info@solidproject.org](mailto:info@solidproject.org), and we'll be happy
 to provide some guidance.
 
