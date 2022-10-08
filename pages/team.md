@@ -4,7 +4,7 @@ title: Team
 permalink: team
 ---
 
-The Solid team help coordinate the standardisation work and support those who are implementing and using Solid.
+The Solid team helps coordinate the standardisation work and support those who are implementing and using Solid.
 
 If you are interested in joining the Solid team email info@solidproject.org with your CV and motivation letter.
 
