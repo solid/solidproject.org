@@ -1,5 +1,14 @@
 - name: About Solid
   link: /about
+  sublinks:
+  - name: Specification
+    link: /specification
+  - name: Contributing
+    link: /contributing
+  - name: Origin
+    link: "/origin"
+  - name: Team
+    link: "/team"
 - name: Developers
   sublinks:
   - name: Getting Started
