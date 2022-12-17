@@ -42,6 +42,7 @@ redirect_from:
 | Application                                                  | Description                                                                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | [Media Kraken](https://noeldemartin.github.io/media-kraken/) | Track your media and never miss a beat. <br>- [Documentation](https://github.com/NoelDeMartin/media-kraken/tree/main/docs). GNU General Public License v3.0 © 2020 [Noel De Martin](https://noeldemartin.com)<br>- [Source code](https://github.com/NoelDeMartin/media-kraken). GNU General Public License v3.0 © 2020 [Noel De Martin](https://noeldemartin.com) <br>- [Provide Feedback](https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333).<br> |
+| [Solidflix](https://oxfordhcc.github.io/solid-media/) | A movie tracking and sharing application with personalised recommendations. <br>- [Source Code](https://github.com/OxfordHCC/solid-media) by [Oxford Human Centred Computing Group](https://www.cs.ox.ac.uk/research/HCC/) ([EWADA](https://www.cs.ox.ac.uk/research/HCC/) Project). |
 
 ## Content, Notes, Blogging and Publishing
 
