@@ -282,12 +282,13 @@ GEM
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
     wdm (0.1.1)
-    webrick (1.7.0)
+    webrick (1.8.1)
     yell (2.2.2)
 
 PLATFORMS
   x86_64-darwin-18
   x86_64-darwin-20
+  x86_64-linux
   x86_64-linux-musl
 
 DEPENDENCIES
@@ -298,7 +299,7 @@ DEPENDENCIES
   tzinfo (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.0)
-  webrick (~> 1.7)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.22
