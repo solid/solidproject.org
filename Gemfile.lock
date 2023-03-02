@@ -13,7 +13,7 @@ GEM
     colorator (1.1.0)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.2.0)
     dnsruby (1.61.7)
       simpleidn (~> 0.1)
     em-websocket (0.5.2)
@@ -273,7 +273,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-    tzinfo (2.0.4)
+    tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2021.1)
       tzinfo (>= 1.0.0)
@@ -288,6 +288,7 @@ GEM
 PLATFORMS
   x86_64-darwin-18
   x86_64-darwin-20
+  x86_64-linux
   x86_64-linux-musl
 
 DEPENDENCIES
