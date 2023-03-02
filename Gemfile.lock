@@ -13,7 +13,7 @@ GEM
     colorator (1.1.0)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.2.0)
     dnsruby (1.61.7)
       simpleidn (~> 0.1)
     em-websocket (0.5.3)
@@ -276,7 +276,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
-    tzinfo (2.0.4)
+    tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2021.1)
       tzinfo (>= 1.0.0)
@@ -285,12 +285,13 @@ GEM
     unf_ext (0.0.8)
     unicode-display_width (1.8.0)
     wdm (0.1.1)
-    webrick (1.7.0)
+    webrick (1.8.1)
     yell (2.2.2)
 
 PLATFORMS
   x86_64-darwin-18
   x86_64-darwin-20
+  x86_64-linux
   x86_64-linux-musl
 
 DEPENDENCIES
@@ -301,7 +302,7 @@ DEPENDENCIES
   tzinfo (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.0)
-  webrick (~> 1.7)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.22
