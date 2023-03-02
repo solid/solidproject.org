@@ -12,6 +12,13 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 
 - Have another Solid oriented event to share? Make a pull request to the [solidproject.org events page](https://github.com/solid/solidproject.org/edit/main/pages/solid-events.md).
 
+## 2023 Events
+
+| Date | Event | Organiser | Recordings, Slides and Notes |
+|------|-------|-----------|-----------------------------|
+|2023-03-30 - 2023-03-31| [Solid Symposium 2023](https://solid.ti.rw.fau.de/public/2023/solid-symposium/) |  [COST Action on Distributed Knowledge Graphs](https://cost-dkg.eu/) | The goal of the symposium is to provide a forum for researchers, early adopters from companies and public administration, and the community at large to discuss the current state of the art around Solid and exchange ideas for further developments. |
+|2023-02-21| [Solid App MVP's and a Guest Presentation: An Open Source Opportunity](https://www.meetup.com/minneapolis-solid-project/events/291368275/) | [Jon Wilson]([https://solidproject.org/team](https://www.meetup.com/minneapolis-solid-project/)) | [An online meetup](https://forum.solidproject.org/t/looking-for-a-teacher-to-learn-programming-solid-apps/6036/13) discussing the essential parts to make Solid apps, and with a presentation by Chase Hunt, a contributor to SolidOS, about getting involved in open source, and the opportunities to join and help grow the Solid ecosystem. |
+
 ## 2022 Events
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
