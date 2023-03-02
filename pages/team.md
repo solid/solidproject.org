@@ -58,9 +58,9 @@ Virginia Balseiro is a software engineer at Inrupt, mainly focusing on PodBrowse
 **Creator**
 Vincent Tunru is a front-end engineer at Inrupt. Before Inrupt he worked on finding out how technology can help ensuring open access to academic research. He is focusing on technical writing for app developers to learn how to build Solid apps.
 
-## Nicolas Seydoux
+## Ted Thibodeau
 **Creator**
-Nicolas Seydoux is a developer at Inrupt. He joined the company after his PhD on the Semantic Web of Things, mixing semantic web and IoT. In this domain, he contributed to FOSS software and to an industrial standard acknowledging the importance of semantic interoperability. He also worked on decentralised reasoning and open data platforms.
+[Ted Thibodeau](http://id.myopenlink.net/dataspace/person/tthibodeau#this) is ...
 
 ## Jeff Zucker
 **Creator**
