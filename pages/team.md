@@ -4,17 +4,19 @@ title: Team
 permalink: team
 ---
 
-The Solid team help coordinate the standardisation work and support those who are implementing and using Solid.
+The Solid team helps coordinate the standardisation work and support those who are implementing and using Solid.
 
 If you are interested in joining the Solid team email info@solidproject.org with your CV and motivation letter.
 
 You can read more about the [process around how the Solid Team work together](https://github.com/solid/process) which is open for suggestions around how to improve by [submitting an issue](https://github.com/solid/process/issues) or sending an email to info@solidproject.org.
 
 ## Sir Tim Berners-Lee
+
 **Solid Director**
 Sir Tim Berners-Lee is co-founder and Chief Technology Officer of Inrupt. Named one of Time Magazine’s ‘100 Most Important People of the 20th Century,’ Tim invented the web while at CERN in 1989. He is the Founder and Director of the World Wide Web Consortium (W3C), the international standards forum for technical development of the Web, and the Web Foundation whose mission is that the World Wide Web serves Humanity. He co-founded and is President of the Open Data Institute in London. Tim is a Professor at the Massachusetts Institute of Technology (MIT) in the Computer Science and AI Lab ("CSAIL”). In April 2017, Sir Tim was awarded the Turing Prize which is considered the "Nobel Prize of Computing”.
 
 # Editors
+
 Editors are responsible for maintaining and reviewing suggestions to the Solid specification.  
 
 ## Sarven Capadisli
@@ -35,7 +37,7 @@ Dmitri is Senior Consulting Software Engineer at Digital Bazaar and co-founder o
 
 ## Kjetil Kjernsmo
 **Solid Editor**
-Kjetil works a developer at Inrupt where he focuses on the Solid test suite development. He has a PhD in  Informatics from the University of Oslo in Norway and has 20 years of experience with social and semantic web technology.
+Kjetil is a Senior Advisor with the Norwegian Agency for Development Cooperation, where he works as a technical expert on normative technologies and Digital Public Goods. He has a PhD in Informatics from the University of Oslo in Norway and has 25 years of experience with social and semantic web technology.
 
 # Creators
 Creators are responsible for maintaining and reviewing suggestions to solidproject.org which includes Solid content such as the newsletter This Month in Solid.
@@ -73,12 +75,16 @@ Sir Tim Berners-Lee is co-founder and Chief Technology Officer of Inrupt.
 
 ## Jackson Morgan
 **Administrator**
-Jackson Morgan is a full stack engineer at Inrupt.
+Jackson Morgan is a freelance Solid developer for [o.team](https://o.team)
 
 ## Justin Bingham
 **Administrator**
 Justin Bingham is co-founder and Chief Technology Officer of Janeiro Digital
 
-## Marrelle Bailey 
+## Alain Bourgeoa 
 **Administrator**
-Marrelle Bailey is the moderator for [Solid World](https://vimeo.com/solidworld) and works on managing the Solid Team projects. She is also the lead chair for the Diversity, Equity, and Inclusion Team for the Solid Community. She works at Inrupt as the Community & Communications Organizer.
+[Alain Bourgeoa](https://bourgeoa.solidcommunity.net/profile/card#me) is the maintainer of [solidcommunity.net](https://solidcommunnity.net) and works on several other teams such as [SolidOS](https://solidos.solidcommunity.net/) and [NSS](https://github.com/nodeSolidServer/).
+
+## Timea Turdean
+**Administrator**
+[Timea Turdean](https://timea.solidcommunity.net/) is a Software Engineer for Inrupt and the team lead of [SolidOS](https://solidos.solidcommunity.net/).

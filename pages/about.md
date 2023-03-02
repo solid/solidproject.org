@@ -76,7 +76,7 @@ Solid applications store and access data in Pods using the
 
 Within the interoperable Solid ecosystem, different applications can
 access the same data instead of requiring separate data silos specifically for the
-applications. For example, instead of inputing your email with your bank
+applications. For example, instead of inputting your email with your bank
 statement notification service, with your phone's billing service, etc., you can
 instead store this information in your Pod and grant access to read your email information
 to these disparate services/applications.
