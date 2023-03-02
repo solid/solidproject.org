@@ -42,6 +42,7 @@ The following table lists some Pod Provider:
 | [trinpod.us](https://trinpod.us)                   | [Graphmetrix, Inc.](https://graphmetrix.com/terms)                         | [Amazon](https://aws.amazon.com)              | USA              | [TrinPod](https://graphmetrix.com/construction/trinpod)     |
 | [use.id](https://get.use.id/)                      | [Digita](https://www.digita.ai/)                                           | [DigitalOcean](https://digitalocean.com/)              | EU              | [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer)     |
 | [solidweb.me](https://solidweb.me/)                | [Meisdata](https://github.com/serverproject-dev)                           | [Hosteurope](https://www.hosteurope.de)        | EU              | [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer)        |
+| [Data Pod](https://datapod.igrant.io/)                | [iGrant.io, Sweden](https://igrant.io/)                           | [RedPill Linpro](https://www.redpill-linpro.com/en), [AWS](https://aws.amazon.com/), [GCP](https://cloud.google.com/) or [Azure](https://azure.microsoft.com/en-in)        | EU              | [NSS](https://github.com/solid/node-solid-server)        |
 
 If you are a provider who wants to add your service to this list, email [info@solidproject.org](mailto:info@solidproject.org).
 
