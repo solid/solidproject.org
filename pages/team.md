@@ -56,7 +56,7 @@ Virginia Balseiro is a software engineer at Inrupt, mainly focusing on PodBrowse
 
 ## Vincent Tunru
 **Creator**
-Vincent Tunru is a front-end engineer at Inrupt. Before Inrupt he worked on finding out how technology can help ensuring open access to academic research. He is focusing on technical writing for app developers to learn how to build Solid apps.
+Vincent Tunru is a front-end engineer. He has worked at Inrupt, and before that he worked on finding out how technology can help ensuring open access to academic research. He is focusing on technical writing for app developers to learn how to build Solid apps.
 
 ## Ted Thibodeau
 **Creator**
