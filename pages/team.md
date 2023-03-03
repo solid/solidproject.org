@@ -60,7 +60,7 @@ Vincent Tunru is a front-end engineer. He has worked at Inrupt, and before that 
 
 ## Ted Thibodeau
 **Creator**
-[Ted Thibodeau](http://id.myopenlink.net/dataspace/person/tthibodeau#this) is ...
+[Ted Thibodeau](http://id.myopenlink.net/dataspace/person/tthibodeau#this), @TallTed, is a Technical Evangelist at [OpenLink Software](https://www.openlinksw.com/), where he's been employed since December 2000. While working with internal and external users of [OpenLink's products](https://www.openlinksw.com/data/turtle/products.ttl) including [Virtuoso](https://virtuoso.openlinksw.com/), [OpenLink Data Spaces (ODS)](https://ods.openlinksw.com/), [OpenLink Structured Data Sniffer (OSDS)](https://osds.openlinksw.com/), [OpenLink Structured Data Editor (OSDE)](https://osde.openlinksw.com/), [OpenLink Data Explorer (ODE)](http://ode.openlinksw.com/), and others, he has also been contributing to a number of Identity-, RDF-, RWW-, and Linked Data-focused [W3C Working and Community Groups](https://www.w3.org/users/42501) and related projects, including [Virtuoso](https://github.com/openlink/virtuoso-opensource/), the [Solid CG](https://www.w3.org/groups/cg/solid), the [Decentralized Identifiers WG](https://www.w3.org/groups/wg/did), the [Verifiable Credentials WG](https://www.w3.org/groups/wg/vc), the [RDF-star WG](https://www.w3.org/groups/wg/rdf-star), and several others.
 
 ## Jeff Zucker
 **Creator**
