@@ -21,7 +21,7 @@ Editors are responsible for maintaining and reviewing suggestions to the Solid s
 
 ## Sarven Capadisli
 **Solid Editor**
-[Sarven Capadisli](https://csarven.ca/#i) contributes to the advancement of technical specifications in the Solid ecosystem and aims to ensure open consensus within a common ethical framework. He is a technical architect at Inrupt and has been involved in the evolution of Solid alongside TimBL at MIT since 2015.
+[Sarven Capadisli](https://csarven.ca/#i) contributes to the advancement of technical specifications in the Solid ecosystem and aims to ensure open consensus within a common ethical framework. They have been involved in the evolution of Solid alongside TimBL at MIT since 2015.
 
 ## Ruben Verborgh
 **Solid Editor**
@@ -81,7 +81,7 @@ Jackson Morgan is a freelance Solid developer for [o.team](https://o.team)
 **Administrator**
 Justin Bingham is co-founder and Chief Technology Officer of Janeiro Digital
 
-## Alain Bourgeoa 
+## Alain Bourgeoa
 **Administrator**
 [Alain Bourgeoa](https://bourgeoa.solidcommunity.net/profile/card#me) is the maintainer of [solidcommunity.net](https://solidcommunnity.net) and works on several other teams such as [SolidOS](https://solidos.solidcommunity.net/) and [NSS](https://github.com/nodeSolidServer/).
 
