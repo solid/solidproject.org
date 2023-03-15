@@ -93,6 +93,7 @@ redirect_from:
 | [Penny](https://penny.vincenttunru.com/)                     | A general Pod Browser by [Vincent Tunru](https://vincenttunru.com/) |
 
 ## Apps installed from Source
+
 | Application                                                                    | Description                                                                                               |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------| 
 | [Inbox](https://github.com/solid/solid-inbox) | Processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu) |
