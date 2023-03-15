@@ -101,7 +101,7 @@ redirect_from:
 | [Solid Signup app](https://github.com/solid/solid-signup)    | For creating WebID accounts with Solid compatible providers. <br>- [Source code](https://github.com/solid/solid-signup) [MIT License Copyright (c) 2015](https://github.com/solid/solid-signup/blob/gh-pages/LICENSE.md) [Andrei Sambra](https://github.com/deiu) |
 | [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) | Uses the national weather service API so it is currently only able to fetch weather in the United States. <br> 2019. Dylan Martin. |
 | [Solid Calendar](https://bitbucket.org/dylanmartin/solidcalendar/src/master/)  | A way to create, store, and query events using a user's card. <br>2019. Dylan Martin. |
-| [Solid Health](https://github.com/jasonpaulos/solid-health)  | Decentralized health data management using Solid pods. |
+| [Solid Health](https://github.com/jasonpaulos/solid-health)  |  |
 | [SolidVC](https://github.com/kezike/solid-vc)                                  | [Verifiable Credentials](https://w3c.github.io/vc-data-model/) framework developed within the context of Solid. |
 | [Assemblage](https://gitlab.com/omd_public/assemblage) | A composable data browser aimed to provide a great user experience for Solid POD services, as well as other RDF sources, both for desktop and mobile web browsers. [Source code](https://gitlab.com/omd_public/assemblage) and [demo video](https://youtu.be/hYFEBAdkzmc). |
 
