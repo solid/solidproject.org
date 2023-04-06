@@ -14,7 +14,7 @@ redirect_from:
 |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | [Media Kraken](https://noeldemartin.github.io/media-kraken/) | Track your media and never miss a beat. <br>- [Documentation](https://github.com/NoelDeMartin/media-kraken/tree/main/docs). GNU General Public License v3.0 © 2020 [Noel De Martin](https://noeldemartin.com)<br>- [Source code](https://github.com/NoelDeMartin/media-kraken). GNU General Public License v3.0 © 2020 [Noel De Martin](https://noeldemartin.com) <br>- [Provide Feedback](https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333).<br> |
 | [Penny](https://penny.vincenttunru.com/)                     | A general Pod Browser by [Vincent Tunru](https://vincenttunru.com/) |
-| [Solid IDE](https://jeff-zucker.github.io/solid-ide/)        | File manager and IDE. <br>- [Source code](https://github.com/jeff-zucker/solid-ide) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/solid-ide/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker) |
+| [Solid IDE](https://jeff-zucker.github.io/solid-content-manager/)        | File manager and IDE. <br>- [Source code](https://github.com/jeff-zucker/solid-content-manager) [MIT License Copyright (c) 2018](https://github.com/jeff-zucker/solid-content-manager/blob/master/LICENSE) [Jeff Zucker](https://github.com/jeff-zucker) |
 | [Solid File Manager](https://otto-aa.github.io/solid-filemanager/)            | A Solid app that help you manages files in your Pod. <br>- [Source code](https://github.com/Otto-AA/solid-filemanager) [MIT License Copyright (c) 2019](https://github.com/Otto-AA/solid-filemanager/blob/master/LICENSE) [Otto AA](https://github.com/Otto-AA) |
 | [Pod Pro](https://podpro.dev/)                               | An IDE for editing Solid Pods by Jasmine Leonard. |
 | [graphMetrix](https://graphmetrix.net/#/)                                    | Allows you to browse your Solid Pod offering multiple views of information including overview, graph, doc, gallery and grid as well as easy to use Solid collaboration control and file management. 30 day free trial followed by a $10 per user/per month. 2018 [graphMetrix](https://graphmetrix.com/#/solid) |
@@ -93,6 +93,7 @@ redirect_from:
 | [Penny](https://penny.vincenttunru.com/)                     | A general Pod Browser by [Vincent Tunru](https://vincenttunru.com/) |
 
 ## Apps installed from Source
+
 | Application                                                                    | Description                                                                                               |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------| 
 | [Inbox](https://github.com/solid/solid-inbox) | Processes notifications. [Source code](https://github.com/solid/solid-inbox/)[MIT License Copyright (c) 2015](https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md)[Andrei Sambra](https://github.com/deiu) |
