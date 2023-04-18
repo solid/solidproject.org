@@ -6,8 +6,6 @@ permalink: team
 
 The Solid team helps coordinate the standardisation work and support those who are implementing and using Solid.
 
-If you are interested in joining the Solid team email info@solidproject.org with your CV and motivation letter.
-
 You can read more about the [process around how the Solid Team work together](https://github.com/solid/process) which is open for suggestions around how to improve by [submitting an issue](https://github.com/solid/process/issues) or sending an email to info@solidproject.org.
 
 ## Sir Tim Berners-Lee
