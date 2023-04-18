@@ -10,6 +10,16 @@ Are you looking to get a speaker or interview about Solid? Contact us on [press@
 
 ## Talks Mentioning Solid
 
+### 2023
+
+{%
+include talk.html
+  date="2023-02-04"
+  title="From Zero to Hero with Solid - FOSDEM"
+  video="https://fosdem.org/2023/schedule/event/sovcloud_from_zero_to_hero_with_solid/"
+  speaker="Noel De Martin"
+%}
+
 ### 2021
 
 {%
@@ -719,6 +729,22 @@ include talk.html
 %}
 
 ## Mentions of Solid in Articles
+
+### 2023
+
+2023-03 [Podcast: Three decades after inventing the web, Tim Berners-Lee has some ideas on how to fix it](https://art19.com/shows/beyond-the-valley/episodes/d0f4cf85-991d-4331-9599-e4e35e092e45)
+
+2023-01-19 [Article: Web 3.0 doesn’t need a blockchain revolution](https://www.infoworld.com/article/3685572/web-3-doesnt-need-a-blockchain-revolution.html)
+
+2023-01-06 [Article: Inventor of the world wide web wants us to reclaim our data from tech giants](https://edition.cnn.com/2022/12/16/tech/tim-berners-lee-inrupt-spc-intl/index.html)
+
+### 2022
+
+2022-11-26 [Article: Inventor of the Web looks to fix internet](https://www.businesspost.ie/connected/inventor-of-the-internet-looks-to-fix-it/)
+
+2022-11-21 [Interview: Exploring personal data stores at the BBC](https://openfuture.world/view/exploring-personal-data-stores-at-the-bbc/)
+
+2022-11-08 [Article: Tim Berners-Lee is building the web’s ‘third layer.’ Don’t call it Web3](https://www.fastcompany.com/90807852/tim-berners-lee-inrupt-solid-pods)
 
 ### 2021
 
