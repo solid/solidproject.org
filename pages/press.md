@@ -24,41 +24,6 @@ include talk.html
 
 {%
 include talk.html
-  date="2021-04-01"
-  title="Solid World April"
-  video="https://vimeo.com/solidworld/review/531907097/eda903e37f"
-  speaker="Kai Gilb, Frederick Gibson, Yvo Brevoort, Tony Rodriguez & Solid Team"
-%}
-
-{%
-include talk.html
-  date="2021-03-04"
-  title="Solid World March"
-  website="https://vimeo.com/solidworld"
-  video="https://vimeo.com/519676585"
-  speaker="Dmitri Zagidulin, Dick Van Gelder, Liam Broza, & Solid Team"
-%}
-
-{%
-include talk.html
-  date="2021-02-04"
-  title="Solid World February"
-  website="https://vimeo.com/solidworld"
-  video="https://vimeo.com/508623332"
-  speaker="Noel DeMartin, Jasmine, Hindia Mohammed,& Solid Team"
-%}
-
-{%
-include talk.html
-  date="2021-01-07"
-  title="Solid World January"
-  website="https://vimeo.com/solidworld"
-  video="https://vimeo.com/498076263"
-  speaker="Maria Dimou, Tim Berners-Lee, Ruben Verborgh, Osmar Olivo, Sarven Capadisli"
-%}
-
-{%
-include talk.html
   date="2021-01-01"
   title="programmier.bar Folge 79 - Solid Project mit Angelo Veltens"
   website="https://www.programmier.bar/podcast-episodes/folge-79-solid-project-mit-angelo-veltens"
@@ -73,24 +38,6 @@ include talk.html
     title="Programar es una mierda episodio 72 - Controla tus datos con el estándar web SOLID"
     website="https://www.ivoox.com/episodio-72-controla-tus-datos-el-audios-mp3_rf_62216005_1.html"
     speaker="Virginia Balseiro"
-%}
-
-{%
-  include talk.html
-    date="2020-12-03"
-    title="Solid World December"
-    website="https://vimeo.com/487088029"
-    slide="https://indico.cern.ch/event/977577/attachments/2150316/3635690/SolidWorld2020-12-03presentation.pdf"
-    speaker="Jan Schill & Maria Dimou, Frederic Lebeau, Wouter Janssens"
-%}
-
-{%
-  include talk.html
-    date="2020-11-05"
-    title="Solid World November"
-    website="https://vimeo.com/479873289"
-    slide="https://indico.cern.ch/event/974494/attachments/2140273/3606052/SolidWorld2020-11-05notes.pdf"
-    speaker="Frederic Hennequin, Pieter Heyvaert"
 %}
 
 {%
@@ -122,55 +69,10 @@ include talk.html
 
 {%
   include talk.html
-    date="2020-10-01"
-    title="Solid World October"
-    website="https://www.eventbrite.com/e/solid-world-tickets-119073298441#"
-    speaker="Tim Berners-Lee, Oz Olivo, Ruben Verborgh, Sarven Capadisli, Justin Bingham, Josh Collins, Jack Lawson"
-%}
-
-
-{%
-  include talk.html
-    date="2020-09-03"
-    title="Solid World September"
-    website="https://www.eventbrite.com/e/solid-world-tickets-115477011851"
-    speaker="Tim Berners-Lee, Ruben Verborgh, Oz Olivo, Max Leonard and Hannes Ricklefs (BBC R&D), Charlotte Sadd (NatWest Group), Jackson Morgan (O Team), Alexandre Boulier (Startin'blox)"
-    video="https://vimeo.com/454813146"
-%}
-
-{%
-  include talk.html
-    date="2020-08-06"
-    title="Solid World August"
-    website="https://www.eventbrite.com/e/solid-world-tickets-111960609196"
-    speaker="Tim Berners-Lee, Ruben Verborgh, Oz Olivo"
-    video="https://vimeo.com/446435972"
-%}
-
-{%
-  include talk.html
-    date="2020-07-02"
-    title="Solid World July"
-    website="https://www.eventbrite.com/e/solid-world-tickets-108099311952#"
-    speaker="Sarven Capadisli, Kingsley Idehen, Kelly O'Brien, and Oz Olivo"
-    video="https://vimeo.com/434767351"    
-%}
-
-{%
-  include talk.html
     date="2020-06-24"
     title="BBC Rethink: Rethinking Digital Access"
     website="https://www.bbc.co.uk/sounds/play/p08ht9tf"
     speaker="Tim Berners-Lee"
-%}
-
-{%
-  include talk.html
-    date="2020-06-04"
-    title="Solid World June"
-    website="https://www.eventbrite.com/e/solid-world-june-tickets-104631158612"
-    speaker="Sharon Stratsianis, Associate Professor Jose Emilio Labra Gayo, Ãngel Maldonado"
-    video="https://vimeo.com/425919959"
 %}
 
 {%
@@ -181,24 +83,6 @@ include talk.html
     speaker="Jeff Zucker"
     video="https://yewtu.be/watch?v=oaVE9OcPrm8"
     slide="https://opencommons.org/wp-content/uploads/2020/05/zucker.pdf"    
-%}
-
-{%
-  include talk.html
-    date="2020-05-07"
-    title="Solid World May"
-    website="https://www.eventbrite.com/e/solid-world-tickets-101812024506#"
-    speaker="Christian Buggedei, Walter Almeida, Glen Simister, Manoharan Ramachandran, Michiel de Jong"
-    video="https://vimeo.com/415976385"    
-%}
-
-{%
-  include talk.html
-    date="2020-04-02"
-    title="Solid World April"
-    website="https://www.eventbrite.com/e/solid-world-tickets-100417571660#"
-    speaker="Travis Vachon, David Faveris, Astrid Gamoneda Arrunada"
-    video="https://vimeo.com/404963568"    
 %}
 
 {%
