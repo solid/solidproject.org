@@ -7,6 +7,8 @@ categories: [Vocabularies, Quickstart]
 exclude: true
 redirect_from:
   - /for-developers/apps/vocabularies/publish/quickstart
+redirect_to:
+  - https://github.com/solid/solidproject.org/wiki/Publish-your-vocabulary-on-your-Pod
 ---
 
 To share your vocabulary across different apps, the best way is to **make it
@@ -15,12 +17,13 @@ publicly available online**. One easy way of publishing your vocabulary is
 [Cleopatra's Pod](https://cleopatra.solidcommunity.net/public/voc/obelisk.ttl).
 
 It's quite a straightforward operation:
+
 - create it as a new `Source` in a directory where people can access it,
-- paste your RDF into the newly created document, 
+- paste your RDF into the newly created document,
 - there you go - you are now the proud owner of a published vocabulary!
- 
+
 If you don't have a Pod yet, you can check out our
- [list of providers](/use-solid), or [self-host your Pod](/for-developers/pod-server).
+[list of providers](/use-solid), or [self-host your Pod](/for-developers/pod-server).
 
 Using a Pod IRI to store a vocabulary is fine during development, but imagine
 that your vocabulary grows hugely successful, and is used by multiple

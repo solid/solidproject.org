@@ -8,6 +8,8 @@ exclude: true
 published: true
 redirect_from:
   - /for-developers/apps/vocabularies/publish/artifacts
+redirect_to:
+  - https://github.com/solid/solidproject.org/wiki/Publish-your-vocabulary-as-code-artifacts
 ---
 
 Disclaimer: The resources described in this page are not publicly available yet, but they will be release soon.
