@@ -36,4 +36,4 @@ For instructions on:
 ## Developing your first app
 
 Once you are set up with your own Pod and WebID,
-you're ready to start develop your own app. Various Solid client libraries may provide a beginning app tutorial; for example, [Inrupt JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/).
+you're ready to develop your own app. Various Solid client libraries may provide a beginning app tutorial; for example, [Inrupt JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/).
