@@ -15,3 +15,7 @@ Alternatively, you can install and run the required tooling manually as follows:
 1. `$ cd solidproject.org` 
 1. `$ bundle install`
 1. `$ bundle exec jekyll serve --livereload`
+
+To afford a good cross-platform developer experience, 
+this repository employs the following tooling versions: 
+`ruby >=3.2` with `bundler >=2.3.4`.
