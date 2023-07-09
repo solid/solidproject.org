@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby ">=3.2"
+#ruby ">=3.2"
 
 if Gem::Version.new(Bundler::VERSION) < Gem::Version.new("2.3.4")
   abort "Update your Bundler version  to '>=2.3.4' to be future proof."
