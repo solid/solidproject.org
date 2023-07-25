@@ -19,7 +19,8 @@ url: 'https://solidproject.org/'
 twitter_username: project_solid
 github_username: solid
 repository: solid/solidproject.org
-include: _redirects
+include: 
+  - _redirects
 
 # Build settings
 markdown: kramdown
