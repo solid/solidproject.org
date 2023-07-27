@@ -34,3 +34,19 @@ to run on your own machine.
 ## Developing your first app
 Once you are set up with your own Pod and WebID,
 you're ready to start [developing your own app](/developers/tutorials/first-app).
+
+## Community helps
+
+Check some of the applications. Some interesting approaches
+
+- PodOS https://github.com/pod-os/PodOS (Web Components)
+- solid-uix https://github.com/SolidOS/solid-uix (Native Web Components)
+
+Solid With web frameworks.
+
+- ember-solid: [Video Tutorial](https://nextcloud.hellofuture.be/s/nYYNwGceFSNotJY)  which should be start-to-finish Solid Ember App (Aad Versteden).
+- take a look at [todo-ldo](https://github.com/megoth/todo-ldo) a [solid/nextjs/ts] app (Arne Hassel)
+- and also this one [solid-react-app-tutorial](https://virginiabalseiro.com/blog/solid-react-app-tutorial)
+
+Cou can also checkout the solid apps at:
+- [Solid Apps](https://solidproject.org/apps)
