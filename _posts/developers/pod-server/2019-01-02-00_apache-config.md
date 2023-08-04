@@ -28,7 +28,7 @@ for module in ssl.conf ssl.load proxy.conf proxy.load proxy_html.conf proxy_html
 done
 ```
 
-- edit the appropriate sections of `/etc/apache2/sites-available/000-default.conf` as follows, substituting `example.org` for your actual domain name:
+- edit the appropriate sections of `/etc/apache2/sites-available/000-default.conf` as follows, substituting your actual domain name for `example.org`:
 
 ```apache
 <VirtualHost *:80>

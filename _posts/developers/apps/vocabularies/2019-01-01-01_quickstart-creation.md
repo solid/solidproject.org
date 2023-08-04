@@ -44,7 +44,7 @@ of characters (e.g. 'α', 'δ', or 'ό') - for more information, see
 [Wikipedia](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)).
 
 First, we'll need an IRI to represent (or identify) our new vocabulary (as we
-said, everything in RDF is identified with IRIs!), e.g.
+said, everything in RDF is identified with IRIs!), e.g.,
 [http://w3id.org/obelisk/](http://w3id.org/obelisk/). From there, let's now
 update our plain English example a little bit:
 
