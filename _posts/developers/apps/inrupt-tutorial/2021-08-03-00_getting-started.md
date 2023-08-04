@@ -15,12 +15,12 @@ you will need a **Solid Pod** and a **WebID**. You can either use an existing Po
 
 ## Using an existing Pod provider {#existing-provider}
 
-You create a Solid Pod with an existing provider.
+You can create a Solid Pod with an existing provider.
 For a list of existing Pod providers, see [Solid Pod providers](/users/get-a-pod#get-a-pod-from-a-pod-provider).
 
 ## Running your own server {#own-server}
 
-The following **open-source servers** are available:
+The following **open-source servers** are available, if you want to run your own:
 
 - [Community Solid Server](https://github.com/CommunitySolidServer/CommunitySolidServer/) for Node.js
 - [Node Solid Server](https://github.com/solid/node-solid-server) for Node.js
@@ -36,4 +36,4 @@ For instructions on:
 ## Developing your first app
 
 Once you are set up with your own Pod and WebID,
-you're ready to develop your own app. Various Solid client libraries may provide a beginning app tutorial; for example, [Inrupt JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/).
+you're ready to develop your own app. Various Solid client libraries may provide a beginning app tutorial; for example, the [Inrupt JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/).

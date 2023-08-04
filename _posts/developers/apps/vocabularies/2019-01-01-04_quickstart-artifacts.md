@@ -27,7 +27,7 @@ const iri = rdf.type;
 However, an issue with these libraries is that, by their nature, they are limited to just the common, well-known vocabularies. What about your specific vocabulary, designed for your app? How can you make the terms described in that vocabulary easily reusable in your code (and easily reusable in the code of others who may wish to reuse the terms you've defined in your cool vocabulary)?
 
 The [ArtifactGenerator](https://www.npmjs.com/package/@inrupt/artifact-generator)
-is a tool (_currently available as Alpha_) that takes any RDF
+is a tool _(currently available as Alpha)_ that takes any RDF
 vocabulary as input and can generate multiple source-code bundles
 (e.g., Java JAR, JavaScript NPM module, etc.) that you can then use in
 your application. Let's see how it works.

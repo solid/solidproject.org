@@ -13,11 +13,11 @@ redirect_to:
 
 ### The NeOn methodology
 
-NeOn is a reference method for building **ontology networks**, that is to say inter-related vocabularies. NeOn proposes different scenarios, to enable reusing existing resources (both ontological and non-ontological, i.e. data models that are not vocabularies) or building the vocabulary from scratch. The detail of these scenarios is provided in the [referenced publication](https://pdfs.semanticscholar.org/3d34/d26ddc2024b80c3296a8552e160d973cd9a2.pdf), but we will give thereafter an overview of the "build-from-scratch" scenario.
+NeOn is a reference method for building **ontology networks** or _inter-related vocabularies_. NeOn proposes different scenarios, to enable reusing existing resources (both ontological and non-ontological, i.e., data models that are not vocabularies) or building the vocabulary from scratch. Details of several scenarios are provided in [this publication](https://pdfs.semanticscholar.org/3d34/d26ddc2024b80c3296a8552e160d973cd9a2.pdf); here, we will give an overview of the "build-from-scratch" scenario.
 
 #### Requirements specification
 
-Requirements for a vocabulary include its purpose and scope (what is the covered domain), the target and intended use (who will typically use this vocabulary, and in what kind of applications), and finally a set of **competency questions**. Competency questions are basically requirements expressed as questions that you should be able to answer using your vocabulary. Try to find questions covering the complete scope of your vocabulary. If the scope is wide, you might also want to group questions in order to help modularizing. In order to help you build the vocabulary, you can provide a "typical answer" to each question.
+Requirements for a vocabulary include its purpose and scope (what is the covered domain), the target and intended use (who will typically use this vocabulary, and in what kind of applications), and finally a set of **competency questions**. Competency questions are basically requirements expressed as questions that you should be able to answer using your vocabulary. Try to find questions covering the complete scope of your vocabulary. If the scope is wide, you might also want to group questions to ease modularization. To help you build the vocabulary, you can provide a "typical answer" to each question.
 
 You should end up with a set of requirements that covers your complete scope, that is consistent (no contradiction), that is non-ambiguous, and that is understandable (try having someone else read your questions/answers, and see if it makes sense to them).
 
@@ -29,12 +29,12 @@ Let's apply NeOn to our comic book example:
 - **Intended use**: This vocabulary is intended to be used in applications helping you keep up with all your webcomics (there are som many of them)
 - **Competency questions**:
   - Related to **Topic**:
-    - Q: What are the webcomics that I follow and that talk about "romance, sarcasm, math, and language" ? A: XKCD
-    - Q: What are the topics of existing webcomics: nationality, romance, technology
+    - Q: What are the webcomics that I follow and that talk about "romance, sarcasm, math, and language"? A: XKCD
+    - Q: What are the topics of existing webcomics? A: nationality, romance, technology
   - Related to **Release**:
-    - Q: What are the webcomics that are published daily ? A: Sinfest, Dilbert
-    - Q: What are the webcomics that I follow that have an RSS or an Atom feed, and what is this feed ? A: XKCD, https://xkcd.com/atom.xml
-    - Q: Are there publications in the feeds of the comics I follow that I haven't read ? A: Yes, https://satwcomic.com/i-guess
+    - Q: What are the webcomics that are published daily? A: Sinfest, Dilbert
+    - Q: What are the webcomics that I follow that have an RSS or an Atom feed, and what is this feed? A: XKCD, https://xkcd.com/atom.xml
+    - Q: Are there publications in the feeds of the comics I follow that I haven't read? A: Yes, https://satwcomic.com/i-guess
   - ...
 
 #### Ontology specification
@@ -60,6 +60,6 @@ At this point, your vocabulary is basically a graph, with bubbles connected by a
 
 #### Ontology implementation
 
-At some point, you will be happy with your vocabulary as a drawing, but in this form it cannot be used by applications. To this end, it must be **implemented into RDF**. To do so, you can use [Protégé](https://protege.stanford.edu/), a tool that will help you implement your vocabulary through a GUI, without having to write the RDF directly.
+At some point, you will be happy with your vocabulary as a drawing, but in this form it cannot be used by applications; for that, it must be **constructed as RDF**. For this, you can use a tool such as [Protégé](https://protege.stanford.edu/) to help you construct your vocabulary through a GUI, without having to write the RDF directly.
 
 Next step, [publish your vocabulary](/developers/vocabularies/publish)!
