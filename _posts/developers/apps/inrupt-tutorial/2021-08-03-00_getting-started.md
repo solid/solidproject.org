@@ -53,3 +53,6 @@ Solid With web frameworks:
 
 You can also look into the Solid apps at:
 - [Solid Apps](https://solidproject.org/apps)
+
+Youtube videos:
+- [How we're doing Solid - In less than 5 minutes](https://www.youtube.com/watch?v=CqI15zs1NHw)
