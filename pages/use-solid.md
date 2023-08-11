@@ -5,11 +5,11 @@ permalink: /users/get-a-pod
 redirect_from:
   - /use-solid/
   - /users
-
 ---
 
 # Get a Pod
-Pods are where you store your data.  Any kind of data can be stored in a Solid Pod. Once stored in a Pod, you control who can access your data. 
+
+Pods are where you store your data. Any kind of data can be stored in a Solid Pod. Once stored in a Pod, you control who can access your data.
 
 <img class="illustration" src="{{site.baseurl}}/assets/img/single-sign-on.svg" alt="image of data stored in safe" />
 
@@ -36,7 +36,6 @@ The following table lists some Pod Provider:
 | Provider                                           | Responsible for Domain Name and Terms                                      | Responsible for Hosting                       | Hosting Location | Solid Implementation                                        |
 |----------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------|------------------|-------------------------------------------------------------|
 | [Inrupt Pod Spaces](https://start.inrupt.com/) | [Inrupt, Inc.](https://inrupt.com/terms-of-service)                        | [Amazon](https://aws.amazon.com)              | Germany              | [ESS](https://inrupt.com/products/enterprise-solid-server/) |
-| [inrupt.net](https://inrupt.net)                   | [Inrupt, Inc.](https://inrupt.com/terms-of-service)                        | [Amazon](https://aws.amazon.com)              | USA              | [NSS](https://github.com/solid/node-solid-server)           |
 | [solidcommunity.net](https://solidcommunity.net/)  | [Solid Project](https://github.com/solid/solidcommunity.net_operations)    | [Digital Ocean](https://www.digitalocean.com) | UK               | [NSS](https://github.com/solid/node-solid-server)           |
 | [solidweb.org](https://solidweb.org)               | [Solid Grassroots](https://gitlab.com/groups/solidweb.org/-/group_members) | [Hosteurope](https://www.hosteurope.de)       | France          | [NSS](https://github.com/solid/node-solid-server)           |
 | [trinpod.us](https://trinpod.us)                   | [Graphmetrix, Inc.](https://graphmetrix.com/terms)                         | [Amazon](https://aws.amazon.com)              | USA              | [TrinPod](https://graphmetrix.com/construction/trinpod)     |
@@ -48,10 +47,9 @@ The following table lists some Pod Provider:
 
 If you are a provider who wants to add your service to this list, email [info@solidproject.org](mailto:info@solidproject.org).
 
-
 ## Self-host Your Pod
 
-Self-hosting your own Pod (i.e., running your own [Pod Server](/for-developers/pod-server)) provides the most control of your data. This way, you don't have to entrust any third party with your data. 
+Self-hosting your own Pod (i.e., running your own [Pod Server](/for-developers/pod-server)) provides the most control of your data. This way, you don't have to entrust any third party with your data.
 
 Self-hosting requires some technical overhead and may not be suitable for everyone yet. In the future, we would like to make self-hosting a more user-friendly option. The great thing about Solid is the flexibility it offers: you can choose to get a Pod from a provider now, and **move to self-hosting later**.
 

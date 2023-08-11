@@ -8,6 +8,8 @@ exclude: true
 published: true
 redirect_from:
   - /for-developers/apps/vocabularies/create/quickstart
+redirect_to:
+  - https://github.com/solid/solidproject.org/wiki/How-to-create-your-own-vocabulary
 ---
 
 # How to create your own vocabulary
@@ -17,15 +19,16 @@ Let's build a very simple vocabulary describing [obelisks](https://en.wikipedia.
 ## From plain English to a graphical representation
 
 Let's start by stating in English what we'd like to put in our vocabulary:
+
 - An `obelisk` is `owned by` a `person`.
 - An `obelisk` is `built by` a `sculptor`.
 - An `obelisk` has a `height`, which is a numerical value.
 
-The highlighted elements of these sentences are going to be the 'terms' in our 
+The highlighted elements of these sentences are going to be the 'terms' in our
 vocabulary. We can identify two types of terms: the things that we talk about
-(e.g. `obelisk` or `sculptor`), and their properties (e.g. `built by` or 
+(e.g. `obelisk` or `sculptor`), and their properties (e.g. `built by` or
 `height`). Let's make a graphical representation of that by putting the things
- in bubbles, and the properties in squares:
+in bubbles, and the properties in squares:
 
 ![The obelisk vocabulary]({{site.baseurl}}/assets/img/tutorials/vocabularies/obelisk_vocab_1.png)
 
@@ -38,12 +41,13 @@ Linked Data). In RDF, everything is identified by IRIs (which are simply
 standard web URIs (Universal Resource Identifiers), but just a little bit more
 modern in that they can contain characters from a more _Internationalised_ set
 of characters (e.g. 'α', 'δ', or 'ό') - for more information, see
- [Wikipedia](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)).
+[Wikipedia](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)).
 
 First, we'll need an IRI to represent (or identify) our new vocabulary (as we
-said, everything in RDF is identified with IRIs!), e.g. 
+said, everything in RDF is identified with IRIs!), e.g.,
 [http://w3id.org/obelisk/](http://w3id.org/obelisk/). From there, let's now
 update our plain English example a little bit:
+
 - An [http://w3id.org/obelisk/Obelisk](http://w3id.org/obelisk/Obelisk) is [http://w3id.org/obelisk/ownedBy](http://w3id.org/obelisk/ownedBy) a [http://w3id.org/obelisk/Person](http://w3id.org/obelisk/Person).
 - An [http://w3id.org/obelisk/Obelisk](http://w3id.org/obelisk/Obelisk) is [http://w3id.org/obelisk/builtBy](http://w3id.org/obelisk/builtBy) a [http://w3id.org/obelisk/Sculptor](http://w3id.org/obelisk/Sculptor).
 - An [http://w3id.org/obelisk/Obelisk](http://w3id.org/obelisk/Obelisk) has a [http://w3id.org/obelisk/height](http://w3id.org/obelisk/height), which is a numerical value.
@@ -53,6 +57,7 @@ so RDF introduces the notion of prefixes (a simple concept borrowed from XML
 namespaces). From now on we'll use the prefix `obelisk:` to stand in for our
 vocabulary identifier `http://w3id.org/obelisk/`, which means our vocabulary
 now looks like:
+
 - Use the prefix 'obelisk:' for our vocabulary identifier http://w3id.org/obelisk/.
 - An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) an [obelisk:Person](http://w3id.org/obelisk/Person).
 - An [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is [obelisk:builtBy](http://w3id.org/obelisk/builtBy) an [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor).
@@ -63,20 +68,22 @@ now looks like:
 From the above we can see that we want to describe both 'Things' (e.g.
 Obelisks and Sculptors), and the 'Properties' of those things (e.g. their
 height, or who owns them). RDF allows us to explicitly distinguish between
-these by referring to 'things' as Classes, and 'properties' as, well, 
+these by referring to 'things' as Classes, and 'properties' as, well,
 Properties!
 
 ### Defining Classes of Things
 
-In RDF, the general things that we can talk about are called __Classes__.
+In RDF, the general things that we can talk about are called **Classes**.
 Therefore everything that went into a bubble in our diagram above is a Class, so
 we could add the following to our vocabulary:
+
 - [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) is a Class.
 - [obelisk:Person](http://w3id.org/obelisk/Person) is a Class.
 - [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor) is a Class.
 
 If we look at these sentences, they are structured exactly like the ones from
 the rest of our vocabulary. Let us underline the important bits in the same way:
+
 - [obelisk:Obelisk](http://w3id.org/obelisk/Obelisk) [is a](???) [class](???).
 - [obelisk:Person](http://w3id.org/obelisk/Person) [is a](???) [class](???).
 - [obelisk:Sculptor](http://w3id.org/obelisk/Sculptor) [is a](???) [class](???).
@@ -106,6 +113,7 @@ syntaxes, but we don't need to cover them in this tutorial.
 
 The properties of things in RDF are called properties (how convenient).
 Therefore, as we did for Classes, we might write:
+
 - [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
 - [obelisk:builtBy](http://w3id.org/obelisk/builtBy) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
 - [obelisk:height](http://w3id.org/obelisk/height) [is a](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [property](???).
@@ -115,10 +123,10 @@ identified by the IRI [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type
 and [property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property) is
 identified by [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property)
 so we can now go ahead and change that into:
+
 - [obelisk:ownedBy](http://w3id.org/obelisk/ownedBy) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
 - [obelisk:builtBy](http://w3id.org/obelisk/builtBy) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
 - [obelisk:height](http://w3id.org/obelisk/height) [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) [rdf:Property](http://www.w3.org/1999/02/22-rdf-syntax-ns#Property).
-
 
 Which leads to our vocabulary looking like this:
 
@@ -199,13 +207,17 @@ obelisk:height rdf:type rdf:Property ;
 Please note that we are using a shortcut provided by the Turtle syntax to avoid
 repeating the thing that we talk about when adding multiple properties to it
 (e.g. `obelisk:ownedBy` in the next snippet):
-- The long version:  
+
+- The long version:
+
 ```turtle
 obelisk:ownedBy rdf:type rdf:Property .
 obelisk:ownedBy rdfs:label "owned by" .
 obelisk:ownedBy rdfs:comment "Relationship between an obelisk and the person who owns it, which is typically the person who ordered it, or to whom it was offered.".
 ```
+
 - The shortcut:
+
 ```turtle
 obelisk:ownedBy rdf:type rdf:Property ;
     # We removed the repetitions of obelisk:ownedBy, and replaced the end of
@@ -219,8 +231,8 @@ obelisk:ownedBy rdf:type rdf:Property ;
 So far, all our labels and comments are written in English, yet there is no
 explicit indication that the text is actually in English within the vocabulary
 itself. To make the language of any text explicit, RDF provides the concept of a
-__language tag__, which can be placed directly after the text string itself. The
-value of these language tags is defined by the international IETF standard 
+**language tag**, which can be placed directly after the text string itself. The
+value of these language tags is defined by the international IETF standard
 [BCP-47](https://tools.ietf.org/html/bcp47) - for example, we can use `@en` for
 English, or `@fr` for French.
 
@@ -248,10 +260,10 @@ obelisk:Sculptor rdf:type rdfs:Class ;
 ```
 
 Of course for many text values the concept of 'language' is meaningless, for
-instance Social Security Numbers in the United States are often written as 
-strings, as they contain hyphens (e.g. '123-12-7890'), or the concept of a 
+instance Social Security Numbers in the United States are often written as
+strings, as they contain hyphens (e.g. '123-12-7890'), or the concept of a
 username (or nickname) will most often not have any associated language. For
-these common use-cases, simply not specifying a language tag at all is expected. 
+these common use-cases, simply not specifying a language tag at all is expected.
 
 ## Adding some metadata
 
@@ -325,14 +337,14 @@ You may have noticed some of the simple naming conventions used in our examples
 so far. These conventions are extremely common (but not universal!) across RDF
 vocabularies.
 
- - The basic convention is to use [Camel Case](https://en.wikipedia.org/wiki/Camel_case)
-for all your terms, e.g. 'ownedBy' or 'builtBy'.
- - Capitalize the first letter of Class terms, e.g. `Obelisk`, or `Sculptor`.
- - Lower-case the first letter of Property terms, e.g. `height` or `ownedBy`.
- - Lower-case prefixes, e.g. `@prefix obelisk: <...>`.
- - Don't use hyphens, use underscores instead, because it simplifies using them in some programming languages.
+- The basic convention is to use [Camel Case](https://en.wikipedia.org/wiki/Camel_case)
+  for all your terms, e.g. 'ownedBy' or 'builtBy'.
+- Capitalize the first letter of Class terms, e.g. `Obelisk`, or `Sculptor`.
+- Lower-case the first letter of Property terms, e.g. `height` or `ownedBy`.
+- Lower-case prefixes, e.g. `@prefix obelisk: <...>`.
+- Don't use hyphens, use underscores instead, because it simplifies using them in some programming languages.
 
-## Reference 
+## Reference
 
 A reference version of this final vocabulary is available
 [here](/assets/misc/tutorials/quickstart-obelisk.ttl), and you can experiment

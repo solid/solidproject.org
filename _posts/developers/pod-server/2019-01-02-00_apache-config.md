@@ -3,27 +3,32 @@ layout: for-developers
 title: "Using Apache as a reverse proxy"
 permalink: self-hosting/nss/apache
 tags: [pod-server]
-categories: [Running Community Solid Server]
 exclude: true
 redirect_from:
   - /for-developers/pod-server/apache
+redirect_to:
+  - https://github.com/solid/solidproject.org/wiki/Using-Apache-as-a-reverse-proxy
 ---
 
 # Using Apache as a Reverse Proxy
+
 A reverse proxy allows you to run a Solid server on a local port
 and let the proxy handle traffic to public HTTP and HTTPS ports.
 
 ## Configuration
-* enable modules
+
+- enable modules
   (`ssl.conf`, `ssl.load`, `proxy.conf`, `proxy.load`, `proxy_html.conf`, `proxy_html.load`, `proxy_http.conf`, `proxy_http.load`, `rewrite.load`, `socache_shmcb.load`)
   by creating symlinks in `/etc/apache2/mods-enabled/` pointing to `/etc/apache2/mods-available/*`
+
 ```shell
 cd /etc/apache2/mods-enabled
 for module in ssl.conf ssl.load proxy.conf proxy.load proxy_html.conf proxy_html.load proxy_http.conf proxy_http.load rewrite.load shmcb.load;
   do ln -s ../mods-available/$module $module;
 done
 ```
-* edit the appropriate sections of `/etc/apache2/sites-available/000-default.conf` as follows, substituting `example.org` for your actual domain name:
+
+- edit the appropriate sections of `/etc/apache2/sites-available/000-default.conf` as follows, substituting your actual domain name for `example.org`:
 
 ```apache
 <VirtualHost *:80>
@@ -80,7 +85,7 @@ ProxyPassReverse / https://localhost:8443/
 </VirtualHost>
 ```
 
-* edit the appropriate sections of `/etc/apache2/sites-available/default-ssl.conf` as follows:
+- edit the appropriate sections of `/etc/apache2/sites-available/default-ssl.conf` as follows:
 
 ```apache
 <VirtualHost _default_:443>
@@ -96,6 +101,7 @@ SSLCertificateChainFile /etc/letsencrypt/live/example.org/fullchain.pem
 ```
 
 # Activating the configuration
+
 ```shell
 systemctl restart apache2
 ```
