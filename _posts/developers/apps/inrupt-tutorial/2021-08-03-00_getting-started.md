@@ -36,11 +36,11 @@ For instructions on:
 ## Developing your first app
 
 Once you are set up with your own Pod and WebID,
-you're ready to develop your own app. Various Solid client libraries may provide a beginning app tutorial; for example, the [Inrupt JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/).
+you're ready to develop your own app. Various Solid client libraries may provide a  tutorial for beginners; for example, Inrupt offers the [JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/).
 
 ## Community assistance
 
-Check some of the applications. Some interesting approaches follow:
+Check out some of the existing applications. Some interesting approaches follow:
 
 - **PodOS** (Web Components) https://github.com/pod-os/PodOS
 - **solid-uix** (Native Web Components) https://github.com/SolidOS/solid-uix
@@ -55,4 +55,4 @@ You can also look into the Solid apps at:
 - [Solid Apps](https://solidproject.org/apps)
 
 Youtube videos:
-- [How we're doing Solid - In less than 5 minutes](https://www.youtube.com/watch?v=CqI15zs1NHw)
+- [How we're doing Solid — in fewer than 5 minutes](https://www.youtube.com/watch?v=CqI15zs1NHw)
