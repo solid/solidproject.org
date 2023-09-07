@@ -36,7 +36,7 @@ For instructions on:
 ## Developing your first app
 
 Once you are set up with your own Pod and WebID,
-you're ready to develop your own app. Various Solid client libraries may provide a  tutorial for beginners; for example, Inrupt offers the [JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/).
+you're ready to develop your own app. Various Solid client libraries may provide a tutorial for beginners; for example, Inrupt offers the [JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/).
 
 ## Community assistance
 
@@ -45,10 +45,10 @@ Check out some of the existing applications. Some interesting approaches follow:
 - **PodOS** (Web Components) https://github.com/pod-os/PodOS
 - **solid-uix** (Native Web Components) https://github.com/SolidOS/solid-uix
 
-Solid With web frameworks:
+Solid with web frameworks:
 
-- **ember-solid**: [Video Tutorial](https://nextcloud.hellofuture.be/s/nYYNwGceFSNotJY)  which should be start-to-finish Solid Ember App (Aad Versteden)
-- **[todo-ldo](https://github.com/megoth/todo-ldo)** a [solid/nextjs/ts] app (Arne Hassel)
+- **ember-solid** — [Video Tutorial](https://nextcloud.hellofuture.be/s/nYYNwGceFSNotJY) which should be start-to-finish Solid Ember App (Aad Versteden)
+- **[todo-ldo](https://github.com/megoth/todo-ldo)** — a [solid/nextjs/ts] app (Arne Hassel)
 - **[solid-react-app-tutorial](https://virginiabalseiro.com/blog/solid-react-app-tutorial)**
 
 You can also look into the Solid apps at:
