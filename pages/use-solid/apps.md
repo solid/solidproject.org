@@ -52,6 +52,8 @@ redirect_from:
 | [OEdit](https://edit.o.team)                                | An editor app for raw files using the vs interface. <br>- [source code](https://github.com/jaxoncreed/o-edit) by [Jackson Morgan](https://github.com/jaxoncreed).|
 | [Plume](https://thewebalyst.solidcommunity.net/plume/)       | Blogging platform. <br>- [Source code](https://github.com/theWebalyst/solid-plume/) [MIT License Copyright © 2015](https://github.com/theWebalyst/solid-plume/blob/gh-pages/LICENSE) [Andrei Sambra](https://github.com/deiu) |
 | [Dokieli](https://dokie.li)                                  | A client side editor for decentralised article publishing, annotations, and social interactions. <br>- [Dokieli](https://github.com/linkeddata/dokieli) [Apache License v2.0 2012](https://github.com/linkeddata/dokieli/blob/master/LICENSE) [Sarven Capadisli](https://github.com/csarven) |
+| [solidProfileEditor](http://profile.pondersource.net) | A solid app to view and edit you profile data. <br>- [solidProfileEditor](https://github.com/pondersource/solidProfileEditor)
+| [solidBookmarker](https://bookmarks.pondersource.net) | A solid app to manage you bookmarks. <br>- [solidBookmarker](https://github.com/pondersource/solidBookmarker)
 
 ## Geolocation
 
