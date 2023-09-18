@@ -62,7 +62,11 @@ Vincent Tunru is a front-end engineer. He has worked at Inrupt, and before that 
 
 ## Jeff Zucker
 **Creator**
-Jeff Zucker has developed software for and led projects at UNICEF, UNESCO, New York City Department for the Ageing, Columbia University, and at not-for-profit agencies internationally and in Oregon, USA.  He is the published author of books and articles on multi-cultural education, adult literacy, and the relationship of technology to society as well as a number of open source software packages. 
+Jeff Zucker has developed software for and led projects at UNICEF, UNESCO, New York City Department for the Ageing, Columbia University, and at not-for-profit agencies internationally and in Oregon, USA.  He is the published author of books and articles on multi-cultural education, adult literacy, and the relationship of technology to society as well as a number of open source software packages.
+
+## Timea Turdean
+**Creator**
+[Timea Turdean](https://timea.solidcommunity.net/) is a Software Engineer for Inrupt and part of [SolidOS](https://solidos.solidcommunity.net/).
 
 # Administrators
 Administrators are responsible for administration of tools, systems, and services used for advancing Solid.
@@ -82,7 +86,3 @@ Justin Bingham is co-founder and Chief Technology Officer of Janeiro Digital
 ## Alain Bourgeoa
 **Administrator**
 [Alain Bourgeoa](https://bourgeoa.solidcommunity.net/profile/card#me) is the maintainer of [solidcommunity.net](https://solidcommunnity.net) and works on several other teams such as [SolidOS](https://solidos.solidcommunity.net/) and [NSS](https://github.com/nodeSolidServer/).
-
-## Timea Turdean
-**Administrator**
-[Timea Turdean](https://timea.solidcommunity.net/) is a Software Engineer for Inrupt and the team lead of [SolidOS](https://solidos.solidcommunity.net/).
