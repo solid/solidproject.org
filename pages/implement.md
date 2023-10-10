@@ -4,6 +4,7 @@ title: Implement
 permalink: implement
 redirect_from:
   - /for-enterprises/
+redirect_to: /
 ---
 
 Are you in the business of apps, identification, or storage and interested in implementing Solid?
