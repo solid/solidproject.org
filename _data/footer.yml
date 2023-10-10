@@ -1,50 +1,44 @@
 - name: Home
   link: "/"
   sublinks:
-  - name: About Solid
-    link: "/about"
-  - name: Using Solid
-    link: "/users"
-  - name: Get a Pod
-    link: "/users/get-a-pod"
-  - name: Solid Apps
-    link: "/apps"
-  - name: Team
-    link: "/team"
-  - name: Research Labs
-    link: "/labs"
-  - name: FAQs
-    link: "/faqs"
-  - name: Terms of Use
-    link: "/terms"
-  - name: Code of Conduct
-    link: "https://github.com/solid/process/blob/main/code-of-conduct.md"
+    - name: About Solid
+      link: "/about"
+    - name: Using Solid
+      link: "/users"
+    - name: Get a Pod
+      link: "/users/get-a-pod"
+    - name: Solid Apps
+      link: "/apps"
+    - name: Team
+      link: "/team"
+    - name: FAQs
+      link: "/faqs"
+    - name: Terms of Use
+      link: "/terms"
+    - name: Code of Conduct
+      link: "https://github.com/solid/process/blob/main/code-of-conduct.md"
 - name: What's New
   sublinks:
-  - name: This Month in Solid
-    link: "/newsletter"
-  - name: Solid Events
-    link: "/events"
-  - name: Press
-    link: "/press"
+    - name: This Month in Solid
+      link: "/newsletter"
+    - name: Solid Events
+      link: "/events"
+    - name: Press
+      link: "/press"
 - name: Developers
   link: "/developers"
   sublinks:
-  - name: Getting Started
-    link: "/developers/tutorials/getting-started"
-  - name: Self-hosting
-    link: "/self-hosting"
-  - name: Funding
-    link: "/funding"
-  - name: Forum
-    link: "https://forum.solidproject.org"
+    - name: Getting Started
+      link: "/developers/tutorials/getting-started"
+    - name: Forum
+      link: "https://forum.solidproject.org"
 - name: More
   sublinks:
-  - name: Specification
-    link: "/specification"
-  - name: License
-    link: "/license"
-  - name: Logo usage guidelines
-    link: "/logo-usage-guidelines"
-  - name: Website feedback
-    link: "https://github.com/solid/solidproject.org/issues/new"
+    - name: Specification
+      link: "/specification"
+    - name: License
+      link: "/license"
+    - name: Logo usage guidelines
+      link: "/logo-usage-guidelines"
+    - name: Website feedback
+      link: "https://github.com/solid/solidproject.org/issues/new"
