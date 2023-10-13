@@ -26,7 +26,7 @@ The following **open-source servers** are available, if you want to run your own
 - [Node Solid Server](https://github.com/solid/node-solid-server) for Node.js
 - [solid-nextcloud](https://github.com/pdsinterop/solid-nextcloud) as a plugin for Nextcloud
 - [PHP Solid Server](https://github.com/pdsinterop/php-solid-server) for PHP
-- [Manas](https://github.com/manomayam/manas) for Rust (in alpha stage)
+- [Manas](https://github.com/manomayam/manas) for Rust
 
 For instructions on:
 
