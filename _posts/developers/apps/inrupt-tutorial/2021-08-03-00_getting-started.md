@@ -37,7 +37,7 @@ For instructions on:
 ## Developing your first app
 
 Once you are set up with your own Pod and WebID,
-you're ready to develop your own app. Various Solid client libraries may provide a tutorial for beginners; for example, Inrupt offers the [JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/).
+you're ready to develop your own app. Various Solid client libraries may provide a tutorial for beginners; for example, Inrupt offers the [JS Client Library tutorial](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/getting-started/), and O-Team offers the [Solid-React-LDO tutorial](https://github.com/o-development/ldo/blob/main/documentation/solid-react-tutorial.md).
 
 ## Community assistance
 
