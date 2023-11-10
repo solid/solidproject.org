@@ -16,7 +16,7 @@ permalink: /
       <p class="subtitle has-text-centered is-size-4 is-size-3-tablet is-size-2-desktop">
 
         Solid: Your data, your choice.<br>
-        Advancing Web standards to empower people.<br>
+        Advancing Web standards to empower individuals and communities.<br>
         
       </p>
       <div class="buttons is-centered">
@@ -49,10 +49,10 @@ permalink: /
 
               <b>Solid</b> is a 
               <a href="{{site.baseurl}}/TR/protocol">specification</a> 
-              that lets people store their data securely in decentralized data stores 
-              called <b>Pods</b>. Pods are like secure personal web servers for 
-              data. When data is stored in someone's Pod, they control which 
-              people and applications can access it.
+              that lets individuals and communities store their data securely in 
+              decentralized data stores called <b>Pods</b>. Pods are like secure 
+              web servers for data. When data is stored in a Pod, its owners 
+              control which people, organizations and applications can access it.
             </p>
             
             <div class="buttons">              
@@ -75,9 +75,8 @@ permalink: /
               
               Any kind of data can be stored in a Solid Pod, from structured
               data to regular files that you might store in a Google Drive
-              or Dropbox folder. People can
-              grant or revoke access to any slice of their
-              data as needed.
+              or Dropbox folder. Individuals and communities can grant or 
+              revoke access to any slice of their data as needed.
               
             </p>
             <div class="buttons">
@@ -133,7 +132,7 @@ permalink: /
               Anyone or anything that accesses data in a Solid Pod uses a 
               unique ID, authenticated by a decentralized extension of OpenID 
               Connect. Solid's access control system uses these IDs to 
-              determine whether a person or application has access to a 
+              determine whether a person, organization or application has access to a 
               resource in a Pod.
             </p>
           </div>
@@ -154,7 +153,7 @@ permalink: /
         applications and data</p>
         <p class="subtitle is-4">
         Data stored in Solid Pods can power ecosystems of
-        interoperable applications where individuals are free to use their data 
+        interoperable applications where individuals and communities are free to use their data 
         seamlessly across different applications and services.</p>
       </div>
     </div>
