@@ -71,6 +71,7 @@ redirect_from:
 | [Linked Pipes Applications](https://applications.linkedpipes.com/)             | Linked Data visualizations sharing and collaboration via Solid. © 2020. [Source code](https://github.com/linkedpipes/applications) [Paper](https://doi.org/10.1007/978-3-030-62327-2_25) [@aorumbayev](https://github.com/aorumbayev) [@jakubklimek](https://github.com/jakubklimek) |
 | [Hello World](https://melvincarvalho.github.io/helloworld/)                    | [Source code](https://github.com/melvincarvalho/helloworld) [MIT License Copyright © 2015](https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) |
 | [Umai](https://umai.noeldemartin.com)                                          | Offline-first Recipes Manager [Source code](https://github.com/noeldemartin/umai) [GNU General Public License v3.0 © 2023](https://github.com/NoelDeMartin/umai/blob/main/LICENSE) [Noel De Martin](https://noeldemartin.com) |
+| [0data Hello with Solid](https://hello.0data.app/solid/)                    | Implements simple CRUD operations with the REST API and solid-file-client, writing to 'tasks'. [Source code](https://github.com/0dataapp/hello/tree/main/solid/solid-file-client) |
 
 
 ## Pod Management
