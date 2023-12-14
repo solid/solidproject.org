@@ -54,6 +54,7 @@ redirect_from:
 | [Dokieli](https://dokie.li)                                  | A client side editor for decentralised article publishing, annotations, and social interactions. <br>- [Dokieli](https://github.com/linkeddata/dokieli) [Apache License v2.0 2012](https://github.com/linkeddata/dokieli/blob/master/LICENSE) [Sarven Capadisli](https://github.com/csarven) |
 | [solidProfileEditor](http://profile.pondersource.net) | A solid app to view and edit you profile data. <br>- [solidProfileEditor](https://github.com/pondersource/solidProfileEditor)
 | [solidBookmarker](https://bookmarks.pondersource.net) | A solid app to manage you bookmarks. <br>- [solidBookmarker](https://github.com/pondersource/solidBookmarker)
+| [poddit](https://vincenttunru.gitlab.io/poddit/)                              | Bookmarking app. <br>- [Source code](https://gitlab.com/vincenttunru/poddit/) © 2019 Vincent Tunru. |
 
 ## Geolocation
 
@@ -70,6 +71,9 @@ redirect_from:
 | [Solid Weather](https://bitbucket.org/dylanmartin/solidweatherapp/src/master/) | Uses the national weather service API so it is currently only able to fetch weather in the United States. <br> © 2019. Dylan Martin. |
 | [Linked Pipes Applications](https://applications.linkedpipes.com/)             | Linked Data visualizations sharing and collaboration via Solid. © 2020. [Source code](https://github.com/linkedpipes/applications) [Paper](https://doi.org/10.1007/978-3-030-62327-2_25) [@aorumbayev](https://github.com/aorumbayev) [@jakubklimek](https://github.com/jakubklimek) |
 | [Hello World](https://melvincarvalho.github.io/helloworld/)                    | [Source code](https://github.com/melvincarvalho/helloworld) [MIT License Copyright © 2015](https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) |
+| [Umai](https://umai.noeldemartin.com)                                          | Offline-first Recipes Manager [Source code](https://github.com/noeldemartin/umai) [GNU General Public License v3.0 © 2023](https://github.com/NoelDeMartin/umai/blob/main/LICENSE) [Noel De Martin](https://noeldemartin.com) |
+| [0data Hello with Solid](https://hello.0data.app/solid/)                    | Implements simple CRUD operations with the REST API and solid-file-client, writing to 'tasks'. [Source code](https://github.com/0dataapp/hello/tree/main/solid/solid-file-client) |
+
 
 ## Pod Management
 
@@ -85,7 +89,6 @@ redirect_from:
 | [ODS-Briefcase](http://ods.openlinksw.com/wiki/ODS/OdsBriefcase)              | A module of [OpenLink Data Spaces (ODS)](http://ods.openlinksw.com/wiki/ODS/), ODS-Briefcase includes [Dynamic Extended Type (DET) WebDAV/LDP Folder](https://medium.com/virtuoso-blog/d25ab3dd27d9) support for Solid Pods, enabling read/write access for any WebDAV-compliant client, subject to Briefcase-managed ACLs. (Briefcase connects to the Pod as the Pod Owner, so has full privileges.) <br> - © 2019-2023 [OpenLink Software Inc](http://www.openlinksw.com) |
 | [OpenLink Structured Data Sniffer (OSDS)](http://osds.openlinksw.com)         | Extracts Metadata in a variety of notations from HTML docs and enables storage to any Solid Pod via "Save As" feature. <br>- © 2019-2023 [OpenLink Software Inc](http://www.openlinksw.com) |
 | [URIBurner](http://linkeddata.uriburner.com/sparql)                           | SPARQL Query Service Endpoint that supports WebID-OIDC for authenticating WebIDs en route to functionality that isn't granted to the un-authenticated Public; e.g., "generating descriptions of any Web-Accessible Document in RDF, and publishing said description in 5-Star Linked Data form" <br>- © 2019-2023 [OpenLink Software Inc](http://www.openlinksw.com) |
-| [Poddit](https://vincenttunru.gitlab.io/poddit/)                              |  © 2019 Vincent Tunru. |
 | [Solid authorization Widget](https://bourgeoa.solidcommunity.net/public/solid-file-widget/) component for web app. | [source code](https://github.com/bourgeoa/solid-file-widget) is under [MIT License Copyright © 2019 ](https://github.com/bourgeoa/solid-file-widget/blob/master/LICENSE) by [Bourgeoa](https://github.com/bourgeoa/solid-file-widget/blob/master/LICENSE) |
 | [OpenLink Smart Data Bot (OSDB)](http://osdb.openlinksw.com)  | Distills actions from API documentation constructed using RDF or OpenAPI; supports WebID-OIDC for authentication © 2019-2023 [OpenLink Software Inc](http://www.openlinksw.com) |
 | [Solid File Widget](https://bourgeoa.solidcommunity.net/public/solid-file-widget/) | Widget authorisation. <br>- [Source code](https://github.com/bourgeoa/solid-file-widget) is under [MIT License Copyright © 2019](https://github.com/bourgeoa/solid-file-widget/blob/master/LICENSE) by [Alain Bourgeois](https://github.com/bourgeoa) |
