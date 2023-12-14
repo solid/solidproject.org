@@ -55,6 +55,7 @@ redirect_from:
 | [solidProfileEditor](http://profile.pondersource.net) | A solid app to view and edit you profile data. <br>- [solidProfileEditor](https://github.com/pondersource/solidProfileEditor)
 | [solidBookmarker](https://bookmarks.pondersource.net) | A solid app to manage you bookmarks. <br>- [solidBookmarker](https://github.com/pondersource/solidBookmarker)
 | [poddit](https://vincenttunru.gitlab.io/poddit/)                              | Bookmarking app. <br>- [Source code](https://gitlab.com/vincenttunru/poddit/) © 2019 Vincent Tunru. |
+| [Booklice](https://scenaristeur.github.io/booklice/)                              | Bookmarks app with community sharing. [Source code](https://github.com/scenaristeur/booklice/) |
 
 ## Geolocation
 
