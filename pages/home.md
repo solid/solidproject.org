@@ -132,7 +132,7 @@ permalink: /
               Anyone or anything that accesses data in a Solid Pod uses a 
               unique ID, authenticated by a decentralized extension of OpenID 
               Connect. Solid's access control system uses these IDs to 
-              determine whether a person, organization, or application has access to a 
+              determine whether a person, group, or application has access to a 
               resource in a Pod.
             </p>
           </div>
