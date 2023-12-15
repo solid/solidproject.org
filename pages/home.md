@@ -16,7 +16,7 @@ permalink: /
       <p class="subtitle has-text-centered is-size-4 is-size-3-tablet is-size-2-desktop">
 
         Solid: Your data, your choice.<br>
-        Advancing Web standards to empower individuals and communities.<br>
+        Advancing Web standards to empower individuals and groups.<br>
         
       </p>
       <div class="buttons is-centered">
@@ -49,10 +49,10 @@ permalink: /
 
               <b>Solid</b> is a 
               <a href="{{site.baseurl}}/TR/protocol">specification</a> 
-              that lets individuals and communities store their data securely in 
+              that lets individuals and groups store their data securely in 
               decentralized data stores called <b>Pods</b>. Pods are like secure 
               web servers for data. When data is stored in a Pod, its owners 
-              control which people, organizations and applications can access it.
+              control which people and applications can access it.
             </p>
             
             <div class="buttons">              
@@ -75,7 +75,7 @@ permalink: /
               
               Any kind of data can be stored in a Solid Pod, from structured
               data to regular files that you might store in a Google Drive
-              or Dropbox folder. Individuals and communities can grant or 
+              or Dropbox folder. Individuals and groups can grant or 
               revoke access to any slice of their data as needed.
               
             </p>
@@ -153,7 +153,7 @@ permalink: /
         applications and data</p>
         <p class="subtitle is-4">
         Data stored in Solid Pods can power ecosystems of
-        interoperable applications where individuals and communities are free to use their data 
+        interoperable applications where individuals and groups are free to use their data 
         seamlessly across different applications and services.</p>
       </div>
     </div>
