@@ -55,6 +55,7 @@ redirect_from:
 | [solidProfileEditor](http://profile.pondersource.net) | A Solid app to view and edit your profile data. <br>- [solidProfileEditor](https://github.com/pondersource/solidProfileEditor)
 | [solidBookmarker](https://bookmarks.pondersource.net) | A Solid app to manage your bookmarks. <br>- [solidBookmarker](https://github.com/pondersource/solidBookmarker)
 | [poddit](https://vincenttunru.gitlab.io/poddit/)                              | Bookmarking app. <br>- [Source code](https://gitlab.com/vincenttunru/poddit/) © 2019 Vincent Tunru. |
+| [Booklice](https://scenaristeur.github.io/booklice/)                              | Bookmarks app with community sharing. [Source code](https://github.com/scenaristeur/booklice/) |
 
 ## Geolocation
 
@@ -73,6 +74,7 @@ redirect_from:
 | [Hello World](https://melvincarvalho.github.io/helloworld/)                    | [Source code](https://github.com/melvincarvalho/helloworld) [MIT License Copyright © 2015](https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE) [Melvin Carvalho](https://github.com/melvincarvalho) |
 | [Umai](https://umai.noeldemartin.com)                                          | Offline-first Recipes Manager [Source code](https://github.com/noeldemartin/umai) [GNU General Public License v3.0 © 2023](https://github.com/NoelDeMartin/umai/blob/main/LICENSE) [Noel De Martin](https://noeldemartin.com) |
 | [0data Hello with Solid](https://hello.0data.app/solid/)                    | Implements simple CRUD operations with the REST API and solid-file-client, writing to 'tasks'. [Source code](https://github.com/0dataapp/hello/tree/main/solid/solid-file-client) |
+| [WebClip](https://chromewebstore.google.com/detail/webclip-clip-all-the-thin/mfgjcggbpdkbnnpgllaicoeplfgkfnkj)                    | Chrome extension to extract structured data from any web page and store it to a Solid Pod. [Source code](https://github.com/codecentric/web-clip) |
 
 
 ## Pod Management
