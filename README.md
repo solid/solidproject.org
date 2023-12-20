@@ -2,20 +2,14 @@
 
 Official website of the Solid Project
 
-## Local Environment Setup
+## How to contribute
 
-This website is built using [Jekyll](https://jekyllrb.com/), a static
-site generator.
+You can run `npx serve` in your local checkout of this repository to see your changes.
+If you just want to propose small textual changes you can also create a PR through GitHub's
+online editor.
+The filenames should be intuitive enough for you to search for the HTML text that corresponds to the section
+you want to edit.
+If you state in your PR description that you had trouble setting up your local environment,
+and then a Solid Team member will check and fix the layout for you if necessary, before merging your PR.
+This way anyone who understands HTML and who has a GitHub account can suggest improvements for our website.
 
-If you have [Docker Compose](https://docs.docker.com/compose/) installed, view `docker-compose up` to start a local server to view the website.
-
-Alternatively, you can install and run the required tooling manually as follows:
-1. [Install](https://jekyllrb.com/docs/installation/) Ruby and Jekyll
-1. `$ git clone https://github.com/solid/solidproject.org.git`
-1. `$ cd solidproject.org` 
-1. `$ bundle install`
-1. `$ bundle exec jekyll serve --livereload`
-
-To afford a good cross-platform developer experience, 
-this repository employs the following tooling versions: 
-`ruby >=3.2` with `bundler >=2.3.4`.
