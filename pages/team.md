@@ -50,7 +50,8 @@ Kyra Assaad is the Product Designer at Inrupt. She works to ensure that the Soli
 
 ## Virginia Balseiro
 **Creator**
-Virginia Balseiro is a software engineer at Inrupt, mainly focusing on PodBrowser. She is the founder and organizer of Women of Solid, an online community for women interested in Solid. She also founded and organizes a community for people new to the world of web development, where they can support each other and participate in Open Source projects together.
+
+[Virginia Balseiro](https://virginiabalseiro.com/#me) is a web developer and co-chair of the Solid Community Group. She has been actively involved in the Solid Project since 2020. As a founder of the Women of Solid group and a member of the Solid Team, she advocates for openness, transparency, inclusion, and positive collaboration within the Solid community. She also contributes to the development and standardization of Solid Technical Reports and guidelines as an editor.
 
 ## Vincent Tunru
 **Creator**
