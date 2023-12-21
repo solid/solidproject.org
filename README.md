@@ -6,6 +6,8 @@ Official website of the Solid Project
 
 You can run `npx serve` in your local checkout of this repository to see your changes.
 
+NOTE: please make sure to check out the `2023-redesign` branch!
+
 If you just want to propose small textual changes you can also create a PR through GitHub's
 online editor.
 
