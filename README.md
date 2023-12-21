@@ -2,7 +2,12 @@
 
 Official website of the Solid Project
 
-## Local Environment Setup
+## Important note about 2023-redesign
+
+If you want to make improvements to this website, please (also) add them in [the 2023-redesign branch](https://github.com/solid/solidproject.org/tree/2023-redesign?tab=readme-ov-file#how-to-contribute )
+which we hope to merge soon.
+
+## Local Environment Setup (before 2023-redesign)
 
 This website is built using [Jekyll](https://jekyllrb.com/), a static
 site generator.
