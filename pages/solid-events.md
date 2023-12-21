@@ -12,6 +12,12 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 
 - Have another Solid oriented event to share? Make a pull request to the [solidproject.org events page](https://github.com/solid/solidproject.org/edit/main/pages/solid-events.md).
 
+## 2024 Events
+
+| Date                   | Event                                                  | Organiser                                               | Recordings, Slides and Notes |
+|------------------------|--------------------------------------------------------|---------------------------------------------------------|------------------------------|
+|2024-05-02 - 2024-05-03 | [2nd Solid Symposium](https://events.vito.be/sosy2024) (Leuven, Belgium) | [COST](https://cost-dkg.eu/) / [VITO](https://vito.be/) |                              |
+
 ## 2023 Events
 
 | Date | Event | Organiser | Recordings, Slides and Notes |
