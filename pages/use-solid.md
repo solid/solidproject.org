@@ -45,7 +45,7 @@ The following table lists some Pod Provider:
 | [redpencil.io](https://solid.redpencil.io/)                | [redpencil.io](https://redpencil.io/)                           | [Hetzner](https://www.hetzner.com/)        | Finland              | [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer)        |
 | [teamid.live](https://teamid.live/)                | [Meisdata](https://github.com/serverproject-dev)                           | [Hosteurope](https://www.hosteurope.de)        | France              | [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer)        |
 
-If you are a provider who wants to add your service to this list, email [info@solidproject.org](mailto:info@solidproject.org).
+If you are a provider who wants to add your service to this list, please create a pull request to update [this file](https://github.com/solid/solidproject.org/blob/main/pages/use-solid.md).
 
 ## Self-host Your Pod
 
