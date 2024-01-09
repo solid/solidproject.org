@@ -2,6 +2,7 @@
 layout: page
 title: "Job Board"
 permalink: job-board
+redirect_to: /
 ---
 
 # Job Board

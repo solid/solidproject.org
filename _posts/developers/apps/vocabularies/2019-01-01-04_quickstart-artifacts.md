@@ -7,6 +7,8 @@ categories: [Vocabularies, Quickstart]
 exclude: true
 redirect_from:
   - /for-developers/apps/vocabularies/code/quickstart
+redirect_to:
+  - https://github.com/solid/solidproject.org/wiki/Code-with-your-vocabulary
 ---
 
 In this part of the tutorial, we will build on the [quickstart version](https://solidproject.org/assets/misc/tutorials/quickstart-obelisk.ttl) of the Obelisk vocabulary to develop a simple JavaScript application that answers the question: "Is this person an obelisk sculptor ?"
@@ -14,17 +16,19 @@ In this part of the tutorial, we will build on the [quickstart version](https://
 ## The artifact generator
 
 The last thing we want developers to do is memorize and type IRIs all over their code. That's why some libraries (such as `rdf-namespaces`) define constants giving easy access to the terms from common vocabularies:
+
 ```javascript
-import { rdf } from 'rdf-namespaces';
+import { rdf } from "rdf-namespaces";
 
 // The value of iri will be http://www.w3.org/1999/02/22-rdf-syntax-ns#type.
 const iri = rdf.type;
 ```
+
 However, an issue with these libraries is that, by their nature, they are limited to just the common, well-known vocabularies. What about your specific vocabulary, designed for your app? How can you make the terms described in that vocabulary easily reusable in your code (and easily reusable in the code of others who may wish to reuse the terms you've defined in your cool vocabulary)?
 
-The [ArtifactGenerator](https://www.npmjs.com/package/@inrupt/artifact-generator) 
-is a tool (*currently available as Alpha*) that takes any RDF
-vocabulary as input and can generate multiple source-code bundles 
+The [ArtifactGenerator](https://www.npmjs.com/package/@inrupt/artifact-generator)
+is a tool _(currently available as Alpha)_ that takes any RDF
+vocabulary as input and can generate multiple source-code bundles
 (e.g., Java JAR, JavaScript NPM module, etc.) that you can then use in
 your application. Let's see how it works.
 
@@ -38,17 +42,20 @@ You can specify a local vocabulary file rather than an IRI if your vocabulary is
 ### Use the artifact
 
 In your application (TODO: provide git repo with demo app), `require` the generated output and use your vocabulary terms directly:
+
 ```javascript
-const OBELISK = require("/path/to/generated/artifact/OBELISK")
+const OBELISK = require("/path/to/generated/artifact/OBELISK");
 
 // The value of sculptorIri will be http://w3id.org/obelisk/Sculptor
 const sculptorIri = OBELISK.Sculptor.value;
 // The value of sculptorDefaultLabel will be Sculptor
-const sculptorDefaultLabel = OBELISK.Sculptor.labelInLang()
+const sculptorDefaultLabel = OBELISK.Sculptor.labelInLang();
 ```
+
 If you use an IDE, at this point you have auto-completion on all the terms of your vocabulary.
 
 From there, we can build a simple app that tells you, based on a person's WebID, if that person is an obelisk sculptor or not. Note that the generated artifact is:
+
 - imported on line 1,
 - used on line 16 to get an IRI (`OBELISK.Sculptor.value`),
 - used on line 20 to get a label (`OBELISK.Sculptor.labelInLang()`).

@@ -50,7 +50,8 @@ Kyra Assaad is the Product Designer at Inrupt. She works to ensure that the Soli
 
 ## Virginia Balseiro
 **Creator**
-Virginia Balseiro is a software engineer at Inrupt, mainly focusing on PodBrowser. She is the founder and organizer of Women of Solid, an online community for women interested in Solid. She also founded and organizes a community for people new to the world of web development, where they can support each other and participate in Open Source projects together.
+
+[Virginia Balseiro](https://virginiabalseiro.com/#me) is a web developer and co-chair of the Solid Community Group. She has been actively involved in the Solid Project since 2020. As a founder of the Women of Solid group and a member of the Solid Team, she advocates for openness, transparency, inclusion, and positive collaboration within the Solid community. She also contributes to the development and standardization of Solid Technical Reports and guidelines as an editor.
 
 ## Vincent Tunru
 **Creator**
@@ -62,7 +63,11 @@ Vincent Tunru is a front-end engineer. He has worked at Inrupt, and before that 
 
 ## Jeff Zucker
 **Creator**
-Jeff Zucker has developed software for and led projects at UNICEF, UNESCO, New York City Department for the Ageing, Columbia University, and at not-for-profit agencies internationally and in Oregon, USA.  He is the published author of books and articles on multi-cultural education, adult literacy, and the relationship of technology to society as well as a number of open source software packages. 
+Jeff Zucker has developed software for and led projects at UNICEF, UNESCO, New York City Department for the Ageing, Columbia University, and at not-for-profit agencies internationally and in Oregon, USA.  He is the published author of books and articles on multi-cultural education, adult literacy, and the relationship of technology to society as well as a number of open source software packages.
+
+## Timea Turdean
+**Creator**
+[Timea Turdean](https://timea.solidcommunity.net/) is a Software Engineer for Inrupt and part of [SolidOS](https://solidos.solidcommunity.net/).
 
 # Administrators
 Administrators are responsible for administration of tools, systems, and services used for advancing Solid.
@@ -82,7 +87,3 @@ Justin Bingham is co-founder and Chief Technology Officer of Janeiro Digital
 ## Alain Bourgeoa
 **Administrator**
 [Alain Bourgeoa](https://bourgeoa.solidcommunity.net/profile/card#me) is the maintainer of [solidcommunity.net](https://solidcommunnity.net) and works on several other teams such as [SolidOS](https://solidos.solidcommunity.net/) and [NSS](https://github.com/nodeSolidServer/).
-
-## Timea Turdean
-**Administrator**
-[Timea Turdean](https://timea.solidcommunity.net/) is a Software Engineer for Inrupt and the team lead of [SolidOS](https://solidos.solidcommunity.net/).
