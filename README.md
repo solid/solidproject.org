@@ -4,7 +4,13 @@ Official website of the Solid Project
 
 ## How to contribute
 
-You can run `npx serve` in your local checkout of this repository to see your changes.
+You can run `npx serve` in your local checkout of this repository or even just browse to:
+
+```
+file:///your/local/path/to/gh/solid/solidproject.org/index.html
+```
+
+to see your changes.
 
 NOTE: please make sure to check out the `2023-redesign` branch!
 
