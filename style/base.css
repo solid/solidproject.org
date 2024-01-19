@@ -108,3 +108,109 @@ footer > div > dl > dd > ul li{
 footer > div > dl > dd > ul li img{
     filter: invert(100%) hue-rotate(180deg);
 }
+
+#features > h2, #accounts dt {
+    display: none;
+}
+
+#homepage main>article>div>section img {
+    width: 63px;
+    height: 63px;
+}
+
+#homepage main>article>div>section>div>ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 4rem;
+    grid-row-gap: 4px;
+    background-color: #fff;
+    color: #202542;
+    padding: 4rem;
+    border-radius: 30px;
+    list-style: none;
+}
+
+#homepage main>article>div>section>div>ul li {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 3rem;
+    grid-row-gap: 0px;
+}
+
+#homepage main>article>div>section>div>ul li :nth-child(1) {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#homepage main>article>div>section>div>ul li :nth-child(2) {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#homepage main>article>div>section>div>ul li :nth-child(3) {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#homepage main>article>div>section>div>ul li :nth-child(4) {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+#homepage main>article>div>section>div>ul li a {
+    background-color: #7B4DFF;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    width: max-content;
+    height: max-content;
+}
+
+
+#about-solid main {
+    padding: 0;
+}
+
+#about-solid main > article {
+    color: #fff;
+    align-items: flex-start;
+}
+
+#about-solid main > article > h1, #about-solid main > article > div > p {
+    padding: 0 4rem;
+}
+
+#about-solid main > article > div > section {
+    color: #000;
+    background-color: #fff;
+    padding: 4rem;
+}
+
+#about-solid main > article img {
+    width: 300px;
+    float: right;
+}
+
+#about-solid section#features {
+    background-color: #202542;
+}
+
+#about-solid section#features ul {
+    display: flex;
+    list-style: none;
+}
+
+#about-solid section#features ul li {
+    margin-right: 2rem;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+#about-solid section#features ul li a {
+    background-color: #7B4DFF;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    text-wrap: nowrap;
+}
