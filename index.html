@@ -1,114 +1,108 @@
 <!DOCTYPE html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Home - Solid</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="/style/base.css" />
     <link rel="stylesheet" href="/style/index.css" />
-</head>
+  </head>
 
-<body about="" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/"
-    typeof="foaf:PersonalProfileDocument">
+<body about="" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/" typeof="foaf:PersonalProfileDocument">
     <span rel="foaf:primaryTopic foaf:maker" resource="#i"></span>
 
     <header>
-        <address about="#i" id="i" typeof="foaf:Organization">
-            <a href="/index.html"><img alt="Solid logo" rel="foaf:img" src="/image/logo.svg" width="50" /> <span
-                    property="foaf:name">Solid</span></a>
-        </address>
-        <nav>
-            <ul>
-                <li><a href="/about-solid.html">About Solid</a></li>
-                <li><a href="/for-developers.html">For Developers</a></li>
-                <li><a href="/for-organizations.html">For Organizations</a></li>
-                <li><a href="/community.html">Community</a></li>
-            </ul>
-        </nav>
+      <address about="#i" id="i" typeof="foaf:Organization">
+        <a href="/index.html"><img alt="Solid logo" rel="foaf:img" src="/image/logo.svg" width="50" /> <span property="foaf:name">Solid</span></a>
+      </address>
+
+      <nav>
+        <ul>
+          <li><a href="/about-solid.html">About Solid</a></li>
+          <li><a href="/for-developers.html">For Developers</a></li>
+          <li><a href="/for-organizations.html">For Organizations</a></li>
+          <li><a href="/community.html">Community</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <article about="" typeof="schema:Article">
-            <img alt="" src="/image/logo.svg" width="200" />
+      <article about="" typeof="schema:Article">
+        <img alt="" src="/image/logo.svg" width="200" />
 
-            <h1 property="schema:name">Solid: Your data, your choice.</h1>
+        <h1 property="schema:name">Solid: Your data, your choice.</h1>
 
-            <p class="subtitle">Advancing the Web to empower people and communities.</p>
+        <p class="subtitle">Advancing the Web to empower people and communities.</p>
 
+        <div datatype="rdf:HTML" property="schema:description">
+          <section id="features" inlist="" rel="schema:hasPart" resource="#features">
+            <h2 property="schema:name">Features</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <ul>
+                <li>
+                  <img alt="internet" src="/image/internet.png" width="50%" />
+                  <p><strong>Read about Solid</strong></p>
+                  <p>Solid is an evolution of the web by its creator Sir Tim Berners-Lee.
+                      Solid realizes Tim's original vision for the Web as a medium for the secure,
+                      decentralized exchange of public and private data.</p>
+                  <a href="/about_solid.html">About Solid</a>
+                </li>
 
-            <section id="features" inlist="" rel="schema:hasPart" resource="#features">
-                <!-- <h2 property="schema:name">Features</h2> -->
-                <div datatype="rdf:HTML" property="schema:description">
-                    <ul>
-                        <li>
-                            <img alt="internet" src="/image/internet.png" width="50%" />
-                            <p><strong>Read about Solid</strong></p>
-                            <p>Solid is an evolution of the web by its creator Sir Tim Berners-Lee.
-                                Solid realizes Tim's original vision for the Web as a medium for the secure,
-                                decentralized exchange of public and private data.</p>
-                            <span><a href="/about_solid.html">About Solid</a></span>
-                        </li>
+                <li>
+                  <img alt="chet_cloud" class="bg-dark" src="/image/chet_cloud.png" width="50%" />
+                  <p><strong>Develop an app with Solid</strong></p>
+                  <p>Interested in developing an app with Solid? Find technical documents, resources,
+                      and repositories.</p>
+                  <a href="/for_developers.html">For Developers</a>
+                </li>
 
-                        <li>
-                            <img alt="chet_cloud" class="bg-dark" src="/image/chet_cloud.png" width="50%" />
-                            <p><strong>Develop an app with Solid</strong></p>
-                            <p>Interested in developing an app with Solid? Find technical documents, resources,
-                                and repositories.</p>
-                            <span><a href="/for_developers.html">For Developers</a></span>
-                        </li>
+                <li>
+                  <img alt="beg" src="/image/beg.png" width="50%" />
+                  <p><strong>Learn about organizations working with Solid</strong></p>
+                  <p>Several organizations work in a range of capacities to support the deployment and
+                      research of Solid technology.</p>
+                  <a href="/for_organizations.html">See Organizations</a>
+                </li>
 
-                        <li>
-                            <img alt="beg" src="/image/beg.png" width="50%" />
-                            <p><strong>Learn about organizations working with Solid</strong></p>
-                            <p>Several organizations work in a range of capacities to support the deployment and
-                                research of Solid technology.</p>
-                            <span><a href="/for_organizations.html">See Organizations</a></span>
-                        </li>
-
-                        <li>
-                            <img alt="grup" src="/image/grup.png" width="50%" />
-                            <p><strong>Explore the community</strong></p>
-                            <p>Connect with the community through forums and at events, like Solid World.</p>
-                            <span><a href="/community.html">Explore Community</a></span>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </article>
+                <li>
+                  <img alt="grup" src="/image/grup.png" width="50%" />
+                  <p><strong>Explore the community</strong></p>
+                  <p>Connect with the community through forums and at events, like Solid World.</p>
+                  <a href="/community.html">Explore Community</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </article>
     </main>
 
     <footer>
-        <nav>
-            <ul>
-                <li><a href="/about-solid.html">About</a></li>
-                <li><a href="/for-developers.html">For Developers</a></li>
-                <li><a href="/for-organizations.html">For Organizations</a></li>
-                <li><a href="/community.html">Community</a></li>
-                <li><a href="/#">License</a></li>
-                <li><a href="/#">Code of Conduct</a></li>
+      <nav>
+        <ul>
+          <li><a href="/about-solid.html">About</a></li>
+          <li><a href="/for-developers.html">For Developers</a></li>
+          <li><a href="/for-organizations.html">For Organizations</a></li>
+          <li><a href="/community.html">Community</a></li>
+          <li><a href="/#">License</a></li>
+          <li><a href="/#">Code of Conduct</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <img alt="logo" src="/image/logo.svg" width="40" />
+        <dl id="accounts">
+          <dt>Accounts</dt>
+          <dd>
+            <ul about="/#i">
+              <li><a href="mailto:info@solidproject.org" rel="foaf:mbox" resource="mailto:info@solidproject.org">info@solidproject.org</a></li>
+              <li><a href="https://github.com/" rel="foaf:account"><img src="/image/github.svg" alt="github" width="20" /></a></li>
+              <li><a href="https://twitter.com/" rel="foaf:account"><img src="/image/twitter.svg" alt="twitter" width="20" /></a></li>
+              <li><a href="https://vimeo.com/" rel="foaf:account"><img src="/image/vimeo-v.svg" alt="vimeo-v" width="20" /></a></li>
             </ul>
-        </nav>
-
-        <div>
-            <img alt="logo" src="/image/logo.svg" />
-            <dl id="accounts">
-                <!-- <dt>Accounts</dt> -->
-                <dd>
-                    <ul about="/#i">
-                        <li><a href="mailto:info@solidproject.org" rel="foaf:mbox"
-                                resource="mailto:info@solidproject.org">info@solidproject.org</a></li>
-                        <li><a href="https://github.com/" rel="foaf:account"><img src="/image/github.svg" alt="github"
-                                    width="20" /></a></li>
-                        <li><a href="https://twitter.com/" rel="foaf:account"><img src="/image/twitter.svg"
-                                    alt="twitter" width="20" /></a></li>
-                        <li><a href="https://vimeo.com/" rel="foaf:account"><img src="/image/vimeo-v.svg" alt="vimeo-v"
-                                    width="20" /></a></li>
-                    </ul>
-                </dd>
-            </dl>
-        </div>
+          </dd>
+        </dl>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
