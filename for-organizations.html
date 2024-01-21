@@ -80,18 +80,22 @@
                       <source rel="schema:contentUrl" src="video/foo-bar-baz.mp4" type="video/webm" />
                     </video>
 
-                    <figcaption property="schema:name">
+                    <figcaption>
                       <details>
                         <summary>Video details</summary>
-                        <p><a href="video/foo-bar-baz.mp4">Video</a> [<time datatype="xsd:duration" datetime="PT31S" property="schema:duration">31s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>].</p>
-                       </details>
-
-                       <dl>
-                         <dt>Title</dt>
-                         <dd>Foo bar baz</dd>
-                         <dt>Date</dt>
-                         <dd>yyyy-mm-dd</dd>
-                       </dl>
+                         <dl>
+                           <dt>Title</dt>
+                           <dd property="schema:name">Foo bar baz</dd>
+                           <dt>Date</dt>
+                           <dd>yyyy-mm-dd</dd>
+                           <dt>Download</dt>
+                           <dd><a href="video/foo-bar-baz.mp4">Video</a></dd>
+                           <dt>Duration</dt>
+                           <dd><time datatype="xsd:duration" datetime="PT31S" property="schema:duration">31s</time>, ></dd>
+                           <dt>Format</dt>
+                           <dd lang="" property="schema:encodingFormat" xml:lang="">WebM</dd>
+                        </dl>
+                      </details>
                      </figcaption>
                   </figure>
                 </li>
