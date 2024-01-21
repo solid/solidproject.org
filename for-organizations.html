@@ -1,102 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>For Organizations - Solid</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="style/base.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Organizations</title>
-</head>
-
-<body>
+  <body about="" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/">
     <header>
-        <address about="#i" id="i" typeof="foaf:Organization">
-            <a href="/index.html"><img alt="Solid logo" rel="foaf:img" src="/image/logo.svg" width="50" /> <span
-                    property="foaf:name">Solid</span></a>
-        </address>
-        <nav>
-            <ul>
-                <li><a href="/about-solid.html">About Solid</a></li>
-                <li><a href="/for-developers.html">For Developers</a></li>
-                <li><a href="/for-organizations.html">For Organizations</a></li>
-                <li><a href="/community.html">Community</a></li>
-            </ul>
-        </nav>
+      <address>
+        <a href="/index.html"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
+      </address>
+
+      <nav>
+        <ul>
+          <li><a href="/about-solid.html">About Solid</a></li>
+          <li><a href="/for-developers.html">For Developers</a></li>
+          <li><a href="/for-organizations.html">For Organizations</a></li>
+          <li><a href="/community.html">Community</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-        <section>
-            <h1>Organizations using Solid</h1>
-            <p>These organizations work in a range of capacities to support the deployment and research
+      <article about="" typeof="schema:Article">
+        <h1 property="schema:name">Organizations using Solid</h1>
+
+        <p>These organizations work in a range of capacities to support the deployment and research
                 of Solid technology.</p>
-        </section>
-        <section>
-            <p>Please reach out to <a href="#">info@solidproject.org</a> if you want your organization to be included in
-                this list.</p>
-            <ul>
-                <li>
-                    <img src="image/hexagon.png" alt="hexagon" width="20" height="20">
-                    <p>Pod provider</p>
-                </li>
-                <li>
-                    <img src="image/research.png" alt="research" width="25" height="25">
-                    <p>Research institutions</p>
-                </li>
-                <li>
-                    <img src="image/img_1.png" alt="img_1" width="50">
-                    <h4>BBC Research & Development</h4>
-                    <p>Words words words words words words words words words words words words words words words words
-                    </p>
-                    <a
-                        href="bbc.co.uk/rd/blog/2021-09-personal-data-store-research">bbc.co.uk/rd/blog/2021-09-personal-data-store-research</a>
-                </li>
-                <li>
-                    <img src="image/research.png" alt="" width="40" height="40">
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h1>Solutions using Solid technology</h1>
-            <h4>The video clips below are taken from Solid World webinars in which companies,
-                organizations, and research institutions share how they are using Solid in their Solutions.</h4>
 
-            <video width="100%" autoplay muted>
-                <source src="image/rain.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p>NHS</p>
-            <p>Month / day / year</p>
-        </section>
-    </main>
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="/about-solid.html">About</a></li>
-                <li><a href="/for-developers.html">For Developers</a></li>
-                <li><a href="/for-organizations.html">For Organizations</a></li>
-                <li><a href="/community.html">Community</a></li>
-                <li><a href="/#">License</a></li>
-                <li><a href="/#">Code of Conduct</a></li>
-            </ul>
-        </nav>
+        <div datatype="rdf:HTML" property="schema:description">
+          <section id="solid-organizations" inlist="" rel="schema:hasPart" resource="#solid-organizations">
+            <h2 property="schema:name">Solid Organizations</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <dl class="legend">
+                  <dt><img src="image/hexagon.png" alt="hexagon" width="20" height="20" /></dt>
+                  <dd>Pod provider</dd>
+                  <dt><img src="image/research.png" alt="research" width="25" height="25" /></dt>
+                  <dd>Research institutions</dd>
+              </dl>
 
-        <div>
-            <img alt="logo" src="/image/logo.svg" />
-            <dl id="accounts">
-                <!-- <dt>Accounts</dt> -->
-                <dd>
-                    <ul about="/#i">
-                        <li><a href="mailto:info@solidproject.org" rel="foaf:mbox"
-                                resource="mailto:info@solidproject.org">info@solidproject.org</a></li>
-                        <li><a href="https://github.com/" rel="foaf:account"><img src="/image/github.svg" alt="github"
-                                    width="20" /></a></li>
-                        <li><a href="https://twitter.com/" rel="foaf:account"><img src="/image/twitter.svg"
-                                    alt="twitter" width="20" /></a></li>
-                        <li><a href="https://vimeo.com/" rel="foaf:account"><img src="/image/vimeo-v.svg" alt="vimeo-v"
-                                    width="20" /></a></li>
-                    </ul>
-                </dd>
-            </dl>
+              <ul>
+                <li>
+                  <img src="image/img_1.png" alt="img_1" width="50" />
+                  <h4>BBC Research &amp; Development</h4>
+                  <p>Words words words words words words words words words words words words words words words words
+                  </p>
+                  <a
+                      href="bbc.co.uk/rd/blog/2021-09-personal-data-store-research">bbc.co.uk/rd/blog/2021-09-personal-data-store-research</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="solutions-using-solid-technology" inlist="" rel="schema:hasPart" resource="#solutions-using-solid-technology">
+            <h2 property="schema:name">Solutions using Solid technology</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <ul>
+                <li>
+                  <figure id="figure-video" rel="schema:video" resource="#figure-foo-bar-baz">
+                    <video controls="controls" poster="video/foo-bar-baz-poster.jpg" preload="none" resource="#figure-foo-bar-baz" typeof="schema:VideoObject" width="400">
+                      <source rel="schema:contentUrl" src="video/foo-bar-baz.mp4" type="video/webm" />
+                    </video>
+
+                    <figcaption property="schema:name">
+                      <details>
+                        <summary>Video details</summary>
+                        <p><a href="video/foo-bar-baz.mp4">Video</a> [<time datatype="xsd:duration" datetime="PT31S" property="schema:duration">31s</time>, <span lang="" property="schema:encodingFormat" xml:lang="">WebM</span>].</p>
+                       </details>
+
+                       <dl>
+                         <dt>Title</dt>
+                         <dd>Foo bar baz</dd>
+                         <dt>Date</dt>
+                         <dd>yyyy-mm-dd</dd>
+                       </dl>
+                     </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
-    </footer>
-</body>
+      </article>
+    </main>
 
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="/about-solid.html">About</a></li>
+          <li><a href="/for-developers.html">For Developers</a></li>
+          <li><a href="/for-organizations.html">For Organizations</a></li>
+          <li><a href="/community.html">Community</a></li>
+          <li><a href="/#">License</a></li>
+          <li><a href="/#">Code of Conduct</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <img alt="logo" src="/image/logo.svg" width="40" />
+        <dl id="accounts">
+          <dt>Accounts</dt>
+          <dd>
+            <ul about="/#i">
+              <li><a href="mailto:info@solidproject.org">info@solidproject.org</a></li>
+              <li><a href="https://github.com/"><img src="/image/github.svg" alt="github" width="20" /></a></li>
+              <li><a href="https://twitter.com/"><img src="/image/twitter.svg" alt="twitter" width="20" /></a></li>
+              <li><a href="https://vimeo.com/"><img src="/image/vimeo-v.svg" alt="vimeo-v" width="20" /></a></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </footer>
+  </body>
 </html>
