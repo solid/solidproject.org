@@ -19,7 +19,8 @@ header {
     padding: 2rem 4rem;
 }
 
-header a, footer a {
+header a,
+footer a {
     color: #fff;
     text-decoration: none;
     text-wrap: nowrap;
@@ -55,7 +56,7 @@ nav a {
 }
 
 main {
-    padding: 4rem;
+    padding: 6rem;
 }
 
 main>article {
@@ -71,7 +72,7 @@ main>article>p {
 }
 
 
-footer > div {
+footer>div {
     display: flex;
     padding: 2rem 4rem;
     align-items: center;
@@ -86,12 +87,12 @@ footer dd {
     margin-inline-start: 0;
 }
 
-footer > div> img {
+footer>div>img {
     height: 40px;
     width: 40px;
 }
 
-footer > div > dl > dd > ul{
+footer>div>dl>dd>ul {
     display: flex;
     color: #fff;
     width: min-content;
@@ -101,29 +102,31 @@ footer > div > dl > dd > ul{
     padding-inline-start: 0;
 }
 
-footer > div > dl > dd > ul li{
+footer>div>dl>dd>ul li {
     margin-left: 1rem;
 }
 
-footer > div > dl > dd > ul li img{
+footer>div>dl>dd>ul li img {
     filter: invert(100%) hue-rotate(180deg);
 }
 
-#features > h2, #accounts dt {
+#features>h2,
+#accounts dt {
     display: none;
 }
 
 #homepage main>article>div>section img {
     width: 63px;
     height: 63px;
+    padding-right: 2rem;
 }
 
 #homepage main>article>div>section>div>ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 4rem;
-    grid-row-gap: 4px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
     background-color: #fff;
     color: #202542;
     padding: 4rem;
@@ -135,8 +138,19 @@ footer > div > dl > dd > ul li img{
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
-    grid-column-gap: 3rem;
-    grid-row-gap: 0px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    padding: 4rem;
+}
+
+#homepage main>article>div>section>div>ul> :nth-child(1),
+#homepage main>article>div>section>div>ul> :nth-child(3) {
+    border-right: 1px solid #979797;
+}
+
+#homepage main>article>div>section>div>ul> :nth-child(1),
+#homepage main>article>div>section>div>ul> :nth-child(2) {
+    border-bottom: 1px solid #979797;
 }
 
 #homepage main>article>div>section>div>ul li :nth-child(1) {
@@ -165,27 +179,27 @@ footer > div > dl > dd > ul li img{
     height: max-content;
 }
 
-
 #about-solid main {
     padding: 0;
 }
 
-#about-solid main > article {
+#about-solid main>article {
     color: #fff;
     align-items: flex-start;
 }
 
-#about-solid main > article > h1, #about-solid main > article > div > p {
-    padding: 0 4rem;
+#about-solid main>article>h1,
+#about-solid main>article>div>p {
+    padding: 0 6rem;
 }
 
-#about-solid main > article > div > section {
+#about-solid main>article>div>section {
     color: #000;
     background-color: #fff;
-    padding: 4rem;
+    padding: 2rem 6rem;
 }
 
-#about-solid main > article img {
+#about-solid main>article img {
     width: 300px;
     float: right;
 }
