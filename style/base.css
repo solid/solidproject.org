@@ -121,16 +121,20 @@ footer>div>dl>dd>ul li img {
     padding-right: 2rem;
 }
 
+#homepage main>article>div>section>div>ul,
+#developer-tutorials {
+    border-radius: 30px;
+    padding: 4rem;
+    background-color: #fff;
+    color: #202542;
+}
+
 #homepage main>article>div>section>div>ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0;
     grid-row-gap: 0;
-    background-color: #fff;
-    color: #202542;
-    padding: 4rem;
-    border-radius: 30px;
     list-style: none;
 }
 
@@ -179,24 +183,35 @@ footer>div>dl>dd>ul li img {
     height: max-content;
 }
 
-#about-solid main {
+#about-solid main,
+#for-developers main,
+#for-organizations main {
     padding: 0;
 }
 
-#about-solid main>article {
+#about-solid main>article,
+#for-organizations main>article {
     color: #fff;
     align-items: flex-start;
 }
 
 #about-solid main>article>h1,
-#about-solid main>article>div>p {
+#about-solid main>article>div>p,
+#for-organizations main>article>h1,
+#for-organizations main>article>p {
     padding: 0 6rem;
 }
 
-#about-solid main>article>div>section {
+#about-solid main>article>div>section,
+#hosted-pod-services,
+#solid-organizations {
     color: #000;
     background-color: #fff;
     padding: 2rem 6rem;
+}
+
+#hosted-pod-services {
+    display: block;
 }
 
 #about-solid main>article img {
@@ -213,7 +228,9 @@ footer>div>dl>dd>ul li img {
     list-style: none;
 }
 
-#about-solid section#features ul li {
+#about-solid section#features ul li,
+#hosted-pod-services>div>ul li,
+#solid-organizations>div>ul li {
     margin-right: 2rem;
     background-color: #fff;
     border-radius: 30px;
@@ -227,4 +244,36 @@ footer>div>dl>dd>ul li img {
     text-decoration: none;
     border-radius: 0.5rem;
     text-wrap: nowrap;
+}
+
+#for-developers main>article>div,
+#for-organizations main>article>div {
+    width: 100%;
+}
+
+#developer-tutorials {
+    margin: 4rem;
+}
+
+#hosted-pod-services {
+    margin-bottom: 4rem;
+}
+
+#solutions-using-solid-technology>div>ul,
+#hosted-pod-services>div>ul,
+#solid-organizations>div>ul {
+    list-style: none;
+}
+
+#hosted-pod-services>div>ul,
+#solid-organizations>div>ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+#hosted-pod-services>div>ul li,
+#solid-organizations>div>ul li {
+    background-color: #FEFEFE;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
