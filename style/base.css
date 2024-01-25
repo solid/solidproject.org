@@ -183,26 +183,26 @@ footer>div>dl>dd>ul li img {
     height: max-content;
 }
 
-#about-solid main,
+#about main,
 #for-developers main,
 #for-organizations main {
     padding: 0;
 }
 
-#about-solid main>article,
+#about main>article,
 #for-organizations main>article {
     color: #fff;
     align-items: flex-start;
 }
 
-#about-solid main>article>h1,
-#about-solid main>article>div>p,
+#about main>article>h1,
+#about main>article>div>p,
 #for-organizations main>article>h1,
 #for-organizations main>article>p {
     padding: 0 6rem;
 }
 
-#about-solid main>article>div>section,
+#about main>article>div>section,
 #hosted-pod-services,
 #solid-organizations {
     color: #000;
@@ -214,21 +214,21 @@ footer>div>dl>dd>ul li img {
     display: block;
 }
 
-#about-solid main>article img {
+#about main>article img {
     width: 300px;
     float: right;
 }
 
-#about-solid section#features {
+#about section#features {
     background-color: #202542;
 }
 
-#about-solid section#features ul {
+#about section#features ul {
     display: flex;
     list-style: none;
 }
 
-#about-solid section#features ul li,
+#about section#features ul li,
 #hosted-pod-services>div>ul li,
 #solid-organizations>div>ul li {
     margin-right: 2rem;
@@ -237,7 +237,7 @@ footer>div>dl>dd>ul li img {
     padding: 2rem;
 }
 
-#about-solid section#features ul li a {
+#about section#features ul li a {
     background-color: #7B4DFF;
     padding: 0.8rem 1.5rem;
     color: #fff;
