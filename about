@@ -132,7 +132,7 @@
           <li><a href="/for-organizations.html" rel="rdfs:seeAlso">For Organizations</a></li>
           <li><a href="/community.html" rel="rdfs:seeAlso">Community</a></li>
           <li><a href="/#">License</a></li>
-          <li><a about="#i" href="https://github.com/solid/process/blob/main/code-of-conduct.md" rel="rdfs:seeAlso">Code of Conduct</a></li>
+          <li><a about="#i" href="https://github.com/solid/process/blob/main/code-of-conduct.md" rel="schema:ethicsPolicy">Code of Conduct</a></li>
         </ul>
       </nav>
 
