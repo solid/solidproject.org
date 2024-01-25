@@ -9,8 +9,8 @@
 
   <body about="" id="about" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/">
     <header>
-      <address>
-        <a href="/index.html"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
+      <address about="#i" id="i" typeof="foaf:Project doap:Project">
+        <a href="/" rel="doap:homepage"><img alt="Solid logo" rel="foaf:img" src="/image/logo.svg" width="50" /> <span property="doap:name">Solid</span></a>
       </address>
 
       <nav>
@@ -27,22 +27,22 @@
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">About Solid</h1>
 
-        <div datatype="rdf:HTML" property="schema:description">
-          <p>Solid is an open standard for structuring data, digital identities, and applications on the Web.</p>
+        <div datatype="rdf:HTML" property="schema:description doap:description">
+          <p about="#i" datatype="rdf:HTML" property="doap:shortdesc">Solid is an open standard for structuring data, digital identities, and applications on the <span about="#i" property="doap:platform">Web</span>.</p>
           <p>Solid aims to support the creation of the Web as Sir Tim Berners-Lee originally envisioned it when he
               invented the Web at CERN in 1989. Tim sometimes refers to Solid as “the web - take 3" — or Web3.0 —
               because Solid integrates a new layer of standards into the Web we already have. The goal of Solid is
-              for people to have more agency over their data.</p>
+              for people to have more <span about="#i" property="doap:category">agency</span> over their data.</p>
 
           <section id="solid" inlist="" rel="schema:hasPart" resource="#solid">
             <h2 property="schema:name">Solid</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <img src="image/store-anything-tour.svg" alt="store-anything-tour" width="100%" />
-              <p>Solid is a specification that lets people store their data securely in decentralized data stores
+              <p>Solid is a <span about="#i" rel="doap:implements" resource="https://solidproject.org/TR/">specification</span> that lets people store their data securely in <span about="#i" property="doap:category">decentralized data stores</span>
                   called Pods. Pods are like secure personal web servers for your data.</p>
               <p>Entities control access to the data in their Pod. Entities decide what data to share and with whom
-                  (be those individuals, organizations, applications, etc.), and can revoke access at any time.</p>
-              <p>To store and access data in a Pod, Solid-enabled applications use standard, open, and interoperable
+                  (be those <span about="#i" property="doap:audience">individuals</span>, <span about="#i" property="doap:audience">organizations</span>, <span about="#i" property="doap:audience">applications</span>, etc.), and can revoke access at any time.</p>
+              <p>To store and access data in a Pod, Solid-enabled <span about="#i" property="doap:category">applications</span> use standard, open, and interoperable
                   data formats and protocols.</p>
 
               <section id="data" inlist="" rel="schema:hasPart" resource="#data">
@@ -128,11 +128,11 @@
       <nav>
         <ul>
           <li><a href="/about">About</a></li>
-          <li><a href="/for-developers.html">For Developers</a></li>
-          <li><a href="/for-organizations.html">For Organizations</a></li>
-          <li><a href="/community.html">Community</a></li>
+          <li><a href="/for-developers.html" rel="rdfs:seeAlso">For Developers</a></li>
+          <li><a href="/for-organizations.html" rel="rdfs:seeAlso">For Organizations</a></li>
+          <li><a href="/community.html" rel="rdfs:seeAlso">Community</a></li>
           <li><a href="/#">License</a></li>
-          <li><a href="/#">Code of Conduct</a></li>
+          <li><a about="#i" href="https://github.com/solid/process/blob/main/code-of-conduct.md" rel="rdfs:seeAlso">Code of Conduct</a></li>
         </ul>
       </nav>
 
@@ -141,10 +141,10 @@
         <dl id="accounts">
           <dt>Accounts</dt>
           <dd>
-            <ul about="/#i">
-              <li><a href="mailto:info@solidproject.org">info@solidproject.org</a></li>
-              <li><a href="https://github.com/"><img src="/image/github.svg" alt="github" width="20" /></a></li>
-              <li><a href="https://twitter.com/"><img src="/image/twitter.svg" alt="twitter" width="20" /></a></li>
+            <ul about="#i">
+              <li><a href="mailto:info@solidproject.org" rel="doap:mailing-list">info@solidproject.org</a></li>
+              <li><a href="https://github.com/solid/" rel="doap:repository"><img src="/image/github.svg" alt="github" width="20" /></a></li>
+              <li><a href="https://twitter.com/project_solid"><img src="/image/twitter.svg" alt="twitter" width="20" /></a></li>
               <li><a href="https://vimeo.com/"><img src="/image/vimeo-v.svg" alt="vimeo-v" width="20" /></a></li>
             </ul>
           </dd>
