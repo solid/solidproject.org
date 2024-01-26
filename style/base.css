@@ -61,7 +61,7 @@ main>article>h1,
 main>article>p {
     color: #fff;
     font-weight: 400;
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 footer>div {
@@ -123,7 +123,9 @@ footer>div>dl>dd>ul li img {
 #about main>article>h1,
 #about main>article>div>p,
 #for-organizations main>article>h1,
-#for-organizations main>article>p {
+#for-organizations main>article>p,
+#events>h2,
+#events>div>p {
     padding: 0 6rem;
 }
 
@@ -143,6 +145,93 @@ footer>div>dl>dd>ul li img {
     color: #000;
     background-color: #fff;
     padding: 2rem;
+}
+
+#events ul,
+#solutions-using-solid-technology ul {
+    list-style: none;
+}
+
+#solid-organizations>div>dl.legend {
+    display: flex;
+}
+
+#solutions-using-solid-technology h2 {
+    padding: 0 2rem;
+}
+
+#solid-organizations>div>ul {
+    list-style: none;
+}
+
+#about section#features ul li,
+#hosted-pod-services>div>ul li,
+#solid-organizations>div>ul li,
+#where-to-collaborate,
+#events>div>ul {
+    background-color: #fff;
+    padding: 2rem;
+    color: #000;
+}
+
+#events li {
+    margin: 3rem 0;
+}
+
+#events details summary {
+    font-size: 1.5rem;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px;
+    margin-bottom: 1rem;
+}
+
+#events summary::marker {
+    content: none;
+}
+
+#events summary::after {
+    content: '\2303';
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 0.2rem);
+    transform: translateY(calc(-50% - 0.5rem)) rotate(180deg);
+}
+
+#events [open] summary::after {
+    transform: translateY(calc(-50% + 0.5rem)) rotate(0deg);
+}
+
+#where-to-collaborate>div>ul,
+#events>div>ul>li>details>ul {
+    list-style: none;
+}
+
+#events>div>ul>li>details>ul li {
+    border: 1px solid #979797;
+    border-radius: 0.5rem;
+}
+
+#events>div>ul>li>details>ul li dt {
+    display: none;
+}
+
+
+#hosted-pod-services>div>ul li,
+#solid-organizations>div>ul li {
+    background-color: #FEFEFE;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+}
+
+#about section#features ul li a,
+#where-to-collaborate ul li a {
+    background-color: #7B4DFF;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    text-wrap: nowrap;
 }
 
 /* Desktop styles */
@@ -169,6 +258,13 @@ footer>div>dl>dd>ul li img {
     main>article {
         display: flex;
         flex-direction: column;
+    }
+
+    main>article>h1,
+    main>article>p {
+        color: #fff;
+        font-weight: 400;
+        padding: 2rem;
     }
 
     #homepage main>article>div>section>div>ul,
@@ -235,6 +331,16 @@ footer>div>dl>dd>ul li img {
         padding: 0;
     }
 
+    #about section#features ul li,
+    #hosted-pod-services>div>ul li,
+    #solid-organizations>div>ul li,
+    #where-to-collaborate,
+    #events>div>ul {
+        padding: 2rem;
+        border-radius: 0.5rem;
+        margin-right: 2rem;
+    }
+
     #about main>article,
     #for-organizations main>article,
     #community {
@@ -265,24 +371,8 @@ footer>div>dl>dd>ul li img {
         list-style: none;
     }
 
-    #about section#features ul li,
-    #hosted-pod-services>div>ul li,
-    #solid-organizations>div>ul li,
-    #where-to-collaborate,
-    #events>div>ul {
-        margin-right: 2rem;
-        background-color: #fff;
-        border-radius: 30px;
-        padding: 2rem;
-        color: #000;
-    }
-
     #where-to-collaborate>div>ul li {
         margin-right: 3rem;
-    }
-
-    #events ul {
-        list-style: none;
     }
 
     #events li {
@@ -295,45 +385,13 @@ footer>div>dl>dd>ul li img {
         text-transform: uppercase;
     }
 
-    #events details summary {
-        font-size: 1.5rem;
-        list-style: none;
-        cursor: pointer;
-        position: relative;
-        padding-right: 20px;
-        margin-bottom: 1rem;
-    }
-
-    #events summary::marker {
-        content: none;
-    }
-
-    #events summary::after {
-        content: '\2303';
-        font-size: 2.5rem;
-        position: absolute;
-        top: calc(50% - 0.2rem);
-        transform: translateY(calc(-50% - 0.5rem)) rotate(180deg);
-    }
-
-    #events [open] summary::after {
-        transform: translateY(calc(-50% + 0.5rem)) rotate(0deg);
-    }
-
     #where-to-collaborate>div>ul,
     #events>div>ul>li>details>ul {
         display: flex;
-        list-style: none;
     }
 
     #events>div>ul>li>details>ul li {
         width: 30%;
-        border: 1px solid #979797;
-        border-radius: 0.5rem;
-    }
-
-    #events>div>ul>li>details>ul li dt {
-        display: none;
     }
 
     #about section#features ul li a,
@@ -371,12 +429,6 @@ footer>div>dl>dd>ul li img {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
-    }
-
-    #hosted-pod-services>div>ul li,
-    #solid-organizations>div>ul li {
-        background-color: #FEFEFE;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     }
 
     #terms {
