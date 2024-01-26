@@ -216,6 +216,22 @@ footer>div>dl>dd>ul li img {
 #events>div>ul>li>details>ul li dt {
     display: none;
 }
+#events details ul {
+    padding:0;
+}
+
+#events details dl {
+    padding:1em;
+}
+#events details dl dt,
+#events details dl dd {
+    padding:0;
+    margin:0
+}
+
+#events details li {
+    margin-top:0;
+}
 
 
 #hosted-pod-services>div>ul li,
@@ -391,7 +407,7 @@ footer>div>dl>dd>ul li img {
     }
 
     #events>div>ul>li>details>ul li {
-        width: 30%;
+        width: 25%;
     }
 
     #about section#features ul li a,
