@@ -126,7 +126,7 @@ footer>div>dl>dd>ul li img {
 #for-organizations main>article>p,
 #events>h2,
 #events>div>p {
-    padding: 0 6rem;
+    padding: 0 2rem;
 }
 
 #homepage main>article>div>section>div>ul {
@@ -216,23 +216,31 @@ footer>div>dl>dd>ul li img {
 #events>div>ul>li>details>ul li dt {
     display: none;
 }
+
 #events details ul {
-    padding:0;
+    padding: 0;
 }
 
 #events details dl {
-    padding:1em;
+    padding: 1em;
 }
+
 #events details dl dt,
 #events details dl dd {
-    padding:0;
-    margin:0
+    padding: 0;
+    margin: 0
 }
 
 #events details li {
-    margin-top:0;
+    margin-top: 0;
 }
 
+#solutions-using-solid-technology>div>ul,
+#hosted-pod-services>div>ul,
+#solid-organizations>div>ul,
+#features ul {
+    list-style: none;
+}
 
 #hosted-pod-services>div>ul li,
 #solid-organizations>div>ul li {
@@ -249,6 +257,11 @@ footer>div>dl>dd>ul li img {
     text-decoration: none;
     text-wrap: nowrap;
 }
+
+#developer-tutorials {
+    margin: 0;
+}
+
 
 /* Desktop styles */
 @media (min-width: 767px) {
@@ -280,7 +293,7 @@ footer>div>dl>dd>ul li img {
     main>article>p {
         color: #fff;
         font-weight: 400;
-        padding: 2rem;
+        padding: 0;
     }
 
     #homepage main>article>div>section>div>ul,
@@ -345,6 +358,15 @@ footer>div>dl>dd>ul li img {
     #for-developers main,
     #for-organizations main {
         padding: 0;
+    }
+
+    #about main>article>h1,
+    #about main>article>div>p,
+    #for-organizations main>article>h1,
+    #for-organizations main>article>p,
+    #events>h2,
+    #events>div>p {
+        padding: 0 6rem;
     }
 
     #about section#features ul li,
@@ -434,17 +456,15 @@ footer>div>dl>dd>ul li img {
         margin-bottom: 4rem;
     }
 
-    #solutions-using-solid-technology>div>ul,
-    #hosted-pod-services>div>ul,
-    #solid-organizations>div>ul {
-        list-style: none;
-    }
-
     #hosted-pod-services>div>ul,
     #solid-organizations>div>ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
+        margin-inline-start: 0;
+        padding-inline-start: 0;
+        width: 100%;
+        word-break: break-word
     }
 
     #terms {
