@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style/base.css" />
   </head>
 
-  <body about="" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/" id="for-organizations">
+  <body about="" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/" id="community">
     <header>
       <address>
         <a href="/"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
@@ -56,7 +56,7 @@
           <section id="events" inlist="" rel="schema:hasPart" resource="#events">
             <h2 property="schema:name">Events</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Discover Solid events taking place virtually and/or in person aroudn the world.</p>
+              <p>Discover Solid events taking place virtually and/or in person around the world.</p>
 
               <ul>
                 <li id="events-2023" rel="schema:hasPart" resource="#events-2023">
@@ -81,6 +81,14 @@
                         <dl about="#example-2023-conference" id="example-2023-conference" typeof="schema:Event">
                           <dt>Title</dt>
                           <dd property="schema:name"><a href="https://example.org/" property="schema:url">Event Name</a></dd>
+                          <dt>Organization</dt>
+                          <dd><a href="" rel="schema:organizer">Organization</a></dd>
+                          <dt>Date</dt>
+                          <dd><time property="schema:startDate" datatype="xsd:date" content="" datetime="">xxxx<-xx-xx/time>–<time property="schema:endDate" datatype="xsd:date" content="" datetime="">xxxx-xx-xx</time></dd>
+                          <dt>Location</dt>
+                          <dd><a href="https://en.wikipedia.org/wiki/Helsinki" rel="schema:location">Location</a></dd>
+                          <dt>Description</dt>
+                          <dd datatype="rdf:HTML" property="schema:description">Description</dd>
                         </dl>
                       </li>
                     </ul>
@@ -92,9 +100,17 @@
                     <summary property="schema:name">2022 Events</summary>
                      <ul>
                       <li>
-                        <dl about="#example-2022-conference" id="example-2022-conference" typeof="schema:Event">
+                        <dl about="#example-2023-conference" id="example-2023-conference" typeof="schema:Event">
                           <dt>Title</dt>
                           <dd property="schema:name"><a href="https://example.org/" property="schema:url">Event Name</a></dd>
+                          <dt>Organization</dt>
+                          <dd><a href="" rel="schema:organizer">Organization</a></dd>
+                          <dt>Date</dt>
+                          <dd><time property="schema:startDate" datatype="xsd:date" content="" datetime="">xxxx<-xx-xx/time>–<time property="schema:endDate" datatype="xsd:date" content="" datetime="">xxxx-xx-xx</time></dd>
+                          <dt>Location</dt>
+                          <dd><a href="https://en.wikipedia.org/wiki/Helsinki" rel="schema:location">Location</a></dd>
+                          <dt>Description</dt>
+                          <dd datatype="rdf:HTML" property="schema:description">Description</dd>
                         </dl>
                       </li>
                     </ul>
