@@ -170,6 +170,7 @@ footer>div>dl>dd>ul li img {
 #where-to-collaborate,
 #events>div>ul {
     background-color: #fff;
+    border-radius: 0.5rem;
     padding: 2rem;
     color: #000;
 }
@@ -293,12 +294,16 @@ footer>div>dl>dd>ul li img {
     main>article>p {
         color: #fff;
         font-weight: 400;
-        padding: 0;
+        padding: 0 6rem;
     }
 
     #homepage main>article>div>section>div>ul,
     #developer-tutorials {
         border-radius: 30px;
+    }
+    
+    #solutions-using-solid-technology h2 {
+        padding: 0 6rem;
     }
 
     #homepage main>article>div>section>div>ul {
@@ -363,10 +368,15 @@ footer>div>dl>dd>ul li img {
     #about main>article>h1,
     #about main>article>div>p,
     #for-organizations main>article>h1,
-    #for-organizations main>article>p,
-    #events>h2,
-    #events>div>p {
+    #for-organizations main>article>p {
         padding: 0 6rem;
+    }
+
+    #events>h2,
+    #events>div>p,
+    #community>main>article>h1,
+    #community>main>article>p {
+        padding: 0;
     }
 
     #about section#features ul li,
@@ -375,7 +385,6 @@ footer>div>dl>dd>ul li img {
     #where-to-collaborate,
     #events>div>ul {
         padding: 2rem;
-        border-radius: 0.5rem;
         margin-right: 2rem;
     }
 
