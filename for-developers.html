@@ -49,83 +49,141 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>Below is a list of hosted services that provide Pods. Each provides different SLAs, level of support,
               and guarantees.</p>
-              <ul>
+
+              <ul rel="schema:hasPart">
                 <li>
-                  <img src="image/logo1.png" alt="" width="100" />
-                  <p>Data Pod</p>
-                  <p>Get a Pod</p>
-                  <a href="igrant.io/datapod.html">igrant.io/datapod.html</a>
-                  <p>Organization</p>
-                  <a href="iGrant.io.Sweden">iGrant.io.Sweden</a>
-                  <p>Hosting Location</p>
-                  <a href="">EU</a>
+                  <dl about="#igrant.io" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo1.png" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">Data Pod</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://igrant.io/datapod.html" rel="doap:homepage">https://igrant.io/datapod.html</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://igrant.io/" rel="rdfs:seeAlso">iGrant.io.Sweden</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
                 </li>
 
-              <li>
-                <img src="image/logo2.png" alt="" width="100" />
-                <p>Inrupt Pod Spaces</p>
-                <p>Get a Pod</p>
-                <a href="start.inrupt.com/profile">start.inrupt.com/profile</a>
-                <p>Organization</p>
-                <a href="Inrupt. Inc.">Inrupt. Inc.</a>
-                <p>Hosting Location</p>
-                <a href="">EU</a>
-              </li>
+                <li>
+                  <dl about="#start.inrupt.com" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo2.png" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">Inrupt Pod Spaces</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://start.inrupt.com/profile" rel="doap:homepage">https://start.inrupt.com/profile</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://inrupt.com/" rel="rdfs:seeAlso">Inrupt Inc.</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
 
-              <li>
-                <img src="image/logo3.svg" alt="" width="100" />
-                <p>redpencil.io</p>
-                <p>Get a Pod</p>
-                <a href=""></a>
-                <p class="pt-5">Organization</p>
-                <a href="redpencil.io">redpencil.io</a>
-                <p>Hosting Location</p>
-                <a href="">EU</a>
-              </li>
+                <li>
+                  <dl about="#redpencil.io" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo3.png" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">redpencil.io</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://example.org/" rel="doap:homepage">https://example.org/</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://redpencil.io/" rel="rdfs:seeAlso">redpencil.io</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
 
-              <li>
-                <img src="image/logo.svg" alt="" width="50" />
-                <p>solidcommunity.net</p>
-                <p>Get a Pod</p>
-                <a href="solidcommunity.net/register">solidcommunity.net/register</a>
-                <p>Organization</p>
-                <a href="Solid Project">Solid Project</a>
-                <p>Hosting Location</p>
-                <a href="">UK</a>
-              </li>
+                <li>
+                  <dl about="#solidcommunity.net" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">solidcommunity.net</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://solidcommunity.net/register" rel="doap:homepage">https://solidcommunity.net/register</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://solidproject.org/" rel="rdfs:seeAlso">Solid Project</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/United_Kingdom" rel="schema:location">UK</a></dd>
+                  </dl>
+                </li>
 
-              <li>
-                <img src="image/logo.svg" alt="" width="50" />
-                <p>solidweb.me</p>
-                <p>Get a Pod</p>
-                <a href="solidweb.me/idp/register/">solidweb.me/idp/register/</a>
-                <p>Organization</p>
-                <a href="Meisdata">Meisdata</a>
-                <p>Hosting Location</p>
-                <a href="">EU</a>
-              </li>
+                <li>
+                  <dl about="#solidweb.me" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">solidweb.me</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://solidweb.me/idp/register" rel="doap:homepage">https://solidweb.me/idp/register</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://meisdata.io/" rel="rdfs:seeAlso">Meisdata</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
 
-              <li>
-                <img src="image/logo.svg" alt="" width="50" />
-                <p>solidweb.org</p>
-                <p>Get a Pod</p>
-                <a href="solidweb.org/register">solidweb.org/register</a>
-                <p>Organization</p>
-                <a href="Inrupt. Inc.">Inrupt. Inc.</a>
-                <p>Solid Grassroots</p>
-                <a href="">EU</a>
-              </li>
+                <li>
+                  <dl about="#solidweb.org" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">solidweb.org</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://solidweb.org/register" rel="doap:homepage">https://solidweb.org/register</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://meisdata.io/" rel="rdfs:seeAlso">Solid Grassoots</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
 
-              <li>
-                <img src="image/logo4.jpg" alt="" width="50" />
-                <p>teamid.live</p>
-                <p>Get a Pod</p>
-                <a
-                href="teamid.live/.account/login/password/register/">teamid.live/.account/login/password/register/</a>
-                <p>Organization</p>
-                <a href="Meisdata">Meisdata</a>
-                <p>Hosting Location</p>
-                <a href="">EU</a>
+                <li>
+                  <dl about="#teamid.live" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo4.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">teamid.live</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://teamid.live/.account/login/password/register/" rel="doap:homepage">https://teamid.live/.account/login/password/register/</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://meisdata.io/" rel="rdfs:seeAlso">Meisdata</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#trinpod.us" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo4.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">trinpod.us</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://trinpod.us/" rel="doap:homepage">https://trinpod.us/</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://graphmetrix.com/" rel="rdfs:seeAlso">Graphmetrix</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/United_States_of_America" rel="schema:location">USA</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#use.id" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo4.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">use.id</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://get.use.id/people" rel="doap:homepage">https://get.use.id/people</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://digita.ia/" rel="rdfs:seeAlso">Digita</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
                 </li>
               </ul>
 
