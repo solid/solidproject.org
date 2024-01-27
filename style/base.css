@@ -103,7 +103,8 @@ footer>div>dl>dd>ul li img {
 }
 
 #features>h2,
-#accounts dt {
+#accounts dt,
+#hosted-pod-services dt {
     display: none;
 }
 
