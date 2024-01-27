@@ -108,6 +108,11 @@ footer>div>dl>dd>ul li img {
     display: none;
 }
 
+#hosted-pod-services dd[property="doap:name"] {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 #homepage main>article>div>section img {
     width: 63px;
     height: 63px;
