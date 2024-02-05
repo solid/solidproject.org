@@ -17,6 +17,7 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 | Date                   | Event                                                  | Organiser                                               | Recordings, Slides and Notes |
 |------------------------|--------------------------------------------------------|---------------------------------------------------------|------------------------------|
 |2024-05-02 - 2024-05-03 | [2nd Solid Symposium](https://events.vito.be/sosy2024) (Leuven, Belgium) | [COST](https://cost-dkg.eu/) / [VITO](https://vito.be/) |                              |
+|2024-02-28 | [Solid Community Flanders meeting "Media in the spotlight"](https://solidcommunity.be/agenda/) (Ghent, Belgium) | [SolidLab Flanders](https://solidlab.be) / [athumi](https://athumi.be/en/) |This is an on-site event only, at [De Krook](https://dekrook.be/en/).|  
 
 ## 2023 Events
 
