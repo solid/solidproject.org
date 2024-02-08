@@ -16,6 +16,7 @@ Solid Events provide an opportunity to meet others who are working on Solid or a
 
 | Date                   | Event                                                  | Organiser                                               | Recordings, Slides and Notes |
 |------------------------|--------------------------------------------------------|---------------------------------------------------------|------------------------------|
+|2024-02-27|[Solid World](https://www.eventbrite.co.uk/e/solid-world-2024-tickets-827618468117?aff=oddtdtcreator) |[Solid Team](https://solidproject.org/team) / [Inrupt](https://www.inrupt.com/)| Solid World will be held at 11:00 a.m. EST/1700 CET around the theme of "Solid for Social Benefit: Delivering Shared and Public Resources." We'll hear news from the Solid Team and presentations from the PASS Project, Open Commons, the SleepyBike Project and Digital Flanders. Jeff Zucker, lead of the Solid Practitioners task force, will host. Register on [Eventbrite](https://www.eventbrite.co.uk/e/solid-world-2024-tickets-827618468117?aff=oddtdtcreator).|
 |2024-05-02 - 2024-05-03 | [2nd Solid Symposium](https://events.vito.be/sosy2024) (Leuven, Belgium) | [COST](https://cost-dkg.eu/) / [VITO](https://vito.be/) |                              |
 |2024-02-28 | [Solid Community Flanders meeting "Media in the spotlight"](https://solidcommunity.be/agenda/) (Ghent, Belgium) | [SolidLab Flanders](https://solidlab.be) / [athumi](https://athumi.be/en/) |This is an on-site event only, at [De Krook](https://dekrook.be/en/).|  
 
