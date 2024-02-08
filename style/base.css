@@ -1,0 +1,489 @@
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('../assets/fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #202542;
+    font-family: 'Lato Regular', sans-serif;
+    margin: 0;
+    line-height: 32px;
+}
+
+header a,
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+header>address>a {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+header>address>a>img {
+    width: 34px;
+    margin-right: 1rem;
+}
+
+
+nav ul {
+    list-style: none;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav a {
+    font-size: 1.25rem;
+    margin-left: 2rem;
+}
+
+#homepage main>article {
+    align-items: center;
+}
+
+main>article>h1,
+main>article>p {
+    color: #fff;
+    font-weight: 400;
+    padding: 0 2rem;
+}
+
+footer>div {
+    display: flex;
+    padding: 2rem 4rem;
+    align-items: center;
+}
+
+footer dl {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+footer dd {
+    margin-inline-start: 0;
+}
+
+footer>div>img {
+    height: 40px;
+    width: 40px;
+}
+
+footer>div>dl>dd>ul {
+    display: flex;
+    color: #fff;
+    width: min-content;
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+footer>div>dl>dd>ul li {
+    margin-left: 1rem;
+}
+
+footer>div>dl>dd>ul li img {
+    filter: invert(100%) hue-rotate(180deg);
+}
+
+#features>h2,
+#accounts dt,
+#hosted-pod-services dt {
+    display: none;
+}
+
+#hosted-pod-services dd[property="doap:name"] {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#homepage main>article>div>section img {
+    width: 63px;
+    height: 63px;
+    padding-right: 2rem;
+}
+
+#homepage main>article>div>section>div>ul,
+#developer-tutorials {
+    padding: 4rem;
+    background-color: #fff;
+    color: #202542;
+}
+
+#about main>article>h1,
+#about main>article>div>p,
+#for-organizations main>article>h1,
+#for-organizations main>article>p,
+#events>h2,
+#events>div>p {
+    padding: 0 2rem;
+}
+
+#homepage main>article>div>section>div>ul {
+    list-style: none;
+}
+
+#about main>article,
+#for-organizations main>article,
+#community {
+    color: #fff;
+}
+
+#about main>article>div>section,
+#hosted-pod-services,
+#solid-organizations {
+    color: #000;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+#events ul,
+#solutions-using-solid-technology ul {
+    list-style: none;
+}
+
+#solid-organizations>div>dl.legend {
+    display: flex;
+}
+
+#solutions-using-solid-technology h2 {
+    padding: 0 2rem;
+}
+
+#solid-organizations>div>ul {
+    list-style: none;
+}
+
+#about section#features ul li,
+#hosted-pod-services>div>ul li,
+#solid-organizations>div>ul li,
+#where-to-collaborate,
+#events>div>ul {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    color: #000;
+}
+
+#events li {
+    margin: 3rem 0;
+}
+
+#events details summary {
+    font-size: 1.5rem;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px;
+    margin-bottom: 1rem;
+}
+
+#events summary::marker {
+    content: none;
+}
+
+#events summary::after {
+    content: '\2303';
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 0.2rem);
+    transform: translateY(calc(-50% - 0.5rem)) rotate(180deg);
+}
+
+#events [open] summary::after {
+    transform: translateY(calc(-50% + 0.5rem)) rotate(0deg);
+}
+
+#where-to-collaborate>div>ul,
+#events>div>ul>li>details>ul {
+    list-style: none;
+}
+
+#events>div>ul>li>details>ul li {
+    border: 1px solid #979797;
+    border-radius: 0.5rem;
+}
+
+#events>div>ul>li>details>ul li dt {
+    display: none;
+}
+
+#events details ul {
+    padding: 0;
+}
+
+#events details dl {
+    padding: 1em;
+}
+
+#events details dl dt,
+#events details dl dd {
+    padding: 0;
+    margin: 0
+}
+
+#events details li {
+    margin-top: 0;
+}
+
+#solutions-using-solid-technology>div>ul,
+#hosted-pod-services>div>ul,
+#solid-organizations>div>ul,
+#features ul {
+    list-style: none;
+}
+
+#hosted-pod-services>div>ul li,
+#solid-organizations>div>ul li {
+    background-color: #FEFEFE;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+}
+
+#about section#features ul li a,
+#where-to-collaborate ul li a {
+    background-color: #7B4DFF;
+    padding: 0.8rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+#developer-tutorials {
+    margin: 0;
+}
+
+
+/* Desktop styles */
+@media (min-width: 767px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header a,
+    footer a {
+        text-wrap: nowrap;
+    }
+
+    nav ul {
+        display: flex;
+        align-self: flex-end;
+    }
+
+    main {
+        padding: 6rem;
+    }
+
+    main>article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main>article>h1,
+    main>article>p {
+        color: #fff;
+        font-weight: 400;
+        padding: 0 6rem;
+    }
+
+    #homepage main>article>div>section>div>ul,
+    #developer-tutorials {
+        border-radius: 30px;
+    }
+    
+    #solutions-using-solid-technology h2 {
+        padding: 0 6rem;
+    }
+
+    #homepage main>article>div>section>div>ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+
+    #homepage main>article>div>section>div>ul li {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+        padding: 4rem;
+    }
+
+    #homepage main>article>div>section>div>ul> :nth-child(1),
+    #homepage main>article>div>section>div>ul> :nth-child(3) {
+        border-right: 1px solid #979797;
+    }
+
+    #homepage main>article>div>section>div>ul> :nth-child(1),
+    #homepage main>article>div>section>div>ul> :nth-child(2) {
+        border-bottom: 1px solid #979797;
+    }
+
+    #homepage main>article>div>section>div>ul li :nth-child(1) {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    #homepage main>article>div>section>div>ul li :nth-child(2) {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    #homepage main>article>div>section>div>ul li :nth-child(3) {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #homepage main>article>div>section>div>ul li :nth-child(4) {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    #homepage main>article>div>section>div>ul li a {
+        background-color: #7B4DFF;
+        padding: 0.8rem 1.5rem;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 0.5rem;
+        width: max-content;
+        height: max-content;
+    }
+
+    #about main,
+    #for-developers main,
+    #for-organizations main {
+        padding: 0;
+    }
+
+    #about main>article>h1,
+    #about main>article>div>p,
+    #for-organizations main>article>h1,
+    #for-organizations main>article>p {
+        padding: 0 6rem;
+    }
+
+    #events>h2,
+    #events>div>p,
+    #community>main>article>h1,
+    #community>main>article>p {
+        padding: 0;
+    }
+
+    #about section#features ul li,
+    #hosted-pod-services>div>ul li,
+    #solid-organizations>div>ul li,
+    #where-to-collaborate,
+    #events>div>ul {
+        padding: 2rem;
+        margin-right: 2rem;
+    }
+
+    #about main>article,
+    #for-organizations main>article,
+    #community {
+        align-items: flex-start;
+    }
+
+    #about main>article>div>section,
+    #hosted-pod-services,
+    #solid-organizations {
+        padding: 2rem 6rem;
+    }
+
+    #hosted-pod-services {
+        display: block;
+    }
+
+    #about main>article img {
+        width: 300px;
+        float: right;
+    }
+
+    #about section#features {
+        background-color: #202542;
+    }
+
+    #about section#features ul {
+        display: flex;
+        list-style: none;
+    }
+
+    #where-to-collaborate>div>ul li {
+        margin-right: 3rem;
+    }
+
+    #events li {
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #events li dl dd:not(:last-child) {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+    }
+
+    #where-to-collaborate>div>ul,
+    #events>div>ul>li>details>ul {
+        display: flex;
+    }
+
+    #events>div>ul>li>details>ul li {
+        width: 25%;
+    }
+
+    #about section#features ul li a,
+    #where-to-collaborate ul li a {
+        background-color: #7B4DFF;
+        padding: 0.8rem 1.5rem;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 0.5rem;
+        text-wrap: nowrap;
+    }
+
+    #for-developers main>article>div,
+    #for-organizations main>article>div,
+    #community main>article>div {
+        width: 100%;
+    }
+
+    #developer-tutorials {
+        margin: 4rem;
+    }
+
+    #hosted-pod-services {
+        margin-bottom: 4rem;
+    }
+
+    #hosted-pod-services>div>ul,
+    #solid-organizations>div>ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+        margin-inline-start: 0;
+        padding-inline-start: 0;
+        width: 100%;
+        word-break: break-word
+    }
+
+    #terms {
+        color: #fff;
+    }
+
+}

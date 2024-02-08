@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>For Developers - Solid</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="style/base.css" />
+  </head>
+
+  <body about="" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/" id="for-developers">
+    <header>
+      <address>
+        <a href="/"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
+      </address>
+
+      <nav>
+        <ul>
+          <li><a href="/about.html">About Solid</a></li>
+          <li><a href="/for-developers.html">For Developers</a></li>
+          <li><a href="/for-organizations.html">For Organizations</a></li>
+          <li><a href="/community.html">Community</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article about="" typeof="schema:Article">
+        <h1 property="schema:name">For Developers</h1>
+
+        <div datatype="rdf:HTML" property="schema:description">
+          <section id="developer-tutorials" inlist="" rel="schema:hasPart" resource="#developer-tutorials">
+            <h2 property="schema:name">Developer Tutorials</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>See the tutorials below to support you in building a Solid app.</p>
+
+              <ul>
+                <li><a href="">Java tutorial</a> by Inrupt</li>
+                <li><a href="">Javascript tutorial</a> by Inrupt</li>
+                <li><a href="">Using LDO to build a Solid Application for React</a> by O.team</li>
+                <li><a href="">Creating Vocabularies</a> tutorial</li>
+                <li><a href="">How to Build a Solid To-Do App with React</a> tutorial by Virginia Balseiro</li>
+                <li><a href="">Ember Solid</a> by Nextcloud</li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="hosted-pod-services" inlist="" rel="schema:hasPart" resource="#hosted-pod-services">
+            <h2 property="schema:name">Hosted Pod Services</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Below is a list of hosted services that provide Pods. Each provides different SLAs, level of support,
+              and guarantees.</p>
+
+              <ul rel="schema:hasPart">
+                <li>
+                  <dl about="#igrant.io" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo1.png" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">Data Pod</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://igrant.io/datapod.html" rel="doap:homepage">https://igrant.io/datapod.html</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://igrant.io/" rel="rdfs:seeAlso">iGrant.io.Sweden</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#start.inrupt.com" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo2.png" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">Inrupt Pod Spaces</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://start.inrupt.com/profile" rel="doap:homepage">https://start.inrupt.com/profile</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://inrupt.com/" rel="rdfs:seeAlso">Inrupt Inc.</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#redpencil.io" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo3.png" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">redpencil.io</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://example.org/" rel="doap:homepage">https://example.org/</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://redpencil.io/" rel="rdfs:seeAlso">redpencil.io</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#solidcommunity.net" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">solidcommunity.net</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://solidcommunity.net/register" rel="doap:homepage">https://solidcommunity.net/register</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://solidproject.org/" rel="rdfs:seeAlso">Solid Project</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/United_Kingdom" rel="schema:location">UK</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#solidweb.me" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">solidweb.me</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://solidweb.me/idp/register" rel="doap:homepage">https://solidweb.me/idp/register</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://meisdata.io/" rel="rdfs:seeAlso">Meisdata</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#solidweb.org" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">solidweb.org</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://solidweb.org/register" rel="doap:homepage">https://solidweb.org/register</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://meisdata.io/" rel="rdfs:seeAlso">Solid Grassoots</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#teamid.live" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo4.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">teamid.live</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://teamid.live/.account/login/password/register/" rel="doap:homepage">https://teamid.live/.account/login/password/register/</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://meisdata.io/" rel="rdfs:seeAlso">Meisdata</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#trinpod.us" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo4.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">trinpod.us</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://trinpod.us/" rel="doap:homepage">https://trinpod.us/</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://graphmetrix.com/" rel="rdfs:seeAlso">Graphmetrix</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/United_States_of_America" rel="schema:location">USA</a></dd>
+                  </dl>
+                </li>
+
+                <li>
+                  <dl about="#use.id" typeof="doap:Project">
+                    <dt>Logo</dt>
+                    <dd><img rel="foaf:img" src="image/logo4.svg" alt="" width="100" /></dd>
+                    <dt>Project Title</dt>
+                    <dd property="doap:name">use.id</dd>
+                    <dt>Get a Pod</dt>
+                    <dd><a href="https://get.use.id/people" rel="doap:homepage">https://get.use.id/people</a></dd>
+                    <dt>Organization</dt>
+                    <dd><a href="https://digita.ia/" rel="rdfs:seeAlso">Digita</a></dd>
+                    <dt>Hosting Location</dt>
+                    <dd><a href="https://en.wikipedia.org/wiki/European_Union" rel="schema:location">EU</a></dd>
+                  </dl>
+                </li>
+              </ul>
+
+              <section id="available-solid-server-implementations" inlist="" rel="schema:hasPart" resource="#available-solid-server-implementations">
+                <h2 property="schema:name">Available Solid Server implementations</h2>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>These are the different Solid Server implementations available</p>
+
+                  <ul>
+                    <li><a href="">Community Solid Server</a></li>
+                    <li><a href="">Enterprise Solid Server</a></li>
+                    <li><a href="">Graphmetrix</a></li>
+                    <li><a href="">Manas</a></li>
+                    <li><a href="">Node Solid Server</a></li>
+                    <li><a href="">PHP Solid Server</a></li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/for-developers.html">For Developers</a></li>
+          <li><a href="/for-organizations.html">For Organizations</a></li>
+          <li><a href="/community.html">Community</a></li>
+          <li><a href="/#">License</a></li>
+          <li><a href="/#">Code of Conduct</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <img alt="logo" src="/image/logo.svg" width="40" />
+        <dl id="accounts">
+          <dt>Accounts</dt>
+          <dd>
+            <ul about="/#i">
+              <li><a href="mailto:info@solidproject.org">info@solidproject.org</a></li>
+              <li><a href="https://github.com/solid/"><img src="/image/github.svg" alt="github" width="20" /></a></li>
+              <li><a href="https://twitter.com/project_solid"><img src="/image/twitter.svg" alt="twitter" width="20" /></a></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </footer>
+  </body>
+</html>
