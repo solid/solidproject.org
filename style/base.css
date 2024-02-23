@@ -102,6 +102,18 @@ footer>div>dl>dd>ul li img {
     filter: invert(100%) hue-rotate(180deg);
 }
 
+.button-purple {
+    background-color: #7B4DFF;
+    padding: 12px 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    width: max-content;
+    height: max-content;
+}
+
+
 #features>h2,
 #accounts dt,
 #hosted-pod-services dt {
@@ -353,16 +365,6 @@ footer>div>dl>dd>ul li img {
 
     #homepage main>article>div>section>div>ul li :nth-child(4) {
         grid-area: 3 / 2 / 4 / 3;
-    }
-
-    #homepage main>article>div>section>div>ul li a {
-        background-color: #7B4DFF;
-        padding: 0.8rem 1.5rem;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 0.5rem;
-        width: max-content;
-        height: max-content;
     }
 
     #about main,
