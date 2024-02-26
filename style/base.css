@@ -28,12 +28,12 @@ header {
 header>address>a {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: normal;
 }
 
 header>address>a>img {
-    width: 34px;
+    width: 35px;
     margin-right: 1rem;
 }
 
@@ -102,6 +102,18 @@ footer>div>dl>dd>ul li img {
     filter: invert(100%) hue-rotate(180deg);
 }
 
+.title {
+    font-size: 40px;
+}
+.subtitle {
+    font-size: 24px;
+    text-align: center;
+}
+h2.homepage {
+   font-size: 22px;
+   line-height: 32px;
+   font-weight: 700;
+}
 .button-purple {
     background-color: #7B4DFF;
     padding: 12px 24px;
@@ -300,7 +312,7 @@ footer>div>dl>dd>ul li img {
     }
 
     main {
-        padding: 6rem;
+        padding: 104px 128px;
     }
 
     main>article {
