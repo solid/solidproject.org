@@ -144,6 +144,10 @@ p.descriptor {
     font-size: 1.25rem;
     line-height: 2rem;
 }
+.intro-light {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
 .developer-tutorials {
     list-style: none;
 }
