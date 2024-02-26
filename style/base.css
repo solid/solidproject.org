@@ -65,7 +65,7 @@ nav a {
 
 main>article>h1,
 main>article>p {
-    color: #fff;
+    color: var(--white);
     font-weight: 400;
     padding: 0 2rem;
 }
@@ -92,7 +92,7 @@ footer>div>img {
 
 footer>div>dl>dd>ul {
     display: flex;
-    color: #fff;
+    color: var(--white);
     width: min-content;
     list-style: none;
     margin-block-start: 0;
@@ -131,20 +131,29 @@ h2.subpage {
     line-height: 3rem;
 }
 .button-purple {
-    background-color: #7B4DFF;
+    background-color: var(--purple);;
     padding: 12px 24px;
     font-weight: 700;
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
     border-radius: 8px;
     width: max-content;
     height: max-content;
 }
+p.descriptor {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
 .developer-tutorials {
     list-style: none;
 }
 .developer-tutorials a {
-    color: ;
+    color: var(--dark);
+}
+.solid-servers a{
+    color: var(--purple);
+    font-size: 1.25rem;
+    line-height: 2.5rem;
 }
 
 #features>h2,
