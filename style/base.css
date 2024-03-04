@@ -278,6 +278,25 @@ h1 {
     font-weight: 700;
 }
 
+h1 {
+  font-size: 4rem;
+  line-height: 3rem;
+}
+#homepage h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+#homepage h3 {
+   font-size: 1.5rem;
+   line-height: 2rem;
+   font-weight: 700;
+}
+#about section {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
 #for-developers h2 {
     font-size: 2rem;
     font-weight: 700;
@@ -289,6 +308,17 @@ h1 {
     font-weight: 400;
     text-align: center;
     line-height: 2rem;
+}
+
+#features li a:last-child {
+    background-color: var(--purple);
+    padding: 12px 24px;
+    font-weight: 700;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 8px;
+    width: max-content;
+    height: max-content;
 }
 
 h2 + div > p:first-child {
@@ -381,6 +411,11 @@ main header {
 #solid-server-implementations {
     color: var(--black);
     background-color: var(--white);
+}
+
+#events ul,
+#solutions-using-solid-technology ul {
+    list-style: none;
 }
 
 #solid-description,
@@ -499,6 +534,58 @@ main header {
         padding: 0 6rem;
     }
 
+    #homepage main>article>div>section>div>ul,
+    #developer-tutorials {
+        border-radius: 30px;
+    }
+
+    #solutions-using-solid-technology h2 {
+        padding: 0 6rem;
+    }
+
+    #homepage main>article>div>section>div>ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+
+    #homepage main>article>div>section>div>ul li {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+        padding: 4rem;
+    }
+
+    #homepage main>article>div>section>div>ul> :nth-child(1),
+    #homepage main>article>div>section>div>ul> :nth-child(3) {
+        border-right: 1px solid #979797;
+    }
+
+    #homepage main>article>div>section>div>ul> :nth-child(1),
+    #homepage main>article>div>section>div>ul> :nth-child(2) {
+        border-bottom: 1px solid #979797;
+    }
+
+    #homepage main>article>div>section>div>ul li :nth-child(1) {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    #homepage main>article>div>section>div>ul li :nth-child(2) {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    #homepage main>article>div>section>div>ul li :nth-child(3) {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #homepage main>article>div>section>div>ul li :nth-child(4) {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+  
     #about main,
     #for-developers main,
     #for-organizations main {
@@ -529,7 +616,14 @@ main header {
     #community {
         align-items: flex-start;
     }
-
+  
+    #about main>article>div>section,
+    #hosted-pod-services,
+    #solid-organizations,
+    #solid-server-implementations {
+        padding: 2rem 6rem;
+    }
+  
     #hosted-pod-services {
         display: block;
         padding-bottom: 0;
