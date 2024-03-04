@@ -25,10 +25,12 @@
 
     <main>
       <article about="" typeof="schema:Article">
-        <h1 property="schema:name">For Developers</h1>
+        <header class="container">
+          <h1 property="schema:name">For Developers</h1>
+        </header>
 
         <div datatype="rdf:HTML" property="schema:description">
-          <section id="developer-tutorials" inlist="" rel="schema:hasPart" resource="#developer-tutorials">
+          <section id="developer-tutorials" inlist="" rel="schema:hasPart" resource="#developer-tutorials" class="container container--open-end">
             <h2 property="schema:name">Developer Tutorials</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>See the tutorials below to support you in building a Solid app.</p>
@@ -44,13 +46,13 @@
             </div>
           </section>
 
-          <section id="hosted-pod-services" inlist="" rel="schema:hasPart" resource="#hosted-pod-services">
+          <section id="hosted-pod-services" inlist="" rel="schema:hasPart" resource="#hosted-pod-services" class="container container--full">
             <h2 property="schema:name">Hosted Pod Services</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>Below is a list of hosted services that provide Pods. Each provides different SLAs, levels of support,
               and guarantees.</p>
 
-              <ul rel="schema:hasPart">
+              <ul class="tiles tiles--very-distinct" rel="schema:hasPart">
                 <li>
                   <dl about="#igrant.io" typeof="doap:Project">
                     <dt>Logo</dt>
@@ -189,7 +191,7 @@
             </div>
           </section>
 
-          <section id="solid-server-implementations" inlist="" rel="schema:hasPart" resource="#solid-server-implementations">
+          <section id="solid-server-implementations" inlist="" rel="schema:hasPart" resource="#solid-server-implementations" class="container container--full">
             <h2 property="schema:name">Available Solid Server implementations</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>These are the different Solid Server implementations available</p>

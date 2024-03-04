@@ -1,8 +1,11 @@
 :root {
+    --black: #000;
     --dark: #202542;
+    --grey: #979797;
+    --light-grey: #FEFEFE;
     --purple: #7B4DFF;
     --white: #FFF;
-  }
+}
 
 @font-face {
     font-family: 'Lato Regular';
@@ -15,163 +18,312 @@ body {
     background-color: var(--dark);
     font-family: 'Lato Regular', sans-serif;
     margin: 0;
-    line-height: 32px;
+    line-height: 2rem;
 }
 
-header a,
-footer a {
+body > header a,
+body > footer a {
     color: var(--white);
     text-decoration: none;
 }
 
-header {
+body > footer {
+    margin-top: 2rem;
+}
+
+body > header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 2rem 4rem;
 }
 
-header>address>a {
+body > header > address > a {
     display: flex;
     align-items: center;
     font-size: 2rem;
     font-style: normal;
 }
 
-header>address>a>img {
+body > header > address > a > img {
     width: 35px;
     margin-right: 1rem;
 }
 
+dl,
+dd,
+dt {
+    margin: 0;
+    padding: 0;
+}
+
+main img,
+main video {
+    max-width: 100%;
+}
 
 nav ul {
     list-style: none;
-    margin-block-start: 0;
-    padding-inline-start: 0;
-}
-
-nav ul li {
+    margin: 0;
+    margin-inline-start: 2rem;
     margin-left: 2rem;
+    padding: 0;
+    padding-inline-start: 0;
 }
 
 nav a {
     font-size: 1.25rem;
-    margin-left: 2rem;
 }
 
-#homepage main>article {
+/**
+ * Class used to make sure that content is "contained" with a standardized margin and padding
+ */
+.container {
+    margin: 0 2rem;
+}
+
+.container.container--full {
+    background-color: var(--white);
+    color: var(--black);
+    margin: 0;
+    padding: 2rem;
+}
+
+.container.container--open-end {
+    background-color: var(--white);
+    color: var(--black);
+    margin: 0 0 0 0.5rem;
+    padding: 2rem 2rem 2rem 1.5rem;
+    border-radius: 30px 0 0 30px;
+}
+
+@media (min-width: 767px) {
+    .container {
+        margin: 2rem 6rem;
+    }
+
+    .container.container--full {
+        padding: 2rem 6rem;
+    }
+
+    .container.container--open-end {
+        margin: 2rem 0 2rem 4rem;
+        padding-right: 6rem;
+        padding-inline-end: 6rem;
+    }
+}
+
+/**
+ * Content is presented with tiles throughout the site. Use this class to standardize their default looks.
+ */
+.tiles {
+    display: grid;
+    font-size: 1rem;
+    gap: 1rem;
+    line-height: 1.5rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    word-break: break-word
+}
+
+.tiles > * {
+    color: var(--dark);
+}
+
+.tiles > * > *:first-child {
+    margin-top: 0;
+}
+
+.tiles.tiles--distinct > * {
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.tiles.tiles--very-distinct > * {
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+
+@media (min-width: 767px) {
+    .tiles {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1100px) {
+    .tiles {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*
+ * This class are applied to description lists that describe legends
+ */
+.legend {
+    display: flex;
+    align-items: center;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    gap: 0.5rem;
+}
+
+.legend dt,
+.legend dd {
+    margin: 0;
+}
+
+.legend dd {
+    margin-right: 2rem;
+}
+
+.legend img {
+    display: block;
+}
+
+/*
+ * This class are applied to elements that looks like buttons. This means that they can be applied to anchors, but make
+ * sure they are semantically correct.
+ */
+.button {
+    background-color: var(--purple);
+    padding: 0.75rem 1.5rem;
+    color: var(--white);
+    display: inline-block;
+    line-height: 1.25rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    width: max-content;
+    height: max-content;
+}
+
+#homepage main > article {
     align-items: center;
 }
 
-main>article>h1,
-main>article>p {
+main > article {
+    display: flex;
+    flex-direction: column;
+}
+
+main > article > h1,
+main > article > p {
     color: var(--white);
     font-weight: 400;
     padding: 0 2rem;
 }
 
-footer>div {
+body > footer > div {
     display: flex;
     padding: 2rem 4rem;
     align-items: center;
 }
 
-footer dl {
+body > footer dl {
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
-footer dd {
+body > footer dd {
     margin-inline-start: 0;
 }
 
-footer>div>img {
+body > footer > div > img {
     height: 40px;
     width: 40px;
 }
 
-footer>div>dl>dd>ul {
+body > footer > div > dl > dd > ul {
+    align-items: center;
     display: flex;
     color: var(--white);
     width: min-content;
     list-style: none;
     margin-block-start: 0;
     margin-block-end: 0;
-    padding-inline-start: 0;
-}
-
-footer>div>dl>dd>ul li {
     margin-left: 1rem;
+    margin-inline-start: 1rem;
+    padding-inline-start: 0;
+    gap: 1rem;
 }
 
-footer>div>dl>dd>ul li img {
+body > footer > div > dl > dd > ul li img {
+    display: block;
     filter: invert(100%) hue-rotate(180deg);
 }
 
 h1 {
-  font-size: 4rem;
-  line-height: 3rem;
+    font-size: 3rem;
+    line-height: 1.25em;
 }
+
 #homepage h1 {
     font-size: 2.5rem;
     font-weight: 400;
     line-height: 2rem;
 }
+
 #homepage h3 {
-   font-size: 1.5rem;
-   line-height: 2rem;
-   font-weight: 700;
-}
-#about section {
     font-size: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
+    font-weight: 700;
 }
+
 #for-developers h2 {
     font-size: 2rem;
     font-weight: 700;
     line-height: 3rem;
 }
+
 #homepage h1 + p {
     font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
     line-height: 2rem;
 }
-#features li a:last-child {
-    background-color: var(--purple);
-    padding: 12px 24px;
-    font-weight: 700;
-    color: var(--white);
-    text-decoration: none;
-    border-radius: 8px;
-    width: max-content;
-    height: max-content;
-}
+
 h2 + div > p:first-child {
     font-size: 1.25rem;
     line-height: 2rem;
 }
-#about main>article>h1 ~ p:not(div ~ p):last-of-type {
-    margin-block-start:0;
+
+#about main > article > h1 ~ p:not(div ~ p):last-of-type {
+    margin-block-start: 0;
 }
-main>article>h1 ~ p:not(div ~ p) {
+
+main header {
+    color: var(--white);
     font-size: 1.5rem;
-    line-height: 2.5rem;
-    font-weight: 400;
 }
+
 #developer-tutorials li {
     list-style: none;
 }
+
 #developer-tutorials li a {
     color: var(--dark);
 }
-#solid-server-implementations li a{
+
+#solid-server-implementations li a {
     color: var(--purple);
     font-size: 1.25rem;
     line-height: 2.5rem;
 }
 
-#features>h2,
+#features {
+    margin-top: 2rem;
+}
+
+#features > h2,
 #accounts dt,
 #hosted-pod-services dt {
     display: none;
@@ -182,45 +334,63 @@ main>article>h1 ~ p:not(div ~ p) {
     font-weight: 700;
 }
 
-#homepage main>article>div>section img {
+#homepage main > article > div > section img {
     width: 63px;
     height: 63px;
     padding-right: 2rem;
 }
 
-#homepage main>article>div>section>div>ul,
-#developer-tutorials {
-    padding: 4rem;
-    background-color: #fff;
-    color: #202542;
+#homepage main header {
+    text-align: center;
 }
 
-#about main>article>h1,
-#about main>article>div>p,
-#for-organizations main>article>h1,
-#for-organizations main>article>p,
-#events>h2,
-#events>div>p {
+#developer-tutorials {
+    margin-bottom: 2rem;
+    margin-block-end: 2rem;
+}
+
+#homepage main > article > div > section > div > ul,
+#developer-tutorials {
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+#about main > article > h1,
+#about main > article > div > p,
+#for-organizations main > article > h1,
+#for-organizations main > article > p,
+#events > h2,
+#events > div > p {
     padding: 0 2rem;
 }
 
-#homepage main>article>div>section>div>ul {
+#homepage main > article > div > section > div > ul {
     list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
 }
 
-#about main>article,
-#for-organizations main>article,
+#for-organizations main > article,
 #community {
-    color: #fff;
+    color: var(--white);
 }
 
-#about main>article>div>section,
 #hosted-pod-services,
 #solid-organizations,
 #solid-server-implementations {
-    color: #000;
-    background-color: #fff;
-    padding: 2rem;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+#solid-description,
+#solid-and-servers-pods {
+    font-size: 1.25rem;
+}
+
+#solid-description section,
+#solid-and-servers-pods section {
+    clear: both;
 }
 
 #events ul,
@@ -228,31 +398,20 @@ main>article>h1 ~ p:not(div ~ p) {
     list-style: none;
 }
 
-#solid-organizations>div>dl.legend {
-    display: flex;
-}
-
-#solutions-using-solid-technology h2 {
-    padding: 0 2rem;
-}
-
-#solid-organizations>div>ul {
-    list-style: none;
-}
-
 #about section#features ul li,
-#hosted-pod-services>div>ul li,
-#solid-organizations>div>ul li,
-#where-to-collaborate,
-#events>div>ul {
-    background-color: #fff;
+#events > div > ul {
+    background-color: var(--white);
     border-radius: 0.5rem;
     padding: 2rem;
-    color: #000;
+    color: var(--black);
 }
 
-#events li {
-    margin: 3rem 0;
+#events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 0;
+    padding: 0;
 }
 
 #events details summary {
@@ -280,17 +439,7 @@ main>article>h1 ~ p:not(div ~ p) {
     transform: translateY(calc(-50% + 0.5rem)) rotate(0deg);
 }
 
-#where-to-collaborate>div>ul,
-#events>div>ul>li>details>ul {
-    list-style: none;
-}
-
-#events>div>ul>li>details>ul li {
-    border: 1px solid #979797;
-    border-radius: 0.5rem;
-}
-
-#events>div>ul>li>details>ul li dt {
+#events > div > ul > li > details > ul li dt {
     display: none;
 }
 
@@ -308,121 +457,46 @@ main>article>h1 ~ p:not(div ~ p) {
     margin: 0
 }
 
-#events details li {
-    margin-top: 0;
-}
-
-#solutions-using-solid-technology>div>ul,
-#hosted-pod-services>div>ul,
-#solid-organizations>div>ul,
+#solutions-using-solid-technology > div > ul,
+#hosted-pod-services > div > ul,
 #features ul {
     list-style: none;
 }
 
-#hosted-pod-services>div>ul li,
-#solid-organizations>div>ul li {
-    background-color: #FEFEFE;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    margin-bottom: 2rem;
-}
-
-#about section#features ul li a,
-#where-to-collaborate ul li a {
-    background-color: #7B4DFF;
-    padding: 0.8rem 1.5rem;
-    color: #fff;
-    text-decoration: none;
-    text-wrap: nowrap;
-}
-
-#developer-tutorials {
-    margin: 0;
-}
-
-
 /* Desktop styles */
 @media (min-width: 767px) {
-    header {
+    body > header {
         flex-direction: row;
         align-items: center;
     }
 
-    header a,
-    footer a {
+    body > header a,
+    body > footer a {
         text-wrap: nowrap;
     }
 
+    h1 {
+        font-size: 4rem;
+    }
+
     nav ul {
+        align-items: center;
         display: flex;
         align-self: flex-end;
+        gap: 2rem;
+        text-align: center;
     }
 
-    main {
-        padding: 104px 128px;
-    }
-
-    main>article {
+    main > article {
         display: flex;
         flex-direction: column;
     }
 
-    main>article>h1,
-    main>article>p {
-        color: #fff;
+    main > article > h1,
+    main > article > p {
+        color: var(--white);
         font-weight: 700;
         padding: 0 6rem;
-    }
-
-    #homepage main>article>div>section>div>ul,
-    #developer-tutorials {
-        border-radius: 30px;
-    }
-
-    #solutions-using-solid-technology h2 {
-        padding: 0 6rem;
-    }
-
-    #homepage main>article>div>section>div>ul {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 0;
-        grid-row-gap: 0;
-    }
-
-    #homepage main>article>div>section>div>ul li {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(3, auto);
-        grid-column-gap: 0;
-        grid-row-gap: 0;
-        padding: 4rem;
-    }
-
-    #homepage main>article>div>section>div>ul> :nth-child(1),
-    #homepage main>article>div>section>div>ul> :nth-child(3) {
-        border-right: 1px solid #979797;
-    }
-
-    #homepage main>article>div>section>div>ul> :nth-child(1),
-    #homepage main>article>div>section>div>ul> :nth-child(2) {
-        border-bottom: 1px solid #979797;
-    }
-
-    #homepage main>article>div>section>div>ul li :nth-child(1) {
-        grid-area: 1 / 1 / 2 / 2;
-    }
-
-    #homepage main>article>div>section>div>ul li :nth-child(2) {
-        grid-area: 1 / 2 / 2 / 3;
-    }
-
-    #homepage main>article>div>section>div>ul li :nth-child(3) {
-        grid-area: 2 / 2 / 3 / 3;
-    }
-
-    #homepage main>article>div>section>div>ul li :nth-child(4) {
-        grid-area: 3 / 2 / 4 / 3;
     }
 
     #about main,
@@ -431,40 +505,29 @@ main>article>h1 ~ p:not(div ~ p) {
         padding: 0;
     }
 
-    #about main>article>h1,
-    #about main>article>div>p,
-    #for-organizations main>article>h1,
-    #for-organizations main>article>p {
+    #about main > article > h1,
+    #about main > article > div > p,
+    #for-organizations main > article > h1,
+    #for-organizations main > article > p {
         padding: 0 6rem;
     }
 
-    #events>h2,
-    #events>div>p,
-    #community>main>article>h1,
-    #community>main>article>p {
+    #events > h2,
+    #events > div > p,
+    #community > main > article > h1,
+    #community > main > article > p {
         padding: 0;
     }
 
-    #about section#features ul li,
-    #hosted-pod-services>div>ul li,
-    #solid-organizations>div>ul li,
-    #where-to-collaborate,
-    #events>div>ul {
+    #events > div > ul {
         padding: 2rem;
         margin-right: 2rem;
     }
 
-    #about main>article,
-    #for-organizations main>article,
+    #about main > article,
+    #for-organizations main > article,
     #community {
         align-items: flex-start;
-    }
-
-    #about main>article>div>section,
-    #hosted-pod-services,
-    #solid-organizations,
-    #solid-server-implementations {
-        padding: 2rem 6rem;
     }
 
     #hosted-pod-services {
@@ -472,27 +535,17 @@ main>article>h1 ~ p:not(div ~ p) {
         padding-bottom: 0;
     }
 
-    #about main>article img {
+    #about main > article img {
         width: 300px;
         float: right;
     }
 
     #about section#features {
-        background-color: #202542;
+        background-color: var(--dark);
     }
 
-    #about section#features ul {
-        display: flex;
-        list-style: none;
-    }
-
-    #where-to-collaborate>div>ul li {
-        margin-right: 3rem;
-    }
-
-    #events li {
-        margin-right: 2rem;
-        margin-bottom: 2rem;
+    #events-list {
+        gap: 2rem;
     }
 
     #events li dl dd:not(:last-child) {
@@ -500,56 +553,67 @@ main>article>h1 ~ p:not(div ~ p) {
         text-transform: uppercase;
     }
 
-    #where-to-collaborate>div>ul,
-    #events>div>ul>li>details>ul {
-        display: flex;
-    }
-
-    #events>div>ul>li>details>ul li {
-        width: 25%;
-    }
-
-    #about section#features ul li a,
-    #where-to-collaborate ul li a {
-        background-color: #7B4DFF;
-        padding: 0.8rem 1.5rem;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 0.5rem;
-        text-wrap: nowrap;
-    }
-
-    #for-developers main>article>div,
-    #for-organizations main>article>div,
-    #community main>article>div {
+    #for-developers main > article > div,
+    #for-organizations main > article > div,
+    #community main > article > div {
         width: 100%;
     }
 
     #developer-tutorials {
-        margin: 4rem;
         font-size: 1.25rem;
         line-height: 2.5rem;
     }
 
-    #solid-server-implementations {
-        margin-top:-2em;
-        margin-bottom: 4rem;
-    }
-
-    #hosted-pod-services>div>ul,
-    #solid-organizations>div>ul {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2rem;
-        margin-inline-start: 0;
-        padding-inline-start: 0;
-        margin-block-end:0;
-        width: 100%;
-        word-break: break-word
-    }
-
     #terms {
-        color: #fff;
+        color: var(--white);
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    #homepage main > article > div > section > div > ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
     }
 
+    #homepage main > article > div > section > div > ul {
+        border-radius: 30px;
+    }
+
+    #homepage main > article > div > section > div > ul li {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+        padding: 4rem;
+    }
+
+    #homepage main > article > div > section > div > ul > :nth-child(1),
+    #homepage main > article > div > section > div > ul > :nth-child(3) {
+        border-right: 1px solid  var(--grey);
+    }
+
+    #homepage main > article > div > section > div > ul > :nth-child(1),
+    #homepage main > article > div > section > div > ul > :nth-child(2) {
+        border-bottom: 1px solid  var(--grey);
+    }
+
+    #homepage main > article > div > section > div > ul li :nth-child(1) {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    #homepage main > article > div > section > div > ul li :nth-child(2) {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    #homepage main > article > div > section > div > ul li :nth-child(3) {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    #homepage main > article > div > section > div > ul li :nth-child(4) {
+        grid-area: 3 / 2 / 4 / 3;
+    }
 }
