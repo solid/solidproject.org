@@ -22,12 +22,14 @@ solidproject.org is a hub for:
 
 ## Sitemap
 
-The sitemap information is intended to help track URIs that are allocated to the resources under solidproject.org. The information *is* incomplete (as of 2024-03-05) and needs to be updated as content and URI strategy changes (see also https://github.com/solid/solidproject.org/issues/249 ). The table should take 2xx, 3xx, 4xx status codes into account for all assets, including documents and media files that are made available as well as that were available in the past ( redirect, not found, gone..).
+The sitemap information is intended to help track URIs that are allocated to the resources under [`solidproject.org`](https://solidproject.org/). The information *is incomplete* (as of 2024-03-05) and will need to be updated as content and URI strategy changes (see also https://github.com/solid/solidproject.org/issues/249). The table should take 2xx, 3xx, 4xx status codes into account for all assets, including documents and media files that are newly made available, as well as those that were available in the past (redirect, not found, gone, etc.).
 
-* url: URLs of the tracked resources
+* url: URL of the tracked resources
 * status: intended status code in response to `HTTP GET`
-* design: information about the design (including architectural, presentational, behavioural)  of the resource
+* design: information about the design (including architectural, presentational, behavioural) of the resource
 * note: supplementary notes
+
+The table is alphabetically sorted by url.
 
 | url | status | design | notes |
 | - | - | - | - |
@@ -126,4 +128,3 @@ The sitemap information is intended to help track URIs that are allocated to the
 | https://solidproject.org/TR/websocket-subscription-2021 | 200 | Uses W3C specification design patterns | - |
 | https://solidproject.org/users/get-a-pod | | | |
 
-The table is alphabetically sorted by url.
