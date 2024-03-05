@@ -57,6 +57,10 @@ dt {
     padding: 0;
 }
 
+figure {
+    margin: 0;
+}
+
 main img,
 main video {
     max-width: 100%;
@@ -76,20 +80,64 @@ nav a {
 }
 
 /**
- * Class used to make sure that content is "contained" with a standardized margin and padding
+ * "container" used to make sure that content is "contained" with a standardized margin and padding
  */
-.container {
+#about main header,
+#about #features,
+#community main header,
+#events header,
+#for-developers main header,
+#for-organizations main header,
+#homepage main header,
+#solutions-using-solid-technology {
     margin: 0 2rem;
 }
 
-.container.container--full {
+@media (min-width: 767px) {
+    #about main header,
+    #about #features,
+    #community main header,
+    #events header,
+    #for-developers main header,
+    #for-organizations main header,
+    #homepage main header,
+    #solutions-using-solid-technology {
+        margin: 2rem 6rem;
+    }
+}
+
+/**
+ * "container--full" used to make sure that content is "contained", but background stretches to both ends
+ */
+#homepage #features,
+#hosted-pod-services,
+#solid-description,
+#solid-and-servers-pods,
+#solid-organizations,
+#solid-server-implementations {
     background-color: var(--white);
     color: var(--black);
     margin: 0;
     padding: 2rem;
 }
 
-.container.container--open-end {
+@media (min-width: 767px) {
+    #homepage #features,
+    #hosted-pod-services,
+    #solid-description,
+    #solid-and-servers-pods,
+    #solid-organizations,
+    #solid-server-implementations {
+        padding: 2rem 6rem;
+    }
+}
+
+/**
+ * "container--open-end" used to make sure that content is "contained", but background that stretches to one end
+ */
+#developer-tutorials,
+#events article,
+#where-to-collaborate {
     background-color: var(--white);
     color: var(--black);
     margin: 0 0 0 0.5rem;
@@ -98,15 +146,9 @@ nav a {
 }
 
 @media (min-width: 767px) {
-    .container {
-        margin: 2rem 6rem;
-    }
-
-    .container.container--full {
-        padding: 2rem 6rem;
-    }
-
-    .container.container--open-end {
+    #developer-tutorials,
+    #events article,
+    #where-to-collaborate {
         margin: 2rem 0 2rem 4rem;
         padding-right: 6rem;
         padding-inline-end: 6rem;
@@ -114,9 +156,17 @@ nav a {
 }
 
 /**
- * Content is presented with tiles throughout the site. Use this class to standardize their default looks.
+ * Use "tiles" to make elements and their children be presented in a standardized grid
+ *
+ * There are a couple of variations, "tiles--distinct" and "tiles--very-distinct" that makes the children stand out
+ * a bit more.
  */
-.tiles {
+#about #features ul,
+#events-list ul,
+#hosted-pod-services ul,
+#solid-organizations ul,
+#solutions-using-solid-technology ul,
+#where-to-collaborate ul {
     display: grid;
     font-size: 1rem;
     gap: 1rem;
@@ -128,31 +178,31 @@ nav a {
     word-break: break-word
 }
 
-.tiles > * {
+#about #features ul > *,
+#events-list ul > *,
+#hosted-pod-services ul > *,
+#solid-organizations ul > *,
+#solutions-using-solid-technology ul > *,
+#where-to-collaborate ul > * {
     color: var(--dark);
 }
 
-.tiles > * > *:first-child {
+#about #features ul > * > *:first-child,
+#events-list ul > * > *:first-child,
+#hosted-pod-services ul > * > *:first-child,
+#solid-organizations ul > * > *:first-child,
+#solutions-using-solid-technology ul > * > *:first-child,
+#where-to-collaborate ul > * > *:first-child {
     margin-top: 0;
 }
 
-.tiles.tiles--distinct > * {
-    background-color: var(--white);
-    border: 1px solid var(--grey);
-    border-radius: 0.5rem;
-    padding: 1rem;
-}
-
-.tiles.tiles--very-distinct > * {
-    background-color: var(--white);
-    border: 1px solid var(--grey);
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    padding: 2rem;
-}
-
 @media (min-width: 767px) {
-    .tiles {
+    #about #features ul,
+    #events-list ul,
+    #hosted-pod-services ul,
+    #solid-organizations ul,
+    #solutions-using-solid-technology ul,
+    #where-to-collaborate ul {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
         margin: 0;
@@ -161,9 +211,33 @@ nav a {
 }
 
 @media (min-width: 1100px) {
-    .tiles {
+    #about #features ul,
+    #events-list ul,
+    #hosted-pod-services ul,
+    #solid-organizations ul,
+    #solutions-using-solid-technology ul,
+    #where-to-collaborate ul {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+
+/* This part is used for distinct tiles */
+#events-list ul > * {
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* This part is used for very distinct tiles */
+#hosted-pod-services ul > *,
+#solid-organizations ul > * {
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    padding: 2rem;
 }
 
 /*
@@ -191,10 +265,10 @@ nav a {
 }
 
 /*
- * This class are applied to elements that looks like buttons. This means that they can be applied to anchors, but make
- * sure they are semantically correct.
+ * "button" applied to elements that looks like buttons.
  */
-.button {
+#features a,
+#where-to-collaborate a {
     background-color: var(--purple);
     padding: 0.75rem 1.5rem;
     color: var(--white);
@@ -319,8 +393,13 @@ main header {
     line-height: 2.5rem;
 }
 
-#features {
+#about #features {
     margin-top: 2rem;
+}
+
+#features ul {
+    margin: 0;
+    padding: 0;
 }
 
 #features > h2,
