@@ -25,9 +25,11 @@
 
     <main>
       <article about="" typeof="schema:Article">
-        <h1 property="schema:name">Community</h1>
+        <header>
+          <h1 property="schema:name">Community</h1>
 
-        <p>Discover ways to join and contribute to the Solid community.</p>
+          <p>Discover ways to join and contribute to the Solid community.</p>
+        </header>
 
         <div datatype="rdf:HTML" property="schema:description">
           <section id="where-to-collaborate" inlist="" rel="schema:hasPart" resource="#where-to-collaborate">
@@ -37,86 +39,89 @@
                 <li>
                   <p><strong>Solid Project Forum</strong></p>
                   <p>Create and respond to comments, questions, and discussions happening in the community.</p>
-                  <a href="" rel="rdfs:seeAlso">Go to Solid Forum</a>
+                  <a href="https://forum.solidproject.org/" rel="rdfs:seeAlso">Go to Solid Forum</a>
                 </li>
                 <li>
                   <p><strong>Solid Matrix Chat</strong></p>
                   <p>The Solid Matrix Chat is a live chat where community members can connect.</p>
-                  <a href="" rel="rdfs:seeAlso">Go to Matrix</a>
+                  <a href="https://matrix.to/#/#solid:converser.eu" rel="rdfs:seeAlso">Go to Matrix</a>
                 </li>
                 <li>
                   <p><strong>Solid Community Group</strong></p>
                   <p>Learn and work on Solid specifications.</p>
-                  <a href="" rel="rdfs:seeAlso">Go to Community Group</a>
+                  <a href="https://www.w3.org/groups/cg/solid/" rel="rdfs:seeAlso">Go to Community Group</a>
                 </li>
               </ul>
             </div>
           </section>
 
           <section id="events" inlist="" rel="schema:hasPart" resource="#events">
-            <h2 property="schema:name">Events</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>Discover Solid events taking place virtually and/or in person around the world.</p>
+              <header>
+                <h2 property="schema:name">Events</h2>
+                <p>Discover Solid events taking place virtually and/or in person around the world.</p>
+              </header>
+              <article>
+                <ul id="events-list">
+                  <li id="events-2023" rel="schema:hasPart" resource="#events-2023">
+                    <details open="">
+                      <summary property="schema:name">2023 Events</summary>
+                      <ul rel="schema:hasPart">
+                        <li>
+                          <dl about="#mydata-2023-conference" id="mydata-2023-conference" rel="schema:hasPart" typeof="schema:Event">
+                            <dt>Title</dt>
+                            <dd property="schema:name"><a href="https://2023.mydata.org/" rel="schema:url">MyData 2023 Conference</a></dd>
+                            <dt>Organization</dt>
+                            <dd><a href="https://mydata.org/" rel="schema:organizer">MyData</a></dd>
+                            <dt>Date</dt>
+                            <dd><time property="schema:startDate" datatype="xsd:date" content="2023-05-31" datetime="2023-05-31">2023-05-31</time>–<time property="schema:endDate" datatype="xsd:date" content="2023-06-02" datetime="2023-06-02">2023-06-02</time></dd>
+                            <dt>Location</dt>
+                            <dd><a href="https://en.wikipedia.org/wiki/Helsinki" rel="schema:location">Helsinki</a></dd>
+                            <dt>Description</dt>
+                            <dd datatype="rdf:HTML" property="schema:description">There will be a dedicated workshop/panel session about the Solid project at this conference, alongside interesting people and presentations from many like-minded projects.</dd>
+                          </dl>
+                        </li>
+                        <li>
+                          <dl about="#example-2023-conference" id="example-2023-conference" typeof="schema:Event">
+                            <dt>Title</dt>
+                            <dd property="schema:name"><a href="https://example.org/" property="schema:url">Event Title</a></dd>
+                            <dt>Organization</dt>
+                            <dd><a href="" rel="schema:organizer">Organization Name</a></dd>
+                            <dt>Date</dt>
+                            <dd><time property="schema:startDate" datatype="xsd:date" datetime="2023-01-01">2023-01-01</time>–<time property="schema:endDate" datatype="xsd:date" datetime="2023-01-03">2023-01-03</time></dd>
+                            <dt>Location</dt>
+                            <dd><a href="https://en.wikipedia.org/wiki/Bern" rel="schema:location">Location</a></dd>
+                            <dt>Description</dt>
+                            <dd datatype="rdf:HTML" property="schema:description">Description</dd>
+                          </dl>
+                        </li>
+                      </ul>
+                    </details>
+                  </li>
 
-              <ul>
-                <li id="events-2023" rel="schema:hasPart" resource="#events-2023">
-                  <details open="">
-                    <summary property="schema:name">2023 Events</summary>
-                     <ul rel="schema:hasPart">
-                      <li>
-                        <dl about="#mydata-2023-conference" id="mydata-2023-conference" rel="schema:hasPart" typeof="schema:Event">
-                          <dt>Title</dt>
-                          <dd property="schema:name"><a href="https://2023.mydata.org/" rel="schema:url">MyData 2023 Conference</a></dd>
-                          <dt>Organization</dt>
-                          <dd><a href="https://mydata.org/" rel="schema:organizer">MyData</a></dd>
-                          <dt>Date</dt>
-                          <dd><time property="schema:startDate" datatype="xsd:date" content="2023-05-31" datetime="2023-05-31">2023-05-31</time>–<time property="schema:endDate" datatype="xsd:date" content="2023-06-02" datetime="2023-06-02">2023-06-02</time></dd>
-                          <dt>Location</dt>
-                          <dd><a href="https://en.wikipedia.org/wiki/Helsinki" rel="schema:location">Helsinki</a></dd>
-                          <dt>Description</dt>
-                          <dd datatype="rdf:HTML" property="schema:description">There will be a dedicated workshop/panel session about the Solid project at this conference, alongside interesting people and presentations from many like-minded projects.</dd>
-                        </dl>
-                      </li>
-                      <li>
-                        <dl about="#example-2023-conference" id="example-2023-conference" typeof="schema:Event">
-                          <dt>Title</dt>
-                          <dd property="schema:name"><a href="https://example.org/" property="schema:url">Event Title</a></dd>
-                          <dt>Organization</dt>
-                          <dd><a href="" rel="schema:organizer">Organization Name</a></dd>
-                          <dt>Date</dt>
-                          <dd><time property="schema:startDate" datatype="xsd:date" datetime="2023-01-01">2023-01-01</time>–<time property="schema:endDate" datatype="xsd:date" datetime="2023-01-03">2023-01-03</time></dd>
-                          <dt>Location</dt>
-                          <dd><a href="https://en.wikipedia.org/wiki/Bern" rel="schema:location">Location</a></dd>
-                          <dt>Description</dt>
-                          <dd datatype="rdf:HTML" property="schema:description">Description</dd>
-                        </dl>
-                      </li>
-                    </ul>
-                  </details>
-                </li>
-
-                <li id="events-2022" rel="schema:hasPart" resource="#events-2022">
-                  <details open="">
-                    <summary property="schema:name">2022 Events</summary>
-                     <ul>
-                      <li>
-                        <dl about="#example-2022-conference" id="example-2022-conference" typeof="schema:Event">
-                          <dt>Title</dt>
-                          <dd property="schema:name"><a href="https://example.org/" property="schema:url">Event Title</a></dd>
-                          <dt>Organization</dt>
-                          <dd><a href="" rel="schema:organizer">Organization Name</a></dd>
-                          <dt>Date</dt>
-                          <dd><time property="schema:startDate" datatype="xsd:date" datetime="2022-01-01">2022-01-01</time>–<time property="schema:endDate" datatype="xsd:date" datetime="2022-01-03">2022-01-03</time></dd>
-                          <dt>Location</dt>
-                          <dd><a href="https://en.wikipedia.org/wiki/Bern" rel="schema:location">Location</a></dd>
-                          <dt>Description</dt>
-                          <dd datatype="rdf:HTML" property="schema:description">Description</dd>
-                        </dl>
-                      </li>
-                    </ul>
-                  </details>
-                </li>
-              </ul>
+                  <li id="events-2022" rel="schema:hasPart" resource="#events-2022">
+                    <details open="">
+                      <summary property="schema:name">2022 Events</summary>
+                      <ul>
+                        <li>
+                          <dl about="#example-2022-conference" id="example-2022-conference" typeof="schema:Event">
+                            <dt>Title</dt>
+                            <dd property="schema:name"><a href="https://example.org/" property="schema:url">Event Title</a></dd>
+                            <dt>Organization</dt>
+                            <dd><a href="" rel="schema:organizer">Organization Name</a></dd>
+                            <dt>Date</dt>
+                            <dd><time property="schema:startDate" datatype="xsd:date" datetime="2022-01-01">2022-01-01</time>–<time property="schema:endDate" datatype="xsd:date" datetime="2022-01-03">2022-01-03</time></dd>
+                            <dt>Location</dt>
+                            <dd><a href="https://en.wikipedia.org/wiki/Bern" rel="schema:location">Location</a></dd>
+                            <dt>Description</dt>
+                            <dd datatype="rdf:HTML" property="schema:description">Description</dd>
+                          </dl>
+                        </li>
+                      </ul>
+                    </details>
+                  </li>
+                </ul>
+              </article>
             </div>
           </section>
         </div>
@@ -130,8 +135,8 @@
           <li><a href="/for-developers.html">For Developers</a></li>
           <li><a href="/for-organizations.html">For Organizations</a></li>
           <li><a href="/community.html">Community</a></li>
-          <li><a href="/#">License</a></li>
-          <li><a href="/#">Code of Conduct</a></li>
+          <li><a href="https://github.com/solid/solidproject.org/blob/main/LICENSE.md">License</a></li>
+          <li><a href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a></li>
         </ul>
       </nav>
 
