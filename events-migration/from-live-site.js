@@ -140,7 +140,7 @@ function formatEventLine(line) {
                           <dt>Organization</dt>
                           <dd>${linkedOrganizer}</dd>
                           <dt>Date</dt>
-                          <dd><time property="schema:startDate" datatype="xsd:date" content="${date}" datetime="${date}">${date}</time>–</dd>
+                          <dd><time property="schema:startDate" datatype="xsd:date" content="${date}" datetime="${date}">${date}</time></dd>
                           <dt>Description</dt>
                           <dd datatype="rdf:HTML" property="schema:description">${details}</dd>
                         </dl>
