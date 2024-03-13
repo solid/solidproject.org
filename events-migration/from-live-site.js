@@ -104,4 +104,156 @@ const events = {
 | 2016-04-11 | [Solid Montreal](http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web)|[International World Wide Web Conference](http://www2016.ca)||
 `.split('\n'),
 }
-console.log(events);
+
+function formatYearHeader(year, events) {
+  return `
+
+                <li id="events-2024" rel="schema:hasPart" resource="#events-2024">
+                  <details open="">
+                    <summary property="schema:name">2024 Events</summary>
+                     <ul rel="schema:hasPart">
+`;
+}
+function formatEventLine(line) {
+  return `
+      <li>
+        <dl about="#solid-world-feb-24" id="solid-world-feb-24" rel="schema:hasPart" typeof="schema:Event">
+          <dt>Title</dt>
+          <dd property="schema:name"><a href="https://www.eventbrite.co.uk/e/solid-world-2024-tickets-827618468117?aff=oddtdtcreator" rel="schema:url">Solid World February 2024</a></dd>
+          <dt>Organization</dt>
+          <dd><a href="https://solidproject.org/team" rel="schema:organizer">Solid Team</a> / <a href="https://www.inrupt.com" rel="schema:organizer">Inrupt</a></dd>
+          <dt>Date</dt>
+          <dd><time property="schema:startDate" datatype="xsd:date" content="2024-02-27" datetime="2024-02-27">2024-02-27</time></dd>
+          <dt>Location</dt>
+          <dd>Online and <a href="https://vimeo.com/917649395">recorded</a></dd>
+          <dt>Description</dt>
+          <dd datatype="rdf:HTML" property="schema:description">Solid World was held around the theme of "Solid for Social Benefit: Delivering Shared and Public Resources." We heard news from the Solid Team and presentations from the PASS Project, Open Commons, the SleepyBike Project, and Digital Flanders.</dd>
+        </dl>
+      </li>
+`;
+}
+
+function formatYearFooter(year) {
+  return `
+                    </ul>
+                  </details>
+                </li>
+`;
+}
+  
+function getPageTop() {
+  return`
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Community - Solid</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="style/base.css" />
+  </head>
+
+  <body about="" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/" id="community">
+    <header>
+      <address>
+        <a href="/"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
+      </address>
+
+      <nav>
+        <ul>
+          <li><a href="/about.html">About Solid</a></li>
+          <li><a href="/for-developers.html">For Developers</a></li>
+          <li><a href="/for-organizations.html">For Organizations</a></li>
+          <li><a href="/community.html">Community</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article about="" typeof="schema:Article">
+        <h1 property="schema:name">Community</h1>
+
+        <p>Discover ways to join and contribute to the Solid community.</p>
+
+        <div datatype="rdf:HTML" property="schema:description">
+          <section id="where-to-collaborate" inlist="" rel="schema:hasPart" resource="#where-to-collaborate">
+            <h2 property="schema:name">Where to collaborate</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <ul>
+                <li>
+                  <p><strong>Solid Project Forum</strong></p>
+                  <p>Create and respond to comments, questions, and discussions happening in the community.</p>
+                  <a href="https://forum.solidproject.org" rel="rdfs:seeAlso">Go to Solid Forum</a>
+                </li>
+                <li>
+                  <p><strong>Solid Matrix Chat</strong></p>
+                  <p>The Solid Matrix Chat is a live chat where community members can connect.</p>
+                  <a href="https://matrix.to/#/#solid:converser.eu" rel="rdfs:seeAlso">Go to Matrix</a>
+                </li>
+                <li>
+                  <p><strong>Solid Community Group</strong></p>
+                  <p>Learn and work on Solid specifications.</p>
+                  <a href="https://www.w3.org/groups/cg/solid/" rel="rdfs:seeAlso">Go to Community Group</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="events" inlist="" rel="schema:hasPart" resource="#events">
+            <h2 property="schema:name">Events</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Discover Solid events taking place virtually and/or in person around the world.</p>
+
+              <ul>
+`;
+}
+
+function getPageBottom() {
+  return `
+              </ul>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/for-developers.html">For Developers</a></li>
+          <li><a href="/for-organizations.html">For Organizations</a></li>
+          <li><a href="/community.html">Community</a></li>
+          <li><a href="https://github.com/solid/solidproject.org/blob/main/LICENSE.md/#">License</a></li>
+          <li><a href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <img alt="logo" src="/image/logo.svg" width="40" />
+        <dl id="accounts">
+          <dt>Accounts</dt>
+          <dd>
+            <ul about="/#i">
+              <li><a href="mailto:info@solidproject.org">info@solidproject.org</a></li>
+              <li><a href="https://github.com/solid/"><img src="/image/github.svg" alt="github" width="20" /></a></li>
+              <li><a href="https://twitter.com/project_solid"><img src="/image/twitter.svg" alt="twitter" width="20" /></a></li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+    </footer>
+  </body>
+</html>
+`;
+}
+
+// ...
+console.log(getPageTop());
+Object.keys(events).reverse().forEach(year => {
+  console.log(formatYearHeader(year));
+  events[year].filter(line => line.length > 0).forEach(line => {
+    // console.log(formatEventLine(line));
+  });
+  console.log(formatYearFooter(year));
+});
+console.log(getPageBottom());
