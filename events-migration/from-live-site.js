@@ -116,24 +116,31 @@ function formatYearHeader(year) {
 }
 function formatEventLine(line) {
   const cells = line.split('|').map(s => s.trim());
-  const [dummy, date, event, organizer, details] = cells;
+  let [dummy, date, event, organizer, details] = cells;
   const markdownLinkRegex = /\[(.*)\]\((.*)\)$/;
 
   const [full, text, url] = event.trim().match(markdownLinkRegex) || [ event, event, ''];
   const [full2, organizerName, organizerUrl] = organizer.trim().match(markdownLinkRegex) || [ organizer, organizer, ''];
-  const label = `${date}-${text.replace(' ', '-').toLowerCase()}`;
-  console.log({cells, label, text, url, date, event, organizer, details, organizerName, organizerUrl});
+  const label = `${date}-${text.replaceAll(' ', '-').toLowerCase()}`;
+  let linkedOrganizer = `<a href="${organizerUrl}" rel="schema:organizer">${organizerName}</a>`;
+  let linkedName = `<a href="${url}" rel="schema:url">${text}</a>`;
+  // special cases:
+  if (organizer === '[Solid Team](https://solidproject.org/team) / [Inrupt](https://www.inrupt.com/)') {
+    linkedOrganizer = `<a href="https://solidproject.org/team" rel="schema:organizer">Solid Team</a> / <a href="https://www.inrupt.com/" rel="schema:organizer">Inrupt</a>`;
+  }
+  if (details == '[Solid World Recording](https://vimeo.com/917649395) <br> Solid World was held around the theme of "Solid for Social Benefit: Delivering Shared and Public Resources." We heard news from the Solid Team and presentations from the PASS Project, Open Commons, the SleepyBike Project, and Digital Flanders.') {
+    details = `<a href="https://vimeo.com/917649395">Solid World Recording</a> <br> Solid World was held around the theme of "Solid for Social Benefit: Delivering Shared and Public Resources." We heard news from the Solid Team and presentations from the PASS Project, Open Commons, the SleepyBike Project, and Digital Flanders.`;
+  }
+  // console.log({cells, label, linkedName, linkedOrganizer, date, details});
   return `
                       <li>
                         <dl about="#s${label}" id="${label}" rel="schema:hasPart" typeof="schema:Event">
                           <dt>Title</dt>
-                          <dd property="schema:name"><a href="${url}" rel="schema:url">${text}</a></dd>
+                          <dd property="schema:name">${linkedName}</dd>
                           <dt>Organization</dt>
-                          <dd><a href="${organizerUrl}" rel="schema:organizer">${organizerName}</a></dd>
+                          <dd>${linkedOrganizer}</dd>
                           <dt>Date</dt>
                           <dd><time property="schema:startDate" datatype="xsd:date" content="${date}" datetime="${date}">${date}</time>–</dd>
-                          <dt>Location</dt>
-                          <dd>Online and <a href="https://vimeo.com/917649395">recorded</a></dd>
                           <dt>Description</dt>
                           <dd datatype="rdf:HTML" property="schema:description">Solid World was held around the theme of "Solid for Social Benefit: Delivering Shared and Public Resources." We heard news from the Solid Team and presentations from the PASS Project, Open Commons, the SleepyBike Project, and Digital Flanders.</dd>
                         </dl>
@@ -257,7 +264,6 @@ function getPageBottom() {
 
 // ...
 console.log(getPageTop());
-
 Object.keys(events).reverse().forEach(year => {
   console.log(formatYearHeader(year));
   events[year].filter(line => line.length > 0).forEach(line => {
