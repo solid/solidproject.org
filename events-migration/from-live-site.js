@@ -142,7 +142,7 @@ function formatEventLine(line) {
                           <dt>Date</dt>
                           <dd><time property="schema:startDate" datatype="xsd:date" content="${date}" datetime="${date}">${date}</time>–</dd>
                           <dt>Description</dt>
-                          <dd datatype="rdf:HTML" property="schema:description">Solid World was held around the theme of "Solid for Social Benefit: Delivering Shared and Public Resources." We heard news from the Solid Team and presentations from the PASS Project, Open Commons, the SleepyBike Project, and Digital Flanders.</dd>
+                          <dd datatype="rdf:HTML" property="schema:description">${details}</dd>
                         </dl>
                       </li>
 `;
