@@ -117,7 +117,7 @@ function formatYearHeader(year) {
 function formatEventLine(line) {
   const cells = line.split('|').map(s => s.trim());
   let [dummy, date, event, organizer, details] = cells;
-  const markdownLinkRegex = /\[(.*)\]\((.*)\)$/;
+  const markdownLinkRegex = /\[(.*?)\]\((.*?)\)$/;
 
   const [full, text, url] = event.trim().match(markdownLinkRegex) || [ event, event, ''];
   const [full2, organizerName, organizerUrl] = organizer.trim().match(markdownLinkRegex) || [ organizer, organizer, ''];
