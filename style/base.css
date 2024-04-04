@@ -332,14 +332,18 @@ footer>div>dl>dd>ul li img {
         padding: 4rem;
     }
 
-    #homepage main>article>div>section>div>ul> :nth-child(1),
-    #homepage main>article>div>section>div>ul> :nth-child(3) {
+    #homepage main>article>div>section>div>ul> :nth-child(odd) {
         border-right: 1px solid #979797;
     }
 
-    #homepage main>article>div>section>div>ul> :nth-child(1),
-    #homepage main>article>div>section>div>ul> :nth-child(2) {
+    #homepage main>article>div>section>div>ul>li {
         border-bottom: 1px solid #979797;
+    }
+
+    #homepage main>article>div>section>div>ul>li:last-child,
+    #homepage main>article>div>section>div>ul>li:nth-last-child(2):nth-child(odd),
+    #homepage main>article>div>section>div>ul>li:last-child:nth-child(odd) {
+      border-bottom:none;
     }
 
     #homepage main>article>div>section>div>ul li :nth-child(1) {
