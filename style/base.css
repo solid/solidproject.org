@@ -398,8 +398,7 @@ footer>div>dl>dd>ul li img {
     #hosted-pod-services>div>ul li,
     #solid-organizations>div>ul li,
     #where-to-collaborate,
-    #using-solid,
-    #events>div>ul {
+    #using-solid {
         padding: 2rem;
         margin-right: 2rem;
     }
@@ -440,7 +439,6 @@ footer>div>dl>dd>ul li img {
     }
 
     #events li {
-        margin-right: 2rem;
         margin-bottom: 2rem;
     }
 
@@ -450,13 +448,14 @@ footer>div>dl>dd>ul li img {
     }
 
     #where-to-collaborate>div>ul,
-    #using-solid>div>ul,
-    #events>div>ul>li>details>ul {
+    #using-solid>div>ul {
         display: flex;
     }
 
-    #events>div>ul>li>details>ul li {
-        width: 25%;
+    #events>div>ul>li>details>ul {
+      display: grid;
+      grid-column-gap: 2%;
+      grid-template-columns: repeat(auto-fit, 23%);
     }
 
     #about section#features ul li a,
