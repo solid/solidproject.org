@@ -325,7 +325,7 @@ footer>div>dl>dd>ul li img {
 
     #homepage main>article>div>section>div>ul li {
         display: grid;
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: 150px  1fr;
         grid-template-rows: repeat(3, auto);
         grid-column-gap: 0;
         grid-row-gap: 0;
