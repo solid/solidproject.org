@@ -98,6 +98,7 @@ redirect_from:
 | [graphMetrix](https://graphmetrix.net/#/)                                    | Allows you to browse your Solid Pod offering multiple views of information including overview, graph, doc, gallery and grid as well as easy to use Solid collaboration control and file management. 30 day free trial followed by a $10 per user/per month. 2018 [graphMetrix](https://graphmetrix.com/#/solid) |
 |                                                                              | LinkedPipes Applications create your own visualisers based on linked data. <br>- [Source code](https://github.com/linkedpipes/applications) [Apache License 2.0 © 2018](https://github.com/linkedpipes/applications/blob/master/LICENSE) [Jakub Klimek](https://github.com/jakubklimek) |
 | [Penny](https://penny.vincenttunru.com/)                     | A general Pod Browser by [Vincent Tunru](https://vincenttunru.com/) |
+| [PodOS Browser](https://browser.pod-os.org/) | Browse and manage the things in your Pod. Based on [PodOS](http://pod-os.org). |
 
 ## Apps installed from Source
 
