@@ -1,3 +1,9 @@
+:root {
+    --dark: #202542;
+    --purple: #7B4DFF;
+    --white: #FFF;
+  }
+
 @font-face {
     font-family: 'Lato Regular';
     src: url('../assets/fonts/Lato-Regular.ttf') format('truetype');
@@ -6,7 +12,7 @@
 }
 
 body {
-    background-color: #202542;
+    background-color: var(--dark);
     font-family: 'Lato Regular', sans-serif;
     margin: 0;
     line-height: 32px;
@@ -14,7 +20,7 @@ body {
 
 header a,
 footer a {
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -28,12 +34,12 @@ header {
 header>address>a {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: normal;
 }
 
 header>address>a>img {
-    width: 34px;
+    width: 35px;
     margin-right: 1rem;
 }
 
@@ -59,7 +65,7 @@ nav a {
 
 main>article>h1,
 main>article>p {
-    color: #fff;
+    color: var(--white);
     font-weight: 400;
     padding: 0 2rem;
 }
@@ -86,7 +92,7 @@ footer>div>img {
 
 footer>div>dl>dd>ul {
     display: flex;
-    color: #fff;
+    color: var(--white);
     width: min-content;
     list-style: none;
     margin-block-start: 0;
@@ -100,6 +106,69 @@ footer>div>dl>dd>ul li {
 
 footer>div>dl>dd>ul li img {
     filter: invert(100%) hue-rotate(180deg);
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 3rem;
+}
+#homepage h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+#homepage h3 {
+   font-size: 1.5rem;
+   line-height: 2rem;
+   font-weight: 700;
+}
+#about section {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+#for-developers h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+#homepage h1 + p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2rem;
+}
+#features li a:last-child {
+    background-color: var(--purple);
+    padding: 12px 24px;
+    font-weight: 700;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 8px;
+    width: max-content;
+    height: max-content;
+}
+h2 + div > p:first-child {
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+#about main>article>h1 ~ p:not(div ~ p):last-of-type {
+    margin-block-start:0;
+}
+main>article>h1 ~ p:not(div ~ p) {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+#developer-tutorials li {
+    list-style: none;
+}
+#developer-tutorials li a {
+    color: var(--dark);
+}
+#solid-server-implementations li a{
+    color: var(--purple);
+    font-size: 1.25rem;
+    line-height: 2.5rem;
 }
 
 #features>h2,
@@ -147,7 +216,8 @@ footer>div>dl>dd>ul li img {
 
 #about main>article>div>section,
 #hosted-pod-services,
-#solid-organizations {
+#solid-organizations,
+#solid-server-implementations {
     color: #000;
     background-color: #fff;
     padding: 2rem;
@@ -291,7 +361,7 @@ footer>div>dl>dd>ul li img {
     }
 
     main {
-        padding: 6rem;
+        padding: 104px 128px;
     }
 
     main>article {
@@ -302,7 +372,7 @@ footer>div>dl>dd>ul li img {
     main>article>h1,
     main>article>p {
         color: #fff;
-        font-weight: 400;
+        font-weight: 700;
         padding: 0 6rem;
     }
 
@@ -310,7 +380,7 @@ footer>div>dl>dd>ul li img {
     #developer-tutorials {
         border-radius: 30px;
     }
-    
+
     #solutions-using-solid-technology h2 {
         padding: 0 6rem;
     }
@@ -362,16 +432,6 @@ footer>div>dl>dd>ul li img {
         grid-area: 3 / 2 / 4 / 3;
     }
 
-    #homepage main>article>div>section>div>ul li a {
-        background-color: #7B4DFF;
-        padding: 0.8rem 1.5rem;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 0.5rem;
-        width: max-content;
-        height: max-content;
-    }
-
     #about main,
     #for-developers main,
     #for-organizations main {
@@ -411,12 +471,14 @@ footer>div>dl>dd>ul li img {
 
     #about main>article>div>section,
     #hosted-pod-services,
-    #solid-organizations {
+    #solid-organizations,
+    #solid-server-implementations {
         padding: 2rem 6rem;
     }
 
     #hosted-pod-services {
         display: block;
+        padding-bottom: 0;
     }
 
     #about main>article img {
@@ -477,9 +539,12 @@ footer>div>dl>dd>ul li img {
 
     #developer-tutorials {
         margin: 4rem;
+        font-size: 1.25rem;
+        line-height: 2.5rem;
     }
 
-    #hosted-pod-services {
+    #solid-server-implementations {
+        margin-top:-2em;
         margin-bottom: 4rem;
     }
 
@@ -490,6 +555,7 @@ footer>div>dl>dd>ul li img {
         grid-gap: 2rem;
         margin-inline-start: 0;
         padding-inline-start: 0;
+        margin-block-end:0;
         width: 100%;
         word-break: break-word
     }
