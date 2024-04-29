@@ -72,6 +72,7 @@ The table is alphabetically sorted by lexical url.
 | https://solidproject.org/newsletter/2021-09-09 | | | |
 | https://solidproject.org/newsletter/2021-10-14 | | | |
 | https://solidproject.org/newsletter/archive | | | |
+| https://solidproject.org/origin | 200 | `script` sets location to https://solidproject.org//about | TODO: [issue](https://github.com/solid/solidproject.org/issues/841) |
 | https://solidproject.org/press | | | |
 | https://solidproject.org/specification | | | |
 | https://solidproject.org/team | | | |
