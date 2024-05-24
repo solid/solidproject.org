@@ -1,0 +1,874 @@
+<!doctype html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>This Week in Solid 2019-08-01 · Solid</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/favicon.ico?"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head>
+
+  <body>
+    <header id="header-navbar" class="navbar">
+  <a class="navbar-brand navbar-item navbar-link is-arrowless" href="/">
+    <img
+      src="/assets/img/solid-emblem.svg"
+      alt=""
+    />
+    <span class="is-uppercase is-size-4">Solid</span>
+  </a>
+
+  <nav class="navbar-menu is-hidden-mobile">
+    <ul class="navbar-end">
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <a
+              class="navbar-link is-size-6 is-size-5-tablet is-arrowless"
+              href="/about"
+            >About Solid</a>
+          
+        </li>
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >Developers</button>
+            <ul class="navbar-dropdown">
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/developers/tutorials/getting-started"
+                  >Getting Started</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/developers/tools"
+                  >Solid Tools and Libraries</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/apps"
+                  >Solid Apps</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >Users</button>
+            <ul class="navbar-dropdown">
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/users/get-a-pod"
+                  >Getting a Pod</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/apps"
+                  >Solid Apps</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >Community</button>
+            <ul class="navbar-dropdown">
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/newsletter"
+                  >Newsletter</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/events"
+                  >Events</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="https://forum.solidproject.org/"
+                  >Solid Forum</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="https://matrix.to/#/#solid_project:matrix.org"
+                  >Chat</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/press"
+                  >Press</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="https://github.com/solid/process/blob/main/code-of-conduct.md"
+                  >Code of Conduct</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+
+
+    <div id="draft-warning"></div>
+<script>
+  if (
+    document.location.hostname === 'localhost'
+    || document.location.hostname === 'solid.github.io'
+    || document.location.hostname.substring(document.location.hostname.length - 10) === "vercel.app"
+    || document.location.hostname.substring(document.location.hostname.length - 11) === "netlify.app"
+  ) {
+    const draftWarningElement = document.getElementById('draft-warning')
+    draftWarningElement.innerHTML = `
+      <div class="message is-danger is-large" role="alert">
+        <div class="message-body">
+          You are currently viewing a draft version of the Solid website. If you are looking for reliable information, visit the live site at <a href="https://solidproject.org/this-week-in-solid/2019-08-01" title="The official Solid website">SolidProject.org</a>.
+        </div>
+      </div>
+    `;
+  }
+</script>
+
+
+    
+  <nav id="breadcrumb" class="breadcrumb">
+    <div class="container">
+      <ul>
+        <li>
+          <a href="/">
+            Home
+          </a>
+        </li>
+        
+        
+        
+        
+          <li>
+            <a href="/this-week-in-solid">
+              This Week in Solid
+            </a>
+          </li>
+        
+        
+          <li>
+            <a href="">
+              This Week in Solid 2019-08-01
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+
+    <main id="main">
+      <div class="container">
+  <div class="columns">
+    <div class="column is-two-thirds">
+      <article class="section content">
+        <h1 id="1st-august-2019">1st August 2019</h1>
+
+<p>Hello and welcome to another edition of This Month in Solid!</p>
+
+<p><a href="https://solidproject.org">Solid</a> is a set of open specifications, built on existing open standards, that describes how to build applications in such a way that users can conveniently switch between data storage providers and application providers and take the data generated along.</p>
+
+<p>This is a monthly summary of Solid progress.</p>
+
+<p>Want something mentioned? Contact the Solid Manager at info@solidproject.org. This Month in Solid is openly developed <a href="https://github.com/solid/solidproject.org/blob/main/_posts/newsletter/next.md">on GitHub</a>. If you find any errors in this month’s issue please <a href="https://github.com/solid/solidproject.org/pulls">submit a pull request</a>.</p>
+
+<h2 id="updates-from-the-solid-community">Updates from the Solid Community</h2>
+
+<p>In the W3C Solid Community Call there was a conversation about making sure all repositories in the Solid GitHub are active with clear descriptions of what they are for and who is working for and to archive inactive repositories. If you are working on Solid GitHub repositories please have a look at the <a href="https://github.com/solid/information/blob/master/repo-overview.md">repo overview</a> to make sure your work is correctly represented and that all the information is up to date.</p>
+
+<h3 id="news--blog-posts">News &amp; Blog Posts</h3>
+<p>Have you seen any articles about Solid this week? If you’ve seen any articles or written blog posts about Solid please do send them over for next week.</p>
+
+<ul>
+  <li><a href="https://csarven.ca/linked-research-decentralised-web">Linked Research on the Decentralised Web</a> - <a href="https://github.com/csarven">@csarven</a>’s thesis describing a Solid based scientific communication ecosystem.</li>
+  <li><a href="https://civilserviceworld.com/articles/opinion/opinion-think-britain-beats-world-digital-services-think-again-china-rules-digital">Opinion: Think Britain beats the world on digital services? Think again. China rules the digital waves - CSW</a></li>
+  <li><a href="https://www.theverge.com/2019/7/30/20746868/apple-data-transfer-project-google-microsoft-twitter">Apple joins Google, Facebook, and Twitter in data-sharing project - The Verge</a></li>
+</ul>
+
+<h3 id="culture-conversations">Culture Conversations</h3>
+
+<p>There are <a href="https://github.com/solid/process/pulls">several process proposals</a> to which you can suggest improvements.</p>
+
+<p>You can apply to roles by submitting a pull request to the .md file of the role you are applying to in the culture repository. You can view the open <a href="https://github.com/solid/process/pulls">applications to roles</a>.</p>
+
+<p>Once these have been approved it will be possible to carry through the <a href="https://github.com/solid/process#reviewing-proposals">editorial process</a>. For now panels are working on developing proposals for review which you are encouraged to join in with.</p>
+
+<h3 id="panel-conversation-to-generate-proposals">Panel Conversation to Generate Proposals</h3>
+<p>Solid Panels are groups of individuals focused on a specific problem or domain relevant to Solid, with an aim to propose changes to the Solid Specification, Solid Roadmap, and/or Supporting Documentation. Anyone may join a panel or suggest a new panel by <a href="https://github.com/solid/process/blob/master/panels.md">submitting a pull request</a>.</p>
+
+<p>This week the <a href="https://github.com/solid/process/blob/master/panels.md#privacy-and-individuals-rights-protection-panel">Privacy and Individuals Rights Protection Panel</a> was started.</p>
+
+<p>Here is an overview of active panel conversations this week.</p>
+
+<h4 id="panel-conversation-about-the-solid-specification">Panel Conversation about the <a href="https://github.com/solid/specification">Solid Specification</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Proposal</th>
+      <th>Panel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/solid/specification/issues/19#issuecomment-516140550">Proposal: Support COPY use case</a>, <a href="https://github.com/solid/specification/pull/13">Add CORS section</a>, <a href="https://github.com/solid/specification/issues/12">Write CORS section</a>, <a href="https://github.com/solid/specification/issues/7">Add that a pod server MAY be an Identity Provider</a>, <a href="https://github.com/solid/specification/issues/19">Proposal: Support COPY use case</a></td>
+      <td><a href="https://github.com/solid/process/blob/master/panels.md#specification-entry-document-panel">Specification Entry Document Panel</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/solid/specification/issues/21">Add security entries for all places where external content is fetched</a></td>
+      <td><a href="https://github.com/solid/process/blob/master/panels.md#cryptography-signing-and-encryption-panel">Cryptography (Signing and Encryption) Panel</a></td>
+    </tr>
+    <tr>
+      <td>- <a href="https://github.com/solid/solid-namespace/pull/8">PR to add the Common Core Ontology</a> and <a href="https://github.com/solid/solid-namespace/issues/12">Request to add the Common Core Ontology to the namespace</a> merged</td>
+      <td><a href="https://github.com/solid/process/blob/master/panels.md#data-interoperability">Data Interoperability</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/solid/solid-spec/pull/206#issuecomment-514736803">Remove SPARQL on GET</a>, <a href="https://github.com/solid/solid-spec/pull/207">Explain current document status</a>, <a href="https://github.com/solid/specification/issues/14">Discuss returning 404 for privacy reasons</a>, <a href="https://github.com/solid/webid-oidc-spec/pull/27#issuecomment-502040911">Various Documentation improvements</a>, <a href="https://github.com/solid/specification/issues/16">Discuss and align definitions of data pod, app, etc.</a>, <a href="https://github.com/solid/specification/issues/22">Add URI Normalization</a> , <a href="https://github.com/solid/specification/issues/20">Add time constraints to WAC rules</a>, <a href="https://github.com/solid/web-access-control-spec/issues/62#issuecomment-516407391">Clarify where new acl files should be created</a>, <a href="https://github.com/solid/solid-spec/issues/156#issuecomment-516141860">API methods for copy/move/rename</a></td>
+      <td>————-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="panel-conversation-about-the-solid-roadmap">Panel Conversation about the <a href="https://github.com/solid/roadmap">Solid Roadmap</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Proposal</th>
+      <th>Panel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/solid/roadmap/pulls">several proposals</a> were submitted and are still being worked on</td>
+      <td><a href="https://github.com/solid/process/blob/master/panels.md#explaining-the-vision-panel">Explaining the Vision Panel</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="panel-conversation-about-supporting-documentation">Panel Conversation about <a href="https://github.com/solid/information/tree/master/documentation">Supporting Documentation</a></h4>
+<p>There were no proposals for the supporting documentation this week.</p>
+
+<p>There was no activity in the following panels:</p>
+<ul>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#external-interop-and-outreach-panel">External Interop and Outreach Panel</a></li>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#solid-teaching-material-panel">Solid Teaching Material Panel</a></li>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#internationalisation-panel">Internationalisation Panel</a></li>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#accessibility-panel">Accessibility Panel</a></li>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#identity-panel">Identity Panel</a></li>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#authentication-panel">Authentication Panel</a></li>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#query-panel">Query Panel</a></li>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#app-authorization">App Authorization</a></li>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#test-suite-panel">Test Suite Panel</a></li>
+  <li><a href="https://github.com/solid/process/blob/master/panels.md#website-panel">Website Panel</a></li>
+</ul>
+
+<h3 id="panel-proposals-for-editorial-review">Panel Proposals for Editorial Review</h3>
+<p>Anyone may propose improvements by submitting proposals for the Solid Specification, Solid Roadmap, or Supporting Documentation. Submitted proposals are reviewed through an <a href="https://github.com/solid/process#reviewing-proposals">editorial process</a> before they are accepted.</p>
+
+<p>Below are a list of proposals that are ready for editorial review. If you are part of a panel and want to add a proposal for editorial review submit a pull request to add them to the list below.</p>
+
+<p>This week there are no proposals ready for editorial review.</p>
+
+<h3 id="reviewed-solid-proposals">Reviewed Solid Proposals</h3>
+<p>Candidate proposals to the Solid Specification, Solid Roadmap, or Supporting Documentation submitted for review go through an editorial process before they are accepted. You can read more about the details of the submission and review process of proposals <a href="https://github.com/solid/process#how-to-make-changes">here</a>. This week the roles are still being reviewed so the editorial process is on hold.</p>
+
+<h3 id="node-solid-server-project">Node Solid Server Project</h3>
+
+<ul>
+  <li><a href="https://github.com/solid/node-solid-server/issues/1279">Folder .acl permissions are not inherited</a></li>
+</ul>
+
+<h3 id="new-and-updated-apps-pods-and-identity-providers">New and Updated Apps, Pods, and Identity Providers</h3>
+<p>If you have any new <a href="https://github.com/solid/solid-apps">apps</a>, <a href="https://github.com/solid/pods">Pods</a>, or <a href="https://github.com/solid/solid-idp-list">identity providers</a> make sure to add them to the list so they get included in next weeks edition.</p>
+
+<p>This week there was a new app:</p>
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><a href="https://github.com/kezike/solid-vc">SolidVC</a> is a <a href="https://w3c.github.io/vc-data-model/">Verifiable Credentials</a> framework developed within the context of Solid</td>
+          <td><a href="https://github.com/kezike/solid-vc">Source Code</a></td>
+          <td><a href="https://github.com/kezike/solid-vc/blob/master/LICENSE">MIT License Copyright (c) 2018</a> <a href="https://github.com/kezike">Kayode Ezike</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p>There have also been updates to:</p>
+<ul>
+  <li><a href="https://github.com/JordanShurmer/vue-solid-plugin">vue-solid-plugin</a> allowing you to load data from the Type Registry extremely easily! See the README for all the details. Still a version 0 plugin, so things may be changing, but it’s usable for sure. <a href="http://npmjs.com/package/vue-solid-plugin"><img src="https://img.shields.io/npm/v/vue-solid-plugin.svg" alt="NPM Package" /></a></li>
+</ul>
+
+<h3 id="upcoming-events">Upcoming Events</h3>
+
+<p>Solid Events are run by members of the Solid community like you. Solid Event organisers write tips for a organising successful Solid events <a href="https://github.com/solid/information/blob/master/solid-events.md">here</a></p>
+
+<p>There are no upcoming events confirmed although there are possible event organisers in Solid Amsterdam and Solid San Francisco coming up.</p>
+
+<p>Until next week!</p>
+
+<p><a href="https://github.com/Mitzi-Laszlo">Mitzi László</a></p>
+
+
+      </article>
+
+      <div id="newsletter" class="section">
+  <form
+    action="https://solidproject.us7.list-manage.com/subscribe/post?u=269eddf5452208ca762cac18f&id=de1dd8e9e6"
+    method="post"
+    id="mc-embedded-subscribe-form"
+    name="mc-embedded-subscribe-form"
+    target="_blank"
+    novalidate
+    class="card"
+  >
+    <div class="card-body section">
+      <h2 class="title">
+        
+          <a href="/newsletter" title="View past editions of This Month in Solid">
+            This Month in Solid
+          </a>
+        
+      </h2>
+      <p class="content">
+        <label for="mce-EMAIL">
+          Leave your email address to get a bite-sized overview of everything Solid, delivered straight to your inbox once a month.
+        </label>
+      </p>
+      <div class="field">
+        <div class="control">
+          <input class="input is-large" type="email" name="EMAIL" placeholder="yourmail@example.com" id="mce-EMAIL"/>
+        </div>
+      </div>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_269eddf5452208ca762cac18f_de1dd8e9e6" tabindex="-1" value=""></div>
+      <div class="field">
+        <div class="control">
+          <input type="submit" class="button is-large" name="subscribe" id="mc-embedded-subscribe" value="Subscribe" />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+    </div>
+    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
+      <div class="menu is-large">
+        
+          
+            <p class="menu-label">2021</p>
+            <ul class="menu-list">
+                
+                  
+                    <li><a href="/newsletter/2021-10-14">This Month in Solid 2021-10-14</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2021-09-09">This Month in Solid 2021-09-09</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2021-08-12">This Month in Solid 2021-08-12</a></li>
+                  
+                
+                  
+                
+                  
+                    <li><a href="/newsletter/2021-07-08">This Month in Solid 2021-07-08</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2021-06-10">This Month in Solid 2021-06-10</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2021-05-06">This Month in Solid 2021-05-06</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2021-04-08">This Month in Solid 2021-04-08</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2021-03-11">This Month in Solid 2021-03-11</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2021-02-04">This Month in Solid 2021-02-04</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2021-01-07">This Month in Solid 2021-01-07</a></li>
+                  
+                
+            </ul>
+          
+            <p class="menu-label">2020</p>
+            <ul class="menu-list">
+                
+                  
+                    <li><a href="/newsletter/2020-12-03">This Month in Solid 2020-12-03</a></li>
+                  
+                
+                  
+                
+                  
+                    <li><a href="/newsletter/2020-11-05">This Month in Solid 2020-11-05</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2020-10-01">This Month in Solid 2020-10-01</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2020-09-03">This Month in Solid 2020-09-03</a></li>
+                  
+                
+                  
+                
+                  
+                    <li><a href="/newsletter/2020-08-06">This Month in Solid 2020-08-06</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2020-07-02">This Month in Solid 2020-07-02</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2020-06-04">This Month in Solid 2020-06-04</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2020-05-07">This Month in Solid 2020-05-07</a></li>
+                  
+                
+                  
+                    <li><a href="/newsletter/2020-04-09">This Month in Solid 2020-04-09</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2020-04-01">This Week in Solid 2020-04-01</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2020-03-26">This Week in Solid 2020-03-26</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2020-03-19">This Week in Solid 2020-03-19</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2020-03-12">This Week in Solid 2020-03-12</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2020-03-05">This Week in Solid 2020-03-05</a></li>
+                  
+                
+            </ul>
+          
+            <p class="menu-label">2019</p>
+            <ul class="menu-list">
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-12-18">This Week in Solid 2019-12-18</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-12-12">This Week in Solid 2019-12-12</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-12-05">This Week in Solid 2019-12-05</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-11-28">This Week in Solid 2019-11-28</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-11-21">This Week in Solid 2019-11-21</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-11-14">This Week in Solid 2019-11-14</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-11-07">This Week in Solid 2019-11-07</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-10-31">This Week in Solid 2019-10-31</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-10-24">This Week in Solid 2019-10-24</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-10-17">This Week in Solid 2019-10-17</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-10-10">This Week in Solid 2019-10-10</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-10-03">This Week in Solid 2019-10-03</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-09-26">This Week in Solid 2019-09-26</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-09-19">This Week in Solid 2019-09-19</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-09-12">This Week in Solid 2019-09-12</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-09-05">This Week in Solid 2019-09-05</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-08-29">This Week in Solid 2019-08-29</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-08-22">This Week in Solid 2019-08-22</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-08-15">This Week in Solid 2019-08-15</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-08-08">This Week in Solid 2019-08-08</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-08-01">This Week in Solid 2019-08-01</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-07-25">This Week in Solid 2019-07-25</a></li>
+                  
+                
+                  
+                    <li><a href="/this-week-in-solid/2019-07-18">This Week in Solid 2019-07-18</a></li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+            </ul>
+          
+      </div>
+    </aside>
+  </div>
+</div>
+
+    </main>
+    <footer id="footer" class="footer">
+  <div class="container">
+    <div class="columns">
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <a class="title is-size-5" href="/">Home</a>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/about">About Solid</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/users">Using Solid</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/users/get-a-pod">Get a Pod</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/apps">Solid Apps</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/team">Team</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/faqs">FAQs</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/terms">Terms of Use</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <span class="title is-size-5">What's New</span>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/newsletter">This Month in Solid</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/events">Solid Events</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/press">Press</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <a class="title is-size-5" href="/developers">Developers</a>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/developers/tutorials/getting-started">Getting Started</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="https://forum.solidproject.org">Forum</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <span class="title is-size-5">More</span>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/specification">Specification</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/license">License</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/logo-usage-guidelines">Logo usage guidelines</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="https://github.com/solid/solidproject.org/issues/new">Website feedback</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+    </div>
+  </div>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img
+          src="/assets/img/solid-emblem.svg"
+          alt="[Solid logo]"
+        />
+      </a>
+      <a class="navbar-item is-hidden-mobile" href="mailto:info@solidproject.org">
+        info@solidproject.org
+      </a>
+      <a class="navbar-item is-size-3-mobile is-hidden-tablet" href="mailto:info@solidproject.org" aria-label="info@solidproject.org">
+        @
+      </a>      
+      <a class="navbar-item" href="https://github.com/solid/" title="Solid on GitHub">
+        <span class="image is-24x24">
+          <img
+            src="/assets/img/fontawesome-free-5.11.2-web/svgs/brands/github.svg"
+            alt="GitHub"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+      <a class="navbar-item" href="https://twitter.com/project_solid" title="Solid on Twitter">
+        <span class="image is-24x24">
+          <img
+            src="/assets/img/fontawesome-free-5.11.2-web/svgs/brands/twitter.svg"
+            alt="Twitter"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+      <a class="navbar-item" href="https://vimeo.com/solidworld" title="Solid on Vimeo">
+        <span class="image is-24x24">
+          <img
+            src="/assets/img/fontawesome-free-5.11.2-web/svgs/brands/vimeo-v.svg"
+            alt="Vimeo"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+    </div>
+  </nav>
+</footer>
+
+  </body>
+
+
+</html>

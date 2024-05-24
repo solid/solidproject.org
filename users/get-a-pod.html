@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Get a Pod · Solid</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/favicon.ico?"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head>
+
+  <body>
+    <header id="header-navbar" class="navbar">
+  <a class="navbar-brand navbar-item navbar-link is-arrowless" href="/">
+    <img
+      src="/assets/img/solid-emblem.svg"
+      alt=""
+    />
+    <span class="is-uppercase is-size-4">Solid</span>
+  </a>
+
+  <nav class="navbar-menu is-hidden-mobile">
+    <ul class="navbar-end">
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <a
+              class="navbar-link is-size-6 is-size-5-tablet is-arrowless"
+              href="/about"
+            >About Solid</a>
+          
+        </li>
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >Developers</button>
+            <ul class="navbar-dropdown">
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/developers/tutorials/getting-started"
+                  >Getting Started</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/developers/tools"
+                  >Solid Tools and Libraries</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/apps"
+                  >Solid Apps</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >Users</button>
+            <ul class="navbar-dropdown">
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/users/get-a-pod"
+                  >Getting a Pod</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/apps"
+                  >Solid Apps</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >Community</button>
+            <ul class="navbar-dropdown">
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/newsletter"
+                  >Newsletter</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/events"
+                  >Events</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="https://forum.solidproject.org/"
+                  >Solid Forum</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="https://matrix.to/#/#solid_project:matrix.org"
+                  >Chat</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/press"
+                  >Press</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="https://github.com/solid/process/blob/main/code-of-conduct.md"
+                  >Code of Conduct</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+
+
+    <div id="draft-warning"></div>
+<script>
+  if (
+    document.location.hostname === 'localhost'
+    || document.location.hostname === 'solid.github.io'
+    || document.location.hostname.substring(document.location.hostname.length - 10) === "vercel.app"
+    || document.location.hostname.substring(document.location.hostname.length - 11) === "netlify.app"
+  ) {
+    const draftWarningElement = document.getElementById('draft-warning')
+    draftWarningElement.innerHTML = `
+      <div class="message is-danger is-large" role="alert">
+        <div class="message-body">
+          You are currently viewing a draft version of the Solid website. If you are looking for reliable information, visit the live site at <a href="https://solidproject.org/users/get-a-pod" title="The official Solid website">SolidProject.org</a>.
+        </div>
+      </div>
+    `;
+  }
+</script>
+
+
+    
+  <nav id="breadcrumb" class="breadcrumb">
+    <div class="container">
+      <ul>
+        <li>
+          <a href="/">
+            Home
+          </a>
+        </li>
+        
+          <li>
+            <a href="/users/">
+              Using Solid
+            </a>
+          </li>
+        
+        
+        
+        
+        
+          <li>
+            <a href="">
+              Get a Pod
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+
+    <main id="main">
+      <div class="container">
+  <div class="columns">
+    <div class="column is-two-thirds">
+      <article class="section content">
+        <h1 id="get-a-pod">Get a Pod</h1>
+
+<p>Pods are where you store your data. Any kind of data can be stored in a Solid Pod. Once stored in a Pod, you control who can access your data.</p>
+
+<p><img class="illustration" src="/assets/img/single-sign-on.svg" alt="image of data stored in safe" /></p>
+
+<p>You can get a Pod from a Pod Provider, or you may choose to self-host your Pod.</p>
+
+<h2 id="get-a-pod-from-a-pod-provider">Get a Pod from a Pod Provider</h2>
+
+<p>When choosing a Pod Provider, some questions you may want to consider are:</p>
+
+<ul>
+  <li>
+    <p><strong>Who is involved?</strong> The legal identity of the provider will be an important factor in how your data is handled. For example, some providers may engage with third parties to host the data. Mapping out clearly who is involved in what element of the provision is an important step in picking your Pod Provider.</p>
+  </li>
+  <li>
+    <p><strong>Where are all the involved parties located, and where is the data physically stored?</strong> The geographical location of the legal entities involved and the physical location of the hosting is an important factor in determining which law govern the provider responsibilities. Depending on your nationality and degree of trust in various laws, you may prefer specific geographical locations.</p>
+  </li>
+  <li>
+    <p><strong>What are the terms?</strong> Reading the Provider’s Terms is a good way to understand the implications of picking that provider.</p>
+  </li>
+</ul>
+
+<div class="message is-info">
+  <p class="message-body">
+     With Solid, <strong>you won't be tied to the provider you choose now</strong>. That is, you have the ability to <strong>move your data elsewhere</strong> if you want.
+  </p>
+</div>
+
+<p>The following table lists some Pod Provider:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Provider</th>
+      <th>Responsible for Domain Name and Terms</th>
+      <th>Responsible for Hosting</th>
+      <th>Hosting Location</th>
+      <th>Solid Implementation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://start.inrupt.com/">Inrupt Pod Spaces</a></td>
+      <td><a href="https://inrupt.com/terms-of-service">Inrupt, Inc.</a></td>
+      <td><a href="https://aws.amazon.com">Amazon</a></td>
+      <td>Germany</td>
+      <td><a href="https://inrupt.com/products/enterprise-solid-server/">ESS</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://solidcommunity.net/">solidcommunity.net</a></td>
+      <td><a href="https://github.com/solid/solidcommunity.net_operations">Solid Project</a></td>
+      <td><a href="https://www.digitalocean.com">Digital Ocean</a></td>
+      <td>UK</td>
+      <td><a href="https://github.com/solid/node-solid-server">NSS</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://solidweb.org">solidweb.org</a></td>
+      <td><a href="https://gitlab.com/groups/solidweb.org/-/group_members">Solid Grassroots</a></td>
+      <td><a href="https://www.hosteurope.de">Hosteurope</a></td>
+      <td>France</td>
+      <td><a href="https://github.com/solid/node-solid-server">NSS</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://trinpod.us">trinpod.us</a></td>
+      <td><a href="https://graphmetrix.com/terms">Graphmetrix, Inc.</a></td>
+      <td><a href="https://aws.amazon.com">Amazon</a></td>
+      <td>USA</td>
+      <td><a href="https://graphmetrix.com/construction/trinpod">TrinPod</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://get.use.id/">use.id</a></td>
+      <td><a href="https://www.digita.ai/">Digita</a></td>
+      <td><a href="https://digitalocean.com/">DigitalOcean</a></td>
+      <td>EU</td>
+      <td><a href="https://github.com/CommunitySolidServer/CommunitySolidServer">CSS</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://solidweb.me/">solidweb.me</a></td>
+      <td><a href="https://github.com/serverproject-dev">Meisdata</a></td>
+      <td><a href="https://www.hosteurope.de">Hosteurope</a></td>
+      <td>France</td>
+      <td><a href="https://github.com/CommunitySolidServer/CommunitySolidServer">CSS</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://datapod.igrant.io/">Data Pod</a></td>
+      <td><a href="https://igrant.io/">iGrant.io, Sweden</a></td>
+      <td><a href="https://www.redpill-linpro.com/en">RedPill Linpro</a>, <a href="https://aws.amazon.com/">AWS</a>, <a href="https://cloud.google.com/">GCP</a> or <a href="https://azure.microsoft.com/en-in">Azure</a></td>
+      <td>EU</td>
+      <td><a href="https://github.com/solid/node-solid-server">NSS</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://solid.redpencil.io/">redpencil.io</a></td>
+      <td><a href="https://redpencil.io/">redpencil.io</a></td>
+      <td><a href="https://www.hetzner.com/">Hetzner</a></td>
+      <td>Finland</td>
+      <td><a href="https://github.com/CommunitySolidServer/CommunitySolidServer">CSS</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://teamid.live/">teamid.live</a></td>
+      <td><a href="https://github.com/serverproject-dev">Meisdata</a></td>
+      <td><a href="https://www.hosteurope.de">Hosteurope</a></td>
+      <td>France</td>
+      <td><a href="https://github.com/CommunitySolidServer/CommunitySolidServer">CSS</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If you are a provider who wants to add your service to this list, please create a pull request to update <a href="https://github.com/solid/solidproject.org/blob/main/pages/use-solid.md">this file</a>.</p>
+
+<h2 id="self-host-your-pod">Self-host Your Pod</h2>
+
+<p>Self-hosting your own Pod (i.e., running your own <a href="/for-developers/pod-server">Pod Server</a>) provides the most control of your data. This way, you don’t have to entrust any third party with your data.</p>
+
+<p>Self-hosting requires some technical overhead and may not be suitable for everyone yet. In the future, we would like to make self-hosting a more user-friendly option. The great thing about Solid is the flexibility it offers: you can choose to get a Pod from a provider now, and <strong>move to self-hosting later</strong>.</p>
+
+<h1 id="next-steps">Next Steps</h1>
+
+<p>When you get a Pod, you are also issued a unique WebID. Your WebID acts as your identity in the Solid ecosystem. For example, to share a picture in your Pod with someone, you would indicate the person by that person’s WebID.</p>
+
+<p>Once you have your Pod and WebID, you can check out some <a href="/apps">applications developed by the community</a> to start storing data in your Pod.
+You can even <a href="/developers/tutorials/getting-started">develop your first application</a>.</p>
+
+      </article>
+    </div>
+    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
+      <div class="menu is-large">
+        <ul class="menu-list">
+  <li><a href="#get-a-pod">Get a Pod</a>
+    <ul>
+      <li><a href="#get-a-pod-from-a-pod-provider">Get a Pod from a Pod Provider</a></li>
+      <li><a href="#self-host-your-pod">Self-host Your Pod</a></li>
+    </ul>
+  </li>
+  <li><a href="#next-steps">Next Steps</a></li>
+</ul>
+      </div>
+    </aside>
+  </div>
+</div>
+
+    </main>
+    <footer id="footer" class="footer">
+  <div class="container">
+    <div class="columns">
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <a class="title is-size-5" href="/">Home</a>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/about">About Solid</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/users">Using Solid</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/users/get-a-pod">Get a Pod</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/apps">Solid Apps</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/team">Team</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/faqs">FAQs</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/terms">Terms of Use</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <span class="title is-size-5">What's New</span>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/newsletter">This Month in Solid</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/events">Solid Events</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/press">Press</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <a class="title is-size-5" href="/developers">Developers</a>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/developers/tutorials/getting-started">Getting Started</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="https://forum.solidproject.org">Forum</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <span class="title is-size-5">More</span>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/specification">Specification</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/license">License</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/logo-usage-guidelines">Logo usage guidelines</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="https://github.com/solid/solidproject.org/issues/new">Website feedback</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+    </div>
+  </div>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img
+          src="/assets/img/solid-emblem.svg"
+          alt="[Solid logo]"
+        />
+      </a>
+      <a class="navbar-item is-hidden-mobile" href="mailto:info@solidproject.org">
+        info@solidproject.org
+      </a>
+      <a class="navbar-item is-size-3-mobile is-hidden-tablet" href="mailto:info@solidproject.org" aria-label="info@solidproject.org">
+        @
+      </a>      
+      <a class="navbar-item" href="https://github.com/solid/" title="Solid on GitHub">
+        <span class="image is-24x24">
+          <img
+            src="/assets/img/fontawesome-free-5.11.2-web/svgs/brands/github.svg"
+            alt="GitHub"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+      <a class="navbar-item" href="https://twitter.com/project_solid" title="Solid on Twitter">
+        <span class="image is-24x24">
+          <img
+            src="/assets/img/fontawesome-free-5.11.2-web/svgs/brands/twitter.svg"
+            alt="Twitter"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+      <a class="navbar-item" href="https://vimeo.com/solidworld" title="Solid on Vimeo">
+        <span class="image is-24x24">
+          <img
+            src="/assets/img/fontawesome-free-5.11.2-web/svgs/brands/vimeo-v.svg"
+            alt="Vimeo"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+    </div>
+  </nav>
+</footer>
+
+  </body>
+
+
+</html>
