@@ -16,11 +16,15 @@
 title: Solid
 email: info@solidproject.org
 url: 'https://solidproject.org/'
+<<<<<<< HEAD
 twitter_username: project_solid
+=======
+>>>>>>> e1cf25a (Stab at https://github.com/solid/solidproject.org/issues/894#issuecomment-2144677278)
 github_username: solid
 repository: solid/solidproject.org
 include: 
   - _redirects
+<<<<<<< HEAD
 
 # Build settings
 markdown: kramdown
@@ -50,3 +54,5 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
+=======
+>>>>>>> e1cf25a (Stab at https://github.com/solid/solidproject.org/issues/894#issuecomment-2144677278)
