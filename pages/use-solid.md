@@ -48,8 +48,8 @@ The following table lists some Pod Provider:
 | [redpencil.io](https://solid.redpencil.io/)                 | [redpencil.io](https://redpencil.io/)                             | [Hetzner](https://www.hetzner.com/)           | Finland              | [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer)        |
 | [teamid.live](https://teamid.live/)                | [Meisdata](https://github.com/serverproject-dev)                           | [Hosteurope](https://www.hosteurope.de)       | France              | [CSS](https://github.com/CommunitySolidServer/CommunitySolidServer)        |
 | [Open University UK](https://solid.open.ac.uk/  )  | [Open University UK](https://solid.open.ac.uk/local/pages/termsofuse.html) | [Jisc Services](https://www.jisc.ac.uk/)      | UK              | [NSS](https://github.com/solid/node-solid-server)           |
-| [OpenLink Software(1)](https://solid.openlinksw.com:8444/) | [OpenLink Software](https://www.openlinksw.com/)                   | [Amazon](https://aws.amazon.com)              | USA              | [NSS fork](https://github.com/OpenLinkSoftware/node-solid-server)  |
-| [OpenLink Software(2)](https://solid.openlinksw.com:8445/) | [OpenLink Software](https://www.openlinksw.com/)                   | [Amazon](https://aws.amazon.com)              | USA              | [NSS fork](https://github.com/OpenLinkSoftware/node-solid-server)  |
+| [OpenLink Software (1)](https://solid.openlinksw.com:8444/) | [OpenLink Software](https://www.openlinksw.com/)                   | [Amazon](https://aws.amazon.com)              | USA              | [NSS fork](https://github.com/OpenLinkSoftware/node-solid-server)  |
+| [OpenLink Software (2)](https://solid.openlinksw.com:8445/) | [OpenLink Software](https://www.openlinksw.com/)                   | [Amazon](https://aws.amazon.com)              | USA              | [NSS fork](https://github.com/OpenLinkSoftware/node-solid-server)  |
 
 If you are a provider who wants to add your service to this list, please create a pull request to update [this file](https://github.com/solid/solidproject.org/blob/main/pages/use-solid.md).
 
