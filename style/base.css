@@ -128,6 +128,8 @@ footer>div>dl>dd>ul li img {
 
 #about main>article>h1,
 #about main>article>div>p,
+#solid-protocol-history main>article>h1,
+#solid-protocol-history main>article>div>p,
 #for-organizations main>article>h1,
 #for-organizations main>article>p,
 #events>h2,
@@ -140,12 +142,14 @@ footer>div>dl>dd>ul li img {
 }
 
 #about main>article,
+#solid-protocol-history main>article,
 #for-organizations main>article,
 #community {
     color: #fff;
 }
 
 #about main>article>div>section,
+#solid-protocol-history main>article>div>section,
 #hosted-pod-services,
 #solid-organizations {
     color: #000;
@@ -373,6 +377,7 @@ footer>div>dl>dd>ul li img {
     }
 
     #about main,
+    #solid-protocol-history main,
     #for-developers main,
     #for-organizations main {
         padding: 0;
@@ -380,6 +385,8 @@ footer>div>dl>dd>ul li img {
 
     #about main>article>h1,
     #about main>article>div>p,
+    #solid-protocol-history main>article>h1,
+    #solid-protocol-history main>article>div>p,
     #for-organizations main>article>h1,
     #for-organizations main>article>p {
         padding: 0 6rem;
@@ -404,12 +411,14 @@ footer>div>dl>dd>ul li img {
     }
 
     #about main>article,
+    #solid-protocol-history main>article,
     #for-organizations main>article,
     #community {
         align-items: flex-start;
     }
 
     #about main>article>div>section,
+    #solid-protocol-history main>article>div>section,
     #hosted-pod-services,
     #solid-organizations {
         padding: 2rem 6rem;
@@ -419,7 +428,8 @@ footer>div>dl>dd>ul li img {
         display: block;
     }
 
-    #about main>article img {
+    #about main>article img,
+    #solid-protocol-history main>article img {
         width: 300px;
         float: right;
     }

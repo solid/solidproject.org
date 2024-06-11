@@ -2,20 +2,21 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>About - Solid</title>
+    <title>Solid Protocol History - Solid</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="style/base.css" />
   </head>
 
-  <body about="" id="about" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/">
+  <body about="" id="solid-protocol-history" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/ cito: http://purl.org/spar/cito/">
     <header>
-      <address about="#i" id="i" typeof="foaf:Project doap:Project">
-        <a href="/" rel="doap:homepage"><img alt="Solid logo" rel="foaf:img" src="/image/logo.svg" width="50" /> <span property="doap:name">Solid</span></a>
+      <address>
+        <a href="/"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
       </address>
 
       <nav>
         <ul>
           <li><a href="/about.html">About Solid</a></li>
+          <li><a href="/for-users.html">For Users</a></li>
           <li><a href="/for-developers.html">For Developers</a></li>
           <li><a href="/for-organizations.html">For Organizations</a></li>
           <li><a href="/community.html">Community</a></li>
@@ -26,150 +27,122 @@
     <main>
       <article about="" typeof="schema:Article">
         <h1 property="schema:name">A Short History of the Solid Protocol</h1>
-        <!-- copied from https://www.w3.org/DesignIssues/history/AShortHistoryoftheSolidProtocol.html -->
-        <div class="cols">
-          <h2>Research at MIT et al.</h2>
-          <p>The Solid project came out of research at MIT into a
-          powerful web of data</p>
-          <p>In 2000, MIT <a href="https://www.csail.mit.edu/">CSAIL</a>
-          Decentralised Infomation Group (<a href=
-          "https://groups.csail.mit.edu/dig/">DIG</a>) got funding from
-          DARPA to work on Semantic Web, which produced RDF-based
-          systems, and N3 rules. The python codebase for that work is now
-          at <a class="c8" href=
-          "https://www.google.com/url?q=https://github.com/linkeddata/swap&amp;sa=D&amp;source=editors&amp;ust=1707316247988683&amp;usg=AOvVaw1hTtIuun8mL1M0-PBpvrCk">
-          https://github.com/linkeddata/swap</a></p>
-          <p>From 1999 when the browsers developed the ability to do
-          “<a class="c8" href=
-          "https://www.google.com/url?q=https://en.wikipedia.org/wiki/Ajax_(programming)&amp;sa=D&amp;source=editors&amp;ust=1707316247989069&amp;usg=AOvVaw21nBbfS-yxsCAhd2JARxP5">AJAX</a>”,
-           to call back from the web page client to the server using
-          what was XMLRPCRequest and became fetch(), then it was possible
-          to build systems with the App in the client, with calls back to
-          the server for data storage.</p>
-          <p>The project in the lab responded to that possibility with
-          the “Tabulator” - a JS client which would allow the user to
-          explore linked data on the web.</p>
-          
-          <p>2006: Berners-Lee, T., Chen, Y., Chilton, L., Connolly, D.,
-          Dhanaraj, R., Hollenbach, J., Lerer, A. and Sheets, D., 2006,
-          November. Tabulator: Exploring and analyzing linked data on the
-          semantic web. In Proceedings of the 3rd international semantic
-          web user interaction workshop (Vol. 2006, p. 159)</p>
-          
-          <p>2007: Berners-Lee, T., Hollenbach, J., Lu, K., Presbrey, J. and
-            Pru d'hommeaux, E., 2007. Tabulator redux: Writing into the
-            semantic web</p>
-        
-          <p>2009: Tim BL gave a TED Talk about the importance of the
-          web of data, not just documents, open data on the web. He also
-          talks about the web and Linked Data at the Web Summit that
-          year.</p>
-          <p>2009: An important aspect of the project was that it attempts to
-          make a class="c11"&gt;read-write web of data.  
-          Anything the user could read and had permission to write could
-          also be written. The “Read-Write Web” was a mantra. The August
-          2009 Design Issues notes ”<a class="c8" href=
-          "https://www.google.com/url?q=https://www.w3.org/DesignIssues/ReadWriteLinkedData.html&amp;sa=D&amp;source=editors&amp;ust=1707316247989663&amp;usg=AOvVaw1-YMRFj9lrr2n12weBEuVw">Read-Write
-          Linked Data</a>” and  “<a class="c8" href=
-          "https://www.google.com/url?q=https://www.w3.org/DesignIssues/CloudStorage.html&amp;sa=D&amp;source=editors&amp;ust=1707316247989829&amp;usg=AOvVaw3zvNG-ryPSRmj0hfaGgxbL">Socially
-          Aware Cloud Storage”</a> emphasized the need for a
-          read-write web of linked data as a response to the data silos
-          of current social network sites.</p>
-      
-          <p>2009? an ISWC paper, Hollenbahch, J, et al, MIT, “<a class="c8" href=
-            "https://www.google.com/url?q=https://www.readkong.com/page/using-rdf-metadata-to-enable-access-control-on-the-social-1648893&amp;sa=D&amp;source=editors&amp;ust=1707316247990322&amp;usg=AOvVaw18Y-OD0BbOyv6Q6S76PwDn">Using
-            rdf metadata to enable access control on the social semantic
-            web</a>”</p>
-        
-          <p>2011: There was a <a href=
-          "https://www.w3.org/community/rww/">Read-Write Web Cmmunity
-          Group</a>, started in 2011, most of its activity in 2012, which
-          discussed the RWW up till around 2017</p>
-          <p>in 2012, at ISWC, for example, Tim gave a <a href=
-          "https://videolectures.net/iswc2012_berners_lee_semantic_web/?t=70">
-          talk</a> about the worlkd od RWLD and the need for
-          standardising the protocol</p>
-          <p>But once users could write as well as read, access control
-          was important.  The W3C’s own site had per-item RDF-based
-          access control with a UI. The tabulator project more or less
-          copied that system, but this time storing access control
-          information in RDF files rather than an access database.</p>
-      
-          <h2>The name Solid</h2>
-      
-          <p>Later work on the Read-writeLinked Data theme was in
-          collaboration between MIT and QCRI, with funding from QCRI.
-           That is when Sandro Hawke thought of the name “Solid” for
-          “Social Linked Data” as a name for the platform - the interface
-          spec between client and server - the protocol.</p>
-      
-          <p>2016: Mansour, E., Sambra, A.V., Hawke, S., Zereba, M., Capadisli,
-          S., Ghanem, A., Aboulnaga, A. and Berners-Lee, T., 2016, April.
-          A demonstration of the solid platform for social web
-          applications. In Proceedings of the 25th international
-          conference companion on world wide web (pp. 223-226) (<a class=
-          "c8" href=
-          "https://www.google.com/url?q=https://dl.acm.org/doi/pdf/10.1145/2872518.2890529?casa_token%3Dmz6Y8Ccd310AAAAA:DlMx7_ilup7Krgahr1oK6wep2F2e5bu7D7cUXYf1x3zwPmQZLo-K2hpLAIP-tEDDhWaeQvOdBq980vo&amp;sa=D&amp;source=editors&amp;ust=1707316247990769&amp;usg=AOvVaw3eeaCWZEV4e3Nn1G_T3i4I">here</a>)</p>
-          <p>2015: As the platform was becoming something which it would be
-          important to standardize and spread, and as for such a broad
-          platform, some customers would need to be able to call on
-          commercial products and services, there was thought of making a
-          company – a bit as Netscape had for the early Web - provide
-          commercial solutions.</p>
-          <p>In 2015, The team approached Mastercard Labs to see whether
-          they would consider funding such a company. After much
-          technical due diligence, the MC Labs team felt that the
-          platform itself needed more work in the lab.  The specs
-          and the open source code needed to be more elaborate.
-           They did then fund the next two years of work in the
-          lab.</p>
-          <h2>Forming Inrupt.com</h2>
-          <p>In 2017, we looked again at forming a company.  Now the
-          time was ripe, with support from local VC Glasswing, and
-          others. The company was Inrupt.</p>
-          <p>Inrupt created its own enterprise grade Solid Protocol
-          compatible products,  and also funded work at IMEC at
-          Ghent University on open source code.</p>
-          <p>The Solid organization holding the specs was a Github
-          organization, and so much of the interaction used github
-          processes and also Gitter chat.  Gitter chat existed
-          around any github org or repo. (Gitter chat later moved to Matrix protcol, now
-          in use in 2023).  The Solid community had also a 
-          <a href="https://solidproject.org/">web site</a>
-          and a  <a href="https://forum.solidproject.org/">forum</a>,
-           and series of meetups “Solid World” which went
-          online with Covid.</p>
-      
-          <p>2018: In October  2018,  Melvin Carvalho proposed the
-          W3C Solid Community group.  Code contributors were asked
-          to join the CG for the limited IP commitment it would give.
-            A future possible W3C Working group would give much
-          better Royalty Free guarantees, than the CG.</p>
-          <p>Release dates of the protocol:</p>
-          <p>2021-12-17 - Version 0.9.0 of the Solid Procol spec
-          released</p>
-          <p>2022-12-31- Version 0.10.0 of the Solid Procol spec
-          released</p>
-          <p>Presentations and press about the Solid movement since 2018
-          have included:</p>
-          <p class="c2 c4"> 2018, October, <a class="c8" href=
-          "https://www.google.com/url?q=https://www.youtube.com/watch?v%3DelfSzMATcB4&amp;sa=D&amp;source=editors&amp;ust=1707316247991887&amp;usg=AOvVaw0U4FvT6O9u1QqTdIYKziQM">
-          MozFest</a> </p>
-          <p class="c2 c4">2021 dWeb Camp</p>
-          <p class="c2 c4"> 2022 Web Summit.</p>
-          <p class="c2 c4 c3"></p>
-          <p>2023 dWeb Camp, California</p>
-          <p class="c2 c4">2023 July WeAreDevelopers, Berlin</p>
-          <p class="c2 c4 c3"></p>
-          <p>Early Press included:</p>
-          <p class="c2 c4">2018/7 Katrina Brooker, Vanity Fair, ““I Was
-          Devastated”: Tim Berners-Lee, the Man Who Created the World
-          Wide Web, Has Some Regrets”</p>
-          <p>On 27 July 2022, Tim met physically with the W3C TAG to
-          discuss Solid, during the day and the dinner after.</p>
-          <address>
-            Tim Berners-Lee, 2023
-          </address>
+        <details>
+          <summary>More details about this document.</summary>
+          <dl id="document-modified">
+            <dt>Modified</dt>
+            <dd><time content="2024-05-11T13:23:52.883Z" datatype="xsd:dateTime" datetime="2024-05-11T13:23:52.883Z" property="schema:dateModified">2024-05-11</time></dd>
+          </dl>
+
+          <dl id="document-derived-from">
+            <dt>Derived From</dt>
+            <dd><a href="https://www.w3.org/DesignIssues/history/AShortHistoryoftheSolidProtocol" rel="prov:wasDerivedFrom">https://www.w3.org/DesignIssues/history/AShortHistoryoftheSolidProtocol</a></dd>
+          </dl>
+
+          <dl id="document-derived-on">
+            <dt>Derived On</dt>
+            <dd><time content="2024-02-10T13:53:09.028Z" datatype="xsd:dateTime" datetime="2024-02-10T13:53:09.028Z" property="prov:generatedAtTime">2024-02-10</time></dd>
+          </dl>
+
+          <dl id="document-authors">
+            <dt>Authors</dt>
+            <dd><span about="" rel="schema:author"><span about="https://www.w3.org/People/Berners-Lee/card#i" typeof="schema:Person"><img alt="" height="32" rel="schema:image" src="https://www.w3.org/Press/Stock/Berners-Lee/2001-europaeum-eighth.jpg" width="32" /> <a href="https://www.w3.org/People/Berners-Lee/card#i" rel="schema:url">Timothy Berners-Lee</a></span></span> </dd>
+          </dl>
+
+          <dl id="document-language">
+            <dt>Language</dt>
+            <dd><span content="en" lang="" property="dcterms:language" xml:lang="">English</span></dd>
+          </dl>
+
+          <dl id="document-license">
+            <dt>License</dt>
+            <dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution 4.0 International">CC BY 4.0</a></dd>
+          </dl>
+
+          <dl id="document-type">
+            <dt>Document Type</dt>
+            <dd><a href="http://schema.org/Article" rel="rdf:type">Article</a></dd>
+          </dl>
+        </details>
+
+        <div datatype="rdf:HTML" id="content" property="schema:description">
+          <section id="research-at-mit" inlist="" rel="schema:hasPart" resource="#research-at-mit">
+            <h2 property="schema:name">Research at MIT et al.</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The Solid project came out of <a href="https://solid.mit.edu/" rel="cito:givesBackgroundTo">research at MIT</a> into a powerful web of data.</p>
+
+              <p>In 2000, MIT <a href="https://www.csail.mit.edu/" rel="cito:discusses">CSAIL</a> <a href="https://groups.csail.mit.edu/dig/" rel="cito:discusses">Decentralized Information Group</a> (<abbr title="Decentralized Information Group">DIG</abbr>) got funding from <a href="https://www.darpa.mil/" rel="cito:discusses">DARPA</a> to work on Semantic Web, which produced RDF-based systems, and N3 rules. The python codebase for that work is now at <a href="https://github.com/linkeddata/swap" rel="cito:discusses">https://github.com/linkeddata/swap</a></p>
+
+              <p>From 1999 when the browsers developed the ability to do <a href="https://en.wikipedia.org/wiki/Ajax_(programming)" rel="cito:discusses">AJAX</a>, to call back from the web page client to the server using what was XMLRPCRequest and became <code>fetch()</code>, then it was possible to build systems with the App in the client, with calls back to the server for data storage.</p>
+
+              <p>The project in the lab responded to that possibility with the <cite>Tabulator</cite> - a JS client which would allow the user to explore linked data on the web.</p>
+
+              <p>2006: Berners-Lee, T., Chen, Y., Chilton, L., Connolly, D., Dhanaraj, R., Hollenbach, J., Lerer, A. and Sheets, D., 2006, November. <cite><a href="https://www.cs.columbia.edu/~chilton/web/my_publications/BernersLeeTabulator2006.pdf" rel="cito:citesForInformation">Tabulator: Exploring and Analyzing linked data on the Semantic Web</a></cite>. In Proceedings of the 3rd international semantic web user interaction workshop (Vol. 2006, p. 159)</p>
+
+              <p>2007: Berners-Lee, T., Hollenbach, J., Lu, K., Presbrey, J. and Pru d'hommeaux, E., 2007. <cite><a href="http://dig.csail.mit.edu/2007/Papers/Tabulator-WWW2007/tabulator-www08-tim.pdf" rel="cito:citesForInformation">Tabulator redux: Writing into the semantic web</a></cite></p>
+
+              <p>2009: <abbr title="Tim Berners-Lee">TimBL</abbr> gave a <cite><a href="https://www.ted.com/talks/tim_berners_lee_the_next_web" rel="cito:discusses">TED Talk about the importance of the web of data</a></cite>, not just documents, open data on the web. He also talks about the web and Linked Data at the Web Summit that year.</p>
+
+              <p>2009: An important aspect of the project was that it attempts to make a read-write web of data. Anything the user could read and had permission to write could also be written. The “Read-Write Web” was a mantra. The August 2009 Design Issues notes ”<a href="https://www.w3.org/DesignIssues/ReadWriteLinkedData" rel="cito:citesForInformation">Read-Write Linked Data</a>” and  “<a href="https://www.w3.org/DesignIssues/CloudStorage" rel="cito:citesForInformation">Socially Aware Cloud Storage”</a> emphasized the need for a read-write web of linked data as a response to the data silos of current social network sites.</p>
+
+              <p>2009? an ISWC paper, Hollenbach, J, et al, MIT, <cite><a href="http://dig.csail.mit.edu/2009/Papers/ISWC/rdf-access-control/paper.pdf" rel="cito:citesForInformation">Using RDF Metadata To Enable Access Control on the Social Semantic Web</a></cite></p>
+
+              <p>2011: There was a <a href="https://www.w3.org/groups/cg/rww/" rel="cito:discusses">Read-Write Web Community Group</a>, started in 2011, most of its activity in 2012, which discussed the <abbr title="Read-Write Web">RWW</abbr> up till around 2017</p>
+
+              <p>in 2012, at ISWC, for example, Tim gave a <a href="https://videolectures.net/iswc2012_berners_lee_semantic_web/" rel="cito:discusses">talk about the world of read-write linked data and the need for standardising the protocol</a>.</p>
+
+              <p>But once users could write as well as read, access control was important. The W3C’s own site had per-item RDF-based access control with a UI. The tabulator project more or less copied that system, but this time storing access control information in RDF files rather than an access database.</p>
+            </div>
+          </section>
+
+          <section id="the-name-solid" inlist="" rel="schema:hasPart" resource="#the-name-solid">
+            <h2 property="schema:name">The name Solid</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>Later work on the Read-writeLinked Data theme was in collaboration between MIT and QCRI, with funding from QCRI. That is when Sandro Hawke thought of the name “Solid” for “Social Linked Data” as a name for the platform - the interface spec between client and server - the protocol.</p>
+
+              <p>2016: Mansour, E., Sambra, A.V., Hawke, S., Zereba, M., Capadisli, S., Ghanem, A., Aboulnaga, A. and Berners-Lee, T., 2016, April. <cite><a href="http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf" data-versiondate="20180821T10:09:27Z" data-versionurl="https://web.archive.org/web/20180821100927/http://gdac.uqam.ca/WWW2016-Proceedings/companion/p223.pdf">A Demonstration of the Solid Platform for Social Web Applications</a></cite> in Proceedings of the 25th international conference companion on world wide web (pp. 223-226)</p>
+
+              <p>2015: As the platform was becoming something which it would be important to standardize and spread, and as for such a broad platform, some customers would need to be able to call on commercial products and services, there was thought of making a company – a bit as Netscape had for the early Web - provide commercial solutions.</p>
+
+              <p>In 2015, The team approached Mastercard Labs to see whether they would consider funding such a company. After much technical due diligence, the MC Labs team felt that the platform itself needed more work in the lab. The specs and the open source code needed to be more elaborate. They did then fund the next two years of work in the lab.</p>
+            </div>
+          </section>
+
+          <section id="the-solid-community" inlist="" rel="schema:hasPart" resource="#the-solid-community">
+            <h2 property="schema:name">The Solid Community</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The Solid organization holding the specs was a Github organization, and so much of the interaction used github
+              processes and also Gitter chat. Gitter chat existed around any github org or repo. (Gitter chat later moved to Matrix protocol, now in use in 2023). The Solid community had also a <a href="https://solidproject.org/" rel="cito:discusses">web site</a> and a <a href="https://forum.solidproject.org/" rel="cito:discusses">forum</a>, and series of meetups “Solid World” which went online with Covid.</p>
+
+              <p>2018: In October  2018, Melvin Carvalho proposed the <cite><a href="https://www.w3.org/groups/cg/solid/" rel="cito:discusses">W3C Solid Community Group</a></cite>. Code contributors were asked to join the CG for the limited IP commitment it would give. A future possible W3C Working group would give much better Royalty Free guarantees, than the CG.</p>
+
+              <p>Release dates of the protocol:</p>
+
+              <ul>
+                <li><time>2021-12-17</time>: <cite><a href="https://solidproject.org/TR/2021/protocol-20211217" rel="cito:citesForInformation" typeof="doap:Specification">Solid Protocol, Version 0.9.0</a></cite></li>
+                <li><time>2022-12-31</time>: <cite><a href="https://solidproject.org/TR/2022/protocol-20221231" rel="cito:citesForInformation" typeof="doap:Specification">Solid Protocol, Version 0.10.0</a></cite></li>
+                <li><time>2024-05-12</time>: <cite><a href="https://solidproject.org/TR/2024/protocol-20240512" rel="cito:citesForInformation" typeof="doap:Specification">Solid Protocol, Version 0.11.0</a></cite></li>
+              </ul>
+
+              <p>Presentations and press about the Solid movement since 2018 have included:</p>
+
+              <p>2018, October, <a href="https://www.youtube.com/watch?v=elfSzMATcB4" rel="cito:discusses">MozFest</a> </p>
+
+              <p>2021 dWeb Camp</p>
+
+              <p>2022 Web Summit.</p>
+
+              <p>2023 dWeb Camp, California</p>
+
+              <p>2023 July WeAreDevelopers, Berlin</p>
+
+              <p>Early Press included:</p>
+
+              <p>2018/7 Katrina Brooker, Vanity Fair, <q>“I Was Devastated”: Tim Berners-Lee, the Man Who Created the World Wide Web, Has Some Regrets</q></p>
+
+              <p>On 27 July 2022, Tim met physically with the W3C TAG to discuss Solid, during the day and the dinner after.</p>
+            </div>
+          </section>
         </div>
       </article>
     </main>
@@ -178,11 +151,12 @@
       <nav>
         <ul>
           <li><a href="/about.html">About</a></li>
-          <li><a href="/for-developers.html" rel="rdfs:seeAlso">For Developers</a></li>
-          <li><a href="/for-organizations.html" rel="rdfs:seeAlso">For Organizations</a></li>
-          <li><a href="/community.html" rel="rdfs:seeAlso">Community</a></li>
-          <li><a href="/#">License</a></li>
-          <li><a about="#i" href="https://github.com/solid/process/blob/main/code-of-conduct.md" rel="schema:ethicsPolicy">Code of Conduct</a></li>
+          <li><a href="/for-users.html">For Users</a></li>
+          <li><a href="/for-developers.html">For Developers</a></li>
+          <li><a href="/for-organizations.html">For Organizations</a></li>
+          <li><a href="/community.html">Community</a></li>
+          <li><a href="https://github.com/solid/solidproject.org/blob/main/LICENSE.md">License</a></li>
+          <li><a href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a></li>
         </ul>
       </nav>
 
@@ -191,9 +165,9 @@
         <dl id="accounts">
           <dt>Accounts</dt>
           <dd>
-            <ul about="#i">
-              <li><a href="mailto:info@solidproject.org" rel="doap:mailing-list">info@solidproject.org</a></li>
-              <li><a href="https://github.com/solid/" rel="doap:repository"><img src="/image/github.svg" alt="github" width="20" /></a></li>
+            <ul about="/#i">
+              <li><a href="mailto:info@solidproject.org">info@solidproject.org</a></li>
+              <li><a href="https://github.com/solid/"><img src="/image/github.svg" alt="github" width="20" /></a></li>
               <li><a href="https://twitter.com/project_solid"><img src="/image/twitter.svg" alt="twitter" width="20" /></a></li>
             </ul>
           </dd>
