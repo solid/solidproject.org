@@ -57,6 +57,14 @@ nav a {
     align-items: center;
 }
 
+#for-users main {
+  padding: 1rem 6rem;
+}
+
+#community main {
+  padding: 1rem 6rem;
+}
+
 main>article>h1,
 main>article>p {
     color: #fff;
