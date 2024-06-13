@@ -185,7 +185,7 @@ footer>div>dl>dd>ul li img {
 #using-solid,
 #events>div>ul {
     background-color: #fff;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     padding: 2rem;
     color: #000;
 }
@@ -312,6 +312,10 @@ footer>div>dl>dd>ul li img {
         color: #fff;
         font-weight: 400;
         padding: 0 6rem;
+    }
+
+    #community main>article>div>div>a {
+        padding-top: 2rem;
     }
 
     #homepage main>article>div>section>div>ul,
