@@ -129,7 +129,7 @@ footer>div>dl>dd>ul li img {
 
 #homepage main>article>div>section>div>ul,
 #developer-tutorials {
-    padding: 4rem;
+    padding: 2rem;
     background-color: #fff;
     color: #202542;
 }
@@ -299,7 +299,7 @@ footer>div>dl>dd>ul li img {
     }
 
     main {
-        padding: 6rem;
+        padding: 2rem 6rem;
     }
 
     main>article {
@@ -341,7 +341,7 @@ footer>div>dl>dd>ul li img {
         grid-template-rows: repeat(3, auto);
         grid-column-gap: 0;
         grid-row-gap: 0;
-        padding: 4rem;
+        padding: 1rem 2rem;
     }
 
     #homepage main>article>div>section>div>ul> :nth-child(odd) {
