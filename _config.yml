@@ -16,37 +16,7 @@
 title: Solid
 email: info@solidproject.org
 url: 'https://solidproject.org/'
-twitter_username: project_solid
 github_username: solid
 repository: solid/solidproject.org
 include: 
   - _redirects
-
-# Build settings
-markdown: kramdown
-future: true
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-autolink_email
-  # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-kramdown:
-  input: GFM
-  # GitHub Pages only supports rouge for syntax highlighting:
-  # https://github.blog/2016-02-01-github-pages-now-faster-and-simpler-with-jekyll-3-0/#the-highlight-zone
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
