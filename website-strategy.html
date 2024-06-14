@@ -1,0 +1,1065 @@
+<!doctype html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>solidproject.org website strategy · Solid</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/favicon.ico?"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head>
+
+  <body>
+    <header id="header-navbar" class="navbar">
+  <a class="navbar-brand navbar-item navbar-link is-arrowless" href="/">
+    <img
+      src="/assets/img/solid-emblem.svg"
+      alt=""
+    />
+    <span class="is-uppercase is-size-4">Solid</span>
+  </a>
+
+  <nav class="navbar-menu is-hidden-mobile">
+    <ul class="navbar-end">
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <a
+              class="navbar-link is-size-6 is-size-5-tablet is-arrowless"
+              href="/about"
+            >About Solid</a>
+          
+        </li>
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >Developers</button>
+            <ul class="navbar-dropdown">
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/developers/tutorials/getting-started"
+                  >Getting Started</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/developers/tools"
+                  >Solid Tools and Libraries</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/apps"
+                  >Solid Apps</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >Users</button>
+            <ul class="navbar-dropdown">
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/users/get-a-pod"
+                  >Getting a Pod</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/apps"
+                  >Solid Apps</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+        <li class="navbar-item has-dropdown is-hoverable is-size-6 is-size-5-tablet">
+          
+            <button
+              class="navbar-link is-size-6 is-size-5-tablet"
+              aria-haspopup="true"
+            >Community</button>
+            <ul class="navbar-dropdown">
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/newsletter"
+                  >Newsletter</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/events"
+                  >Events</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="https://forum.solidproject.org/"
+                  >Solid Forum</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="https://matrix.to/#/#solid_project:matrix.org"
+                  >Chat</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="/press"
+                  >Press</a>
+                </li>
+              
+                <li>
+                  <a
+                    class="navbar-item is-size-6 is-size-5-tablet" 
+                    href="https://github.com/solid/process/blob/main/code-of-conduct.md"
+                  >Code of Conduct</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+
+
+    <div id="draft-warning"></div>
+<script>
+  if (
+    document.location.hostname === 'localhost'
+    || document.location.hostname === 'solid.github.io'
+    || document.location.hostname.substring(document.location.hostname.length - 10) === "vercel.app"
+    || document.location.hostname.substring(document.location.hostname.length - 11) === "netlify.app"
+  ) {
+    const draftWarningElement = document.getElementById('draft-warning')
+    draftWarningElement.innerHTML = `
+      <div class="message is-danger is-large" role="alert">
+        <div class="message-body">
+          You are currently viewing a draft version of the Solid website. If you are looking for reliable information, visit the live site at <a href="https://solidproject.org/website-strategy.html" title="The official Solid website">SolidProject.org</a>.
+        </div>
+      </div>
+    `;
+  }
+</script>
+
+
+    
+  <nav id="breadcrumb" class="breadcrumb">
+    <div class="container">
+      <ul>
+        <li>
+          <a href="/">
+            Home
+          </a>
+        </li>
+        
+        
+        
+        
+        
+          <li>
+            <a href="">
+              solidproject.org website strategy
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+
+    <main id="main">
+      <div class="container">
+  <div class="columns">
+    <div class="column is-two-thirds">
+      <article class="section content">
+        <h1 id="solidprojectorg-website-strategy">solidproject.org website strategy</h1>
+
+<p>solidproject.org is a hub for:</p>
+<ul>
+  <li>a single source of truth describing what Solid is (and is not)</li>
+  <li>updates on the Solid specification work as governed by the <a href="https://github.com/solid/process">agreed process</a></li>
+  <li>listing developer tools offered by other parties to implement the Solid specification</li>
+  <li>listing of implementation of the Solid specification into user products (i.e. apps, Pods, identity providers)</li>
+  <li>news about Solid</li>
+</ul>
+
+<h2 id="aim-and-target-audience-of-website">aim and target audience of website</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Target Audience</th>
+      <th>Aim</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Enterprises</td>
+      <td>to provide an adequate overview of why and how to implement Solid in their enterprise</td>
+    </tr>
+    <tr>
+      <td>Developers</td>
+      <td>to provide an adequate overview of information to be able to implement Solid technically</td>
+    </tr>
+    <tr>
+      <td>Users</td>
+      <td>to provide an adequate overview of why and how to use Solid</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="three-most-important-user-paths">Three most important user paths</h2>
+<ol>
+  <li>Enterprises: https://solidproject.org/implement with aim to convince enterprises to implement Solid</li>
+  <li>Developers: https://solidproject.org/developers with aim to start building an app</li>
+  <li>Users: https://solidproject.org/users/get-a-pod with aim to start using an app</li>
+</ol>
+
+<h2 id="sitemap">Sitemap</h2>
+
+<p>The sitemap is intended to help track URIs that are allocated to the resources under <a href="https://solidproject.org/"><code class="language-plaintext highlighter-rouge">solidproject.org</code></a>. The sitemap data <em>is incomplete</em> (as of 2024-03-05) and will need to be updated as content and URI strategy change (see also https://github.com/solid/solidproject.org/issues/249). The table should take 2xx, 3xx, 4xx status codes into account for all assets, including documents and media files that are newly made available, as well as those that were available in the past (redirect, not found, gone, etc.).</p>
+
+<ul>
+  <li>url: URL of the tracked resource</li>
+  <li>status: intended status code in response to <code class="language-plaintext highlighter-rouge">HTTP GET</code></li>
+  <li>design: information about the design (including architectural, presentational, behavioural) of the resource</li>
+  <li>note: supplementary notes</li>
+</ul>
+
+<p>The table is alphabetically sorted by lexical url.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>url</th>
+      <th>status</th>
+      <th>design</th>
+      <th>notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>https://solidproject.org/</td>
+      <td>200</td>
+      <td>foo</td>
+      <td>bar</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/about</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/apps</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/assets/img/interoperability-tour.svg</td>
+      <td>200</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/assets/img/share-it-safely-tour.svg</td>
+      <td>200</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/assets/img/store-anything-tour.svg</td>
+      <td>200</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/assets/img/solid-emblem.svg</td>
+      <td>200</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/assets/img/solid-pod-tour.svg</td>
+      <td>200</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/contributing</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/developers/</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/developers/tools/</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/developers/tutorials/getting-started</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/ED/protocol</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/ED/qa</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/events</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/faqs</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/license</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/logo-usage-guidelines</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2020-04-09</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2020-05-07</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2020-06-04</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2020-07-02</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2020-08-06</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2020-09-03</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2020-10-01</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2020-11-05</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2020-12-03</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-01-07</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-02-04</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-03-11</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-04-08</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-05-06</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-06-10</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-07-08</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-08-12</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-09-09</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/2021-10-14</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/newsletter/archive</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/origin</td>
+      <td>200</td>
+      <td><code class="language-plaintext highlighter-rouge">script</code> sets location to https://solidproject.org//about</td>
+      <td>TODO: <a href="https://github.com/solid/solidproject.org/issues/841">issue</a></td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/press</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/specification</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/team</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/terms</td>
+      <td>200</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-07-18</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-07-25</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-08-01</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-08-08</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-08-15</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-08-22</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-08-29</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-09-05</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-09-12</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-09-19</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-09-26</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-10-03</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-10-10</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-10-17</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-10-24</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-10-31</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-11-07</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-11-14</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-11-21</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-11-28</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-12-05</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-12-12</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2019-12-18</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2020-03-05</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2020-03-12</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2020-03-19</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2020-03-26</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/this-week-in-solid/2020-04-01</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR</td>
+      <td>200</td>
+      <td>Should be 404 <code class="language-plaintext highlighter-rouge">TR/</code> is canonical</td>
+      <td>TODO: <a href="https://github.com/solid/solidproject.org/issues/514">issue</a></td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2021/protocol-20211217</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2021/wac-20210711</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2022/acp-20220518</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2022/notifications-protocol-20220509</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2022/notifications-protocol-20221231</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2022/oidc-20220328</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2022/oidc-primer-20220328</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2022/protocol-20221231</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2022/wac-20220705</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/2022/websocket-subscription-2021-20220509</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/acp</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/notification-subscription-types</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/notifications-protocol</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/oidc</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/oidc-primer</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/protocol</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/protocol.timemap</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/wac</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/wac.timemap</td>
+      <td>200</td>
+      <td>User-agent default. HTML+RDFa representation available</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/TR/websocket-subscription-2021</td>
+      <td>200</td>
+      <td>Uses W3C specification design patterns</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>https://solidproject.org/users/get-a-pod</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+      </article>
+    </div>
+    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
+      <div class="menu is-large">
+        <ul class="menu-list">
+  <li><a href="#solidprojectorg-website-strategy">solidproject.org website strategy</a>
+    <ul>
+      <li><a href="#aim-and-target-audience-of-website">aim and target audience of website</a></li>
+      <li><a href="#three-most-important-user-paths">Three most important user paths</a></li>
+      <li><a href="#sitemap">Sitemap</a></li>
+    </ul>
+  </li>
+</ul>
+      </div>
+    </aside>
+  </div>
+</div>
+
+    </main>
+    <footer id="footer" class="footer">
+  <div class="container">
+    <div class="columns">
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <a class="title is-size-5" href="/">Home</a>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/about">About Solid</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/users">Using Solid</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/users/get-a-pod">Get a Pod</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/apps">Solid Apps</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/team">Team</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/faqs">FAQs</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/terms">Terms of Use</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <span class="title is-size-5">What's New</span>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/newsletter">This Month in Solid</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/events">Solid Events</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/press">Press</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <a class="title is-size-5" href="/developers">Developers</a>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/developers/tutorials/getting-started">Getting Started</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="https://forum.solidproject.org">Forum</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+        <div class="column">
+          <ul>
+            <li>
+              
+                <span class="title is-size-5">More</span>
+              
+            </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/specification">Specification</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/license">License</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="/logo-usage-guidelines">Logo usage guidelines</a>
+                
+              </li>
+            
+              <li>
+                
+                  <a class="is-size-5" href="https://github.com/solid/solidproject.org/issues/new">Website feedback</a>
+                
+              </li>
+            
+          </ul>
+        </div>
+      
+    </div>
+  </div>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img
+          src="/assets/img/solid-emblem.svg"
+          alt="[Solid logo]"
+        />
+      </a>
+      <a class="navbar-item is-hidden-mobile" href="mailto:info@solidproject.org">
+        info@solidproject.org
+      </a>
+      <a class="navbar-item is-size-3-mobile is-hidden-tablet" href="mailto:info@solidproject.org" aria-label="info@solidproject.org">
+        @
+      </a>      
+      <a class="navbar-item" href="https://github.com/solid/" title="Solid on GitHub">
+        <span class="image is-24x24">
+          <img
+            src="/assets/img/fontawesome-free-5.11.2-web/svgs/brands/github.svg"
+            alt="GitHub"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+      <a class="navbar-item" href="https://twitter.com/project_solid" title="Solid on Twitter">
+        <span class="image is-24x24">
+          <img
+            src="/assets/img/fontawesome-free-5.11.2-web/svgs/brands/twitter.svg"
+            alt="Twitter"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+      <a class="navbar-item" href="https://vimeo.com/solidworld" title="Solid on Vimeo">
+        <span class="image is-24x24">
+          <img
+            src="/assets/img/fontawesome-free-5.11.2-web/svgs/brands/vimeo-v.svg"
+            alt="Vimeo"
+            class="brand-icon"
+          />
+        </span>
+      </a>
+    </div>
+  </nav>
+</footer>
+
+  </body>
+
+
+</html>
