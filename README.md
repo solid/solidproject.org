@@ -11,8 +11,6 @@ repository, or even just browse to:
 file:///your/local/path/to/gh/solid/solidproject.org/index.html
 ```
 
-NOTE: please make sure to check out the `2023-redesign` branch!
-
 If you just want to propose small textual changes you can also create a PR through GitHub's
 online editor.
 
