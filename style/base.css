@@ -57,6 +57,14 @@ nav a {
     align-items: center;
 }
 
+#for-users main {
+  padding: 1rem 5rem;
+}
+
+#community main {
+  padding: 1rem 6rem;
+}
+
 main>article>h1,
 main>article>p {
     color: #fff;
@@ -121,7 +129,7 @@ footer>div>dl>dd>ul li img {
 
 #homepage main>article>div>section>div>ul,
 #developer-tutorials {
-    padding: 4rem;
+    padding: 2rem;
     background-color: #fff;
     color: #202542;
 }
@@ -177,7 +185,7 @@ footer>div>dl>dd>ul li img {
 #using-solid,
 #events>div>ul {
     background-color: #fff;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     padding: 2rem;
     color: #000;
 }
@@ -291,7 +299,7 @@ footer>div>dl>dd>ul li img {
     }
 
     main {
-        padding: 6rem;
+        padding: 2rem 6rem;
     }
 
     main>article {
@@ -304,6 +312,10 @@ footer>div>dl>dd>ul li img {
         color: #fff;
         font-weight: 400;
         padding: 0 6rem;
+    }
+
+    #community main>article>div>div>a {
+        padding-top: 2rem;
     }
 
     #homepage main>article>div>section>div>ul,
@@ -329,7 +341,7 @@ footer>div>dl>dd>ul li img {
         grid-template-rows: repeat(3, auto);
         grid-column-gap: 0;
         grid-row-gap: 0;
-        padding: 4rem;
+        padding: 1rem 2rem;
     }
 
     #homepage main>article>div>section>div>ul> :nth-child(odd) {
@@ -476,7 +488,7 @@ footer>div>dl>dd>ul li img {
     }
 
     #developer-tutorials {
-        margin: 4rem;
+        margin: 1rem 4rem 4rem 4rem;
     }
 
     #hosted-pod-services {
