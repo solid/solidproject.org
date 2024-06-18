@@ -311,7 +311,11 @@ footer>div>dl>dd>ul li img {
     main>article>p {
         color: #fff;
         font-weight: 400;
-        padding: 0 6rem;
+        padding: 0 2rem;
+    }
+    
+    #homepage .subtitle {
+        margin-top: 0;
     }
 
     #community main>article>div>div>a {
@@ -405,7 +409,7 @@ footer>div>dl>dd>ul li img {
     #for-users>main>article>p {
         padding: 0;
     }
-
+ 
     #about section#features ul li,
     #hosted-pod-services>div>ul li,
     #solid-organizations>div>ul li,
@@ -413,6 +417,7 @@ footer>div>dl>dd>ul li img {
     #using-solid {
         padding: 2rem;
         margin-right: 2rem;
+        margin-bottom: 2rem;
     }
 
     #about main>article,
