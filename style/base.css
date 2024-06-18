@@ -121,10 +121,6 @@ footer>div>dl>dd>ul li img {
     font-weight: 700;
 }
 
-#homepage main>article>div>section {
-    line-height: 1.5em;
-}
-
 #homepage main>article>div>section img {
     width: 63px;
     height: 63px;
@@ -285,6 +281,7 @@ footer>div>dl>dd>ul li img {
 }
 
 
+
 /* Desktop styles */
 @media (min-width: 767px) {
     header {
@@ -315,11 +312,7 @@ footer>div>dl>dd>ul li img {
     main>article>p {
         color: #fff;
         font-weight: 400;
-        padding: 0 2rem;
-    }
-    
-    #homepage .subtitle {
-        margin-top: 0;
+        padding: 0 6rem;
     }
 
     #community main>article>div>div>a {
@@ -413,7 +406,7 @@ footer>div>dl>dd>ul li img {
     #for-users>main>article>p {
         padding: 0;
     }
- 
+
     #about section#features ul li,
     #hosted-pod-services>div>ul li,
     #solid-organizations>div>ul li,
@@ -421,7 +414,6 @@ footer>div>dl>dd>ul li img {
     #using-solid {
         padding: 2rem;
         margin-right: 2rem;
-        margin-bottom: 2rem;
     }
 
     #about main>article,
