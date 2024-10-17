@@ -53,6 +53,15 @@ nav a {
     margin-left: 2rem;
 }
 
+.banner {
+    background-color: #ffcc00;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 #homepage main>article {
     align-items: center;
 }
