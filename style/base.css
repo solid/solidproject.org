@@ -142,6 +142,11 @@ footer>div>dl>dd>ul li img {
     background-color: #fff;
     color: #202542;
 }
+#specifications {
+    padding: 2rem;
+    background-color: #fff;
+    color: #202542;
+}
 
 #about main>article>h1,
 #about main>article>div>p,
@@ -288,7 +293,9 @@ footer>div>dl>dd>ul li img {
 #developer-tutorials {
     margin: 0;
 }
-
+#specifications {
+    margin: 0;
+}
 
 
 /* Desktop styles */
@@ -330,6 +337,9 @@ footer>div>dl>dd>ul li img {
 
     #homepage main>article>div>section>div>ul,
     #developer-tutorials {
+        border-radius: 30px;
+    }
+    #specifications {
         border-radius: 30px;
     }
     
@@ -498,6 +508,9 @@ footer>div>dl>dd>ul li img {
     }
 
     #developer-tutorials {
+        margin: 1rem 4rem 4rem 4rem;
+    }
+    #specifications {
         margin: 1rem 4rem 4rem 4rem;
     }
 
