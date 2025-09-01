@@ -12,6 +12,10 @@ body {
     line-height: 32px;
 }
 
+header, main {
+    padding: 2rem 4rem;
+}
+
 header a,
 footer a {
     color: #fff;
@@ -20,19 +24,20 @@ footer a {
 
 header {
     display: flex;
+    gap: 2rem;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2rem 4rem;
 }
 
-header>address>a {
+header > address > a {
     display: flex;
     align-items: center;
     font-size: 1.5rem;
     font-style: normal;
+    padding: 0.5rem 1rem;
 }
 
-header>address>a>img {
+header > address > a > img {
     width: 34px;
     margin-right: 1rem;
 }
@@ -40,17 +45,24 @@ header>address>a>img {
 
 nav ul {
     list-style: none;
+    margin-bottom: 0;
     margin-block-start: 0;
     padding-inline-start: 0;
 }
 
 nav ul li {
-    margin-left: 2rem;
+    margin: 0 .25rem;
 }
 
 nav a {
     font-size: 1.25rem;
-    margin-left: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .banner {
@@ -313,10 +325,6 @@ footer>div>dl>dd>ul li img {
     nav ul {
         display: flex;
         align-self: flex-end;
-    }
-
-    main {
-        padding: 2rem 6rem;
     }
 
     main>article {
