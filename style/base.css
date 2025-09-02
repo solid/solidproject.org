@@ -12,66 +12,9 @@ body {
     line-height: 32px;
 }
 
-header, main {
-    padding: 2rem 4rem;
-}
-
-header a,
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-header {
-    display: flex;
-    gap: 2rem;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-header > address > a {
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    font-style: normal;
-    padding: 0.5rem 1rem;
-}
-
-header > address > a > img {
-    width: 34px;
-    margin-right: 1rem;
-}
-
-
-nav ul {
-    list-style: none;
-    margin-bottom: 0;
-    margin-block-start: 0;
-    padding-inline-start: 0;
-}
-
-nav ul li {
-    margin: 0 .25rem;
-}
-
-nav a {
-    font-size: 1.25rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    transition: background-color 0.2s ease;
-}
-
-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.banner {
-    background-color: #ffcc00;
-    color: black;
-    text-align: center;
-    padding: 15px;
-    font-size: 1.2em;
-    font-weight: bold;
+/* Layout */
+header, main, footer {
+    padding: 2rem 3.2rem;
 }
 
 #homepage main>article {
@@ -91,44 +34,6 @@ main>article>p {
     color: #fff;
     font-weight: 400;
     padding: 0 2rem;
-}
-
-footer>div {
-    display: flex;
-    padding: 2rem 4rem;
-    align-items: center;
-}
-
-footer dl {
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-footer dd {
-    margin-inline-start: 0;
-}
-
-footer>div>img {
-    height: 40px;
-    width: 40px;
-}
-
-footer>div>dl>dd>ul {
-    display: flex;
-    color: #fff;
-    width: min-content;
-    list-style: none;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0;
-}
-
-footer>div>dl>dd>ul li {
-    margin-left: 1rem;
-}
-
-footer>div>dl>dd>ul li img {
-    filter: invert(100%) hue-rotate(180deg);
 }
 
 #features>h2,
@@ -312,20 +217,6 @@ footer>div>dl>dd>ul li img {
 
 /* Desktop styles */
 @media (min-width: 767px) {
-    header {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    header a,
-    footer a {
-        text-wrap: nowrap;
-    }
-
-    nav ul {
-        display: flex;
-        align-self: flex-end;
-    }
 
     main>article {
         display: flex;
