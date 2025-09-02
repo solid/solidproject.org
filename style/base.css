@@ -13,7 +13,7 @@ body {
 }
 
 /* Layout */
-header, main, footer {
+main {
     padding: 2rem 3.2rem;
 }
 
