@@ -377,7 +377,7 @@
     <label class="checkbox-label">
       <input type="checkbox" id="top-apps-only">
       <span class="checkmark"></span>
-      Show only top apps
+      Show only featured apps
     </label>
   </div>
 </div>
@@ -388,12 +388,6 @@
     <h3><a href="https://noeldemartin.github.io/media-kraken/">Media Kraken</a><span class="top-app-tag">★</span></h3>
     <div class="app-category">Movies</div>
     <div class="app-description">Track your media and never miss a beat. <br />- <a href="https://github.com/NoelDeMartin/media-kraken/tree/main/docs">Documentation</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a><br />- <a href="https://github.com/NoelDeMartin/media-kraken">Source code</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a> <br />- <a href="https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333">Provide Feedback</a>.<br /></div>
-  </div>
-  
-  <div class="app-tile" data-name="Pod Pro" data-category="Pod Management">
-    <h3><a href="https://podpro.dev/">Pod Pro</a><span class="top-app-tag">★</span></h3>
-    <div class="app-category">Pod Management</div>
-    <div class="app-description">An IDE for editing Solid Pods by Jasmine Leonard.</div>
   </div>
   
   <div class="app-tile" data-name="Penny" data-category="Pod Management">
@@ -424,6 +418,12 @@
     <h3><a href="https://dokie.li/" property="doap:name" rel="doap:homepage">dokieli</a></h3>
     <div class="app-category">Content, Notes, Blogging and Publishing</div>
     <div class="app-description" property="doap:shortdesc">dokieli is a clientside editor for decentralised article publishing, annotations, and social interactions. <br />- <a href="https://github.com/dokieli/dokieli/blob/main/LICENSE" rel="doap:license">Apache License, Version 2.0</a> © 2012-2025 <a href="https://csarven.ca/#i" rel="doap:maintainer">Sarven Capadisli</a> <br />- <span rel="doap:repository" resource="#dokieli-repository"><a href="https://git.dokie.li/" rel="doap:browse">Source</a></span></div>
+  </div>
+  
+  <div class="app-tile" data-name="Pod Pro" data-category="Pod Management">
+    <h3><a href="https://podpro.dev/">Pod Pro</a></h3>
+    <div class="app-category">Pod Management</div>
+    <div class="app-description">An IDE for editing Solid Pods by Jasmine Leonard.</div>
   </div>
   
   <div class="app-tile" data-name="PodOS Browser" data-category="Pod Management">
@@ -699,12 +699,12 @@ document.addEventListener('DOMContentLoaded', function() {
       // Return to default order - restore original order based on data attributes
       const defaultOrder = [
         'Media Kraken',
-        'Pod Pro', 
         'Penny',
         'Umai',
         '0data Hello with Solid',
         'Booklice',
         'dokieli',
+        'Pod Pro', 
         'PodOS Browser',
         'Solid File Manager',
         'Solidflix'
