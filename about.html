@@ -1,144 +1,91 @@
-<!DOCTYPE html>
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8" />
-    <title>About - Solid</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="stylesheet" href="style/base.css" />
-  </head>
+---
+layout: default
+title: About
+body_id: about
+---
 
-  <body about="" id="about" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/">
-    <header>
-      <address about="#i" id="i" typeof="foaf:Project doap:Project">
-        <a href="/" rel="doap:homepage"><img alt="Solid logo" rel="foaf:img" src="/image/logo.svg" width="50" /> <span property="doap:name">Solid</span></a>
-      </address>
+<article about="" typeof="schema:Article">
+  <h1 property="schema:name">About Solid</h1>
 
-      <nav>
-        <ul>
-          <li><a href="/about.html">About Solid</a></li>
-          <li><a href="/for-users.html">For Users</a></li>
-          <li><a href="/for-developers.html">For Developers</a></li>
-          <li><a href="/for-organizations.html">For Organizations</a></li>
-          <li><a href="/community.html">Community</a></li>
-        </ul>
-      </nav>
-    </header>
+  <div datatype="rdf:HTML" property="schema:description doap:description">
+    <p about="#i" datatype="rdf:HTML" property="doap:shortdesc">Solid is an open standard for structuring data, digital identities, and applications on the <span about="#i" property="doap:platform">Web</span>.</p>
+    <p>Solid aims to support the creation of the Web as Sir Tim Berners-Lee originally envisioned it when he
+        invented the Web at CERN in 1989. Tim sometimes refers to Solid as "the web - take 3" — or Web3.0 —
+        because Solid integrates a new layer of standards into the Web we already have. The goal of Solid is
+        for people to have more <span about="#i" property="doap:category">agency</span> over their data.</p>
 
-    <main>
-      <article about="" typeof="schema:Article">
-        <h1 property="schema:name">About Solid</h1>
+    <section id="solid" inlist="" rel="schema:hasPart" resource="#solid">
+      <h2 property="schema:name">Solid</h2>
+      <div datatype="rdf:HTML" property="schema:description">
+        <img alt="" src="image/store-anything-tour.svg" />
+        <p>Solid is a <span about="#i" rel="doap:implements" resource="https://solidproject.org/TR/">specification</span> that lets people store their data securely in <span about="#i" property="doap:category">decentralized data stores</span>
+            called Pods. Pods are like secure personal web servers for your data.</p>
+        <p>Entities control access to the data in their Pod. Entities decide what data to share and with whom
+            (be those <span about="#i" property="doap:audience">individuals</span>, <span about="#i" property="doap:audience">organizations</span>, <span about="#i" property="doap:audience">applications</span>, etc.), and can revoke access at any time.</p>
+        <p>To store and access data in a Pod, Solid-enabled <span about="#i" property="doap:category">applications</span> use standard, open, and interoperable
+            data formats and protocols.</p>
 
-        <div datatype="rdf:HTML" property="schema:description doap:description">
-          <p about="#i" datatype="rdf:HTML" property="doap:shortdesc">Solid is an open standard for structuring data, digital identities, and applications on the <span about="#i" property="doap:platform">Web</span>.</p>
-          <p>Solid aims to support the creation of the Web as Sir Tim Berners-Lee originally envisioned it when he
-              invented the Web at CERN in 1989. Tim sometimes refers to Solid as “the web - take 3" — or Web3.0 —
-              because Solid integrates a new layer of standards into the Web we already have. The goal of Solid is
-              for people to have more <span about="#i" property="doap:category">agency</span> over their data.</p>
+        <section id="data" inlist="" rel="schema:hasPart" resource="#data">
+          <h3 property="schema:name">Data</h3>
+          <div datatype="rdf:HTML" property="schema:description">
+            <p>Any kind of data can be stored in a Solid Pod — from structured data to files that one might
+                store in a Google Drive or Dropbox folder.</p>
+            <p>What makes Solid special is the ability to store data in a way that promotes interoperability.
+                Specifically, Solid supports storing Linked Data. Structuring data as Linked Data means that
+                different applications can work with the same data.</p>
+          </div>
+        </section>
 
-          <section id="solid" inlist="" rel="schema:hasPart" resource="#solid">
-            <h2 property="schema:name">Solid</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <img alt="" src="image/store-anything-tour.svg" />
-              <p>Solid is a <span about="#i" rel="doap:implements" resource="https://solidproject.org/TR/">specification</span> that lets people store their data securely in <span about="#i" property="doap:category">decentralized data stores</span>
-                  called Pods. Pods are like secure personal web servers for your data.</p>
-              <p>Entities control access to the data in their Pod. Entities decide what data to share and with whom
-                  (be those <span about="#i" property="doap:audience">individuals</span>, <span about="#i" property="doap:audience">organizations</span>, <span about="#i" property="doap:audience">applications</span>, etc.), and can revoke access at any time.</p>
-              <p>To store and access data in a Pod, Solid-enabled <span about="#i" property="doap:category">applications</span> use standard, open, and interoperable
-                  data formats and protocols.</p>
+        <section id="fully-interoperable-standards" inlist="" rel="schema:hasPart" resource="#fully-interoperable-standards">
+          <h3 property="schema:name">Fully interoperable standards</h3>
+          <div datatype="rdf:HTML" property="schema:description">
+            <img alt="interoperability-tour" src="image/interoperability-tour.svg" />
+            <p>All data in a Solid Pod is stored and accessed using standard, open, and interoperable data
+                formats and protocols. Solid uses a common, shared way of describing things and their
+                relationships to one another that different applications can understand. This gives Solid the
+                unique ability to allow different applications to work with the same data.</p>
+          </div>
+        </section>
 
-              <section id="data" inlist="" rel="schema:hasPart" resource="#data">
-                <h3 property="schema:name">Data</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>Any kind of data can be stored in a Solid Pod — from structured data to files that one might
-                      store in a Google Drive or Dropbox folder.</p>
-                  <p>What makes Solid special is the ability to store data in a way that promotes interoperability.
-                      Specifically, Solid supports storing Linked Data. Structuring data as Linked Data means that
-                      different applications can work with the same data.</p>
-                </div>
-              </section>
-
-              <section id="fully-interoperable-standards" inlist="" rel="schema:hasPart" resource="#fully-interoperable-standards">
-                <h3 property="schema:name">Fully interoperable standards</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <img alt="interoperability-tour" src="image/interoperability-tour.svg" />
-                  <p>All data in a Solid Pod is stored and accessed using standard, open, and interoperable data
-                      formats and protocols. Solid uses a common, shared way of describing things and their
-                      relationships to one another that different applications can understand. This gives Solid the
-                      unique ability to allow different applications to work with the same data.</p>
-                </div>
-              </section>
-
-              <section id="access" inlist="" rel="schema:hasPart" resource="#access">
-                <h3 property="schema:name">Access</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <img alt="interoperability-tour" src="image/solid-pod-tour.svg" />
-                  <p>With Solid's Authentication and Authorization systems, one can determine which people and
-                      applications can access their data. Entities can grant or revoke access to any slice of
-                      their data as needed. Consequently, entities can do more with their data, because the
-                      applications they decide to use can be granted access to a wider and more diverse set of
-                      information.</p>
-                  <p>And just as one can share their data with others, others can also share their data in return.
-                      This creates rich and collaborative experiences across a combination of both personal and
-                      shared data.</p>
-                </div>
-              </section>
-            </div>
-          </section>
-
-          <section id="features" inlist="" rel="schema:hasPart" resource="#features">
-            <h2 property="schema:name">Features</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <ul>
-                <li>
-                  <p><strong>Organizations Deploying Solid</strong></p>
-                  <p>See organizations working to support the deployment of Solid technology across a range of
-                  sectors.</p>
-                  <a href="/for-organizations.html" rel="rdfs:seeAlso">See organizations</a>
-                </li>
-                <li>
-                  <p><strong>Develop a Solid application</strong></p>
-                  <p>Find tutorials, repositories, libraries, and vocabularies.</p>
-                  <a href="/for-developers.html" rel="rdfs:seeAlso">Develop an application</a>
-                </li>
-                <li>
-                  <p><strong>Example applications</strong></p>
-                  <p>Find examples of applications built with Solid.</p>
-                  <a href="https://forum.solidproject.org/c/applications/" rel="rdfs:seeAlso">See example applications</a>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
-      </article>
-    </main>
-
-    <footer>
-      <nav>
-        <ul>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/for-users.html">For Users</a></li>
-          <li><a href="/for-developers.html" rel="rdfs:seeAlso">For Developers</a></li>
-          <li><a href="/for-organizations.html" rel="rdfs:seeAlso">For Organizations</a></li>
-          <li><a href="/community.html" rel="rdfs:seeAlso">Community</a></li>
-          <li><a href="https://github.com/solid/solidproject.org/blob/main/LICENSE.md/#">License</a></li>
-          <li><a about="#i" href="https://github.com/solid/process/blob/main/code-of-conduct.md" rel="schema:ethicsPolicy">Code of Conduct</a></li>
-          <li><a href="https://service.theodi.org/help/1476250723">Support</a></li>
-        </ul>
-      </nav>
-
-      <div>
-        <img alt="logo" src="/image/logo.svg" width="40" />
-        <dl id="accounts">
-          <dt>Accounts</dt>
-          <dd>
-            <ul about="#i">
-              <li><a href="mailto:info@solidproject.org" rel="doap:mailing-list">info@solidproject.org</a></li>
-              <li><a href="https://github.com/solid/" rel="doap:repository"><img src="/image/github.svg" alt="github" width="20" /></a></li>
-              <li><a href="https://twitter.com/project_solid"><img src="/image/twitter.svg" alt="twitter" width="20" /></a></li>
-            </ul>
-          </dd>
-        </dl>
+        <section id="access" inlist="" rel="schema:hasPart" resource="#access">
+          <h3 property="schema:name">Access</h3>
+          <div datatype="rdf:HTML" property="schema:description">
+            <img alt="interoperability-tour" src="image/solid-pod-tour.svg" />
+            <p>With Solid's Authentication and Authorization systems, one can determine which people and
+                applications can access their data. Entities can grant or revoke access to any slice of
+                their data as needed. Consequently, entities can do more with their data, because the
+                applications they decide to use can be granted access to a wider and more diverse set of
+                information.</p>
+            <p>And just as one can share their data with others, others can also share their data in return.
+                This creates rich and collaborative experiences across a combination of both personal and
+                shared data.</p>
+          </div>
+        </section>
       </div>
-    </footer>
-  </body>
-</html>
+    </section>
+
+    <section id="features" inlist="" rel="schema:hasPart" resource="#features">
+      <h2 property="schema:name">Features</h2>
+      <div datatype="rdf:HTML" property="schema:description">
+        <ul>
+          <li>
+            <p><strong>Organizations Deploying Solid</strong></p>
+            <p>See organizations working to support the deployment of Solid technology across a range of
+            sectors.</p>
+            <a href="/for-organizations.html" rel="rdfs:seeAlso">See organizations</a>
+          </li>
+          <li>
+            <p><strong>Develop a Solid application</strong></p>
+            <p>Find tutorials, repositories, libraries, and vocabularies.</p>
+            <a href="/for-developers.html" rel="rdfs:seeAlso">For developers</a>
+          </li>
+          <li>
+            <p><strong>Get a Solid Pod</strong></p>
+            <p>Get your own personal data store and start using Solid applications.</p>
+            <a href="/for-users.html" rel="rdfs:seeAlso">For users</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</article>

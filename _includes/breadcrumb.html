@@ -1,0 +1,20 @@
+<nav id="breadcrumb" class="breadcrumb">
+  <div class="container">
+    <ul>
+      <li>
+        <a href="/">
+          Home
+        </a>
+      </li>
+      
+      {% if page.breadcrumb_title %}
+        <li>
+          <a href="">
+            {{ page.breadcrumb_title }}
+          </a>
+        </li>
+      {% endif %}
+      
+    </ul>
+  </div>
+</nav>
