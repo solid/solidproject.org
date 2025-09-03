@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title }} - Solid{% else %}Solid{% endif %}</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    {% if page.layout_type == 'modern' %}
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    {% else %}
+    <link rel="stylesheet" href="/style/base.css" />
+    {% endif %}
+  </head>
+
+  <body about="" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/" id="{{ page.body_id | default: 'page' }}">
+    {% if page.layout_type == 'modern' %}
+      {% include header-modern.html %}
+    {% else %}
+      {% include header-simple.html %}
+    {% endif %}
+
+    {% if page.layout_type == 'modern' %}
+      {% include draft-warning.html %}
+      {% include breadcrumb.html %}
+    {% endif %}
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% if page.layout_type == 'modern' %}
+      {% include footer-modern.html %}
+    {% else %}
+      {% include footer-simple.html %}
+    {% endif %}
+  </body>
+</html>
