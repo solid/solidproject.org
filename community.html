@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <title>Community - Solid</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="stylesheet" href="style/base.css" />
+    <link rel="stylesheet" href="/style/base.css" />
+    <link rel="stylesheet" href="/style/header.css" />
+    <link rel="stylesheet" href="/style/footer.css" />
   </head>
 
   <body
@@ -12,14 +14,12 @@
     prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/"
     id="community"
   >
-    <header>
-      <address>
-        <a href="/"
-          ><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a
-        >
+        <header class="header">
+      <address class="homepage-link">
+        <a href="/"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
       </address>
 
-      <nav>
+      <nav class="main-nav">
         <ul>
           <li><a href="/about.html">About Solid</a></li>
           <li><a href="/for-users.html">For Users</a></li>
@@ -28,6 +28,12 @@
           <li><a href="/community.html">Community</a></li>
         </ul>
       </nav>
+
+      <button class="hamburger-menu" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </header>
 
     <main>
@@ -4741,53 +4747,125 @@
       </article>
     </main>
 
-    <footer>
-      <nav>
+            <footer class="footer">
+      <dl class="footer-nav">
+        <dt>
+          <a href="/">Home</a>
+        </dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="/about">About Solid</a>
+            </li>
+            <li>
+              <a href="/for-users">Using Solid</a>
+            </li>
+            <li>
+              <a href="/users/get-a-pod">Get a Pod</a>
+            </li>
+            <li>
+              <a href="/apps">Solid Apps</a>
+            </li>
+            <li>
+              <a href="/team">Team</a>
+            </li>
+            <li>
+              <a href="/faqs">FAQs</a>
+            </li>
+            <li>
+              <a href="/terms">Terms of Use</a>
+            </li>
+            <li>
+              <a href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a>
+            </li>
+          </ul>
+        </dd>
+    
+        <dt>
+          <span>What's New</span>
+        </dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="/newsletter">Newsletter</a>
+            </li>
+            <li>
+              <a href="/events">Solid Events</a>
+            </li>
+            <li>
+              <a href="/press">Press</a>
+            </li>
+          </ul>
+        </dd>
+    
+        <dt>
+          <a href="/for-developers">Developers</a>
+        </dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="/developers/tutorials/getting-started">Getting Started</a>
+            </li>
+            <li>
+              <a href="https://forum.solidproject.org">Forum</a>
+            </li>
+            <li>
+              <a href="/for-organizations">Organizations</a>
+            </li>
+            <li>
+              <a href="/for-community">Community</a>
+            </li>
+          </ul>
+        </dd>
+    
+        <dt>
+          <span>More</span>
+        </dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="/TR">Specifications</a>
+            </li>
+            <li>
+              <a href="/license">License</a>
+            </li>
+            <li>
+              <a href="/logo-usage-guidelines">Logo usage guidelines</a>
+            </li>
+            <li>
+              <a href="https://github.com/solid/solidproject.org/issues/new">Website feedback</a>
+            </li>
+            <li>
+              <a href="https://service.theodi.org/help/1476250723">Support</a>
+            </li>
+          </ul>
+        </dd>
+      </dl>
+      <nav class="social-nav" role="navigation" aria-label="navigation">
         <ul>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/for-users.html">For Users</a></li>
-          <li><a href="/for-developers.html">For Developers</a></li>
-          <li><a href="/for-organizations.html">For Organizations</a></li>
-          <li><a href="/community.html">Community</a></li>
           <li>
-            <a
-              href="https://github.com/solid/solidproject.org/blob/main/LICENSE.md"
-              >License</a
-            >
+            <a href="/">
+              <img src="/assets/img/solid-emblem.svg" alt="[Solid logo]" />
+            </a>
           </li>
           <li>
-            <a
-              href="https://github.com/solid/process/blob/main/code-of-conduct.md"
-              >Code of Conduct</a
-            >
+            <a href="mailto:info@solidproject.org">
+              info@solidproject.org
+            </a>
           </li>
-          <li><a href="https://service.theodi.org/help/1476250723">Support</a></li>
+          <li>
+            <a href="https://github.com/solid/" title="Solid on GitHub">
+              <img src="/image/github.svg" alt="GitHub" class="brand-icon" />
+            </a>
+          </li>
+          <li>
+            <a href="https://vimeo.com/solidworld" title="Solid on Vimeo">
+              <img src="/image/vimeo-v.svg" alt="Vimeo" class="brand-icon" />
+            </a>
+          </li>
         </ul>
       </nav>
-
-      <div>
-        <img alt="logo" src="/image/logo.svg" width="40" />
-        <dl id="accounts">
-          <dt>Accounts</dt>
-          <dd>
-            <ul about="/#i">
-              <li>
-                <a href="mailto:info@solidproject.org">info@solidproject.org</a>
-              </li>
-              <li>
-                <a href="https://github.com/solid/"
-                  ><img src="/image/github.svg" alt="github" width="20"
-                /></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/project_solid"
-                  ><img src="/image/twitter.svg" alt="twitter" width="20"
-                /></a>
-              </li>
-            </ul>
-          </dd>
-        </dl>
-      </div>
     </footer>
+    <script src="/assets/js/menu.js"></script>
   </body>
 </html>
