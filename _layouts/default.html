@@ -2,7 +2,8 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/">
   <head>
     <meta charset="utf-8" />
-    <title>{% if page.title %}{{ page.title }} - Solid{% else %}Solid{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% if page.permalink %}<link rel="canonical" href="{{ page.permalink | prepend: site.base_url }}">{% endif %}
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="/assets/css/header.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
@@ -14,7 +15,7 @@
     {% endif %}
   </head>
 
-  <body id="{{ page.body_id | default: 'page' }}">
+  <body>
 
     <header class="header">
       <address class="homepage-link">
