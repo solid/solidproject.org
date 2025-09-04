@@ -1,12 +1,11 @@
 @font-face {
     font-family: 'Lato Regular';
-    src: url('../assets/fonts/Lato-Regular.ttf') format('truetype');
+    src: url('/assets/fonts/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    background-color: #202542;
     font-family: 'Lato Regular', sans-serif;
     margin: 0;
     line-height: 32px;
@@ -14,7 +13,22 @@ body {
 
 /* Layout */
 main {
-    padding: 2rem 3.2rem;
+    padding: 3.1rem 3.2rem 3.2rem 3.1rem;
+}
+
+/* Elements */
+.quote {
+    margin: 0;
+    padding: 0;
+}
+
+.quote blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.quote .quote-author::before {
+    content: "— ";
 }
 
 #homepage main>article {
@@ -27,13 +41,6 @@ main {
 
 #community main {
   padding: 1rem 6rem;
-}
-
-main>article>h1,
-main>article>p {
-    color: #fff;
-    font-weight: 400;
-    padding: 0 2rem;
 }
 
 #features>h2,
@@ -217,18 +224,6 @@ main>article>p {
 
 /* Desktop styles */
 @media (min-width: 767px) {
-
-    main>article {
-        display: flex;
-        flex-direction: column;
-    }
-
-    main>article>h1,
-    main>article>p {
-        color: #fff;
-        font-weight: 400;
-        padding: 0 6rem;
-    }
 
     #community main>article>div>div>a {
         padding-top: 2rem;
