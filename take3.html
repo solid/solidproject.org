@@ -1,236 +1,25 @@
-<!doctype html>
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>The Web — Take 3 · Solid</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="/favicon.ico?"
-    />
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="stylesheet" href="/style/header.css" />
-    <link rel="stylesheet" href="/style/footer.css" />
-  </head>
+---
+layout: default
+title: The Web — Take 3 · Solid
+body_id: page
+stylesheets:
+  - /assets/css/base.css
+breadcrumbs:
+  - title: "The Web — Take 3"
+---
 
-  <body>
-        <header class="header">
-      <address class="homepage-link">
-        <a href="/"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
-      </address>
-
-      <nav class="main-nav">
-        <ul>
-          <li><a href="/about.html">About Solid</a></li>
-          <li><a href="/for-users.html">For Users</a></li>
-          <li><a href="/for-developers.html">For Developers</a></li>
-          <li><a href="/for-organizations.html">For Organizations</a></li>
-          <li><a href="/community.html">Community</a></li>
-        </ul>
-      </nav>
-
-      <button class="hamburger-menu" aria-label="Toggle navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </header>
-
-
-    <div id="draft-warning"></div>
-<script>
-  if (
-    document.location.hostname === 'localhost'
-    || document.location.hostname === 'solid.github.io'
-    || document.location.hostname.substring(document.location.hostname.length - 10) === "vercel.app"
-    || document.location.hostname.substring(document.location.hostname.length - 11) === "netlify.app"
-  ) {
-    const draftWarningElement = document.getElementById('draft-warning')
-    draftWarningElement.innerHTML = `
-      <div class="message is-danger is-large" role="alert">
-        <div class="message-body">
-          You are currently viewing historical content of the Solid website. If you are looking for reliable information, visit the live site at <a href="https://solidproject.org/take3" title="The official Solid website">SolidProject.org</a>.
-        </div>
-      </div>
-    `;
-  }
-</script>
-
-
+<article>
+  <h1>The Web — Take 3</h1>
+  <figure class="quote">
+    <blockquote>
+      <p>The original web, call it web 1, allowed people if they were technically capable to make their own web sites, to blog and to link from their own work to other work they valued. (This used URLs, HTTP and HTML).</p>
     
-  <nav id="breadcrumb" class="breadcrumb">
-    <div class="container">
-      <ul>
-        <li>
-          <a href="/">
-            Home
-          </a>
-        </li>
-        
-        
-        
-        
-        
-          <li>
-            <a href="">
-              The Web — Take 3
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </nav>
-
-
-    <main id="main">
-      <div class="container">
-  <div class="columns">
-    <div class="column is-two-thirds">
-      <article class="section content">
-        <p>The original web, call it web 1, allowed people if they were technically capable to make their own web sites, to blog and to link from their own work to other work they valued. (This used URLs, HTTP and HTML).</p>
-
-<p>With web 2, specific web sites, using the web app technology (JavaScript), provided social and interactive functionality to users, so they could interact together and  in groups. This relied on the social network sites (SNS) storing all the data about all of the people and creating new value and insight – for the user but also for ad systems which ran the companies revenue stream.  “Web 2.0” as some people call it is based on user-generated content.</p>
-
-<p>Solid, as a new wave, we like to call the web – take 3. It can be thought of as mid-course correction for the web. It does add more power, but also questions and throttles back the emphasis on the only revenue model for the web being ads, and flips the privacy world right-side up.</p>
-
-<p>The original goal of the web was to be a place for people to be able to work really well together. To be able to be creative together (“Intercreativity”) and to be able to collaborate really well – and now I would add compassion at a distance. It is maybe not surprising that this didn’t happen when you think of the fact that we did not have a common identity, so we could not do simple global access control. In fact most collaborative work is typically restricted to a few people at first, and then released to more and more, the lack of access control was a clear problem. Of course the social networks solved the problem within their own systems with their own specific identity and access control, but these were not standard, not interoperable, and meant you had to have your entire life and work within one silo for it to work.</p>
-
-<p>– Tim Berners Lee</p>
-
-      </article>
-    </div>
-    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
-      <div class="menu is-large">
-        
-      </div>
-    </aside>
-  </div>
-</div>
-
-    </main>
-        <footer class="footer">
-      <dl class="footer-nav">
-        <dt>
-          <a href="/">Home</a>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/about">About Solid</a>
-            </li>
-            <li>
-              <a href="/for-users">Using Solid</a>
-            </li>
-            <li>
-              <a href="/users/get-a-pod">Get a Pod</a>
-            </li>
-            <li>
-              <a href="/apps">Solid Apps</a>
-            </li>
-            <li>
-              <a href="/team">Team</a>
-            </li>
-            <li>
-              <a href="/faqs">FAQs</a>
-            </li>
-            <li>
-              <a href="/terms">Terms of Use</a>
-            </li>
-            <li>
-              <a href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a>
-            </li>
-          </ul>
-        </dd>
+      <p>With web 2, specific web sites, using the web app technology (JavaScript), provided social and interactive functionality to users, so they could interact together and in groups. This relied on the social network sites (SNS) storing all the data about all of the people and creating new value and insight – for the user but also for ad systems which ran the companies revenue stream. "Web 2.0" as some people call it is based on user-generated content.</p>
     
-        <dt>
-          <span>What's New</span>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/newsletter">Newsletter</a>
-            </li>
-            <li>
-              <a href="/events">Solid Events</a>
-            </li>
-            <li>
-              <a href="/press">Press</a>
-            </li>
-          </ul>
-        </dd>
+      <p>Solid, as a new wave, we like to call the web – take 3. It can be thought of as mid-course correction for the web. It does add more power, but also questions and throttles back the emphasis on the only revenue model for the web being ads, and flips the privacy world right-side up.</p>
     
-        <dt>
-          <a href="/for-developers">Developers</a>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/developers/tutorials/getting-started">Getting Started</a>
-            </li>
-            <li>
-              <a href="https://forum.solidproject.org">Forum</a>
-            </li>
-            <li>
-              <a href="/for-organizations">Organizations</a>
-            </li>
-            <li>
-              <a href="/for-community">Community</a>
-            </li>
-          </ul>
-        </dd>
-    
-        <dt>
-          <span>More</span>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/TR">Specifications</a>
-            </li>
-            <li>
-              <a href="/license">License</a>
-            </li>
-            <li>
-              <a href="/logo-usage-guidelines">Logo usage guidelines</a>
-            </li>
-            <li>
-              <a href="https://github.com/solid/solidproject.org/issues/new">Website feedback</a>
-            </li>
-            <li>
-              <a href="https://service.theodi.org/help/1476250723">Support</a>
-            </li>
-          </ul>
-        </dd>
-      </dl>
-      <nav class="social-nav" role="navigation" aria-label="navigation">
-        <ul>
-          <li>
-            <a href="/">
-              <img src="/assets/img/solid-emblem.svg" alt="[Solid logo]" />
-            </a>
-          </li>
-          <li>
-            <a href="mailto:info@solidproject.org">
-              info@solidproject.org
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/solid/" title="Solid on GitHub">
-              <img src="/image/github.svg" alt="GitHub" class="brand-icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://vimeo.com/solidworld" title="Solid on Vimeo">
-              <img src="/image/vimeo-v.svg" alt="Vimeo" class="brand-icon" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-
-    <script src="/assets/js/menu.js"></script>
-  </body>
-
-
-</html>
+      <p>The original goal of the web was to be a place for people to be able to work really well together. To be able to be creative together ("Intercreativity") and to be able to collaborate really well – and now I would add compassion at a distance. It is maybe not surprising that this didn't happen when you think of the fact that we did not have a common identity, so we could not do simple global access control. In fact most collaborative work is typically restricted to a few people at first, and then released to more and more, the lack of access control was a clear problem. Of course the social networks solved the problem within their own systems with their own specific identity and access control, but these were not standard, not interoperable, and meant you had to have your entire life and work within one silo for it to work.</p>
+    </blockquote>
+    <figcaption class="quote-author">Tim Berners Lee</figcaption>
+  </figure>
+</article>

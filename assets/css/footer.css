@@ -2,14 +2,8 @@
 .footer {
     background-color: #202542;
     color: #d8d8d8;
-    font-size: 1.2rem;
-    padding: 2rem 3.2rem;
-}
-
-.footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    font-size: 1rem;
+    padding: 3.2rem 3.2rem 3.1rem 3.1rem;
 }
 
 .footer a {
@@ -37,7 +31,17 @@
     padding: 0;
 }
 
+.footer .footer-nav dt {
+    font-size: 1.2rem;
+}
+
 .footer .footer-nav dd {
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer-nav dd ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -85,7 +89,7 @@
 
 /* Footer social nav styles */
 .footer .social-nav {
-    margin-top: 3rem;
+    margin-top: 3.2rem;
 }
 
 .footer .social-nav ul {
@@ -111,6 +115,10 @@
     transition: color 0.2s ease;
 }
 
+.footer .social-nav .homepage-link a {
+    padding: 0;
+}
+
 .footer .social-nav a:hover,
 .footer .social-nav a:focus {
     color: #fff;
@@ -118,12 +126,11 @@
 }
 
 .footer .social-nav img {
-    height: 1.5rem;
+    width: 1.6rem;
 }
 
-/* Solid logo specific sizing */
-.footer .social-nav a[href="/"] img {
-    height: 3rem;
+.footer .social-nav .homepage-link img {
+    width: 3.06rem;
 }
 
 .footer .social-nav .brand-icon {
