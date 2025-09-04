@@ -2,7 +2,8 @@
 /TR/*    https://solid.github.io/specification/:splat    200
 /ED/*    https://solid.github.io/specification/ED/:splat    200
 # Remove .html extensions
-/index.html    /    301
+/index.html    /    301!
+/**/*.html    /:splat    301!
 # /**/*.html    /:splat    301
 # Remove /index
 # /**/index    /:splat/    301
