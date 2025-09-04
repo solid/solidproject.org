@@ -50,7 +50,7 @@
     "/implement": "https://solidproject.org//",
     "/job-board": "https://solidproject.org//",
     "/labs": "https://github.com/solid/solidproject.org/wiki/Research-labs",
-    "/origin": "https://solidproject.org//about",
+    "/origin": "https://solidproject.org/about",
     "/self-hosting": "https://solidproject.org//self-hosting/css",
     "/self-hosting/css": "https://solidproject.org//developers/tutorials/getting-started",
     "/self-hosting/css/nginx": "https://github.com/solid/solidproject.org/wiki/Using-NGINX-as-a-reverse-proxy",
