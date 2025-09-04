@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Solid
 email: info@solidproject.org
-url: 'https://solidproject.org/'
+base_url: "https://solidproject.org"
 github_username: solid
 repository: solid/solidproject.org
 include: 
