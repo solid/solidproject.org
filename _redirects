@@ -1,2 +1,7 @@
+# Redirects file supported by Netflify
 /TR/* https://solid.github.io/specification/:splat 200
 /ED/* https://solid.github.io/specification/ED/:splat 200
+/events.html /events 301
+/events/ /events 301
+/events/index /events 301
+/events/index.html /events 301
