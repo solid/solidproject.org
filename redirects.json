@@ -19,7 +19,6 @@
     "/developers/vocabularies/well-known/core": "https://github.com/solid/solidproject.org/wiki/Core-vocabularies-for-Linked-Data",
     "/developers/vocabularies/well-known/solid": "https://github.com/solid/solidproject.org/wiki/Vocabularies-essential-to-solid",
     "/developers/vocabularies/well-known/technical": "https://github.com/solid/solidproject.org/wiki/Vocabularies-describing-technical-standards",
-    "/events/": "/events",
     "/for-developers/": "https://solidproject.org//developers/",
     "/for-developers/apps/": "https://solidproject.org//developers/tutorials/first-app",
     "/for-developers/apps/first-app/": "https://solidproject.org//developers/tutorials/first-app",
