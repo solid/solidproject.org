@@ -94,10 +94,14 @@
 /labs                                        https://github.com/solid/solidproject.org/wiki/Research-labs           302
 /labs.html                                   https://github.com/solid/solidproject.org/wiki/Research-labs           302
 # 302 Found (moved temporarily) - internal links that might become their own page in the future
+/implement                                   /for-developers                                                        302
+/implement.html                              /for-developers                                                        302
 /origin                                      /about                                                                 302
 /origin.html                                 /about                                                                 302
 /self-hosting                                /developers/tutorials/getting-started                                  302
 /self-hosting.html                           /developers/tutorials/getting-started                                  302
+/standardisation                             /specification                                                         302
+/standardisation.html                        /specification                                                         302
 /this-week-in-solid                          /newsletter                                                            302
 /this-week-in-solid.html                     /newsletter                                                            302
 /users                                       /for-users                                                             302
