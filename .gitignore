@@ -1,6 +1,7 @@
 _site
-.sass-cache
-.jekyll-metadata
-
-vendor
 .bundle
+.DS_Store
+.jekyll-metadata
+.sass-cache
+.vscode
+vendor

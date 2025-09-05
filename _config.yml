@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Solid
+title: Solid Project
 email: info@solidproject.org
-url: 'https://solidproject.org/'
+base_url: "https://solidproject.org"
 github_username: solid
 repository: solid/solidproject.org
 include: 
