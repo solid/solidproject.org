@@ -6,6 +6,8 @@
 }
 
 body {
+    background-color: #202542;
+    color: #fff;
     font-family: 'Lato Regular', sans-serif;
     margin: 0;
     line-height: 32px;
@@ -13,7 +15,20 @@ body {
 
 /* Layout */
 main {
+    background-color: #fff;
+    color: #202542;
+    line-height: 1.625;
     padding: 3.1rem 3.2rem 3.2rem 3.1rem;
+}
+
+/* Default styles */
+main a {
+    color: #7C4DFF;
+    cursor: pointer;
+}
+main a:hover,
+main a:focus {
+    color: #363636;
 }
 
 /* Elements */
