@@ -24,7 +24,8 @@
   text-decoration: none;
 }
 
-.breadcrumb a:hover {
+.breadcrumb a:hover,
+.breadcrumb a:focus {
   text-decoration: underline;
 }
 

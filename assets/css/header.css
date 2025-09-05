@@ -19,6 +19,11 @@
     text-wrap: nowrap;
 }
 
+.header a:hover,
+.header a:focus {
+    color: #fff;
+}
+
 /* Homepage link */
 .header .homepage-link {
     align-items: center;

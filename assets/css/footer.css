@@ -13,6 +13,7 @@
 
 .footer a:hover,
 .footer a:focus {
+    color: #fff;
     text-decoration: underline;
 }
 
@@ -117,12 +118,6 @@
 
 .footer .social-nav .homepage-link a {
     padding: 0;
-}
-
-.footer .social-nav a:hover,
-.footer .social-nav a:focus {
-    color: #fff;
-    text-decoration: underline;
 }
 
 .footer .social-nav img {

@@ -2,12 +2,28 @@
 permalink: /404
 layout: default
 title: 404 Page Not Found
-stylesheets:
-  - /assets/css/base.css
 ---
 
 <article>
-  <h1>404</h1>
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <section>
+    <h1>Page not found</h1>
+    <p>Sorry, the page you're looking for doesn't exist.</p>
+    <p>You tried to access "<strong><span id="missing-page-url" style="text-decoration: underline;"></span></strong>".
+    </p>
+  </section>
+
+  <section>
+    <h2>Try these instead</h2>
+    <ul>
+      <li><a href="/">Solid Project Home Page</a></li>
+      <li><a href="/about">About Solid</a></li>
+      <li><a href="/for-users">Solid For Users</a></li>
+      <li><a href="/for-developers">Solid For Developers</a></li>
+      <li><a href="/for-organizations">Solid For Organizations</a></li>
+      <li><a href="/community">Solid Community</a></li>
+    </ul>
 </article>
+
+<script>
+  document.getElementById('missing-page-url').textContent = window.location.href;
+</script>
