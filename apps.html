@@ -12,6 +12,151 @@
     <link rel="stylesheet" href="/assets/css/main.css" />
     <link rel="stylesheet" href="/style/header.css" />
     <link rel="stylesheet" href="/style/footer.css" />
+    <style>
+      .apps-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0;
+      }
+      
+      .app-tile {
+        border: 1px solid #e1e5e9;
+        border-radius: 8px;
+        padding: 1.5rem;
+        background: white;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      
+      .app-tile:hover {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        transform: translateY(-2px);
+      }
+      
+      .app-tile h3 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.2rem;
+        color: #3273dc;
+      }
+      
+      .app-tile h3 a {
+        color: inherit;
+        text-decoration: none;
+      }
+      
+      .app-tile h3 a:hover {
+        text-decoration: underline;
+      }
+      
+      .app-category {
+        display: inline-block;
+        background: #f0f0f0;
+        color: #666;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      
+      .app-description {
+        color: #666;
+        line-height: 1.5;
+        font-size: 0.9rem;
+      }
+      
+      .app-description a {
+        color: #3273dc;
+        text-decoration: none;
+      }
+      
+      .app-description a:hover {
+        text-decoration: underline;
+      }
+      
+      .sort-controls {
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+        background: #f8f9fa;
+        border-radius: 8px;
+        border: 1px solid #e9ecef;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        align-items: flex-end;
+      }
+      
+      .control-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      
+      .sort-controls label {
+        font-weight: 600;
+        color: #495057;
+        font-size: 0.9rem;
+      }
+      
+      .sort-controls select {
+        padding: 0.5rem;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        background: white;
+        font-size: 0.9rem;
+        min-width: 200px;
+      }
+      
+      .sort-controls select:focus {
+        outline: none;
+        border-color: #3273dc;
+        box-shadow: 0 0 0 2px rgba(50, 115, 220, 0.25);
+      }
+      
+      .app-tile.hidden {
+        display: none;
+      }
+      
+      .app-tile h3 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1.2rem;
+        color: #3273dc;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .top-app-tag {
+        color: #ff6b35;
+        font-size: 1.8rem;
+        margin-left: 0.5rem;
+        flex-shrink: 0;
+      }
+      
+      .app-tile {
+        position: relative;
+      }
+      
+      .checkbox-label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 600;
+        color: #495057;
+        font-size: 0.9rem;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .checkbox-label input[type="checkbox"] {
+        margin: 0;
+        cursor: pointer;
+      }
+    </style>
   </head>
 
   <body>
@@ -86,367 +231,106 @@
     <main id="main">
       <div class="container">
   <div class="columns">
-    <div class="column is-two-thirds">
+    <div class="column">
       <article class="section content">
         <h1 id="solid-apps">Solid Apps</h1>
 
-<h2 id="showcase">Showcase</h2>
+<div class="sort-controls">
+  <div class="control-group">
+    <label for="sort-select">Sort by:</label>
+    <select id="sort-select">
+      <option value="">Default Order</option>
+      <option value="name-asc">Name (A-Z)</option>
+      <option value="name-desc">Name (Z-A)</option>
+      <option value="category-asc">Category (A-Z)</option>
+      <option value="category-desc">Category (Z-A)</option>
+    </select>
+  </div>
+  
+  <div class="control-group">
+    <label for="category-filter">Filter by category:</label>
+    <select id="category-filter">
+      <option value="all">All Categories</option>
+      <option value="Cooking">Cooking</option>
+      <option value="Movies">Movies</option>
+      <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
+      <option value="Pod Management">Pod Management</option>
+      <option value="TODO List">TODO List</option>
+    </select>
+  </div>
+  
+  <div class="control-group">
+    <label class="checkbox-label">
+      <input type="checkbox" id="top-apps-only">
+      <span class="checkmark"></span>
+      Show only featured apps
+    </label>
+  </div>
+</div>
 
-<table>
-  <thead>
-    <tr>
-      <th>Application</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://noeldemartin.github.io/media-kraken/">Media Kraken</a></td>
-      <td>Track your media and never miss a beat. <br />- <a href="https://github.com/NoelDeMartin/media-kraken/tree/main/docs">Documentation</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a><br />- <a href="https://github.com/NoelDeMartin/media-kraken">Source code</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a> <br />- <a href="https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333">Provide Feedback</a>.<br /></td>
-    </tr>
-    <tr>
-      <td><a href="https://penny.vincenttunru.com/">Penny</a></td>
-      <td>A general Pod Browser by <a href="https://vincenttunru.com/">Vincent Tunru</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://jeff-zucker.github.io/solid-content-manager/">Solid IDE</a></td>
-      <td>File manager and IDE. <br />- <a href="https://github.com/jeff-zucker/solid-content-manager">Source code</a> <a href="https://github.com/jeff-zucker/solid-content-manager/blob/master/LICENSE">MIT License Copyright © 2018</a> <a href="https://github.com/jeff-zucker">Jeff Zucker</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://otto-aa.github.io/solid-filemanager/">Solid File Manager</a></td>
-      <td>A Solid app that help you manages files in your Pod. <br />- <a href="https://github.com/Otto-AA/solid-filemanager">Source code</a> <a href="https://github.com/Otto-AA/solid-filemanager/blob/master/LICENSE">MIT License Copyright © 2019</a> <a href="https://github.com/Otto-AA">Otto AA</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://podpro.dev/">Pod Pro</a></td>
-      <td>An IDE for editing Solid Pods by Jasmine Leonard.</td>
-    </tr>
-    <tr>
-      <td><a href="https://graphmetrix.net/#/">graphMetrix</a></td>
-      <td>Allows you to browse your Solid Pod offering multiple views of information including overview, graph, doc, gallery and grid as well as easy to use Solid collaboration control and file management. 30 day free trial followed by a $10 per user/per month. © 2018 <a href="https://graphmetrix.com/#/solid">graphMetrix</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="social">Social</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Application</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://arquisoft.github.io/course1920.html#StudentProjects">Solid Chat Challenge Student Projects</a></td>
-      <td>Source code under MIT License Copyright © 2019 by students of <a href="http://www.uniovi.es">University de Oviedo</a> course led by <a href="http://labra.weso.es">Professor Jose Emilio Labra Gayo</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="movies">Movies</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Application</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://noeldemartin.github.io/media-kraken/">Media Kraken</a></td>
-      <td>Track your media and never miss a beat. <br />- <a href="https://github.com/NoelDeMartin/media-kraken/tree/main/docs">Documentation</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a><br />- <a href="https://github.com/NoelDeMartin/media-kraken">Source code</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a> <br />- <a href="https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333">Provide Feedback</a>.<br /></td>
-    </tr>
-    <tr>
-      <!-- see https://github.com/solid/solidproject.org/issues/923#issuecomment-2963113058 -->
-      <!--<td><a href="https://oxfordhcc.github.io/solid-media/">Solidflix</a></td>-->
-      <td><a href="https://me.ryey.icu/solid-media/">Solidflix</a></td>
-      <td>A movie tracking and sharing application with personalised recommendations. <br />- <a href="https://github.com/OxfordHCC/solid-media">Source Code</a> by <a href="https://www.cs.ox.ac.uk/research/HCC/">Oxford Human Centred Computing Group</a> (<a href="https://www.cs.ox.ac.uk/research/HCC/">EWADA</a> Project).</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="content-notes-blogging-and-publishing">Content, Notes, Blogging and Publishing</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Application</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td about="" rel="schema:mentions" resource="https://dokie.li/#i" prefix="doap: http://usefulinc.com/ns/doap#"><a href="https://dokie.li/" property="doap:name" rel="doap:homepage">dokieli</a></td>
-      <td about="https://dokie.li/#i" prefix="doap: http://usefulinc.com/ns/doap#">
-        <span property="schema:shortdesc">dokieli is a clientside editor for decentralised article publishing, annotations, and social interactions.</span>
-        <br />
-        - <span><a href="https://github.com/dokieli/dokieli/blob/main/LICENSE" rel="doap:license">Apache License, Version 2.0</a> © 2012-2025 <a href="https://csarven.ca/#i" rel="doap:maintainer">Sarven Capadisli</a></span>
-        <br />
-        - <span rel="doap:repository" resource="#dokieli-repository"><a href="https://git.dokie.li/" rel="doap:browse">Source</a></span>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="https://scenaristeur.github.io/booklice/">Booklice</a></td>
-      <td>Bookmarks app with community sharing. <a href="https://github.com/scenaristeur/booklice/">Source code</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="geolocation">Geolocation</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Application</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://arquisoft.github.io/course1920.html#SolidChallen2020">Solid Geolocation Challenge Entries</a></td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="other">Other</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Application</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://umai.noeldemartin.com">Umai</a></td>
-      <td>Offline-first Recipes Manager <a href="https://github.com/noeldemartin/umai">Source code</a> <a href="https://github.com/NoelDeMartin/umai/blob/main/LICENSE">GNU General Public License v3.0 © 2023</a> <a href="https://noeldemartin.com">Noel De Martin</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://hello.0data.app/solid/">0data Hello with Solid</a></td>
-      <td>Implements simple CRUD operations with the REST API and solid-file-client, writing to ‘tasks’. <a href="https://github.com/0dataapp/hello/tree/main/solid/solid-file-client">Source code</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="pod-management">Pod Management</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Application</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://otto-aa.github.io/solid-filemanager/">Solid File Manager</a></td>
-      <td>A Solid app that help you manage files in your Pod. <br />- <a href="https://github.com/Otto-AA/solid-filemanager">Source code</a> <a href="https://github.com/Otto-AA/solid-filemanager/blob/master/LICENSE">MIT License Copyright © 2019</a> <a href="https://github.com/Otto-AA">Otto AA</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://jeff-zucker.github.io/solid-content-manager/">Solid IDE</a></td>
-      <td>File manager and IDE. <br />- <a href="https://github.com/jeff-zucker/solid-content-manager">Source code</a> <a href="https://github.com/jeff-zucker/solid-content-manager/blob/master/LICENSE">MIT License Copyright © 2018</a> <a href="https://github.com/jeff-zucker">Jeff Zucker</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://graphmetrix.net/#/">graphMetrix</a></td>
-      <td>Allows you to browse your Solid Pod offering multiple views of information including overview, graph, doc, gallery and grid as well as easy to use Solid collaboration control and file management. 30 day free trial followed by a $10 per user/per month. 2018 <a href="https://graphmetrix.com/#/solid">graphMetrix</a></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td>LinkedPipes Applications create your own visualisers based on linked data. <br />- <a href="https://github.com/linkedpipes/applications">Source code</a> <a href="https://github.com/linkedpipes/applications/blob/master/LICENSE">Apache License 2.0 © 2018</a> <a href="https://github.com/jakubklimek">Jakub Klimek</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://penny.vincenttunru.com/">Penny</a></td>
-      <td>A general Pod Browser by <a href="https://vincenttunru.com/">Vincent Tunru</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://browser.pod-os.org/">PodOS Browser</a></td>
-      <td>Browse and manage the things in your Pod. Based on <a href="http://pod-os.org">PodOS</a>.</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="historical-apps">Historical apps</h2>
-<p>The following apps are not known to be compatible with current mainstream Solid pod servers such as the ones listed on our <a href="/users/get-a-pod.html">get a pod</a> page.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Application</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://liqid.chat/">Liqid Chat</a></td>
-      <td>by <a href="https://github.com/jaxoncreed">Jackson Morgan</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://profiles.veltens.org">Solid Profile Viewer</a></td>
-      <td>A react app to view and browse Solid WebID profiles. <br />- <a href="https://gitlab.com/angelo-v/solid-profile-viewer">source code</a> is under <a href="https://gitlab.com/angelo-v/solid-profile-viewer/blob/master/LICENSE">MIT License Copyright © 2018</a> by <a href="https://angelo.veltens.org/profile/card#me">Angelo Veltens</a>)</td>
-    </tr>
-    <tr>
-      <td><a href="https://taisukef.github.io/solid-addfriend/">Taisukef</a></td>
-      <td>Add friends.  <br />- <a href="https://github.com/taisukef/solid-addfriend/tree/master">Source code</a> from 2018 by <a href="https://github.com/taisukef">Taisuke Fukuno</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://linkeddata.github.io/profile-editor/">WebID Profile editor</a></td>
-      <td><a href="https://github.com/linkeddata/profile-editor">Source code</a> <a href="https://github.com/linkeddata/profile-editor/blob/master/LICENSE">MIT License Copyright © 2015</a><a href="https://github.com/deiu">Andrei Sambra</a></td>
-    </tr>
-    <tr>
-      <td><a href="http://youid.openlinksw.com">OpenLink YouID</a></td>
-      <td>Identity and credentials document generator that creates X.509 certificates and saves WebID-Profile documents in any Solid Pod and sets up the relations required for WebID-TLS and WebID-TLS+Delegation.<br />Copyright © 2013-2023 <a href="http://openlinksw.com">OpenLink Software Inc</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://gitlab.com/angelo-v/solid-groups">Solid Groups</a></td>
-      <td>Lets you form social groups on a Solid Pod. Under <a href="https://gitlab.com/angelo-v/solid-groups/-/blob/main/LICENSE">MIT License Copyright © 2020</a> by <a href="https://angelo.veltens.org/profile/card#me">Angelo Veltens</a>.</td>
-    </tr>
-    <tr>
-      <td><a href="https://gca-solid.now.sh/login">Golf Companion Assistant</a></td>
-      <td><a href="https://github.com/michaud/gca-solid">Source code</a> under <a href="https://github.com/michaud/gca-solid/blob/master/LICENCE">GNU Affero General Public License © 2020</a> <a href="https://github.com/michaud">Michaud</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://notepod.vincenttunru.com/">Notepod</a></td>
-      <td>A simple note-taking app that stores notes in your Solid Pod. <br />- <a href="https://github.com/Vinnl/notepod">Source code</a> by <a href="https://github.com/Vinnl">Vincent Tunru</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://edit.o.team">OEdit</a></td>
-      <td>An editor app for raw files using the vs interface. <br />- <a href="https://github.com/jaxoncreed/o-edit">source code</a> by <a href="https://github.com/jaxoncreed">Jackson Morgan</a>.</td>
-    </tr>
-    <tr>
-      <td><a href="https://thewebalyst.solidcommunity.net/plume/">Plume</a></td>
-      <td>Blogging platform. <br />- <a href="https://github.com/theWebalyst/solid-plume/">Source code</a> <a href="https://github.com/theWebalyst/solid-plume/blob/gh-pages/LICENSE">MIT License Copyright © 2015</a> <a href="https://github.com/deiu">Andrei Sambra</a></td>
-    </tr>
-    <tr>
-      <td><a href="http://profile.pondersource.net">solidProfileEditor</a></td>
-      <td>A Solid app to view and edit your profile data. <br />- <a href="https://github.com/pondersource/solidProfileEditor">solidProfileEditor</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://bookmarks.pondersource.net">solidBookmarker</a></td>
-      <td>A Solid app to manage your bookmarks. <br />- <a href="https://github.com/pondersource/solidBookmarker">solidBookmarker</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://vincenttunru.gitlab.io/poddit/">poddit</a></td>
-      <td>Bookmarking app. <br />- <a href="https://gitlab.com/vincenttunru/poddit/">Source code</a> © 2019 Vincent Tunru.</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/SharonStrats/SOLIDLBSPrototype">Solid LBS</a><br />(deployed as <a href="https://sigmafied.com">Sigmafied</a>)</td>
-      <td>© 2019. <a href="https://github.com/SharonStrats">Sharon Statsianis</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://spoggy.herokuapp.com/">Spoggy</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://bitbucket.org/dylanmartin/solidweatherapp/src/master/">Solid Weather</a></td>
-      <td>Uses the <a href="https://www.weather.gov/documentation/services-web-api">National Weather Service API</a> so it is currently only able to fetch weather in the United States. <br /> © 2019. Dylan Martin.</td>
-    </tr>
-    <tr>
-      <td><a href="https://applications.linkedpipes.com/">Linked Pipes Applications</a></td>
-      <td>Linked Data visualizations sharing and collaboration via Solid. © 2020. <a href="https://github.com/linkedpipes/applications">Source code</a> <a href="https://doi.org/10.1007/978-3-030-62327-2_25">Paper</a> <a href="https://github.com/aorumbayev">@aorumbayev</a> <a href="https://github.com/jakubklimek">@jakubklimek</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://melvincarvalho.github.io/helloworld/">Hello World</a></td>
-      <td><a href="https://github.com/melvincarvalho/helloworld">Source code</a> <a href="https://github.com/melvincarvalho/helloworld/blob/gh-pages/LICENSE">MIT License Copyright © 2015</a> <a href="https://github.com/melvincarvalho">Melvin Carvalho</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://chromewebstore.google.com/detail/webclip-clip-all-the-thin/mfgjcggbpdkbnnpgllaicoeplfgkfnkj">WebClip</a></td>
-      <td>Chrome extension to extract structured data from any web page and store it to a Solid Pod. <a href="https://github.com/codecentric/web-clip">Source code</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://drive.owntech.de">drive</a></td>
-      <td>Tool to create and share resources with contacts</td>
-    </tr>
-    <tr>
-      <td><a href="https://scenaristeur.github.io/solid-vue-panes">PoPock</a></td>
-      <td>Your POds in the POCKet. A very modular SoLiD application that is based on webcomponents, vuejs, vue-bootstrap, using community libs like solid-file-client, ldflex-query, tripledoc switching. <a href="https://github.com/scenaristeur/solid-vue-panes">source</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://ohmypod.netlify.com/login">OhMyPod!</a></td>
-      <td>An app to manage your Pod. <br />- <a href="https://github.com/empathyco/oh-my-pod">Source code</a> is under <a href="https://github.com/empathyco/oh-my-pod/blob/master/LICENSE">GNU Lesser General Public License v3.0 (2) 2020</a> by <a href="https://www.empathy.co/">Empathy</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://bourgeoa.solidcommunity.net/public/tiddlywiki">Tiddlywiki</a></td>
-      <td>A Pod store. <br />- <a href="https://github.com/bourgeoa/tiddlywiki-node-solid-server">Source code</a> <a href="https://github.com/bourgeoa/tiddlywiki-node-solid-server/blob/master/LICENSE">MIT License Copyright © 2019</a> <a href="https://github.com/bourgeoa">Alain Bourgeois</a></td>
-    </tr>
-    <tr>
-      <td><a href="http://osde.openlinksw.com">OpenLink Structured Data Editor (OSDE)</a></td>
-      <td>RDF editor that can save content to any Solid Pod. <br /> - © 2019-2023 <a href="http://www.openlinksw.com">OpenLink Software Inc</a></td>
-    </tr>
-    <tr>
-      <td><a href="http://ods.openlinksw.com/wiki/ODS/OdsBriefcase">ODS-Briefcase</a></td>
-      <td>A module of <a href="http://ods.openlinksw.com/wiki/ODS/">OpenLink Data Spaces (ODS)</a>, ODS-Briefcase includes <a href="https://medium.com/virtuoso-blog/d25ab3dd27d9">Dynamic Extended Type (DET) WebDAV/LDP Folder</a> support for Solid Pods, enabling read/write access for any WebDAV-compliant client, subject to Briefcase-managed ACLs. (Briefcase connects to the Pod as the Pod Owner, so has full privileges.) <br /> - © 2019-2023 <a href="http://www.openlinksw.com">OpenLink Software Inc</a></td>
-    </tr>
-    <tr>
-      <td><a href="http://osds.openlinksw.com">OpenLink Structured Data Sniffer (OSDS)</a></td>
-      <td>Extracts Metadata in a variety of notations from HTML docs and enables storage to any Solid Pod via “Save As” feature. <br />- © 2019-2023 <a href="http://www.openlinksw.com">OpenLink Software Inc</a></td>
-    </tr>
-    <tr>
-      <td><a href="http://linkeddata.uriburner.com/sparql">URIBurner</a></td>
-      <td>SPARQL Query Service Endpoint that supports WebID-OIDC for authenticating WebIDs en route to functionality that isn’t granted to the un-authenticated Public; e.g., “generating descriptions of any Web-Accessible Document in RDF, and publishing said description in 5-Star Linked Data form” <br />- © 2019-2023 <a href="http://www.openlinksw.com">OpenLink Software Inc</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://bourgeoa.solidcommunity.net/public/solid-file-widget/">Solid authorization Widget</a> component for web app.</td>
-      <td><a href="https://github.com/bourgeoa/solid-file-widget">source code</a> is under <a href="https://github.com/bourgeoa/solid-file-widget/blob/master/LICENSE">MIT License Copyright © 2019 </a> by <a href="https://github.com/bourgeoa/solid-file-widget/blob/master/LICENSE">Bourgeoa</a></td>
-    </tr>
-    <tr>
-      <td><a href="http://osdb.openlinksw.com">OpenLink Smart Data Bot (OSDB)</a></td>
-      <td>Distills actions from API documentation constructed using RDF or OpenAPI; supports WebID-OIDC for authentication © 2019-2023 <a href="http://www.openlinksw.com">OpenLink Software Inc</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://bourgeoa.solidcommunity.net/public/solid-file-widget/">Solid File Widget</a></td>
-      <td>Widget authorisation. <br />- <a href="https://github.com/bourgeoa/solid-file-widget">Source code</a> is under <a href="https://github.com/bourgeoa/solid-file-widget/blob/master/LICENSE">MIT License Copyright © 2019</a> by <a href="https://github.com/bourgeoa">Alain Bourgeois</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="apps-installed-from-source">Apps installed from Source</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Application</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/solid/solid-inbox">Inbox</a></td>
-      <td>Processes notifications. <a href="https://github.com/solid/solid-inbox/">Source code</a> <a href="https://github.com/solid/solid-inbox/blob/gh-pages/LICENSE.md">MIT License Copyright © 2015</a> <a href="https://github.com/deiu">Andrei Sambra</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/KNowledgeOnWebScale/knoodle/">KNoodle</a></td>
-      <td>A solid-based alternative to Doodle</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/solid/solid-signup">Solid Signup app</a></td>
-      <td>For creating WebID accounts with Solid compatible providers. <br />- <a href="https://github.com/solid/solid-signup">Source code</a> <a href="https://github.com/solid/solid-signup/blob/gh-pages/LICENSE.md">MIT License Copyright © 2015</a> <a href="https://github.com/deiu">Andrei Sambra</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://bitbucket.org/dylanmartin/solidweatherapp/src/master/">Solid Weather</a></td>
-      <td>Uses the national weather service API so it is currently only able to fetch weather in the United States. <br /> 2019. Dylan Martin.</td>
-    </tr>
-    <tr>
-      <td><a href="https://bitbucket.org/dylanmartin/solidcalendar/src/master/">Solid Calendar</a></td>
-      <td>A way to create, store, and query events using a user’s card. <br />2019. Dylan Martin.</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/jasonpaulos/solid-health">Solid Health</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/kezike/solid-vc">SolidVC</a></td>
-      <td><a href="https://w3c.github.io/vc-data-model/">Verifiable Credentials</a> framework developed within the context of Solid.</td>
-    </tr>
-    <tr>
-      <td><a href="https://gitlab.com/omd_public/assemblage">Assemblage</a></td>
-      <td>A composable data browser aimed to provide a great user experience for Solid POD services, as well as other RDF sources, for both desktop and mobile web browsers. <a href="https://gitlab.com/omd_public/assemblage">Source code</a> and <a href="https://youtu.be/hYFEBAdkzmc">demo video</a>.</td>
-    </tr>
-  </tbody>
-</table>
+<div class="apps-grid" id="apps-grid">
+  
+  <div class="app-tile" data-name="Media Kraken" data-category="Movies">
+    <h3><a href="https://noeldemartin.github.io/media-kraken/">Media Kraken</a><span class="top-app-tag">★</span></h3>
+    <div class="app-category">Movies</div>
+    <div class="app-description">Track your media and never miss a beat. <br />- <a href="https://github.com/NoelDeMartin/media-kraken/tree/main/docs">Documentation</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a><br />- <a href="https://github.com/NoelDeMartin/media-kraken">Source code</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a> <br />- <a href="https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333">Provide Feedback</a>.<br /></div>
+  </div>
+  
+  <div class="app-tile" data-name="Penny" data-category="Pod Management">
+    <h3><a href="https://penny.vincenttunru.com/">Penny</a><span class="top-app-tag">★</span></h3>
+    <div class="app-category">Pod Management</div>
+    <div class="app-description">A general Pod Browser by <a href="https://vincenttunru.com/">Vincent Tunru</a></div>
+  </div>
+  
+  <div class="app-tile" data-name="Umai" data-category="Cooking">
+    <h3><a href="https://umai.noeldemartin.com">Umai</a><span class="top-app-tag">★</span></h3>
+    <div class="app-category">Cooking</div>
+    <div class="app-description">Offline-first Recipes Manager <a href="https://github.com/noeldemartin/umai">Source code</a> <a href="https://github.com/NoelDeMartin/umai/blob/main/LICENSE">GNU General Public License v3.0 © 2023</a> <a href="https://noeldemartin.com">Noel De Martin</a></div>
+  </div>
+  
+  <div class="app-tile" data-name="0data Hello with Solid" data-category="TODO List">
+    <h3><a href="https://hello.0data.app/solid/">0data Hello with Solid</a></h3>
+    <div class="app-category">TODO List</div>
+    <div class="app-description">Implements simple CRUD operations with the REST API and solid-file-client, writing to 'tasks'. <a href="https://github.com/0dataapp/hello/tree/main/solid/solid-file-client">Source code</a></div>
+  </div>
+  
+  <div class="app-tile" data-name="Booklice" data-category="Content, Notes, Blogging and Publishing">
+    <h3><a href="https://scenaristeur.github.io/booklice/">Booklice</a></h3>
+    <div class="app-category">Content, Notes, Blogging and Publishing</div>
+    <div class="app-description">Bookmarks app with community sharing. <a href="https://github.com/scenaristeur/booklice/">Source code</a></div>
+  </div>
+  
+  <div class="app-tile" data-name="dokieli" data-category="Content, Notes, Blogging and Publishing" about="" rel="schema:mentions" resource="https://dokie.li/#i" prefix="doap: http://usefulinc.com/ns/doap#">
+    <h3><a href="https://dokie.li/" property="doap:name" rel="doap:homepage">dokieli</a></h3>
+    <div class="app-category">Content, Notes, Blogging and Publishing</div>
+    <div class="app-description" property="doap:shortdesc">dokieli is a clientside editor for decentralised article publishing, annotations, and social interactions. <br />- <a href="https://github.com/dokieli/dokieli/blob/main/LICENSE" rel="doap:license">Apache License, Version 2.0</a> © 2012-2025 <a href="https://csarven.ca/#i" rel="doap:maintainer">Sarven Capadisli</a> <br />- <span rel="doap:repository" resource="#dokieli-repository"><a href="https://git.dokie.li/" rel="doap:browse">Source</a></span></div>
+  </div>
+  
+  <div class="app-tile" data-name="Pod Pro" data-category="Pod Management">
+    <h3><a href="https://podpro.dev/">Pod Pro</a></h3>
+    <div class="app-category">Pod Management</div>
+    <div class="app-description">An IDE for editing Solid Pods by Jasmine Leonard.</div>
+  </div>
+  
+  <div class="app-tile" data-name="PodOS Browser" data-category="Pod Management">
+    <h3><a href="https://browser.pod-os.org/">PodOS Browser</a></h3>
+    <div class="app-category">Pod Management</div>
+    <div class="app-description">Browse and manage the things in your Pod. Based on <a href="https://pod-os.org">PodOS</a>.</div>
+  </div>
+  
+  <div class="app-tile" data-name="Solid File Manager" data-category="Pod Management">
+    <h3><a href="https://otto-aa.github.io/solid-filemanager/">Solid File Manager</a></h3>
+    <div class="app-category">Pod Management</div>
+    <div class="app-description">A Solid app that help you manage files in your Pod. <br />- <a href="https://github.com/Otto-AA/solid-filemanager">Source code</a> <a href="https://github.com/Otto-AA/solid-filemanager/blob/master/LICENSE">MIT License Copyright © 2019</a> <a href="https://github.com/Otto-AA">Otto AA</a></div>
+  </div>
+  
+  <div class="app-tile" data-name="Solidflix" data-category="Movies">
+    <h3><a href="https://me.ryey.icu/solid-media/">Solidflix</a></h3>
+    <div class="app-category">Movies</div>
+    <div class="app-description">A movie tracking and sharing application with personalised recommendations. <br />- <a href="https://github.com/OxfordHCC/solid-media">Source Code</a> by <a href="https://www.cs.ox.ac.uk/research/HCC/">Oxford Human Centred Computing Group</a> (<a href="https://www.cs.ox.ac.uk/research/HCC/">EWADA</a> Project).</div>
+  </div>
+  
+</div>
 
 <h2 id="app-inclusion-and-exclusion-criteria">App inclusion and exclusion criteria</h2>
 
@@ -476,26 +360,6 @@
 
       </article>
     </div>
-    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
-      <div class="menu is-large">
-        <ul class="menu-list">
-  <li><a href="#solid-apps">Solid Apps</a>
-    <ul>
-      <li><a href="#showcase">Showcase</a></li>
-      <li><a href="#social">Social</a></li>
-      <li><a href="#games">Games</a></li>
-      <li><a href="#movies">Movies</a></li>
-      <li><a href="#content-notes-blogging-and-publishing">Content, Notes, Blogging and Publishing</a></li>
-      <li><a href="#geolocation">Geolocation</a></li>
-      <li><a href="#other">Other</a></li>
-      <li><a href="#pod-management">Pod Management</a></li>
-      <li><a href="#apps-installed-from-source">Apps installed from Source</a></li>
-      <li><a href="#app-inclusion-and-exclusion-criteria">App inclusion and exclusion criteria</a></li>
-    </ul>
-  </li>
-</ul>
-      </div>
-    </aside>
   </div>
 </div>
 
@@ -620,6 +484,154 @@
       </nav>
     </footer>
 
+<script>
+// App tiles sorting and filtering functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const sortSelect = document.getElementById('sort-select');
+  const categoryFilter = document.getElementById('category-filter');
+  const topAppsOnlyCheckbox = document.getElementById('top-apps-only');
+  const appsGrid = document.getElementById('apps-grid');
+  const appTiles = Array.from(appsGrid.querySelectorAll('.app-tile'));
+
+  // Store current state
+  let currentSort = 'name-asc';
+  let currentFilter = 'all';
+  let showTopAppsOnly = false;
+
+  // Function to sort app tiles
+  function sortAppTiles(sortValue) {
+    currentSort = sortValue;
+    const tiles = Array.from(appsGrid.querySelectorAll('.app-tile:not(.hidden)'));
+    
+    if (!sortValue) {
+      // Return to default order - restore original order based on data attributes
+      const defaultOrder = [
+        'Media Kraken',
+        'Penny',
+        'Umai',
+        '0data Hello with Solid',
+        'Booklice',
+        'dokieli',
+        'Pod Pro', 
+        'PodOS Browser',
+        'Solid File Manager',
+        'Solidflix'
+      ];
+      
+      tiles.sort((a, b) => {
+        const aName = a.getAttribute('data-name');
+        const bName = b.getAttribute('data-name');
+        const aIndex = defaultOrder.indexOf(aName);
+        const bIndex = defaultOrder.indexOf(bName);
+        return aIndex - bIndex;
+      });
+    } else {
+      // Apply sorting based on sortValue
+      tiles.sort((a, b) => {
+        let aValue, bValue;
+        
+        if (sortValue.startsWith('name')) {
+          aValue = a.getAttribute('data-name').toLowerCase();
+          bValue = b.getAttribute('data-name').toLowerCase();
+        } else if (sortValue.startsWith('category')) {
+          aValue = a.getAttribute('data-category').toLowerCase();
+          bValue = b.getAttribute('data-category').toLowerCase();
+        } else {
+          return 0;
+        }
+        
+        let comparison = 0;
+        if (aValue < bValue) comparison = -1;
+        if (aValue > bValue) comparison = 1;
+        
+        return sortValue.endsWith('desc') ? -comparison : comparison;
+      });
+    }
+
+    // Reorder tiles in the grid
+    tiles.forEach(tile => appsGrid.appendChild(tile));
+  }
+
+  // Function to filter app tiles
+  function filterAppTiles(category, topAppsOnly = false) {
+    if (!category) return;
+    
+    currentFilter = category;
+    showTopAppsOnly = topAppsOnly;
+    let visibleCount = 0;
+    
+    appTiles.forEach(tile => {
+      const tileCategory = tile.getAttribute('data-category');
+      const isTopApp = tile.querySelector('.top-app-tag') !== null;
+      
+      let shouldShow = false;
+      
+      if (topAppsOnly) {
+        // Only show top apps that match the category filter
+        shouldShow = isTopApp && (category === 'all' || tileCategory === category);
+      } else {
+        // Show all apps that match the category filter
+        shouldShow = category === 'all' || tileCategory === category;
+      }
+      
+      if (shouldShow) {
+        tile.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        tile.classList.add('hidden');
+      }
+    });
+
+    // Show message if no apps match the filter
+    let noResultsMessage = appsGrid.querySelector('.no-results-message');
+    if (visibleCount === 0) {
+      if (!noResultsMessage) {
+        noResultsMessage = document.createElement('div');
+        noResultsMessage.className = 'no-results-message';
+        noResultsMessage.innerHTML = '<p>No apps found matching your criteria.</p>';
+        appsGrid.appendChild(noResultsMessage);
+      }
+    } else if (noResultsMessage) {
+      noResultsMessage.remove();
+    }
+  }
+
+  // Function to apply both filter and sort
+  function applyFilterAndSort() {
+    filterAppTiles(currentFilter, showTopAppsOnly);
+    sortAppTiles(currentSort);
+  }
+
+  // Event listeners for sort and filter controls
+  if (sortSelect) {
+    sortSelect.addEventListener('change', function() {
+      currentSort = this.value;
+      applyFilterAndSort();
+    });
+  }
+
+  if (categoryFilter) {
+    categoryFilter.addEventListener('change', function() {
+      currentFilter = this.value;
+      applyFilterAndSort();
+    });
+  }
+
+  if (topAppsOnlyCheckbox) {
+    topAppsOnlyCheckbox.addEventListener('change', function() {
+      showTopAppsOnly = this.checked;
+      applyFilterAndSort();
+    });
+  }
+
+  // Initialize without default sorting to maintain current order
+  if (sortSelect) {
+    sortSelect.value = '';
+  }
+  // Only apply filter, not sorting
+  filterAppTiles(currentFilter, showTopAppsOnly);
+});
+</script>
     <script src="/assets/js/menu.js"></script>
   </body>
 
