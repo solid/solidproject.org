@@ -1,7 +1,9 @@
 ---
 permalink: /404
 layout: default
-title: 404 Page Not Found
+title: Page Not Found - 404
+breadcrumbs:
+- title: "Page Not Found - 404"
 ---
 
 <article>
@@ -11,7 +13,6 @@ title: 404 Page Not Found
     <p>You tried to access "<strong><span id="missing-page-url" style="text-decoration: underline;"></span></strong>".
     </p>
   </section>
-
   <section>
     <h2>Try these instead</h2>
     <ul>
@@ -23,7 +24,6 @@ title: 404 Page Not Found
       <li><a href="/community">Solid Community</a></li>
     </ul>
 </article>
-
 <script>
   document.getElementById('missing-page-url').textContent = window.location.href;
 </script>
