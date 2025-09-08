@@ -2,21 +2,29 @@
 /TR/*                                           https://solid.github.io/specification/:splat                        200
 /ED/*                                           https://solid.github.io/specification/ED/:splat                     200
 # Redirect index.html
+/index                                          /                                                                   301
 /index.html                                     /                                                                   301!
-# Remove HTML extension and proper redirect previously existing corresponding index.html files
-/404.html                                       /404                                                                301
+# Remove HTML extension and redirect index.html (courtesy for handling previously existing generated artifacts)
+/404.html                                       /404                                                                301!
 /about.html                                     /about                                                              301!
+/about/index                                    /about                                                              301
 /about/index.html                               /about                                                              301
-/apps.html                                      /apps                                                               301
+/apps.html                                      /apps                                                               301!
+/apps/index                                     /apps                                                               301
 /apps/index.html                                /apps                                                               301
 /community.html                                 /community                                                          301!
+/community/index                                /community                                                          301
+/community/index.html                           /community                                                          301
 /contributing.html                              /contributing                                                       301!
+/contributing/index                             /contributing                                                       301
 /contributing/index.html                        /contributing                                                       301
-/developers/index.html                          /for-developers                                                     301
 /events.html                                    /events                                                             301!
+/events/index                                   /events                                                             301
+/events/index.html                              /events                                                             301
 /FAQ.html                                       /FAQ                                                                301!
 /faqs                                           /FAQ                                                                301!
 /faqs.html                                      /FAQ                                                                301!
+/developers/index.html                          /for-developers                                                     301
 /for-developers.html                            /for-developers                                                     301!
 /for-developers/index.html                      /for-developers                                                     301
 /for-enterprises/index.html                     /for-organizations                                                  301
