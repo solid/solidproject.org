@@ -20,3 +20,8 @@ github_username: solid
 repository: solid/solidproject.org
 include: 
   - _redirects
+exclude:
+  - docker-compose.yml
+  - LICENSE.md
+  - README.md
+
