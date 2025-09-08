@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Solid Project
-email: info@solidproject.org
+email: solid@theodi.org
 base_url: "https://solidproject.org"
 github_username: solid
 repository: solid/solidproject.org
