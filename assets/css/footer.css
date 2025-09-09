@@ -9,6 +9,7 @@
 .footer a {
     color: #d8d8d8;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .footer a:hover,
@@ -27,7 +28,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto;
-    gap: .5rem 2rem;
+    gap: .4rem 2rem;
     margin: 0;
     padding: 0;
 }
@@ -109,11 +110,8 @@
 
 .footer .social-nav a {
     align-items: center;
-    color: #d8d8d8;
     display: flex;
     padding: 0.5rem 0.75rem;
-    text-decoration: none;
-    transition: color 0.2s ease;
 }
 
 .footer .social-nav .homepage-link a {
@@ -129,6 +127,10 @@
 }
 
 .footer .social-nav .brand-icon {
+    filter: invert(.9);
+}
+
+.footer .social-nav a:hover .brand-icon {
     filter: invert(1);
 }
 
