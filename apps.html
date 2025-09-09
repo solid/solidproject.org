@@ -6,6 +6,115 @@ breadcrumbs:
 - title: "Solid Applications"
 ---
 
+<article>
+  <h1>Solid Apps</h1>
+  <div class="sort-controls">
+    <div class="control-group">
+      <label for="sort-select">Sort by:</label>
+      <select id="sort-select">
+        <option value="">Default Order</option>
+        <option value="name-asc">Name (A-Z)</option>
+        <option value="name-desc">Name (Z-A)</option>
+        <option value="category-asc">Category (A-Z)</option>
+        <option value="category-desc">Category (Z-A)</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label for="category-filter">Filter by category:</label>
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+        <option value="Cooking">Cooking</option>
+        <option value="Movies">Movies</option>
+        <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
+        <option value="Pod Management">Pod Management</option>
+        <option value="TODO List">TODO List</option>
+      </select>
+    </div>
+    <div class="control-group">
+      <label class="checkbox-label">
+        <input type="checkbox" id="top-apps-only">
+        <span class="checkmark"></span>
+        Show only featured apps
+      </label>
+    </div>
+  </div>
+  <div class="apps-grid" id="apps-grid">
+    <div class="app-tile" data-name="Media Kraken" data-category="Movies">
+      <h3><a href="https://noeldemartin.github.io/media-kraken/">Media Kraken</a><span class="top-app-tag">★</span></h3>
+      <div class="app-category">Movies</div>
+      <div class="app-description">Track your media and never miss a beat. <br />- <a href="https://github.com/NoelDeMartin/media-kraken/tree/main/docs">Documentation</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a><br />- <a href="https://github.com/NoelDeMartin/media-kraken">Source code</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a> <br />- <a href="https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333">Provide Feedback</a>.<br /></div>
+    </div>
+    <div class="app-tile" data-name="Penny" data-category="Pod Management">
+      <h3><a href="https://penny.vincenttunru.com/">Penny</a><span class="top-app-tag">★</span></h3>
+      <div class="app-category">Pod Management</div>
+      <div class="app-description">A general Pod Browser by <a href="https://vincenttunru.com/">Vincent Tunru</a></div>
+    </div>
+    <div class="app-tile" data-name="Umai" data-category="Cooking">
+      <h3><a href="https://umai.noeldemartin.com">Umai</a><span class="top-app-tag">★</span></h3>
+      <div class="app-category">Cooking</div>
+      <div class="app-description">Offline-first Recipes Manager <a href="https://github.com/noeldemartin/umai">Source code</a> <a href="https://github.com/NoelDeMartin/umai/blob/main/LICENSE">GNU General Public License v3.0 © 2023</a> <a href="https://noeldemartin.com">Noel De Martin</a></div>
+    </div>
+    <div class="app-tile" data-name="0data Hello with Solid" data-category="TODO List">
+      <h3><a href="https://hello.0data.app/solid/">0data Hello with Solid</a></h3>
+      <div class="app-category">TODO List</div>
+      <div class="app-description">Implements simple CRUD operations with the REST API and solid-file-client, writing to 'tasks'. <a href="https://github.com/0dataapp/hello/tree/main/solid/solid-file-client">Source code</a></div>
+    </div>
+    <div class="app-tile" data-name="Booklice" data-category="Content, Notes, Blogging and Publishing">
+      <h3><a href="https://scenaristeur.github.io/booklice/">Booklice</a></h3>
+      <div class="app-category">Content, Notes, Blogging and Publishing</div>
+      <div class="app-description">Bookmarks app with community sharing. <a href="https://github.com/scenaristeur/booklice/">Source code</a></div>
+    </div>
+    <div class="app-tile" data-name="dokieli" data-category="Content, Notes, Blogging and Publishing" about="" rel="schema:mentions" resource="https://dokie.li/#i" prefix="doap: http://usefulinc.com/ns/doap#">
+      <h3><a href="https://dokie.li/" property="doap:name" rel="doap:homepage">dokieli</a></h3>
+      <div class="app-category">Content, Notes, Blogging and Publishing</div>
+      <div class="app-description" property="doap:shortdesc">dokieli is a clientside editor for decentralised article publishing, annotations, and social interactions. <br />- <a href="https://github.com/dokieli/dokieli/blob/main/LICENSE" rel="doap:license">Apache License, Version 2.0</a> © 2012-2025 <a href="https://csarven.ca/#i" rel="doap:maintainer">Sarven Capadisli</a> <br />- <span rel="doap:repository" resource="#dokieli-repository"><a href="https://git.dokie.li/" rel="doap:browse">Source</a></span></div>
+    </div>
+    <div class="app-tile" data-name="Pod Pro" data-category="Pod Management">
+      <h3><a href="https://podpro.dev/">Pod Pro</a></h3>
+      <div class="app-category">Pod Management</div>
+      <div class="app-description">An IDE for editing Solid Pods by Jasmine Leonard.</div>
+    </div>
+    <div class="app-tile" data-name="PodOS Browser" data-category="Pod Management">
+      <h3><a href="https://browser.pod-os.org/">PodOS Browser</a></h3>
+      <div class="app-category">Pod Management</div>
+      <div class="app-description">Browse and manage the things in your Pod. Based on <a href="https://pod-os.org">PodOS</a>.</div>
+    </div>
+    <div class="app-tile" data-name="Solid File Manager" data-category="Pod Management">
+      <h3><a href="https://otto-aa.github.io/solid-filemanager/">Solid File Manager</a></h3>
+      <div class="app-category">Pod Management</div>
+      <div class="app-description">A Solid app that help you manage files in your Pod. <br />- <a href="https://github.com/Otto-AA/solid-filemanager">Source code</a> <a href="https://github.com/Otto-AA/solid-filemanager/blob/master/LICENSE">MIT License Copyright © 2019</a> <a href="https://github.com/Otto-AA">Otto AA</a></div>
+    </div>
+    <div class="app-tile" data-name="Solidflix" data-category="Movies">
+      <h3><a href="https://me.ryey.icu/solid-media/">Solidflix</a></h3>
+      <div class="app-category">Movies</div>
+      <div class="app-description">A movie tracking and sharing application with personalised recommendations. <br />- <a href="https://github.com/OxfordHCC/solid-media">Source Code</a> by <a href="https://www.cs.ox.ac.uk/research/HCC/">Oxford Human Centred Computing Group</a> (<a href="https://www.cs.ox.ac.uk/research/HCC/">EWADA</a> Project).</div>
+    </div>
+  </div>
+  <details>
+    <summary>App inclusion and exclusion criteria</summary>
+    <p>The criteria for an app to be Solid-compatible are:</p>
+    <ul>
+      <li>If identifying users is necessary, they must be able to log in using their WebID and pointing to the Identity Provider of their choice</li>
+      <li>Data consumed by the app should be fetched from Solid Pods if possible</li>
+      <li>Data generated by the app should be stored in Solid Pods</li>
+      <li>The interaction between the app, pods, and Identity Provider(s) must be compliant with the Solid specification</li>
+    </ul>
+    <p>Please note that apps falling into the following categories will not be listed on this page, even if they match the criteria above:</p>
+    <ul>
+      <li>Apps intentionally or indirectly causing harm to anyone</li>
+      <li>Apps with a purpose that could be widely considered unethical</li>
+      <li>Apps designed to enable the generation and/or dissemination of hate speech</li>
+      <li>Apps encouraging stereotypes or violent behaviours towards any person or group</li>
+      <li>Apps having malicious intent, such as data theft</li>
+      <li>Apps designed to fulfill illegal purposes, such as drug traffic, stolen information exchange, extorsion…</li>
+      <li>Apps sharing user information with any third-party without user consent</li>
+      <li>Apps that have been reported to have important technical or security issues that compromise its users’ Pods</li>
+    </ul>
+    <p>Want to add an eligible Solid-compatible app to this list? Contact the Solid Manager via <a href="mailto:solid+info@theodi.org">solid+info@theodi.org</a>.</p>
+    <p>Disclaimer: The list above does not represent an endorsement by the Solid Project. The apps on the list do not undergo any testing at this time, and there is no guarantee of security or quality implied by their inclusion on this list. The goal of the list is to showcase the vibrancy of the Solid community and encourage early app builders to collaborate and learn from each other. If you believe one of the apps above is insecure or non-functional and should be removed from the list, please raise an issue <a href="https://github.com/solid/solidproject.org/issues">here</a> and tag the app’s creator or maintainer. If the creator or maintainer of the app does not respond within 24 hours to indicate that they will fix the problem, a Solid Creator will remove the app from the listing.</p>
+  </details>
+</article>
+
 <style>
   .apps-grid {
     display: grid;
@@ -131,119 +240,6 @@ breadcrumbs:
     cursor: pointer;
   }
 </style>
-
-<div class="container">
-  <div class="columns">
-    <div class="column">
-      <article class="section content">
-        <h1 id="solid-apps">Solid Apps</h1>
-        <div class="sort-controls">
-          <div class="control-group">
-            <label for="sort-select">Sort by:</label>
-            <select id="sort-select">
-              <option value="">Default Order</option>
-              <option value="name-asc">Name (A-Z)</option>
-              <option value="name-desc">Name (Z-A)</option>
-              <option value="category-asc">Category (A-Z)</option>
-              <option value="category-desc">Category (Z-A)</option>
-            </select>
-          </div>
-          <div class="control-group">
-            <label for="category-filter">Filter by category:</label>
-            <select id="category-filter">
-              <option value="all">All Categories</option>
-              <option value="Cooking">Cooking</option>
-              <option value="Movies">Movies</option>
-              <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
-              <option value="Pod Management">Pod Management</option>
-              <option value="TODO List">TODO List</option>
-            </select>
-          </div>
-          <div class="control-group">
-            <label class="checkbox-label">
-              <input type="checkbox" id="top-apps-only">
-              <span class="checkmark"></span>
-              Show only featured apps
-            </label>
-          </div>
-        </div>
-        <div class="apps-grid" id="apps-grid">
-          <div class="app-tile" data-name="Media Kraken" data-category="Movies">
-            <h3><a href="https://noeldemartin.github.io/media-kraken/">Media Kraken</a><span class="top-app-tag">★</span></h3>
-            <div class="app-category">Movies</div>
-            <div class="app-description">Track your media and never miss a beat. <br />- <a href="https://github.com/NoelDeMartin/media-kraken/tree/main/docs">Documentation</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a><br />- <a href="https://github.com/NoelDeMartin/media-kraken">Source code</a>. GNU General Public License v3.0 © 2020 <a href="https://noeldemartin.com">Noel De Martin</a> <br />- <a href="https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333">Provide Feedback</a>.<br /></div>
-          </div>
-          <div class="app-tile" data-name="Penny" data-category="Pod Management">
-            <h3><a href="https://penny.vincenttunru.com/">Penny</a><span class="top-app-tag">★</span></h3>
-            <div class="app-category">Pod Management</div>
-            <div class="app-description">A general Pod Browser by <a href="https://vincenttunru.com/">Vincent Tunru</a></div>
-          </div>
-          <div class="app-tile" data-name="Umai" data-category="Cooking">
-            <h3><a href="https://umai.noeldemartin.com">Umai</a><span class="top-app-tag">★</span></h3>
-            <div class="app-category">Cooking</div>
-            <div class="app-description">Offline-first Recipes Manager <a href="https://github.com/noeldemartin/umai">Source code</a> <a href="https://github.com/NoelDeMartin/umai/blob/main/LICENSE">GNU General Public License v3.0 © 2023</a> <a href="https://noeldemartin.com">Noel De Martin</a></div>
-          </div>
-          <div class="app-tile" data-name="0data Hello with Solid" data-category="TODO List">
-            <h3><a href="https://hello.0data.app/solid/">0data Hello with Solid</a></h3>
-            <div class="app-category">TODO List</div>
-            <div class="app-description">Implements simple CRUD operations with the REST API and solid-file-client, writing to 'tasks'. <a href="https://github.com/0dataapp/hello/tree/main/solid/solid-file-client">Source code</a></div>
-          </div>
-          <div class="app-tile" data-name="Booklice" data-category="Content, Notes, Blogging and Publishing">
-            <h3><a href="https://scenaristeur.github.io/booklice/">Booklice</a></h3>
-            <div class="app-category">Content, Notes, Blogging and Publishing</div>
-            <div class="app-description">Bookmarks app with community sharing. <a href="https://github.com/scenaristeur/booklice/">Source code</a></div>
-          </div>
-          <div class="app-tile" data-name="dokieli" data-category="Content, Notes, Blogging and Publishing" about="" rel="schema:mentions" resource="https://dokie.li/#i" prefix="doap: http://usefulinc.com/ns/doap#">
-            <h3><a href="https://dokie.li/" property="doap:name" rel="doap:homepage">dokieli</a></h3>
-            <div class="app-category">Content, Notes, Blogging and Publishing</div>
-            <div class="app-description" property="doap:shortdesc">dokieli is a clientside editor for decentralised article publishing, annotations, and social interactions. <br />- <a href="https://github.com/dokieli/dokieli/blob/main/LICENSE" rel="doap:license">Apache License, Version 2.0</a> © 2012-2025 <a href="https://csarven.ca/#i" rel="doap:maintainer">Sarven Capadisli</a> <br />- <span rel="doap:repository" resource="#dokieli-repository"><a href="https://git.dokie.li/" rel="doap:browse">Source</a></span></div>
-          </div>
-          <div class="app-tile" data-name="Pod Pro" data-category="Pod Management">
-            <h3><a href="https://podpro.dev/">Pod Pro</a></h3>
-            <div class="app-category">Pod Management</div>
-            <div class="app-description">An IDE for editing Solid Pods by Jasmine Leonard.</div>
-          </div>
-          <div class="app-tile" data-name="PodOS Browser" data-category="Pod Management">
-            <h3><a href="https://browser.pod-os.org/">PodOS Browser</a></h3>
-            <div class="app-category">Pod Management</div>
-            <div class="app-description">Browse and manage the things in your Pod. Based on <a href="https://pod-os.org">PodOS</a>.</div>
-          </div>
-          <div class="app-tile" data-name="Solid File Manager" data-category="Pod Management">
-            <h3><a href="https://otto-aa.github.io/solid-filemanager/">Solid File Manager</a></h3>
-            <div class="app-category">Pod Management</div>
-            <div class="app-description">A Solid app that help you manage files in your Pod. <br />- <a href="https://github.com/Otto-AA/solid-filemanager">Source code</a> <a href="https://github.com/Otto-AA/solid-filemanager/blob/master/LICENSE">MIT License Copyright © 2019</a> <a href="https://github.com/Otto-AA">Otto AA</a></div>
-          </div>
-          <div class="app-tile" data-name="Solidflix" data-category="Movies">
-            <h3><a href="https://me.ryey.icu/solid-media/">Solidflix</a></h3>
-            <div class="app-category">Movies</div>
-            <div class="app-description">A movie tracking and sharing application with personalised recommendations. <br />- <a href="https://github.com/OxfordHCC/solid-media">Source Code</a> by <a href="https://www.cs.ox.ac.uk/research/HCC/">Oxford Human Centred Computing Group</a> (<a href="https://www.cs.ox.ac.uk/research/HCC/">EWADA</a> Project).</div>
-          </div>
-        </div>
-        <h2 id="app-inclusion-and-exclusion-criteria">App inclusion and exclusion criteria</h2>
-        <p>The criteria for an app to be Solid-compatible are:</p>
-        <ul>
-          <li>If identifying users is necessary, they must be able to log in using their WebID and pointing to the Identity Provider of their choice</li>
-          <li>Data consumed by the app should be fetched from Solid Pods if possible</li>
-          <li>Data generated by the app should be stored in Solid Pods</li>
-          <li>The interaction between the app, pods, and Identity Provider(s) must be compliant with the Solid specification</li>
-        </ul>
-        <p>Please note that apps falling into the following categories will not be listed on this page, even if they match the criteria above:</p>
-        <ul>
-          <li>Apps intentionally or indirectly causing harm to anyone</li>
-          <li>Apps with a purpose that could be widely considered unethical</li>
-          <li>Apps designed to enable the generation and/or dissemination of hate speech</li>
-          <li>Apps encouraging stereotypes or violent behaviours towards any person or group</li>
-          <li>Apps having malicious intent, such as data theft</li>
-          <li>Apps designed to fulfill illegal purposes, such as drug traffic, stolen information exchange, extorsion…</li>
-          <li>Apps sharing user information with any third-party without user consent</li>
-          <li>Apps that have been reported to have important technical or security issues that compromise its users’ Pods</li>
-        </ul>
-        <p>Want to add an eligible Solid-compatible app to this list? Contact the Solid Manager via info@solidproject.org or <a href="https://github.com/solid/solidproject.org/edit/main/pages/use-solid/apps.md">submit a pull request</a>.</p>
-        <p>Disclaimer: The list above does not represent an endorsement by the Solid Project. The apps on the list do not undergo any testing at this time, and there is no guarantee of security or quality implied by their inclusion on this list. The goal of the list is to showcase the vibrancy of the Solid community and encourage early app builders to collaborate and learn from each other. If you believe one of the apps above is insecure or non-functional and should be removed from the list, please raise an issue <a href="https://github.com/solid/solidproject.org/issues">here</a> and tag the app’s creator or maintainer. If the creator or maintainer of the app does not respond within 24 hours to indicate that they will fix the problem, a Solid Creator will remove the app from the listing.</p>
-      </article>
-    </div>
-  </div>
-</div>
 
 <script>
   // App tiles sorting and filtering functionality
@@ -373,5 +369,3 @@ breadcrumbs:
     filterAppTiles(currentFilter, showTopAppsOnly);
   });
 </script>
-
-<script src="/assets/js/menu.js"></script>

@@ -18,6 +18,10 @@ main {
     padding: 3.1rem 3.2rem 3.2rem 3.1rem;
 }
 
+main article h1 {
+    margin-top: 0;
+}
+
 /* Default styles */
 /** Links */
 a {
@@ -35,6 +39,28 @@ caption {
     text-align: left;
     padding: 1rem 0;
     font-weight: normal;
+}
+
+/** Details */
+details {
+  border: 1px solid #e1e5e9;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #e1e5e9;
+  margin-bottom: 0.5em;
 }
 
 /** Blockquotes */
