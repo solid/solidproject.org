@@ -1,18 +1,16 @@
 ---
 permalink: /404
 layout: default
-title: Page Not Found - 404
+title: Page Not Found
 breadcrumbs:
-- title: "Page Not Found - 404"
+- title: "Page Not Found"
 ---
 
 <article>
-  <section>
-    <h1>Page not found</h1>
-    <p>Sorry, the page you're looking for doesn't exist.</p>
-    <p>You tried to access "<strong><span id="missing-page-url" style="text-decoration: underline;"></span></strong>".
-    </p>
-  </section>
+  <h1>Page not found</h1>
+  <p>Sorry, the page you're looking for doesn't exist.</p>
+  <p>You tried to access "<strong><span id="missing-page-url" style="text-decoration: underline;"></span></strong>".
+  </p>
   <section>
     <h2>Try these instead</h2>
     <ul>
@@ -23,7 +21,9 @@ breadcrumbs:
       <li><a href="/for-organizations">Solid For Organizations</a></li>
       <li><a href="/community">Solid Community</a></li>
     </ul>
+  </section>
 </article>
+
 <script>
   document.getElementById('missing-page-url').textContent = window.location.href;
 </script>
