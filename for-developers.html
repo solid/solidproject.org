@@ -10,8 +10,8 @@ breadcrumbs:
 <section>
   <h2>Specifications</h2>
     <ul>
-      <li><a href="https://solidproject.org/TR/">Solid Technical Reports Index</a></li>
-      <li><a href="https://solidproject.org/TR/protocol">Solid Protocol</a></li>
+      <li><a href="/TR/">Solid Technical Reports Index</a></li>
+      <li><a href="/TR/protocol">Solid Protocol</a></li>
     </ul>
 </section>
 <section>
@@ -31,7 +31,7 @@ breadcrumbs:
   <p>Pod providers listed below have different SLAs, level of support and guarantees.</p>
   <ul class="tiles">
     <li>
-      <div class="org-header">
+      <div class="tile-header">
         <img src="/assets/img/igrant-logo.jpeg" alt="Data Pod logo" />
         <h2>Data Pod</h2>
       </div>
@@ -51,7 +51,7 @@ breadcrumbs:
       </dl>
     </li>
     <li>
-      <div class="org-header">
+      <div class="tile-header">
         <img src="/assets/img/inrupt-podspaces-logo.png" alt="Inrupt Pod Spaces logo"/>
         <h2>Inrupt Pod Spaces</h2>
       </div>
@@ -71,7 +71,7 @@ breadcrumbs:
       </dl>
     </li>
     <li>
-      <div class="org-header">
+      <div class="tile-header">
         <img src="/assets/img/redpencil.io-logo.svg"/>
         <h2>redpencil.io</h2>
       </div>
@@ -91,7 +91,7 @@ breadcrumbs:
       </dl>
     </li>
     <li>
-      <div class="org-header">
+      <div class="tile-header">
         <img src="/assets/img/solid-emblem.svg" alt="solidcommunity.net logo" />
         <h2>solidcommunity.net</h2>
       </div>
@@ -111,8 +111,8 @@ breadcrumbs:
       </dl>
     </li>
     <li>
-      <div class="org-header">
-        <img src="/assets/img/me-is-data-logo.svg" />
+      <div class="tile-header">
+        <img src="/assets/img/me-is-data-logo.jpg" />
         <h2>solidweb.me</h2>
       </div>
       <dl>
@@ -131,7 +131,7 @@ breadcrumbs:
       </dl>
     </li>
     <li>
-      <div class="org-header">
+      <div class="tile-header">
         <img src="/assets/img/solid-emblem.svg" />
         <h2>solidweb.org</h2>
       </div>
@@ -151,8 +151,8 @@ breadcrumbs:
       </dl>
     </li>
     <li>
-      <div class="org-header">
-        <img src="/assets/img/me-is-data-logo.svg" />
+      <div class="tile-header">
+        <img src="/assets/img/me-is-data-logo.jpg" />
         <h2>teamid.live</h2>
       </div>
       <dl>
@@ -171,7 +171,7 @@ breadcrumbs:
       </dl>
     </li>
     <li>
-      <div class="org-header">
+      <div class="tile-header">
         <img src="/assets/img/trinpod-logo.svg"/>
         <h2>trinpod.eu</h2>
       </div>
@@ -191,7 +191,7 @@ breadcrumbs:
       </dl>
     </li>
     <li>
-      <div class="org-header">
+      <div class="tile-header">
         <img src="/assets/img/trinpod-logo.svg" alt="trinpod.us logo" />
         <h2>trinpod.us</h2>
       </div>
@@ -211,7 +211,7 @@ breadcrumbs:
       </dl>
     </li>
     <li>
-      <div class="org-header">
+      <div class="tile-header">
         <img src="/assets/img/useid-logo.svg" alt="use.id logo" />
         <h2>use.id</h2>
       </div>
@@ -244,81 +244,3 @@ breadcrumbs:
     <li><a href="https://pdsinterop.org/php-solid-server/">PHP Solid Server</a></li>
   </ul>
 </section>
-
-<style>
-  .tiles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    list-style: none;
-    padding: 0;
-    margin: 1.5rem 0;
-  }
-  
-  .tiles li {
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 1.5rem;
-    background-color: #fafafa;
-    transition: box-shadow 0.2s ease;
-  }
-  
-  .tiles li:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .tiles .org-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .tiles .org-header img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    flex-shrink: 0;
-  }
-  
-  .tiles h2 {
-    margin: 0;
-    color: #333;
-    font-size: 1.25rem;
-    flex: 1;
-  }
-  
-  .tiles dl {
-    margin: 0.5rem 0 0 0;
-  }
-  
-  .tiles dt {
-    font-weight: bold;
-    margin-top: 0.75rem;
-    margin-bottom: 0.25rem;
-    color: #333;
-  }
-  
-  .tiles dt:first-child {
-    margin-top: 0;
-  }
-  
-  .tiles dd {
-    margin: 0 0 0.25rem 0;
-    color: #666;
-  }
-  
-  .tiles dd:last-child {
-    margin-bottom: 0;
-  }
-  
-  .tiles a {
-    color: #0066cc;
-    text-decoration: none;
-    word-break: break-all;
-  }
-  
-  .tiles a:hover {
-    text-decoration: underline;
-  }
-</style>

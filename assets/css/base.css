@@ -1,478 +1,166 @@
 @font-face {
-    font-family: 'Lato Regular';
-    src: url('/assets/fonts/Lato-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Lato Regular';
+  src: url('/assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-    font-family: 'Lato Regular', sans-serif;
-    line-height: 1.625;
-    margin: 0;
+  font-family: 'Lato Regular', sans-serif;
+  line-height: 1.625;
+  margin: 0;
 }
 
 /* Layout */
 main {
-    background-color: #fff;
-    color: #202542;
-    padding: 3.1rem 3.2rem 3.2rem 3.1rem;
+  background-color: #fff;
+  color: #202542;
+  padding: 3.1rem 3.2rem 3.2rem 3.1rem;
 }
 
 main article h1 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 /* Default styles */
 /** Links */
 a {
-    color: #7C4DFF;
-    cursor: pointer;
+  color: #7C4DFF;
+  cursor: pointer;
 }
+
 a:hover,
 a:focus {
-    color: #363636;
+  color: #363636;
 }
 
 /** Tables */
 caption {
-    caption-side: bottom;
-    text-align: left;
-    padding: 1rem 0;
-    font-weight: normal;
+  caption-side: bottom;
+  text-align: left;
+  padding: 1rem 0;
+  font-weight: normal;
 }
 
+/** Blockquotes */
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* Generic CSS Classes */
 /** Details */
-details {
+.details-box {
   border: 1px solid #e1e5e9;
   border-radius: 4px;
   padding: 0.5em 0.5em 0;
 }
 
-summary {
+.details-box summary {
   font-weight: bold;
   margin: -0.5em -0.5em 0;
   padding: 0.5em;
 }
 
-details[open] {
+.details-box[open] {
   padding: 0.5em;
 }
 
-details[open] summary {
+.details-box[open] summary {
   border-bottom: 1px solid #e1e5e9;
   margin-bottom: 0.5em;
 }
 
-/** Blockquotes */
-blockquote {
-    margin: 0;
-    padding: 0;
-}
-
-/* Generic CSS Classes */
+/** Quotes */
 .quote {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .quote .quote-author::before {
-    content: "— ";
+  content: "— ";
 }
 
-#homepage main>article {
-    align-items: center;
+/** Tiles */
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
 }
 
-#for-users main {
-  padding: 1rem 5rem;
+.tiles li {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  transition: box-shadow 0.2s ease;
 }
 
-#community main {
-  padding: 1rem 6rem;
+.tiles li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#features>h2,
-#accounts dt,
-#hosted-pod-services dt {
-    display: none;
+.tiles .tile-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-#hosted-pod-services dd[property="doap:name"] {
-    font-size: 1.2rem;
-    font-weight: 700;
+.tiles .tile-header img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
-#homepage main>article>div>section img {
-    width: 63px;
-    height: 63px;
-    padding-right: 2rem;
+.tiles h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.25rem;
+  flex: 1;
 }
 
-#homepage main>article>div>section>div>ul,
-#developer-tutorials {
-    padding: 2rem;
-    background-color: #fff;
-    color: #202542;
-}
-#specifications {
-    padding: 2rem;
-    background-color: #fff;
-    color: #202542;
+.tiles dl {
+  margin: 0.5rem 0 0 0;
 }
 
-#about main>article>h1,
-#about main>article>div>p,
-#for-organizations main>article>h1,
-#for-organizations main>article>p,
-#events>h2,
-#events>div>p {
-    padding: 0 2rem;
+.tiles dt {
+  font-weight: bold;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  color: #333;
 }
 
-#homepage main>article>div>section>div>ul {
-    list-style: none;
+.tiles dt:first-child {
+  margin-top: 0;
 }
 
-#about main>article,
-#for-organizations main>article,
-#community {
-    color: #fff;
+.tiles dd {
+  margin: 0 0 0.25rem 0;
+  color: #666;
 }
 
-#about main>article>div>section,
-#hosted-pod-services,
-#solid-organizations {
-    color: #000;
-    background-color: #fff;
-    padding: 2rem;
+.tiles dd:last-child {
+  margin-bottom: 0;
 }
 
-#events ul,
-#solutions-using-solid-technology ul {
-    list-style: none;
+.tiles a {
+  color: #0066cc;
+  text-decoration: none;
 }
 
-#solid-organizations>div>dl.legend {
-    display: flex;
+.tiles a:hover {
+  text-decoration: underline;
 }
 
-#solutions-using-solid-technology h2 {
-    padding: 0 2rem;
-}
-
-#solid-organizations>div>ul {
-    list-style: none;
-}
-
-#about section#features ul li,
-#hosted-pod-services>div>ul li,
-#solid-organizations>div>ul li,
-#where-to-collaborate,
-#using-solid,
-#events>div>ul {
-    background-color: #fff;
-    border-radius: 2rem;
-    padding: 2rem;
-    color: #000;
-}
-
-#events li {
-    margin: 3rem 0;
-}
-
-#events details summary {
-    font-size: 1.5rem;
-    list-style: none;
-    cursor: pointer;
-    position: relative;
-    padding-right: 20px;
-    margin-bottom: 1rem;
-}
-
-#events summary::marker {
-    content: none;
-}
-
-#events summary::after {
-    content: '\2303';
-    font-size: 2.5rem;
-    position: absolute;
-    top: calc(50% - 0.2rem);
-    transform: translateY(calc(-50% - 0.5rem)) rotate(180deg);
-}
-
-#events [open] summary::after {
-    transform: translateY(calc(-50% + 0.5rem)) rotate(0deg);
-}
-
-#where-to-collaborate>div>ul,
-#using-solid>div>ul,
-#events>div>ul>li>details>ul {
-    list-style: none;
-}
-
-#events>div>ul>li>details>ul li {
-    border: 1px solid #979797;
-    border-radius: 0.5rem;
-}
-
-#events>div>ul>li>details>ul li dt {
-    display: none;
-}
-
-#events details ul {
-    padding: 0;
-}
-
-#events details dl {
-    padding: 1em;
-}
-
-#events details dl dt,
-#events details dl dd {
-    padding: 0;
-    margin: 0
-}
-
-#events details li {
-    margin-top: 0;
-}
-
-#solutions-using-solid-technology>div>ul,
-#hosted-pod-services>div>ul,
-#solid-organizations>div>ul,
-#features ul {
-    list-style: none;
-}
-
-#hosted-pod-services>div>ul li,
-#solid-organizations>div>ul li {
-    background-color: #FEFEFE;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    margin-bottom: 2rem;
-}
-
-#about section#features ul li a,
-#where-to-collaborate ul li a,
-#using-solid ul li a {
-    background-color: #7B4DFF;
-    padding: 0.8rem 1.5rem;
-    color: #fff;
-    text-decoration: none;
-    text-wrap: nowrap;
-}
-
-#developer-tutorials {
-    margin: 0;
-}
-#specifications {
-    margin: 0;
-}
-
-
-/* Desktop styles */
-@media (min-width: 767px) {
-
-    #community main>article>div>div>a {
-        padding-top: 2rem;
-    }
-
-    #homepage main>article>div>section>div>ul,
-    #developer-tutorials {
-        border-radius: 30px;
-    }
-    #specifications {
-        border-radius: 30px;
-    }
-    
-    #solutions-using-solid-technology h2 {
-        padding: 0 6rem;
-    }
-
-    #homepage main>article>div>section>div>ul {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 0;
-        grid-row-gap: 0;
-    }
-
-    #homepage main>article>div>section>div>ul li {
-        display: grid;
-        grid-template-columns: 150px  1fr;
-        grid-template-rows: repeat(3, auto);
-        grid-column-gap: 0;
-        grid-row-gap: 0;
-        padding: 1rem 2rem;
-    }
-
-    #homepage main>article>div>section>div>ul> :nth-child(odd) {
-        border-right: 1px solid #979797;
-    }
-
-    #homepage main>article>div>section>div>ul>li {
-        border-bottom: 1px solid #979797;
-    }
-
-    #homepage main>article>div>section>div>ul>li:last-child,
-    #homepage main>article>div>section>div>ul>li:nth-last-child(2):nth-child(odd),
-    #homepage main>article>div>section>div>ul>li:last-child:nth-child(odd) {
-      border-bottom:none;
-    }
-
-    #homepage main>article>div>section>div>ul li :nth-child(1) {
-        grid-area: 1 / 1 / 2 / 2;
-    }
-
-    #homepage main>article>div>section>div>ul li :nth-child(2) {
-        grid-area: 1 / 2 / 2 / 3;
-    }
-
-    #homepage main>article>div>section>div>ul li :nth-child(3) {
-        grid-area: 2 / 2 / 3 / 3;
-    }
-
-    #homepage main>article>div>section>div>ul li :nth-child(4) {
-        grid-area: 3 / 2 / 4 / 3;
-    }
-
-    #homepage main>article>div>section>div>ul li a {
-        background-color: #7B4DFF;
-        padding: 0.8rem 1.5rem;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 0.5rem;
-        width: max-content;
-        height: max-content;
-    }
-
-    #about main,
-    #for-developers main,
-    #for-organizations main {
-        padding: 0;
-    }
-
-    #about main>article>h1,
-    #about main>article>div>p,
-    #for-organizations main>article>h1,
-    #for-organizations main>article>p {
-        padding: 0 6rem;
-    }
-
-    #events>h2,
-    #events>div>p,
-    #community>main>article>h1,
-    #community>main>article>p,
-    #for-users>main>article>h1,
-    #for-users>main>article>p {
-        padding: 0;
-    }
-
-    #about section#features ul li,
-    #hosted-pod-services>div>ul li,
-    #solid-organizations>div>ul li,
-    #where-to-collaborate,
-    #using-solid {
-        padding: 2rem;
-        margin-right: 2rem;
-    }
-
-    #about main>article,
-    #for-organizations main>article,
-    #community {
-        align-items: flex-start;
-    }
-
-    #about main>article>div>section,
-    #hosted-pod-services,
-    #solid-organizations {
-        padding: 2rem 6rem;
-    }
-
-    #hosted-pod-services {
-        display: block;
-    }
-
-    #about main>article img {
-        width: 300px;
-        float: right;
-    }
-
-    #about section#features {
-        background-color: #202542;
-    }
-
-    #about section#features ul {
-        display: flex;
-        list-style: none;
-    }
-
-    #where-to-collaborate>div>ul li,
-    #using-solid>div>ul li {
-        margin-right: 3rem;
-    }
-
-    #events li {
-        margin-bottom: 2rem;
-    }
-
-    #events li dl dd:not(:last-child) {
-        font-size: 0.75rem;
-        text-transform: uppercase;
-    }
-
-    #where-to-collaborate>div>ul,
-    #using-solid>div>ul {
-        display: flex;
-    }
-
-    #events>div>ul>li>details>ul {
-      display: grid;
-      grid-column-gap: 2%;
-      grid-template-columns: repeat(auto-fit, 23%);
-    }
-
-    #about section#features ul li a,
-    #where-to-collaborate ul li a,
-    #using-solid ul li a {
-        background-color: #7B4DFF;
-        padding: 0.8rem 1.5rem;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 0.5rem;
-        text-wrap: nowrap;
-    }
-
-    #for-developers main>article>div,
-    #for-organizations main>article>div,
-    #community main>article>div {
-        width: 100%;
-    }
-
-    #developer-tutorials {
-        margin: 1rem 4rem 4rem 4rem;
-    }
-    #specifications {
-        margin: 1rem 4rem 4rem 4rem;
-    }
-
-    #hosted-pod-services {
-        margin-bottom: 4rem;
-    }
-
-    #hosted-pod-services>div>ul,
-    #solid-organizations>div>ul {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2rem;
-        margin-inline-start: 0;
-        padding-inline-start: 0;
-        width: 100%;
-        word-break: break-word
-    }
-
-    #terms {
-        color: #fff;
-    }
-
+/* CSS Elements */
+/** Events List */
+.solid-events-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
