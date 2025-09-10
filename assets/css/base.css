@@ -71,6 +71,35 @@ blockquote {
   margin-bottom: 0.5em;
 }
 
+/** iCalendar Download */
+.ical-download {
+  background-color: #0066cc;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: .2rem;
+  padding: .2rem .4rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.ical-download::before {
+  content: url("/assets/img/icon/calendar-days.svg");
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1);
+}
+
+.ical-download:hover,
+.ical-download:focus {
+  background-color: #0052a3;
+  color: #fff;
+}
+
 /** Quotes */
 .quote {
   margin: 0;
