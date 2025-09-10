@@ -1,24 +1,16 @@
 ---
 permalink: /for-developers/tools
-layout: default
+layout: article
 title: Tools and libraries overview
-stylesheets:
-  - /assets/css/main.css
 breadcrumbs:
   - title: "For Developers"
     url: /for-developers
   - title: "Tools"
 ---
 
-<div class="container">
-  <div class="columns">
-    <div class="column is-two-thirds">
-      <article class="section content">
-        <h1 id="solid-developer-tools--libraries">Solid Developer Tools &amp; Libraries</h1>
-
 <p>There are a number of robust developer libraries to save you from re-inventing the wheel.  Everyone is invited to contribute new libraries and provide feedback on existing libraries - see <a href="#contribute">how to contribute</a>.</p>
 
-<h2 id="solid-specific-tools"><a name="tools">Solid-specific Tools</a></h2>
+<h2 id="solid-specific-tools">Solid-specific Tools</h2>
 <ul>
   <li><a href="https://www.npmjs.com/package/molid">Molid</a> - a mock server that can be used for testing apps</li>
   <li><a href="https://penny.vincenttunru.com/">Penny</a> - a file manager for Solid pods</li>
@@ -32,7 +24,7 @@ Session, Profile, Inbox, Chat…</li>
   <li><a href="https://browser.pod-os.org">PodOS Browser</a> - Browse and manage things in a Solid pod</li>
 </ul>
 
-<h2 id="solid-specific-javascript-libraries"><a name="libraries">Solid-specific JavaScript Libraries</a></h2>
+<h2 id="solid-specific-javascript-libraries">Solid-specific JavaScript Libraries</h2>
 
 <p>A typical Solid app will perform one or more of these functions using one of the associated libraries:</p>
 
@@ -46,7 +38,7 @@ Session, Profile, Inbox, Chat…</li>
 <p>Beginning developers may want to start with one of the interface libraries which provide pre-built components.  Advanced developers might want to look at <a href="#low_level">Low Level Libraries</a> and/or participate in the <a href="#solidos">Solid OS project</a>.</p>
 
 <ul>
-  <li><a name="authentication"><strong>Authentication &amp; Access Control Libraries</strong></a>
+  <li><strong>Authentication &amp; Access Control Libraries</strong>
     <ul>
       <li><a href="https://github.com/solid/acl-check">ACL Check</a> - check Web Access Control ACLs</li>
       <li><a href="https://github.com/inrupt/solid-client-authn-js">Inrupt Solid JavaScript Authentication</a> - login and session management</li>
@@ -54,7 +46,7 @@ Session, Profile, Inbox, Chat…</li>
       <li><a href="https://github.com/solid/solid-node-client">Solid Node Client</a> - nodejs login/sesseion for Pods &amp; Solid access to local file systems, and other backends</li>
     </ul>
   </li>
-  <li><a name="linked_data"><strong>Linked Data Libraries</strong></a>
+  <li><strong>Linked Data Libraries</strong>
     <ul>
       <li><a href="https://github.com/solid/query-ldflex">LDflex for Solid</a> — A library for making RDF querying easy</li>
       <li><a href="https://ldo.js.org">LDO</a> — Solid and RDF without the Complexity</li>
@@ -66,7 +58,7 @@ Session, Profile, Inbox, Chat…</li>
 
     <p>See also this <a href="https://vincenttunru.gitlab.io/tripledoc/docs/cheatsheet">cheat sheet</a> for a handy comparison between three commonly used linked data libraries.</p>
   </li>
-  <li><a name="resource"><strong>Resource  Management Libraries</strong></a>
+  <li><strong>Resource  Management Libraries</strong>
     <ul>
       <li><a href="https://github.com/jeff-zucker/solid-file-client">Solid File Client</a> create, read, copy, upload &amp; mange files &amp; folders</li>
       <li><a href="https://github.com/solid/solid-namespace/blob/master/index.js">Solid Namespace</a> A collection of common RDF namespaces used in the Solid project</li>
@@ -74,13 +66,13 @@ Session, Profile, Inbox, Chat…</li>
       <li><a href="https://github.com/inrupt/solid-client-js">Inrupt Solid JavaScript Client</a> - Data and access management manipulation by Inrupt</li>
     </ul>
   </li>
-  <li><a name="interface"><strong>SDK &amp; Components Libraries</strong></a>
+  <li><strong>SDK &amp; Components Libraries</strong>
     <ul>
       <li><a href="https://github.com/rubensworks/solid-react-graphql-ld.js">Solid React Components for GraphQL-LD</a></li>
       <li><a href="https://github.com/pod-os/PodOS/tree/main/elements">PodOS elements</a> - HTML custom elements (aka web components) for read from and write to Solid pods.</li>
     </ul>
   </li>
-  <li><a name="solidos"><strong>Solid OS - Solid as an operating system &amp; databrowser interface</strong></a>
+  <li><strong>Solid OS - Solid as an operating system &amp; databrowser interface</strong>
     <ul>
       <li><a href="https://github.com/SolidOS/solidos">SolidOS overview</a> - SolidOS as a code stack for Solid which includes:
         <ul>
@@ -94,7 +86,7 @@ Session, Profile, Inbox, Chat…</li>
     </ul>
   </li>
   <li>
-    <p><a name="low_level"><strong>Low-Level Libraries</strong></a></p>
+    <p><strong>Low-Level Libraries</strong></p>
 
     <ul>
       <li><a href="https://github.com/comunica/comunica">Comunica</a> - A highly modular and flexible meta query engine for the Web</li>
@@ -109,7 +101,7 @@ Session, Profile, Inbox, Chat…</li>
   </li>
 </ul>
 
-<h2 id="solid-specific-libraries-in-other-languages"><a name="other-languages">Solid-specific Libraries in other languages</a></h2>
+<h2 id="solid-specific-libraries-in-other-languages">Solid-specific Libraries in other languages</h2>
 
 <h3 id="perl">Perl</h3>
 
@@ -185,50 +177,6 @@ Session, Profile, Inbox, Chat…</li>
   </li>
 </ul>
 
-<h2 id="how-to-contribute"><a name="contribute">How to contribute</a></h2>
+<h2 id="how-to-contribute">How to contribute</h2>
 
 <p>If you have a new tool or library, or have suggested additions or changes for this page, please <a href="https://github.com/solid/solidproject.org/tree/main/_posts/developers/apps/tools/2019-01-01-00_overview.md">submit a PR</a> or <a href="mailto:solid+info@theodi.org">contact the solidproject.org team</a>.</p>
-
-      </article>
-      <footer class="section is-small">
-        <a href="https://github.com/solid/solidproject.org/edit/main/_posts/developers/apps/tools/2019-01-01-00_overview.md" class="button is-text">Edit this page on GitHub</a>
-      </footer>
-    </div>
-    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
-      <div class="menu is-large">
-        
-          
-
-<ul class="menu-list" role="navigation">
-  
-    
-      <li>
-        
-          <a href="/developers/tutorials/getting-started">Tutorials</a>
-        
-      </li>
-    
-  
-    
-      <li>
-        
-          <a href="/developers/vocabularies">Vocabularies</a>
-        
-      </li>
-    
-  
-    
-      <li>
-        
-          <a href="/developers/tools">Tools and libraries</a>
-        
-      </li>
-    
-  
-</ul>
-
-        
-      </div>
-    </aside>
-  </div>
-</div>
