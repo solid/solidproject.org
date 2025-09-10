@@ -1,5 +1,7 @@
 /* Breadcrumb Styles */
 .breadcrumb {
+  background-color: #fff;
+  color: #202542;
   border-bottom: 1px solid #f4f4f4;
   font-size: 1rem;
   padding: .5rem 3.2rem .6rem 3rem;
