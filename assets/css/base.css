@@ -25,7 +25,7 @@ main article h1 {
 
 /** Max content width */
 @media (min-width: 1280px) {
-    .header, main > *, .footer {
+    .header, body .breadcrumb > ol, main > *, .footer {
         margin: 0 auto;
         max-width: calc(1280px - 6.2rem);
     }
