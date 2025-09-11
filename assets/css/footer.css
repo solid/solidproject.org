@@ -126,11 +126,11 @@
     width: 3.06rem;
 }
 
-.footer .social-nav .brand-icon {
+.footer .social-nav .icon {
     filter: invert(.9);
 }
 
-.footer .social-nav a:hover .brand-icon {
+.footer .social-nav a:hover .icon {
     filter: invert(1);
 }
 
