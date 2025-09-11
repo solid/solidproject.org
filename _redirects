@@ -1,67 +1,77 @@
 # Map the Specs
-/TR/*                                                           https://solid.github.io/specification/:splat                                    200
-/ED/*                                                           https://solid.github.io/specification/ED/:splat                                 200
+/TR/*                                                               https://solid.github.io/specification/:splat                                                        200
+/ED/*                                                               https://solid.github.io/specification/ED/:splat                                                     200
 
 # Redirect index.html
-/index                                                          /                                                                               301
-/index.html                                                     /                                                                               301!
+/index                                                              /                                                                                                   301
+/index.html                                                         /                                                                                                   301!
 
 # Remove HTML extension and redirect index.html (courtesy for handling previously existing generated artifacts)
-/404.html                                                       /404                                                                            301!
-/about.html                                                     /about                                                                          301!
-/about/index                                                    /about                                                                          301
-/about/index.html                                               /about                                                                          301
-/apps.html                                                      /apps                                                                           301!
-/apps/index                                                     /apps                                                                           301
-/apps/index.html                                                /apps                                                                           301
-/community.html                                                 /community                                                                      301!
-/community/index                                                /community                                                                      301
-/community/index.html                                           /community                                                                      301
-/contributing.html                                              /contributing                                                                   301!
-/contributing/index                                             /contributing                                                                   301
-/contributing/index.html                                        /contributing                                                                   301
-/events.html                                                    /events                                                                         301!
-/events/index                                                   /events                                                                         301
-/events/index.html                                              /events                                                                         301
-/FAQ.html                                                       /FAQ                                                                            301!
-/FAQ/index                                                      /FAQ                                                                            301
-/FAQ/index.html                                                 /FAQ                                                                            301
-/for-developers.html                                            /for-developers                                                                 301!
-/for-developers/index                                           /for-developers                                                                 301
-/for-developers/index.html                                      /for-developers                                                                 301
-/for-organizations.html                                         /for-organizations                                                              301!
-/for-organizations/index                                        /for-organizations                                                              301
-/for-organizations/index.html                                   /for-organizations                                                              301
-/for-users.html                                                 /for-users                                                                      301!
-/for-users/index                                                /for-users                                                                      301
-/for-users/index.html                                           /for-users                                                                      301
-/license.html                                                   /license                                                                        301!
-/license/index                                                  /license                                                                        301
-/license/index.html                                             /license                                                                        301
-/logo-usage-guidelines.html                                     /logo-usage-guidelines                                                          301!
-/logo-usage-guidelines/index                                    /logo-usage-guidelines                                                          301
-/logo-usage-guidelines/index.html                               /logo-usage-guidelines                                                          301
-/newsletter.html                                                /newsletter                                                                     301!
-/newsletter/index                                               /newsletter                                                                     301
-/newsletter/index.html                                          /newsletter                                                                     301
-/press.html                                                     /press                                                                          301!
-/press/index                                                    /press                                                                          301
-/press/index.html                                               /press                                                                          301
-/specification.html                                             /specification                                                                  301!
-/specification/index                                            /specification                                                                  301
-/specification/index.html                                       /specification                                                                  301
-/take3.html                                                     /take3                                                                          301!
-/take3/index                                                    /take3                                                                          301
-/take3/index.html                                               /take3                                                                          301
-/team.html                                                      /team                                                                           301!
-/team/index                                                     /team                                                                           301
-/team/index.html                                                /team                                                                           301
-/terms.html                                                     /terms                                                                          301!
-/terms/index                                                    /terms                                                                          301
-/terms/index.html                                               /terms                                                                          301
-/website-strategy.html                                          /website-strategy                                                               301!
-/website-strategy/index                                         /website-strategy                                                               301
-/website-strategy/index.html                                    /website-strategy                                                               301
+/404.html                                                           /404                                                                                                301!
+/about.html                                                         /about                                                                                              301!
+/about/index                                                        /about                                                                                              301
+/about/index.html                                                   /about                                                                                              301
+/apps.html                                                          /apps                                                                                               301!
+/apps/index                                                         /apps                                                                                               301
+/apps/index.html                                                    /apps                                                                                               301
+/code-of-conduct.html                                               /code-of-conduct                                                                                    301!
+/code-of-conduct/index                                              /code-of-conduct                                                                                    301
+/code-of-conduct/index.html                                         /code-of-conduct                                                                                    301
+/community.html                                                     /community                                                                                          301!
+/community/index                                                    /community                                                                                          301
+/community/index.html                                               /community                                                                                          301
+/contributing.html                                                  /contributing                                                                                       301!
+/contributing/index                                                 /contributing                                                                                       301
+/contributing/index.html                                            /contributing                                                                                       301
+/events.html                                                        /events                                                                                             301!
+/events/index                                                       /events                                                                                             301
+/events/index.html                                                  /events                                                                                             301
+/FAQ.html                                                           /FAQ                                                                                                301!
+/FAQ/index                                                          /FAQ                                                                                                301
+/FAQ/index.html                                                     /FAQ                                                                                                301
+/faqs                                                               /FAQ                                                                                                301
+/faqs.html                                                          /FAQ                                                                                                301
+/faqs/index                                                         /FAQ                                                                                                301
+/faqs/index.html                                                    /FAQ                                                                                                301
+/for-developers.html                                                /for-developers                                                                                     301!
+/for-developers/index                                               /for-developers                                                                                     301
+/for-developers/index.html                                          /for-developers                                                                                     301
+/for-organizations.html                                             /for-organizations                                                                                  301!
+/for-organizations/index                                            /for-organizations                                                                                  301
+/for-organizations/index.html                                       /for-organizations                                                                                  301
+/for-users.html                                                     /for-users                                                                                          301!
+/for-users/index                                                    /for-users                                                                                          301
+/for-users/index.html                                               /for-users                                                                                          301
+/get-a-pod.html                                                     /get-a-pod                                                                                          301!
+/get-a-pod/index                                                    /get-a-pod                                                                                          301
+/get-a-pod/index.html                                               /get-a-pod                                                                                          301
+/license.html                                                       /license                                                                                            301!
+/license/index                                                      /license                                                                                            301
+/license/index.html                                                 /license                                                                                            301
+/logo-usage-guidelines.html                                         /logo-usage-guidelines                                                                              301!
+/logo-usage-guidelines/index                                        /logo-usage-guidelines                                                                              301
+/logo-usage-guidelines/index.html                                   /logo-usage-guidelines                                                                              301
+/newsletter.html                                                    /newsletter                                                                                         301!
+/newsletter/index                                                   /newsletter                                                                                         301
+/newsletter/index.html                                              /newsletter                                                                                         301
+/press.html                                                         /press                                                                                              301!
+/press/index                                                        /press                                                                                              301
+/press/index.html                                                   /press                                                                                              301
+/specification.html                                                 /specification                                                                                      301!
+/specification/index                                                /specification                                                                                      301
+/specification/index.html                                           /specification                                                                                      301
+/take3.html                                                         /take3                                                                                              301!
+/take3/index                                                        /take3                                                                                              301
+/take3/index.html                                                   /take3                                                                                              301
+/team.html                                                          /team                                                                                               301!
+/team/index                                                         /team                                                                                               301
+/team/index.html                                                    /team                                                                                               301
+/terms.html                                                         /terms                                                                                              301!
+/terms/index                                                        /terms                                                                                              301
+/terms/index.html                                                   /terms                                                                                              301
+/website-strategy.html                                              /website-strategy                                                                                   301!
+/website-strategy/index                                             /website-strategy                                                                                   301
+/website-strategy/index.html                                        /website-strategy                                                                                   301
 
 # Newsletter redirections
 /newsletter/2019-07-18.html                                         /newsletter/2019-07-18                                                                              301!
@@ -217,7 +227,19 @@
 /funding.html                                                       https://github.com/solid/solidproject.org/wiki/Funding                                              302
 /labs.html                                                          https://github.com/solid/solidproject.org/wiki/Research-labs                                        302
 
-# Legacy links directing to For Developers home
+# Legacy links directing to About
+/origin                                                             /about                                                                                              302
+/origin.html                                                        /about                                                                                              302
+
+# Legacy links directing to Apps
+/use-solid/apps                                                     /apps                                                                                               302
+/use-solid/apps.html                                                /apps                                                                                               302
+
+# Legacy links directing to Get a Pod
+/users/get-a-pod                                                    /get-a-pod                                                                                          302
+/users/get-a-pod.html                                               /get-a-pod                                                                                          302
+
+# Legacy links directing to For Developers
 /developers/index.html                                              /for-developers                                                                                     302
 /developers/tutorials/first-app.html                                /for-developers                                                                                     302
 /developers/tutorials/getting-started.html                          /for-developers                                                                                     302
@@ -236,25 +258,20 @@
 /self-hosting/nss/apache.html                                       /for-developers                                                                                     302
 /self-hosting/nss/nginx.html                                        /for-developers                                                                                     302
 
+# Legacy links directing to For Organizations
+/for-enterprises/index                                              /for-organizations                                                                                  302
+/for-enterprises/index.html                                         /for-organizations                                                                                  302
 
-# 302 Found (moved temporarily) - internal links that might become their own page in the future
-/faqs                                                           /FAQ                                                                            302
-/faqs.html                                                      /FAQ                                                                            302
-/for-enterprises/index.html                                     /for-organizations                                                              302
-/origin                                                         /about                                                                          302
-/origin.html                                                    /about                                                                          302
-/standardisation                                                /specification                                                                  302
-/standardisation.html                                           /specification                                                                  302
-/users                                                          /for-users                                                                      302
-/users.html                                                     /for-users                                                                      302
-/users/index.html                                               /for-users                                                                      302
-/users/get-a-pod                                                /for-users/get-a-pod                                                            302
-/users/get-a-pod.html                                           /for-users/get-a-pod                                                            302
-/users/get-a-pod/index                                          /for-users/get-a-pod                                                            302
-/users/get-a-pod/index.html                                     /for-users/get-a-pod                                                            302
+# Legacy links directing to For Users
+/use-solid/index                                                    /for-users                                                                                          302
+/use-solid/index.html                                               /for-users                                                                                          302
+/users                                                              /for-users                                                                                          302
+/users.html                                                         /for-users                                                                                          302
+
+# Legacy links directing to Specification
+/standardisation                                                    /specification                                                                                      302
+/standardisation.html                                               /specification                                                                                      302
 
 # Subdirectories
-/developers/tools/index.html                                    /for-developers/tools                                                               302
-/for-developers/apps/tools/index.html                           /for-developers/tools                                                               302
-/use-solid/apps.html                                            /apps                                                                           302
-/use-solid/index.html                                           /for-users                                                                      302
+/developers/tools/index.html                                        /for-developers/tools                                                                               302
+/for-developers/apps/tools/index.html                               /for-developers/tools                                                                               302
