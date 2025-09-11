@@ -19,7 +19,10 @@ base_url: "https://solidproject.org"
 github_username: solid
 repository: solid/solidproject.org
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
+feed:
+  icon: /assets/img/solid-emblem.svg
 include: 
   - _redirects
 exclude:
