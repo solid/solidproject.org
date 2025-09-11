@@ -18,6 +18,8 @@ email: solid@theodi.org
 base_url: "https://solidproject.org"
 github_username: solid
 repository: solid/solidproject.org
+plugins:
+  - jekyll-sitemap
 include: 
   - _redirects
 exclude:
