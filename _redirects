@@ -1,12 +1,12 @@
 # Map the Specs
+/TR/*                                                           https://solid.github.io/specification/:splat                                    200
 /TR                                                             /TR/                                                                            301!
 /TR/index                                                       /TR/                                                                            301!
 /TR/index.html                                                  /TR/                                                                            301!
-/TR/*                                                           https://solid.github.io/specification/:splat                                    200
+/ED/*                                                           https://solid.github.io/specification/ED/:splat                                 200
 /ED                                                             /ED/                                                                            301!
 /ED/index                                                       /ED/                                                                            301!
 /ED/index.html                                                  /ED/                                                                            301!
-/ED/*                                                           https://solid.github.io/specification/ED/:splat                                 200
 
 # Redirect index.html
 /index                                                          /                                                                               301
