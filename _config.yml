@@ -16,13 +16,13 @@
 title: Solid Project
 email: solid@theodi.org
 base_url: "https://solidproject.org"
+description: "Solid is an evolution of the web by its creator Sir Tim Berners-Lee. Solid realizes Tim's original vision for the Web as a medium for the secure, decentralized exchange of public and private data."
 github_username: solid
 repository: solid/solidproject.org
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-feed:
-  icon: /assets/img/solid-emblem.svg
+excerpt_separator: "<!--more-->"
 include: 
   - _redirects
 exclude:
