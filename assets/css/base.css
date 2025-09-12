@@ -74,10 +74,12 @@ blockquote {
 }
 
 /** Try Solid Hero Layout */
-.try-solid .hero-content {
+.try-solid {
+  min-height: calc(100vh - 10.5rem);
   display: flex;
   align-items: center;
   gap: 3rem;
+  justify-content: center;
 }
 
 .try-solid .hero-text {
