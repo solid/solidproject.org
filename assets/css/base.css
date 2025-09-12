@@ -1,0 +1,326 @@
+@font-face {
+  font-family: 'Lato Regular';
+  src: url('/assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #202542;
+  font-family: 'Lato Regular', sans-serif;
+  line-height: 1.625;
+  margin: 0;
+}
+
+/* Layout */
+main {
+  background-color: #fff;
+  color: #202542;
+  padding: 3.1rem 3.2rem 3.2rem 3.1rem;
+}
+
+main article h1 {
+  margin-top: 0;
+}
+
+/** Max content width */
+@media (min-width: 1280px) {
+    .header, body .breadcrumb > ol, main > *, .footer {
+        margin: 0 auto;
+        max-width: calc(1280px - 6.2rem);
+    }
+}
+
+a:hover,
+a:focus {
+  color: #363636;
+}
+
+/** Tables */
+caption {
+  caption-side: bottom;
+  text-align: left;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+/** Blockquotes */
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* Generic CSS Classes */
+/** Details */
+.details-box {
+  border: 1px solid #e1e5e9;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+.details-box summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+.details-box[open] {
+  padding: 0.5em;
+}
+
+.details-box[open] summary {
+  border-bottom: 1px solid #e1e5e9;
+  margin-bottom: 0.5em;
+}
+
+/** Try Solid Hero Layout */
+.try-solid {
+  min-height: calc(100vh - 10.5rem);
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.try-solid .hero-text {
+  flex: 1;
+}
+
+.try-solid .hero-image {
+  flex: 1;
+}
+
+.try-solid .hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.try-solid .hero-text img {
+  width: 4rem;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .try-solid .hero-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/** Tim Berners-Lee Quote Styling */
+.tim-berners-lee-quote {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+}
+
+.tim-berners-lee-quote blockquote {
+  padding: 2.5rem 2rem;
+}
+
+.tim-berners-lee-quote p {
+  color: #2c3e50;
+  font-style: italic;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+.tim-berners-lee-quote footer {
+  margin: 1.5rem auto 0 auto;
+  max-width: 60rem;
+  text-align: right;
+}
+
+/** Front Page Section */
+.front-page-section {
+  margin-top: 3.6rem;
+}
+
+/** Try Solid Button */
+.try-solid-button {
+  background-color: #7C4DFF;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.4rem 2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(124, 77, 255, 0.2);
+}
+
+.try-solid-button::after {
+  content: "";
+  display: inline-block;
+  width: 1.8rem;
+  height: 1.6rem;
+  flex-shrink: 0;
+  background-image: url("/assets/img/solid-emblem.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.try-solid-button:hover,
+.try-solid-button:focus {
+  background-color: #6a3ce8;
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(124, 77, 255, 0.3);
+}
+
+/** iCalendar Download */
+.ical-download-button {
+  background-color: #0066cc;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: .2rem;
+  padding: .2rem .4rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.ical-download-button::before {
+  content: url("/assets/img/icon/calendar-days.svg");
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1);
+}
+
+.ical-download:hover,
+.ical-download:focus {
+  background-color: #0052a3;
+  color: #fff;
+}
+
+/** Quotes */
+.quote {
+  margin: 0;
+  padding: 0;
+}
+
+.quote .quote-author::before {
+  content: "— ";
+}
+
+/** Tiles */
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.tiles li {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  transition: box-shadow 0.2s ease;
+}
+
+.tiles li:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tiles .tile-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tiles .tile-header img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.tiles h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.25rem;
+  flex: 1;
+}
+
+.tiles dl {
+  margin: 0.5rem 0 0 0;
+}
+
+.tiles dt {
+  font-weight: bold;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.tiles dt:first-child {
+  margin-top: 0;
+}
+
+.tiles dd {
+  margin: 0 0 0.25rem 0;
+  color: #666;
+}
+
+.tiles dd:last-child {
+  margin-bottom: 0;
+}
+
+
+.tiles.tile-links li {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.tiles.tile-links a {
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  text-decoration: none;
+  height: calc(100% - 3rem);
+  width: calc(100% - 3rem);
+  flex-grow: 1;
+}
+
+.tiles.tile-links .tile-links-nav-hint {
+  font-weight: bold;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.tile-links-nav-hint::after {
+  content: url("/assets/img/icon/chevron-right.svg");
+  display: inline-block;
+  width: 1rem;
+  height: 1.5rem;
+  margin-left: .2rem;
+  transition: margin-left 0.2s ease;
+  vertical-align: middle;
+}
+
+.tiles.tile-links a:hover .tile-links-nav-hint::after {
+  margin-left: 0.5rem;
+}
+
+/* CSS Elements */
+/** Events List */
+.solid-events-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
