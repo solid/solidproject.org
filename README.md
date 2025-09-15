@@ -12,6 +12,4 @@ The easiest way to run this project is to use Docker: simply clone the repositor
 
 ## How to contribute
 
-If you use Solid and want your app or organization to be included in the website, please reach out to the Solid Manager via <a href="mailto:solid+info@theodi.org">solid+info@theodi.org</a>.
-
-You can also submit a pull request to this repository.
+If you use Solid and want your app or organization to be included in the website, please submit a pull request to this repository or open an issue.
