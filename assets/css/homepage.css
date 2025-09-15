@@ -1,8 +1,3 @@
-/** Front Page Section */
-.homepage-section {
-  margin-top: 3.6rem;
-}
-
 /** Try Solid Hero Layout */
 .try-solid {
   min-height: calc(100vh - 12.5rem);
