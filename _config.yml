@@ -26,6 +26,7 @@ excerpt_separator: "<!--more-->"
 include: 
   - _redirects
 exclude:
+  - rdfa
   - docker-compose.yml
   - LICENSE.md
   - README.md
