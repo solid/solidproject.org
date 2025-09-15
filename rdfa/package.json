@@ -1,0 +1,29 @@
+{
+  "name": "rdfa-extractor",
+  "version": "1.0.0",
+  "description": "Extract RDFa from HTML files and convert to Turtle format",
+  "main": "extract-rdfa.js",
+  "scripts": {
+    "extract": "node extract-rdfa.js",
+    "extract-all": "node extract-rdfa.js .. all-rdfa.ttl",
+    "extract-all-live": "node extract-rdfa.js --all solidproject-all.ttl",
+    "extract-all-split": "node extract-rdfa.js --all --split solidproject-all.ttl",
+    "extract-events": "node extract-rdfa.js ../events events.ttl",
+      "extract-community": "node extract-rdfa.js ../community.html community.ttl",
+      "extract-community-url": "node extract-rdfa.js https://solidproject.org/community community-live.ttl"
+  },
+  "dependencies": {
+    "n3": "^1.26.0",
+    "node-fetch": "^3.3.2",
+    "rdfa-streaming-parser": "^3.0.2"
+  },
+  "keywords": [
+    "rdfa",
+    "turtle",
+    "rdf",
+    "semantic-web",
+    "solid"
+  ],
+  "author": "Solid Project",
+  "license": "MIT"
+}

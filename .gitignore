@@ -6,3 +6,5 @@ _site
 .sass-cache
 .vscode
 vendor
+rdfa/node_modules
+rdfa/package-lock.json

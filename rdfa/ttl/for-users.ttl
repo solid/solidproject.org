@@ -1,0 +1,18 @@
+@prefix schema: <http://schema.org/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix doap: <http://usefulinc.com/ns/doap#>.
+@prefix og: <http://ogp.me/ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<https://solidproject.org/for-users> a schema:Article;
+    schema:name "For Users"@en;
+    schema:description "\n          <section id=\"using-solid\" inlist=\"\" rel=\"schema:hasPart\" resource=\"#using-solid\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">\n            \n            \n          </section>\n        "^^rdf:HTML;
+    schema:hasPart _:df_8_0.
+<https://solidproject.org/for-users#using-solid> schema:name "Using Solid"@en;
+    rdfs:seeAlso <https://solidproject.org/for-developers#hosted-pod-services>;
+    schema:description "\n              <ul xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">\n                <li xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">\n                  <p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\"><strong xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">Get a Pod</strong></p>\n                  <p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">Pods are where you store your data. Any kind of data can be stored in a Solid Pod. Once stored in a Pod, you control who can access your data.</p>\n                  <a href=\"https://solidproject.org/for-developers#hosted-pod-services\" rel=\"rdfs:seeAlso\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">Go to getting a Pod</a>\n                </li>\n                <li xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">\n                  <p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\"><strong xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">Solid Apps</strong></p>\n                  <p xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">Solid apps enable individuals to use and manage data in Solid Pods.</p>\n                  <a href=\"https://solidproject.org/apps\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:doap=\"http://usefulinc.com/ns/doap#\" xmlns:foaf=\"http://xmlns.com/foaf/0.1/\" xmlns:schema=\"http://schema.org/\">Go to Solid Apps</a>\n                </li>\n              </ul>\n            "^^rdf:HTML.
+_:df_8_0 rdf:first <https://solidproject.org/for-users#using-solid>;
+    rdf:rest rdf:nil.
+_:df_8_1 <http://www.w3.org/1999/xhtml/vocab#role> <http://www.w3.org/1999/xhtml/vocab#navigation>.
