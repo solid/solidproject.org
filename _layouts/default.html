@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
     <link rel="stylesheet" href="/assets/css/breadcrumb.css">{% if page.stylesheets %}{% for stylesheet in page.stylesheets %}
-    <link rel="stylesheet" href="{{ stylesheet }}">{% endfor %}{% endif %}
+    <link rel="stylesheet" href="/assets/css/{{ stylesheet }}">{% endfor %}{% endif %}
   </head>
   <body>
     <header class="header">
@@ -117,7 +117,7 @@
             <a href="https://vimeo.com/solidworld" title="Solid on Vimeo"><img src="/assets/img/icon/vimeo-v.svg" alt="Vimeo" class="icon"></a>
           </li>
           <li>
-            <a href="https://solidproject.org/feed.xml" title="Solid Project RSS feed"><img src="/assets/img/icon/rss.svg" alt="RSS" class="icon"></a>
+            <a href="/feed.xml" title="Solid Project RSS feed"><img src="/assets/img/icon/rss.svg" alt="RSS" class="icon"></a>
           </li>
         </ul>
       </nav>

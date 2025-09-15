@@ -88,7 +88,7 @@
     padding: .8rem 1.6rem;
     border-radius: 0.25rem;
     text-align: center;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.3s ease;
 }
 
 .header .main-nav a:hover {
