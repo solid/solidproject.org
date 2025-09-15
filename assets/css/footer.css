@@ -9,7 +9,7 @@
 .footer a {
     color: #d8d8d8;
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color 0.3s ease;
 }
 
 .footer a:hover,

@@ -31,26 +31,13 @@ main article h1 {
     }
 }
 
-a:hover,
-a:focus {
-  color: #363636;
-}
-
-/** Tables */
-caption {
-  caption-side: bottom;
-  text-align: left;
-  padding: 1rem 0;
-  font-weight: normal;
-}
-
-/** Blockquotes */
-blockquote {
-  margin: 0;
-  padding: 0;
-}
-
 /* Generic CSS Classes */
+/** Articles */
+.article-section {
+  clear: both;
+  margin-top: 3.2rem;
+}
+
 /** Details */
 .details-box {
   border: 1px solid #e1e5e9;
@@ -78,105 +65,48 @@ blockquote {
   display: none !important;
 }
 
-/** Try Solid Hero Layout */
-.try-solid {
-  min-height: calc(100vh - 10.5rem);
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  justify-content: center;
+/** Images */
+.article-image-left {
+  float: left;
+  padding-right: 1.6rem;
+  width: 30rem;
 }
 
-.try-solid .hero-text {
-  flex: 1;
+.article-image-right {
+  float: right;
+  padding-left: 1.6rem;
+  width: 30rem;
 }
 
-.try-solid .hero-image {
-  flex: 1;
+@media (max-width: 820px) {
+    .article-image-left, .article-image-right {
+        float: none;
+    }
 }
 
-.try-solid .hero-image img {
-  width: 100%;
-  height: auto;
+/** Lists */
+.unstyled-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.try-solid .hero-text img {
-  width: 4rem;
-  height: auto;
+/** Quotes */
+.quote {
+  margin: 0;
+  padding: 0;
 }
 
-@media (max-width: 768px) {
-  .try-solid .hero-content {
-    flex-direction: column;
-    gap: 2rem;
-  }
+.quote .quote-author::before {
+  content: "— ";
 }
 
-/** Tim Berners-Lee Quote Styling */
-.tim-berners-lee-quote {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-size: 1.2rem;
-}
-
-.tim-berners-lee-quote blockquote {
-  padding: 2.5rem 2rem;
-}
-
-.tim-berners-lee-quote p {
-  color: #2c3e50;
-  font-style: italic;
-  margin: 0 auto;
-  max-width: 60rem;
-}
-
-.tim-berners-lee-quote footer {
-  margin: 1.5rem auto 0 auto;
-  max-width: 60rem;
-  text-align: right;
-}
-
-/** Front Page Section */
-.front-page-section {
-  margin-top: 3.6rem;
-}
-
-/** Try Solid Button */
-.try-solid-button {
-  background-color: #7C4DFF;
-  color: #fff;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.8rem;
-  padding: 0.4rem 2rem;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 1.1rem;
-  margin-top: 1.5rem;
-  transition: all 0.2s ease;
-  box-shadow: 0 2px 4px rgba(124, 77, 255, 0.2);
-}
-
-.try-solid-button::after {
-  content: "";
-  display: inline-block;
-  width: 1.8rem;
-  height: 1.6rem;
-  flex-shrink: 0;
-  background-image: url("/assets/img/solid-emblem.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.try-solid-button:hover,
-.try-solid-button:focus {
-  background-color: #6a3ce8;
-  color: #fff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(124, 77, 255, 0.3);
+/** Tables */
+.table-caption {
+  caption-side: bottom;
+  text-align: left;
+  padding: 1rem 0;
+  font-weight: normal;
 }
 
 /** iCalendar Download */
@@ -190,7 +120,7 @@ blockquote {
   text-decoration: none;
   border-radius: 4px;
   font-weight: 500;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.3s ease;
 }
 
 .ical-download-button::before {
@@ -202,20 +132,10 @@ blockquote {
   filter: brightness(0) invert(1);
 }
 
-.ical-download:hover,
-.ical-download:focus {
+.ical-download-button:hover,
+.ical-download-button:focus {
   background-color: #0052a3;
   color: #fff;
-}
-
-/** Quotes */
-.quote {
-  margin: 0;
-  padding: 0;
-}
-
-.quote .quote-author::before {
-  content: "— ";
 }
 
 /** Tiles */
@@ -233,7 +153,7 @@ blockquote {
   border-radius: 8px;
   padding: 1.5rem;
   background-color: #fafafa;
-  transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 .tiles li:hover {
@@ -284,7 +204,6 @@ blockquote {
   margin-bottom: 0;
 }
 
-
 .tiles.tile-links li {
   padding: 0;
   display: flex;
@@ -314,86 +233,10 @@ blockquote {
   width: 1rem;
   height: 1.5rem;
   margin-left: .2rem;
-  transition: margin-left 0.2s ease;
+  transition: margin-left 0.3s ease;
   vertical-align: middle;
 }
 
 .tiles.tile-links a:hover .tile-links-nav-hint::after {
   margin-left: 0.5rem;
-}
-
-/* CSS Elements */
-/** Events List */
-.solid-events-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Apps List */
-.app-category {
-  display: inline-block;
-  background: #f0f0f0;
-  color: #666;
-  padding: 0.25rem 0.75rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.sort-controls {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-  border: 1px solid #e9ecef;
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-  align-items: flex-end;
-}
-.control-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-.sort-controls label {
-  font-weight: 600;
-  color: #495057;
-  font-size: 0.9rem;
-}
-.sort-controls select {
-  padding: 0.5rem;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  background: white;
-  font-size: 0.9rem;
-  min-width: 200px;
-}
-.sort-controls select:focus {
-  outline: none;
-  border-color: #3273dc;
-  box-shadow: 0 0 0 2px rgba(50, 115, 220, 0.25);
-}
-.top-app-tag {
-  color: #ff6b35;
-  font-size: 1.8rem;
-  margin-left: 0.5rem;
-  flex-shrink: 0;
-}
-.checkbox-label {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  font-weight: 600;
-  color: #495057;
-  font-size: 0.9rem;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.checkbox-label input[type="checkbox"] {
-  margin: 0;
-  cursor: pointer;
 }
