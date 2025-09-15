@@ -68,14 +68,18 @@ main article h1 {
 /** Images */
 .article-image-left {
   float: left;
-  padding-right: 1.6rem;
+  padding: 0 1.6rem 1.6rem 0;
   width: 30rem;
 }
 
 .article-image-right {
   float: right;
-  padding-left: 1.6rem;
+  padding: 0 0 1.6rem 1.6rem;
   width: 30rem;
+}
+
+.article-image-small {
+  width: 20rem;
 }
 
 @media (max-width: 820px) {
