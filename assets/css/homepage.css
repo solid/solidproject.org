@@ -3,16 +3,8 @@
   min-height: calc(100vh - 12.5rem);
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 6.2rem;
   justify-content: center;
-}
-
-.try-solid .hero-text {
-  flex: 1;
-}
-
-.try-solid .hero-image {
-  flex: 1;
 }
 
 .try-solid .hero-image img {
@@ -20,15 +12,13 @@
   height: auto;
 }
 
-.try-solid .hero-text img {
-  width: 4rem;
-  height: auto;
-}
-
 @media (max-width: 768px) {
-  .try-solid .hero-content {
+  .try-solid {
     flex-direction: column;
-    gap: 2rem;
+  }
+
+  .try-solid .hero-text {
+    text-align: center;
   }
 }
 
