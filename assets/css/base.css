@@ -85,6 +85,13 @@ main article h1 {
 @media (max-width: 820px) {
     .article-image-left, .article-image-right {
         float: none;
+        padding: 0 0 1.6rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .article-image-left, .article-image-right {
+        width: 100%;
     }
 }
 
