@@ -3,8 +3,17 @@
   min-height: calc(100vh - 12.5rem);
   display: flex;
   align-items: center;
-  gap: 6.2rem;
+  gap: 3.2rem;
   justify-content: center;
+}
+
+.try-solid h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+.try-solid h2 {
+  margin: .6rem 0;
 }
 
 .try-solid .hero-image img {
