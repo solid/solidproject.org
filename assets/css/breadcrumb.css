@@ -36,7 +36,7 @@
   display: flex;
 }
 
-.breadcrumb li.is-active a {
+.breadcrumb li a[href="#"] {
   color: #202542;
   cursor: default;
   pointer-events: none;

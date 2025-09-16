@@ -44,7 +44,7 @@
         <li><a href="/">Home</a></li>
         {% for breadcrumb in page.breadcrumbs %}
           {% if forloop.last %}
-            <li class="is-active"><a href="#" aria-current="page">{{ breadcrumb.title }}</a></li>
+            <li><a href="#" aria-current="page">{{ breadcrumb.title }}</a></li>
           {% else %}
             <li><a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a></li>
           {% endif %}
