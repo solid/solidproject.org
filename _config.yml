@@ -26,6 +26,7 @@ excerpt_separator: "<!--more-->"
 include: 
   - _redirects
 exclude:
+  - assets/fonts/lato/OFL.txt
   - rdfa
   - docker-compose.yml
   - LICENSE.md
