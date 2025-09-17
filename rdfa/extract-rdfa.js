@@ -193,91 +193,87 @@ class RDFaExtractor {
     return allQuads;
   }
 
+
+
   /**
-   * Find HTML files in root directory only (non-recursive)
+   * Convert URL to TTL file path
+   * Examples:
+   * http://localhost:4000/ -> ./ttl/index.ttl
+   * http://localhost:4000/x -> ./ttl/x.ttl
+   * http://example.org/x/y -> ./ttl/x/y.ttl
    */
-  findRootHTMLFiles(dir) {
-    const files = [];
+  urlToTTLPath(url) {
     try {
-      const items = fs.readdirSync(dir);
+      const urlObj = new URL(url);
+      let pathname = urlObj.pathname;
       
-      for (let item of items) {
-        const fullPath = path.join(dir, item);
-        const stat = fs.statSync(fullPath);
+      // Remove leading slash
+      if (pathname.startsWith('/')) {
+        pathname = pathname.substring(1);
+      }
+      
+      // Handle root path (empty after removing leading slash)
+      if (pathname === '' || pathname === '/') {
+        return path.join(__dirname, 'ttl', 'index.ttl');
+      }
+      
+      // Remove trailing slash if present
+      if (pathname.endsWith('/')) {
+        pathname = pathname.substring(0, pathname.length - 1);
+      }
+      
+      // Build the TTL file path
+      const ttlPath = path.join(__dirname, 'ttl', `${pathname}.ttl`);
+      return ttlPath;
+    } catch (error) {
+      console.error(`Error converting URL to TTL path: ${url}`, error.message);
+      // Fallback to a safe filename
+      const safeName = url.replace(/[^a-zA-Z0-9]/g, '_');
+      return path.join(__dirname, 'ttl', `${safeName}.ttl`);
+    }
+  }
+
+  /**
+   * Extract RDFa from a URL and save to TTL file using path mapping
+   */
+  async extractAndSaveFromURL(url, ttlDir = null) {
+    try {
+      console.log(`Extracting from URL: ${url}`);
+      
+      // Create a separate extractor for this URL
+      const extractor = new RDFaExtractor();
+      const quads = await extractor.extractFromURL(url);
+      
+      if (quads.length > 0) {
+        const ttlPath = ttlDir ? 
+          path.join(ttlDir, path.relative(__dirname, this.urlToTTLPath(url)).replace('ttl/', '')) :
+          this.urlToTTLPath(url);
         
-        if (stat.isFile() && item.endsWith('.html')) {
-          files.push(fullPath);
+        // Create directory if it doesn't exist
+        const ttlDirPath = path.dirname(ttlPath);
+        if (!fs.existsSync(ttlDirPath)) {
+          fs.mkdirSync(ttlDirPath, { recursive: true });
         }
+        
+        const turtle = await extractor.toTurtle();
+        fs.writeFileSync(ttlPath, turtle);
+        
+        const relativePath = ttlDir ? 
+          path.relative(ttlDir, ttlPath) :
+          path.relative(__dirname, ttlPath);
+        console.log(`  → Saved ${quads.length} triples to ${relativePath}`);
+        
+        return { url, quads: quads.length, outputFile: relativePath, success: true };
+      } else {
+        console.log(`  → No RDFa found in ${url}`);
+        return { url, quads: 0, outputFile: null, success: true };
       }
     } catch (error) {
-      console.error(`Error reading directory ${dir}:`, error.message);
-    }
-    
-    return files;
-  }
-
-  /**
-   * Convert HTML filename to solidproject.org URL
-   */
-  htmlFileToURL(filePath) {
-    const filename = path.basename(filePath, '.html');
-    
-    if (filename === 'index') {
-      return 'https://solidproject.org/';
-    } else {
-      return `https://solidproject.org/${filename}`;
+      console.error(`Error processing ${url}:`, error.message);
+      return { url, quads: 0, outputFile: null, error: error.message, success: false };
     }
   }
 
-  /**
-   * Process all root HTML files by extracting from their live URLs
-   */
-  async processAllSolidProjectPages(rootDir, saveIndividualFiles = false) {
-    const htmlFiles = this.findRootHTMLFiles(rootDir);
-    
-    console.log(`Found ${htmlFiles.length} HTML files in root directory`);
-    console.log('Extracting RDFa from corresponding live URLs on solidproject.org...\n');
-    
-    // Create ttl directory if saving individual files
-    if (saveIndividualFiles) {
-      const ttlDir = path.join(__dirname, 'ttl');
-      if (!fs.existsSync(ttlDir)) {
-        fs.mkdirSync(ttlDir, { recursive: true });
-      }
-    }
-    
-    const results = [];
-    for (const file of htmlFiles) {
-      const url = this.htmlFileToURL(file);
-      const filename = path.basename(file);
-      
-      console.log(`Processing ${filename} → ${url}`);
-      
-      try {
-        // Create a separate extractor for each page if saving individual files
-        const extractor = saveIndividualFiles ? new RDFaExtractor() : this;
-        const quads = await extractor.extractFromURL(url);
-        
-        // Save individual file if requested
-        if (saveIndividualFiles && quads.length > 0) {
-          const outputFilename = path.basename(file, '.html');
-          const ttlFilename = outputFilename === 'index' ? 'index.ttl' : `${outputFilename}.ttl`;
-          const ttlPath = path.join(__dirname, 'ttl', ttlFilename);
-          
-          const turtle = await extractor.toTurtle();
-          fs.writeFileSync(ttlPath, turtle);
-          console.log(`  → Saved to ttl/${ttlFilename}`);
-        }
-        
-        results.push({ file: filename, url, quads: quads.length, outputFile: saveIndividualFiles ? `ttl/${path.basename(file, '.html') === 'index' ? 'index' : path.basename(file, '.html')}.ttl` : null });
-      } catch (error) {
-        console.error(`Error processing ${filename}:`, error.message);
-        results.push({ file: filename, url, quads: 0, error: error.message });
-      }
-    }
-    
-    return results;
-  }
 
   /**
    * Convert the RDF store to Turtle format
@@ -335,12 +331,6 @@ class RDFaExtractor {
     };
   }
 
-  /**
-   * Clear the store for fresh extraction
-   */
-  clear() {
-    this.store = new Store();
-  }
 }
 
 // CLI functionality
@@ -350,97 +340,62 @@ async function main() {
   
   if (args.length === 0) {
     console.log('Usage: node extract-rdfa.js [input-file-directory-or-url] [output-file]');
-    console.log('       node extract-rdfa.js --all [output-file]');
+    console.log('');
+    console.log('Note: When extracting from URLs, TTL files are automatically saved to ./ttl/ with path mapping:');
+    console.log('  http://localhost:4000/ → ./ttl/index.ttl');
+    console.log('  http://localhost:4000/x → ./ttl/x.ttl');
+    console.log('  https://example.org/x/y → ./ttl/x/y.ttl');
     console.log('');
     console.log('Examples:');
     console.log('  node extract-rdfa.js index.html output.ttl');
     console.log('  node extract-rdfa.js . all-rdfa.ttl');
     console.log('  node extract-rdfa.js events/archive.html events.ttl');
-    console.log('  node extract-rdfa.js https://solidproject.org/community community.ttl');
-    console.log('  node extract-rdfa.js https://example.org/page.html example.ttl');
-    console.log('  node extract-rdfa.js --all solidproject-all.ttl');
-    console.log('  node extract-rdfa.js --all --split solidproject-all.ttl');
-    console.log('');
-    console.log('Options:');
-    console.log('  --all      Extract from all root HTML files via solidproject.org URLs');
-    console.log('  --split    Save each page to individual TTL files (use with --all)');
-    console.log('  --stats    Show extraction statistics');
-    console.log('  --help     Show this help message');
+    console.log('  node extract-rdfa.js https://solidproject.org/community');
+    console.log('  node extract-rdfa.js http://localhost:4000/');
+    console.log('  node extract-rdfa.js http://localhost:4000/x');
+    console.log('  node extract-rdfa.js https://example.org/x/y');
     process.exit(1);
   }
   
-  const showStats = args.includes('--stats');
-  const useAll = args.includes('--all');
-  const useSplit = args.includes('--split');
-  const input = args.find(arg => !arg.startsWith('--'));
+  const inputArg = args.find(arg => !arg.startsWith('--'));
   
-  let output;
-  if (useAll) {
-    // For --all, the first non-option arg is the output file
-    output = input || 'solidproject-all.ttl';
-  } else {
-    // For normal mode, second arg is output file
-    output = args[1] && !args[1].startsWith('--') ? args[1] : 'output.ttl';
-    
-    if (!input) {
-      console.error('No input file or directory specified');
-      process.exit(1);
-    }
+  if (!inputArg) {
+    console.error('No input file, directory, or URL specified');
+    process.exit(1);
   }
   
+  const output = args[1] && !args[1].startsWith('--') ? args[1] : 'output.ttl';
+  
   try {
-    if (useAll) {
-      console.log('Processing: All root HTML files → solidproject.org URLs');
-      if (useSplit) {
-        console.log(`Individual files: ttl/*.ttl`);
-        console.log(`Combined output: ${output}`);
+    console.log(`Processing: ${inputArg}`);
+    console.log(`Output: ${output}`);
+    console.log('');
+    
+    if (extractor.isURL(inputArg)) {
+      // Handle URL input - use new method that saves with proper path mapping
+      const result = await extractor.extractAndSaveFromURL(inputArg);
+      if (result.success && result.outputFile) {
+        console.log(`✅ Extracted ${result.quads} triples from ${inputArg}`);
+        console.log(`📝 TTL output saved to: ${result.outputFile}`);
+        // Don't generate additional Turtle output since it's already saved
+        return;
+      } else if (result.success && result.quads === 0) {
+        console.log(`⚠️  No RDFa found in ${inputArg}`);
+        return;
       } else {
-        console.log(`Output: ${output}`);
+        throw new Error(result.error || 'Unknown error processing URL');
       }
-      console.log('');
-      
-      // Process all root HTML files by extracting from their live URLs
-      const results = await extractor.processAllSolidProjectPages('..', useSplit);
-      
-      // Print summary
-      console.log('\n📋 Processing Summary:');
-      let totalTriples = 0;
-      let successCount = 0;
-      let errorCount = 0;
-      
-      for (const result of results) {
-        if (result.error) {
-          console.log(`❌ ${result.file} → ${result.url} (Error: ${result.error})`);
-          errorCount++;
-        } else {
-          const fileInfo = useSplit && result.outputFile ? ` → ${result.outputFile}` : '';
-          console.log(`✅ ${result.file} → ${result.url} (${result.quads} triples)${fileInfo}`);
-          totalTriples += result.quads;
-          successCount++;
-        }
-      }
-      console.log(`\n📊 Summary: ${successCount} pages processed successfully, ${errorCount} errors`);
-      console.log(`📊 Total triples extracted: ${totalTriples}`);
     } else {
-      console.log(`Processing: ${input}`);
-      console.log(`Output: ${output}`);
-      console.log('');
+      // Handle file/directory input
+      const stat = fs.statSync(inputArg);
       
-      if (extractor.isURL(input)) {
-        // Handle URL input
-        await extractor.extractFromURL(input);
+      if (stat.isDirectory()) {
+        await extractor.processDirectory(inputArg);
+      } else if (stat.isFile() && inputArg.endsWith('.html')) {
+        await extractor.extractFromFile(inputArg);
       } else {
-        // Handle file/directory input
-        const stat = fs.statSync(input);
-        
-        if (stat.isDirectory()) {
-          await extractor.processDirectory(input);
-        } else if (stat.isFile() && input.endsWith('.html')) {
-          await extractor.extractFromFile(input);
-        } else {
-          console.error('Input must be an HTML file, directory, or URL');
-          process.exit(1);
-        }
+        console.error('Input must be an HTML file, directory, or URL');
+        process.exit(1);
       }
     }
     
@@ -454,12 +409,10 @@ async function main() {
     console.log(`📊 Extracted ${stats.totalTriples} triples`);
     console.log(`📝 Turtle output saved to: ${output}`);
     
-    if (showStats) {
-      console.log('\n📈 Statistics:');
-      console.log(`   Unique subjects: ${stats.uniqueSubjects}`);
-      console.log(`   Unique predicates: ${stats.uniquePredicates}`);
-      console.log(`   Unique objects: ${stats.uniqueObjects}`);
-    }
+    console.log('\n📈 Statistics:');
+    console.log(`   Unique subjects: ${stats.uniqueSubjects}`);
+    console.log(`   Unique predicates: ${stats.uniquePredicates}`);
+    console.log(`   Unique objects: ${stats.uniqueObjects}`);
     
   } catch (error) {
     console.error('❌ Error:', error.message);
