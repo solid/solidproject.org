@@ -4,7 +4,8 @@
   display: flex;
   align-items: center;
   gap: 3.2rem;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .try-solid h1 {
@@ -23,9 +24,26 @@
   height: auto;
 }
 
-@media (max-width: 768px) {
+.try-solid .hero-text p {
+  margin: .8rem 0 1.6rem;
+}
+
+@media (min-width: 781px) {
+  .hero-image, .hero-text {
+    width: 86.4%;
+    max-width: 54.4rem;
+  }
+  .hero-text {
+    margin-top: -14.6rem;
+  }
+  .hero-text p {
+    max-width: 16rem;
+  }
+}
+
+@media (max-width: 780px) {
   .try-solid {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .try-solid .hero-text {
@@ -45,7 +63,6 @@
   border-radius: 6px;
   font-weight: 600;
   font-size: 1.1rem;
-  margin-top: 1.5rem;
   transition: all 0.2s ease;
   box-shadow: 0 2px 4px rgba(124, 77, 255, 0.2);
 }
