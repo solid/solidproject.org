@@ -134,13 +134,7 @@
     filter: invert(1);
 }
 
-@media (max-width: 540px) {
-    .footer .social-nav ul {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 800px) {
+@media (max-width: 780px) {
     .footer .footer-nav {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8, auto);
@@ -174,4 +168,8 @@
     .footer .footer-nav dd:nth-child(6) { grid-row: 6; }
     .footer .footer-nav dt:nth-child(7) { grid-row: 7; }
     .footer .footer-nav dd:nth-child(8) { grid-row: 8; }
+
+    .footer .social-nav ul {
+        flex-direction: column;
+    }
 }
