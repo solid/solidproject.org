@@ -289,7 +289,9 @@ class RDFaExtractor {
           'og': 'http://ogp.me/ns#',
           'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
           'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
-          'xsd': 'http://www.w3.org/2001/XMLSchema#'
+          'rdfa': 'http://www.w3.org/ns/rdfa#',
+          'xsd': 'http://www.w3.org/2001/XMLSchema#',
+          'local': 'http://localhost:4000/'
         }
       });
 
