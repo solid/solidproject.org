@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" prefix="doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# schema: http://schema.org/">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css" />{% if page.stylesheets %}{% for stylesheet in page.stylesheets %}
     <link rel="stylesheet" href="/assets/css/{{ stylesheet }}" />{% endfor %}{% endif %}
   </head>
-  <body>
+  <body vocab="http://schema.org/">
     <header class="header">
       <address class="homepage-link">
         <a href="/"><img alt="Solid logo" src="/assets/img/solid-emblem.svg" /> Solid</a>
