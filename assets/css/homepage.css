@@ -10,12 +10,10 @@
 
 .try-solid h1 {
   font-size: 3.2rem;
-  font-weight: 900;
   margin: 0;
 }
 .try-solid h2 {
   font-size: 2.1rem;
-  font-weight: 800;
   margin: 0;
 }
 
@@ -30,8 +28,8 @@
 
 @media (min-width: 781px) {
   .hero-image, .hero-text {
-    width: 86.4%;
-    max-width: 54.4rem;
+    width: 83.2%;
+    max-width: 51.2rem;
   }
   .hero-text {
     margin-top: -14.6rem;
@@ -61,7 +59,7 @@
   padding: 0.4rem 2rem;
   text-decoration: none;
   border-radius: 6px;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1.1rem;
   transition: all 0.2s ease;
   box-shadow: 0 2px 4px rgba(124, 77, 255, 0.2);
