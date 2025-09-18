@@ -58,7 +58,7 @@
     font-display: swap;
 }
 
-/* Lato Regular (400) */
+/* Lato (400) */
 @font-face {
     font-family: 'Lato';
     src: url('/assets/fonts/lato/Lato-Regular.woff2') format('woff2'),
@@ -68,7 +68,7 @@
     font-display: swap;
 }
 
-/* Lato Regular Italic (400) */
+/* Lato Italic (400) */
 @font-face {
     font-family: 'Lato';
     src: url('/assets/fonts/lato/Lato-Italic.woff2') format('woff2'),

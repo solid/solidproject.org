@@ -1,14 +1,57 @@
+/* Font */
+/** Lato (400) (Lato full) */
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/fonts/lato/Lato-Regular.woff2') format('woff2'),
+         url('/assets/fonts/lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/** Lato Latin Italic (400) (Latin only subset) */
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/fonts/lato/LatoLatin-Italic.woff2') format('woff2'),
+         url('/assets/fonts/lato/LatoLatin-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+/** Lato Latin Semibold (600) (Latin only subset) */
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/fonts/lato/LatoLatin-Semibold.woff2') format('woff2'),
+         url('/assets/fonts/lato/LatoLatin-Semibold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/** Lato Heavy (800) (Latin only subset) */
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/fonts/lato/LatoLatin-Heavy.woff2') format('woff2'),
+         url('/assets/fonts/lato/LatoLatin-Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* Defaults */
 body {
   background-color: #202542;
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 1.625;
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
+h1 {
+  font-weight: 800
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: bold;
 }
 
 /* Layout */
@@ -45,7 +88,6 @@ main article h1 {
 }
 
 .details-box summary {
-  font-weight: bold;
   margin: -0.5em -0.5em 0;
   padding: 0.5em;
 }
@@ -123,7 +165,6 @@ main article h1 {
   caption-side: bottom;
   text-align: left;
   padding: 1rem 0;
-  font-weight: normal;
 }
 
 /** iCalendar Download */
@@ -136,7 +177,7 @@ main article h1 {
   padding: .2rem .4rem;
   text-decoration: none;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
