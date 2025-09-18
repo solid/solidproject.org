@@ -7,11 +7,10 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" />{% if page.description %}
     <meta property="og:description" content="{{ page.description }}" />{% endif %}{% if page.image %}
-    <meta property="og:image" content="{{ page.image }}" />{% endif %}{% if page.permalink %}
+    <meta property="og:image" content="{{ page.image | prepend: site.base_url }}" />{% endif %}{% if page.permalink %}
     <meta property="og:url" content="{{ page.permalink | prepend: site.base_url }}" />{% endif %}
-    <meta property="og:type" content="website" />
     <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content="en" />
     <meta name="theme-color" content="#7C4DFF">
     <link type="application/atom+xml" rel="alternate" href="{{ site.base_url }}/feed.xml" title="{{ site.title }}" />
     <link rel="stylesheet" href="/assets/css/styles.css" />{% if page.stylesheets %}{% for stylesheet in page.stylesheets %}
