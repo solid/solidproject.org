@@ -14,9 +14,10 @@
 /apps.html                                                          /apps                                                                                               301!
 /apps/index                                                         /apps                                                                                               301
 /apps/index.html                                                    /apps                                                                                               301
-/code-of-conduct.html                                               /code-of-conduct                                                                                    301!
-/code-of-conduct/index                                              /code-of-conduct                                                                                    301
-/code-of-conduct/index.html                                         /code-of-conduct                                                                                    301
+/code_of_conduct.html                                               /code_of_conduct                                                                                    301!
+/code-of-conduct.html                                               /code_of_conduct                                                                                    301
+/code-of-conduct/index                                              /code_of_conduct                                                                                    301
+/code-of-conduct/index.html                                         /code_of_conduct                                                                                    301
 /community.html                                                     /community                                                                                          301!
 /community/index                                                    /community                                                                                          301
 /community/index.html                                               /community                                                                                          301
@@ -33,24 +34,29 @@
 /faqs.html                                                          /FAQ                                                                                                301
 /faqs/index                                                         /FAQ                                                                                                301
 /faqs/index.html                                                    /FAQ                                                                                                301
-/for-developers.html                                                /for-developers                                                                                     301!
-/for-developers/index                                               /for-developers                                                                                     301
-/for-developers/index.html                                          /for-developers                                                                                     301
-/for-organizations.html                                             /for-organizations                                                                                  301!
-/for-organizations/index                                            /for-organizations                                                                                  301
-/for-organizations/index.html                                       /for-organizations                                                                                  301
-/for-users.html                                                     /for-users                                                                                          301!
-/for-users/index                                                    /for-users                                                                                          301
-/for-users/index.html                                               /for-users                                                                                          301
-/get-a-pod.html                                                     /get-a-pod                                                                                          301!
-/get-a-pod/index                                                    /get-a-pod                                                                                          301
-/get-a-pod/index.html                                               /get-a-pod                                                                                          301
+/for_developers.html                                                /for_developers                                                                                     301!
+/for-developers.html                                                /for_developers                                                                                     301
+/for-developers/index                                               /for_developers                                                                                     301
+/for-developers/index.html                                          /for_developers                                                                                     301
+/for_organizations.html                                             /for_organizations                                                                                  301!
+/for-organizations.html                                             /for_organizations                                                                                  301
+/for-organizations/index                                            /for_organizations                                                                                  301
+/for-organizations/index.html                                       /for_organizations                                                                                  301
+/for_users.html                                                     /for_users                                                                                          301!
+/for-users.html                                                     /for_users                                                                                          301
+/for-users/index                                                    /for_users                                                                                          301
+/for-users/index.html                                               /for_users                                                                                          301
+/get_a_pod.html                                                     /get_a_pod                                                                                          301!
+/get-a-pod.html                                                     /get_a_pod                                                                                          301
+/get-a-pod/index                                                    /get_a_pod                                                                                          301
+/get-a-pod/index.html                                               /get_a_pod                                                                                          301
 /license.html                                                       /license                                                                                            301!
 /license/index                                                      /license                                                                                            301
 /license/index.html                                                 /license                                                                                            301
-/logo-usage-guidelines.html                                         /logo-usage-guidelines                                                                              301!
-/logo-usage-guidelines/index                                        /logo-usage-guidelines                                                                              301
-/logo-usage-guidelines/index.html                                   /logo-usage-guidelines                                                                              301
+/logo_usage_guidelines.html                                         /logo_usage_guidelines                                                                              301!
+/logo-usage-guidelines.html                                         /logo_usage_guidelines                                                                              301
+/logo-usage-guidelines/index                                        /logo_usage_guidelines                                                                              301
+/logo-usage-guidelines/index.html                                   /logo_usage_guidelines                                                                              301
 /newsletter.html                                                    /newsletter                                                                                         301!
 /newsletter/index                                                   /newsletter                                                                                         301
 /newsletter/index.html                                              /newsletter                                                                                         301
@@ -69,9 +75,10 @@
 /terms.html                                                         /terms                                                                                              301!
 /terms/index                                                        /terms                                                                                              301
 /terms/index.html                                                   /terms                                                                                              301
-/website-strategy.html                                              /website-strategy                                                                                   301!
-/website-strategy/index                                             /website-strategy                                                                                   301
-/website-strategy/index.html                                        /website-strategy                                                                                   301
+/website_strategy.html                                              /website_strategy                                                                                   301!
+/website-strategy.html                                              /website_strategy                                                                                   301
+/website-strategy/index                                             /website_strategy                                                                                   301
+/website-strategy/index.html                                        /website_strategy                                                                                   301
 
 # Newsletter redirections
 /newsletter/2019-07-18.html                                         /newsletter/2019-07-18                                                                              301!
@@ -236,42 +243,43 @@
 /use-solid/apps.html                                                /apps                                                                                               302
 
 # Legacy links directing to Get a Pod
-/users/get-a-pod                                                    /get-a-pod                                                                                          302
-/users/get-a-pod.html                                               /get-a-pod                                                                                          302
+/users/get-a-pod                                                    /get_a_pod                                                                                          302
+/users/get-a-pod.html                                               /get_a_pod                                                                                          302
 
 # Legacy links directing to For Developers
-/developers/index.html                                              /for-developers                                                                                     302
-/developers/tutorials/first-app.html                                /for-developers                                                                                     302
-/developers/tutorials/getting-started.html                          /for-developers                                                                                     302
-/developers/tutorials/getting-started/index.html                    /for-developers                                                                                     302
-/developers/tutorials/index.html                                    /for-developers                                                                                     302
-/for-developers/apps/first-app/index.html                           /for-developers                                                                                     302
-/for-developers/apps/index.html                                     /for-developers                                                                                     302
-/for-developers/pod-server.html                                     /for-developers                                                                                     302
-/for-developers/pod-server/apache.html                              /for-developers                                                                                     302
-/for-developers/pod-server/nginx.html                               /for-developers                                                                                     302
-/implement.html                                                     /for-developers                                                                                     302
-/self-hosting.html                                                  /for-developers                                                                                     302
-/self-hosting/css.html                                              /for-developers                                                                                     302
-/self-hosting/css/nginx.html                                        /for-developers                                                                                     302
-/self-hosting/nss.html                                              /for-developers                                                                                     302
-/self-hosting/nss/apache.html                                       /for-developers                                                                                     302
-/self-hosting/nss/nginx.html                                        /for-developers                                                                                     302
+/developers/index.html                                              /for_developers                                                                                     302
+/developers/tutorials/first-app.html                                /for_developers                                                                                     302
+/developers/tutorials/getting-started.html                          /for_developers                                                                                     302
+/developers/tutorials/getting-started/index.html                    /for_developers                                                                                     302
+/developers/tutorials/index.html                                    /for_developers                                                                                     302
+/for-developers/apps/first-app/index.html                           /for_developers                                                                                     302
+/for-developers/apps/index.html                                     /for_developers                                                                                     302
+/for-developers/pod-server.html                                     /for_developers                                                                                     302
+/for-developers/pod-server/apache.html                              /for_developers                                                                                     302
+/for-developers/pod-server/nginx.html                               /for_developers                                                                                     302
+/implement.html                                                     /for_developers                                                                                     302
+/self-hosting.html                                                  /for_developers                                                                                     302
+/self-hosting/css.html                                              /for_developers                                                                                     302
+/self-hosting/css/nginx.html                                        /for_developers                                                                                     302
+/self-hosting/nss.html                                              /for_developers                                                                                     302
+/self-hosting/nss/apache.html                                       /for_developers                                                                                     302
+/self-hosting/nss/nginx.html                                        /for_developers                                                                                     302
 
 # Legacy links directing to For Organizations
-/for-enterprises/index                                              /for-organizations                                                                                  302
-/for-enterprises/index.html                                         /for-organizations                                                                                  302
+/for-enterprises/index                                              /for_organizations                                                                                  302
+/for-enterprises/index.html                                         /for_organizations                                                                                  302
 
 # Legacy links directing to For Users
-/use-solid/index                                                    /for-users                                                                                          302
-/use-solid/index.html                                               /for-users                                                                                          302
-/users                                                              /for-users                                                                                          302
-/users.html                                                         /for-users                                                                                          302
+/use-solid/index                                                    /for_users                                                                                          302
+/use-solid/index.html                                               /for_users                                                                                          302
+/users                                                              /for_users                                                                                          302
+/users.html                                                         /for_users                                                                                          302
 
 # Legacy links directing to Specification
 /standardisation                                                    /specification                                                                                      302
 /standardisation.html                                               /specification                                                                                      302
 
 # Subdirectories
-/developers/tools/index.html                                        /for-developers/tools                                                                               302
-/for-developers/apps/tools/index.html                               /for-developers/tools                                                                               302
+/developers/tools/index.html                                        /for_developers/tools                                                                               302
+/for-developers/getting-started.html                                /for_developers/getting_started                                                                     302
+/for-developers/apps/tools/index.html                               /for_developers/tools                                                                               302
