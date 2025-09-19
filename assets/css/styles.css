@@ -1,4 +1,4 @@
 ---
 ---
-{% capture css %}{% include_relative base.css %}{% include_relative header.css %}{% include_relative footer.css %}{% include_relative breadcrumb.css %}{% endcapture %}
+{% capture css %}{% include_relative base.css %}{% include_relative header.css %}{% include_relative footer.css %}{% include_relative breadcrumb.css %}{% include_relative homepage.css %}{% include_relative apps.css %}{% endcapture %}
 {{ css | strip_newlines | replace: '   ', ' ' | replace: '  ', ' ' }}
