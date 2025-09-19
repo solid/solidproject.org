@@ -4,6 +4,6 @@ layout: default
 
 <article about="{{ page.permalink }}" typeof="Article">{% if page.title %}
   <h1 id="{{ page.title | slugify | replace: '-', '_' }}" property="name">{{ page.title }}</h1>{% endif %}{% if page.image %}
-  <img property="image" src="{{ page.image }}" class="article-image-right article-image-top" />{% endif %}
+  <img alt="Header graphic" property="image" src="{{ page.image }}" class="article-image-right article-image-top" />{% endif %}
   {{ content }}
 </article>
