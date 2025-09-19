@@ -3,291 +3,293 @@ permalink: /apps
 layout: article
 title: "Solid Applications"
 description: "Solid returns the web to its original vision of empowering individuals and enabling collaboration. You choose which applications to use with your data rather than being locked into specific platforms."
+image: "/assets/img/graphics/store-anything-medium.svg"
 breadcrumbs:
 - title: "Solid Applications"
 stylesheets:
 - apps.css
 ---
 
-<section about="#introduction" datatype="rdf:HTML" property="schema:description">
-  <img src="/assets/img/graphics/store-anything-medium.svg" class="article-image-right article-image-top" />
+<div datatype="rdf:HTML" property="description">
   <p>Solid returns the web to its original vision of empowering individuals and enabling collaboration. You choose which applications to use with your data rather than being locked into specific platforms.</p>
   <p>You can now use the app launcher to discover and launch Solid applications.</p>
   <p>Before you use any of the Solid apps, you need to <a href="/get-a-pod">get a Solid personal online data store</a> (Pod) first.</p>
-</section>
+</div>
 
-<section about="#solid-apps-launcher" datatype="rdf:HTML" property="schema:description" class="article-section">
-  <h2>App Launcher</h2>
-  <div class="sort-controls">
-    <div class="control-group">
-      <label for="sort-select">Sort by:</label>
-      <select id="sort-select">
-        <option value="">Default Order</option>
-        <option value="name-asc">Name (A-Z)</option>
-        <option value="name-desc">Name (Z-A)</option>
-        <option value="category-asc">Category (A-Z)</option>
-        <option value="category-desc">Category (Z-A)</option>
-      </select>
+<section resource="#app_launcher" inlist="" rel="hasPart" class="article-section">
+  <h2 id="app_launcher" property="name">App Launcher</h2>
+  <div datatype="rdf:HTML" property="description">
+    <div class="sort-controls">
+      <div class="control-group">
+        <label for="sort-select">Sort by:</label>
+        <select id="sort-select">
+          <option value="">Default Order</option>
+          <option value="name-asc">Name (A-Z)</option>
+          <option value="name-desc">Name (Z-A)</option>
+          <option value="category-asc">Category (A-Z)</option>
+          <option value="category-desc">Category (Z-A)</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="category-filter">Filter by category:</label>
+        <select id="category-filter">
+          <option value="all">All Categories</option>
+          <option value="Cooking">Cooking</option>
+          <option value="Movies">Movies</option>
+          <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
+          <option value="Pod Management">Pod Management</option>
+          <option value="TODO List">TODO List</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label class="checkbox-label">
+          <input type="checkbox" id="top-apps-only">
+          <span class="checkmark"></span>
+          Show only first time user apps
+        </label>
+      </div>
     </div>
-    <div class="control-group">
-      <label for="category-filter">Filter by category:</label>
-      <select id="category-filter">
-        <option value="all">All Categories</option>
-        <option value="Cooking">Cooking</option>
-        <option value="Movies">Movies</option>
-        <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
-        <option value="Pod Management">Pod Management</option>
-        <option value="TODO List">TODO List</option>
-      </select>
-    </div>
-    <div class="control-group">
-      <label class="checkbox-label">
-        <input type="checkbox" id="top-apps-only">
-        <span class="checkmark"></span>
-        Show only first time user apps
-      </label>
-    </div>
-  </div>
-  <ul class="tiles tile-links" id="apps-list">
-    <li data-name="Media Kraken" data-category="Movies">
-      <a href="https://noeldemartin.github.io/media-kraken/">
-        <div class="tile-header">
-          <img src="/assets/img/logo/media-kraken.svg"/>
-          <h3>Media Kraken<span class="top-app-tag">★</span></h3>
-        </div>
-        <p>An app that helps you keep track of movies and create your own collections.</p>
-      </a>
-    </li>
-    <li data-name="Penny" data-category="Pod Management">
-      <a href="https://penny.vincenttunru.com/">
-        <div class="tile-header">
-          <h3>Penny<span class="top-app-tag">★</span></h3>
-        </div>
-        <p>A general Pod Browser by Vincent Tunru.</p>
-      </a>
-    </li>
-    <li data-name="Umai" data-category="Cooking">
-      <a href="https://umai.noeldemartin.com">
-        <div class="tile-header">
-          <img src="/assets/img/logo/umai.png"/>
-          <h3>Umai</h3>
-        </div>
-        <p>An offline-first Recipes Manager by Noel De Martin.</p>
-      </a>
-    </li>
-    <li data-name="0data Hello with Solid" data-category="TODO List">
-      <a href="https://hello.0data.app/solid/">
-        <div class="tile-header">
-          <img src="/assets/img/logo/0dataapp.png"/>
-          <h3>0data Hello with Solid</h3>
-        </div>
-        <p>Implements simple CRUD operations with the REST API and solid-file-client, writing to 'tasks'.</p>
-      </a>
-    </li>
-    <li data-name="Booklice" data-category="Content, Notes, Blogging and Publishing">
-      <a href="https://scenaristeur.github.io/booklice/">
-        <div class="tile-header">
-          <h3>Booklice</h3>
-        </div>
-        <p>A bookmarking app with community sharing features.</p>
-      </a>
-    </li>
-    <li data-name="dokieli" data-category="Content, Notes, Blogging and Publishing">
-      <a href="https://dokie.li/">
-        <div class="tile-header">
-          <img src="/assets/img/logo/dokieli.png"/>
-          <h3>dokieli</h3>
-        </div>
-        <p>A clientside editor for decentralised article publishing, annotations, and social interactions by Sarven Capadisli.</p>
-      </a>
-    </li>
-    <li data-name="Pod Pro" data-category="Pod Management">
-      <a href="https://podpro.dev/">
-        <div class="tile-header">
-          <img src="/assets/img/solid-emblem.svg"/>
-          <h3>Pod Pro</h3>
-        </div>
-        <p>An IDE for editing Solid Pods by Jasmine Leonard.</p>
-      </a>
-    </li>
-    <li data-name="PodOS Browser" data-category="Pod Management">
-      <a href="https://browser.pod-os.org/">
-        <div class="tile-header">
-          <img src="/assets/img/logo/podos-browser.svg"/>
-          <h3>PodOS Browser</h3>
-        </div>
-        <p>A Solid app for browsing and managing the resources in your Pod.</p>
-      </a>
-    </li>
-    <li data-name="Solid File Manager" data-category="Pod Management">
-      <a href="https://otto-aa.github.io/solid-filemanager/">
-        <div class="tile-header">
-          <h3>Solid File Manager</h3>
-        </div>
-        <p>A Solid app that helps you manage the files in your Pod by Otto AA.</p>
-      </a>
-    </li>
-    <li data-name="Solidflix" data-category="Movies">
-      <a href="https://oxfordhcc.github.io/solid-media/">
-        <div class="tile-header">
-          <img src="/assets/img/logo/solidflix.png"/>
-          <h3>Solidflix</h3>
-        </div>
-        <p>A movie tracking and sharing app with personalised recommendations by Oxford Human Centred Computing Group.</p>
-      </a>
-    </li>
-  </ul>
-
-  <details class="details-box">
-    <summary>App inclusion and exclusion criteria</summary>
-    <p>The criteria for an app to be Solid-compatible are:</p>
-    <ul>
-      <li>If identifying users is necessary, they must be able to log in using their WebID and pointing to the Identity Provider of their choice</li>
-      <li>Data consumed by the app should be fetched from Solid Pods if possible</li>
-      <li>Data generated by the app should be stored in Solid Pods</li>
-      <li>The interaction between the app, pods, and Identity Provider(s) must be compliant with the Solid specification</li>
+    <ul class="tiles tile-links" id="apps-list">
+      <li data-name="Media Kraken" data-category="Movies">
+        <a href="https://noeldemartin.github.io/media-kraken/">
+          <div class="tile-header">
+            <img src="/assets/img/logo/media-kraken.svg"/>
+            <h3>Media Kraken<span class="top-app-tag">★</span></h3>
+          </div>
+          <p>An app that helps you keep track of movies and create your own collections.</p>
+        </a>
+      </li>
+      <li data-name="Penny" data-category="Pod Management">
+        <a href="https://penny.vincenttunru.com/">
+          <div class="tile-header">
+            <h3>Penny<span class="top-app-tag">★</span></h3>
+          </div>
+          <p>A general Pod Browser by Vincent Tunru.</p>
+        </a>
+      </li>
+      <li data-name="Umai" data-category="Cooking">
+        <a href="https://umai.noeldemartin.com">
+          <div class="tile-header">
+            <img src="/assets/img/logo/umai.png"/>
+            <h3>Umai</h3>
+          </div>
+          <p>An offline-first Recipes Manager by Noel De Martin.</p>
+        </a>
+      </li>
+      <li data-name="0data Hello with Solid" data-category="TODO List">
+        <a href="https://hello.0data.app/solid/">
+          <div class="tile-header">
+            <img src="/assets/img/logo/0dataapp.png"/>
+            <h3>0data Hello with Solid</h3>
+          </div>
+          <p>Implements simple CRUD operations with the REST API and solid-file-client, writing to 'tasks'.</p>
+        </a>
+      </li>
+      <li data-name="Booklice" data-category="Content, Notes, Blogging and Publishing">
+        <a href="https://scenaristeur.github.io/booklice/">
+          <div class="tile-header">
+            <h3>Booklice</h3>
+          </div>
+          <p>A bookmarking app with community sharing features.</p>
+        </a>
+      </li>
+      <li data-name="dokieli" data-category="Content, Notes, Blogging and Publishing">
+        <a href="https://dokie.li/">
+          <div class="tile-header">
+            <img src="/assets/img/logo/dokieli.png"/>
+            <h3>dokieli</h3>
+          </div>
+          <p>A clientside editor for decentralised article publishing, annotations, and social interactions by Sarven Capadisli.</p>
+        </a>
+      </li>
+      <li data-name="Pod Pro" data-category="Pod Management">
+        <a href="https://podpro.dev/">
+          <div class="tile-header">
+            <img src="/assets/img/solid-emblem.svg"/>
+            <h3>Pod Pro</h3>
+          </div>
+          <p>An IDE for editing Solid Pods by Jasmine Leonard.</p>
+        </a>
+      </li>
+      <li data-name="PodOS Browser" data-category="Pod Management">
+        <a href="https://browser.pod-os.org/">
+          <div class="tile-header">
+            <img src="/assets/img/logo/podos-browser.svg"/>
+            <h3>PodOS Browser</h3>
+          </div>
+          <p>A Solid app for browsing and managing the resources in your Pod.</p>
+        </a>
+      </li>
+      <li data-name="Solid File Manager" data-category="Pod Management">
+        <a href="https://otto-aa.github.io/solid-filemanager/">
+          <div class="tile-header">
+            <h3>Solid File Manager</h3>
+          </div>
+          <p>A Solid app that helps you manage the files in your Pod by Otto AA.</p>
+        </a>
+      </li>
+      <li data-name="Solidflix" data-category="Movies">
+        <a href="https://oxfordhcc.github.io/solid-media/">
+          <div class="tile-header">
+            <img src="/assets/img/logo/solidflix.png"/>
+            <h3>Solidflix</h3>
+          </div>
+          <p>A movie tracking and sharing app with personalised recommendations by Oxford Human Centred Computing Group.</p>
+        </a>
+      </li>
     </ul>
-    <p>Please note that apps falling into the following categories will not be listed on this page, even if they match the criteria above:</p>
-    <ul>
-      <li>Apps intentionally or indirectly causing harm to anyone</li>
-      <li>Apps with a purpose that could be widely considered unethical</li>
-      <li>Apps designed to enable the generation and/or dissemination of hate speech</li>
-      <li>Apps encouraging stereotypes or violent behaviours towards any person or group</li>
-      <li>Apps having malicious intent, such as data theft</li>
-      <li>Apps designed to fulfill illegal purposes, such as drug traffic, stolen information exchange, extorsion…</li>
-      <li>Apps sharing user information with any third-party without user consent</li>
-      <li>Apps that have been reported to have important technical or security issues that compromise its users’ Pods</li>
-    </ul>
-    <p>Want to add an eligible Solid-compatible app to this list? Contact the Solid Manager via <a href="mailto:solid+info@theodi.org">solid+info@theodi.org</a>.</p>
-    <p>Disclaimer: The list above does not represent an endorsement by the Solid Project. The apps on the list do not undergo any testing at this time, and there is no guarantee of security or quality implied by their inclusion on this list. The goal of the list is to showcase the vibrancy of the Solid community and encourage early app builders to collaborate and learn from each other. If you believe one of the apps above is insecure or non-functional and should be removed from the list, please <a href="https://service.theodi.org/help/1476250723">raise an issue here</a>.</p>
-  </details>
 
-  <script>
-    // App tiles sorting and filtering functionality
-    document.addEventListener('DOMContentLoaded', function () {
-      const sortSelect = document.getElementById('sort-select');
-      const categoryFilter = document.getElementById('category-filter');
-      const topAppsOnlyCheckbox = document.getElementById('top-apps-only');
-      const appsList = document.getElementById('apps-list');
-      const appTiles = Array.from(appsList.querySelectorAll('li'));
-      // Store current state
-      let currentSort = 'name-asc';
-      let currentFilter = 'all';
-      let showTopAppsOnly = false;
-      // Function to sort app tiles
-      function sortAppTiles(sortValue) {
-        currentSort = sortValue;
-        const tiles = Array.from(appsList.querySelectorAll('li:not(.hidden)'));
-        if (!sortValue) {
-          // Return to default order - restore original order based on data attributes
-          const defaultOrder = [
-            'Media Kraken',
-            'Penny',
-            'Umai',
-            '0data Hello with Solid',
-            'Booklice',
-            'dokieli',
-            'Pod Pro',
-            'PodOS Browser',
-            'Solid File Manager',
-            'Solidflix'
-          ];
-          tiles.sort((a, b) => {
-            const aName = a.getAttribute('data-name');
-            const bName = b.getAttribute('data-name');
-            const aIndex = defaultOrder.indexOf(aName);
-            const bIndex = defaultOrder.indexOf(bName);
-            return aIndex - bIndex;
-          });
-        } else {
-          // Apply sorting based on sortValue
-          tiles.sort((a, b) => {
-            let aValue, bValue;
-            if (sortValue.startsWith('name')) {
-              aValue = a.getAttribute('data-name').toLowerCase();
-              bValue = b.getAttribute('data-name').toLowerCase();
-            } else if (sortValue.startsWith('category')) {
-              aValue = a.getAttribute('data-category').toLowerCase();
-              bValue = b.getAttribute('data-category').toLowerCase();
+    <details class="details-box">
+      <summary>App inclusion and exclusion criteria</summary>
+      <p>The criteria for an app to be Solid-compatible are:</p>
+      <ul>
+        <li>If identifying users is necessary, they must be able to log in using their WebID and pointing to the Identity Provider of their choice</li>
+        <li>Data consumed by the app should be fetched from Solid Pods if possible</li>
+        <li>Data generated by the app should be stored in Solid Pods</li>
+        <li>The interaction between the app, pods, and Identity Provider(s) must be compliant with the Solid specification</li>
+      </ul>
+      <p>Please note that apps falling into the following categories will not be listed on this page, even if they match the criteria above:</p>
+      <ul>
+        <li>Apps intentionally or indirectly causing harm to anyone</li>
+        <li>Apps with a purpose that could be widely considered unethical</li>
+        <li>Apps designed to enable the generation and/or dissemination of hate speech</li>
+        <li>Apps encouraging stereotypes or violent behaviours towards any person or group</li>
+        <li>Apps having malicious intent, such as data theft</li>
+        <li>Apps designed to fulfill illegal purposes, such as drug traffic, stolen information exchange, extorsion…</li>
+        <li>Apps sharing user information with any third-party without user consent</li>
+        <li>Apps that have been reported to have important technical or security issues that compromise its users’ Pods</li>
+      </ul>
+      <p>Want to add an eligible Solid-compatible app to this list? Contact the Solid Manager via <a href="mailto:solid+info@theodi.org">solid+info@theodi.org</a>.</p>
+      <p>Disclaimer: The list above does not represent an endorsement by the Solid Project. The apps on the list do not undergo any testing at this time, and there is no guarantee of security or quality implied by their inclusion on this list. The goal of the list is to showcase the vibrancy of the Solid community and encourage early app builders to collaborate and learn from each other. If you believe one of the apps above is insecure or non-functional and should be removed from the list, please <a href="https://service.theodi.org/help/1476250723">raise an issue here</a>.</p>
+    </details>
+
+    <script>
+      // App tiles sorting and filtering functionality
+      document.addEventListener('DOMContentLoaded', function () {
+        const sortSelect = document.getElementById('sort-select');
+        const categoryFilter = document.getElementById('category-filter');
+        const topAppsOnlyCheckbox = document.getElementById('top-apps-only');
+        const appsList = document.getElementById('apps-list');
+        const appTiles = Array.from(appsList.querySelectorAll('li'));
+        // Store current state
+        let currentSort = 'name-asc';
+        let currentFilter = 'all';
+        let showTopAppsOnly = false;
+        // Function to sort app tiles
+        function sortAppTiles(sortValue) {
+          currentSort = sortValue;
+          const tiles = Array.from(appsList.querySelectorAll('li:not(.hidden)'));
+          if (!sortValue) {
+            // Return to default order - restore original order based on data attributes
+            const defaultOrder = [
+              'Media Kraken',
+              'Penny',
+              'Umai',
+              '0data Hello with Solid',
+              'Booklice',
+              'dokieli',
+              'Pod Pro',
+              'PodOS Browser',
+              'Solid File Manager',
+              'Solidflix'
+            ];
+            tiles.sort((a, b) => {
+              const aName = a.getAttribute('data-name');
+              const bName = b.getAttribute('data-name');
+              const aIndex = defaultOrder.indexOf(aName);
+              const bIndex = defaultOrder.indexOf(bName);
+              return aIndex - bIndex;
+            });
+          } else {
+            // Apply sorting based on sortValue
+            tiles.sort((a, b) => {
+              let aValue, bValue;
+              if (sortValue.startsWith('name')) {
+                aValue = a.getAttribute('data-name').toLowerCase();
+                bValue = b.getAttribute('data-name').toLowerCase();
+              } else if (sortValue.startsWith('category')) {
+                aValue = a.getAttribute('data-category').toLowerCase();
+                bValue = b.getAttribute('data-category').toLowerCase();
+              } else {
+                return 0;
+              }
+              let comparison = 0;
+              if (aValue < bValue) comparison = -1;
+              if (aValue > bValue) comparison = 1;
+              return sortValue.endsWith('desc') ? -comparison : comparison;
+            });
+          }
+          // Reorder tiles in the list
+          tiles.forEach(tile => appsList.appendChild(tile));
+        }
+        // Function to filter app tiles
+        function filterAppTiles(category, topAppsOnly = false) {
+          if (!category) return;
+          currentFilter = category;
+          showTopAppsOnly = topAppsOnly;
+          let visibleCount = 0;
+          appTiles.forEach(tile => {
+            const tileCategory = tile.getAttribute('data-category');
+            const isTopApp = tile.querySelector('.top-app-tag') !== null;
+            let shouldShow = false;
+            if (topAppsOnly) {
+              // Only show top apps that match the category filter
+              shouldShow = isTopApp && (category === 'all' || tileCategory === category);
             } else {
-              return 0;
+              // Show all apps that match the category filter
+              shouldShow = category === 'all' || tileCategory === category;
             }
-            let comparison = 0;
-            if (aValue < bValue) comparison = -1;
-            if (aValue > bValue) comparison = 1;
-            return sortValue.endsWith('desc') ? -comparison : comparison;
+            if (shouldShow) {
+              tile.classList.remove('hidden');
+              visibleCount++;
+            } else {
+              tile.classList.add('hidden');
+            }
+          });
+          // Show message if no apps match the filter
+          let noResultsMessage = appsList.querySelector('.no-results-message');
+          if (visibleCount === 0) {
+            if (!noResultsMessage) {
+              noResultsMessage = document.createElement('div');
+              noResultsMessage.className = 'no-results-message';
+              noResultsMessage.innerHTML = '<p>No apps found matching your criteria.</p>';
+              appsList.appendChild(noResultsMessage);
+            }
+          } else if (noResultsMessage) {
+            noResultsMessage.remove();
+          }
+        }
+        // Function to apply both filter and sort
+        function applyFilterAndSort() {
+          filterAppTiles(currentFilter, showTopAppsOnly);
+          sortAppTiles(currentSort);
+        }
+        // Event listeners for sort and filter controls
+        if (sortSelect) {
+          sortSelect.addEventListener('change', function () {
+            currentSort = this.value;
+            applyFilterAndSort();
           });
         }
-        // Reorder tiles in the list
-        tiles.forEach(tile => appsList.appendChild(tile));
-      }
-      // Function to filter app tiles
-      function filterAppTiles(category, topAppsOnly = false) {
-        if (!category) return;
-        currentFilter = category;
-        showTopAppsOnly = topAppsOnly;
-        let visibleCount = 0;
-        appTiles.forEach(tile => {
-          const tileCategory = tile.getAttribute('data-category');
-          const isTopApp = tile.querySelector('.top-app-tag') !== null;
-          let shouldShow = false;
-          if (topAppsOnly) {
-            // Only show top apps that match the category filter
-            shouldShow = isTopApp && (category === 'all' || tileCategory === category);
-          } else {
-            // Show all apps that match the category filter
-            shouldShow = category === 'all' || tileCategory === category;
-          }
-          if (shouldShow) {
-            tile.classList.remove('hidden');
-            visibleCount++;
-          } else {
-            tile.classList.add('hidden');
-          }
-        });
-        // Show message if no apps match the filter
-        let noResultsMessage = appsList.querySelector('.no-results-message');
-        if (visibleCount === 0) {
-          if (!noResultsMessage) {
-            noResultsMessage = document.createElement('div');
-            noResultsMessage.className = 'no-results-message';
-            noResultsMessage.innerHTML = '<p>No apps found matching your criteria.</p>';
-            appsList.appendChild(noResultsMessage);
-          }
-        } else if (noResultsMessage) {
-          noResultsMessage.remove();
+        if (categoryFilter) {
+          categoryFilter.addEventListener('change', function () {
+            currentFilter = this.value;
+            applyFilterAndSort();
+          });
         }
-      }
-      // Function to apply both filter and sort
-      function applyFilterAndSort() {
+        if (topAppsOnlyCheckbox) {
+          topAppsOnlyCheckbox.addEventListener('change', function () {
+            showTopAppsOnly = this.checked;
+            applyFilterAndSort();
+          });
+        }
+        // Initialize without default sorting to maintain current order
+        if (sortSelect) {
+          sortSelect.value = '';
+        }
+        // Only apply filter, not sorting
         filterAppTiles(currentFilter, showTopAppsOnly);
-        sortAppTiles(currentSort);
-      }
-      // Event listeners for sort and filter controls
-      if (sortSelect) {
-        sortSelect.addEventListener('change', function () {
-          currentSort = this.value;
-          applyFilterAndSort();
-        });
-      }
-      if (categoryFilter) {
-        categoryFilter.addEventListener('change', function () {
-          currentFilter = this.value;
-          applyFilterAndSort();
-        });
-      }
-      if (topAppsOnlyCheckbox) {
-        topAppsOnlyCheckbox.addEventListener('change', function () {
-          showTopAppsOnly = this.checked;
-          applyFilterAndSort();
-        });
-      }
-      // Initialize without default sorting to maintain current order
-      if (sortSelect) {
-        sortSelect.value = '';
-      }
-      // Only apply filter, not sorting
-      filterAppTiles(currentFilter, showTopAppsOnly);
-    });
-  </script>
+      });
+    </script>
+  </div>
 </section>

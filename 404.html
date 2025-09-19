@@ -6,22 +6,24 @@ breadcrumbs:
 - title: "Page Not Found"
 ---
 
-<p>Sorry, the page you're looking for doesn't exist.</p>
+<div datatype="rdf:HTML" property="description">
+  <p>Sorry, the page you're looking for doesn't exist.</p>
+  <p>You tried to access "<strong><span id="missing-page-url" style="text-decoration: underline;"></span></strong>".</p>
+  <script>
+    document.getElementById('missing-page-url').textContent = window.location.href;
+  </script>
+</div>
 
-<p>You tried to access "<strong><span id="missing-page-url" style="text-decoration: underline;"></span></strong>".</p>
-
-<section class="article-section">
-  <h2>Try these instead</h2>
-  <ul>
-    <li><a href="/">Solid Project Home Page</a></li>
-    <li><a href="/about">About Solid</a></li>
-    <li><a href="/for-users">Solid For Users</a></li>
-    <li><a href="/for-developers">Solid For Developers</a></li>
-    <li><a href="/for-organizations">Solid For Organizations</a></li>
-    <li><a href="/community">Solid Community</a></li>
-  </ul>
+<section resource="#try_these_instead" inlist="" rel="hasPart" class="article-section">
+  <h2 id="try_these_instead" property="name">Try these instead</h2>
+  <div datatype="rdf:HTML" property="description">
+    <ul>
+      <li><a href="/">Solid Project Home Page</a></li>
+      <li><a href="/about">About Solid</a></li>
+      <li><a href="/for-users">Solid For Users</a></li>
+      <li><a href="/for-developers">Solid For Developers</a></li>
+      <li><a href="/for-organizations">Solid For Organizations</a></li>
+      <li><a href="/community">Solid Community</a></li>
+    </ul>
+  </div>
 </section>
-
-<script>
-  document.getElementById('missing-page-url').textContent = window.location.href;
-</script>
