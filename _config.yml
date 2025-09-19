@@ -25,8 +25,11 @@ plugins:
 excerpt_separator: "<!--more-->"
 include: 
   - _redirects
+  - assets/css/styles.css
+  - assets/js/scripts.js
 exclude:
-  - assets/fonts/lato/OFL.txt
+  - assets/css
+  - assets/js
   - rdfa
   - docker-compose.yml
   - LICENSE.md
