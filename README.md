@@ -1,24 +1,15 @@
 # Solidproject.org
 
-Official website of the Solid Project
+Official website of the [Solid Project](https://solidproject.org/).
+
+
+## How to run the website
+
+This project uses the static website generator [Jekyll](https://jekyllrb.com/).
+
+The easiest way to run this project is to use Docker: simply clone the repository and run `docker compose up`.
+
 
 ## How to contribute
 
-To see your changes, you can run `npx serve` in your local checkout of this
-repository, or even just browse to:
-
-```
-file:///your/local/path/to/gh/solid/solidproject.org/index.html
-```
-
-If you just want to propose small textual changes you can also create a PR through GitHub's
-online editor.
-
-The filenames should be intuitive enough for you to search for the HTML text that corresponds to the section
-you want to edit.
-
-If you state in your PR description that you had trouble setting up your local environment,
-and then a Solid Team member will check and fix the layout for you if necessary, before merging your PR.
-
-This way anyone who understands HTML and who has a GitHub account can suggest improvements for our website.
-
+If you use Solid and want your app or organization to be included in the website, please submit a pull request to this repository or open an issue.
