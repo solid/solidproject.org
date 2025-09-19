@@ -6,12 +6,14 @@ breadcrumbs:
 - title: "Solid Newsletter"
 ---
 
-<section about="#introduction" datatype="rdf:HTML" property="schema:description">
+<div datatype="rdf:HTML" property="description">
   <p>Stay up to date with events, learning resources, and recent developments.</p>
   <p >You can <a href="https://share.hsforms.com/1ZMMECk5wT2qYhxouAW-zpQg1jy">signup to the ODI-Solid mailing list here</a> to receive updates about Solid.</p>
-</section>
+</div>
 
-<section about="#newsletter-archive" datatype="rdf:HTML" property="schema:description" class="article-section">
-  <h2>Newsletter archive</h2>
-  <p>You can find the <a href="/newsletter/archive">archived issues of Solid Newsletters here</a>.</p>
+<section resource="#newsletter_archive" inlist="" rel="hasPart" class="article-section">
+  <h2 id="newsletter_archive" property="name">Newsletter archive</h2>
+  <div datatype="rdf:HTML" property="description">
+    <p>You can find the <a href="/newsletter/archive">archived issues of Solid Newsletters here</a>.</p>
+  </div>
 </section>
