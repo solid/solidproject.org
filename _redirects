@@ -40,10 +40,11 @@
 /for-developers.html                                                /for_developers                                                                                     301
 /for-developers/index                                               /for_developers                                                                                     301
 /for-developers/index.html                                          /for_developers                                                                                     301
-/for_organizations.html                                             /for_organizations                                                                                  301!
-/for-organizations.html                                             /for_organizations                                                                                  301
-/for-organizations/index                                            /for_organizations                                                                                  301
-/for-organizations/index.html                                       /for_organizations                                                                                  301
+/for_organisations.html                                             /for_organisations                                                                                  301!
+/for-organizations                                                  /for_organisations                                                                                  301
+/for-organizations.html                                             /for_organisations                                                                                  301
+/for-organizations/index                                            /for_organisations                                                                                  301
+/for-organizations/index.html                                       /for_organisations                                                                                  301
 /for_users.html                                                     /for_users                                                                                          301!
 /for-users                                                          /for_users                                                                                          301
 /for-users.html                                                     /for_users                                                                                          301
@@ -271,9 +272,9 @@
 /self-hosting/nss/apache.html                                       /for_developers                                                                                     302
 /self-hosting/nss/nginx.html                                        /for_developers                                                                                     302
 
-# Legacy links directing to For Organizations
-/for-enterprises/index                                              /for_organizations                                                                                  302
-/for-enterprises/index.html                                         /for_organizations                                                                                  302
+# Legacy links directing to For Organisations
+/for-enterprises/index                                              /for_organisations                                                                                  302
+/for-enterprises/index.html                                         /for_organisations                                                                                  302
 
 # Legacy links directing to For Users
 /use-solid/index                                                    /for_users                                                                                          302
