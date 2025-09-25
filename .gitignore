@@ -1,6 +1,10 @@
 _site
-.sass-cache
-.jekyll-metadata
-
-vendor
 .bundle
+.DS_Store
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+.vscode
+vendor
+rdfa/node_modules
+rdfa/package-lock.json

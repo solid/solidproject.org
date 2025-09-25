@@ -1,0 +1,53 @@
+/** Apps List */
+.sort-controls {
+  margin-bottom: 1.6rem;
+  padding: .8rem 1.6rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  display: flex;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.sort-controls select {
+  padding: .4rem;
+  border: 1px solid #ced4da;
+  border-radius: .4rem;
+  background: white;
+  min-width: 200px;
+}
+
+.sort-controls select:focus {
+  outline: none;
+  border-color: #3273dc;
+  box-shadow: 0 0 0 2px rgba(50, 115, 220, 0.25);
+}
+
+.top-app-tag {
+  color: #ff6b35;
+  font-size: 1.6rem;
+  margin-left: .8rem;
+  flex-shrink: 0;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #495057;
+  gap: .8rem;
+  margin-bottom: .2rem;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+}

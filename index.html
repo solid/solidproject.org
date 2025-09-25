@@ -1,215 +1,91 @@
-<!DOCTYPE html>
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8" />
-    <title>Home - Solid</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="stylesheet" href="/style/base.css" />
-    <link rel="stylesheet" href="/style/header.css" />
-    <link rel="stylesheet" href="/style/footer.css" />
-  </head>
+---
+permalink: /
+layout: default
+title: "Solid: Your data, your choice"
+description: "Solid is an evolution of the web by its creator Sir Tim Berners-Lee. Solid realizes Tim's original vision for the Web as a medium for the secure, decentralized exchange of public and private data."
+image: "/assets/img/solid-emblem.svg"
+---
 
-  <body about="" id="homepage" prefix="schema: http://schema.org/ doap: http://usefulinc.com/ns/doap# foaf: http://xmlns.com/foaf/0.1/">
+<section class="try-solid">
+  <div class="hero-image">
+    <img src="/assets/img/graphics/interoperability-tour.svg" alt="Interoperability Tour" />
+  </div>
+  <div class="hero-text">
+    <h1 id="solid">Solid</h1>
+    <h2 id="your_data_your_choice">Your data, your choice</h2>
+    <p>Advancing the Web to empower people and communities.</p>
+    <a href="/apps" class="try-solid-button">Try Solid now</a>
+  </div>
+</section>
 
-    <header class="header">
-      <address class="homepage-link">
-        <a href="/"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
-      </address>
+<section class="article-section tim-berners-lee-quote">
+  <blockquote>
+    <p>“When I invented the World Wide Web, I envisioned technology that would empower people and enable collaboration. Somewhere along the way, we lost that human-first approach; today’s web often prioritises profits over people. Solid returns the web to its roots by giving everyone direct control over their own data.”</p>
+    <footer>– Sir Tim Berners-Lee</footer>
+  </blockquote>
+</section>
 
-      <nav class="main-nav">
-        <ul>
-          <li><a href="/about.html">About Solid</a></li>
-          <li><a href="/for-users.html">For Users</a></li>
-          <li><a href="/for-developers.html">For Developers</a></li>
-          <li><a href="/for-organizations.html">For Organizations</a></li>
-          <li><a href="/community.html">Community</a></li>
-        </ul>
-      </nav>
-
-      <button class="hamburger-menu" aria-label="Toggle navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </header>
-
-    <main>
-      <article about="" typeof="schema:Article">
-        <img alt="Solid Project logo" src="/image/logo.svg" width="200" />
-
-        <h1 property="schema:name">Solid: Your data, your choice.</h1>
-
-        <p class="subtitle">Advancing the Web to empower people and communities.</p>
-
-        <div datatype="rdf:HTML" property="schema:description">
-          <section id="features" inlist="" rel="schema:hasPart" resource="#features">
-            <h2 property="schema:name">Features</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <ul>
-                <li>
-                  <img alt="internet" src="/image/internet.png" />
-                  <p><strong>Read about Solid</strong></p>
-                  <p>Solid is an evolution of the web by its creator Sir Tim Berners-Lee.
-                      Solid realizes Tim's original vision for the Web as a medium for the secure,
-                      decentralized exchange of public and private data.</p>
-                  <a href="/about.html">About Solid</a>
-                </li>
-
-                <li>
-                  <img alt="chet_cloud" class="bg-dark" src="/image/chet_cloud.png" />
-                  <p><strong>Use Solid</strong></p>
-                  <p>Interested in getting your own personal storage and using Solid apps?</p>
-                  <a href="/for-users.html">For Users</a>
-                </li>
-
-                <li>
-                  <img alt="chet_cloud" class="bg-dark" src="/image/buildapp-solid.svg" />
-                  <p><strong>Develop an app with Solid</strong></p>
-                  <p>Interested in developing an app with Solid? Find technical documents, resources,
-                      and repositories.</p>
-                  <a href="/for-developers.html">For Developers</a>
-                </li>
-
-                <li>
-                  <img alt="beg" src="/image/beg.png" />
-                  <p><strong>Learn about organizations working with Solid</strong></p>
-                  <p>Several organizations work in a range of capacities to support the deployment and
-                      research of Solid technology.</p>
-                  <a href="/for-organizations.html">See Organizations</a>
-                </li>
-
-                <li>
-                  <img alt="grup" src="/image/grup.png" />
-                  <p><strong>Explore the community</strong></p>
-                  <p>Connect with the community through forums and at events, like Solid World.</p>
-                  <a href="/community.html">Explore Community</a>
-                </li>
-              </ul>
-            </div>
-          </section>
+<section class="article-section">
+  <ul class="tiles tile-links">
+    <li>
+      <a href="/about">
+        <div class="tile-header">
+          <img alt="newspaper icon" src="/assets/img/icon/newspaper.svg" />
+          <h2 id="read_about_solid">Read about Solid</h2>
         </div>
-      </article>
-    </main>
-
-    <footer class="footer">
-      <dl class="footer-nav">
-        <dt>
-          <a href="/">Home</a>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/about">About Solid</a>
-            </li>
-            <li>
-              <a href="/for-users">Using Solid</a>
-            </li>
-            <li>
-              <a href="/users/get-a-pod">Get a Pod</a>
-            </li>
-            <li>
-              <a href="/apps">Solid Apps</a>
-            </li>
-            <li>
-              <a href="/team">Team</a>
-            </li>
-            <li>
-              <a href="/faqs">FAQs</a>
-            </li>
-            <li>
-              <a href="/terms">Terms of Use</a>
-            </li>
-            <li>
-              <a href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a>
-            </li>
-          </ul>
-        </dd>
-    
-        <dt>
-          <span>What's New</span>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/newsletter">Newsletter</a>
-            </li>
-            <li>
-              <a href="/events">Solid Events</a>
-            </li>
-            <li>
-              <a href="/press">Press</a>
-            </li>
-          </ul>
-        </dd>
-    
-        <dt>
-          <a href="/for-developers">Developers</a>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/developers/tutorials/getting-started">Getting Started</a>
-            </li>
-            <li>
-              <a href="https://forum.solidproject.org">Forum</a>
-            </li>
-            <li>
-              <a href="/for-organizations">Organizations</a>
-            </li>
-            <li>
-              <a href="/for-community">Community</a>
-            </li>
-          </ul>
-        </dd>
-    
-        <dt>
-          <span>More</span>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/TR">Specifications</a>
-            </li>
-            <li>
-              <a href="/license">License</a>
-            </li>
-            <li>
-              <a href="/logo-usage-guidelines">Logo usage guidelines</a>
-            </li>
-            <li>
-              <a href="https://github.com/solid/solidproject.org/issues/new">Website feedback</a>
-            </li>
-            <li>
-              <a href="https://service.theodi.org/help/1476250723">Support</a>
-            </li>
-          </ul>
-        </dd>
-      </dl>
-      <nav class="social-nav" role="navigation" aria-label="navigation">
-        <ul>
-          <li>
-            <a href="/">
-              <img src="/assets/img/solid-emblem.svg" alt="[Solid logo]" />
-            </a>
-          </li>
-          <li>
-            <a href="mailto:info@solidproject.org">
-              info@solidproject.org
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/solid/" title="Solid on GitHub">
-              <img src="/image/github.svg" alt="GitHub" class="brand-icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://vimeo.com/solidworld" title="Solid on Vimeo">
-              <img src="/image/vimeo-v.svg" alt="Vimeo" class="brand-icon" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-  </body>
-  <script src="/assets/js/menu.js"></script>
-</html>
+        <p>Solid is an evolution of the web by its creator Sir Tim Berners-Lee realizing his original vision for the Web.</p>
+        <p class="tile-links-nav-hint">About Solid</p>
+      </a>
+    </li>
+    <li>
+      <a href="/for_users">
+        <div class="tile-header">
+          <img alt="globe icon" src="/assets/img/icon/globe.svg" />
+          <h2 id="use_solid">Use Solid</h2>
+        </div>
+        <p>Interested in getting your own Solid personal online data store (Pod) and using Solid apps?</p>
+        <p class="tile-links-nav-hint">Solid For Users</p>
+      </a>
+    </li>
+    <li>
+      <a href="/for_developers">
+        <div class="tile-header">
+          <img alt="code icon" src="/assets/img/icon/code.svg" />
+          <h2 id="develop_an_app_with_solid">Develop an app with Solid</h2>
+        </div>
+        <p>Interested in developing an app with Solid? Find technical documents, resources and repositories.</p>
+        <p class="tile-links-nav-hint">Solid For Developers</p>
+      </a>
+    </li>
+    <li>
+      <a href="/for_organisations">
+        <div class="tile-header">
+          <img alt="server icon" src="/assets/img/icon/server.svg" />
+          <h2 id="organisations_using_solid">Organisations using Solid</h2>
+        </div>
+        <p>Several organisations work in a range of capacities to support the deployment and research of Solid technology.</p>
+        <p class="tile-links-nav-hint">Organisations using Solid</p>
+      </a>
+    </li>
+    <li>
+      <a href="/community">
+        <div class="tile-header">
+          <img alt="users icon" src="/assets/img/icon/users.svg" />
+          <h2 id="explore_the_community">Explore the community</h2>
+        </div>
+        <p>Connect with the community through forums, chats and at events, like Solid World.</p>
+        <p class="tile-links-nav-hint">Solid community</p>
+      </a>
+    </li>
+    <li>
+      <a href="/events">
+        <div class="tile-header">
+          <img alt="calendar days icon" src="/assets/img/icon/calendar-days.svg" />
+          <h2 id="join_solid_events">Join Solid Events</h2>
+        </div>
+        <p>Keep track of Solid related online and in person events with our open calendars.</p>
+        <p class="tile-links-nav-hint">Solid events</p>
+      </a>
+    </li>
+  </ul>
+</section>

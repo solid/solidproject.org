@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% if page.permalink %}<link rel="canonical" href="{{ page.permalink | prepend: site.base_url }}">{% endif %}
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" />{% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />{% endif %}{% if page.image %}
+    <meta property="og:image" content="{{ page.image | prepend: site.base_url }}" />{% endif %}{% if page.permalink %}
+    <meta property="og:url" content="{{ page.permalink | prepend: site.base_url }}" />{% endif %}
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:locale" content="en" />
+    <meta name="theme-color" content="#7C4DFF">
+    <link type="application/atom+xml" rel="alternate" href="{{ site.base_url }}/feed.xml" title="{{ site.title }}" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body vocab="http://schema.org/">
+    <header class="header">
+      <address class="homepage-link">
+        <a href="/"><img alt="Solid logo" src="/assets/img/solid-emblem.svg" /> Solid</a>
+      </address>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/for_users">For Users</a></li>
+          <li><a href="/for_developers">For Developers</a></li>
+          <li><a href="/for_organisations">For Organisations</a></li>
+          <li><a href="/community">Community</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger-menu" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>{% if page.breadcrumbs %}
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ol>
+        <li><a href="/">Home</a></li>
+        {% for breadcrumb in page.breadcrumbs %}
+          {% if forloop.last %}
+            <li><a href="#" aria-current="page">{{ breadcrumb.title }}</a></li>
+          {% else %}
+            <li><a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </nav>{% endif %}
+    <main>
+{{ content }}
+    </main>
+    <footer class="footer">
+      <dl class="footer-nav">
+        <dt>Solid</dt>
+        <dd>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/for_users">For Users</a></li>
+            <li><a href="/for_developers">For Developers</a></li>
+            <li><a href="/for_organisations">For Organisations</a></li>
+            <li><a href="/community">Community</a></li>
+          </ul>
+        </dd>
+        <dt>What's New</dt>
+        <dd>
+          <ul>
+            <li><a href="/newsletter">Newsletter</a></li>
+            <li><a href="/press">Press</a></li>
+            <li><a href="/events">Solid Events</a></li>
+          </ul>
+        </dd>
+        <dt>Getting Involved</dt>
+        <dd>
+          <ul>
+            <li><a href="/code_of_conduct">Code of Conduct</a></li>
+            <li><a href="https://forum.solidproject.org">Forum</a></li>
+            <li><a href="/apps">Solid Applications</a></li>
+            <li><a href="/TR">Specifications</a></li>
+          </ul>
+        </dd>
+        <dt>More</dt>
+        <dd>
+          <ul>
+            <li><a href="/FAQ">FAQ</a></li>
+            <li><a href="https://service.theodi.org/help/1476250723">Feedback & Support</a></li>
+            <li><a href="/license">License</a></li>
+            <li><a href="/logo_usage_guidelines">Logo usage guidelines</a></li>
+            <li><a href="/team">Team</a></li>
+            <li><a href="/terms">Terms of Use</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <nav class="social-nav">
+        <ul>
+          <li class="homepage-link">
+            <a href="/" title="Solid Project Homepage"><img alt="Solid" src="/assets/img/solid-emblem.svg" /></a>
+          </li>
+          <li>
+            <a href="mailto:solid+info@theodi.org" title="Get in touch for Info about Solid">solid+info@theodi.org</a>
+          </li>
+          <li>
+            <a href="https://github.com/solid/" title="Solid on GitHub"><img src="/assets/img/icon/github.svg" alt="GitHub" class="icon" /></a>
+          </li>
+          <li>
+            <a href="https://matrix.to/#/%23solid_project%3Amatrix.org" title="Solid Project on Matrix"><img src="/assets/img/icon/matrix.svg" alt="Matrix" class="icon" /></a>
+          </li>
+          <li>
+            <a href="https://share.hsforms.com/1ZMMECk5wT2qYhxouAW-zpQg1jy" title="Signup to receive news about Solid"><img src="/assets/img/icon/envelope.svg" alt="Newsletter" class="icon" /></a>
+          </li>
+          <li>
+            <a href="https://vimeo.com/solidworld" title="Solid on Vimeo"><img src="/assets/img/icon/vimeo-v.svg" alt="Vimeo" class="icon" /></a>
+          </li>
+          <li>
+            <a href="/feed.xml" title="Solid Project RSS feed"><img src="/assets/img/icon/rss.svg" alt="RSS" class="icon" /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="/assets/scripts.js"></script>
+  </body>
+</html>

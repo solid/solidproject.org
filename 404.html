@@ -1,15 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 Page</title>
-</head>
-<body>
-  <div>
-    <h1>404</h1>
-    <p><strong>Page not found :(</strong></p>
-    <p>The requested page could not be found.</p>
+---
+permalink: /404
+layout: article
+title: Page Not Found
+breadcrumbs:
+- title: "Page Not Found"
+---
+
+<div datatype="rdf:HTML" property="description">
+  <p>Sorry, the page you're looking for doesn't exist.</p>
+  <p>You tried to access "<strong><span id="missing-page-url" style="text-decoration: underline;"></span></strong>".</p>
+  <script>
+    document.getElementById('missing-page-url').textContent = window.location.href;
+  </script>
+</div>
+
+<section resource="#try_these_instead" inlist="" rel="hasPart" class="article-section">
+  <h2 id="try_these_instead" property="name">Try these instead</h2>
+  <div datatype="rdf:HTML" property="description">
+    <ul>
+      <li><a href="/">Solid Project Home Page</a></li>
+      <li><a href="/about">About Solid</a></li>
+      <li><a href="/for_users">Solid For Users</a></li>
+      <li><a href="/for_developers">Solid For Developers</a></li>
+      <li><a href="/for_organisations">Solid For Organisations</a></li>
+      <li><a href="/community">Solid Community</a></li>
+    </ul>
   </div>
-</body>
-</html>
+</section>

@@ -13,10 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Solid
-email: info@solidproject.org
-url: 'https://solidproject.org/'
+title: Solid Project
+email: solid@theodi.org
+base_url: "https://solidproject.org"
+description: "Solid is an evolution of the web by its creator Sir Tim Berners-Lee. Solid realizes Tim's original vision for the Web as a medium for the secure, decentralized exchange of public and private data."
 github_username: solid
 repository: solid/solidproject.org
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+excerpt_separator: "<!--more-->"
 include: 
   - _redirects
+  - assets/css/styles.css
+  - assets/js/scripts.js
+exclude:
+  - assets/css
+  - assets/js
+  - rdfa
+  - docker-compose.yml
+  - LICENSE.md
+  - README.md

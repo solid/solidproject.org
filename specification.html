@@ -1,304 +1,41 @@
-<!doctype html>
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>Specification · Solid</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="/favicon.ico?"
-    />
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="stylesheet" href="/style/header.css" />
-    <link rel="stylesheet" href="/style/footer.css" />
-  </head>
+---
+permalink: /specification
+layout: article
+title: Solid Specification
+breadcrumbs:
+- title: "Solid Specification"
+---
 
-  <body>
-        <header class="header">
-      <address class="homepage-link">
-        <a href="/"><img alt="Solid logo" src="/image/logo.svg" width="50" /> Solid</a>
-      </address>
-
-      <nav class="main-nav">
-        <ul>
-          <li><a href="/about.html">About Solid</a></li>
-          <li><a href="/for-users.html">For Users</a></li>
-          <li><a href="/for-developers.html">For Developers</a></li>
-          <li><a href="/for-organizations.html">For Organizations</a></li>
-          <li><a href="/community.html">Community</a></li>
-        </ul>
-      </nav>
-
-      <button class="hamburger-menu" aria-label="Toggle navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </header>
-
-
-    <div id="draft-warning"></div>
-<script>
-  if (
-    document.location.hostname === 'localhost'
-    || document.location.hostname === 'solid.github.io'
-    || document.location.hostname.substring(document.location.hostname.length - 10) === "vercel.app"
-    || document.location.hostname.substring(document.location.hostname.length - 11) === "netlify.app"
-  ) {
-    const draftWarningElement = document.getElementById('draft-warning')
-    draftWarningElement.innerHTML = `
-      <div class="message is-danger is-large" role="alert">
-        <div class="message-body">
-          You are currently viewing historical content of the Solid website. If you are looking for reliable information, visit the live site at <a href="https://solidproject.org/specification" title="The official Solid website">SolidProject.org</a>.
-        </div>
-      </div>
-    `;
-  }
-</script>
-
-
-    
-  <nav id="breadcrumb" class="breadcrumb">
-    <div class="container">
-      <ul>
-        <li>
-          <a href="/">
-            Home
-          </a>
-        </li>
-        
-        
-        
-        
-        
-          <li>
-            <a href="">
-              Specification
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </nav>
-
-
-    <main id="main">
-      <div class="container">
-  <div class="columns">
-    <div class="column is-two-thirds">
-      <article class="section content">
-        <h1 id="specification">Specification</h1>
-
-<p>The Solid Specification consists of several <a href="https://solidproject.org/TR/">Technical Reports</a>, each of which is edited by a 
-<a href="https://github.com/solid/specification/blob/main/README.md#solid-panels">Solid panel</a>.</p>
-
-<h2 id="contributing-to-the-specification">Contributing to the specification</h2>
-
-<div class="message is-info">
-  <p class="message-body">
-    Before contributing, please read the 
-    <a href="https://github.com/solid/process/blob/master/code-of-conduct.md">Solid Code of Conduct</a> 
-    and the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a>. 
-    Join the <a href="https://www.w3.org/community/solid/">W3C Solid Community Group</a>
-    before providing substantial contributions.
-    Note that Solid encourages adherence to the W3C's 
-    <a href="https://www.w3.org/TR/design-principles/">Web Platform Design Principles</a>, 
-    in particular the <a href="https://www.w3.org/TR/design-principles/#priority-of-constituencies">Priority of Constituencies</a>.
-  </p>
+<div datatype="rdf:HTML" property="description">
+  <p>The Solid Specification consists of several <a href="/TR/">Technical Reports</a>, each of which is edited by a <a href="https://github.com/solid/specification/blob/main/README.md#solid-panels">Solid panel</a>.</p>
 </div>
 
-<p>Anyone can contribute by filing an <a href="https://github.com/solid/specification/issues">issue via GitHub</a> 
-or by submitting <a href="https://github.com/solid/specification/pulls">pull requests</a>.</p>
-
-<p>Present your proposals via the most relevant meetings 
-and communication channels:</p>
-
-<ul>
-  <li>
-    <p>Submit new <strong><u>User Stories</u></strong> to 
-the <a href="https://github.com/solid/user-stories/">Solid User Stories</a> 
-repository. They are tagged according to the aspects of Solid 
-that are relevant to them, so that specification panels can easily 
-find them for the work items at hand.</p>
-  </li>
-  <li>
-    <p>Help formulate <strong><u>Use Cases and Requirements</u></strong> (UCR) based on the User Stories for each TR:</p>
-
+<section resource="#contributing_to_the_specification" inlist="" rel="hasPart" class="article-section">
+  <h2 id="contributing-to-the-specification" property="name">Contributing to the specification</h2>
+  <div datatype="rdf:HTML" property="description">
+    <p>Before contributing, please read the <a href="/code_of_conduct">Solid Code of Conduct</a> and the <a href="https://www.w3.org/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a>. Join the <a href="https://www.w3.org/community/solid/">W3C Solid Community Group</a> before providing substantial contributions. Note that Solid encourages adherence to the W3C's <a href="https://www.w3.org/TR/design-principles/">Web Platform Design Principles</a>, in particular the <a href="https://www.w3.org/TR/design-principles/#priority-of-constituencies">Priority of Constituencies</a>.</p>
+    <p>Anyone can contribute by filing an <a href="https://github.com/solid/specification/issues">issue via GitHub</a> or by submitting <a href="https://github.com/solid/specification/pulls">pull requests</a>.</p>  
+    <p>Present your proposals via the most relevant meetings and communication channels:</p>
     <ul>
-      <li><a href="https://solid.github.io/authorization-panel/authorization-ucr/">Authorization UCR</a></li>
-      <li><a href="https://solid.github.io/notifications-panel/notifications-ucr.html">Notifications UCR</a></li>
-      <li>Upcoming: WebID-Profile UCR (<a href="https://github.com/solid/webid-profile/issues/55">issue</a>,
-<a href="https://github.com/solid/webid-profile/pull/80">PR</a>)</li>
+      <li>Submit new <strong><u>User Stories</u></strong> to the <a href="https://github.com/solid/user-stories/">Solid User Stories</a> repository. They are tagged according to the aspects of Solid that are relevant to them, so that specification panels can easily find them for the work items at hand.</li>
+      <li>
+        <p>Help formulate <strong><u>Use Cases and Requirements</u></strong> (UCR) based on the User Stories for each TR:</p>
+        <ul>
+          <li><a href="https://solid.github.io/authorization-panel/authorization-ucr/">Authorization UCR</a></li>
+          <li><a href="https://solid.github.io/notifications-panel/notifications-ucr.html">Notifications UCR</a></li>
+          <li>Upcoming: WebID-Profile UCR (<a href="https://github.com/solid/webid-profile/issues/55">issue</a>, <a href="https://github.com/solid/webid-profile/pull/80">PR</a>)</li>
+        </ul>
+        <p>All Solid UCRs are reviewed by the Diversity, Equity, and Inclusion Team (<a href="https://github.com/solid/deit/blob/main/meetings/2021-11-09.md#deit-to-review-use-cases-in-specification-development">DEIT</a>).</p>
+      </li>
+      <li>Join the Solid <a href="https://github.com/solid/specification/blob/main/README.md#solid-panels">Panel Meetings</a> to listen, provide insight or suggest topics for discussion. Meeting schedules, agendas and minutes can be found on the GitHub pages of each panel. Please read the <a href="https://github.com/solid/specification/blob/main/meetings/README.md">guidelines for participation</a>before calling in.</p></li>
     </ul>
-
-    <p>All Solid UCRs are reviewed by the Diversity, Equity, and Inclusion Team 
-(<a href="https://github.com/solid/deit/blob/main/meetings/2021-11-09.md#deit-to-review-use-cases-in-specification-development">DEIT</a>).</p>
-  </li>
-  <li>
-    <p>Join the Solid <a href="https://github.com/solid/specification/blob/main/README.md#solid-panels">Panel Meetings</a>
-to listen, provide insight or suggest topics for discussion. 
-Meeting schedules, agendas and minutes can be found on the GitHub 
-pages of each panel. 
-Please read the 
-<a href="https://github.com/solid/specification/blob/main/meetings/README.md">guidelines for participation</a>
-before calling in.</p>
-  </li>
-</ul>
-
-<p>More details on how to contribute can be found <a href="https://github.com/solid/specification/blob/main/CONTRIBUTING.md">on GitHub</a>.
-All proposals undergo an Editorial review process. For more information
-on proposal submissions and reviews, see the 
-<a href="https://github.com/solid/process">Solid Process</a>.</p>
-
-<h2 id="tracking-progress">Tracking Progress</h2>
-
-<p>Keep up-to-date with specification progress by signing up for
-<a href="/newsletter">Newsletter</a>.
-Minutes of meetings are kept by each <a href="https://github.com/solid/specification/blob/main/README.md#solid-panels">panel</a> to track ongoing discussions.</p>
-
-      </article>
-    </div>
-    <aside id="sidebar" class="column is-one-third is-hidden-mobile section">
-      <div class="menu is-large">
-        <ul class="menu-list" role="navigation">
-  <li><a href="/about">About Solid</a>
-    <ul>
-      <li><a href="/specification">Specification</a></li>
-      <li><a href="/contributing">Contribute</a></li>
-      <li><a href="/team">Team</a></li>
-    </ul>
-  </li>
-</ul>
-
-      </div>
-    </aside>
+    <p>More details on how to contribute can be found <a href="https://github.com/solid/specification/blob/main/CONTRIBUTING.md">on GitHub</a>. All proposals undergo an Editorial review process. For more information on proposal submissions and reviews, see the <a href="https://github.com/solid/process">Solid Process</a>.</p>
   </div>
-</div>
+</section>
 
-    </main>
-        <footer class="footer">
-      <dl class="footer-nav">
-        <dt>
-          <a href="/">Home</a>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/about">About Solid</a>
-            </li>
-            <li>
-              <a href="/for-users">Using Solid</a>
-            </li>
-            <li>
-              <a href="/users/get-a-pod">Get a Pod</a>
-            </li>
-            <li>
-              <a href="/apps">Solid Apps</a>
-            </li>
-            <li>
-              <a href="/team">Team</a>
-            </li>
-            <li>
-              <a href="/faqs">FAQs</a>
-            </li>
-            <li>
-              <a href="/terms">Terms of Use</a>
-            </li>
-            <li>
-              <a href="https://github.com/solid/process/blob/main/code-of-conduct.md">Code of Conduct</a>
-            </li>
-          </ul>
-        </dd>
-    
-        <dt>
-          <span>What's New</span>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/newsletter">Newsletter</a>
-            </li>
-            <li>
-              <a href="/events">Solid Events</a>
-            </li>
-            <li>
-              <a href="/press">Press</a>
-            </li>
-          </ul>
-        </dd>
-    
-        <dt>
-          <a href="/for-developers">Developers</a>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/developers/tutorials/getting-started">Getting Started</a>
-            </li>
-            <li>
-              <a href="https://forum.solidproject.org">Forum</a>
-            </li>
-            <li>
-              <a href="/for-organizations">Organizations</a>
-            </li>
-            <li>
-              <a href="/for-community">Community</a>
-            </li>
-          </ul>
-        </dd>
-    
-        <dt>
-          <span>More</span>
-        </dt>
-        <dd>
-          <ul>
-            <li>
-              <a href="/TR">Specifications</a>
-            </li>
-            <li>
-              <a href="/license">License</a>
-            </li>
-            <li>
-              <a href="/logo-usage-guidelines">Logo usage guidelines</a>
-            </li>
-            <li>
-              <a href="https://github.com/solid/solidproject.org/issues/new">Website feedback</a>
-            </li>
-            <li>
-              <a href="https://service.theodi.org/help/1476250723">Support</a>
-            </li>
-          </ul>
-        </dd>
-      </dl>
-      <nav class="social-nav" role="navigation" aria-label="navigation">
-        <ul>
-          <li>
-            <a href="/">
-              <img src="/assets/img/solid-emblem.svg" alt="[Solid logo]" />
-            </a>
-          </li>
-          <li>
-            <a href="mailto:info@solidproject.org">
-              info@solidproject.org
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/solid/" title="Solid on GitHub">
-              <img src="/image/github.svg" alt="GitHub" class="brand-icon" />
-            </a>
-          </li>
-          <li>
-            <a href="https://vimeo.com/solidworld" title="Solid on Vimeo">
-              <img src="/image/vimeo-v.svg" alt="Vimeo" class="brand-icon" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-
-    <script src="/assets/js/menu.js"></script>
-  </body>
-
-
-</html>
+<section resource="#tracking_progress" inlist="" rel="hasPart" class="article-section">
+  <h2 id="tracking-progress" property="name">Tracking Progress</h2>
+  <div datatype="rdf:HTML" property="description">
+    <p>Keep up-to-date with specification progress by signing up for the <a href="/newsletter">Solid Newsletter</a>. Minutes of meetings are kept by each <a href="https://github.com/solid/specification/blob/main/README.md#solid-panels">panel</a> to track ongoing discussions.</p>
+  </div>
+</section>

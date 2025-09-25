@@ -1,0 +1,17 @@
+@prefix schema: <http://schema.org/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix doap: <http://usefulinc.com/ns/doap#>.
+@prefix og: <http://ogp.me/ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<https://solidproject.org/apps> schema:mentions <https://dokie.li/#i>.
+<https://dokie.li/#i> doap:homepage <https://dokie.li/>;
+    doap:name "dokieli"@en;
+    doap:license <https://github.com/dokieli/dokieli/blob/main/LICENSE>;
+    doap:maintainer <https://csarven.ca/#i>;
+    doap:repository <https://solidproject.org/apps#dokieli-repository>;
+    doap:shortdesc "dokieli is a clientside editor for decentralised article publishing, annotations, and social interactions. - Apache License, Version 2.0 © 2012-2025 Sarven Capadisli - Source"@en.
+<https://solidproject.org/apps#dokieli-repository> doap:browse <https://git.dokie.li/>.
+_:df_2_0 <http://www.w3.org/1999/xhtml/vocab#role> <http://www.w3.org/1999/xhtml/vocab#navigation>.
