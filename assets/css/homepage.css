@@ -25,12 +25,18 @@
 }
 
 @media (min-width: 781px) {
+  .try-solid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
   .try-solid .hero-image, .try-solid .hero-text {
     width: 83.2%;
     max-width: 51.2rem;
   }
   .try-solid .hero-text {
-    margin-top: -14.6rem;
+    margin-top: -8rem;
   }
   .try-solid .hero-text p {
     max-width: 16rem;
