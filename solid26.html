@@ -22,24 +22,74 @@ breadcrumbs:
     <p>Solid26 needs people like you — whether you understand the code, the real-world problems it needs to solve, or both.</p>
     <p><strong>Watch the demos above, then tell us what you think.</strong> What applications would you build? What problems could Solid solve in your field? Every piece of feedback — even a quick reaction — helps steer the future of Solid.</p>
     <p>Want to go deeper? We're forming focused feedback groups across areas like <strong>Social Good, Government, AI Research, Professional Developers, and Enterprise &amp; Corporate</strong> — with more being created as interest grows. Each group will explore and stress-test Solid26, to surface the real adoption challenges that matter most. What these groups find will directly shape the standards, tools, and training materials the community is building.</p>
-  </div>
-</section>
-
-<section id="join_form" resource="#join_form" inlist="" rel="hasPart" class="article-section">
-  <h2 property="name">Ready to join?</h2>
-  <div datatype="rdf:HTML" property="description">
-    <p>Fill out the form below, or email <a href="mailto:solid@theodi.org">solid@theodi.org</a> with your area of expertise and a line about your background. We'll match you to the right group and get you started.</p>
-    <div class="form-embed">
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLScvhDjGTMXcmtQenMkz8u6RazCzcLrzOTnSeysGuiVteV8Fkg/viewform?embedded=true"
-        width="100%"
-        height="1130"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-        title="Solid26 feedback and involvement form">
-        Loading form…
-      </iframe>
-    </div>
+    <p><strong>Ready to join?</strong> Fill out the form below, or email <a href="mailto:solid@theodi.org">solid@theodi.org</a> with your area of expertise and a line about your background. We'll match you to the right group and get you started.</p>
+    <form class="solid26-form" id="solid26-join-form" action="https://formspree.io/f/maqanjwk" method="POST">
+      <div class="solid26-form-field">
+        <label for="name">Name <span aria-hidden="true">*</span></label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+      </div>
+      <div class="solid26-form-field">
+        <label for="email">Email Address <span aria-hidden="true">*</span></label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required />
+      </div>
+      <div class="solid26-form-field">
+        <label for="about">Tell us about yourself <span class="solid26-form-optional">(optional)</span></label>
+        <textarea id="about" name="about" rows="4" placeholder="Your background and area of expertise"></textarea>
+      </div>
+      <div class="solid26-form-field">
+        <label for="feedback">Provide feedback on Solid26 <span class="solid26-form-optional">(optional)</span></label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder="What applications would you build? What problems could Solid solve in your field?"></textarea>
+      </div>
+      <input type="hidden" name="_subject" value="Solid26 – Get Involved submission" />
+      <button type="submit" class="solid26-form-submit">Send</button>
+      <p class="solid26-form-status" id="solid26-form-status" role="status" aria-live="polite"></p>
+    </form>
+    
+    <script>
+      document.getElementById('solid26-join-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var form = e.target;
+        var status = document.getElementById('solid26-form-status');
+        var button = form.querySelector('.solid26-form-submit');
+        var emailField = document.getElementById('email');
+        var nameField = document.getElementById('name');
+        if (!nameField.value.trim()) {
+          status.textContent = 'Please enter your name.';
+          status.className = 'solid26-form-status solid26-form-status--error';
+          nameField.focus();
+          return;
+        }
+        if (!emailField.value.trim()) {
+          status.textContent = 'Please enter your email address.';
+          status.className = 'solid26-form-status solid26-form-status--error';
+          emailField.focus();
+          return;
+        }
+        button.disabled = true;
+        button.textContent = 'Sending…';
+        fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        }).then(function (response) {
+          if (response.ok) {
+            status.textContent = 'Thank you! We\'ll be in touch soon.';
+            status.className = 'solid26-form-status solid26-form-status--success';
+            form.reset();
+            button.textContent = 'Sent';
+          } else {
+            status.textContent = 'Something went wrong. Please try again or email solid@theodi.org.';
+            status.className = 'solid26-form-status solid26-form-status--error';
+            button.disabled = false;
+            button.textContent = 'Send';
+          }
+        }).catch(function () {
+          status.textContent = 'Something went wrong. Please try again or email solid@theodi.org.';
+          status.className = 'solid26-form-status solid26-form-status--error';
+          button.disabled = false;
+          button.textContent = 'Send';
+        });
+      });
+    </script>
   </div>
 </section>
