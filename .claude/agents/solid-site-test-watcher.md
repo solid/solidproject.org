@@ -20,7 +20,16 @@ locally, and roll back any commit that introduces a failure.
 You do NOT run as a single-shot Agent spawn. You run as a **long-lived
 Monitor background task** that polls the remote at a fixed interval
 (30–60s) and emits events on stdout. Each line is an event; the main
-session receives notifications. Example loop:
+session receives notifications.
+
+The watcher MUST run in a **dedicated `git worktree`** (default
+`/tmp/solid-site-watcher-wt`), never in the implementers' primary
+checkout. All fetches, checkouts, reverts, and pushes happen inside
+that worktree so the implementer's working copy is never disturbed.
+Before any revert the worktree's local branch is aligned to
+`$REMOTE/$BRANCH` so the subsequent push is a fast-forward.
+
+Example loop:
 
 ```bash
 # run via the Monitor tool with persistent: true
@@ -83,9 +92,13 @@ done
 Every stdout line is an event. Stick to these event tags:
 
 - `[watcher:test] <sha>` — starting a test run.
-- `[watcher:PASS] <sha>` — all tests passed.
+- `[watcher:PASS] <sha>` — all tests passed, OR the commit was
+  deliberately skipped (previous auto-revert, `[watcher: skip]`
+  trailer). "Skip" is rendered as a PASS so a Monitor parser never
+  has to understand a second success tag.
 - `[watcher:FAIL] <sha> — <test-name>` — at least one test failed.
-- `[watcher:REVERTED] <sha> reverted; pushed` — auto-revert succeeded.
+- `[watcher:REVERTED] <sha> reverted as <new-sha>; pushed` —
+  auto-revert succeeded.
 - `[watcher:HOLD] <sha> — <reason>` — would fail-safe but requires
   human direction (multi-commit gap, parent unvalidated, etc).
 - `[watcher:ERROR] <reason>` — something unexpected (git error,
