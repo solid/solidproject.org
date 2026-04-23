@@ -407,3 +407,15 @@ test.describe('PR-960 regression', () => {
     },
   );
 });
+
+test.describe('data-hygiene', () => {
+  // "Browser" is a retired category — SolidFocus is a focus / notes app,
+  // not a web browser, and no other tile carries that label. Guard the
+  // attribute + the filter <option> both disappear together so a future
+  // copy-paste does not silently bring the orphan category back.
+  test('no tile carries data-category="Browser"', async ({ page }) => {
+    await page.goto(APPS_PATH, { waitUntil: 'networkidle' });
+    await expect(page.locator('[data-category="Browser"]')).toHaveCount(0);
+    await expect(page.locator('#category-filter option[value="Browser"]')).toHaveCount(0);
+  });
+});
