@@ -147,7 +147,7 @@ test.describe('PR-960 regression', () => {
   // ---------------------------------------------------------------
   // 3. toolbar-alignment
   // ---------------------------------------------------------------
-  test.fixme(
+  test(
     `toolbar-alignment: .apps-toolbar labels + inputs share a Y bounding-box within 1px at desktop (${FIXME_TAG})`,
     async ({ page }, testInfo) => {
       // This test is a desktop-only concern; mobile stacks the controls.

@@ -434,7 +434,7 @@
   display: grid;
   grid-template-columns: minmax(220px, 1fr) auto;
   gap: 1.25rem 1.5rem;
-  align-items: end;
+  align-items: start;
   margin: 0 0 1.6rem 0;
   padding: 1.25rem 1.6rem;
   background: var(--apps-surface-muted);
@@ -442,21 +442,37 @@
   border-radius: var(--apps-radius);
 }
 
+/* Shared row metrics so every label and every form control in the
+   toolbar renders on a single, predictable baseline. Heights lock in
+   a consistent vertical rhythm and line-height keeps the label text
+   boxes the same height as the inputs. */
+.apps-toolbar {
+  --apps-toolbar-label-line-height: 1.4;
+  --apps-toolbar-control-height: 2.5rem;
+  --apps-toolbar-row-gap: 0.4rem;
+}
+
 .apps-toolbar__search {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: var(--apps-toolbar-row-gap);
   min-width: 0;
 }
 
-.apps-toolbar__label {
+.apps-toolbar__label,
+.apps-toolbar .control-group > label {
+  margin: 0;
   font-weight: 700;
+  line-height: var(--apps-toolbar-label-line-height);
   color: var(--apps-ink);
 }
 
 .apps-toolbar__search-input {
+  box-sizing: border-box;
+  height: var(--apps-toolbar-control-height);
   padding: 0.55rem 0.8rem;
   font: inherit;
+  line-height: var(--apps-toolbar-label-line-height);
   color: var(--apps-ink);
   background: #fff;
   border: 1px solid #ced4da;
@@ -490,13 +506,18 @@
 /* Reset the .sort-controls chrome when it's nested inside the new
    toolbar: the outer .apps-toolbar already provides padding + border
    + background, so we flatten this inner block. Selector is made more
-   specific than .sort-controls so it wins regardless of rule order. */
+   specific than .sort-controls so it wins regardless of rule order.
+   Also switch align-items from flex-end to flex-start so each
+   control-group stacks its label + control from the top of the row,
+   matching the search column and letting labels + inputs share a
+   single Y baseline. */
 .apps-toolbar .apps-toolbar__controls.sort-controls {
   margin: 0;
   padding: 0;
   background: transparent;
   border: 0;
   border-radius: 0;
+  align-items: flex-start;
 }
 
 /* Stack the toolbar on narrow screens and let selects / search shrink
@@ -528,6 +549,7 @@
   display: flex;
   flex-direction: column;
   gap: .4rem;
+  margin: 0;
 }
 
 .control-group > label {
@@ -535,13 +557,23 @@
   color: var(--apps-ink, #202542);
 }
 
+/* Inside the apps toolbar the control-group gap and label line-height
+   must match the search column so .apps-toolbar labels and inputs
+   share a single baseline at desktop. */
+.apps-toolbar .control-group {
+  gap: var(--apps-toolbar-row-gap);
+}
+
 .control-group--check {
   justify-content: flex-end;
 }
 
 .sort-controls select {
+  box-sizing: border-box;
+  height: var(--apps-toolbar-control-height, 2.5rem);
   padding: .5rem .7rem;
   font: inherit;
+  line-height: var(--apps-toolbar-label-line-height, 1.4);
   color: var(--apps-ink, #202542);
   border: 1px solid #ced4da;
   border-radius: var(--apps-radius-sm, 6px);
