@@ -11,3 +11,9 @@ rdfa/package-lock.json
 node_modules
 .cache
 pa11y-report.json
+
+# Playwright — keep baseline PNGs, ignore only failure/diff artefacts
+test-results/
+playwright-report/
+**/*-actual-*.png
+**/*-diff-*.png

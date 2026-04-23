@@ -11,9 +11,13 @@
     "lint:a11y:run:json": "pa11y-ci --config .pa11yci --json > pa11y-report.json",
     "lint:a11y": "start-server-and-test lint:a11y:serve http://127.0.0.1:4000 lint:a11y:run",
     "lint:a11y:ci": "start-server-and-test lint:a11y:serve http://127.0.0.1:4000 lint:a11y:run:json",
-    "lint:all": "npm run lint"
+    "lint:all": "npm run lint",
+    "test:e2e": "playwright test",
+    "test:e2e:ci": "playwright test --reporter=html,github"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.10.1",
+    "@playwright/test": "1.50.1",
     "htmlhint": "1.9.2",
     "http-server": "14.1.1",
     "pa11y-ci": "4.1.0",
