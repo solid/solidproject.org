@@ -25,6 +25,7 @@ export interface PageTarget {
  */
 export const SMOKE_PAGES: readonly PageTarget[] = [
   { name: 'home', path: '/' },
+  { name: 'about', path: '/about.html' },
   { name: 'apps', path: '/apps.html' },
   { name: 'get a pod', path: '/get_a_pod.html' },
   { name: 'for developers', path: '/for_developers.html' },
