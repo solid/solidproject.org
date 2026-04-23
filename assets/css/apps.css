@@ -120,6 +120,108 @@
   color: var(--apps-brand);
 }
 
+/** Category TOC */
+.apps-categories-nav {
+  margin: 0 0 1.5rem 0;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 1px solid var(--apps-border);
+  border-radius: var(--apps-radius);
+}
+
+/* Sticky on desktop so long-page navigation stays one click away.
+   Disabled on mobile (see the <=781px block lower down) because
+   sticky TOCs steal vertical space on small screens. */
+@media (min-width: 1025px) {
+  .apps-categories-nav {
+    position: sticky;
+    top: 1rem;
+    z-index: 10;
+    backdrop-filter: saturate(150%) blur(6px);
+    background: rgba(255, 255, 255, 0.92);
+  }
+}
+
+.apps-categories-nav__label {
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  color: var(--apps-ink);
+}
+
+.apps-categories-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.apps-categories-nav__link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.9rem;
+  color: var(--apps-ink);
+  background: var(--apps-surface-muted);
+  border: 1px solid var(--apps-border-soft);
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.apps-categories-nav__link:hover,
+.apps-categories-nav__link:focus-visible {
+  background: var(--apps-brand);
+  color: #fff;
+  border-color: var(--apps-brand);
+  outline: none;
+}
+
+.apps-categories-nav__link:focus-visible {
+  box-shadow: var(--apps-focus-ring);
+}
+
+/** Category sections */
+.apps-category-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  margin: 1.5rem 0;
+}
+
+.apps-category {
+  scroll-margin-top: 1rem;
+}
+
+.apps-category__heading {
+  margin: 0 0 1rem 0;
+  padding: 0 0 0.4rem 0;
+  font-size: 1.35rem;
+  color: var(--apps-ink);
+  border-bottom: 2px solid var(--apps-brand);
+  display: inline-block;
+}
+
+.apps-category__grid {
+  margin: 0;
+}
+
+.apps-no-results {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  text-align: center;
+  color: var(--apps-ink-muted);
+  background: var(--apps-surface-muted);
+  border: 1px dashed var(--apps-border);
+  border-radius: var(--apps-radius);
+}
+
+/* Tiles with the .hidden flag are removed from the visual grid. */
+.tiles li.hidden {
+  display: none !important;
+}
+
 /* Keep inline links inside app descriptions on the same line */
 #apps-list li p a {
   display: inline !important;

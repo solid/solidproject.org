@@ -27,6 +27,13 @@ breadcrumbs:
 <section resource="#app_launcher" inlist="" rel="hasPart" class="article-section">
   <h2 id="app_launcher" property="name">App Launcher</h2>
   <div datatype="rdf:HTML" property="description">
+    <!-- TODO(copy): copywriter to refine category labels and short blurbs. -->
+    <nav class="apps-categories-nav" aria-label="Jump to a category" id="apps-categories-nav" hidden>
+      <p class="apps-categories-nav__label">Jump to a category</p>
+      <ul class="apps-categories-nav__list" id="apps-categories-nav-list">
+        <!-- Populated by JS from the categories present in #apps-list. -->
+      </ul>
+    </nav>
     <div class="apps-toolbar" role="search" aria-label="Filter and sort Solid apps">
       <div class="apps-toolbar__search">
         <label for="app-search" class="apps-toolbar__label">Search apps</label>
@@ -403,6 +410,16 @@ breadcrumbs:
       </li>
     </ul>
 
+    <!-- JS-built category-grouped view. Kept empty on first paint so the
+         no-JS fallback above (#apps-list) renders the flat list. When JS
+         loads, it distributes tiles into these sections and hides the
+         flat list. -->
+    <div id="apps-category-sections" class="apps-category-sections" hidden></div>
+
+    <p class="apps-no-results" id="apps-no-results" hidden role="status" aria-live="polite">
+      No apps match your filters. Try clearing the search or choosing a different category.
+    </p>
+
     <details class="details-box">
       <summary>App inclusion and exclusion criteria</summary>
       <p>The criteria for an app to be Solid-compatible are:</p>
@@ -428,54 +445,114 @@ breadcrumbs:
     </details>
 
     <script>
-      // App tiles sorting and filtering functionality
+      // App tiles: category grouping + sorting + filtering + search.
+      // No-JS users see the flat #apps-list above; when JS runs we move
+      // each tile into a per-category <section>, hide the flat list, and
+      // populate the #apps-categories-nav TOC.
       document.addEventListener('DOMContentLoaded', function () {
         const sortSelect = document.getElementById('sort-select');
         const categoryFilter = document.getElementById('category-filter');
         const topAppsOnlyCheckbox = document.getElementById('top-apps-only');
         const searchInput = document.getElementById('app-search');
-        const appsList = document.getElementById('apps-list');
-        const appTiles = Array.from(appsList.querySelectorAll('li'));
-        // Store current state
-        let currentSort = 'name-asc';
+        const flatList = document.getElementById('apps-list');
+        const sectionsRoot = document.getElementById('apps-category-sections');
+        const tocNav = document.getElementById('apps-categories-nav');
+        const tocList = document.getElementById('apps-categories-nav-list');
+        const noResultsEl = document.getElementById('apps-no-results');
+        const appTiles = Array.from(flatList.querySelectorAll('li'));
+
+        // Preserve the original DOM order of tiles so the "Default Order"
+        // sort mode can restore it later.
+        appTiles.forEach((tile, i) => { tile.dataset.origOrder = String(i); });
+
+        // State
+        let currentSort = '';
         let currentFilter = 'all';
         let showTopAppsOnly = false;
         let currentSearch = '';
-        // Function to sort app tiles
-        function sortAppTiles(sortValue) {
+
+        function slugify(str) {
+          return String(str).toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+        }
+
+        // Group tiles by category preserving original encounter order.
+        const categoryOrder = [];
+        const tilesByCategory = new Map();
+        appTiles.forEach(tile => {
+          const cat = tile.getAttribute('data-category') || 'Other';
+          if (!tilesByCategory.has(cat)) {
+            tilesByCategory.set(cat, []);
+            categoryOrder.push(cat);
+          }
+          tilesByCategory.get(cat).push(tile);
+        });
+
+        // Build a <section> per category + its grid <ul>. Keep a map of
+        // category-name -> { section, grid } so filter/sort can rearrange
+        // and hide sections.
+        const sectionByCategory = new Map();
+        categoryOrder.forEach(cat => {
+          const slug = slugify(cat);
+          const section = document.createElement('section');
+          section.className = 'apps-category';
+          section.dataset.category = cat;
+          section.id = 'cat-' + slug;
+
+          const heading = document.createElement('h3');
+          heading.className = 'apps-category__heading';
+          heading.id = 'cat-heading-' + slug;
+          heading.textContent = cat;
+          section.appendChild(heading);
+
+          const grid = document.createElement('ul');
+          grid.className = 'tiles tile-links apps-category__grid';
+          grid.setAttribute('aria-labelledby', heading.id);
+          section.appendChild(grid);
+
+          tilesByCategory.get(cat).forEach(tile => grid.appendChild(tile));
+          sectionsRoot.appendChild(section);
+          sectionByCategory.set(cat, { section, grid });
+        });
+
+        // Swap to the grouped view now that JS has populated it.
+        flatList.hidden = true;
+        sectionsRoot.hidden = false;
+
+        // Build the category TOC nav.
+        if (tocNav && tocList) {
+          categoryOrder.forEach(cat => {
+            const slug = slugify(cat);
+            const li = document.createElement('li');
+            const link = document.createElement('a');
+            link.href = '#cat-' + slug;
+            link.className = 'apps-categories-nav__link';
+            link.textContent = cat;
+            link.dataset.category = cat;
+            li.appendChild(link);
+            tocList.appendChild(li);
+          });
+          tocNav.hidden = false;
+        }
+
+        // Sort tiles within each visible section.
+        function sortTiles(sortValue) {
           currentSort = sortValue;
-          const tiles = Array.from(appsList.querySelectorAll('li:not(.hidden)'));
-          if (!sortValue) {
-            // Return to default order - restore original order based on data attributes
-            const defaultOrder = [
-              'Media Kraken',
-              'Penny',
-              'Umai',
-              '0data Hello with Solid',
-              'Booklice',
-              'dokieli',
-              'Pod Pro',
-              'PodOS Browser',
-              'Solid File Manager',
-              'Solidflix'
-            ];
+          sectionByCategory.forEach(({ grid }) => {
+            const tiles = Array.from(grid.querySelectorAll('li'));
             tiles.sort((a, b) => {
-              const aName = a.getAttribute('data-name');
-              const bName = b.getAttribute('data-name');
-              const aIndex = defaultOrder.indexOf(aName);
-              const bIndex = defaultOrder.indexOf(bName);
-              return aIndex - bIndex;
-            });
-          } else {
-            // Apply sorting based on sortValue
-            tiles.sort((a, b) => {
+              if (!sortValue) {
+                return (parseInt(a.dataset.origOrder, 10) || 0)
+                  - (parseInt(b.dataset.origOrder, 10) || 0);
+              }
               let aValue, bValue;
               if (sortValue.startsWith('name')) {
-                aValue = a.getAttribute('data-name').toLowerCase();
-                bValue = b.getAttribute('data-name').toLowerCase();
+                aValue = (a.getAttribute('data-name') || '').toLowerCase();
+                bValue = (b.getAttribute('data-name') || '').toLowerCase();
               } else if (sortValue.startsWith('category')) {
-                aValue = a.getAttribute('data-category').toLowerCase();
-                bValue = b.getAttribute('data-category').toLowerCase();
+                aValue = (a.getAttribute('data-category') || '').toLowerCase();
+                bValue = (b.getAttribute('data-category') || '').toLowerCase();
               } else {
                 return 0;
               }
@@ -484,84 +561,98 @@ breadcrumbs:
               if (aValue > bValue) comparison = 1;
               return sortValue.endsWith('desc') ? -comparison : comparison;
             });
-          }
-          // Reorder tiles in the list
-          tiles.forEach(tile => appsList.appendChild(tile));
+            tiles.forEach(tile => grid.appendChild(tile));
+          });
         }
-        // Function to filter app tiles
-        function filterAppTiles(category, topAppsOnly = false, searchTerm = '') {
-          if (!category) return;
+
+        // Apply filter, search, and top-apps toggles to all tiles; hide
+        // sections that end up empty.
+        function filterTiles(category, topAppsOnly, searchTerm) {
+          if (!category) category = 'all';
           currentFilter = category;
-          showTopAppsOnly = topAppsOnly;
-          currentSearch = searchTerm;
-          const needle = searchTerm.trim().toLowerCase();
-          let visibleCount = 0;
+          showTopAppsOnly = !!topAppsOnly;
+          currentSearch = searchTerm || '';
+          const needle = currentSearch.trim().toLowerCase();
+          let totalVisible = 0;
           appTiles.forEach(tile => {
             const tileCategory = tile.getAttribute('data-category') || '';
             const tileName = tile.getAttribute('data-name') || '';
             const isTopApp = tile.querySelector('.top-app-tag') !== null;
             const matchesCategory = category === 'all' || tileCategory === category;
-            const matchesTop = !topAppsOnly || isTopApp;
+            const matchesTop = !showTopAppsOnly || isTopApp;
             const matchesSearch = !needle
               || tileName.toLowerCase().includes(needle)
               || tileCategory.toLowerCase().includes(needle);
             const shouldShow = matchesCategory && matchesTop && matchesSearch;
-            if (shouldShow) {
-              tile.classList.remove('hidden');
-              visibleCount++;
-            } else {
-              tile.classList.add('hidden');
-            }
+            tile.classList.toggle('hidden', !shouldShow);
+            if (shouldShow) totalVisible++;
           });
-          // Show message if no apps match the filter
-          let noResultsMessage = appsList.querySelector('.no-results-message');
-          if (visibleCount === 0) {
-            if (!noResultsMessage) {
-              noResultsMessage = document.createElement('div');
-              noResultsMessage.className = 'no-results-message';
-              noResultsMessage.innerHTML = '<p>No apps found matching your criteria.</p>';
-              appsList.appendChild(noResultsMessage);
-            }
-          } else if (noResultsMessage) {
-            noResultsMessage.remove();
+          // Hide whole sections that have no visible tiles.
+          sectionByCategory.forEach(({ section, grid }) => {
+            const anyVisible = !!grid.querySelector('li:not(.hidden)');
+            section.hidden = !anyVisible;
+          });
+          // Toggle the empty-results banner.
+          if (noResultsEl) {
+            noResultsEl.hidden = totalVisible !== 0;
           }
         }
-        // Function to apply both filter and sort
-        function applyFilterAndSort() {
-          filterAppTiles(currentFilter, showTopAppsOnly, currentSearch);
-          sortAppTiles(currentSort);
+
+        function applyAll() {
+          filterTiles(currentFilter, showTopAppsOnly, currentSearch);
+          sortTiles(currentSort);
         }
-        // Event listeners for sort and filter controls
+
+        // Wire up controls.
         if (sortSelect) {
           sortSelect.addEventListener('change', function () {
             currentSort = this.value;
-            applyFilterAndSort();
+            applyAll();
           });
+          sortSelect.value = '';
         }
         if (categoryFilter) {
           categoryFilter.addEventListener('change', function () {
             currentFilter = this.value;
-            applyFilterAndSort();
+            applyAll();
           });
         }
         if (topAppsOnlyCheckbox) {
           topAppsOnlyCheckbox.addEventListener('change', function () {
             showTopAppsOnly = this.checked;
-            applyFilterAndSort();
+            applyAll();
           });
         }
         if (searchInput) {
           searchInput.addEventListener('input', function () {
             currentSearch = this.value;
-            applyFilterAndSort();
+            applyAll();
           });
         }
-        // Initialize without default sorting to maintain current order
-        if (sortSelect) {
-          sortSelect.value = '';
+        // TOC clicks also sync the category filter dropdown so the UI
+        // stays consistent. The default anchor behaviour still scrolls
+        // the page to the section.
+        if (tocList && categoryFilter) {
+          tocList.addEventListener('click', function (e) {
+            const link = e.target.closest('a[data-category]');
+            if (!link) return;
+            const cat = link.dataset.category;
+            // Only sync when that category is one the filter knows about.
+            const option = Array.from(categoryFilter.options)
+              .find(o => o.value === cat);
+            if (option) {
+              // Reset to 'all' so users can jump between sections via TOC
+              // without the dropdown silently narrowing the visible set.
+              // (The anchor still scrolls them to the right heading.)
+              categoryFilter.value = 'all';
+              currentFilter = 'all';
+              applyAll();
+            }
+          });
         }
-        // Only apply filter, not sorting
-        filterAppTiles(currentFilter, showTopAppsOnly, currentSearch);
+
+        // Initial paint.
+        applyAll();
       });
     </script>
   </div>
