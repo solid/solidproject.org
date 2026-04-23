@@ -204,9 +204,17 @@ test.describe('PR-960 regression', () => {
   // ---------------------------------------------------------------
   // 4. sticky-TOC-layering
   // ---------------------------------------------------------------
-  test.fixme(
+  test(
     `sticky-TOC-layering: after scrolling, TOC stacks above tiles + below site header, no tile is partially occluded at rest (${FIXME_TAG})`,
-    async ({ page }) => {
+    async ({ page }, testInfo) => {
+      // Sticky TOC is desktop-only (see .apps-categories-nav @media
+      // min-width 1025px in apps.css); on mobile the pill bar scrolls
+      // with the page, so the stacking-order assertion does not apply.
+      test.skip(
+        testInfo.project.name === 'mobile-chrome',
+        'Sticky TOC is a desktop-only concern; mobile lets the pill bar scroll with content.',
+      );
+
       await page.goto(APPS_PATH, { waitUntil: 'networkidle' });
 
       // Scroll the #app_launcher section into view so the sticky TOC pins.
