@@ -81,7 +81,7 @@ be green on the first run.
 - Commit with `git commit --no-gpg-sign -m "…"`. No
   `Co-Authored-By: Claude …` trailer.
 - After each commit run
-  `roborev review HEAD --local --wait --agent copilot --model gpt-5.4`.
+  `roborev review HEAD --local --wait --agent codex` (falls back to `--agent copilot --model gpt-5-mini` if codex is unavailable).
 
 ## Coordinate with the rest of the team
 

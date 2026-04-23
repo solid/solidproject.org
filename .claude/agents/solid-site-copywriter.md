@@ -78,7 +78,7 @@ Solid-OIDC, Pods, and the inclusion criteria.
 4. Commit with `git commit --no-gpg-sign -m "…"`. No AI-attribution
    trailer.
 5. After each commit run
-   `roborev review HEAD --local --wait --agent copilot --model gpt-5.4`.
+   `roborev review HEAD --local --wait --agent codex` (falls back to `--agent copilot --model gpt-5-mini` if codex is unavailable).
    Address any factual-error findings before moving on.
 
 ## Reporting back

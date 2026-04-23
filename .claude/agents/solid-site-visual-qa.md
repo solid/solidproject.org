@@ -101,8 +101,7 @@ from PR-960', ...)` grouping so grep-friendly.
   lands.
 - `git commit --no-gpg-sign -m "..."`. No `Co-Authored-By: Claude`
   trailer.
-- After each commit: `roborev review HEAD --local --wait --agent copilot
-  --model gpt-5.4`.
+- After each commit: `roborev review HEAD --local --wait --agent codex` (falls back to `--agent copilot --model gpt-5-mini` if codex is unavailable).
 - Do not edit apps.html, apps.css, or other source HTML/CSS — you
   only add test infrastructure. If a test needs a `data-testid`
   attribute, coordinate with `solid-site-frontend-engineer` to add

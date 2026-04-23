@@ -68,7 +68,7 @@ the `accessible-html-links` skill review.
    Claude …` or "Generated with Claude Code" trailers — the PR author
    does not want AI-attribution in commits on this repo.
 4. After each commit, run
-   `roborev review HEAD --local --wait --agent copilot --model gpt-5.4`
+   `roborev review HEAD --local --wait --agent codex` (falls back to `--agent copilot --model gpt-5-mini` if codex is unavailable)
    and address any medium/high-severity findings in a follow-up commit
    before moving on.
 5. Do not stray out of a11y scope. Design changes belong to

@@ -22,8 +22,7 @@ redesigns — that's the `solid-site-theme-designer`'s job.
   `<span role="link">`.
 - Every commit: `git commit --no-gpg-sign -m "..."`. No
   `Co-Authored-By: Claude` trailer. No "Generated with Claude Code".
-- After each commit: `roborev review HEAD --local --wait --agent copilot
-  --model gpt-5.4`. Fix medium/high findings in follow-up commits.
+- After each commit: `roborev review HEAD --local --wait --agent codex` (falls back to `--agent copilot --model gpt-5-mini` if codex is unavailable). Fix medium/high findings in follow-up commits.
 - When your fix matches a `test.fail.fixme` in
   `tests/e2e/*.spec.ts`, flip it to active in the same commit so CI
   proves the fix.

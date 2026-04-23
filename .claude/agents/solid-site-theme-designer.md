@@ -232,8 +232,7 @@ Ground rules that still apply:
   screenshots via the visual-qa Playwright tests.
 - Every commit: `git commit --no-gpg-sign -m "..."`. No AI-attribution
   trailer.
-- After each commit: `roborev review HEAD --local --wait --agent copilot
-  --model gpt-5.4`. Fix findings in follow-up commits.
+- After each commit: `roborev review HEAD --local --wait --agent codex` (falls back to `--agent copilot --model gpt-5-mini` if codex is unavailable). Fix findings in follow-up commits.
 - If you touch `apps.css`, coordinate with the frontend-engineer —
   they may be fixing the same file for a specific bug.
 

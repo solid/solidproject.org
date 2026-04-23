@@ -86,7 +86,7 @@ editability by future contributors.
    `Co-Authored-By: Claude …` trailer or "Generated with Claude Code"
    footer — PR author preference.
 5. After each commit run
-   `roborev review HEAD --local --wait --agent copilot --model gpt-5.4`.
+   `roborev review HEAD --local --wait --agent codex` (falls back to `--agent copilot --model gpt-5-mini` if codex is unavailable).
    Fix medium/high findings as follow-up commits before moving on.
 
 ## Coordinate with the rest of the team
