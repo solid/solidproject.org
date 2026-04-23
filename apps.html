@@ -108,7 +108,7 @@ breadcrumbs:
             <div class="tile-logo tile-logo--wide">
               <img alt="Solid file manager logo" src="/assets/img/logo/file-manager-logo.svg"/>
             </div>
-            <h3>The ODI Solid File Manager<span class="top-app-tag" aria-label="Editor's pick">★</span></h3>
+            <h3>The ODI Solid File Manager<span class="top-app-tag" role="img" aria-label="Editor's pick">★</span></h3>
           </div>
           <p>This application provides a user-friendly interface for managing files and folders in Solid Pods.</p>
         </a>
@@ -118,7 +118,7 @@ breadcrumbs:
         <a href="https://noeldemartin.github.io/media-kraken/">
           <div class="tile-header">
             <img alt="Media Kraken Logo - an Octopus" src="/assets/img/logo/media-kraken.svg"/>
-            <h3>Media Kraken<span class="top-app-tag" aria-label="Editor's pick">★</span></h3>
+            <h3>Media Kraken<span class="top-app-tag" role="img" aria-label="Editor's pick">★</span></h3>
           </div>
           <p>An app that helps you keep track of movies and create your own collections.</p>
         </a>
@@ -127,7 +127,7 @@ breadcrumbs:
         <a href="https://penny.vincenttunru.com/">
           <div class="tile-header">
             <img alt="Solid logo - an uppercase S on a violet hexagon" src="/assets/img/solid-emblem.svg"/>
-            <h3>Penny<span class="top-app-tag" aria-label="Editor's pick">★</span></h3>
+            <h3>Penny<span class="top-app-tag" role="img" aria-label="Editor's pick">★</span></h3>
           </div>
           <p>A general Pod Browser by Vincent Tunru.</p>
         </a>
@@ -494,6 +494,10 @@ breadcrumbs:
               featuredGrid.appendChild(clone);
             });
             featuredSection.hidden = false;
+          } else {
+            // No editor's picks -> mark the section as empty so the
+            // filter logic below doesn't try to un-hide it later.
+            featuredSection.dataset.empty = 'true';
           }
         }
 
@@ -694,6 +698,18 @@ breadcrumbs:
             const anyVisible = !!grid.querySelector('li:not(.hidden)');
             section.hidden = !anyVisible;
           });
+          // Featured row is a 'welcome' showcase only when the user is
+          // not actively searching/filtering. As soon as they narrow the
+          // view it gets out of the way to avoid contradicting the empty
+          // state or the filtered result set.
+          if (featuredSection && !featuredSection.dataset.empty) {
+            const hasActiveFilter = category !== 'all'
+              || !!needle
+              || showTopAppsOnly
+              || currentSort.startsWith('name')
+              || currentSort.startsWith('category');
+            featuredSection.hidden = hasActiveFilter;
+          }
           // Toggle the empty-results banner.
           if (noResultsEl) {
             noResultsEl.hidden = totalVisible !== 0;
