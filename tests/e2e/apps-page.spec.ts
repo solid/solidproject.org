@@ -94,7 +94,7 @@ test.describe('PR-960 regression', () => {
   // ---------------------------------------------------------------
   // 2. mobile-overflow
   // ---------------------------------------------------------------
-  test.fixme(
+  test(
     `mobile-overflow: no descendant on /apps has horizontal overflow at 375x667 (${FIXME_TAG})`,
     async ({ page }) => {
       await page.setViewportSize(MOBILE_VIEWPORT);

@@ -79,11 +79,14 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
   padding: 0.75rem 1.4rem;
   background: var(--apps-brand);
   color: #fff;
   font-weight: 700;
   text-decoration: none;
+  overflow-wrap: anywhere;
   border: 1px solid var(--apps-brand);
   border-radius: var(--apps-radius-sm);
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
@@ -626,12 +629,35 @@
 @media (max-width: 580px) {
   /* Force single-column grid on tiny viewports so tile content gets
      full width instead of cramming into a 300px minmax column that
-     ends up producing two 50%-width columns on 360px-wide phones. */
+     ends up producing two 50%-width columns on 360px-wide phones.
+     Use minmax(0, 1fr) so the track cannot grow beyond the grid
+     container from a tile's intrinsic min-content width. */
   .apps-category__grid,
   .apps-sorted-grid,
   .apps-featured__grid,
   #apps-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  /* Let the tile-header (logo + title flex row) wrap onto two lines
+     when the combined min-width of the wide logo + shortest word in
+     the title exceeds the tile body width on phone-size viewports. */
+  .apps-category__grid .tile-header,
+  .apps-sorted-grid .tile-header,
+  .apps-featured__grid .tile-header {
+    flex-wrap: wrap;
+  }
+  /* Allow long/compound title words to break so the title itself
+     cannot push the row beyond the tile. */
+  .apps-category__grid .tile-header h3,
+  .apps-sorted-grid .tile-header h3,
+  .apps-featured__grid .tile-header h3 {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  /* Shrink the wide wordmark logo slot on phones so the 100px fixed
+     width does not squeeze the title below its min-content. */
+  .tiles .tile-logo--wide {
+    width: 72px;
   }
 }
 
