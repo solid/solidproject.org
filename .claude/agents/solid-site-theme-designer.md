@@ -155,13 +155,71 @@ Priority order. Commit one page per commit when possible:
    `banner.css` — reference tokens instead of literals.
 4. `assets/css/homepage.css` + `index.html` — apply hero / card
    patterns to the homepage hero and "What is Solid" sections.
-5. `get_a_pod.html` — hero + card list of providers.
-6. `for_developers.html` + `for_users.html` + `for_organisations.html`
+5. `about.html` — lean on the existing four SVG tour illustrations
+   (store-anything-tour, solid-pod-tour, share-it-safely-tour,
+   solid-today); add a proper hero block, rhythmic section
+   alternation with better image/text spacing, and ensure the SVG
+   illustrations read well in both light and dark themes (inspect
+   `<svg>` for hard-coded fills that would clash on dark — use
+   `currentColor` or dedicated dark SVG variants where needed).
+6. `get_a_pod.html` — hero + card list of providers.
+7. `for_developers.html` + `for_users.html` + `for_organisations.html`
    — hero + themed card groupings.
-7. `community.html` — card grid for channels.
-8. `assets/css/apps.css` — replace literal brand values with tokens;
+8. `community.html` — card grid for channels.
+9. `assets/css/apps.css` — replace literal brand values with tokens;
    rename `--apps-brand` → `--color-brand` if the token-system is
    sufficient.
+
+## SVG authority — site-wide
+
+@jeswr has explicitly authorised both:
+
+1. **Replacing PNG / JPG assets with clearer SVG equivalents** on
+   any page, where doing so is a genuine improvement.
+2. **Rewriting existing SVG assets** on any page — refactoring
+   cluttered exports from Inkscape / Illustrator, normalising stroke
+   widths, switching hard-coded fills to `currentColor` so the token
+   system can theme them, removing unused `<defs>`, reducing file
+   size, or consolidating visual style with the rest of the
+   redesign. This applies across `/assets/img/graphics/*.svg`,
+   `/assets/img/icon/*.svg`, and any inline `<svg>` in HTML.
+
+Ground rules that still apply:
+
+- **Preserve meaning and identity.** A logo represents someone
+  else's brand. Upstream-app logos under `/assets/img/logo/*.png`
+  came from each Solid app's own site — don't redraw those to
+  your own taste. (Optimising them via a lossless optimiser like
+  `oxipng` or `pngquant` IS fine and in scope.)
+- **Hand-illustrated marketing graphics** (the "tour"
+  illustrations on `about.html` — store-anything-tour,
+  solid-pod-tour, share-it-safely-tour, solid-today — and the
+  similar set under `/assets/img/graphics/`) are already SVG and
+  generally high quality. Favour light-touch edits: convert hard
+  fills to `currentColor` where semantically correct; add a
+  `prefers-color-scheme: dark` variant if the illustration would
+  be unreadable on dark surfaces; normalise the viewBox /
+  whitespace for consistent on-page sizing. Do NOT redraw them
+  from scratch.
+- **Generic UI icons** (chevron, close, hamburger, theme toggle,
+  social) SHOULD be SVG — inline or via a spritesheet — so they
+  inherit `currentColor` and work in both themes. Existing
+  `/assets/img/icon/chevron-right.svg` is already SVG; inline any
+  remaining raster icons you find.
+- **When adding / rewriting an SVG:**
+  - Commit under the right subfolder (`icon/`, `graphics/`,
+    `logo/`).
+  - Keep the `viewBox` intact — don't accidentally shift the
+    coordinate system mid-edit.
+  - Strip XML declarations, Inkscape / Sodipodi namespaces, and
+    editor comments with a light hand-edit. Tools like `svgo`
+    (npm, zero-config) are fine to run; commit both the tool
+    invocation and the output if you use one.
+  - Prefer `fill="currentColor"` / `stroke="currentColor"` over
+    hard-coded hex so the token system and dark mode can style
+    the icon.
+  - Maintain the existing `alt=""` / `role="img"` / `aria-label`
+    semantics on `<img>` and inline `<svg>` callers.
 
 ## Hard rules
 
