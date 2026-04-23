@@ -1,4 +1,124 @@
-/** Apps List */
+/** Apps page
+ *
+ * Page-scoped theme tokens. These deliberately live on the apps-page
+ * blocks only (not :root) so they do not leak into other pages, which
+ * still use literal hex values. Values mirror the site palette.
+ */
+.apps-hero,
+.apps-toolbar,
+.apps-categories-nav,
+#apps-list {
+  --apps-brand: #7C4DFF;
+  --apps-brand-dark: #6d3dee;
+  --apps-ink: #202542;
+  --apps-ink-muted: #495057;
+  --apps-ink-soft: #666;
+  --apps-surface: #fff;
+  --apps-surface-soft: #fafafa;
+  --apps-surface-muted: #f8f9fa;
+  --apps-border: #e0e0e0;
+  --apps-border-soft: #e9ecef;
+  --apps-accent-star: #ff6b35;
+  --apps-link: #1a73e8;
+  --apps-radius: 8px;
+  --apps-radius-sm: 6px;
+  --apps-shadow-lift: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --apps-shadow-hero: 0 10px 30px rgba(32, 37, 66, 0.08);
+  --apps-focus-ring: 0 0 0 3px rgba(124, 77, 255, 0.35);
+}
+
+/** Hero */
+.apps-hero {
+  margin: 0 0 2rem 0;
+  padding: 2.5rem 2rem;
+  background: linear-gradient(135deg, #f4f0ff 0%, #ffffff 70%);
+  border: 1px solid var(--apps-border);
+  border-radius: calc(var(--apps-radius) * 1.5);
+  box-shadow: var(--apps-shadow-hero);
+}
+
+.apps-hero__content {
+  max-width: 60rem;
+}
+
+.apps-hero__eyebrow {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--apps-brand);
+}
+
+.apps-hero__headline {
+  margin: 0 0 0.75rem 0;
+  font-size: clamp(1.8rem, 2.4vw + 1rem, 2.6rem);
+  line-height: 1.15;
+  color: var(--apps-ink);
+}
+
+.apps-hero__lede {
+  margin: 0 0 1.25rem 0;
+  font-size: 1.1rem;
+  line-height: 1.55;
+  color: var(--apps-ink-muted);
+}
+
+.apps-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0 0 1rem 0;
+}
+
+.apps-hero__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.4rem;
+  background: var(--apps-brand);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid var(--apps-brand);
+  border-radius: var(--apps-radius-sm);
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.apps-hero__cta:hover,
+.apps-hero__cta:focus-visible {
+  background: var(--apps-brand-dark);
+  border-color: var(--apps-brand-dark);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: var(--apps-shadow-lift);
+}
+
+.apps-hero__cta:focus-visible {
+  outline: none;
+  box-shadow: var(--apps-focus-ring), var(--apps-shadow-lift);
+}
+
+.apps-hero__cta--ghost {
+  background: transparent;
+  color: var(--apps-brand);
+}
+
+.apps-hero__cta--ghost:hover,
+.apps-hero__cta--ghost:focus-visible {
+  background: var(--apps-brand);
+  color: #fff;
+}
+
+.apps-hero__note {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--apps-ink-soft);
+}
+
+.apps-hero__note a {
+  color: var(--apps-brand);
+}
 
 /* Keep inline links inside app descriptions on the same line */
 #apps-list li p a {
