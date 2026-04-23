@@ -197,11 +197,12 @@
   :root:not([data-theme="light"]) .theme-toggle__icon--moon { display: none; }
 }
 
-/* Hide the toggle on mobile; the hamburger menu exposes it inside the
-   slide-out panel via the .main-nav clone injected by menu.js. */
+/* Keep the toggle visible on mobile next to the hamburger so the
+   theme switch is one tap away without opening the slide-out nav.
+   z-index already pulls it above the nav overlay. */
 @media (max-width: 1024px) {
   .header .theme-toggle {
-    display: none;
+    margin-right: 0.5rem;
   }
 }
 

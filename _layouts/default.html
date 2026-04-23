@@ -10,21 +10,21 @@
       // Anchored to <html> only — the rest of the code base (tokens,
       // toggle button, tests) expects data-theme on document.documentElement.
       (function () {
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var resolved = prefersDark ? 'dark' : 'light';
         try {
           var stored = localStorage.getItem('solid-theme');
           if (stored === 'light' || stored === 'dark') {
-            document.documentElement.setAttribute('data-theme', stored);
-            return;
-          }
-          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-          } else {
-            document.documentElement.setAttribute('data-theme', 'light');
+            resolved = stored;
           }
         } catch (e) {
-          // localStorage blocked (private mode, strict cookie policy, etc.).
-          // Fall back to the system preference via CSS @media only.
+          // localStorage blocked (private mode, strict cookie policy,
+          // etc.); fall back to the system preference computed above.
         }
+        // Always set data-theme so menu.js, the toggle's aria-pressed
+        // state, and the dark-mode axe tests can rely on the attribute
+        // being present regardless of storage availability.
+        document.documentElement.setAttribute('data-theme', resolved);
       })();
     </script>
     <meta charset="UTF-8" />
@@ -37,6 +37,7 @@
     <meta property="og:url" content="{{ page.permalink | prepend: site.base_url }}" />{% endif %}
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:locale" content="en" />
+    <meta name="theme-color" content="#7C4DFF" id="theme-color-meta">
     <meta name="theme-color" content="#7C4DFF" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#0a0c11" media="(prefers-color-scheme: dark)">
     <link type="application/atom+xml" rel="alternate" href="{{ site.base_url }}/feed.xml" title="{{ site.title }}" />

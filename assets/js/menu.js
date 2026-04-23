@@ -34,16 +34,24 @@ document.addEventListener('DOMContentLoaded', function() {
   /* Theme toggle
      The no-flash <script> in <head> already set data-theme before CSS
      paint. Here we just wire the click handler, keep the button's
-     aria-pressed in sync, and persist the choice. Clicking flips
-     between "light" and "dark"; user choice wins over system
-     preference from that point on. */
+     aria-pressed + the browser-chrome theme-color meta in sync, and
+     persist the choice. Clicking flips between "light" and "dark";
+     user choice wins over system preference from that point on. */
   const themeToggle = document.querySelector('.theme-toggle');
   if (themeToggle) {
-    const syncPressed = () => {
+    const THEME_COLOR_LIGHT = '#7C4DFF';
+    const THEME_COLOR_DARK = '#0a0c11';
+    const themeColorMeta = document.getElementById('theme-color-meta');
+
+    const syncChrome = () => {
       const current = document.documentElement.getAttribute('data-theme');
-      themeToggle.setAttribute('aria-pressed', current === 'dark' ? 'true' : 'false');
+      const isDark = current === 'dark';
+      themeToggle.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', isDark ? THEME_COLOR_DARK : THEME_COLOR_LIGHT);
+      }
     };
-    syncPressed();
+    syncChrome();
 
     themeToggle.addEventListener('click', function() {
       const current = document.documentElement.getAttribute('data-theme') || 'light';
@@ -55,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         /* Private mode / storage disabled — the attribute still holds
            for this page view. */
       }
-      syncPressed();
+      syncChrome();
     });
   }
 });
