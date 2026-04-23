@@ -662,6 +662,15 @@
   .apps-hero__cta:hover {
     transform: none;
   }
+  /* The chevron hint also translates on tile hover; neutralise that. */
+  .apps-category__grid li:hover a::after,
+  .apps-sorted-grid li:hover a::after,
+  .apps-featured__grid li:hover a::after,
+  .apps-category__grid a::after,
+  .apps-sorted-grid a::after,
+  .apps-featured__grid a::after {
+    transform: none;
+  }
 }
 
 /* Dark colour-scheme pass deliberately skipped: the site-wide chrome
