@@ -116,8 +116,17 @@
   /* Desktop: pin the TOC to the left of the apps grid so the
      category picker is always next to the apps, not floating above
      them. Track width ~220px matches the longest category label
-     ("Content, Notes, Blogging and Publishing") at the base font. */
+     ("Content, Notes, Blogging and Publishing") at the base font.
+     The :has() guard keeps the grid single-column when JS hasn't run
+     (or has failed) and .apps-categories-nav is still [hidden] —
+     otherwise no-JS visitors would see an empty left rail and a
+     narrower apps column. `display: block` fallback for the ~0.1%
+     of traffic on browsers that predate :has() stays single-column
+     too, which is the safer degrade. */
   .apps-layout {
+    display: block;
+  }
+  .apps-layout:has(.apps-categories-nav:not([hidden])) {
     display: grid;
     grid-template-columns: 220px minmax(0, 1fr);
     gap: 2rem;
@@ -184,6 +193,24 @@
   .apps-categories-nav__link {
     display: flex;
     width: 100%;
+  }
+}
+
+/* Everything below the side-rail breakpoint (mobile AND tablet).
+   The TOC stays above the grid here, and the pill list scrolls
+   horizontally instead of wrapping into 3–5 rows on tablet
+   widths — which would push the apps grid way down the viewport.
+   ≤781px refines these with narrower padding; this block is the
+   shared base. */
+@media (max-width: 1024px) {
+  .apps-categories-nav__list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .apps-categories-nav__link {
+    flex-shrink: 0;
   }
 }
 
@@ -691,17 +718,12 @@
   .apps-categories-nav {
     padding: 0.8rem 1rem;
   }
-  .apps-categories-nav__list {
-    /* Let the pill list scroll horizontally on very narrow screens
-       rather than wrap into 6+ rows. */
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding-bottom: 0.25rem;
-    -webkit-overflow-scrolling: touch;
-  }
-  .apps-categories-nav__link {
-    flex-shrink: 0;
-  }
+  /* The horizontal-scroll pill rules used to live only inside this
+     ≤781px block, but that left 782–1024px (tablet) wrapping the
+     pills into multiple rows and pushing the grid far down the page.
+     They have moved to a broader `max-width: 1024px` block below so
+     the whole single-column range (everything before the side-rail
+     kicks in) shares one scrolling-pill-bar UX. */
   .apps-featured {
     padding: 1.1rem;
   }
