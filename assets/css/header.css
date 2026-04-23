@@ -11,10 +11,6 @@
     justify-content: space-between;
     padding: 1.5rem 3.2rem 1.6rem 3rem;
     position: relative;
-    /* Stay above page-level sticky bars (e.g. /apps category TOC at
-       z-index 10). The mobile nav overlay + hamburger use z-index 999
-       / 1000 so 1001 keeps the .header frame on top of both. */
-    z-index: 1001;
 }
 
 .header a {

@@ -198,10 +198,7 @@
 }
 
 .apps-category {
-  /* Enough clearance for the desktop sticky TOC pill bar (pinned at
-     top: 1rem, ~3rem tall) so anchor jumps from the TOC land with the
-     section heading fully below the bar rather than tucked under it. */
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 1rem;
 }
 
 .apps-category__heading {
