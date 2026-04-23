@@ -1,44 +1,21 @@
 /** Apps page
  *
- * Page-scoped theme tokens. These deliberately live on the apps-page
- * blocks only (not :root) so they do not leak into other pages, which
- * still use literal hex values. Values mirror the site palette.
+ * Apps-specific visual layer. All colour / radius / shadow / focus
+ * values come from the site-wide :root tokens in base.css; only
+ * apps-page chrome (hero gradient, featured tint, sort controls) lives
+ * here. The previous `--apps-*` namespace was page-scoped to avoid
+ * leaking into the rest of the site; now the tokens live on :root and
+ * apps.css just consumes them like everyone else.
  */
-.apps-hero,
-.apps-toolbar,
-.apps-categories-nav,
-.apps-category-sections,
-.apps-featured,
-.apps-sorted-grid,
-.apps-no-results,
-#apps-list {
-  --apps-brand: #7C4DFF;
-  --apps-brand-dark: #6d3dee;
-  --apps-ink: #202542;
-  --apps-ink-muted: #495057;
-  --apps-ink-soft: #666;
-  --apps-surface: #fff;
-  --apps-surface-soft: #fafafa;
-  --apps-surface-muted: #f8f9fa;
-  --apps-border: #e0e0e0;
-  --apps-border-soft: #e9ecef;
-  --apps-accent-star: #ff6b35;
-  --apps-link: #1a73e8;
-  --apps-radius: 8px;
-  --apps-radius-sm: 6px;
-  --apps-shadow-lift: 0 4px 8px rgba(0, 0, 0, 0.1);
-  --apps-shadow-hero: 0 10px 30px rgba(32, 37, 66, 0.08);
-  --apps-focus-ring: 0 0 0 3px rgba(124, 77, 255, 0.35);
-}
 
 /** Hero */
 .apps-hero {
   margin: 0 0 2rem 0;
   padding: 2.5rem 2rem;
-  background: linear-gradient(135deg, #f4f0ff 0%, #ffffff 70%);
-  border: 1px solid var(--apps-border);
-  border-radius: calc(var(--apps-radius) * 1.5);
-  box-shadow: var(--apps-shadow-hero);
+  background: linear-gradient(135deg, var(--color-brand-tint) 0%, var(--color-bg) 70%);
+  border: 1px solid var(--color-border);
+  border-radius: calc(var(--radius-md) * 1.5);
+  box-shadow: var(--shadow-hero);
 }
 
 .apps-hero__content {
@@ -51,21 +28,21 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--apps-brand);
+  color: var(--color-brand);
 }
 
 .apps-hero__headline {
   margin: 0 0 0.75rem 0;
   font-size: clamp(1.8rem, 2.4vw + 1rem, 2.6rem);
   line-height: 1.15;
-  color: var(--apps-ink);
+  color: var(--color-text);
 }
 
 .apps-hero__lede {
   margin: 0 0 1.25rem 0;
   font-size: 1.1rem;
   line-height: 1.55;
-  color: var(--apps-ink-muted);
+  color: var(--color-text-subtle);
 }
 
 .apps-hero__actions {
@@ -82,58 +59,58 @@
   box-sizing: border-box;
   max-width: 100%;
   padding: 0.75rem 1.4rem;
-  background: var(--apps-brand);
-  color: #fff;
+  background: var(--color-brand);
+  color: var(--color-brand-contrast);
   font-weight: 700;
   text-decoration: none;
   overflow-wrap: anywhere;
-  border: 1px solid var(--apps-brand);
-  border-radius: var(--apps-radius-sm);
+  border: 1px solid var(--color-brand);
+  border-radius: var(--radius-sm);
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .apps-hero__cta:hover,
 .apps-hero__cta:focus-visible {
-  background: var(--apps-brand-dark);
-  border-color: var(--apps-brand-dark);
-  color: #fff;
+  background: var(--color-brand-hover);
+  border-color: var(--color-brand-hover);
+  color: var(--color-brand-contrast);
   transform: translateY(-1px);
-  box-shadow: var(--apps-shadow-lift);
+  box-shadow: var(--shadow-2-strong);
 }
 
 .apps-hero__cta:focus-visible {
   outline: none;
-  box-shadow: var(--apps-focus-ring), var(--apps-shadow-lift);
+  box-shadow: var(--focus-ring-brand), var(--shadow-2-strong);
 }
 
 .apps-hero__cta--ghost {
   background: transparent;
-  color: var(--apps-brand);
+  color: var(--color-brand);
 }
 
 .apps-hero__cta--ghost:hover,
 .apps-hero__cta--ghost:focus-visible {
-  background: var(--apps-brand);
-  color: #fff;
+  background: var(--color-brand);
+  color: var(--color-brand-contrast);
 }
 
 .apps-hero__note {
   margin: 0;
   font-size: 0.95rem;
-  color: var(--apps-ink-soft);
+  color: var(--color-text-muted);
 }
 
 .apps-hero__note a {
-  color: var(--apps-brand);
+  color: var(--color-brand);
 }
 
 /** Category TOC */
 .apps-categories-nav {
   margin: 0 0 1.5rem 0;
   padding: 1rem 1.25rem;
-  background: #fff;
-  border: 1px solid var(--apps-border);
-  border-radius: var(--apps-radius);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
 }
 
 /* Sticky on desktop so long-page navigation stays one click away.
@@ -145,14 +122,14 @@
     top: 1rem;
     z-index: 10;
     backdrop-filter: saturate(150%) blur(6px);
-    background: rgba(255, 255, 255, 0.92);
+    background: color-mix(in srgb, var(--color-bg) 92%, transparent);
   }
 }
 
 .apps-categories-nav__label {
   margin: 0 0 0.5rem 0;
   font-weight: 700;
-  color: var(--apps-ink);
+  color: var(--color-text);
 }
 
 .apps-categories-nav__list {
@@ -169,9 +146,9 @@
   align-items: center;
   padding: 0.35rem 0.75rem;
   font-size: 0.9rem;
-  color: var(--apps-ink);
-  background: var(--apps-surface-muted);
-  border: 1px solid var(--apps-border-soft);
+  color: var(--color-text);
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border-muted);
   border-radius: 999px;
   text-decoration: none;
   transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
@@ -179,14 +156,14 @@
 
 .apps-categories-nav__link:hover,
 .apps-categories-nav__link:focus-visible {
-  background: var(--apps-brand);
-  color: #fff;
-  border-color: var(--apps-brand);
+  background: var(--color-brand);
+  color: var(--color-brand-contrast);
+  border-color: var(--color-brand);
   outline: none;
 }
 
 .apps-categories-nav__link:focus-visible {
-  box-shadow: var(--apps-focus-ring);
+  box-shadow: var(--focus-ring-brand);
 }
 
 /** Category sections */
@@ -218,8 +195,8 @@
   margin: 0 0 1rem 0;
   padding: 0 0 0.4rem 0;
   font-size: 1.35rem;
-  color: var(--apps-ink);
-  border-bottom: 2px solid var(--apps-brand);
+  color: var(--color-text);
+  border-bottom: 2px solid var(--color-brand);
   display: inline-block;
 }
 
@@ -230,7 +207,7 @@
 .apps-category__intro {
   margin: 0.25rem 0 1rem;
   max-width: 60ch;
-  color: var(--apps-ink-muted);
+  color: var(--color-text-subtle);
   font-size: 0.95rem;
 }
 
@@ -248,10 +225,10 @@
   margin: 2rem 0;
   padding: 1.25rem;
   text-align: center;
-  color: var(--apps-ink-muted);
-  background: var(--apps-surface-muted);
-  border: 1px dashed var(--apps-border);
-  border-radius: var(--apps-radius);
+  color: var(--color-text-subtle);
+  background: var(--color-surface-muted);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
 }
 
 /* Tiles with the .hidden flag are removed from the visual grid. */
@@ -261,12 +238,11 @@
 
 /** Featured / Editor's picks row */
 .apps-featured {
-  --apps-featured-bg: linear-gradient(135deg, #fff9ed 0%, #ffffff 75%);
   margin: 0 0 2rem 0;
   padding: 1.5rem;
-  background: var(--apps-featured-bg);
-  border: 1px solid var(--apps-border);
-  border-radius: var(--apps-radius);
+  background: linear-gradient(135deg, var(--color-accent-warm-tint) 0%, var(--color-bg) 75%);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
 }
 
 .apps-featured__header {
@@ -280,21 +256,21 @@
 .apps-featured__heading {
   margin: 0;
   font-size: 1.25rem;
-  color: var(--apps-ink);
+  color: var(--color-text);
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
 }
 
 .apps-featured__star {
-  color: var(--apps-accent-star);
+  color: var(--color-accent-warm);
   font-size: 1.35rem;
   line-height: 1;
 }
 
 .apps-featured__blurb {
   margin: 0;
-  color: var(--apps-ink-soft);
+  color: var(--color-text-muted);
   font-size: 0.95rem;
 }
 
@@ -314,8 +290,8 @@
   height: 60px;
   padding: 0.3rem;
   object-fit: contain;
-  background: #fff;
-  border: 1px solid var(--apps-border);
+  background: var(--color-logo-chip);
+  border: 1px solid var(--color-border);
   border-radius: 10px;
   flex-shrink: 0;
 }
@@ -329,8 +305,8 @@
   align-items: center;
   justify-content: center;
   padding: 0.3rem;
-  background: #fff;
-  border: 1px solid var(--apps-border);
+  background: var(--color-logo-chip);
+  border: 1px solid var(--color-border);
   border-radius: 10px;
   flex-shrink: 0;
 }
@@ -363,7 +339,7 @@
 .apps-sorted-grid li:hover,
 .apps-featured__grid li:hover {
   transform: translateY(-2px);
-  border-color: var(--apps-brand);
+  border-color: var(--color-brand);
 }
 
 /* "Open app →" chevron hint rendered at the bottom of the tile anchor.
@@ -378,7 +354,7 @@
   margin-top: auto;
   padding-top: 1rem;
   font-weight: 700;
-  color: var(--apps-brand);
+  color: var(--color-brand);
   letter-spacing: 0.01em;
   font-size: 0.95rem;
   opacity: 0.85;
@@ -396,9 +372,9 @@
 .apps-category__grid a:focus-visible,
 .apps-sorted-grid a:focus-visible,
 .apps-featured__grid a:focus-visible {
-  outline: 3px solid var(--apps-brand);
+  outline: 3px solid var(--color-brand);
   outline-offset: 3px;
-  border-radius: var(--apps-radius-sm);
+  border-radius: var(--radius-sm);
 }
 
 /* Editor's-pick pill: restyle the existing .top-app-tag <span> so it
@@ -414,8 +390,8 @@
   height: 1.6rem;
   margin-left: 0.6rem;
   font-size: 1rem;
-  color: var(--apps-accent-star);
-  background: rgba(255, 107, 53, 0.12);
+  color: var(--color-accent-warm);
+  background: var(--color-accent-warm-tint);
   border-radius: 50%;
 }
 
@@ -444,12 +420,12 @@
   width: auto;
   height: auto;
   flex-grow: 0;
-  color: #1a73e8;
+  color: var(--color-link);
   text-decoration: underline;
 }
 
 .tiles li .app-source a:focus-visible {
-  outline: 2px solid #1a73e8;
+  outline: 2px solid var(--color-link);
   outline-offset: 2px;
 }
 
@@ -461,9 +437,9 @@
   align-items: start;
   margin: 0 0 1.6rem 0;
   padding: 1.25rem 1.6rem;
-  background: var(--apps-surface-muted);
-  border: 1px solid var(--apps-border-soft);
-  border-radius: var(--apps-radius);
+  background: var(--color-surface-muted);
+  border: 1px solid var(--color-border-muted);
+  border-radius: var(--radius-md);
 }
 
 /* Shared row metrics so every label and every form control in the
@@ -488,7 +464,7 @@
   margin: 0;
   font-weight: 700;
   line-height: var(--apps-toolbar-label-line-height);
-  color: var(--apps-ink);
+  color: var(--color-text);
 }
 
 .apps-toolbar__search-input {
@@ -497,30 +473,30 @@
   padding: 0.55rem 0.8rem;
   font: inherit;
   line-height: var(--apps-toolbar-label-line-height);
-  color: var(--apps-ink);
-  background: #fff;
-  border: 1px solid #ced4da;
-  border-radius: var(--apps-radius-sm);
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-input);
+  border-radius: var(--radius-sm);
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .apps-toolbar__search-input:focus {
   outline: none;
-  border-color: var(--apps-brand);
-  box-shadow: var(--apps-focus-ring);
+  border-color: var(--color-brand);
+  box-shadow: var(--focus-ring-brand);
 }
 
 .apps-toolbar__hint {
   font-size: 0.85rem;
-  color: var(--apps-ink-soft);
+  color: var(--color-text-muted);
 }
 
 .sort-controls {
   margin-bottom: 1.6rem;
   padding: .8rem 1.6rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-  border: 1px solid #e9ecef;
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border-muted);
   display: flex;
   gap: 1.6rem;
   flex-wrap: wrap;
@@ -578,7 +554,7 @@
 
 .control-group > label {
   font-weight: 700;
-  color: var(--apps-ink, #202542);
+  color: var(--color-text);
 }
 
 /* Inside the apps toolbar the control-group gap and label line-height
@@ -607,21 +583,21 @@
   padding: .5rem .7rem;
   font: inherit;
   line-height: var(--apps-toolbar-label-line-height, 1.4);
-  color: var(--apps-ink, #202542);
-  border: 1px solid #ced4da;
-  border-radius: var(--apps-radius-sm, 6px);
-  background: white;
+  color: var(--color-text);
+  border: 1px solid var(--color-border-input);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg);
   min-width: 200px;
 }
 
 .sort-controls select:focus {
   outline: none;
-  border-color: var(--apps-brand, #7C4DFF);
-  box-shadow: var(--apps-focus-ring, 0 0 0 3px rgba(124, 77, 255, 0.35));
+  border-color: var(--color-brand);
+  box-shadow: var(--focus-ring-brand);
 }
 
 .top-app-tag {
-  color: #ff6b35;
+  color: var(--color-accent-warm);
   font-size: 1.6rem;
   margin-left: .8rem;
   flex-shrink: 0;
@@ -631,7 +607,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  color: #495057;
+  color: var(--color-text-subtle);
   gap: .8rem;
   margin-bottom: .2rem;
 }
@@ -761,10 +737,10 @@
   }
 }
 
-/* Dark colour-scheme pass deliberately skipped: the site-wide chrome
- * (header, footer, breadcrumb, body background, body copy) is hard-
- * coded light across base.css / header.css / footer.css / etc., so
- * inverting only the apps-page blocks would leave a light chrome
- * around a dark content island and look disjointed. The brief marks
- * dark mode as optional; revisit once the site ships a site-wide
- * dark theme that apps.css can extend. */
+/* Dark colour-scheme support now piggybacks on the site-wide tokens
+ * in base.css — every colour / border / shadow above references a
+ * --color-* / --shadow-* / --focus-ring-* variable, so switching the
+ * root theme flips the apps page along with the chrome. If a specific
+ * apps-only adjustment is ever needed for dark mode (e.g. a different
+ * hero gradient), add an override under `[data-theme="dark"] .apps-hero`
+ * below rather than hard-coding hex values here. */

@@ -69,6 +69,10 @@
   --color-link: #1a73e8;
   --color-link-ical: #0066cc;
   --color-link-ical-hover: #0052a3;
+  /* Logo chip surface stays light in both themes so upstream-app
+     logos (which were authored for a white background) remain
+     legible when we wrap them in our square chip on dark mode. */
+  --color-logo-chip: #ffffff;
   --color-header-bg: #202542;
   --color-header-text: #ffffff;
   --color-header-link-hover: rgba(255, 255, 255, 0.1);
@@ -154,6 +158,9 @@
   --color-link: #79b4ff;
   --color-link-ical: #79b4ff;
   --color-link-ical-hover: #a9cdff;
+  /* Logo chip stays white so upstream-app artwork reads the same in
+     both themes; see the light-theme note for rationale. */
+  --color-logo-chip: #ffffff;
   --color-header-bg: #0a0c11;
   --color-header-text: #e6e9f2;
   --color-header-link-hover: rgba(255, 255, 255, 0.08);
@@ -178,6 +185,7 @@
    + attribute selector) cannot cascade into the explicit selector. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
+    --color-logo-chip: #ffffff;
     --color-bg: #0f1115;
     --color-surface: #1a1d25;
     --color-surface-muted: #161922;
