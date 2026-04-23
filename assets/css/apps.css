@@ -1,4 +1,36 @@
 /** Apps List */
+
+/* Keep inline links inside app descriptions on the same line */
+#apps-list li p a {
+  display: inline !important;
+  vertical-align: baseline;
+}
+
+/* Source-code paragraph rendered below the primary tile link so
+   its anchor is not nested inside the outer tile <a>. */
+#apps-list li .app-source {
+  margin: 0 1.5rem 1.5rem 1.5rem;
+  font-size: 0.9em;
+}
+
+/* Reset the tile-level "a is a big flex block" rules (see
+   .tiles.tile-links a in base.css) for the source-code anchor so
+   it renders as a normal inline link. */
+#apps-list li .app-source a {
+  display: inline !important;
+  padding: 0;
+  width: auto;
+  height: auto;
+  flex-grow: 0;
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+#apps-list li .app-source a:focus-visible {
+  outline: 2px solid #1a73e8;
+  outline-offset: 2px;
+}
+
 .sort-controls {
   margin-bottom: 1.6rem;
   padding: .8rem 1.6rem;
