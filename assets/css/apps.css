@@ -223,6 +223,17 @@
   display: inline-block;
 }
 
+/* Optional one-line blurb injected under a category heading from the
+   first tile in the group carrying data-category-intro. Kept narrow so
+   it reads like a caption next to the rail of tiles rather than a
+   competing paragraph. */
+.apps-category__intro {
+  margin: 0.25rem 0 1rem;
+  max-width: 60ch;
+  color: var(--apps-ink-muted);
+  font-size: 0.95rem;
+}
+
 .apps-category__grid {
   margin: 0;
 }
