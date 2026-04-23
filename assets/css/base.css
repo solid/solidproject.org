@@ -36,13 +36,198 @@
     font-display: swap;
 }
 
+/* Design tokens
+   Plain CSS custom properties. Surface-level tokens (background,
+   text, borders, shadows) swap on [data-theme="dark"] further down so
+   header / footer / breadcrumb / banner / homepage / apps reference
+   them without caring which mode is active. Any page that still hard-
+   codes a hex value should migrate to one of these. */
+:root {
+  /* Colour — light theme */
+  --color-bg: #ffffff;
+  --color-surface: #fafafa;
+  --color-surface-muted: #f8f9fa;
+  --color-surface-soft: #f4f4f4;
+  --color-surface-quote: #e9ecef;
+  --color-text: #202542;
+  --color-text-muted: #666;
+  --color-text-subtle: #495057;
+  --color-text-inverse: #ffffff;
+  --color-text-footer: #d8d8d8;
+  --color-text-quote: #2c3e50;
+  --color-brand: #7C4DFF;
+  --color-brand-hover: #6d3dee;
+  --color-brand-contrast: #ffffff;
+  --color-brand-tint: #f4f0ff;
+  --color-accent-warm: #ff6b35;
+  --color-accent-warm-tint: #fff9ed;
+  --color-border: #e0e0e0;
+  --color-border-subtle: #e1e5e9;
+  --color-border-muted: #e9ecef;
+  --color-border-faint: #d9d9d9;
+  --color-border-input: #ced4da;
+  --color-link: #1a73e8;
+  --color-link-ical: #0066cc;
+  --color-link-ical-hover: #0052a3;
+  --color-header-bg: #202542;
+  --color-header-text: #ffffff;
+  --color-header-link-hover: rgba(255, 255, 255, 0.1);
+  --color-footer-bg: #202542;
+  --color-footer-text: #d8d8d8;
+  --color-footer-text-hover: #ffffff;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 3.2rem;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 8px rgba(0, 0, 0, 0.08);
+  --shadow-2-strong: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-3: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-quote: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-brand: 0 2px 4px rgba(124, 77, 255, 0.2);
+  --shadow-brand-hover: 0 4px 8px rgba(124, 77, 255, 0.3);
+  --shadow-hero: 0 10px 30px rgba(32, 37, 66, 0.08);
+
+  /* Focus ring */
+  --focus-ring-brand: 0 0 0 3px rgba(124, 77, 255, 0.35);
+
+  /* Type scale */
+  --font-body: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  --fs-xs: 0.85rem;
+  --fs-sm: 0.95rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.6rem;
+  --fs-display: 2.4rem;
+  --line-height-body: 1.625;
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --motion-fast: 120ms;
+  --motion-med: 220ms;
+  --motion-slow: 320ms;
+}
+
+/* Dark theme — manual toggle.
+   Inverts surfaces, softens shadows, brightens brand so contrast holds
+   against a near-black background. The tokens above are the only ones
+   that need to change; everything else (spacing, radii, type scale,
+   motion) is theme-agnostic. */
+[data-theme="dark"] {
+  --color-bg: #0f1115;
+  --color-surface: #1a1d25;
+  --color-surface-muted: #161922;
+  --color-surface-soft: #1f2330;
+  --color-surface-quote: #1a1d25;
+  --color-text: #e6e9f2;
+  --color-text-muted: #a0a8bf;
+  --color-text-subtle: #8a91a6;
+  --color-text-inverse: #0f1115;
+  --color-text-footer: #c8cde0;
+  --color-text-quote: #d0d5e6;
+  --color-brand: #a98bff;
+  --color-brand-hover: #bfa6ff;
+  --color-brand-contrast: #0f1115;
+  --color-brand-tint: #1e1a33;
+  --color-accent-warm: #ff8a5c;
+  --color-accent-warm-tint: #2a1f16;
+  --color-border: #2a2f3d;
+  --color-border-subtle: #242836;
+  --color-border-muted: #242836;
+  --color-border-faint: #3a4050;
+  --color-border-input: #3a4050;
+  --color-link: #79b4ff;
+  --color-link-ical: #79b4ff;
+  --color-link-ical-hover: #a9cdff;
+  --color-header-bg: #0a0c11;
+  --color-header-text: #e6e9f2;
+  --color-header-link-hover: rgba(255, 255, 255, 0.08);
+  --color-footer-bg: #0a0c11;
+  --color-footer-text: #c8cde0;
+  --color-footer-text-hover: #ffffff;
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-2: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-2-strong: 0 4px 12px rgba(0, 0, 0, 0.55);
+  --shadow-3: 0 8px 32px rgba(0, 0, 0, 0.55);
+  --shadow-quote: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-brand: 0 2px 6px rgba(169, 139, 255, 0.35);
+  --shadow-brand-hover: 0 4px 10px rgba(169, 139, 255, 0.45);
+  --shadow-hero: 0 10px 30px rgba(0, 0, 0, 0.6);
+  --focus-ring-brand: 0 0 0 3px rgba(169, 139, 255, 0.5);
+}
+
+/* Auto dark mode: if the user has not pinned a specific theme via the
+   header toggle (data-theme="light" wins) and the OS advertises a dark
+   colour scheme, replicate the dark tokens. Keeping the values in sync
+   with the manual block above is intentional — the alternative (@media
+   + attribute selector) cannot cascade into the explicit selector. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #0f1115;
+    --color-surface: #1a1d25;
+    --color-surface-muted: #161922;
+    --color-surface-soft: #1f2330;
+    --color-surface-quote: #1a1d25;
+    --color-text: #e6e9f2;
+    --color-text-muted: #a0a8bf;
+    --color-text-subtle: #8a91a6;
+    --color-text-inverse: #0f1115;
+    --color-text-footer: #c8cde0;
+    --color-text-quote: #d0d5e6;
+    --color-brand: #a98bff;
+    --color-brand-hover: #bfa6ff;
+    --color-brand-contrast: #0f1115;
+    --color-brand-tint: #1e1a33;
+    --color-accent-warm: #ff8a5c;
+    --color-accent-warm-tint: #2a1f16;
+    --color-border: #2a2f3d;
+    --color-border-subtle: #242836;
+    --color-border-muted: #242836;
+    --color-border-faint: #3a4050;
+    --color-border-input: #3a4050;
+    --color-link: #79b4ff;
+    --color-link-ical: #79b4ff;
+    --color-link-ical-hover: #a9cdff;
+    --color-header-bg: #0a0c11;
+    --color-header-text: #e6e9f2;
+    --color-header-link-hover: rgba(255, 255, 255, 0.08);
+    --color-footer-bg: #0a0c11;
+    --color-footer-text: #c8cde0;
+    --color-footer-text-hover: #ffffff;
+    --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-2: 0 4px 12px rgba(0, 0, 0, 0.5);
+    --shadow-2-strong: 0 4px 12px rgba(0, 0, 0, 0.55);
+    --shadow-3: 0 8px 32px rgba(0, 0, 0, 0.55);
+    --shadow-quote: 0 4px 16px rgba(0, 0, 0, 0.5);
+    --shadow-brand: 0 2px 6px rgba(169, 139, 255, 0.35);
+    --shadow-brand-hover: 0 4px 10px rgba(169, 139, 255, 0.45);
+    --shadow-hero: 0 10px 30px rgba(0, 0, 0, 0.6);
+    --focus-ring-brand: 0 0 0 3px rgba(169, 139, 255, 0.5);
+  }
+}
+
 
 /* Defaults */
 body {
-  background-color: #202542;
-  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--color-header-bg);
+  font-family: var(--font-body);
   font-weight: normal;
-  line-height: 1.625;
+  line-height: var(--line-height-body);
   margin: 0;
 }
 
@@ -56,8 +241,8 @@ h2, h3, h4, h5, h6 {
 
 /* Layout */
 main {
-  background-color: #fff;
-  color: #202542;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   padding: 3.1rem 3.2rem 3.2rem 3.1rem;
 }
 
@@ -88,8 +273,8 @@ main > article h1 {
 
 /** Details */
 .details-box {
-  border: 1px solid #e1e5e9;
-  border-radius: 4px;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-sm);
   padding: 0.5em 0.5em 0;
 }
 
@@ -103,7 +288,7 @@ main > article h1 {
 }
 
 .details-box[open] summary {
-  border-bottom: 1px solid #e1e5e9;
+  border-bottom: 1px solid var(--color-border-subtle);
   margin-bottom: 0.5em;
 }
 
@@ -175,14 +360,14 @@ main > article h1 {
 
 /** iCalendar Download */
 .ical-download-button {
-  background-color: #0066cc;
-  color: #fff;
+  background-color: var(--color-link-ical);
+  color: var(--color-text-inverse);
   display: inline-flex;
   align-items: center;
   gap: .2rem;
   padding: .2rem .4rem;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
@@ -198,36 +383,36 @@ main > article h1 {
 
 .ical-download-button:hover,
 .ical-download-button:focus {
-  background-color: #0052a3;
-  color: #fff;
+  background-color: var(--color-link-ical-hover);
+  color: var(--color-text-inverse);
 }
 
 /** Tiles */
 .tiles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+  gap: var(--space-5);
   list-style: none;
   padding: 0;
-  margin: 1.5rem 0;
+  margin: var(--space-5) 0;
 }
 
 .tiles li {
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 1.5rem;
-  background-color: #fafafa;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  background-color: var(--color-surface);
   transition: box-shadow 0.3s ease;
 }
 
 .tiles li:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-2-strong);
 }
 
 .tiles .tile-header {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: var(--space-4);
 }
 
 .tiles .tile-header img {
@@ -239,8 +424,8 @@ main > article h1 {
 
 .tiles h2, .tiles h3 {
   margin: 0;
-  color: #333;
-  font-size: 1.25rem;
+  color: var(--color-text);
+  font-size: var(--fs-lg);
   flex: 1;
 }
 
@@ -252,7 +437,7 @@ main > article h1 {
   font-weight: bold;
   margin-top: 0.75rem;
   margin-bottom: 0.25rem;
-  color: #333;
+  color: var(--color-text);
 }
 
 .tiles dt:first-child {
@@ -261,7 +446,7 @@ main > article h1 {
 
 .tiles dd {
   margin: 0 0 0.25rem 0;
-  color: #666;
+  color: var(--color-text-muted);
 }
 
 .tiles dd:last-child {
@@ -297,7 +482,7 @@ main > article h1 {
   width: 1rem;
   height: 1.5rem;
   margin-left: .2rem;
-  transition: margin-left 0.3s ease;
+  transition: margin-left var(--motion-slow) ease;
   vertical-align: middle;
 }
 
