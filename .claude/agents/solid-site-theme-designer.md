@@ -227,12 +227,18 @@ Ground rules that still apply:
 - No changes to content / copy. Structural moves minimal — only when
   a page-level component needs a wrapper to accept the token system
   (e.g. wrap content in `<div class="page-hero">`).
-- Do not break mobile. Before committing each page, eyeball at 375px
-  and 1280px — `start-server-and-test` server is available for
-  screenshots via the visual-qa Playwright tests.
+- Do not break mobile. Reason about 375px / 1280px behaviour from the
+  CSS you're writing — do NOT boot Jekyll locally for each commit to
+  eyeball. The `solid-site-test-watcher` agent is running Playwright
+  against every push to this branch in parallel and will revert any
+  commit that trips the mobile-overflow / sticky-TOC / alignment
+  regressions. Trust the watcher.
 - Every commit: `git commit --no-gpg-sign -m "..."`. No AI-attribution
   trailer.
 - After each commit: `roborev review HEAD --local --wait --agent codex` (falls back to `--agent copilot --model gpt-5-mini` if codex is unavailable). Fix findings in follow-up commits.
+- Push after each commit (small, pushable commits let the watcher
+  isolate regressions quickly). Do NOT run `npx playwright test`
+  inline.
 - If you touch `apps.css`, coordinate with the frontend-engineer —
   they may be fixing the same file for a specific bug.
 

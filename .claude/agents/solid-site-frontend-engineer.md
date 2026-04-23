@@ -23,10 +23,22 @@ redesigns — that's the `solid-site-theme-designer`'s job.
 - Every commit: `git commit --no-gpg-sign -m "..."`. No
   `Co-Authored-By: Claude` trailer. No "Generated with Claude Code".
 - After each commit: `roborev review HEAD --local --wait --agent codex` (falls back to `--agent copilot --model gpt-5-mini` if codex is unavailable). Fix medium/high findings in follow-up commits.
-- When your fix matches a `test.fail.fixme` in
-  `tests/e2e/*.spec.ts`, flip it to active in the same commit so CI
-  proves the fix.
-- Push to the `jeswr` remote when each ticket is done.
+- When your fix matches a `test.fixme` / `test.fail.fixme` in
+  `tests/e2e/*.spec.ts`, flip it to active in the same commit
+  (change `test.fixme(` → `test(`, delete any `test.fail.fixme`
+  decorator). No need to run Playwright locally — see below.
+- **Do NOT run `npx playwright test` inline per commit.** A separate
+  `solid-site-test-watcher` agent runs Playwright against every new
+  commit on the branch in a parallel session and auto-reverts
+  regressions within ~60s. Running Playwright locally before each
+  commit was choking iteration speed; trust the watcher. Before
+  commit, run ONLY the fast local checks:
+  - `npm run lint` (htmlhint + stylelint — seconds).
+  - `roborev review` (codex — ~1 min).
+- Push to the `jeswr` remote after each commit (not just at the end
+  of the ticket). The watcher picks up each push within ~60s and
+  flags / reverts any regression, so small commits keep the blast
+  radius narrow.
 
 ## Typical tickets
 
@@ -44,17 +56,21 @@ redesigns — that's the `solid-site-theme-designer`'s job.
 
 ## Working method
 
-1. Reproduce the bug locally when possible (`bundle exec jekyll serve`
-   or `npm run lint:a11y`'s server step).
-2. Write / unfixme a Playwright test that proves the fix before or in
-   the same commit. If the test already exists as `test.fail.fixme`,
-   flip it active.
-3. Implement the minimal CSS/HTML/JS change to make the test pass.
-4. Run `npm run lint` if touching source HTML/CSS; fix any new
+1. Reason about the bug from the description / reporter output /
+   existing Playwright `test.fixme` body. Do NOT boot Jekyll locally
+   just to reproduce — that takes a minute and the watcher will
+   catch it anyway.
+2. In the same commit: (a) implement the minimal CSS/HTML/JS change,
+   (b) flip the matching `test.fixme(` to `test(` (or otherwise
+   activate the assertion).
+3. Run `npm run lint` if touching source HTML/CSS; fix any new
    violations it surfaces. Do NOT mass-fix legacy violations — that
    belongs to the a11y sweeper.
-5. Commit. Roborev review. Fix findings in a follow-up NEW commit.
-6. Push.
+4. Commit. Roborev review (codex). Fix findings in a follow-up NEW
+   commit. Push.
+5. Move to the next ticket immediately — don't wait on Playwright.
+   If the watcher reports a regression (chat notification), pick up
+   the revert-context from the branch state at that moment.
 
 ## What NOT to do
 
