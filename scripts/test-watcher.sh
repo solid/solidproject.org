@@ -117,7 +117,7 @@ run_once() {
     lock_hash=$(/sbin/md5 -q "$WORKTREE/package-lock.json" 2>/dev/null || /usr/bin/md5sum "$WORKTREE/package-lock.json" 2>/dev/null | /usr/bin/cut -d' ' -f1)
   fi
   local last_lock_hash=""
-  [ -f "$WORKTREE/.watcher-lockhash" ] && last_lock_hash=$(/usr/bin/cat "$WORKTREE/.watcher-lockhash")
+  [ -f "$WORKTREE/.watcher-lockhash" ] && last_lock_hash=$(/bin/cat "$WORKTREE/.watcher-lockhash")
   if [ ! -d "$WORKTREE/node_modules" ] || [ "$lock_hash" != "$last_lock_hash" ]; then
     (cd "$WORKTREE" && npm ci --silent >>"$LOG" 2>&1) || {
       emit "[watcher:ERROR] npm ci in worktree failed"
