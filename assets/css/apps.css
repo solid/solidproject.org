@@ -207,6 +207,12 @@
   margin: 0;
 }
 
+/* Flat grid used when the user picks a name-based sort. Inherits
+   the .tiles grid rules from base.css so spacing is consistent. */
+.apps-sorted-grid {
+  margin: 1.5rem 0;
+}
+
 .apps-no-results {
   margin: 2rem 0;
   padding: 1.25rem;
@@ -222,15 +228,18 @@
   display: none !important;
 }
 
-/* Keep inline links inside app descriptions on the same line */
-#apps-list li p a {
+/* Keep inline links inside app descriptions on the same line. Selector
+   applies to both the no-JS flat list (#apps-list) and the JS-built
+   category sections (.apps-category__grid) via the shared .tiles
+   wrapper class. */
+.tiles li p a {
   display: inline !important;
   vertical-align: baseline;
 }
 
 /* Source-code paragraph rendered below the primary tile link so
    its anchor is not nested inside the outer tile <a>. */
-#apps-list li .app-source {
+.tiles li .app-source {
   margin: 0 1.5rem 1.5rem 1.5rem;
   font-size: 0.9em;
 }
@@ -238,7 +247,7 @@
 /* Reset the tile-level "a is a big flex block" rules (see
    .tiles.tile-links a in base.css) for the source-code anchor so
    it renders as a normal inline link. */
-#apps-list li .app-source a {
+.tiles li .app-source a {
   display: inline !important;
   padding: 0;
   width: auto;
@@ -248,7 +257,7 @@
   text-decoration: underline;
 }
 
-#apps-list li .app-source a:focus-visible {
+.tiles li .app-source a:focus-visible {
   outline: 2px solid #1a73e8;
   outline-offset: 2px;
 }

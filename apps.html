@@ -62,17 +62,19 @@ breadcrumbs:
           <label for="category-filter">Category</label>
           <select id="category-filter">
             <option value="all">All Categories</option>
+            <option value="Browser">Browser</option>
             <option value="Chat">Chat</option>
+            <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
             <option value="Cooking">Cooking</option>
             <option value="Health">Health</option>
             <option value="Location">Location</option>
             <option value="Movies">Movies</option>
-            <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
-            <option value="Productivity">Productivity</option>
             <option value="Pod Management">Pod Management</option>
+            <option value="Productivity">Productivity</option>
             <option value="Scheduling">Scheduling</option>
             <option value="Security">Security</option>
             <option value="TODO List">TODO List</option>
+            <option value="Travel">Travel</option>
           </select>
         </div>
         <div class="control-group control-group--check">
@@ -536,33 +538,92 @@ breadcrumbs:
           tocNav.hidden = false;
         }
 
-        // Sort tiles within each visible section.
+        // Name-sort flat view: when a 'name-*' sort is active we collapse
+        // all tiles into this single grid and hide the per-category
+        // sections. Built lazily the first time we need it.
+        let flatSortedGrid = null;
+        function ensureFlatSortedGrid() {
+          if (flatSortedGrid) return flatSortedGrid;
+          flatSortedGrid = document.createElement('ul');
+          flatSortedGrid.className = 'tiles tile-links apps-sorted-grid';
+          flatSortedGrid.id = 'apps-sorted-grid';
+          flatSortedGrid.hidden = true;
+          sectionsRoot.parentNode.insertBefore(flatSortedGrid, sectionsRoot);
+          return flatSortedGrid;
+        }
+
+        function tileCompare(a, b, sortValue) {
+          let aValue, bValue;
+          if (sortValue.startsWith('name')) {
+            aValue = (a.getAttribute('data-name') || '').toLowerCase();
+            bValue = (b.getAttribute('data-name') || '').toLowerCase();
+          } else if (sortValue.startsWith('category')) {
+            aValue = (a.getAttribute('data-category') || '').toLowerCase();
+            bValue = (b.getAttribute('data-category') || '').toLowerCase();
+          } else {
+            return (parseInt(a.dataset.origOrder, 10) || 0)
+              - (parseInt(b.dataset.origOrder, 10) || 0);
+          }
+          let comparison = 0;
+          if (aValue < bValue) comparison = -1;
+          if (aValue > bValue) comparison = 1;
+          return sortValue.endsWith('desc') ? -comparison : comparison;
+        }
+
+        // Apply a sort across the whole page.
+        //   '' / default       -> grouped sections in original category order,
+        //                         tiles in original encounter order.
+        //   'name-asc' / 'name-desc' -> flat alphabetical grid; sections hidden.
+        //   'category-asc' / 'category-desc' -> sections reordered by category
+        //                         name; tiles inside each section restored to
+        //                         original encounter order.
         function sortTiles(sortValue) {
-          currentSort = sortValue;
-          sectionByCategory.forEach(({ grid }) => {
-            const tiles = Array.from(grid.querySelectorAll('li'));
-            tiles.sort((a, b) => {
-              if (!sortValue) {
-                return (parseInt(a.dataset.origOrder, 10) || 0)
-                  - (parseInt(b.dataset.origOrder, 10) || 0);
-              }
-              let aValue, bValue;
-              if (sortValue.startsWith('name')) {
-                aValue = (a.getAttribute('data-name') || '').toLowerCase();
-                bValue = (b.getAttribute('data-name') || '').toLowerCase();
-              } else if (sortValue.startsWith('category')) {
-                aValue = (a.getAttribute('data-category') || '').toLowerCase();
-                bValue = (b.getAttribute('data-category') || '').toLowerCase();
-              } else {
-                return 0;
-              }
-              let comparison = 0;
-              if (aValue < bValue) comparison = -1;
-              if (aValue > bValue) comparison = 1;
-              return sortValue.endsWith('desc') ? -comparison : comparison;
+          currentSort = sortValue || '';
+          const flat = ensureFlatSortedGrid();
+          const useFlat = currentSort.startsWith('name');
+
+          if (useFlat) {
+            // Move all tiles into the flat grid, sort, then hide sections.
+            const allTiles = appTiles.slice().sort((a, b) =>
+              tileCompare(a, b, currentSort));
+            allTiles.forEach(tile => flat.appendChild(tile));
+            flat.hidden = false;
+            sectionsRoot.hidden = true;
+          } else {
+            // Ensure every tile lives back in its category grid.
+            sectionByCategory.forEach(({ grid }, cat) => {
+              tilesByCategory.get(cat).forEach(tile => {
+                if (tile.parentNode !== grid) grid.appendChild(tile);
+              });
             });
-            tiles.forEach(tile => grid.appendChild(tile));
-          });
+            // Sort tiles within each section back to original order.
+            sectionByCategory.forEach(({ grid }) => {
+              const tiles = Array.from(grid.children);
+              tiles.sort((a, b) => tileCompare(a, b, ''));
+              tiles.forEach(tile => grid.appendChild(tile));
+            });
+            // Reorder the sections themselves if the user picked category sort.
+            if (currentSort.startsWith('category')) {
+              const sections = Array.from(sectionsRoot.children);
+              sections.sort((a, b) => {
+                const aCat = (a.dataset.category || '').toLowerCase();
+                const bCat = (b.dataset.category || '').toLowerCase();
+                if (aCat < bCat) return -1;
+                if (aCat > bCat) return 1;
+                return 0;
+              });
+              if (currentSort.endsWith('desc')) sections.reverse();
+              sections.forEach(s => sectionsRoot.appendChild(s));
+            } else {
+              // Restore original category order.
+              categoryOrder.forEach(cat => {
+                const entry = sectionByCategory.get(cat);
+                if (entry) sectionsRoot.appendChild(entry.section);
+              });
+            }
+            flat.hidden = true;
+            sectionsRoot.hidden = false;
+          }
         }
 
         // Apply filter, search, and top-apps toggles to all tiles; hide
@@ -587,8 +648,15 @@ breadcrumbs:
             tile.classList.toggle('hidden', !shouldShow);
             if (shouldShow) totalVisible++;
           });
-          // Hide whole sections that have no visible tiles.
+          // In the grouped view, collapse sections that have no visible
+          // tiles. In the flat sorted view this is a no-op because tiles
+          // are not inside the section grids.
+          const groupedView = !currentSort.startsWith('name');
           sectionByCategory.forEach(({ section, grid }) => {
+            if (!groupedView) {
+              section.hidden = false;
+              return;
+            }
             const anyVisible = !!grid.querySelector('li:not(.hidden)');
             section.hidden = !anyVisible;
           });
@@ -599,8 +667,11 @@ breadcrumbs:
         }
 
         function applyAll() {
-          filterTiles(currentFilter, showTopAppsOnly, currentSearch);
+          // Sort first so tiles are in their final container (either the
+          // flat grid or their category grid) before filterTiles decides
+          // which sections to collapse.
           sortTiles(currentSort);
+          filterTiles(currentFilter, showTopAppsOnly, currentSearch);
         }
 
         // Wire up controls.
@@ -629,25 +700,28 @@ breadcrumbs:
             applyAll();
           });
         }
-        // TOC clicks also sync the category filter dropdown so the UI
-        // stays consistent. The default anchor behaviour still scrolls
-        // the page to the section.
-        if (tocList && categoryFilter) {
+        // TOC clicks always reset the category filter + any active name
+        // sort to 'all' / 'default' so the target section is guaranteed
+        // to be rendered and visible when the anchor scrolls to it.
+        // (A name-sort collapses all tiles into a flat grid where the
+        // category heading does not exist, which would otherwise leave
+        // the anchor pointing at nothing.)
+        if (tocList) {
           tocList.addEventListener('click', function (e) {
             const link = e.target.closest('a[data-category]');
             if (!link) return;
-            const cat = link.dataset.category;
-            // Only sync when that category is one the filter knows about.
-            const option = Array.from(categoryFilter.options)
-              .find(o => o.value === cat);
-            if (option) {
-              // Reset to 'all' so users can jump between sections via TOC
-              // without the dropdown silently narrowing the visible set.
-              // (The anchor still scrolls them to the right heading.)
+            let changed = false;
+            if (categoryFilter && categoryFilter.value !== 'all') {
               categoryFilter.value = 'all';
               currentFilter = 'all';
-              applyAll();
+              changed = true;
             }
+            if (sortSelect && currentSort.startsWith('name')) {
+              sortSelect.value = '';
+              currentSort = '';
+              changed = true;
+            }
+            if (changed) applyAll();
           });
         }
 
