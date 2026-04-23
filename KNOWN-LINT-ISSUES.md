@@ -96,15 +96,27 @@ the top of `.stylelintrc.json`.
 
 ## pa11y-ci — `.pa11yci`
 
-`npm run lint:a11y` runs pa11y-ci against `http://127.0.0.1:4000/…`
-but **does not start the Jekyll server itself**. That is deliberate:
-in CI the `lint.yml` workflow brings the server up once with
-`bundle exec jekyll serve --detach` before invoking pa11y-ci, and
-developers running locally can do the same (`bundle exec jekyll serve
---detach && npm run lint:a11y`). For that reason `npm run lint:all`
-intentionally resolves to `npm run lint` (html + css only) — it does
-not chain the a11y target, so a plain checkout will never fail with
-"connection refused".
+`npm run lint:a11y` is self-contained: `start-server-and-test`
+brings up `http-server` against `_site/` on port 4000, runs
+`pa11y-ci`, then tears the server down. **It does assume you have
+already run `bundle exec jekyll build`** — the a11y target lints the
+built output, not the sources, and we do not chain `jekyll build` in
+the npm script because Jekyll is a Ruby dependency installed via
+Bundler, not npm.
+
+`npm run lint:all` intentionally resolves to `npm run lint` (html +
+css only) rather than chaining the a11y target, so a plain
+`npm ci && npm run lint:all` works without needing Ruby, Bundler or
+a built site.
+
+Recommended local recipe:
+
+```
+bundle exec jekyll build
+npm run lint:a11y
+```
+
+The CI workflow follows the same pattern.
 
 pa11y-ci cannot run during initial wiring — it requires the Jekyll
 site to be built and served. A dry-run baseline will be captured the
