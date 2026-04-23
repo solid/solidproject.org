@@ -151,6 +151,63 @@
   outline-offset: 2px;
 }
 
+/** Toolbar (search + existing sort/filter) */
+.apps-toolbar {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto;
+  gap: 1.25rem 1.5rem;
+  align-items: end;
+  margin: 0 0 1.6rem 0;
+  padding: 1.25rem 1.6rem;
+  background: var(--apps-surface-muted);
+  border: 1px solid var(--apps-border-soft);
+  border-radius: var(--apps-radius);
+}
+
+.apps-toolbar__search {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.apps-toolbar__label {
+  font-weight: 700;
+  color: var(--apps-ink);
+}
+
+.apps-toolbar__search-input {
+  padding: 0.55rem 0.8rem;
+  font: inherit;
+  color: var(--apps-ink);
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: var(--apps-radius-sm);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.apps-toolbar__search-input:focus {
+  outline: none;
+  border-color: var(--apps-brand);
+  box-shadow: var(--apps-focus-ring);
+}
+
+.apps-toolbar__hint {
+  font-size: 0.85rem;
+  color: var(--apps-ink-soft);
+}
+
+.apps-toolbar__controls {
+  /* sort-controls reset: background already provided by .apps-toolbar.
+     We keep the existing .sort-controls class for backward compatibility
+     with the JS but override the outer chrome here. */
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
 .sort-controls {
   margin-bottom: 1.6rem;
   padding: .8rem 1.6rem;
@@ -166,21 +223,32 @@
 .control-group {
   display: flex;
   flex-direction: column;
-  gap: .8rem;
+  gap: .4rem;
+}
+
+.control-group > label {
+  font-weight: 700;
+  color: var(--apps-ink, #202542);
+}
+
+.control-group--check {
+  justify-content: flex-end;
 }
 
 .sort-controls select {
-  padding: .4rem;
+  padding: .5rem .7rem;
+  font: inherit;
+  color: var(--apps-ink, #202542);
   border: 1px solid #ced4da;
-  border-radius: .4rem;
+  border-radius: var(--apps-radius-sm, 6px);
   background: white;
   min-width: 200px;
 }
 
 .sort-controls select:focus {
   outline: none;
-  border-color: #3273dc;
-  box-shadow: 0 0 0 2px rgba(50, 115, 220, 0.25);
+  border-color: var(--apps-brand, #7C4DFF);
+  box-shadow: var(--apps-focus-ring, 0 0 0 3px rgba(124, 77, 255, 0.35));
 }
 
 .top-app-tag {

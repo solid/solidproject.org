@@ -27,40 +27,54 @@ breadcrumbs:
 <section resource="#app_launcher" inlist="" rel="hasPart" class="article-section">
   <h2 id="app_launcher" property="name">App Launcher</h2>
   <div datatype="rdf:HTML" property="description">
-    <div class="sort-controls">
-      <div class="control-group">
-        <label for="sort-select">Sort by:</label>
-        <select id="sort-select">
-          <option value="">Default Order</option>
-          <option value="name-asc">Name (A-Z)</option>
-          <option value="name-desc">Name (Z-A)</option>
-          <option value="category-asc">Category (A-Z)</option>
-          <option value="category-desc">Category (Z-A)</option>
-        </select>
+    <div class="apps-toolbar" role="search" aria-label="Filter and sort Solid apps">
+      <div class="apps-toolbar__search">
+        <label for="app-search" class="apps-toolbar__label">Search apps</label>
+        <input
+          type="search"
+          id="app-search"
+          class="apps-toolbar__search-input"
+          placeholder="Search by name or category"
+          autocomplete="off"
+          aria-describedby="app-search-hint"
+        />
+        <span id="app-search-hint" class="apps-toolbar__hint">Filters the grid as you type.</span>
       </div>
-      <div class="control-group">
-        <label for="category-filter">Filter by category:</label>
-        <select id="category-filter">
-          <option value="all">All Categories</option>
-          <option value="Chat">Chat</option>
-          <option value="Cooking">Cooking</option>
-          <option value="Health">Health</option>
-          <option value="Location">Location</option>
-          <option value="Movies">Movies</option>
-          <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
-          <option value="Productivity">Productivity</option>
-          <option value="Pod Management">Pod Management</option>
-          <option value="Scheduling">Scheduling</option>
-          <option value="Security">Security</option>
-          <option value="TODO List">TODO List</option>
-        </select>
-      </div>
-      <div class="control-group">
-        <label class="checkbox-label">
-          <input type="checkbox" id="top-apps-only">
-          <span class="checkmark"></span>
-          Show only first time user apps
-        </label>
+      <div class="apps-toolbar__controls sort-controls">
+        <div class="control-group">
+          <label for="sort-select">Sort by</label>
+          <select id="sort-select">
+            <option value="">Default Order</option>
+            <option value="name-asc">Name (A-Z)</option>
+            <option value="name-desc">Name (Z-A)</option>
+            <option value="category-asc">Category (A-Z)</option>
+            <option value="category-desc">Category (Z-A)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="category-filter">Category</label>
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="Chat">Chat</option>
+            <option value="Cooking">Cooking</option>
+            <option value="Health">Health</option>
+            <option value="Location">Location</option>
+            <option value="Movies">Movies</option>
+            <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
+            <option value="Productivity">Productivity</option>
+            <option value="Pod Management">Pod Management</option>
+            <option value="Scheduling">Scheduling</option>
+            <option value="Security">Security</option>
+            <option value="TODO List">TODO List</option>
+          </select>
+        </div>
+        <div class="control-group control-group--check">
+          <label class="checkbox-label">
+            <input type="checkbox" id="top-apps-only">
+            <span class="checkmark"></span>
+            First-time user picks only
+          </label>
+        </div>
       </div>
     </div>
     <ul class="tiles tile-links" id="apps-list">
@@ -419,12 +433,14 @@ breadcrumbs:
         const sortSelect = document.getElementById('sort-select');
         const categoryFilter = document.getElementById('category-filter');
         const topAppsOnlyCheckbox = document.getElementById('top-apps-only');
+        const searchInput = document.getElementById('app-search');
         const appsList = document.getElementById('apps-list');
         const appTiles = Array.from(appsList.querySelectorAll('li'));
         // Store current state
         let currentSort = 'name-asc';
         let currentFilter = 'all';
         let showTopAppsOnly = false;
+        let currentSearch = '';
         // Function to sort app tiles
         function sortAppTiles(sortValue) {
           currentSort = sortValue;
@@ -473,22 +489,23 @@ breadcrumbs:
           tiles.forEach(tile => appsList.appendChild(tile));
         }
         // Function to filter app tiles
-        function filterAppTiles(category, topAppsOnly = false) {
+        function filterAppTiles(category, topAppsOnly = false, searchTerm = '') {
           if (!category) return;
           currentFilter = category;
           showTopAppsOnly = topAppsOnly;
+          currentSearch = searchTerm;
+          const needle = searchTerm.trim().toLowerCase();
           let visibleCount = 0;
           appTiles.forEach(tile => {
-            const tileCategory = tile.getAttribute('data-category');
+            const tileCategory = tile.getAttribute('data-category') || '';
+            const tileName = tile.getAttribute('data-name') || '';
             const isTopApp = tile.querySelector('.top-app-tag') !== null;
-            let shouldShow = false;
-            if (topAppsOnly) {
-              // Only show top apps that match the category filter
-              shouldShow = isTopApp && (category === 'all' || tileCategory === category);
-            } else {
-              // Show all apps that match the category filter
-              shouldShow = category === 'all' || tileCategory === category;
-            }
+            const matchesCategory = category === 'all' || tileCategory === category;
+            const matchesTop = !topAppsOnly || isTopApp;
+            const matchesSearch = !needle
+              || tileName.toLowerCase().includes(needle)
+              || tileCategory.toLowerCase().includes(needle);
+            const shouldShow = matchesCategory && matchesTop && matchesSearch;
             if (shouldShow) {
               tile.classList.remove('hidden');
               visibleCount++;
@@ -511,7 +528,7 @@ breadcrumbs:
         }
         // Function to apply both filter and sort
         function applyFilterAndSort() {
-          filterAppTiles(currentFilter, showTopAppsOnly);
+          filterAppTiles(currentFilter, showTopAppsOnly, currentSearch);
           sortAppTiles(currentSort);
         }
         // Event listeners for sort and filter controls
@@ -533,12 +550,18 @@ breadcrumbs:
             applyFilterAndSort();
           });
         }
+        if (searchInput) {
+          searchInput.addEventListener('input', function () {
+            currentSearch = this.value;
+            applyFilterAndSort();
+          });
+        }
         // Initialize without default sorting to maintain current order
         if (sortSelect) {
           sortSelect.value = '';
         }
         // Only apply filter, not sorting
-        filterAppTiles(currentFilter, showTopAppsOnly);
+        filterAppTiles(currentFilter, showTopAppsOnly, currentSearch);
       });
     </script>
   </div>
