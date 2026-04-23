@@ -198,10 +198,20 @@
 }
 
 .apps-category {
-  /* Enough clearance for the desktop sticky TOC pill bar (pinned at
-     top: 1rem, ~3rem tall) so anchor jumps from the TOC land with the
-     section heading fully below the bar rather than tucked under it. */
-  scroll-margin-top: 5rem;
+  /* Base (mobile / non-sticky) clearance is small; the sticky desktop
+     bar gets a generous offset in the media-query block below. */
+  scroll-margin-top: 1rem;
+}
+
+/* Pair the anchor offset with the sticky TOC's own breakpoint so the
+   heading always lands below the pinned pill bar, even when the bar
+   wraps to two rows at narrower desktop widths. The value is a
+   generous upper bound (label row + two wrapped pill rows) rather
+   than a guess at single-row height. */
+@media (min-width: 1025px) {
+  .apps-category {
+    scroll-margin-top: 8.5rem;
+  }
 }
 
 .apps-category__heading {
