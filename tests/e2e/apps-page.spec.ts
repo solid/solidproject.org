@@ -105,11 +105,25 @@ test.describe('PR-960 regression', () => {
         const all = document.querySelectorAll('*');
         for (const el of Array.from(all)) {
           const html = el as HTMLElement;
+          // Skip elements the user can't see (display:none, detached,
+          // or collapsed to zero size). offsetParent is null for
+          // hidden elements (except fixed-position, which are still
+          // visible — they have a non-zero bounding rect).
+          const rect = html.getBoundingClientRect();
+          const cs = window.getComputedStyle(html);
+          if (cs.display === 'none' || cs.visibility === 'hidden') continue;
+          if (rect.width === 0 || rect.height === 0) continue;
+          // Skip elements that intentionally hide overflow — the
+          // scrollWidth > clientWidth signal there is a deliberate
+          // clip, not a visible overflow bug.
+          if (cs.overflowX === 'hidden' || cs.overflowX === 'clip') continue;
+          if (cs.overflowX === 'scroll' || cs.overflowX === 'auto') continue;
           if (html.scrollWidth > html.clientWidth + 1) {
             // Shortest-path selector: tag + id + class list.
             const id = html.id ? `#${html.id}` : '';
-            const cls = html.className && typeof html.className === 'string'
-              ? '.' + html.className.trim().split(/\s+/).join('.')
+            const className = typeof html.className === 'string' ? html.className : '';
+            const cls = className
+              ? '.' + className.trim().split(/\s+/).join('.')
               : '';
             offenders.push({
               selector: `${html.tagName.toLowerCase()}${id}${cls}`.slice(0, 200),
@@ -231,24 +245,36 @@ test.describe('PR-960 regression', () => {
       ).toBeTruthy();
 
       // At rest (no scroll in flight) no tile should be partially covered
-      // by the TOC. For the first visible tile after the TOC, its top
-      // must be >= TOC bottom.
-      const { tileTop, tocBottom } = await page.evaluate(() => {
-        const toc = document.querySelector('.apps-categories-nav')!.getBoundingClientRect();
-        // Find the first tile whose top is after the TOC's bottom already.
-        // If the TOC overlaps a tile, that tile's top will be above the TOC's
-        // bottom instead.
-        const firstTile = document.querySelector('ul.tiles.tile-links > li');
-        const tileRect = firstTile?.getBoundingClientRect();
+      // by the TOC. Find the first tile currently visible in the
+      // viewport (top >= 0) and assert its top edge lies at or below
+      // the TOC's bottom edge. Using the first DOM tile would fail
+      // spuriously after the scroll above pushed it above the
+      // viewport.
+      const { firstVisibleTileTop, tocBottom, viewportHeight } = await page.evaluate(() => {
+        const tocRect = document.querySelector('.apps-categories-nav')!.getBoundingClientRect();
+        const tiles = document.querySelectorAll('ul.tiles.tile-links > li');
+        let firstVisibleTop: number | null = null;
+        for (const tile of Array.from(tiles)) {
+          const rect = (tile as HTMLElement).getBoundingClientRect();
+          // Visible = any portion of the tile overlaps the viewport.
+          if (rect.bottom > 0 && rect.top < window.innerHeight) {
+            firstVisibleTop = rect.top;
+            break;
+          }
+        }
         return {
-          tileTop: tileRect?.top ?? null,
-          tocBottom: toc.bottom,
+          firstVisibleTileTop: firstVisibleTop,
+          tocBottom: tocRect.bottom,
+          viewportHeight: window.innerHeight,
         };
       });
-      expect(tileTop, 'first tile has no bounding box').not.toBeNull();
       expect(
-        (tileTop ?? 0) + 0.5 >= tocBottom,
-        `First tile top (${tileTop}) sits above the TOC bottom (${tocBottom}) — occluded.`,
+        firstVisibleTileTop,
+        `No tile is currently in the viewport after scroll (viewportHeight=${viewportHeight})`,
+      ).not.toBeNull();
+      expect(
+        (firstVisibleTileTop ?? 0) + 0.5 >= tocBottom,
+        `First visible tile top (${firstVisibleTileTop}) sits above the TOC bottom (${tocBottom}) — occluded.`,
       ).toBeTruthy();
     },
   );
@@ -293,6 +319,29 @@ test.describe('PR-960 regression', () => {
         }
         return offenders;
       });
+
+      // Separately probe the hover state on tile anchors: with reduced
+      // motion we also expect no transform to be applied on hover. We
+      // sample the first tile anchor (representative of the lot) so the
+      // check is deterministic and cheap.
+      const tileAnchor = page.locator('ul.tiles.tile-links > li > a').first();
+      if ((await tileAnchor.count()) > 0) {
+        await tileAnchor.hover();
+        const hoverTransform = await tileAnchor.evaluate(
+          (el) => window.getComputedStyle(el).transform,
+        );
+        violators.push(
+          ...(hoverTransform !== 'none'
+            ? [
+                {
+                  selector: 'ul.tiles.tile-links > li > a:hover',
+                  transitionDuration: 'n/a',
+                  reason: `hover transform is ${hoverTransform} (expected 'none' under reduce)`,
+                },
+              ]
+            : []),
+        );
+      }
 
       expect(
         violators,
