@@ -58,10 +58,10 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Run pa11y-ci against built site
-        run: npm run lint:a11y
+        run: npm run lint:a11y:ci
 
-      - name: Upload pa11y report (on failure)
-        if: failure()
+      - name: Upload pa11y report (always)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: pa11y-report

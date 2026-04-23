@@ -8,7 +8,9 @@
     "lint:css": "stylelint \"assets/css/**/*.css\"",
     "lint:a11y:serve": "http-server _site -p 4000 -s -c-1",
     "lint:a11y:run": "pa11y-ci --config .pa11yci",
+    "lint:a11y:run:json": "pa11y-ci --config .pa11yci --json > pa11y-report.json",
     "lint:a11y": "start-server-and-test lint:a11y:serve http://127.0.0.1:4000 lint:a11y:run",
+    "lint:a11y:ci": "start-server-and-test lint:a11y:serve http://127.0.0.1:4000 lint:a11y:run:json",
     "lint:all": "npm run lint"
   },
   "devDependencies": {
