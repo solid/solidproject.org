@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1d4ed8"/>
+      <stop offset="100%" style="stop-color:#1e40af"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="110" ry="110" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="110" ry="110" fill="url(#shine)"/>
+
+  <!-- Folder body -->
+  <rect x="80" y="210" width="352" height="220" rx="28" ry="28" fill="white" opacity="0.97"/>
+
+  <!-- Folder tab -->
+  <path d="M80 210 L80 188 Q80 168 100 168 L210 168 Q228 168 236 182 L252 210 Z"
+        fill="white" opacity="0.97"/>
+
+  <!-- Cloud upload arrow in folder -->
+  <g transform="translate(256,310)" opacity="0.38" fill="#1d4ed8">
+    <!-- Up arrow shaft -->
+    <rect x="-10" y="-24" width="20" height="50" rx="10"/>
+    <!-- Arrow head -->
+    <polygon points="0,-62 -30,-28 30,-28"/>
+  </g>
+
+  <!-- Person silhouette (pod = personal data) -->
+  <circle cx="256" cy="258" r="34" fill="#1d4ed8" opacity="0.18"/>
+  <circle cx="256" cy="248" r="18" fill="#1d4ed8" opacity="0.55"/>
+  <ellipse cx="256" cy="292" rx="28" ry="18" fill="#1d4ed8" opacity="0.45"/>
+</svg>
