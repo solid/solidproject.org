@@ -178,56 +178,11 @@
   --focus-ring-brand: 0 0 0 3px rgba(169, 139, 255, 0.5);
 }
 
-/* Auto dark mode: if the user has not pinned a specific theme via the
-   header toggle (data-theme="light" wins) and the OS advertises a dark
-   colour scheme, replicate the dark tokens. Keeping the values in sync
-   with the manual block above is intentional — the alternative (@media
-   + attribute selector) cannot cascade into the explicit selector. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --color-logo-chip: #ffffff;
-    --color-bg: #0f1115;
-    --color-surface: #1a1d25;
-    --color-surface-muted: #161922;
-    --color-surface-soft: #1f2330;
-    --color-surface-quote: #1a1d25;
-    --color-text: #e6e9f2;
-    --color-text-muted: #a0a8bf;
-    --color-text-subtle: #8a91a6;
-    --color-text-inverse: #0f1115;
-    --color-text-footer: #c8cde0;
-    --color-text-quote: #d0d5e6;
-    --color-brand: #a98bff;
-    --color-brand-hover: #bfa6ff;
-    --color-brand-contrast: #0f1115;
-    --color-brand-tint: #1e1a33;
-    --color-accent-warm: #ff8a5c;
-    --color-accent-warm-tint: #2a1f16;
-    --color-border: #2a2f3d;
-    --color-border-subtle: #242836;
-    --color-border-muted: #242836;
-    --color-border-faint: #3a4050;
-    --color-border-input: #3a4050;
-    --color-link: #79b4ff;
-    --color-link-ical: #79b4ff;
-    --color-link-ical-hover: #a9cdff;
-    --color-header-bg: #0a0c11;
-    --color-header-text: #e6e9f2;
-    --color-header-link-hover: rgba(255, 255, 255, 0.08);
-    --color-footer-bg: #0a0c11;
-    --color-footer-text: #c8cde0;
-    --color-footer-text-hover: #ffffff;
-    --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4);
-    --shadow-2: 0 4px 12px rgba(0, 0, 0, 0.5);
-    --shadow-2-strong: 0 4px 12px rgba(0, 0, 0, 0.55);
-    --shadow-3: 0 8px 32px rgba(0, 0, 0, 0.55);
-    --shadow-quote: 0 4px 16px rgba(0, 0, 0, 0.5);
-    --shadow-brand: 0 2px 6px rgba(169, 139, 255, 0.35);
-    --shadow-brand-hover: 0 4px 10px rgba(169, 139, 255, 0.45);
-    --shadow-hero: 0 10px 30px rgba(0, 0, 0, 0.6);
-    --focus-ring-brand: 0 0 0 3px rgba(169, 139, 255, 0.5);
-  }
-}
+/* Dark mode is opt-in only: users activate it via the header theme
+   toggle (which sets [data-theme="dark"] + persists to localStorage).
+   We do NOT track prefers-color-scheme — a system-dark preference on
+   its own should not flip the site to dark without a deliberate
+   choice. Light is the default for every first-time visitor. */
 
 
 /* Defaults */
@@ -452,12 +407,6 @@ main > article h1 {
    so upstream app-logo PNGs under /assets/img/logo are untouched. */
 [data-theme="dark"] .tiles .tile-header img[src*="/icon/"] {
   filter: invert(0.92);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .tiles .tile-header img[src*="/icon/"] {
-    filter: invert(0.92);
-  }
 }
 
 .tiles h2, .tiles h3 {

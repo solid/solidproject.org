@@ -178,24 +178,24 @@
 .header .theme-toggle__icon {
     width: 1.25rem;
     height: 1.25rem;
-    display: block;
     fill: none;
+    /* Intentionally no `display` here — the per-icon rules below own
+       visibility. A `display: block` at this specificity (0,2,0) would
+       outrank the `.theme-toggle__icon--sun { display: none }` (0,1,0)
+       rule and leave both icons visible. */
 }
 
 /* Show the moon in light mode (click → switch to dark); show the sun
    in dark mode (click → switch to light). Drives state purely from
    the data-theme attribute so the server-rendered HTML is accurate
-   before any JS runs. */
-.theme-toggle__icon--sun { display: none; }
-.theme-toggle__icon--moon { display: block; }
+   before any JS runs. Dark mode is opt-in via the toggle, so there
+   is no prefers-color-scheme fallback — see _layouts/default.html
+   bootstrap script. */
+.header .theme-toggle__icon--sun { display: none; }
+.header .theme-toggle__icon--moon { display: block; }
 
-[data-theme="dark"] .theme-toggle__icon--sun { display: block; }
-[data-theme="dark"] .theme-toggle__icon--moon { display: none; }
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-toggle__icon--sun { display: block; }
-  :root:not([data-theme="light"]) .theme-toggle__icon--moon { display: none; }
-}
+[data-theme="dark"] .header .theme-toggle__icon--sun { display: block; }
+[data-theme="dark"] .header .theme-toggle__icon--moon { display: none; }
 
 /* Keep the toggle visible on mobile next to the hamburger so the
    theme switch is one tap away without opening the slide-out nav.

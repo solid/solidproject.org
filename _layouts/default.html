@@ -4,22 +4,23 @@
     <script>
       // No-flash theme bootstrap. Runs before any CSS is applied so the
       // document already carries the right data-theme attribute when
-      // the first paint happens. Priority order:
-      //   1. localStorage['solid-theme'] === 'light' | 'dark' (user choice)
-      //   2. prefers-color-scheme media query (system preference)
+      // the first paint happens.
+      //
+      // Dark mode is OPT-IN. A first-time visitor always sees light
+      // regardless of their OS colour scheme — only localStorage evidence
+      // that they've pressed the header toggle activates dark.
       // Anchored to <html> only — the rest of the code base (tokens,
       // toggle button, tests) expects data-theme on document.documentElement.
       (function () {
-        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        var resolved = prefersDark ? 'dark' : 'light';
+        var resolved = 'light';
         try {
           var stored = localStorage.getItem('solid-theme');
-          if (stored === 'light' || stored === 'dark') {
-            resolved = stored;
+          if (stored === 'dark') {
+            resolved = 'dark';
           }
         } catch (e) {
           // localStorage blocked (private mode, strict cookie policy,
-          // etc.); fall back to the system preference computed above.
+          // etc.) — stay on the default light theme.
         }
         // Always set data-theme so menu.js, the toggle's aria-pressed
         // state, and the dark-mode axe tests can rely on the attribute
@@ -37,9 +38,12 @@
     <meta property="og:url" content="{{ page.permalink | prepend: site.base_url }}" />{% endif %}
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:locale" content="en" />
+    <!-- Dynamic theme-color — menu.js updates `content` to match the
+         active [data-theme] attribute on <html>. We deliberately do NOT
+         emit a `media="(prefers-color-scheme: dark)"` sibling meta,
+         because dark mode is opt-in: browser chrome should follow our
+         explicit toggle state, not the user's OS preference. -->
     <meta name="theme-color" content="#7C4DFF" id="theme-color-meta">
-    <meta name="theme-color" content="#7C4DFF" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#0a0c11" media="(prefers-color-scheme: dark)">
     <link type="application/atom+xml" rel="alternate" href="{{ site.base_url }}/feed.xml" title="{{ site.title }}" />
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
