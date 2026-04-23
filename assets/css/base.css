@@ -326,6 +326,20 @@ main > article h1 {
   margin-top: -3.8rem;
 }
 
+/* Tour / hand-illustrated marketing SVGs (about.html story graphics
+   and similar). The source art is densely coloured with hard fills
+   chosen against a white page — on dark mode the combined effect can
+   clash with a #0f1115 body. We leave the artwork untouched and wrap
+   it in a neutral light chip with a soft shadow so both themes render
+   the illustration against the surface it was designed for. */
+.tour-illustration {
+  background: var(--color-logo-chip);
+  border-radius: var(--radius-md);
+  padding: 0.75rem;
+  box-shadow: var(--shadow-1);
+  box-sizing: border-box;
+}
+
 @media (max-width: 820px) {
     .article-image-left, .article-image-right {
         float: none;
