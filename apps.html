@@ -59,15 +59,11 @@ breadcrumbs:
         display: inline !important;
         vertical-align: baseline;
       }
-      /* Style for inline external link replacement inside tiles */
-      #apps-list .external-link {
-        text-decoration: underline;
-        cursor: pointer;
-        color: var(--link-color, #1a73e8);
-      }
-      #apps-list .external-link:focus {
-        outline: 2px solid #1a73e8;
-        outline-offset: 2px;
+      /* Source-code paragraph rendered below the primary tile link so
+         its anchor is not nested inside the outer tile <a>. */
+      #apps-list li .app-source {
+        margin-top: 0.25rem;
+        font-size: 0.9em;
       }
     </style>
     <ul class="tiles tile-links" id="apps-list">
@@ -79,8 +75,9 @@ breadcrumbs:
             </div>
             <h3>The ODI Solid File Manager<span class="top-app-tag">★</span></h3>
           </div>
-          <p>This application provides a user-friendly interface for managing files and folders in Solid Pods. Source code is available <span class="external-link" role="link" tabindex="0" aria-label="Open The ODI Solid File Manager desktop build on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/solid/solid-file-manager'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/solid/solid-file-manager'); }">here</span>.</p>
+          <p>This application provides a user-friendly interface for managing files and folders in Solid Pods.</p>
         </a>
+        <p class="app-source">Source code on <a href="https://github.com/solid/solid-file-manager" class="external-link" rel="noopener noreferrer">GitHub (solid/solid-file-manager)</a>.</p>
       </li>
       <li data-name="Media Kraken" data-category="Movies">
         <a href="https://noeldemartin.github.io/media-kraken/">
@@ -175,8 +172,9 @@ breadcrumbs:
             <img alt="NotePod logo" src="/assets/img/logo/notepod.png"/>
             <h3>NotePod</h3>
           </div>
-          <p>Private and shareable note taking app with encryption. Built by the Software Innovation Institute, ANU. Desktop build available <span class="external-link" role="link" tabindex="0" aria-label="Open desktop build on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/notepod'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/notepod'); }">here</span>.</p>
+          <p>Private and shareable note taking app with encryption. Built by the Software Innovation Institute, ANU.</p>
         </a>
+        <p class="app-source">Desktop build on <a href="https://github.com/anusii/notepod" class="external-link" rel="noopener noreferrer">GitHub (anusii/notepod)</a>.</p>
       </li>
       <li data-name="HealthPod" data-category="Health">
         <a href="https://healthpod.solidcommunity.au">
@@ -184,16 +182,19 @@ breadcrumbs:
             <img alt="HealthPod logo" src="/assets/img/logo/healthpod.svg"/>
             <h3>HealthPod</h3>
           </div>
-          <p>Manage your health data, with support for encrypted data. Built by the Software Innovation Institute, ANU. Desktop build available <span class="external-link" role="link" tabindex="0" aria-label="Open HealthPod desktop build on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/healthpod'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/healthpod'); }">here</span>.</p>
+          <p>Manage your health data, with support for encrypted data. Built by the Software Innovation Institute, ANU.</p>
         </a>
+        <p class="app-source">Desktop build on <a href="https://github.com/anusii/healthpod" class="external-link" rel="noopener noreferrer">GitHub (anusii/healthpod)</a>.</p>
+      </li>
       <li data-name="MovieStar" data-category="Movies">
         <a href="https://moviestar.solidcommunity.au">
           <div class="tile-header">
             <img alt="MovieStar logo" src="/assets/img/logo/moviestar.png"/>
             <h3>MovieStar</h3>
           </div>
-          <p>Track your movie and TV watching and ranking, share with others, and receive recommendations, with support for encrypted data. Built by the Software Innovation Institute, ANU. Desktop build available <span class="external-link" role="link" tabindex="0" aria-label="Open MovieStar desktop build on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/moviestar'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/moviestar'); }">here</span>.</p>
+          <p>Track your movie and TV watching and ranking, share with others, and receive recommendations, with support for encrypted data. Built by the Software Innovation Institute, ANU.</p>
         </a>
+        <p class="app-source">Desktop build on <a href="https://github.com/anusii/moviestar" class="external-link" rel="noopener noreferrer">GitHub (anusii/moviestar)</a>.</p>
       </li>
       <li data-name="SolidFocus" data-category="Browser">
         <a href="https://focus.noeldemartin.com/">
@@ -218,8 +219,9 @@ breadcrumbs:
           <div class="tile-header">
             <h3>Liqid Chat</h3>
           </div>
-          <p>A Solid-native chat client that stores your conversations in your own Pod, with friend search, uploads, and push notifications. Built by Jackson Morgan. Source code is available <span class="external-link" role="link" tabindex="0" aria-label="Open Liqid Chat source on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/o-development/liqidchat'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/o-development/liqidchat'); }">here</span>.</p>
+          <p>A Solid-native chat client that stores your conversations in your own Pod, with friend search, uploads, and push notifications. Built by Jackson Morgan.</p>
         </a>
+        <p class="app-source">Source code on <a href="https://github.com/o-development/liqidchat" class="external-link" rel="noopener noreferrer">GitHub (o-development/liqidchat)</a>.</p>
       </li>
       <li data-name="PodCal" data-category="Scheduling">
         <a href="https://podcal.eu">
@@ -234,8 +236,9 @@ breadcrumbs:
           <div class="tile-header">
             <h3>SolidOS Databrowser</h3>
           </div>
-          <p>The classic Solid Data Browser (Mashlib) — a generic Linked Data browser and editor for any Solid Pod, maintained by the SolidOS team. Source code is available <span class="external-link" role="link" tabindex="0" aria-label="Open SolidOS Databrowser source on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/SolidOS/mashlib'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/SolidOS/mashlib'); }">here</span>.</p>
+          <p>The classic Solid Data Browser (Mashlib) — a generic Linked Data browser and editor for any Solid Pod, maintained by the SolidOS team.</p>
         </a>
+        <p class="app-source">Source code on <a href="https://github.com/SolidOS/mashlib" class="external-link" rel="noopener noreferrer">GitHub (SolidOS/mashlib)</a>.</p>
       </li>
       <li data-name="Synara AI" data-category="Productivity">
         <a href="https://ai.privatedatapod.com/">
@@ -282,40 +285,45 @@ breadcrumbs:
           <div class="tile-header">
             <h3>InnerPod</h3>
           </div>
-          <p>A guided meditation timer that records each session to your Solid Pod with optional encryption. Built by the Software Innovation Institute, ANU. Source code is available <span class="external-link" role="link" tabindex="0" aria-label="Open InnerPod source on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/gjwgit/innerpod'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/gjwgit/innerpod'); }">here</span>.</p>
+          <p>A guided meditation timer that records each session to your Solid Pod with optional encryption. Built by the Software Innovation Institute, ANU.</p>
         </a>
+        <p class="app-source">Source code on <a href="https://github.com/gjwgit/innerpod" class="external-link" rel="noopener noreferrer">GitHub (gjwgit/innerpod)</a>.</p>
       </li>
       <li data-name="MSFatigue" data-category="Health">
         <a href="https://msfatigue.solidcommunity.au">
           <div class="tile-header">
             <h3>MSFatigue</h3>
           </div>
-          <p>A survey/questionnaire app for multiple-sclerosis fatigue research; responses are saved encrypted to the participant's own Pod, with opt-in sharing to researchers. Built by the Software Innovation Institute, ANU. Source code is available <span class="external-link" role="link" tabindex="0" aria-label="Open MSFatigue source on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/msfatigue'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/msfatigue'); }">here</span>.</p>
+          <p>A survey/questionnaire app for multiple-sclerosis fatigue research; responses are saved encrypted to the participant's own Pod, with opt-in sharing to researchers. Built by the Software Innovation Institute, ANU.</p>
         </a>
+        <p class="app-source">Source code on <a href="https://github.com/anusii/msfatigue" class="external-link" rel="noopener noreferrer">GitHub (anusii/msfatigue)</a>.</p>
       </li>
       <li data-name="FilePod" data-category="Pod Management">
         <a href="https://filepod.solidcommunity.au">
           <div class="tile-header">
             <h3>FilePod</h3>
           </div>
-          <p>A Flutter-based Solid file browser — browse, upload, and download files on your Pod from any platform. Built by the Software Innovation Institute, ANU. Source code is available <span class="external-link" role="link" tabindex="0" aria-label="Open FilePod source on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/filepod'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/filepod'); }">here</span>.</p>
+          <p>A Flutter-based Solid file browser — browse, upload, and download files on your Pod from any platform. Built by the Software Innovation Institute, ANU.</p>
         </a>
+        <p class="app-source">Source code on <a href="https://github.com/anusii/filepod" class="external-link" rel="noopener noreferrer">GitHub (anusii/filepod)</a>.</p>
       </li>
       <li data-name="KeyPod" data-category="Security">
         <a href="https://keypod.solidcommunity.au">
           <div class="tile-header">
             <h3>KeyPod</h3>
           </div>
-          <p>An encrypted key-value store usable as a password manager; also serves as a Flutter template for building Solid apps. Built by the Software Innovation Institute, ANU. Source code is available <span class="external-link" role="link" tabindex="0" aria-label="Open KeyPod source on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/keypod'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/anusii/keypod'); }">here</span>.</p>
+          <p>An encrypted key-value store usable as a password manager; also serves as a Flutter template for building Solid apps. Built by the Software Innovation Institute, ANU.</p>
         </a>
+        <p class="app-source">Source code on <a href="https://github.com/anusii/keypod" class="external-link" rel="noopener noreferrer">GitHub (anusii/keypod)</a>.</p>
       </li>
       <li data-name="GeoPod" data-category="Location">
         <a href="https://geopod.solidcommunity.au">
           <div class="tile-header">
             <h3>GeoPod</h3>
           </div>
-          <p>A map-based app for storing points of interest and tracks in your own encrypted Solid Pod. Built by the Software Innovation Institute, ANU. Source code is available <span class="external-link" role="link" tabindex="0" aria-label="Open GeoPod source on GitHub" onclick="event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/gjwgit/geopod'); return false;" onkeydown="if(event.key==='Enter'||event.key===' '){ event.preventDefault(); event.stopPropagation(); window.location.assign('https://github.com/gjwgit/geopod'); }">here</span>.</p>
+          <p>A map-based app for storing points of interest and tracks in your own encrypted Solid Pod. Built by the Software Innovation Institute, ANU.</p>
         </a>
+        <p class="app-source">Source code on <a href="https://github.com/gjwgit/geopod" class="external-link" rel="noopener noreferrer">GitHub (gjwgit/geopod)</a>.</p>
       </li>
       <li data-name="SecureDialog" data-category="Health">
         <a href="https://securedialog.solidcommunity.au">
