@@ -11,12 +11,10 @@
     justify-content: space-between;
     padding: 1.5rem 3.2rem 1.6rem 3rem;
     position: relative;
-    /* A modest stacking index so page-level sticky bars (e.g. /apps
-       category TOC at z-index 10) never paint over the site chrome
-       while the header is still in-flow at the top of the document.
-       Kept deliberately small so hamburger / nav overlays (z-index
-       999-1000) still land above when they open. */
-    z-index: 20;
+    /* Stay above page-level sticky bars (e.g. /apps category TOC at
+       z-index 10). The mobile nav overlay + hamburger use z-index 999
+       / 1000 so 1001 keeps the .header frame on top of both. */
+    z-index: 1001;
 }
 
 .header a {
