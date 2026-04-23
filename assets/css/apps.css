@@ -104,6 +104,33 @@
   color: var(--color-brand);
 }
 
+/** Apps layout — side-rail TOC + grid */
+.apps-layout {
+  /* Mobile default: single column. The TOC sits above the grid,
+     scrolling horizontally as a pill bar (see .apps-categories-nav
+     rules further down). */
+  display: block;
+}
+
+@media (min-width: 1025px) {
+  /* Desktop: pin the TOC to the left of the apps grid so the
+     category picker is always next to the apps, not floating above
+     them. Track width ~220px matches the longest category label
+     ("Content, Notes, Blogging and Publishing") at the base font. */
+  .apps-layout {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 2rem;
+    align-items: start;
+  }
+  .apps-layout__sidebar {
+    align-self: start;
+  }
+  .apps-layout__main {
+    min-width: 0; /* allow the inner grid tracks to shrink */
+  }
+}
+
 /** Category TOC */
 .apps-categories-nav {
   margin: 0 0 1.5rem 0;
@@ -113,16 +140,21 @@
   border-radius: var(--radius-md);
 }
 
-/* Sticky on desktop so long-page navigation stays one click away.
-   Disabled on mobile (see the <=781px block lower down) because
-   sticky TOCs steal vertical space on small screens. */
+/* Desktop: nav becomes a sticky side-rail inside the apps-layout
+   left column. `top: 1rem` clears the site header area; `z-index: 10`
+   keeps the rail above the grid but below the site header
+   (z-index: 1001 — see assets/css/header.css) so the nav never
+   eclipses the main-nav when both are visible. `max-height` lets the
+   rail scroll internally when there are more categories than fit
+   under the viewport. */
 @media (min-width: 1025px) {
   .apps-categories-nav {
+    margin: 0;
     position: sticky;
     top: 1rem;
     z-index: 10;
-    backdrop-filter: saturate(150%) blur(6px);
-    background: color-mix(in srgb, var(--color-bg) 92%, transparent);
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
   }
 }
 
@@ -139,6 +171,20 @@
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+/* Desktop rail: stack the pills vertically so the left column reads
+   as a table of contents, with each pill a full-width hit target. */
+@media (min-width: 1025px) {
+  .apps-categories-nav__list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
+  }
+  .apps-categories-nav__link {
+    display: flex;
+    width: 100%;
+  }
 }
 
 .apps-categories-nav__link {
@@ -175,19 +221,20 @@
 }
 
 .apps-category {
-  /* Base (mobile / non-sticky) clearance is small; the sticky desktop
-     bar gets a generous offset in the media-query block below. */
+  /* Small clearance covers the sticky site header and leaves a touch
+     of breathing room. On desktop the TOC now lives in the left
+     sidebar (see .apps-layout above), so we no longer need to budget
+     for a pinned horizontal pill bar above the heading. */
   scroll-margin-top: 1rem;
 }
 
-/* Pair the anchor offset with the sticky TOC's own breakpoint so the
-   heading always lands below the pinned pill bar, even when the bar
-   wraps to two rows at narrower desktop widths. The value is a
-   generous upper bound (label row + two wrapped pill rows) rather
-   than a guess at single-row height. */
 @media (min-width: 1025px) {
   .apps-category {
-    scroll-margin-top: 8.5rem;
+    /* Keep 1rem as the base; the sidebar doesn't occlude the
+       heading, so no extra offset is needed. Scoped to the
+       breakpoint anyway so a future in-column pinned bar can bump
+       this without touching the mobile value. */
+    scroll-margin-top: 1rem;
   }
 }
 

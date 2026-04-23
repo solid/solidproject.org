@@ -26,16 +26,6 @@ breadcrumbs:
 <section resource="#app_launcher" inlist="" rel="hasPart" class="article-section">
   <h2 id="app_launcher" property="name">App Launcher</h2>
   <div datatype="rdf:HTML" property="description">
-    <!-- Category TOC first so the desktop sticky bar never has to sit
-         visually on top of the featured tile row as the user scrolls
-         past it. -->
-    <nav class="apps-categories-nav" aria-label="Jump to a category" id="apps-categories-nav" hidden>
-      <p class="apps-categories-nav__label">Jump to a category</p>
-      <ul class="apps-categories-nav__list" id="apps-categories-nav-list">
-        <!-- Populated by JS from the categories present in #apps-list. -->
-      </ul>
-    </nav>
-
     <!-- Featured / Editor's picks row. JS populates this on load from
          every tile carrying a .top-app-tag in the flat list below.
          Hidden until JS runs so no-JS users don't see an empty shell. -->
@@ -100,6 +90,21 @@ breadcrumbs:
         </div>
       </div>
     </div>
+
+    <!-- Side-rail TOC + grid. Desktop (≥1025px) renders a two-column
+         grid with the category TOC pinned on the left next to the
+         apps. Mobile collapses to a single column with the TOC pills
+         scrolling horizontally above the grid. -->
+    <div class="apps-layout">
+      <aside class="apps-layout__sidebar">
+        <nav class="apps-categories-nav" aria-label="Jump to a category" id="apps-categories-nav" hidden>
+          <p class="apps-categories-nav__label">Jump to a category</p>
+          <ul class="apps-categories-nav__list" id="apps-categories-nav-list">
+            <!-- Populated by JS from the categories present in #apps-list. -->
+          </ul>
+        </nav>
+      </aside>
+      <div class="apps-layout__main">
     <ul class="tiles tile-links" id="apps-list">
       <li data-name="The ODI Solid File Manager" data-category="Pod Management" data-category-intro="Inspect, browse, and file-manage the contents of your Pod.">
         <a href="https://solid-file-manager.theodi.org/">
@@ -435,6 +440,8 @@ breadcrumbs:
     <p class="apps-no-results" id="apps-no-results" hidden role="status" aria-live="polite">
       No apps match your filters. Try clearing the search or choosing a different category.
     </p>
+      </div><!-- /.apps-layout__main -->
+    </div><!-- /.apps-layout -->
 
     <details class="details-box">
       <summary>App inclusion and exclusion criteria</summary>
