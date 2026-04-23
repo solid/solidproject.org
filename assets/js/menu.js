@@ -30,4 +30,32 @@ document.addEventListener('DOMContentLoaded', function() {
       nav.classList.remove('resizing');
     }, 100);
   });
+
+  /* Theme toggle
+     The no-flash <script> in <head> already set data-theme before CSS
+     paint. Here we just wire the click handler, keep the button's
+     aria-pressed in sync, and persist the choice. Clicking flips
+     between "light" and "dark"; user choice wins over system
+     preference from that point on. */
+  const themeToggle = document.querySelector('.theme-toggle');
+  if (themeToggle) {
+    const syncPressed = () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      themeToggle.setAttribute('aria-pressed', current === 'dark' ? 'true' : 'false');
+    };
+    syncPressed();
+
+    themeToggle.addEventListener('click', function() {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try {
+        localStorage.setItem('solid-theme', next);
+      } catch (e) {
+        /* Private mode / storage disabled — the attribute still holds
+           for this page view. */
+      }
+      syncPressed();
+    });
+  }
 });

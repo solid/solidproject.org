@@ -141,6 +141,70 @@
     transform: rotate(-45deg) translate(7px, -7px);
 }
 
+/* Theme toggle
+   Icon button that flips data-theme on <html> between "light" and
+   "dark" and persists the choice to localStorage. Sits between the
+   nav links and the hamburger on desktop; hidden on mobile where the
+   hamburger menu exposes the same control inside the slide-out sheet. */
+.header .theme-toggle {
+    align-items: center;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: var(--radius-pill);
+    color: var(--color-header-text);
+    cursor: pointer;
+    display: inline-flex;
+    height: 2.25rem;
+    width: 2.25rem;
+    justify-content: center;
+    padding: 0;
+    transition: background-color var(--motion-med) ease, border-color var(--motion-med) ease;
+    /* Sit between the nav links and the hamburger; keep above the
+       slide-out nav overlay on mobile. */
+    position: relative;
+    z-index: 1000;
+}
+
+.header .theme-toggle:hover,
+.header .theme-toggle:focus-visible {
+    background: var(--color-header-link-hover);
+    outline: none;
+}
+
+.header .theme-toggle:focus-visible {
+    border-color: var(--color-header-text);
+}
+
+.header .theme-toggle__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: block;
+    fill: none;
+}
+
+/* Show the moon in light mode (click → switch to dark); show the sun
+   in dark mode (click → switch to light). Drives state purely from
+   the data-theme attribute so the server-rendered HTML is accurate
+   before any JS runs. */
+.theme-toggle__icon--sun { display: none; }
+.theme-toggle__icon--moon { display: block; }
+
+[data-theme="dark"] .theme-toggle__icon--sun { display: block; }
+[data-theme="dark"] .theme-toggle__icon--moon { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle__icon--sun { display: block; }
+  :root:not([data-theme="light"]) .theme-toggle__icon--moon { display: none; }
+}
+
+/* Hide the toggle on mobile; the hamburger menu exposes it inside the
+   slide-out panel via the .main-nav clone injected by menu.js. */
+@media (max-width: 1024px) {
+  .header .theme-toggle {
+    display: none;
+  }
+}
+
 /* Desktop navigation styles */
 @media (min-width: 1025px) {
     .header .main-nav {

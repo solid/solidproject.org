@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      // No-flash theme bootstrap. Runs before any CSS is applied so the
+      // document already carries the right data-theme attribute when
+      // the first paint happens. Priority order:
+      //   1. localStorage['solid-theme'] === 'light' | 'dark' (user choice)
+      //   2. prefers-color-scheme media query (system preference)
+      // Anchored to <html> only — the rest of the code base (tokens,
+      // toggle button, tests) expects data-theme on document.documentElement.
+      (function () {
+        try {
+          var stored = localStorage.getItem('solid-theme');
+          if (stored === 'light' || stored === 'dark') {
+            document.documentElement.setAttribute('data-theme', stored);
+            return;
+          }
+          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+          }
+        } catch (e) {
+          // localStorage blocked (private mode, strict cookie policy, etc.).
+          // Fall back to the system preference via CSS @media only.
+        }
+      })();
+    </script>
     <meta charset="UTF-8" />
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     {% if page.permalink %}<link rel="canonical" href="{{ page.permalink | prepend: site.base_url }}">{% endif %}
@@ -11,7 +37,8 @@
     <meta property="og:url" content="{{ page.permalink | prepend: site.base_url }}" />{% endif %}
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:locale" content="en" />
-    <meta name="theme-color" content="#7C4DFF">
+    <meta name="theme-color" content="#7C4DFF" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0a0c11" media="(prefers-color-scheme: dark)">
     <link type="application/atom+xml" rel="alternate" href="{{ site.base_url }}/feed.xml" title="{{ site.title }}" />
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
@@ -29,6 +56,24 @@
           <li><a href="/community">Community</a></li>
         </ul>
       </nav>
+      <button type="button" class="theme-toggle" aria-label="Toggle colour theme" aria-pressed="false">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="4.2" fill="currentColor"/>
+          <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+            <line x1="12" y1="2.5" x2="12" y2="5"/>
+            <line x1="12" y1="19" x2="12" y2="21.5"/>
+            <line x1="2.5" y1="12" x2="5" y2="12"/>
+            <line x1="19" y1="12" x2="21.5" y2="12"/>
+            <line x1="5.3" y1="5.3" x2="7" y2="7"/>
+            <line x1="17" y1="17" x2="18.7" y2="18.7"/>
+            <line x1="5.3" y1="18.7" x2="7" y2="17"/>
+            <line x1="17" y1="7" x2="18.7" y2="5.3"/>
+          </g>
+        </svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M20.5 14.3A8 8 0 0 1 9.7 3.5a1 1 0 0 0-1.3-1.3 10 10 0 1 0 13.4 13.4 1 1 0 0 0-1.3-1.3z"/>
+        </svg>
+      </button>
       <button class="hamburger-menu" aria-label="Toggle navigation menu">
         <span></span>
         <span></span>

@@ -3,27 +3,22 @@ import AxeBuilder from '@axe-core/playwright';
 import { SMOKE_PAGES } from './fixtures/pages';
 
 /**
- * Dark-mode contrast regression suite. Gated on the theme-designer's
- * work landing: each test starts as `test.fixme` so CI stays green
- * today; the theme-designer flips the marker the same commit they
- * ship the `[data-theme]` tokens and the palette.
+ * Dark-mode contrast regression suite. The theme designer has shipped
+ * the [data-theme] tokens and the no-flash bootstrap script, so these
+ * tests now run unconditionally. The tokensShipped guard is kept as a
+ * belt-and-braces safeguard in case a future refactor drops the
+ * attribute.
  *
  * The tests emulate `prefers-color-scheme: dark` and run axe-core's
  * `color-contrast` + `color-contrast-enhanced` rules across the top
- * six pages. We gate on the presence of a `data-theme` attribute on
- * `<html>` or `<body>`: that attribute is the theme-designer's hook
- * for opting a page into the palette tokens, and its absence is the
- * signal that dark mode hasn't shipped yet.
- *
- * When you flip a fixme here, run the whole file first — the palette
- * should pass on every page, not just /apps.
+ * six pages.
  */
 
-const FIXME_TAG = '#960 follow-up';
+const FIXME_TAG = '#960 regression';
 
 test.describe('PR-960 regression: dark-mode contrast', () => {
   for (const target of SMOKE_PAGES) {
-    test.fixme(
+    test(
       `${target.name}: axe color-contrast passes at prefers-color-scheme: dark (${FIXME_TAG})`,
       async ({ page }) => {
         await page.emulateMedia({ colorScheme: 'dark' });
