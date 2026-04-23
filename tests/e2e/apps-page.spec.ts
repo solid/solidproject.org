@@ -105,10 +105,10 @@ test.describe('PR-960 regression', () => {
         const all = document.querySelectorAll('*');
         for (const el of Array.from(all)) {
           const html = el as HTMLElement;
-          // Skip elements the user can't see (display:none, detached,
-          // or collapsed to zero size). offsetParent is null for
-          // hidden elements (except fixed-position, which are still
-          // visible — they have a non-zero bounding rect).
+          // Skip elements that have no layout footprint or are
+          // invisible — a display:none / visibility:hidden element
+          // has no user-visible overflow, and a zero-size box can't
+          // overflow anything.
           const rect = html.getBoundingClientRect();
           const cs = window.getComputedStyle(html);
           if (cs.display === 'none' || cs.visibility === 'hidden') continue;
@@ -321,26 +321,37 @@ test.describe('PR-960 regression', () => {
       });
 
       // Separately probe the hover state on tile anchors: with reduced
-      // motion we also expect no transform to be applied on hover. We
-      // sample the first tile anchor (representative of the lot) so the
-      // check is deterministic and cheap.
-      const tileAnchor = page.locator('ul.tiles.tile-links > li > a').first();
-      if ((await tileAnchor.count()) > 0) {
-        await tileAnchor.hover();
-        const hoverTransform = await tileAnchor.evaluate(
-          (el) => window.getComputedStyle(el).transform,
-        );
-        violators.push(
-          ...(hoverTransform !== 'none'
-            ? [
-                {
-                  selector: 'ul.tiles.tile-links > li > a:hover',
-                  transitionDuration: 'n/a',
-                  reason: `hover transform is ${hoverTransform} (expected 'none' under reduce)`,
-                },
-              ]
-            : []),
-        );
+      // motion we also expect no visible transform on hover. We sample
+      // the first tile anchor (representative of the lot) so the check
+      // is deterministic and cheap.
+      //
+      // Note on identity-matrix false positives: CSS `transform:
+      // translateY(0)` computes to `matrix(1, 0, 0, 1, 0, 0)` — an
+      // identity transform that produces no visible motion. Reduced-
+      // motion CSS often collapses animations down to the identity
+      // matrix rather than removing the transform declaration
+      // entirely. Treat the identity matrix as equivalent to `none`.
+      const tileAnchors = page.locator('ul.tiles.tile-links > li > a');
+      expect(
+        await tileAnchors.count(),
+        'no tile anchors found on /apps — selector `ul.tiles.tile-links > li > a` may be stale',
+      ).toBeGreaterThan(0);
+      const tileAnchor = tileAnchors.first();
+      await tileAnchor.hover();
+      const hoverTransform = await tileAnchor.evaluate(
+        (el) => window.getComputedStyle(el).transform,
+      );
+      const IDENTITY_MATRICES = new Set([
+        'none',
+        'matrix(1, 0, 0, 1, 0, 0)',
+        'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)',
+      ]);
+      if (!IDENTITY_MATRICES.has(hoverTransform)) {
+        violators.push({
+          selector: 'ul.tiles.tile-links > li > a:hover',
+          transitionDuration: 'n/a',
+          reason: `hover transform is ${hoverTransform} (expected identity under reduce)`,
+        });
       }
 
       expect(
