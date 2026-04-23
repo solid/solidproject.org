@@ -444,6 +444,22 @@ main > article h1 {
   flex-shrink: 0;
 }
 
+/* Tile icons shipped from /assets/img/icon/ are plain FontAwesome
+   paths that render black by default. On dark mode (either the
+   explicit [data-theme="dark"] override or the prefers-color-scheme
+   fallback) invert the raster so the glyph reads as white/brand on
+   the dark surface. Scoped to the small icon slot (.tiles img[src*="/icon/"])
+   so upstream app-logo PNGs under /assets/img/logo are untouched. */
+[data-theme="dark"] .tiles .tile-header img[src*="/icon/"] {
+  filter: invert(0.92);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .tiles .tile-header img[src*="/icon/"] {
+    filter: invert(0.92);
+  }
+}
+
 .tiles h2, .tiles h3 {
   margin: 0;
   color: var(--color-text);
