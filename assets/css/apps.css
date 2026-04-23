@@ -640,17 +640,21 @@
   }
   /* Let the tile-header (logo + title flex row) wrap onto two lines
      when the combined min-width of the wide logo + shortest word in
-     the title exceeds the tile body width on phone-size viewports. */
+     the title exceeds the tile body width on phone-size viewports.
+     Covers both the JS-built category/sorted/featured grids and the
+     no-JS flat fallback list (#apps-list). */
   .apps-category__grid .tile-header,
   .apps-sorted-grid .tile-header,
-  .apps-featured__grid .tile-header {
+  .apps-featured__grid .tile-header,
+  #apps-list .tile-header {
     flex-wrap: wrap;
   }
   /* Allow long/compound title words to break so the title itself
      cannot push the row beyond the tile. */
   .apps-category__grid .tile-header h3,
   .apps-sorted-grid .tile-header h3,
-  .apps-featured__grid .tile-header h3 {
+  .apps-featured__grid .tile-header h3,
+  #apps-list .tile-header h3 {
     min-width: 0;
     overflow-wrap: anywhere;
   }
