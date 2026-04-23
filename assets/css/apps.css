@@ -340,13 +340,13 @@
 }
 
 /* "Open app →" chevron hint rendered at the bottom of the tile anchor.
-   Uses ::after on the <a> so no extra markup is needed. */
-.apps-category__grid .tiles.tile-links a::after,
-.apps-sorted-grid.tiles.tile-links a::after,
-.apps-featured__grid.tiles.tile-links a::after,
-.apps-category__grid a::after,
-.apps-sorted-grid a::after,
-.apps-featured__grid a::after {
+   Uses ::after on the <a> so no extra markup is needed.
+   Scoped to the direct-child tile anchor (> li > a) so the pseudo-
+   element does not leak onto descendant anchors such as the
+   secondary .app-source link. */
+.apps-category__grid > li > a::after,
+.apps-sorted-grid > li > a::after,
+.apps-featured__grid > li > a::after {
   content: "Open app \2192";
   margin-top: auto;
   padding-top: 1rem;
@@ -358,18 +358,11 @@
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-.apps-category__grid li:hover a::after,
-.apps-sorted-grid li:hover a::after,
-.apps-featured__grid li:hover a::after {
+.apps-category__grid > li:hover > a::after,
+.apps-sorted-grid > li:hover > a::after,
+.apps-featured__grid > li:hover > a::after {
   opacity: 1;
   transform: translateX(3px);
-}
-
-/* Do not render the chevron hint on the secondary .app-source anchor. */
-.apps-category__grid .app-source a::after,
-.apps-sorted-grid .app-source a::after,
-.apps-featured__grid .app-source a::after {
-  content: none;
 }
 
 /* Clear keyboard focus-visible outline using the brand accent. */
@@ -649,9 +642,9 @@
   .apps-category__grid li,
   .apps-sorted-grid li,
   .apps-featured__grid li,
-  .apps-category__grid a::after,
-  .apps-sorted-grid a::after,
-  .apps-featured__grid a::after,
+  .apps-category__grid > li > a::after,
+  .apps-sorted-grid > li > a::after,
+  .apps-featured__grid > li > a::after,
   .apps-toolbar__search-input,
   .sort-controls select {
     transition: none !important;
@@ -663,12 +656,12 @@
     transform: none;
   }
   /* The chevron hint also translates on tile hover; neutralise that. */
-  .apps-category__grid li:hover a::after,
-  .apps-sorted-grid li:hover a::after,
-  .apps-featured__grid li:hover a::after,
-  .apps-category__grid a::after,
-  .apps-sorted-grid a::after,
-  .apps-featured__grid a::after {
+  .apps-category__grid > li:hover > a::after,
+  .apps-sorted-grid > li:hover > a::after,
+  .apps-featured__grid > li:hover > a::after,
+  .apps-category__grid > li > a::after,
+  .apps-sorted-grid > li > a::after,
+  .apps-featured__grid > li > a::after {
     transform: none;
   }
 }

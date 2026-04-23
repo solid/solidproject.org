@@ -22,7 +22,7 @@ test.describe('PR-960 regression', () => {
   // ---------------------------------------------------------------
   // 1. chevron-once
   // ---------------------------------------------------------------
-  test.fixme(
+  test(
     `chevron-once: every .tiles.tile-links > li > a has exactly one "Open app" ::after, and no descendant <a> inside .app-source has one (${FIXME_TAG})`,
     async ({ page }) => {
       await page.goto(APPS_PATH, { waitUntil: 'networkidle' });
