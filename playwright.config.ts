@@ -1,4 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
+import { DESKTOP_VIEWPORT } from './tests/e2e/fixtures/pages';
 
 /**
  * Playwright configuration for solidproject.org visual + functional QA.
@@ -47,7 +48,7 @@ export default defineConfig({
       name: 'desktop-chrome',
       use: {
         ...devices['Desktop Chrome'],
-        viewport: { width: 1280, height: 800 },
+        viewport: DESKTOP_VIEWPORT,
       },
     },
     {
@@ -60,14 +61,14 @@ export default defineConfig({
       name: 'desktop-firefox',
       use: {
         ...devices['Desktop Firefox'],
-        viewport: { width: 1280, height: 800 },
+        viewport: DESKTOP_VIEWPORT,
       },
     },
     {
       name: 'desktop-dark',
       use: {
         ...devices['Desktop Chrome'],
-        viewport: { width: 1280, height: 800 },
+        viewport: DESKTOP_VIEWPORT,
         colorScheme: 'dark',
       },
     },
