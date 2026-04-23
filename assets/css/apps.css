@@ -228,6 +228,173 @@
   display: none !important;
 }
 
+/** Featured / Editor's picks row */
+.apps-featured {
+  --apps-featured-bg: linear-gradient(135deg, #fff9ed 0%, #ffffff 75%);
+  margin: 0 0 2rem 0;
+  padding: 1.5rem;
+  background: var(--apps-featured-bg);
+  border: 1px solid var(--apps-border);
+  border-radius: var(--apps-radius);
+}
+
+.apps-featured__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.apps-featured__heading {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--apps-ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.apps-featured__star {
+  color: var(--apps-accent-star);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.apps-featured__blurb {
+  margin: 0;
+  color: var(--apps-ink-soft);
+  font-size: 0.95rem;
+}
+
+.apps-featured__grid {
+  margin: 0;
+}
+
+/** Tile polish (apps page only) */
+/* Consistent logo slot: centred icon, soft radius, object-fit contain
+   for non-square upstream assets. Scoped to tiles inside the apps page
+   so other .tiles instances (e.g. on for_users / for_developers) are
+   untouched. */
+.apps-category__grid .tile-header img,
+.apps-sorted-grid .tile-header img,
+.apps-featured__grid .tile-header img {
+  width: 60px;
+  height: 60px;
+  padding: 0.3rem;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--apps-border);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* Wide / non-square logo fallback used by tiles that opt into a wider
+   slot (e.g. the ODI file manager wordmark-style logo). */
+.tiles .tile-logo {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  background: #fff;
+  border: 1px solid var(--apps-border);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.tiles .tile-logo--wide {
+  width: 100px;
+}
+
+.tiles .tile-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* Cancel the generic .tile-header img rule above so the wide wrapper
+     is actually wider than 60px. */
+  border: 0;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+/* Smooth hover lift for apps-page tiles. Base.css already applies a
+   box-shadow on hover; we add a subtle translate for movement feel. */
+.apps-category__grid li,
+.apps-sorted-grid li,
+.apps-featured__grid li {
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.apps-category__grid li:hover,
+.apps-sorted-grid li:hover,
+.apps-featured__grid li:hover {
+  transform: translateY(-2px);
+  border-color: var(--apps-brand);
+}
+
+/* "Open app →" chevron hint rendered at the bottom of the tile anchor.
+   Uses ::after on the <a> so no extra markup is needed. */
+.apps-category__grid .tiles.tile-links a::after,
+.apps-sorted-grid.tiles.tile-links a::after,
+.apps-featured__grid.tiles.tile-links a::after,
+.apps-category__grid a::after,
+.apps-sorted-grid a::after,
+.apps-featured__grid a::after {
+  content: "Open app \2192";
+  margin-top: auto;
+  padding-top: 1rem;
+  font-weight: 700;
+  color: var(--apps-brand);
+  letter-spacing: 0.01em;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.apps-category__grid li:hover a::after,
+.apps-sorted-grid li:hover a::after,
+.apps-featured__grid li:hover a::after {
+  opacity: 1;
+  transform: translateX(3px);
+}
+
+/* Do not render the chevron hint on the secondary .app-source anchor. */
+.apps-category__grid .app-source a::after,
+.apps-sorted-grid .app-source a::after,
+.apps-featured__grid .app-source a::after {
+  content: none;
+}
+
+/* Clear keyboard focus-visible outline using the brand accent. */
+.apps-category__grid a:focus-visible,
+.apps-sorted-grid a:focus-visible,
+.apps-featured__grid a:focus-visible {
+  outline: 3px solid var(--apps-brand);
+  outline-offset: 3px;
+  border-radius: var(--apps-radius-sm);
+}
+
+/* Editor's-pick pill: restyle the existing .top-app-tag <span> so it
+   reads as a pill next to the app name rather than a bare star. The
+   ★ glyph stays, with a tinted chip surface for readability. */
+.apps-category__grid .top-app-tag,
+.apps-sorted-grid .top-app-tag,
+.apps-featured__grid .top-app-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: 0.6rem;
+  font-size: 1rem;
+  color: var(--apps-accent-star);
+  background: rgba(255, 107, 53, 0.12);
+  border-radius: 50%;
+}
+
 /* Keep inline links inside app descriptions on the same line. Selector
    applies to both the no-JS flat list (#apps-list) and the JS-built
    category sections (.apps-category__grid) via the shared .tiles

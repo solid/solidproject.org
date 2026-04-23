@@ -27,6 +27,21 @@ breadcrumbs:
 <section resource="#app_launcher" inlist="" rel="hasPart" class="article-section">
   <h2 id="app_launcher" property="name">App Launcher</h2>
   <div datatype="rdf:HTML" property="description">
+    <!-- Featured / Editor's picks row. JS populates this on load from
+         every tile carrying a .top-app-tag in the flat list below.
+         Hidden until JS runs so no-JS users don't see an empty shell. -->
+    <!-- TODO(copy): copywriter to refine featured blurb and section label. -->
+    <section class="apps-featured" id="apps-featured" aria-labelledby="apps-featured-heading" hidden>
+      <div class="apps-featured__header">
+        <h3 id="apps-featured-heading" class="apps-featured__heading">
+          <span class="apps-featured__star" aria-hidden="true">★</span>
+          Editor&rsquo;s picks
+        </h3>
+        <p class="apps-featured__blurb">Good starting points if this is your first Solid app.</p>
+      </div>
+      <ul class="tiles tile-links apps-featured__grid" id="apps-featured-grid"></ul>
+    </section>
+
     <!-- TODO(copy): copywriter to refine category labels and short blurbs. -->
     <nav class="apps-categories-nav" aria-label="Jump to a category" id="apps-categories-nav" hidden>
       <p class="apps-categories-nav__label">Jump to a category</p>
@@ -90,10 +105,10 @@ breadcrumbs:
       <li data-name="The ODI Solid File Manager" data-category="Pod Management">
         <a href="https://solid-file-manager.theodi.org/">
           <div class="tile-header">
-            <div style="width:100px; height:56px; display:flex; align-items:center; justify-content:center;">
-              <img alt="Solid file manager logo" src="/assets/img/logo/file-manager-logo.svg" style="width:100%; height:100%; object-fit:contain;"/>
+            <div class="tile-logo tile-logo--wide">
+              <img alt="Solid file manager logo" src="/assets/img/logo/file-manager-logo.svg"/>
             </div>
-            <h3>The ODI Solid File Manager<span class="top-app-tag">★</span></h3>
+            <h3>The ODI Solid File Manager<span class="top-app-tag" aria-label="Editor's pick">★</span></h3>
           </div>
           <p>This application provides a user-friendly interface for managing files and folders in Solid Pods.</p>
         </a>
@@ -103,7 +118,7 @@ breadcrumbs:
         <a href="https://noeldemartin.github.io/media-kraken/">
           <div class="tile-header">
             <img alt="Media Kraken Logo - an Octopus" src="/assets/img/logo/media-kraken.svg"/>
-            <h3>Media Kraken<span class="top-app-tag">★</span></h3>
+            <h3>Media Kraken<span class="top-app-tag" aria-label="Editor's pick">★</span></h3>
           </div>
           <p>An app that helps you keep track of movies and create your own collections.</p>
         </a>
@@ -112,7 +127,7 @@ breadcrumbs:
         <a href="https://penny.vincenttunru.com/">
           <div class="tile-header">
             <img alt="Solid logo - an uppercase S on a violet hexagon" src="/assets/img/solid-emblem.svg"/>
-            <h3>Penny<span class="top-app-tag">★</span></h3>
+            <h3>Penny<span class="top-app-tag" aria-label="Editor's pick">★</span></h3>
           </div>
           <p>A general Pod Browser by Vincent Tunru.</p>
         </a>
@@ -461,7 +476,26 @@ breadcrumbs:
         const tocNav = document.getElementById('apps-categories-nav');
         const tocList = document.getElementById('apps-categories-nav-list');
         const noResultsEl = document.getElementById('apps-no-results');
+        const featuredSection = document.getElementById('apps-featured');
+        const featuredGrid = document.getElementById('apps-featured-grid');
         const appTiles = Array.from(flatList.querySelectorAll('li'));
+
+        // Build the Editor's-picks / Featured row from tiles that carry
+        // a .top-app-tag in the flat list. We clone each tile so the
+        // original stays filter-able in its category section; the clone
+        // is a static showcase unaffected by sort/filter/search.
+        if (featuredSection && featuredGrid) {
+          const featured = appTiles
+            .filter(tile => tile.querySelector('.top-app-tag'))
+            .map(tile => tile.cloneNode(true));
+          if (featured.length > 0) {
+            featured.forEach(clone => {
+              clone.classList.add('apps-featured__item');
+              featuredGrid.appendChild(clone);
+            });
+            featuredSection.hidden = false;
+          }
+        }
 
         // Preserve the original DOM order of tiles so the "Default Order"
         // sort mode can restore it later.
