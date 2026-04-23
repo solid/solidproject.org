@@ -7,6 +7,10 @@
 .apps-hero,
 .apps-toolbar,
 .apps-categories-nav,
+.apps-category-sections,
+.apps-featured,
+.apps-sorted-grid,
+.apps-no-results,
 #apps-list {
   --apps-brand: #7C4DFF;
   --apps-brand-dark: #6d3dee;
@@ -575,3 +579,95 @@
   margin: 0;
   cursor: pointer;
 }
+
+/** Responsive tail (mobile)
+ *
+ * The desktop-first base.css grid is mostly fine, but on narrow
+ * viewports we want: hero pads less, featured row lets tiles fill,
+ * category TOC loses its sticky behaviour (covered above by the
+ * media-query scope), category section grids collapse to one column.
+ */
+@media (max-width: 781px) {
+  .apps-hero {
+    padding: 1.75rem 1.25rem;
+  }
+  .apps-hero__headline {
+    font-size: 1.6rem;
+  }
+  .apps-hero__lede {
+    font-size: 1rem;
+  }
+  .apps-hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .apps-hero__cta {
+    width: 100%;
+  }
+  .apps-categories-nav {
+    padding: 0.8rem 1rem;
+  }
+  .apps-categories-nav__list {
+    /* Let the pill list scroll horizontally on very narrow screens
+       rather than wrap into 6+ rows. */
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .apps-categories-nav__link {
+    flex-shrink: 0;
+  }
+  .apps-featured {
+    padding: 1.1rem;
+  }
+  .apps-category__heading {
+    font-size: 1.2rem;
+  }
+  .tiles li.hidden {
+    /* No-op: display:none wins regardless of flex direction. */
+    display: none !important;
+  }
+}
+
+@media (max-width: 580px) {
+  /* Force single-column grid on tiny viewports so tile content gets
+     full width instead of cramming into a 300px minmax column that
+     ends up producing two 50%-width columns on 360px-wide phones. */
+  .apps-category__grid,
+  .apps-sorted-grid,
+  .apps-featured__grid,
+  #apps-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/** Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .apps-hero__cta,
+  .apps-categories-nav__link,
+  .apps-category__grid li,
+  .apps-sorted-grid li,
+  .apps-featured__grid li,
+  .apps-category__grid a::after,
+  .apps-sorted-grid a::after,
+  .apps-featured__grid a::after,
+  .apps-toolbar__search-input,
+  .sort-controls select {
+    transition: none !important;
+  }
+  .apps-category__grid li:hover,
+  .apps-sorted-grid li:hover,
+  .apps-featured__grid li:hover,
+  .apps-hero__cta:hover {
+    transform: none;
+  }
+}
+
+/* Dark colour-scheme pass deliberately skipped: the site-wide chrome
+ * (header, footer, breadcrumb, body background, body copy) is hard-
+ * coded light across base.css / header.css / footer.css / etc., so
+ * inverting only the apps-page blocks would leave a light chrome
+ * around a dark content island and look disjointed. The brief marks
+ * dark mode as optional; revisit once the site ships a site-wide
+ * dark theme that apps.css can extend. */
