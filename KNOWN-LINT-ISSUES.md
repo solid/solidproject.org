@@ -12,15 +12,17 @@ this file is your to-do list.
 
 ## htmlhint — `.htmlhintrc`
 
-Ran against `*.html` and `_layouts/**/*.html`. 23 source files.
+Ran against `**/*.html` (excluding `_site/`, `node_modules/`,
+`rdfa/`). 72 source files.
 
 ### First-run violation counts
 
 | Rule                 | Count | Action                                            |
 | -------------------- | ----: | ------------------------------------------------- |
-| `doctype-first`      |    23 | **Disabled** globally. Reason below.              |
+| `doctype-first`      |    52 | **Disabled** globally. Reason below.              |
 | `tag-pair`           |     3 | Enabled; offending files ignored. See below.      |
 | `spec-char-escape`   |     3 | Enabled; offending files ignored. See below.      |
+| `id-unique`          |     1 | Enabled; offending file ignored. See below.       |
 | `attr-lowercase`     |     1 | Enabled; offending file ignored. See below.       |
 
 ### Rule: `doctype-first` — DISABLED
@@ -36,10 +38,10 @@ layout: default
 ```
 
 htmlhint sees `---` as non-comment content before `<!DOCTYPE>` and
-flags every page. The actual `<!DOCTYPE html>` lives in
-`_layouts/default.html` and is emitted into every built page in
-`_site/`. Checking it at the source level is not meaningful; pa11y-ci
-will exercise the built pages in CI.
+flags every such page (52 of 72 source files). The actual
+`<!DOCTYPE html>` lives in `_layouts/default.html` and is emitted
+into every built page in `_site/`. Checking it at the source level is
+not meaningful; pa11y-ci will exercise the built pages in CI.
 
 ### Ignored files (via `--ignore` in `npm run lint:html`)
 
@@ -53,6 +55,8 @@ should fix before we remove them from the ignore list:
   around line 30.
 - **`events.html`** — `<iframe allowTransparency="true">` uses the
   legacy camelCase attribute name.
+- **`events/archive.html`** — duplicate `id="#event-2024-02-27-solid-world"`
+  around line 150 (two archived events share the same anchor id).
 
 Once the sweeper repairs these, remove the corresponding entry from
 the `--ignore` argument in `package.json` → `scripts.lint:html`.
@@ -92,11 +96,21 @@ the top of `.stylelintrc.json`.
 
 ## pa11y-ci — `.pa11yci`
 
-pa11y-ci cannot run during this setup — it requires the Jekyll site
-to be built and served. A dry-run baseline will be captured the first
-time the GitHub Actions workflow runs. Expected output at that point:
-the sweeper agent should pick up axe-core issues (missing alt text,
-contrast, etc.) from the workflow summary and log them here.
+`npm run lint:a11y` runs pa11y-ci against `http://127.0.0.1:4000/…`
+but **does not start the Jekyll server itself**. That is deliberate:
+in CI the `lint.yml` workflow brings the server up once with
+`bundle exec jekyll serve --detach` before invoking pa11y-ci, and
+developers running locally can do the same (`bundle exec jekyll serve
+--detach && npm run lint:a11y`). For that reason `npm run lint:all`
+intentionally resolves to `npm run lint` (html + css only) — it does
+not chain the a11y target, so a plain checkout will never fail with
+"connection refused".
+
+pa11y-ci cannot run during initial wiring — it requires the Jekyll
+site to be built and served. A dry-run baseline will be captured the
+first time the GitHub Actions workflow runs. Expected output at that
+point: the sweeper agent should pick up axe-core issues (missing alt
+text, contrast, etc.) from the workflow summary and log them here.
 
 Ignored rules / thresholds are currently **empty** — WCAG2AA
 zero-error target. If the first real run produces >50 occurrences of

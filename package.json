@@ -4,10 +4,10 @@
   "description": "Source of https://solidproject.org — Jekyll static site. This package.json exists only to wire up dev-time linting (htmlhint, pa11y-ci, stylelint).",
   "scripts": {
     "lint": "npm run lint:html && npm run lint:css",
-    "lint:html": "htmlhint --ignore \"press.html,specification.html,events.html\" \"*.html\" \"_layouts/**/*.html\"",
+    "lint:html": "htmlhint --ignore \"_site/**,node_modules/**,rdfa/**,press.html,specification.html,events.html,events/archive.html\" \"**/*.html\"",
     "lint:css": "stylelint \"assets/css/**/*.css\"",
     "lint:a11y": "pa11y-ci --config .pa11yci",
-    "lint:all": "npm run lint && npm run lint:a11y"
+    "lint:all": "npm run lint"
   },
   "devDependencies": {
     "htmlhint": "1.9.2",
