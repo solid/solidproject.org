@@ -8,3 +8,6 @@ _site
 vendor
 rdfa/node_modules
 rdfa/package-lock.json
+node_modules
+.cache
+pa11y-report.json
