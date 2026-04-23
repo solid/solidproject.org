@@ -108,12 +108,22 @@ run_once() {
     return 0
   }
 
-  # Install deps if missing (first-run in a fresh worktree).
-  if [ ! -d "$WORKTREE/node_modules" ]; then
+  # Install deps on first run in the worktree AND every time the
+  # lockfile content changes for the commit we're about to test.
+  # Otherwise Playwright / axe-core version drift across commits will
+  # produce false PASS/FAIL against stale installs.
+  local lock_hash=""
+  if [ -f "$WORKTREE/package-lock.json" ]; then
+    lock_hash=$(/sbin/md5 -q "$WORKTREE/package-lock.json" 2>/dev/null || /usr/bin/md5sum "$WORKTREE/package-lock.json" 2>/dev/null | /usr/bin/cut -d' ' -f1)
+  fi
+  local last_lock_hash=""
+  [ -f "$WORKTREE/.watcher-lockhash" ] && last_lock_hash=$(/usr/bin/cat "$WORKTREE/.watcher-lockhash")
+  if [ ! -d "$WORKTREE/node_modules" ] || [ "$lock_hash" != "$last_lock_hash" ]; then
     (cd "$WORKTREE" && npm ci --silent >>"$LOG" 2>&1) || {
       emit "[watcher:ERROR] npm ci in worktree failed"
       return 0
     }
+    printf '%s\n' "$lock_hash" > "$WORKTREE/.watcher-lockhash"
   fi
 
   # Run the targeted suite.
@@ -148,10 +158,12 @@ run_once() {
 
   # --- auto-revert execution -----------------------------------------
 
-  # Put the worktree on a real branch aligned with the remote tip, so
-  # the revert commits to a branch and the push is fast-forward-safe.
-  git -C "$WORKTREE" checkout --quiet -B "$BRANCH" "$REMOTE/$BRANCH" 2>>"$LOG" || {
-    emit "[watcher:ERROR] could not align worktree branch to $REMOTE/$BRANCH"
+  # Stay on a DETACHED HEAD at the remote tip. We must not check out
+  # the shared branch name in this worktree — Git refuses to let the
+  # same branch be checked out in two linked worktrees at once, and
+  # the implementer's primary checkout already has it.
+  git -C "$WORKTREE" checkout --quiet --detach "$REMOTE/$BRANCH" 2>>"$LOG" || {
+    emit "[watcher:ERROR] could not align detached HEAD to $REMOTE/$BRANCH"
     return 0
   }
   if ! git -C "$WORKTREE" revert --no-edit --no-gpg-sign "$latest" >>"$LOG" 2>&1; then
@@ -164,6 +176,9 @@ run_once() {
 
 [watcher:auto-revert]" >>"$LOG" 2>&1 || true
 
+  # Push the detached HEAD to the remote branch ref. This is a
+  # fast-forward because we detached from $REMOTE/$BRANCH + one
+  # revert commit, so it advances the branch cleanly.
   if git -C "$WORKTREE" push "$REMOTE" "HEAD:refs/heads/$BRANCH" >>"$LOG" 2>&1; then
     local new_head
     new_head=$(git -C "$WORKTREE" rev-parse HEAD)
