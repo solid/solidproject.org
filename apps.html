@@ -700,12 +700,12 @@ breadcrumbs:
             applyAll();
           });
         }
-        // TOC clicks always reset the category filter + any active name
-        // sort to 'all' / 'default' so the target section is guaranteed
-        // to be rendered and visible when the anchor scrolls to it.
-        // (A name-sort collapses all tiles into a flat grid where the
-        // category heading does not exist, which would otherwise leave
-        // the anchor pointing at nothing.)
+        // TOC clicks reset every filter / sort / search that could hide
+        // the target section, so the anchor is guaranteed to land on a
+        // visible heading. A name-sort collapses tiles into a flat grid
+        // with no per-category headings, and an active search or the
+        // 'first-time user picks only' toggle could also leave the
+        // target empty.
         if (tocList) {
           tocList.addEventListener('click', function (e) {
             const link = e.target.closest('a[data-category]');
@@ -719,6 +719,16 @@ breadcrumbs:
             if (sortSelect && currentSort.startsWith('name')) {
               sortSelect.value = '';
               currentSort = '';
+              changed = true;
+            }
+            if (searchInput && searchInput.value !== '') {
+              searchInput.value = '';
+              currentSearch = '';
+              changed = true;
+            }
+            if (topAppsOnlyCheckbox && topAppsOnlyCheckbox.checked) {
+              topAppsOnlyCheckbox.checked = false;
+              showTopAppsOnly = false;
               changed = true;
             }
             if (changed) applyAll();
