@@ -182,10 +182,11 @@ test.describe('PR-960 regression', () => {
         `Toolbar inputs disagree on Y top by ${maxTop - minTop}px (tops=${tops.join(', ')})`,
       ).toBeLessThanOrEqual(1);
 
-      // And the labels (the visible "Sort by" / "Category" captions) must
-      // share a Y baseline too — else they visually wobble above the
-      // inputs.
+      // And the labels (the visible "Search apps" / "Sort by" /
+      // "Category" captions) must share a Y baseline too — else they
+      // visually wobble above the inputs.
       const labelBoxes = await Promise.all([
+        page.locator('label[for="app-search"]').boundingBox(),
         page.locator('label[for="sort-select"]').boundingBox(),
         page.locator('label[for="category-filter"]').boundingBox(),
       ]);

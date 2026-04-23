@@ -568,6 +568,15 @@
   justify-content: flex-end;
 }
 
+/* The checkbox control-group has no label + control pair, so with the
+   toolbar flex row set to align-items:flex-start the lone checkbox
+   would jump up to the label baseline instead of resting on the
+   input row. Pull it back down so it aligns with the bottom of the
+   selects, matching the visual rhythm of the other controls. */
+.apps-toolbar .control-group--check {
+  align-self: flex-end;
+}
+
 .sort-controls select {
   box-sizing: border-box;
   height: var(--apps-toolbar-control-height, 2.5rem);
