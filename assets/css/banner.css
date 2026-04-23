@@ -1,20 +1,20 @@
 /* Event Banner */
 .event-banner {
-    background-color: #7C4DFF;
-    color: #fff;
+    background-color: var(--color-brand);
+    color: var(--color-brand-contrast);
     text-align: center;
-    padding: 0.6rem 1rem;
-    font-size: 1rem;
+    padding: 0.6rem var(--space-4);
+    font-size: var(--fs-base);
     line-height: 1.4;
 }
 
 .event-banner a {
-    color: #fff;
+    color: var(--color-brand-contrast);
     text-decoration: underline;
     font-weight: bold;
 }
 
 .event-banner a:hover,
 .event-banner a:focus {
-    color: #fff;
+    color: var(--color-brand-contrast);
 }

@@ -1,20 +1,20 @@
 /* Footer Styles */
 .footer {
-    background-color: #202542;
-    color: #d8d8d8;
-    font-size: 1rem;
+    background-color: var(--color-footer-bg);
+    color: var(--color-footer-text);
+    font-size: var(--fs-base);
     padding: 3.2rem 3.2rem 3.1rem 3.1rem;
 }
 
 .footer a {
-    color: #d8d8d8;
+    color: var(--color-footer-text);
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color var(--motion-slow) ease;
 }
 
 .footer a:hover,
 .footer a:focus {
-    color: #fff;
+    color: var(--color-footer-text-hover);
     text-decoration: underline;
 }
 
@@ -28,7 +28,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto;
-    gap: .4rem 2rem;
+    gap: .4rem var(--space-6);
     margin: 0;
     padding: 0;
 }
@@ -91,14 +91,14 @@
 
 /* Footer social nav styles */
 .footer .social-nav {
-    margin-top: 3.2rem;
+    margin-top: var(--space-8);
 }
 
 .footer .social-nav ul {
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: var(--space-4);
     list-style: none;
     margin: 0;
     padding: 0;
@@ -141,7 +141,7 @@
     }
 
     .footer .footer-nav dt:not(:first-child) {
-        margin-top: 2rem;
+        margin-top: var(--space-6);
     }
     
     /* Reset positioning for mobile layout - stack vertically */
