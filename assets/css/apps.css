@@ -150,19 +150,23 @@
 }
 
 /* Desktop: nav becomes a sticky side-rail inside the apps-layout
-   left column. `top: 1rem` clears the site header area; `z-index: 10`
-   keeps the rail above the grid but below the site header
-   (z-index: 1001 — see assets/css/header.css) so the nav never
-   eclipses the main-nav when both are visible. `max-height` lets the
-   rail scroll internally when there are more categories than fit
-   under the viewport. */
+   left column, sitting BELOW the sticky toolbar once both are
+   pinned. The top offset budgets for the toolbar's height so the
+   TOC never slides under the toolbar; 7rem is a conservative value
+   covering a two-row toolbar under the default font. `z-index: 10`
+   keeps the rail above the grid but below both the site header
+   (z-index: 1001) and the sticky toolbar (z-index: 9 — actually
+   lower than TOC, but they live in different grid rows so their
+   rects never overlap once `top` clears the toolbar). `max-height`
+   lets very long category lists scroll inside the rail rather
+   than stretching the page. */
 @media (min-width: 1025px) {
   .apps-categories-nav {
     margin: 0;
     position: sticky;
-    top: 1rem;
+    top: var(--apps-toolbar-sticky-offset, 7rem);
     z-index: 10;
-    max-height: calc(100vh - 2rem);
+    max-height: calc(100vh - var(--apps-toolbar-sticky-offset, 7rem) - 1rem);
     overflow-y: auto;
   }
 }
@@ -173,37 +177,40 @@
   color: var(--color-text);
 }
 
+/* Category list: a plain grid of text links — no pill chrome. The
+   earlier design wrapped each link in a grey rounded-pill card; in
+   practice that added visual weight without improving scanning, so
+   the presentation is now a simple two-column grid inside the
+   sidebar (desktop) or a single horizontally-scrolling row
+   (tablet / mobile). Hover / focus is indicated with colour + a
+   subtle brand underline, not a filled shape. */
 .apps-categories-nav__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 0.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.35rem 0.75rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* Desktop rail: stack the pills vertically so the left column reads
-   as a table of contents, with each pill a full-width hit target. */
+/* Desktop rail: single-column grid so each link has a full, easy
+   hit target while the TOC stays narrow. */
 @media (min-width: 1025px) {
   .apps-categories-nav__list {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 0.35rem;
-  }
-  .apps-categories-nav__link {
-    display: flex;
-    width: 100%;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.25rem;
   }
 }
 
 /* Everything below the side-rail breakpoint (mobile AND tablet).
-   The TOC stays above the grid here, and the pill list scrolls
-   horizontally instead of wrapping into 3–5 rows on tablet
-   widths — which would push the apps grid way down the viewport.
+   The TOC stays above the grid here, and the category list collapses
+   into a single horizontally-scrolling row rather than wrapping into
+   multiple rows that push the apps grid far down the viewport.
    ≤781px refines these with narrower padding; this block is the
    shared base. */
 @media (max-width: 1024px) {
   .apps-categories-nav__list {
+    display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     padding-bottom: 0.25rem;
@@ -215,23 +222,21 @@
 }
 
 .apps-categories-nav__link {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.35rem 0.75rem;
-  font-size: 0.9rem;
+  display: block;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.95rem;
   color: var(--color-text);
-  background: var(--color-surface-muted);
-  border: 1px solid var(--color-border-muted);
-  border-radius: 999px;
   text-decoration: none;
-  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s ease, background-color 0.15s ease;
 }
 
 .apps-categories-nav__link:hover,
 .apps-categories-nav__link:focus-visible {
-  background: var(--color-brand);
-  color: var(--color-brand-contrast);
-  border-color: var(--color-brand);
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
   outline: none;
 }
 
@@ -514,6 +519,16 @@
   background: var(--color-surface-muted);
   border: 1px solid var(--color-border-muted);
   border-radius: var(--radius-md);
+  /* Stick to the top of the viewport as the reader scrolls the grid.
+     Keeps search + sort + filter one glance away without a trip back
+     up the page. `top: 0` sits it flush under the site header; the
+     site header is z-index: 1001 so the toolbar passes under it at
+     its z-index: 9, and the side-rail TOC (z-index: 10) passes under
+     the toolbar too. Opaque surface background so tile content doesn't
+     bleed through. */
+  position: sticky;
+  top: 0;
+  z-index: 9;
 }
 
 /* Shared row metrics so every label and every form control in the
@@ -600,6 +615,10 @@
 @media (max-width: 781px) {
   .apps-toolbar {
     grid-template-columns: 1fr;
+    /* Sticky toolbar on a narrow phone would eat ~40% of the
+       viewport's vertical real estate as the search + controls stack
+       to 3+ rows. Drop back to static positioning here. */
+    position: static;
   }
   .apps-toolbar__search,
   .apps-toolbar__controls {
