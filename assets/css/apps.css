@@ -83,16 +83,6 @@
   box-shadow: var(--focus-ring-brand), var(--shadow-2-strong);
 }
 
-.apps-hero__note {
-  margin: 0;
-  font-size: 0.95rem;
-  color: var(--color-text-muted);
-}
-
-.apps-hero__note a {
-  color: var(--color-brand);
-}
-
 /** Apps layout — side-rail TOC + grid */
 .apps-layout {
   /* Mobile default: single column. The TOC sits above the grid,
