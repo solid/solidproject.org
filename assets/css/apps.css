@@ -301,6 +301,18 @@
   border-radius: var(--radius-md);
 }
 
+/* Quiet meta sentence below the grid: endorsement disclaimer + a
+   pointer to the For Developers page for the full listing criteria
+   and PR instructions. Kept small and subtle so the grid itself
+   stays the primary content. */
+.apps-disclaimer {
+  margin: 2.5rem auto 0 auto;
+  max-width: 60rem;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
 /* Tiles with the .hidden flag are removed from the visual grid. */
 .tiles li.hidden {
   display: none !important;

@@ -73,20 +73,45 @@ breadcrumbs:
   </div>
 </section>
 
-<section resource="#open_source_solid_apps" inlist="" rel="hasPart" class="article-section">
-  <h2 id="open_source_solid_apps" property="name">Open Source Solid Apps</h2>
+<section resource="#solid_server_implementations" inlist="" rel="hasPart" class="article-section">
+  <h2 id="solid_server_implementations" property="name">Solid Server implementations</h2>
   <div datatype="rdf:HTML" property="description">
-    <p>You can check the open source code of some existing <a href="/apps">Solid apps</a>.</p>
+    <p>Implementations of the Solid Protocol that host Pods and serve Solid apps. Pick one if you want to run your own infrastructure or integrate the protocol into an existing stack.</p>
     <ul>
-      <li>0data Hello with Solid: <a href="https://github.com/0dataapp/hello/tree/main/solid/solid-file-client" rel="noopener noreferrer">Source code</a></li>
-      <li>Booklice: <a href="https://github.com/scenaristeur/booklice/" rel="noopener noreferrer">Source code</a></li>
-      <li>dokieli: <a href="https://git.dokie.li/" rel="noopener noreferrer">Source code</a> under <a href="https://github.com/dokieli/dokieli/blob/main/LICENSE" rel="noopener noreferrer">Apache License, Version 2.0</a> © 2012-2025 by <a href="https://csarven.ca/#i" rel="noopener noreferrer">Sarven Capadisli</a></li>
-      <li>Media Kraken: <a href="https://github.com/NoelDeMartin/media-kraken" rel="noopener noreferrer">Source code</a> under <a href="https://github.com/NoelDeMartin/media-kraken/blob/main/LICENSE" rel="noopener noreferrer">GNU General Public License v3.0 © 2020</a> by <a href="https://noeldemartin.com" rel="noopener noreferrer">Noel De Martin</a> (<a href="https://github.com/NoelDeMartin/media-kraken/tree/main/docs" rel="noopener noreferrer">Documentation</a> - <a href="https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333">Provide Feedback</a>)</li>
-      <li>Penny: <a href="https://penny.vincenttunru.com/" rel="noopener noreferrer">Source code</a> by <a href="https://vincenttunru.com/" rel="noopener noreferrer">Vincent Tunru</a></li>
-      <li>PodOS: <a href="https://github.com/pod-os/PodOS" rel="noopener noreferrer">Source code</a></li>
-      <li>Solid File Manager: <a href="https://github.com/Otto-AA/solid-filemanager" rel="noopener noreferrer">Source code</a> under <a href="https://github.com/Otto-AA/solid-filemanager/blob/master/LICENSE" rel="noopener noreferrer">MIT License Copyright © 2019</a> by <a href="https://github.com/Otto-AA" rel="noopener noreferrer">Otto AA</a></li>
-      <li>Solidflix: <a href="https://github.com/OxfordHCC/solid-media" rel="noopener noreferrer">Source code</a> by <a href="https://www.cs.ox.ac.uk/research/HCC/" rel="noopener noreferrer">Oxford Human Centred Computing Group</a> (<a href="https://www.cs.ox.ac.uk/research/HCC/" rel="noopener noreferrer">EWADA</a> Project)</li>
-      <li>Umai: <a href="https://github.com/noeldemartin/umai" rel="noopener noreferrer">Source code</a> under <a href="https://github.com/NoelDeMartin/umai/blob/main/LICENSE" rel="noopener noreferrer">GNU General Public License v3.0 © 2023</a> by <a href="https://noeldemartin.com" rel="noopener noreferrer">Noel De Martin</a></li>
+      <li><a href="https://communitysolidserver.github.io/CommunitySolidServer/latest/" class="external-link" rel="noopener noreferrer">Community Solid Server</a></li>
+      <li><a href="https://www.inrupt.com/products/enterprise-solid-server" class="external-link" rel="noopener noreferrer">Enterprise Solid Server</a></li>
+      <li><a href="https://graphmetrix.com/trinpod-server" class="external-link" rel="noopener noreferrer">Trinpod</a></li>
+      <li><a href="https://manomayam.github.io/manas/introduction.html" class="external-link" rel="noopener noreferrer">Manas</a></li>
+      <li><a href="https://github.com/nodeSolidServer/node-solid-server" class="external-link" rel="noopener noreferrer">Node Solid Server</a></li>
+      <li><a href="https://pdsinterop.org/php-solid-server/" class="external-link" rel="noopener noreferrer">PHP Solid Server</a></li>
     </ul>
+  </div>
+</section>
+
+<section resource="#apps_page_listing" inlist="" rel="hasPart" class="article-section">
+  <h2 id="apps-page-listing" property="name">Listing your app on the Solid Apps page</h2>
+  <div datatype="rdf:HTML" property="description">
+    <p>Built a Solid app and want it on the <a href="/apps">Solid Apps</a> page? To be considered Solid-compatible, your app should:</p>
+    <ul>
+      <li>Let users log in with their WebID, pointing to the Identity Provider of their choice (if the app identifies users at all)</li>
+      <li>Read data from the user&rsquo;s Solid Pod where possible</li>
+      <li>Write the data it generates back to the user&rsquo;s Solid Pod</li>
+      <li>Talk to Pods and Identity Providers in ways that follow the <a href="/TR/">Solid specifications</a></li>
+    </ul>
+    <p>Even if an app meets the criteria above, we will not list it if it:</p>
+    <ul>
+      <li>Causes harm to anyone, directly or indirectly</li>
+      <li>Has a purpose most people would consider unethical</li>
+      <li>Generates or spreads hate speech</li>
+      <li>Encourages stereotypes or violent behaviours towards any person or group</li>
+      <li>Has malicious intent, such as data theft</li>
+      <li>Exists to serve illegal purposes, such as drug trafficking, trading stolen information, or extortion</li>
+      <li>Shares user information with a third party without the user&rsquo;s consent</li>
+      <li>Has been reported to have serious technical or security issues that compromise its users&rsquo; Pods</li>
+    </ul>
+    <h3 id="how-to-submit">How to submit your app</h3>
+    <p>Open a pull request against <a href="https://github.com/solid/solidproject.org" class="external-link" rel="noopener noreferrer">solid/solidproject.org</a> on GitHub and add a new <code>&lt;li data-name&gt;</code> tile to <code>apps.html</code> in the appropriate category. Copy an existing tile as a template &mdash; each carries a link to the hosted app, a short description, a logo under <code>/assets/img/logo/</code>, and a <code>.app-source</code> line with the source-code link. Reviewers on the repo will merge once the criteria above are met.</p>
+    <p>If you prefer not to open a PR, contact the <a href="https://theodi.org/insights/projects/odi-and-solid-building-a-future-where-data-works-for-everyone/" class="external-link" rel="noopener noreferrer">Open Data Institute</a> at <a href="mailto:solid+info@theodi.org">solid+info@theodi.org</a> with a short description and the app URL.</p>
+    <p>Inclusion is not an endorsement by the Solid Project. Apps are not tested, and no security or quality guarantee is implied. The list exists to showcase the Solid community.</p>
   </div>
 </section>
