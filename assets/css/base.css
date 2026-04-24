@@ -36,6 +36,17 @@
     font-display: swap;
 }
 
+:root {
+  --main-padding: 1.5rem 3.2rem 1.6rem 3.1rem;
+  --main-padding-narrow: 1.5rem 1.6rem 1.6rem 1.5rem;
+}
+
+@media (max-width: 800px) {
+  :root {
+    --main-padding: 1.5rem 1.6rem 1.6rem 1.5rem;
+    --main-padding-narrow: .5rem 1.6rem .6rem 1.5rem;
+  }
+}
 
 /* Defaults */
 body {
@@ -58,8 +69,17 @@ h2, h3, h4, h5, h6 {
 main {
   background-color: #fff;
   color: #202542;
-  padding: 3.1rem 3.2rem 3.2rem 3.1rem;
+  padding: var(--main-padding);
 }
+
+.header {
+  padding: var(--main-padding-narrow);
+}
+
+.footer {
+    padding: var(--main-padding);
+}
+
 
 main > article::after {
   clear: both;
