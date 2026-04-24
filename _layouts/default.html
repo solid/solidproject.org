@@ -1,41 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script>
-      // No-flash theme bootstrap. Runs before any CSS is applied so the
-      // document already carries the right data-theme attribute when
-      // the first paint happens.
-      //
-      // Dark mode is OPT-IN. A first-time visitor always sees light
-      // regardless of their OS colour scheme — only localStorage evidence
-      // that they've pressed the header toggle activates dark.
-      // Anchored to <html> only — the rest of the code base (tokens,
-      // toggle button, tests) expects data-theme on document.documentElement.
-      //
-      // The <meta name="theme-color"> tag below is parsed AFTER this
-      // script, so we can't mutate it here. We stash the resolved theme
-      // on window.__solidResolvedTheme so the meta tag can read it
-      // inline via a tiny follow-up script that runs once the meta is
-      // in the DOM — still before first paint on every browser that
-      // snapshots theme-color during parsing.
-      (function () {
-        var resolved = 'light';
-        try {
-          var stored = localStorage.getItem('solid-theme');
-          if (stored === 'dark') {
-            resolved = 'dark';
-          }
-        } catch (e) {
-          // localStorage blocked (private mode, strict cookie policy,
-          // etc.) — stay on the default light theme.
-        }
-        window.__solidResolvedTheme = resolved;
-        // Always set data-theme so menu.js, the toggle's aria-pressed
-        // state, and the dark-mode axe tests can rely on the attribute
-        // being present regardless of storage availability.
-        document.documentElement.setAttribute('data-theme', resolved);
-      })();
-    </script>
     <meta charset="UTF-8" />
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     {% if page.permalink %}<link rel="canonical" href="{{ page.permalink | prepend: site.base_url }}">{% endif %}
@@ -46,27 +11,7 @@
     <meta property="og:url" content="{{ page.permalink | prepend: site.base_url }}" />{% endif %}
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta property="og:locale" content="en" />
-    <!-- Dynamic theme-color — menu.js updates `content` in response to
-         toggle clicks. On initial parse, the follow-up `<script>` below
-         also patches the value to match the resolved data-theme BEFORE
-         first paint, so browsers that snapshot `theme-color` during
-         parsing (some mobile chromes) see the opted-in dark value when
-         a returning dark user loads the page. We deliberately do NOT
-         emit a `media="(prefers-color-scheme: dark)"` sibling meta,
-         because dark mode is opt-in: browser chrome should follow our
-         explicit toggle state, not the user's OS preference. -->
-    <meta name="theme-color" content="#7C4DFF" id="theme-color-meta">
-    <script>
-      // Runs immediately after the meta tag is parsed. Keeps browser
-      // chrome consistent with the resolved theme for the whole
-      // first-paint window.
-      (function () {
-        var resolved = window.__solidResolvedTheme;
-        if (resolved !== 'dark') return;
-        var meta = document.getElementById('theme-color-meta');
-        if (meta) meta.setAttribute('content', '#0a0c11');
-      })();
-    </script>
+    <meta name="theme-color" content="#7C4DFF">
     <link type="application/atom+xml" rel="alternate" href="{{ site.base_url }}/feed.xml" title="{{ site.title }}" />
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
@@ -75,60 +20,15 @@
       <address class="homepage-link">
         <a href="/"><img alt="Solid logo" src="/assets/img/solid-emblem.svg" /> Solid</a>
       </address>
-      <nav class="main-nav" aria-label="Main">
+      <nav class="main-nav">
         <ul>
-          <li class="main-nav__cta-item">
-            <a class="main-nav__cta" href="/get_a_pod">Get Started</a>
-          </li>
-          <li class="main-nav__group">
-            <button type="button" class="main-nav__trigger" aria-expanded="false" aria-controls="main-nav-learn">
-              Learn more
-              <svg class="main-nav__caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" focusable="false">
-                <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </button>
-            <ul class="main-nav__submenu" id="main-nav-learn" hidden>
-              <li><a href="/about">About Solid</a></li>
-              <li><a href="/for_developers">For Developers</a></li>
-              <li><a href="/for_organisations">For Organisations</a></li>
-              <li><a href="/FAQ">FAQ</a></li>
-              <li><a href="/TR/">Specifications</a></li>
-            </ul>
-          </li>
-          <li class="main-nav__group">
-            <button type="button" class="main-nav__trigger" aria-expanded="false" aria-controls="main-nav-involved">
-              Get Involved
-              <svg class="main-nav__caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" focusable="false">
-                <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </button>
-            <ul class="main-nav__submenu" id="main-nav-involved" hidden>
-              <li><a href="/community">Community</a></li>
-              <li><a href="/events">Events</a></li>
-              <li><a href="https://forum.solidproject.org" class="external-link" rel="noopener noreferrer">Forum</a></li>
-              <li><a href="/newsletter">Newsletter</a></li>
-            </ul>
-          </li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/for_users">For Users</a></li>
+          <li><a href="/for_developers">For Developers</a></li>
+          <li><a href="/for_organisations">For Organisations</a></li>
+          <li><a href="/community">Community</a></li>
         </ul>
       </nav>
-      <button type="button" class="theme-toggle" aria-label="Toggle colour theme" aria-pressed="false">
-        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <circle cx="12" cy="12" r="4.2" fill="currentColor"/>
-          <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
-            <line x1="12" y1="2.5" x2="12" y2="5"/>
-            <line x1="12" y1="19" x2="12" y2="21.5"/>
-            <line x1="2.5" y1="12" x2="5" y2="12"/>
-            <line x1="19" y1="12" x2="21.5" y2="12"/>
-            <line x1="5.3" y1="5.3" x2="7" y2="7"/>
-            <line x1="17" y1="17" x2="18.7" y2="18.7"/>
-            <line x1="5.3" y1="18.7" x2="7" y2="17"/>
-            <line x1="17" y1="7" x2="18.7" y2="5.3"/>
-          </g>
-        </svg>
-        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <path fill="currentColor" d="M20.5 14.3A8 8 0 0 1 9.7 3.5a1 1 0 0 0-1.3-1.3 10 10 0 1 0 13.4 13.4 1 1 0 0 0-1.3-1.3z"/>
-        </svg>
-      </button>
       <button class="hamburger-menu" aria-label="Toggle navigation menu">
         <span></span>
         <span></span>
@@ -136,55 +36,62 @@
       </button>
     </header>
     <div class="event-banner" role="region" aria-label="Event announcement">
-      <span aria-hidden="true">📣</span> <a href="https://sosy2026.eu/" class="external-link" rel="noopener noreferrer">Solid Symposium</a> · London · Apr 30 – May 1, 2026
+      <span aria-hidden="true">📣</span> <a href="https://sosy2026.eu/">Solid Symposium</a> (Apr 30 – May 1) · <a href="https://www.eventbrite.co.uk/e/solid26-preview-building-personal-apps-and-ai-agents-tickets-1986060301826">Solid Hackathon</a> (Apr 27 – 29) · London, 2026
     </div>
-    {%- comment -%}
-      Breadcrumb nav removed: the header nav + Get Started funnel
-      gives visitors enough orientation, and the breadcrumbs were
-      duplicating the browser tab title / heading. `page.breadcrumbs`
-      frontmatter on individual pages is now a no-op; leaving the
-      entries in place does no harm and safely delete-later.
-    {%- endcomment -%}
+    {% if page.breadcrumbs %}
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ol>
+        <li><a href="/">Home</a></li>
+        {% for breadcrumb in page.breadcrumbs %}
+          {% if forloop.last %}
+            <li><a href="#" aria-current="page">{{ breadcrumb.title }}</a></li>
+          {% else %}
+            <li><a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </nav>{% endif %}
     <main>
 {{ content }}
     </main>
     <footer class="footer">
       <dl class="footer-nav">
-        <dt>Start here</dt>
+        <dt>Solid</dt>
         <dd>
           <ul>
-            <li><a href="/get_a_pod">Get a Pod</a></li>
-            <li><a href="/apps">Apps</a></li>
-          </ul>
-        </dd>
-        <dt>Learn more</dt>
-        <dd>
-          <ul>
-            <li><a href="/about">About Solid</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/for_users">For Users</a></li>
             <li><a href="/for_developers">For Developers</a></li>
             <li><a href="/for_organisations">For Organisations</a></li>
-            <li><a href="/FAQ">FAQ</a></li>
-            <li><a href="/TR/">Specifications</a></li>
+            <li><a href="/community">Community</a></li>
           </ul>
         </dd>
-        <dt>Get Involved</dt>
+        <dt>What's New</dt>
         <dd>
           <ul>
-            <li><a href="/community">Community</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="https://forum.solidproject.org" class="external-link" rel="noopener noreferrer">Forum</a></li>
             <li><a href="/newsletter">Newsletter</a></li>
             <li><a href="/press">Press</a></li>
+            <li><a href="/events">Solid Events</a></li>
           </ul>
         </dd>
-        <dt>Project</dt>
+        <dt>Getting Involved</dt>
         <dd>
           <ul>
-            <li><a href="/team">Team</a></li>
             <li><a href="/code_of_conduct">Code of Conduct</a></li>
-            <li><a href="https://service.theodi.org/help/1476250723" class="external-link" rel="noopener noreferrer">Feedback &amp; Support</a></li>
-            <li><a href="/logo_usage_guidelines">Logo usage</a></li>
+            <li><a href="https://forum.solidproject.org">Forum</a></li>
+            <li><a href="/apps">Solid Applications</a></li>
+            <li><a href="/TR">Specifications</a></li>
+          </ul>
+        </dd>
+        <dt>More</dt>
+        <dd>
+          <ul>
+            <li><a href="/FAQ">FAQ</a></li>
+            <li><a href="https://service.theodi.org/help/1476250723">Feedback & Support</a></li>
             <li><a href="/license">License</a></li>
+            <li><a href="/logo_usage_guidelines">Logo usage guidelines</a></li>
+            <li><a href="/team">Team</a></li>
             <li><a href="/terms">Terms of Use</a></li>
           </ul>
         </dd>
@@ -198,16 +105,16 @@
             <a href="mailto:solid+info@theodi.org" title="Get in touch for Info about Solid">solid+info@theodi.org</a>
           </li>
           <li>
-            <a href="https://github.com/solid/" class="external-link" rel="noopener noreferrer" title="Solid on GitHub"><img src="/assets/img/icon/github.svg" alt="GitHub" class="icon" /></a>
+            <a href="https://github.com/solid/" title="Solid on GitHub"><img src="/assets/img/icon/github.svg" alt="GitHub" class="icon" /></a>
           </li>
           <li>
-            <a href="https://matrix.to/#/%23solid_project%3Amatrix.org" class="external-link" rel="noopener noreferrer" title="Solid Project on Matrix"><img src="/assets/img/icon/matrix.svg" alt="Matrix" class="icon" /></a>
+            <a href="https://matrix.to/#/%23solid_project%3Amatrix.org" title="Solid Project on Matrix"><img src="/assets/img/icon/matrix.svg" alt="Matrix" class="icon" /></a>
           </li>
           <li>
-            <a href="https://share.hsforms.com/1ZMMECk5wT2qYhxouAW-zpQg1jy" class="external-link" rel="noopener noreferrer" title="Signup to receive news about Solid"><img src="/assets/img/icon/envelope.svg" alt="Newsletter" class="icon" /></a>
+            <a href="https://share.hsforms.com/1ZMMECk5wT2qYhxouAW-zpQg1jy" title="Signup to receive news about Solid"><img src="/assets/img/icon/envelope.svg" alt="Newsletter" class="icon" /></a>
           </li>
           <li>
-            <a href="https://vimeo.com/solidworld" class="external-link" rel="noopener noreferrer" title="Solid on Vimeo"><img src="/assets/img/icon/vimeo-v.svg" alt="Vimeo" class="icon" /></a>
+            <a href="https://vimeo.com/solidworld" title="Solid on Vimeo"><img src="/assets/img/icon/vimeo-v.svg" alt="Vimeo" class="icon" /></a>
           </li>
           <li>
             <a href="/feed.xml" title="Solid Project RSS feed"><img src="/assets/img/icon/rss.svg" alt="RSS" class="icon" /></a>

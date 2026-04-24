@@ -1,7 +1,6 @@
 ---
 permalink: /apps
 layout: article
-hide_title: true
 title: "Solid Applications"
 description: "Solid returns the web to its original vision of empowering individuals and enabling collaboration. You choose which applications to use with your data rather than being locked into specific platforms."
 image: "/assets/img/graphics/store-anything-medium.svg"
@@ -10,117 +9,135 @@ breadcrumbs:
 ---
 
 <div datatype="rdf:HTML" property="description">
-  <section class="apps-hero page-hero--split" aria-labelledby="apps-hero-heading">
-    <div class="apps-hero__content">
-      <p class="apps-hero__eyebrow">Solid app launcher</p>
-      <h1 id="apps-hero-heading" class="apps-hero__headline">Find an app, keep your data</h1>
-      <p class="apps-hero__lede">Solid apps read and write to a personal data store that you own, so you can switch apps without leaving your information behind.</p>
-      <div class="apps-hero__actions">
-        <a class="apps-hero__cta" href="/get_a_pod">Don&rsquo;t have a pod yet? Get one first</a>
-      </div>
-    </div>
-    <div class="page-hero__figure" aria-hidden="true">
-      <img src="/assets/img/graphics/store-anything-medium.svg" alt="" />
-    </div>
-  </section>
+  <p>Solid returns the web to its original vision of empowering individuals and enabling collaboration. You choose which applications to use with your data rather than being locked into specific platforms.</p>
+  <p>You can now use the app launcher to discover and launch Solid applications.</p>
+  <p>Before you use any of the Solid apps, you need to <a href="/get_a_pod">get a Solid personal online data store</a> (Pod) first.</p>
 </div>
 
 <section resource="#app_launcher" inlist="" rel="hasPart" class="article-section">
   <h2 id="app_launcher" property="name">App Launcher</h2>
   <div datatype="rdf:HTML" property="description">
-    <!-- Featured / Editor's picks row. JS populates this on load from
-         every tile carrying a .top-app-tag in the flat list below.
-         Hidden until JS runs so no-JS users don't see an empty shell. -->
-    <section class="apps-featured" id="apps-featured" aria-labelledby="apps-featured-heading" hidden>
-      <div class="apps-featured__header">
-        <h3 id="apps-featured-heading" class="apps-featured__heading">
-          <span class="apps-featured__star" aria-hidden="true">★</span>
-          Editor&rsquo;s picks
-        </h3>
-        <p class="apps-featured__blurb">A short list of polished, general-purpose apps to try first.</p>
+    <div class="sort-controls">
+      <div class="control-group">
+        <label for="sort-select">Sort by:</label>
+        <select id="sort-select">
+          <option value="">Default Order</option>
+          <option value="name-asc">Name (A-Z)</option>
+          <option value="name-desc">Name (Z-A)</option>
+          <option value="category-asc">Category (A-Z)</option>
+          <option value="category-desc">Category (Z-A)</option>
+        </select>
       </div>
-      <ul class="tiles tile-links apps-featured__grid" id="apps-featured-grid"></ul>
-    </section>
-    <!-- Side-rail search + TOC + grid. Desktop (≥1025px) renders a
-         two-column grid with a sticky sidebar on the left (search on
-         top, category TOC below) next to the apps. Mobile collapses to
-         a single column with the search and TOC stacked above the grid. -->
-    <div class="apps-layout">
-      <aside class="apps-layout__sidebar">
-        <form class="apps-sidebar__search" role="search" aria-label="Search Solid apps" onsubmit="return false;">
-          <label for="app-search" class="apps-sidebar__search-label">Search</label>
-          <input
-            type="search"
-            id="app-search"
-            class="apps-sidebar__search-input"
-            placeholder="Search apps"
-            autocomplete="off"
-          />
-        </form>
-        <nav class="apps-categories-nav" aria-label="Jump to a category" id="apps-categories-nav" hidden>
-          <p class="apps-categories-nav__label">Jump to a category</p>
-          <ul class="apps-categories-nav__list" id="apps-categories-nav-list">
-            <!-- Populated by JS from the categories present in #apps-list. -->
-          </ul>
-        </nav>
-      </aside>
-      <div class="apps-layout__main">
+      <div class="control-group">
+        <label for="category-filter">Filter by category:</label>
+        <select id="category-filter">
+          <option value="all">All Categories</option>
+          <option value="Chat">Chat</option>
+          <option value="Cooking">Cooking</option>
+          <option value="Health">Health</option>
+          <option value="Location">Location</option>
+          <option value="Movies">Movies</option>
+          <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
+          <option value="Productivity">Productivity</option>
+          <option value="Pod Management">Pod Management</option>
+          <option value="Scheduling">Scheduling</option>
+          <option value="Security">Security</option>
+          <option value="TODO List">TODO List</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label class="checkbox-label">
+          <input type="checkbox" id="top-apps-only">
+          <span class="checkmark"></span>
+          Show only first time user apps
+        </label>
+      </div>
+    </div>
+    <style>
+      /* Keep inline links inside app descriptions on the same line */
+      #apps-list li p a {
+        display: inline !important;
+        vertical-align: baseline;
+      }
+      /* Source-code paragraph rendered below the primary tile link so
+         its anchor is not nested inside the outer tile <a>. */
+      #apps-list li .app-source {
+        margin: 0 1.5rem 1.5rem 1.5rem;
+        font-size: 0.9em;
+      }
+      /* Reset the tile-level "a is a big flex block" rules (see
+         .tiles.tile-links a in base.css) for the source-code anchor so
+         it renders as a normal inline link. */
+      #apps-list li .app-source a {
+        display: inline !important;
+        padding: 0;
+        width: auto;
+        height: auto;
+        flex-grow: 0;
+        color: var(--link-color, #1a73e8);
+        text-decoration: underline;
+      }
+      #apps-list li .app-source a:focus-visible {
+        outline: 2px solid #1a73e8;
+        outline-offset: 2px;
+      }
+    </style>
     <ul class="tiles tile-links" id="apps-list">
-      <li data-name="The ODI Solid File Manager" data-category="Pod Management" data-category-intro="Inspect, browse, and file-manage the contents of your Pod.">
+      <li data-name="The ODI Solid File Manager" data-category="Pod Management">
         <a href="https://solid-file-manager.theodi.org/">
           <div class="tile-header">
-            <div class="tile-logo tile-logo--wide">
-              <img alt="Solid file manager logo" src="/assets/img/logo/file-manager-logo.svg"/>
+            <div style="width:100px; height:56px; display:flex; align-items:center; justify-content:center;">
+              <img alt="Solid file manager logo" src="/assets/img/logo/file-manager-logo.svg" style="width:100%; height:100%; object-fit:contain;"/>
             </div>
-            <h3>The ODI Solid File Manager<span class="top-app-tag" role="img" aria-label="Editor's pick">★</span></h3>
+            <h3>The ODI Solid File Manager<span class="top-app-tag">★</span></h3>
           </div>
-          <p>Browse, upload, and organise the files and folders in your Pod from a friendly web interface.</p>
+          <p>This application provides a user-friendly interface for managing files and folders in Solid Pods.</p>
         </a>
         <p class="app-source">Source code on <a href="https://github.com/solid/solid-file-manager" class="external-link" rel="noopener noreferrer">GitHub (solid/solid-file-manager)</a>.</p>
       </li>
-      <li data-name="Media Kraken" data-category="Movies" data-category-intro="Watchlists, ratings, and recommendations that follow you, not the streaming platform.">
+      <li data-name="Media Kraken" data-category="Movies">
         <a href="https://noeldemartin.github.io/media-kraken/">
           <div class="tile-header">
             <img alt="Media Kraken Logo - an Octopus" src="/assets/img/logo/media-kraken.svg"/>
-            <h3>Media Kraken<span class="top-app-tag" role="img" aria-label="Editor's pick">★</span></h3>
+            <h3>Media Kraken<span class="top-app-tag">★</span></h3>
           </div>
-          <p>Track the films you have watched and want to watch, and build your own collections.</p>
+          <p>An app that helps you keep track of movies and create your own collections.</p>
         </a>
       </li>
       <li data-name="Penny" data-category="Pod Management">
         <a href="https://penny.vincenttunru.com/">
           <div class="tile-header">
             <img alt="Solid logo - an uppercase S on a violet hexagon" src="/assets/img/solid-emblem.svg"/>
-            <h3>Penny<span class="top-app-tag" role="img" aria-label="Editor's pick">★</span></h3>
+            <h3>Penny<span class="top-app-tag">★</span></h3>
           </div>
-          <p>A developer-friendly Pod browser for inspecting and editing the raw data in your Pod.</p>
+          <p>A general Pod Browser by Vincent Tunru.</p>
         </a>
       </li>
-      <li data-name="Umai" data-category="Cooking" data-category-intro="Recipe books and meal planners that travel with you across devices.">
+      <li data-name="Umai" data-category="Cooking">
         <a href="https://umai.noeldemartin.com">
           <div class="tile-header">
             <img alt="Umai logo - a large Udon bowl" src="/assets/img/logo/umai.png"/>
             <h3>Umai</h3>
           </div>
-          <p>Save and cook your recipes offline; they sync back to your Pod when you are online.</p>
+          <p>An offline-first Recipes Manager by Noel De Martin.</p>
         </a>
       </li>
-      <li data-name="0data Hello with Solid" data-category="TODO List" data-category-intro="Simple task apps that keep your to-dos in your Pod, not someone else's cloud.">
+      <li data-name="0data Hello with Solid" data-category="TODO List">
         <a href="https://hello.0data.app/solid/">
           <div class="tile-header">
             <img alt="0 data app logo" src="/assets/img/logo/0dataapp.png"/>
             <h3>0data Hello with Solid</h3>
           </div>
-          <p>A minimal demo to-do app showing how a Solid client reads and writes tasks on your Pod.</p>
+          <p>Implements simple CRUD operations with the REST API and solid-file-client, writing to 'tasks'.</p>
         </a>
       </li>
-      <li data-name="Booklice" data-category="Content, Notes, Blogging and Publishing" data-category-intro="Take notes, write articles, and curate bookmarks, all saved to your Pod.">
+      <li data-name="Booklice" data-category="Content, Notes, Blogging and Publishing">
         <a href="https://scenaristeur.github.io/booklice/">
           <div class="tile-header">
             <img alt="Booklice logo" src="/assets/img/logo/booklice.png"/>
             <h3>Booklice</h3>
           </div>
-          <p>Save bookmarks to your Pod and share curated lists with the community.</p>
+          <p>A bookmarking app with community sharing features.</p>
         </a>
       </li>
       <li data-name="dokieli" data-category="Content, Notes, Blogging and Publishing">
@@ -129,7 +146,7 @@ breadcrumbs:
             <img alt="dokieli logo - a lowercase d" src="/assets/img/logo/dokieli.png"/>
             <h3>dokieli</h3>
           </div>
-          <p>Write, publish, and annotate articles in the browser, with decentralised social interactions built in.</p>
+          <p>A clientside editor for decentralised article publishing, annotations, and social interactions by Sarven Capadisli.</p>
         </a>
       </li>
       <li data-name="Pod Pro" data-category="Pod Management">
@@ -138,7 +155,7 @@ breadcrumbs:
             <img alt="Solid logo - an uppercase S on a violet hexagon" src="/assets/img/solid-emblem.svg"/>
             <h3>Pod Pro</h3>
           </div>
-          <p>A developer IDE for editing the raw data in your Solid Pod.</p>
+          <p>An IDE for editing Solid Pods by Jasmine Leonard.</p>
         </a>
       </li>
       <li data-name="PodOS Browser" data-category="Pod Management">
@@ -147,7 +164,7 @@ breadcrumbs:
             <img alt="PodOS browser logo - a Pod inside a house" src="/assets/img/logo/podos-browser.svg"/>
             <h3>PodOS Browser</h3>
           </div>
-          <p>Browse and manage the resources inside your Pod through a graphical, concept-aware interface.</p>
+          <p>A Solid app for browsing and managing the resources in your Pod.</p>
         </a>
       </li>
       <li data-name="Solid File Manager" data-category="Pod Management">
@@ -156,7 +173,7 @@ breadcrumbs:
             <img alt="Solid File Manager logo" src="/assets/img/logo/solid-filemanager.ico"/>
             <h3>Solid File Manager</h3>
           </div>
-          <p>Manage the files in your Pod through a drag-and-drop web interface.</p>
+          <p>A Solid app that helps you manage the files in your Pod by Otto AA.</p>
         </a>
       </li>
       <li data-name="Solidflix" data-category="Movies">
@@ -165,26 +182,26 @@ breadcrumbs:
             <img alt="Solid Flix logo - SOLIDFLIX capitalized" src="/assets/img/logo/solidflix.png"/>
             <h3>Solidflix</h3>
           </div>
-          <p>Track films, share watchlists with friends, and get personalised recommendations, all stored in your Pod.</p>
+          <p>A movie tracking and sharing app with personalised recommendations by Oxford Human Centred Computing Group.</p>
         </a>
       </li>
-      <li data-name="NotePod" data-category="Productivity" data-category-intro="Everyday tools for notes, tasks, contacts, and files that write back to your Pod.">
+      <li data-name="NotePod" data-category="Productivity">
         <a href="https://notepod.solidcommunity.au">
           <div class="tile-header">
             <img alt="NotePod logo" src="/assets/img/logo/notepod.png"/>
             <h3>NotePod</h3>
           </div>
-          <p>Take encrypted notes in your Pod and share them selectively with people you choose.</p>
+          <p>Private and shareable note taking app with encryption. Built by the Software Innovation Institute, ANU.</p>
         </a>
         <p class="app-source">Desktop build on <a href="https://github.com/anusii/notepod" class="external-link" rel="noopener noreferrer">GitHub (anusii/notepod)</a>.</p>
       </li>
-      <li data-name="HealthPod" data-category="Health" data-category-intro="Private health tracking, medical records, and wellbeing tools that keep data on your Pod.">
+      <li data-name="HealthPod" data-category="Health">
         <a href="https://healthpod.solidcommunity.au">
           <div class="tile-header">
             <img alt="HealthPod logo" src="/assets/img/logo/healthpod.svg"/>
             <h3>HealthPod</h3>
           </div>
-          <p>Keep your health records encrypted in your Pod and share them with clinicians on your terms.</p>
+          <p>Manage your health data, with support for encrypted data. Built by the Software Innovation Institute, ANU.</p>
         </a>
         <p class="app-source">Desktop build on <a href="https://github.com/anusii/healthpod" class="external-link" rel="noopener noreferrer">GitHub (anusii/healthpod)</a>.</p>
       </li>
@@ -194,45 +211,45 @@ breadcrumbs:
             <img alt="MovieStar logo" src="/assets/img/logo/moviestar.png"/>
             <h3>MovieStar</h3>
           </div>
-          <p>Track what you watch, rate and share it, and get recommendations, with optional encryption in your Pod.</p>
+          <p>Track your movie and TV watching and ranking, share with others, and receive recommendations, with support for encrypted data. Built by the Software Innovation Institute, ANU.</p>
         </a>
         <p class="app-source">Desktop build on <a href="https://github.com/anusii/moviestar" class="external-link" rel="noopener noreferrer">GitHub (anusii/moviestar)</a>.</p>
       </li>
-      <li data-name="SolidFocus" data-category="Productivity">
+      <li data-name="SolidFocus" data-category="Browser">
         <a href="https://focus.noeldemartin.com/">
           <div class="tile-header">
             <img alt="SolidFocus logo" src="/assets/img/logo/solidfocus.png"/>
             <h3>SolidFocus</h3>
           </div>
-          <p>Manage tasks and Markdown notes across workspaces, online or offline, with everything saved to your Pod.</p>
+          <p>Manage your tasks and notes seamlessly across workspaces and lists, with offline access, Markdown support, and data stored securely in your Solid POD. Built by Noel de Martin.</p>
         </a>
       </li>
-      <li data-name="Portable LibreChat" data-category="Chat" data-category-intro="Messaging and AI chat clients that store your conversation history in your own Pod.">
+      <li data-name="Portable LibreChat" data-category="Chat">
         <a href="https://chat.solidproject.org/">
           <div class="tile-header">
             <img alt="LibreChat logo" src="/assets/img/logo/librechat.svg"/>
             <h3>Portable LibreChat</h3>
           </div>
-          <p>An open-source AI chat client for providers like Anthropic, OpenAI, and Azure that stores your conversation history in your Pod.</p>
+          <p>A build of LibreChat — an open-source AI chat platform that unifies conversations across providers like Anthropic, OpenAI, and Azure — with Solid integrated so that your chat history is stored in your Solid Pod, making your AI conversations portable across compatible clients.</p>
         </a>
         <p class="app-source">Upstream project: <a href="https://www.librechat.ai/" class="external-link" rel="noopener noreferrer">librechat.ai</a>. Source code on <a href="https://github.com/solid/LibreChat" class="external-link" rel="noopener noreferrer">GitHub (solid/LibreChat)</a>.</p>
       </li>
-      <li data-name="TiredBike" data-category="Travel" data-category-intro="Travel and journey apps that keep your plans and connections on your Pod.">
+      <li data-name="TiredBike" data-category="Travel">
         <a href="https://tired.bike/">
           <div class="tile-header">
             <img alt="TiredBike logo" src="/assets/img/logo/tiredbike.png"/>
             <h3>Tired Bike</h3>
           </div>
-          <p>Connect with hosts who can put you up for the night while you are touring by bicycle.</p>
+          <p>A Decentralised platform for a community of bicycle touring travellers and those who want to host them. Built by Open Hospitality Network.</p>
         </a>
       </li>
-      <li data-name="PodCal" data-category="Scheduling" data-category-intro="Calendars and booking tools backed by the data store you control.">
+      <li data-name="PodCal" data-category="Scheduling">
         <a href="https://podcal.eu">
           <div class="tile-header">
             <img alt="PodCal logo - a shield with a calendar and check mark" src="/assets/img/logo/podcal.svg"/>
             <h3>PodCal</h3>
           </div>
-          <p>Share Calendly-style booking pages backed by your Pod, with CalDAV sync and team scheduling.</p>
+          <p>A Calendly-style scheduling app built on Solid Pods, with public booking pages, CalDAV sync, and team scheduling — works with any Solid OIDC provider.</p>
         </a>
       </li>
       <li data-name="SolidOS Databrowser" data-category="Pod Management">
@@ -241,7 +258,7 @@ breadcrumbs:
             <img alt="Solid logo - an uppercase S on a violet hexagon" src="/assets/img/solid-emblem.svg"/>
             <h3>SolidOS Databrowser</h3>
           </div>
-          <p>Browse and edit Linked Data in any Solid Pod with the original SolidOS data browser (Mashlib).</p>
+          <p>The classic Solid Data Browser (Mashlib) — a generic Linked Data browser and editor for any Solid Pod, maintained by the SolidOS team.</p>
         </a>
         <p class="app-source">Source code on <a href="https://github.com/SolidOS/mashlib" class="external-link" rel="noopener noreferrer">GitHub (SolidOS/mashlib)</a>.</p>
       </li>
@@ -251,7 +268,7 @@ breadcrumbs:
             <img alt="Synara AI logo" src="/assets/img/logo/synara-ai.svg"/>
             <h3>Synara AI</h3>
           </div>
-          <p>A privacy-first AI assistant that saves a searchable log of your conversations to your own Pod.</p>
+          <p>A privacy-first AI assistant that builds a searchable log of your conversations in your own Solid Pod. Built by the PrivateDataPod team.</p>
         </a>
       </li>
       <li data-name="Pod Drive" data-category="Pod Management">
@@ -260,7 +277,7 @@ breadcrumbs:
             <img alt="Pod Drive logo" src="/assets/img/logo/pod-drive.svg"/>
             <h3>Pod Drive</h3>
           </div>
-          <p>Upload and organise files in your Pod through a Google-Drive-style interface.</p>
+          <p>A Google-Drive-style file manager for your Solid Pod. Built by the PrivateDataPod team.</p>
         </a>
       </li>
       <li data-name="Pod Resume" data-category="Productivity">
@@ -269,7 +286,7 @@ breadcrumbs:
             <img alt="Solid logo - an uppercase S on a violet hexagon" src="/assets/img/solid-emblem.svg"/>
             <h3>Pod Resume</h3>
           </div>
-          <p>Build a résumé with AI assistance; your CV and work history stay in your own Pod.</p>
+          <p>An AI-powered résumé builder that stores your CV and work history in your Solid Pod. Built by the PrivateDataPod team.</p>
         </a>
       </li>
       <li data-name="HomeVault" data-category="Productivity">
@@ -278,7 +295,7 @@ breadcrumbs:
             <img alt="HomeVault logo" src="/assets/img/logo/homevault.svg"/>
             <h3>HomeVault</h3>
           </div>
-          <p>Catalogue your belongings for insurance and household records, all saved privately to your Pod.</p>
+          <p>A home inventory app for insurance and household records, with all data stored in your own Solid Pod.</p>
         </a>
       </li>
       <li data-name="VitalStats" data-category="Health">
@@ -287,7 +304,7 @@ breadcrumbs:
             <img alt="VitalStats logo" src="/assets/img/logo/vitalstats.svg"/>
             <h3>VitalStats</h3>
           </div>
-          <p>Log blood pressure, weight, and other vitals privately to your own Pod.</p>
+          <p>Log blood pressure, weight, and other vitals privately to your own Solid Pod.</p>
         </a>
       </li>
       <li data-name="InnerPod" data-category="Health">
@@ -296,7 +313,7 @@ breadcrumbs:
             <img alt="InnerPod logo" src="/assets/img/logo/innerpod.png"/>
             <h3>InnerPod</h3>
           </div>
-          <p>A guided meditation timer that saves each session to your Pod, with optional encryption.</p>
+          <p>A guided meditation timer that records each session to your Solid Pod with optional encryption. Built by the Software Innovation Institute, ANU.</p>
         </a>
         <p class="app-source">Source code on <a href="https://github.com/gjwgit/innerpod" class="external-link" rel="noopener noreferrer">GitHub (gjwgit/innerpod)</a>.</p>
       </li>
@@ -306,7 +323,7 @@ breadcrumbs:
             <img alt="MSFatigue logo" src="/assets/img/logo/msfatigue.png"/>
             <h3>MSFatigue</h3>
           </div>
-          <p>A multiple-sclerosis fatigue survey that stores encrypted responses in the participant&rsquo;s Pod, with opt-in sharing to researchers.</p>
+          <p>A survey/questionnaire app for multiple-sclerosis fatigue research; responses are saved encrypted to the participant's own Pod, with opt-in sharing to researchers. Built by the Software Innovation Institute, ANU.</p>
         </a>
         <p class="app-source">Source code on <a href="https://github.com/anusii/msfatigue" class="external-link" rel="noopener noreferrer">GitHub (anusii/msfatigue)</a>.</p>
       </li>
@@ -316,27 +333,27 @@ breadcrumbs:
             <img alt="FilePod logo" src="/assets/img/logo/filepod.png"/>
             <h3>FilePod</h3>
           </div>
-          <p>Browse, upload, and download files on your Pod from a cross-platform Flutter app.</p>
+          <p>A Flutter-based Solid file browser — browse, upload, and download files on your Pod from any platform. Built by the Software Innovation Institute, ANU.</p>
         </a>
         <p class="app-source">Source code on <a href="https://github.com/anusii/filepod" class="external-link" rel="noopener noreferrer">GitHub (anusii/filepod)</a>.</p>
       </li>
-      <li data-name="KeyPod" data-category="Security" data-category-intro="Password vaults and secrets managers that keep your credentials in your Pod.">
+      <li data-name="KeyPod" data-category="Security">
         <a href="https://keypod.solidcommunity.au">
           <div class="tile-header">
             <img alt="KeyPod logo" src="/assets/img/logo/keypod.png"/>
             <h3>KeyPod</h3>
           </div>
-          <p>An encrypted password manager backed by your Pod; also serves as a Flutter template for Solid developers.</p>
+          <p>An encrypted key-value store usable as a password manager; also serves as a Flutter template for building Solid apps. Built by the Software Innovation Institute, ANU.</p>
         </a>
         <p class="app-source">Source code on <a href="https://github.com/anusii/keypod" class="external-link" rel="noopener noreferrer">GitHub (anusii/keypod)</a>.</p>
       </li>
-      <li data-name="GeoPod" data-category="Location" data-category-intro="Maps, places, and GPS tracks stored privately on your own Pod.">
+      <li data-name="GeoPod" data-category="Location">
         <a href="https://geopod.solidcommunity.au">
           <div class="tile-header">
             <img alt="GeoPod logo" src="/assets/img/logo/geopod.png"/>
             <h3>GeoPod</h3>
           </div>
-          <p>Save places and GPS tracks to an encrypted map stored in your own Pod.</p>
+          <p>A map-based app for storing points of interest and tracks in your own encrypted Solid Pod. Built by the Software Innovation Institute, ANU.</p>
         </a>
         <p class="app-source">Source code on <a href="https://github.com/gjwgit/geopod" class="external-link" rel="noopener noreferrer">GitHub (gjwgit/geopod)</a>.</p>
       </li>
@@ -346,7 +363,7 @@ breadcrumbs:
             <img alt="SecureDialog logo" src="/assets/img/logo/securedialog.png"/>
             <h3>SecureDialog</h3>
           </div>
-          <p>Log diabetes readings privately; entries are encrypted and stored in your own Pod.</p>
+          <p>A diabetes-logging app that stores entries encrypted in your Solid Pod. Built by the Software Innovation Institute, ANU.</p>
         </a>
       </li>
       <li data-name="TodoPod" data-category="Productivity">
@@ -355,7 +372,7 @@ breadcrumbs:
             <img alt="TodoPod logo" src="/assets/img/logo/todopod.png"/>
             <h3>TodoPod</h3>
           </div>
-          <p>Manage your tasks with every entry encrypted and stored privately in your own Pod.</p>
+          <p>An app to manage your tasks with all data securely and privately stored encrypted on your own personal online data store (Pod) hosted on a Solid Server.</p>
         </a>
         <p class="app-source">Built by <a href="https://togaware.com" class="external-link" rel="noopener noreferrer">Togaware</a>. Source code on <a href="https://github.com/gjwgit/todopod" class="external-link" rel="noopener noreferrer">GitHub (gjwgit/todopod)</a>.</p>
       </li>
@@ -365,7 +382,7 @@ breadcrumbs:
             <img alt="RoloPod logo" src="/assets/img/logo/rolopod.png"/>
             <h3>RoloPod</h3>
           </div>
-          <p>Keep your address book in your Pod, share contacts selectively, and dial them from the Android and iOS apps.</p>
+          <p>A tool to collect your contacts into an address book in one secure and private place. You can selectively share any parts of your address book with others, or make phone calls on your mobile device (for the Android and iOS versions).</p>
         </a>
         <p class="app-source">Built by <a href="https://togaware.com" class="external-link" rel="noopener noreferrer">Togaware</a>. Source code on <a href="https://github.com/gjwgit/rolopod" class="external-link" rel="noopener noreferrer">GitHub (gjwgit/rolopod)</a>.</p>
       </li>
@@ -375,7 +392,7 @@ breadcrumbs:
             <img alt="KonaPod logo" src="/assets/img/logo/konapod.png"/>
             <h3>KonaPod</h3>
           </div>
-          <p>Collect and analyse your Hyundai vehicle data in your Pod, sharing selected parts on your own terms.</p>
+          <p>Collect your Hyundai vehicle data in one secure and private place. You can selectively share any parts of your data with others. The app presents the data and analyses of the data.</p>
         </a>
         <p class="app-source">Built by <a href="https://togaware.com" class="external-link" rel="noopener noreferrer">Togaware</a>. Source code on <a href="https://github.com/gjwgit/konapod" class="external-link" rel="noopener noreferrer">GitHub (gjwgit/konapod)</a>.</p>
       </li>
@@ -385,203 +402,162 @@ breadcrumbs:
             <img alt="BilliPod logo" src="/assets/img/logo/billipod.png"/>
             <h3>BilliPod</h3>
           </div>
-          <p>Track upcoming, scheduled, and past bills; reminders are drawn from your payment history so you never miss one.</p>
+          <p>Manage your bills, upcoming, scheduled, and past. The app analyses your bill history to generate reminders to avoid missing the all important bill payments.</p>
         </a>
         <p class="app-source">Built by <a href="https://togaware.com" class="external-link" rel="noopener noreferrer">Togaware</a>. Source code on <a href="https://github.com/gjwgit/billipod" class="external-link" rel="noopener noreferrer">GitHub (gjwgit/billipod)</a>.</p>
       </li>
     </ul>
 
-    <!-- JS-built category-grouped view. Kept empty on first paint so the
-         no-JS fallback above (#apps-list) renders the flat list. When JS
-         loads, it distributes tiles into these sections and hides the
-         flat list. -->
-    <div id="apps-category-sections" class="apps-category-sections" hidden></div>
-
-    <p class="apps-no-results" id="apps-no-results" hidden role="status" aria-live="polite">
-      No apps match your filters. Try clearing the search or choosing a different category.
-    </p>
-      </div><!-- /.apps-layout__main -->
-    </div><!-- /.apps-layout -->
-
-    <p class="apps-disclaimer">
-      Listing here is not an endorsement by the Solid Project. Apps are not tested, and no security or quality guarantee is implied. If you believe a listed app is insecure or non-functional, please <a href="https://github.com/solid/solidproject.org/issues" class="external-link" rel="noopener noreferrer">raise an issue</a>. Building a Solid app and want it listed? See the <a href="/for_developers#apps-page-listing">listing criteria and how to submit a PR</a> on the For Developers page.
-    </p>
+    <details class="details-box">
+      <summary>App inclusion and exclusion criteria</summary>
+      <p>The criteria for an app to be Solid-compatible are:</p>
+      <ul>
+        <li>If identifying users is necessary, they must be able to log in using their WebID and pointing to the Identity Provider of their choice</li>
+        <li>Data consumed by the app should be fetched from Solid Pods if possible</li>
+        <li>Data generated by the app should be stored in Solid Pods</li>
+        <li>The interaction between the app, pods, and Identity Provider(s) must be compliant with the <a href="/TR/">Solid specification(s)</a></li>
+      </ul>
+      <p>Please note that apps falling into the following categories will not be listed on this page, even if they match the criteria above:</p>
+      <ul>
+        <li>Apps intentionally or indirectly causing harm to anyone</li>
+        <li>Apps with a purpose that could be widely considered unethical</li>
+        <li>Apps designed to enable the generation and/or dissemination of hate speech</li>
+        <li>Apps encouraging stereotypes or violent behaviours towards any person or group</li>
+        <li>Apps having malicious intent, such as data theft</li>
+        <li>Apps designed to fulfill illegal purposes, such as drug traffic, stolen information exchange, extorsion…</li>
+        <li>Apps sharing user information with any third-party without user consent</li>
+        <li>Apps that have been reported to have important technical or security issues that compromise its users’ Pods</li>
+      </ul>
+      <p>Want to add an eligible Solid-compatible app to this list? Contact the <a href="https://theodi.org/insights/projects/odi-and-solid-building-a-future-where-data-works-for-everyone/">Open Data Institute</a> via <a href="mailto:solid+info@theodi.org">solid+info@theodi.org</a>.</p>
+      <p>Disclaimer: The list above does not represent an endorsement by the Solid Project. The apps on the list do not undergo any testing at this time, and there is no guarantee of security or quality implied by their inclusion on this list. The goal of the list is to showcase the vibrancy of the Solid community and encourage early app builders to collaborate and learn from each other. If you believe one of the apps above is insecure or non-functional and should be removed from the list, please <a href="https://service.theodi.org/help/1476250723">raise an issue here</a>.</p>
+    </details>
 
     <script>
-      // App tiles: category grouping + sorting + filtering + search.
-      // No-JS users see the flat #apps-list above; when JS runs we move
-      // each tile into a per-category <section>, hide the flat list, and
-      // populate the #apps-categories-nav TOC.
+      // App tiles sorting and filtering functionality
       document.addEventListener('DOMContentLoaded', function () {
-        const searchInput = document.getElementById('app-search');
-        const flatList = document.getElementById('apps-list');
-        const sectionsRoot = document.getElementById('apps-category-sections');
-        const tocNav = document.getElementById('apps-categories-nav');
-        const tocList = document.getElementById('apps-categories-nav-list');
-        const noResultsEl = document.getElementById('apps-no-results');
-        const featuredSection = document.getElementById('apps-featured');
-        const featuredGrid = document.getElementById('apps-featured-grid');
-        const appTiles = Array.from(flatList.querySelectorAll('li'));
-
-        // Build the Editor's-picks / Featured row from tiles that carry
-        // a .top-app-tag in the flat list. We clone each tile so the
-        // original stays filter-able in its category section; the clone
-        // is a static showcase unaffected by sort/filter/search.
-        if (featuredSection && featuredGrid) {
-          const featured = appTiles
-            .filter(tile => tile.querySelector('.top-app-tag'))
-            .map(tile => tile.cloneNode(true));
-          if (featured.length > 0) {
-            featured.forEach(clone => {
-              clone.classList.add('apps-featured__item');
-              featuredGrid.appendChild(clone);
+        const sortSelect = document.getElementById('sort-select');
+        const categoryFilter = document.getElementById('category-filter');
+        const topAppsOnlyCheckbox = document.getElementById('top-apps-only');
+        const appsList = document.getElementById('apps-list');
+        const appTiles = Array.from(appsList.querySelectorAll('li'));
+        // Store current state
+        let currentSort = 'name-asc';
+        let currentFilter = 'all';
+        let showTopAppsOnly = false;
+        // Function to sort app tiles
+        function sortAppTiles(sortValue) {
+          currentSort = sortValue;
+          const tiles = Array.from(appsList.querySelectorAll('li:not(.hidden)'));
+          if (!sortValue) {
+            // Return to default order - restore original order based on data attributes
+            const defaultOrder = [
+              'Media Kraken',
+              'Penny',
+              'Umai',
+              '0data Hello with Solid',
+              'Booklice',
+              'dokieli',
+              'Pod Pro',
+              'PodOS Browser',
+              'Solid File Manager',
+              'Solidflix'
+            ];
+            tiles.sort((a, b) => {
+              const aName = a.getAttribute('data-name');
+              const bName = b.getAttribute('data-name');
+              const aIndex = defaultOrder.indexOf(aName);
+              const bIndex = defaultOrder.indexOf(bName);
+              return aIndex - bIndex;
             });
-            featuredSection.hidden = false;
           } else {
-            // No editor's picks -> mark the section as empty so the
-            // filter logic below doesn't try to un-hide it later.
-            featuredSection.dataset.empty = 'true';
+            // Apply sorting based on sortValue
+            tiles.sort((a, b) => {
+              let aValue, bValue;
+              if (sortValue.startsWith('name')) {
+                aValue = a.getAttribute('data-name').toLowerCase();
+                bValue = b.getAttribute('data-name').toLowerCase();
+              } else if (sortValue.startsWith('category')) {
+                aValue = a.getAttribute('data-category').toLowerCase();
+                bValue = b.getAttribute('data-category').toLowerCase();
+              } else {
+                return 0;
+              }
+              let comparison = 0;
+              if (aValue < bValue) comparison = -1;
+              if (aValue > bValue) comparison = 1;
+              return sortValue.endsWith('desc') ? -comparison : comparison;
+            });
           }
+          // Reorder tiles in the list
+          tiles.forEach(tile => appsList.appendChild(tile));
         }
-
-        // Search state — everything else (sort, category-filter,
-        // top-apps-only) was retired with the old toolbar. Navigation
-        // is now "search OR jump to a category from the sidebar TOC".
-        let currentSearch = '';
-
-        function slugify(str) {
-          return String(str).toLowerCase()
-            .replace(/[^a-z0-9]+/g, '-')
-            .replace(/^-+|-+$/g, '');
-        }
-
-        // Group tiles by category preserving original encounter order.
-        const categoryOrder = [];
-        const tilesByCategory = new Map();
-        appTiles.forEach(tile => {
-          const cat = tile.getAttribute('data-category') || 'Other';
-          if (!tilesByCategory.has(cat)) {
-            tilesByCategory.set(cat, []);
-            categoryOrder.push(cat);
-          }
-          tilesByCategory.get(cat).push(tile);
-        });
-
-        // Build a <section> per category + its grid <ul>. Keep a map of
-        // category-name -> { section, grid } so filter/sort can rearrange
-        // and hide sections.
-        const sectionByCategory = new Map();
-        categoryOrder.forEach(cat => {
-          const slug = slugify(cat);
-          const section = document.createElement('section');
-          section.className = 'apps-category';
-          section.dataset.category = cat;
-          section.id = 'cat-' + slug;
-
-          const heading = document.createElement('h3');
-          heading.className = 'apps-category__heading';
-          heading.id = 'cat-heading-' + slug;
-          heading.textContent = cat;
-          section.appendChild(heading);
-
-          // Optional category intro paragraph. We pick the first tile
-          // in the group carrying a data-category-intro attribute so
-          // editors can colocate the blurb with any tile they like; if
-          // none of the tiles in this category provides one, we omit
-          // the <p> entirely rather than render an empty hole.
-          const introSource = tilesByCategory.get(cat)
-            .find(tile => tile.hasAttribute('data-category-intro')
-              && tile.getAttribute('data-category-intro').trim() !== '');
-          if (introSource) {
-            const intro = document.createElement('p');
-            intro.className = 'apps-category__intro';
-            intro.textContent = introSource.getAttribute('data-category-intro');
-            section.appendChild(intro);
-          }
-
-          const grid = document.createElement('ul');
-          grid.className = 'tiles tile-links apps-category__grid';
-          grid.setAttribute('aria-labelledby', heading.id);
-          section.appendChild(grid);
-
-          tilesByCategory.get(cat).forEach(tile => grid.appendChild(tile));
-          sectionsRoot.appendChild(section);
-          sectionByCategory.set(cat, { section, grid });
-        });
-
-        // Swap to the grouped view now that JS has populated it.
-        flatList.hidden = true;
-        sectionsRoot.hidden = false;
-        // Apply the (initially empty) search so the featured row gets
-        // its first visibility pass + no-results banner stays hidden.
-        // Defined further down; called at the end of setup.
-
-        // Build the category TOC nav.
-        if (tocNav && tocList) {
-          categoryOrder.forEach(cat => {
-            const slug = slugify(cat);
-            const li = document.createElement('li');
-            const link = document.createElement('a');
-            link.href = '#cat-' + slug;
-            link.className = 'apps-categories-nav__link';
-            link.textContent = cat;
-            link.dataset.category = cat;
-            li.appendChild(link);
-            tocList.appendChild(li);
-          });
-          tocNav.hidden = false;
-        }
-
-        // Apply the current search to every tile: names and categories
-        // are matched as substrings. Hides non-matching tiles, collapses
-        // sections whose tiles are all hidden, hides the featured row
-        // during active searches, and toggles the empty-state banner.
-        function applySearch(searchTerm) {
-          currentSearch = searchTerm || '';
-          const needle = currentSearch.trim().toLowerCase();
-          let totalVisible = 0;
+        // Function to filter app tiles
+        function filterAppTiles(category, topAppsOnly = false) {
+          if (!category) return;
+          currentFilter = category;
+          showTopAppsOnly = topAppsOnly;
+          let visibleCount = 0;
           appTiles.forEach(tile => {
-            const tileName = (tile.getAttribute('data-name') || '').toLowerCase();
-            const tileCategory = (tile.getAttribute('data-category') || '').toLowerCase();
-            const matches = !needle
-              || tileName.includes(needle)
-              || tileCategory.includes(needle);
-            tile.classList.toggle('hidden', !matches);
-            if (matches) totalVisible++;
-          });
-          sectionByCategory.forEach(({ section, grid }) => {
-            const anyVisible = !!grid.querySelector('li:not(.hidden)');
-            section.hidden = !anyVisible;
-          });
-          if (featuredSection && !featuredSection.dataset.empty) {
-            featuredSection.hidden = !!needle;
-          }
-          if (noResultsEl) {
-            noResultsEl.hidden = totalVisible !== 0;
-          }
-        }
-
-        if (searchInput) {
-          searchInput.addEventListener('input', function () {
-            applySearch(this.value);
-          });
-        }
-
-        // TOC clicks clear any active search so the anchored section is
-        // guaranteed to be visible once the browser jumps to it.
-        if (tocList) {
-          tocList.addEventListener('click', function (e) {
-            const link = e.target.closest('a[data-category]');
-            if (!link) return;
-            if (searchInput && searchInput.value !== '') {
-              searchInput.value = '';
-              applySearch('');
+            const tileCategory = tile.getAttribute('data-category');
+            const isTopApp = tile.querySelector('.top-app-tag') !== null;
+            let shouldShow = false;
+            if (topAppsOnly) {
+              // Only show top apps that match the category filter
+              shouldShow = isTopApp && (category === 'all' || tileCategory === category);
+            } else {
+              // Show all apps that match the category filter
+              shouldShow = category === 'all' || tileCategory === category;
+            }
+            if (shouldShow) {
+              tile.classList.remove('hidden');
+              visibleCount++;
+            } else {
+              tile.classList.add('hidden');
             }
           });
+          // Show message if no apps match the filter
+          let noResultsMessage = appsList.querySelector('.no-results-message');
+          if (visibleCount === 0) {
+            if (!noResultsMessage) {
+              noResultsMessage = document.createElement('div');
+              noResultsMessage.className = 'no-results-message';
+              noResultsMessage.innerHTML = '<p>No apps found matching your criteria.</p>';
+              appsList.appendChild(noResultsMessage);
+            }
+          } else if (noResultsMessage) {
+            noResultsMessage.remove();
+          }
         }
-
-        // Initial paint.
-        applySearch('');
+        // Function to apply both filter and sort
+        function applyFilterAndSort() {
+          filterAppTiles(currentFilter, showTopAppsOnly);
+          sortAppTiles(currentSort);
+        }
+        // Event listeners for sort and filter controls
+        if (sortSelect) {
+          sortSelect.addEventListener('change', function () {
+            currentSort = this.value;
+            applyFilterAndSort();
+          });
+        }
+        if (categoryFilter) {
+          categoryFilter.addEventListener('change', function () {
+            currentFilter = this.value;
+            applyFilterAndSort();
+          });
+        }
+        if (topAppsOnlyCheckbox) {
+          topAppsOnlyCheckbox.addEventListener('change', function () {
+            showTopAppsOnly = this.checked;
+            applyFilterAndSort();
+          });
+        }
+        // Initialize without default sorting to maintain current order
+        if (sortSelect) {
+          sortSelect.value = '';
+        }
+        // Only apply filter, not sorting
+        filterAppTiles(currentFilter, showTopAppsOnly);
       });
     </script>
   </div>

@@ -3,31 +3,25 @@
 /* Basic header layout */
 .header {
     align-items: center;
-    background-color: var(--color-header-bg);
-    color: var(--color-header-text);
+    background-color: #202542;
+    color: #fff;
     display: flex;
     flex-direction: row;
-    gap: var(--space-6);
+    gap: 2rem;
     justify-content: space-between;
     padding: 1.5rem 3.2rem 1.6rem 3rem;
     position: relative;
-    /* A modest stacking index so page-level sticky bars (e.g. /apps
-       category TOC at z-index 10) never paint over the site chrome
-       while the header is still in-flow at the top of the document.
-       Kept deliberately small so hamburger / nav overlays (z-index
-       999-1000) still land above when they open. */
-    z-index: 20;
 }
 
 .header a {
-    color: var(--color-header-text);
+    color: #fff;
     text-decoration: none;
     text-wrap: nowrap;
 }
 
 .header a:hover,
 .header a:focus {
-    color: var(--color-header-text);
+    color: #fff;
 }
 
 /* Homepage link */
@@ -41,7 +35,7 @@
     display: flex;
     flex-direction: row;
     gap: 1.6rem;
-    font-size: var(--fs-xl);
+    font-size: 1.6rem;
     font-style: normal;
 }
 
@@ -53,20 +47,20 @@
 .header .main-nav {
     align-items: center;
     display: flex;
-    transition: all var(--motion-slow) ease;
+    transition: all 0.3s ease;
     position: fixed;
     top: 0;
     left: -100%;
     width: 100%;
     height: 100vh;
-    background-color: var(--color-header-bg);
+    background-color: #202542;
     z-index: 999;
     justify-content: center;
 }
 
 .header .main-nav.nav-open {
     left: 0;
-    transition: left var(--motion-slow) ease;
+    transition: left 0.3s ease;
 }
 
 /* Disable transitions during viewport changes to prevent unwanted animations */
@@ -78,7 +72,7 @@
     align-self: center;
     display: flex;
     flex-direction: column;
-    gap: var(--space-6);
+    gap: 2rem;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -90,15 +84,15 @@
 
 .header .main-nav a {
     display: block;
-    font-size: var(--fs-xl);
+    font-size: 1.6rem;
     padding: .8rem 1.6rem;
-    border-radius: var(--radius-sm);
+    border-radius: 0.25rem;
     text-align: center;
-    transition: background-color var(--motion-slow) ease;
+    transition: background-color 0.3s ease;
 }
 
 .header .main-nav a:hover {
-    background-color: var(--color-header-link-hover);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Hamburger menu */
@@ -124,9 +118,9 @@
 .header .hamburger-menu span {
     width: 100%;
     height: 3px;
-    background-color: var(--color-header-text);
+    background-color: #fff;
     border-radius: 3px;
-    transition: all var(--motion-slow) ease;
+    transition: all 0.3s ease;
 }
 
 .header .hamburger-menu.active span:nth-child(1) {
@@ -139,159 +133,6 @@
 
 .header .hamburger-menu.active span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -7px);
-}
-
-/* Theme toggle
-   Icon button that flips data-theme on <html> between "light" and
-   "dark" and persists the choice to localStorage. Sits between the
-   nav links and the hamburger on desktop; hidden on mobile where the
-   hamburger menu exposes the same control inside the slide-out sheet. */
-.header .theme-toggle {
-    align-items: center;
-    background: transparent;
-    border: 1px solid transparent;
-    border-radius: var(--radius-pill);
-    color: var(--color-header-text);
-    cursor: pointer;
-    display: inline-flex;
-    height: 2.25rem;
-    width: 2.25rem;
-    justify-content: center;
-    padding: 0;
-    transition: background-color var(--motion-med) ease, border-color var(--motion-med) ease;
-    /* Sit between the nav links and the hamburger; keep above the
-       slide-out nav overlay on mobile. */
-    position: relative;
-    z-index: 1000;
-}
-
-.header .theme-toggle:hover,
-.header .theme-toggle:focus-visible {
-    background: var(--color-header-link-hover);
-    outline: none;
-}
-
-.header .theme-toggle:focus-visible {
-    border-color: var(--color-header-text);
-}
-
-.header .theme-toggle__icon {
-    width: 1.25rem;
-    height: 1.25rem;
-    fill: none;
-    /* Intentionally no `display` here — the per-icon rules below own
-       visibility. A `display: block` at this specificity (0,2,0) would
-       outrank the `.theme-toggle__icon--sun { display: none }` (0,1,0)
-       rule and leave both icons visible. */
-}
-
-/* Show the moon in light mode (click → switch to dark); show the sun
-   in dark mode (click → switch to light). Drives state purely from
-   the data-theme attribute so the server-rendered HTML is accurate
-   before any JS runs. Dark mode is opt-in via the toggle, so there
-   is no prefers-color-scheme fallback — see _layouts/default.html
-   bootstrap script. */
-.header .theme-toggle__icon--sun { display: none; }
-.header .theme-toggle__icon--moon { display: block; }
-
-[data-theme="dark"] .header .theme-toggle__icon--sun { display: block; }
-[data-theme="dark"] .header .theme-toggle__icon--moon { display: none; }
-
-/* Keep the toggle visible on mobile next to the hamburger so the
-   theme switch is one tap away without opening the slide-out nav.
-   z-index already pulls it above the nav overlay. */
-@media (max-width: 1024px) {
-  .header .theme-toggle {
-    margin-right: 0.5rem;
-  }
-
-  /* When the hamburger becomes `.active` it jumps to `position: fixed`
-     at `right: 3.2rem`, taking it out of flow. The flex row then
-     collapses around the remaining in-flow items (logo + toggle) and
-     `justify-content: space-between` slides the toggle to the right
-     edge — directly under the fixed hamburger. Shift the toggle left
-     by a hamburger-width-plus-gap while the menu is open so the two
-     controls sit side-by-side instead of stacking. */
-  .header:has(.hamburger-menu.active) .theme-toggle {
-    margin-right: var(--space-7);
-  }
-}
-
-/* "Get Started" primary CTA — a filled, pill-shaped button at the
-   front of the nav. Brand-coloured to pull attention on first visit.
-   At mobile / overlay width it inherits the block layout of the other
-   nav items; the desktop breakpoint below restores the pill. */
-.header .main-nav__cta {
-    background: var(--color-brand);
-    color: var(--color-brand-contrast);
-    font-weight: 700;
-    border-radius: var(--radius-pill, 999px);
-    box-shadow: var(--shadow-brand);
-    transition: background-color var(--motion-med) ease, transform var(--motion-med) ease, box-shadow var(--motion-med) ease;
-}
-.header .main-nav__cta:hover,
-.header .main-nav__cta:focus-visible {
-    background: var(--color-brand-hover);
-    color: var(--color-brand-contrast);
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-brand-hover);
-}
-.header .main-nav__cta:focus-visible {
-    outline: 2px solid var(--color-brand-contrast);
-    outline-offset: 2px;
-}
-
-/* Dropdown trigger — looks like a regular nav link plus a caret. */
-.header .main-nav__trigger {
-    align-items: center;
-    background: transparent;
-    border: 0;
-    color: var(--color-header-text);
-    cursor: pointer;
-    display: inline-flex;
-    font: inherit;
-    gap: 0.4rem;
-    padding: 0.8rem 1.6rem;
-    border-radius: var(--radius-sm);
-    font-size: var(--fs-xl);
-    transition: background-color var(--motion-med) ease;
-}
-.header .main-nav__trigger:hover,
-.header .main-nav__trigger:focus-visible {
-    background: var(--color-header-link-hover);
-    outline: none;
-}
-.header .main-nav__trigger:focus-visible {
-    box-shadow: 0 0 0 2px var(--color-header-text);
-}
-.header .main-nav__caret {
-    transition: transform var(--motion-med) ease;
-}
-.header .main-nav__trigger[aria-expanded="true"] .main-nav__caret {
-    transform: rotate(180deg);
-}
-
-/* Submenu — a plain list that sits inside the mobile overlay as a
-   nested, slightly-smaller list under its trigger, and floats as a
-   dropdown on desktop (see the ≥1025px block). The JS toggle sets
-   aria-expanded on the trigger and flips [hidden] on the matched
-   submenu. */
-.header .main-nav__submenu {
-    list-style: none;
-    margin: 0.35rem 0 0.5rem 0;
-    padding: 0;
-}
-.header .main-nav__submenu[hidden] {
-    display: none;
-}
-.header .main-nav__submenu a {
-    font-size: 1rem;
-    font-weight: 400;
-    opacity: 0.85;
-}
-.header .main-nav__submenu a:hover,
-.header .main-nav__submenu a:focus-visible {
-    opacity: 1;
 }
 
 /* Desktop navigation styles */
@@ -307,71 +148,12 @@
 
     .header .main-nav ul {
         flex-direction: row;
-        gap: var(--space-3);
-    }
-
-    /* Extra breathing room after the primary CTA so the filled pill
-       reads as a distinct action and doesn't crowd the secondary
-       dropdown triggers that follow it. */
-    .header .main-nav__cta-item {
-        margin-right: var(--space-4);
+        gap: .8rem;
     }
 
     .header .main-nav a {
         font-size: 1.2rem;
         padding: .4rem .8rem;
-    }
-
-    .header .main-nav__trigger {
-        font-size: 1.2rem;
-        padding: .4rem .8rem;
-    }
-
-    /* Get Started pill tightens on desktop. */
-    .header .main-nav__cta {
-        padding: .45rem 1.1rem;
-        font-size: 1.1rem;
-    }
-
-    /* Floating dropdown panel. Position relative to the <li> so the
-       menu anchors below the trigger rather than the nav row. */
-    .header .main-nav__group {
-        position: relative;
-    }
-    .header .main-nav__submenu {
-        position: absolute;
-        top: calc(100% + 0.25rem);
-        left: 0;
-        min-width: 14rem;
-        padding: 0.5rem;
-        margin: 0;
-        background: var(--color-header-bg);
-        border: 1px solid var(--color-border-muted);
-        border-radius: var(--radius-md);
-        box-shadow: var(--shadow-3);
-        z-index: 1000;
-        /* Re-assert column stacking — the ancestor `.main-nav ul` rule
-           switches to flex-direction:row at desktop for the top-level
-           nav, which would otherwise cascade into the dropdown and
-           lay the items out in a single row. */
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-    }
-    .header .main-nav__submenu li + li {
-        margin-top: 0.1rem;
-    }
-    .header .main-nav__submenu a {
-        display: block;
-        padding: 0.5rem 0.75rem;
-        font-size: 1rem;
-        border-radius: var(--radius-sm);
-        text-align: left;
-    }
-    .header .main-nav__submenu a:hover,
-    .header .main-nav__submenu a:focus-visible {
-        background: var(--color-header-link-hover);
-        outline: none;
     }
 
     .header .hamburger-menu {
