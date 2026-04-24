@@ -23,6 +23,13 @@
   width: 100%;
   height: auto;
 }
+.try-solid ul {
+  list-style-type: none;
+  padding: 0;
+}
+.try-solid ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
 
 @media (min-width: 781px) {
   .try-solid {
