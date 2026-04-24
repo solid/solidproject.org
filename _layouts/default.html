@@ -138,19 +138,13 @@
     <div class="event-banner" role="region" aria-label="Event announcement">
       <span aria-hidden="true">📣</span> <a href="https://sosy2026.eu/" class="external-link" rel="noopener noreferrer">Solid Symposium</a> · London · Apr 30 – May 1, 2026
     </div>
-    {% if page.breadcrumbs %}
-    <nav class="breadcrumb" aria-label="breadcrumbs">
-      <ol>
-        <li><a href="/">Home</a></li>
-        {% for breadcrumb in page.breadcrumbs %}
-          {% if forloop.last %}
-            <li><a href="#" aria-current="page">{{ breadcrumb.title }}</a></li>
-          {% else %}
-            <li><a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ol>
-    </nav>{% endif %}
+    {%- comment -%}
+      Breadcrumb nav removed: the header nav + Get Started funnel
+      gives visitors enough orientation, and the breadcrumbs were
+      duplicating the browser tab title / heading. `page.breadcrumbs`
+      frontmatter on individual pages is now a no-op; leaving the
+      entries in place does no harm and safely delete-later.
+    {%- endcomment -%}
     <main>
 {{ content }}
     </main>
