@@ -1,60 +1,49 @@
-/** Try Solid Hero Layout */
-.try-solid {
-  min-height: calc(100vh - 12.5rem);
+/** Homepage hero — uses the shared `.page-hero` pattern with a
+ *  `.page-hero--split` modifier that adds a two-column grid on desktop
+ *  (text on the left, illustration on the right). The illustration is
+ *  decorative (aria-hidden) so the hero reads exactly like the hero on
+ *  /about, /for_users etc. for assistive tech; the figure just adds
+ *  visual weight on wide viewports. Below 781px the figure stacks above
+ *  the text so the CTA row stays near the top of the viewport on
+ *  mobile.
+ */
+.home-hero .page-hero__figure {
   display: flex;
   align-items: center;
-  gap: var(--space-8);
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: center;
 }
-.try-solid .hero-text h1 {
-  font-size: 3.2rem;
-  line-height: 1.2;
-  margin: 0;
-  color: var(--color-text);
-}
-.try-solid .hero-text h2 {
-  font-size: 2.1rem;
-  margin: 0;
-  color: var(--color-text);
-}
-.try-solid .hero-text p {
-  margin: .8rem 0 1.6rem;
-  color: var(--color-text-subtle);
-}
-.try-solid .hero-image img {
+
+.home-hero .page-hero__figure img {
   width: 100%;
   height: auto;
+  max-width: 32rem;
 }
 
 @media (min-width: 781px) {
-  .try-solid {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+  .page-hero--split {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: center;
   }
-  .try-solid .hero-image, .try-solid .hero-text {
-    width: 83.2%;
-    max-width: 51.2rem;
-  }
-  .try-solid .hero-text {
-    margin-top: -8rem;
-  }
-  .try-solid .hero-text p {
-    max-width: 16rem;
+  .page-hero--split .page-hero__content {
+    /* The shared .page-hero__content caps at 60rem, which is wider
+       than the text column needs when an illustration sits beside it.
+       Trim to a more readable measure so the headline + lede feel
+       balanced against the figure. */
+    max-width: 36rem;
   }
 }
 
 @media (max-width: 780px) {
-  .try-solid {
+  .home-hero {
+    display: flex;
     flex-direction: column-reverse;
+    gap: 1.5rem;
   }
-  .try-solid .hero-text {
-    text-align: center;
-  }
-  .try-solid .hero-image {
-    width: 100%;
+  .home-hero .page-hero__figure img {
+    max-width: 20rem;
+    margin: 0 auto;
   }
 }
 
