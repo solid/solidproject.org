@@ -1,80 +1,101 @@
-/** Homepage hero — uses the shared `.page-hero` pattern with a
- *  `.page-hero--split` modifier that adds a two-column grid on desktop
- *  (text on the left, illustration on the right). The illustration is
- *  decorative (aria-hidden) so the hero reads exactly like the hero on
- *  /about, /for_users etc. for assistive tech; the figure just adds
- *  visual weight on wide viewports. Below 781px the figure stacks above
- *  the text so the CTA row stays near the top of the viewport on
- *  mobile.
- */
-/* Figure inside a hero. Generic so every hero page that adds a
-   `.page-hero__figure` child picks up the sizing rules automatically,
-   without a per-page selector. Mobile default centres the
-   illustration; the ≥781px `.page-hero--split` rule further down
-   pulls it to flex-end so it hugs the hero card's right padding. */
-.page-hero__figure {
+/** Try Solid Hero Layout */
+.try-solid {
+  min-height: calc(100vh - 12.5rem);
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 3.2rem;
+  justify-content: space-around;
+  flex-direction: column;
 }
-
-.page-hero__figure img {
+.try-solid .hero-text h1 {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin: 0;
+}
+.try-solid .hero-text h2 {
+  font-size: 2.1rem;
+  margin: 0;
+}
+.try-solid .hero-text p {
+  margin: .8rem 0 1.6rem;
+}
+.try-solid .hero-image img {
   width: 100%;
   height: auto;
-  max-width: 32rem;
 }
 
 @media (min-width: 781px) {
-  /* Use flexbox (not grid) so the text and figure naturally hug the
-     opposite edges of the hero card no matter how wide the card
-     gets. With a grid 1fr/1fr the text column cell and the figure
-     column cell grow past their natural content widths on wide
-     viewports, leaving a visible asymmetric empty band between the
-     capped content and the gap. `justify-content: space-between`
-     pushes text flush to the hero's left padding and figure flush
-     to the hero's right padding, so the gap in the middle absorbs
-     the extra width instead. */
-  .page-hero--split {
-    display: flex;
+  .try-solid {
     flex-direction: row;
-    gap: 2.5rem;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
   }
-  .page-hero--split .page-hero__content {
-    /* Cap the text at a readable measure; flex keeps the remainder
-       of the row available for the figure. */
-    max-width: 36rem;
-    flex: 0 1 36rem;
-    min-width: 0;
+  .try-solid .hero-image, .try-solid .hero-text {
+    width: 83.2%;
+    max-width: 51.2rem;
   }
-  .page-hero--split .page-hero__figure {
-    flex: 0 1 auto;
-    /* Each figure on each hero page brings its own max-width below.
-       Pull to the right end so the image's right edge sits at the
-       hero card's right padding, mirroring the text's left edge at
-       the left padding. */
-    justify-content: flex-end;
+  .try-solid .hero-text {
+    margin-top: -8rem;
+  }
+  .try-solid .hero-text p {
+    max-width: 16rem;
   }
 }
 
 @media (max-width: 780px) {
-  .page-hero--split {
-    display: flex;
+  .try-solid {
     flex-direction: column-reverse;
-    gap: 1.5rem;
   }
-  .page-hero--split .page-hero__figure img {
-    max-width: 20rem;
-    margin: 0 auto;
+  .try-solid .hero-text {
+    text-align: center;
   }
+  .try-solid .hero-image {
+    width: 100%;
+  }
+}
+
+/** Try Solid Button */
+.try-solid-button {
+  background-color: #7C4DFF;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.4rem 2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(124, 77, 255, 0.2);
+}
+
+.try-solid-button::after {
+  content: "";
+  display: inline-block;
+  width: 1.8rem;
+  height: 1.6rem;
+  flex-shrink: 0;
+  background-image: url("/assets/img/solid-emblem.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.try-solid-button:hover,
+.try-solid-button:focus {
+  background-color: #6d3dee;
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(124, 77, 255, 0.3);
 }
 
 /** Tim Berners-Lee Quote Styling */
 .tim-berners-lee-quote {
-  background: linear-gradient(135deg, var(--color-surface-muted) 0%, var(--color-surface-quote) 100%);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-quote);
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-size: 1.2rem;
 }
 
@@ -83,7 +104,7 @@
 }
 
 .tim-berners-lee-quote p {
-  color: var(--color-text-quote);
+  color: #2c3e50;
   font-style: italic;
   margin: 0 auto;
   max-width: 60rem;
@@ -93,187 +114,4 @@
   margin: 1.5rem auto 0 auto;
   max-width: 60rem;
   text-align: right;
-  color: var(--color-text);
-}
-
-/** Shared page hero pattern — used on the homepage, /about,
- *  /for_users, /for_developers, /for_organisations, /community,
- *  /get_a_pod. Mirrors .apps-hero on /apps so the whole site shares
- *  one hero voice. Eyebrow + headline + lede + optional CTA row.
- */
-.page-hero {
-  /* `margin: 0 auto 2rem auto` instead of `0 0 2rem 0` so the hero
-     honours the `main > * { margin: 0 auto }` centering at ≥1280px
-     (where `main > *` caps children at `calc(1280px - 6.2rem)`).
-     The previous explicit zero left/right margins at higher class
-     specificity kept the hero left-aligned while the sibling
-     quote / tile sections centred, producing the "hero is wider
-     on the left but not the right" asymmetry @jeswr flagged. */
-  margin: 0 auto 2rem auto;
-  padding: 2.5rem 2rem;
-  background: linear-gradient(135deg, var(--color-brand-tint) 0%, var(--color-bg) 70%);
-  border: 1px solid var(--color-border);
-  border-radius: calc(var(--radius-md) * 1.5);
-  box-shadow: var(--shadow-hero);
-}
-
-.page-hero__content {
-  max-width: 60rem;
-}
-
-.page-hero__eyebrow {
-  margin: 0 0 0.5rem 0;
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--color-brand);
-}
-
-.page-hero__headline {
-  margin: 0 0 0.75rem 0;
-  font-size: clamp(1.8rem, 2.4vw + 1rem, 2.6rem);
-  line-height: 1.15;
-  color: var(--color-text);
-}
-
-.page-hero__lede {
-  margin: 0 0 1.25rem 0;
-  font-size: 1.1rem;
-  line-height: 1.55;
-  color: var(--color-text-subtle);
-}
-
-.page-hero__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 0;
-}
-
-.page-hero__cta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  max-width: 100%;
-  padding: 0.75rem 1.4rem;
-  background: var(--color-brand);
-  color: var(--color-brand-contrast);
-  font-weight: 700;
-  text-decoration: none;
-  overflow-wrap: anywhere;
-  border: 1px solid var(--color-brand);
-  border-radius: var(--radius-sm);
-  transition: background-color var(--motion-med) ease, transform var(--motion-med) ease, box-shadow var(--motion-med) ease;
-}
-
-.page-hero__cta:hover,
-.page-hero__cta:focus-visible {
-  background: var(--color-brand-hover);
-  border-color: var(--color-brand-hover);
-  color: var(--color-brand-contrast);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-2-strong);
-}
-
-.page-hero__cta:focus-visible {
-  outline: none;
-  box-shadow: var(--focus-ring-brand), var(--shadow-2-strong);
-}
-
-.page-hero__cta--ghost {
-  background: transparent;
-  color: var(--color-brand);
-}
-
-.page-hero__cta--ghost:hover,
-.page-hero__cta--ghost:focus-visible {
-  background: var(--color-brand);
-  color: var(--color-brand-contrast);
-}
-
-@media (max-width: 781px) {
-  .page-hero {
-    padding: 1.75rem 1.25rem;
-  }
-  .page-hero__headline {
-    font-size: 1.6rem;
-  }
-  .page-hero__lede {
-    font-size: 1rem;
-  }
-  .page-hero__actions {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .page-hero__cta {
-    width: 100%;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .page-hero__cta {
-    transition: none !important;
-  }
-  .page-hero__cta:hover {
-    transform: none;
-  }
-}
-
-/** Pod-service tiles (/get_a_pod).
- *
- * Uses the site-wide `.tiles.tile-links` pattern so each tile is a
- * whole-card clickable link to the provider's sign-up page. The inner
- * `.pod-tile__meta` is a one-line plain-text summary (e.g. "Hosted in
- * the EU"); off-site reference links to the organisation and hosting
- * jurisdiction live in a sibling `<p class="app-source">` paragraph
- * outside the outer anchor, matching the pattern already used on the
- * /apps page so nothing is nested inside an `<a>`.
- */
-.pod-tile__meta {
-  margin: 0;
-  color: var(--color-text-muted);
-  font-size: 0.95rem;
-}
-
-.pod-tile__tag {
-  display: inline-block;
-  margin-left: 0.5rem;
-  padding: 0.1rem 0.5rem;
-  vertical-align: middle;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--color-accent-warm);
-  background: var(--color-accent-warm-tint);
-  border-radius: var(--radius-pill, 999px);
-}
-
-/* `.app-source` is defined in apps.css for the /apps tiles. Re-declare
-   a compact version here so pod tiles get the same styling without
-   pulling apps.css onto every page. The selector is scoped to
-   .pod-tiles so it cannot drift with the apps page if that page
-   later specialises its own rules. */
-.pod-tiles .app-source {
-  margin: 0.4rem 1.25rem 1.25rem 1.25rem;
-  font-size: 0.9em;
-  color: var(--color-text-muted);
-}
-
-.pod-tiles .app-source a {
-  color: var(--color-brand);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.pod-tiles .app-source a:hover,
-.pod-tiles .app-source a:focus-visible {
-  color: var(--color-brand-hover);
-}
-
-.pod-tiles .app-source a:focus-visible {
-  outline: 2px solid var(--color-brand);
-  outline-offset: 2px;
 }
