@@ -204,6 +204,17 @@
   .header .theme-toggle {
     margin-right: 0.5rem;
   }
+
+  /* When the hamburger becomes `.active` it jumps to `position: fixed`
+     at `right: 3.2rem`, taking it out of flow. The flex row then
+     collapses around the remaining in-flow items (logo + toggle) and
+     `justify-content: space-between` slides the toggle to the right
+     edge — directly under the fixed hamburger. Shift the toggle left
+     by a hamburger-width-plus-gap while the menu is open so the two
+     controls sit side-by-side instead of stacking. */
+  .header:has(.hamburger-menu.active) .theme-toggle {
+    margin-right: var(--space-7);
+  }
 }
 
 /* "Get Started" primary CTA — a filled, pill-shaped button at the
