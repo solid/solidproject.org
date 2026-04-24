@@ -519,11 +519,6 @@
   box-shadow: var(--focus-ring-brand);
 }
 
-.apps-sidebar__search-hint {
-  font-size: 0.8rem;
-  color: var(--color-text-muted);
-}
-
 /* "Editor's pick ★" marker on featured tiles. Retained from the old
    toolbar block because it lives on tiles, not on the retired
    sort/filter controls. */
