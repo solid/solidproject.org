@@ -7,19 +7,18 @@
  *  the text so the CTA row stays near the top of the viewport on
  *  mobile.
  */
-/* Figure inside a split hero — shared base used on the homepage and
-   the Get a Pod page. Mobile default centres the illustration; the
-   ≥781px `.page-hero--split` rule further down pulls it to
-   flex-end so it hugs the hero card's right padding. */
-.home-hero .page-hero__figure,
-.get-a-pod-hero .page-hero__figure {
+/* Figure inside a hero. Generic so every hero page that adds a
+   `.page-hero__figure` child picks up the sizing rules automatically,
+   without a per-page selector. Mobile default centres the
+   illustration; the ≥781px `.page-hero--split` rule further down
+   pulls it to flex-end so it hugs the hero card's right padding. */
+.page-hero__figure {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.home-hero .page-hero__figure img,
-.get-a-pod-hero .page-hero__figure img {
+.page-hero__figure img {
   width: 100%;
   height: auto;
   max-width: 32rem;
@@ -60,12 +59,12 @@
 }
 
 @media (max-width: 780px) {
-  .home-hero {
+  .page-hero--split {
     display: flex;
     flex-direction: column-reverse;
     gap: 1.5rem;
   }
-  .home-hero .page-hero__figure img {
+  .page-hero--split .page-hero__figure img {
     max-width: 20rem;
     margin: 0 auto;
   }
@@ -103,7 +102,14 @@
  *  one hero voice. Eyebrow + headline + lede + optional CTA row.
  */
 .page-hero {
-  margin: 0 0 2rem 0;
+  /* `margin: 0 auto 2rem auto` instead of `0 0 2rem 0` so the hero
+     honours the `main > * { margin: 0 auto }` centering at ≥1280px
+     (where `main > *` caps children at `calc(1280px - 6.2rem)`).
+     The previous explicit zero left/right margins at higher class
+     specificity kept the hero left-aligned while the sibling
+     quote / tile sections centred, producing the "hero is wider
+     on the left but not the right" asymmetry @jeswr flagged. */
+  margin: 0 auto 2rem auto;
   padding: 2.5rem 2rem;
   background: linear-gradient(135deg, var(--color-brand-tint) 0%, var(--color-bg) 70%);
   border: 1px solid var(--color-border);

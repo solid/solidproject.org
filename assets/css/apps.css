@@ -10,7 +10,11 @@
 
 /** Hero */
 .apps-hero {
-  margin: 0 0 2rem 0;
+  /* Mirror .page-hero in homepage.css: auto horizontal margins so the
+     hero centres within `main > *` at the ≥1280px breakpoint, matching
+     sibling sections. Previous `0 0 2rem 0` left the hero left-aligned
+     while the rest of the article centred. */
+  margin: 0 auto 2rem auto;
   padding: 2.5rem 2rem;
   background: linear-gradient(135deg, var(--color-brand-tint) 0%, var(--color-bg) 70%);
   border: 1px solid var(--color-border);
@@ -20,6 +24,17 @@
 
 .apps-hero__content {
   max-width: 60rem;
+}
+
+/* When the apps hero opts into the shared `.page-hero--split` flex
+   layout (see homepage.css), cap the text column so it balances
+   against the figure instead of taking the full 60rem. */
+@media (min-width: 781px) {
+  .apps-hero.page-hero--split .apps-hero__content {
+    max-width: 36rem;
+    flex: 0 1 36rem;
+    min-width: 0;
+  }
 }
 
 .apps-hero__eyebrow {
