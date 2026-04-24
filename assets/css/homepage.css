@@ -58,42 +58,6 @@
   }
 }
 
-/** Try Solid Button */
-.try-solid-button {
-  background-color: var(--color-brand);
-  color: var(--color-brand-contrast);
-  display: inline-flex;
-  align-items: center;
-  gap: 0.8rem;
-  padding: 0.4rem 2rem;
-  text-decoration: none;
-  border-radius: var(--radius-sm);
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: all var(--motion-med) ease;
-  box-shadow: var(--shadow-brand);
-}
-
-.try-solid-button::after {
-  content: "";
-  display: inline-block;
-  width: 1.8rem;
-  height: 1.6rem;
-  flex-shrink: 0;
-  background-image: url("/assets/img/solid-emblem.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.try-solid-button:hover,
-.try-solid-button:focus {
-  background-color: var(--color-brand-hover);
-  color: var(--color-brand-contrast);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-brand-hover);
-}
-
 /** Tim Berners-Lee Quote Styling */
 .tim-berners-lee-quote {
   background: linear-gradient(135deg, var(--color-surface-muted) 0%, var(--color-surface-quote) 100%);
@@ -230,12 +194,10 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .page-hero__cta,
-  .try-solid-button {
+  .page-hero__cta {
     transition: none !important;
   }
-  .page-hero__cta:hover,
-  .try-solid-button:hover {
+  .page-hero__cta:hover {
     transform: none;
   }
 }

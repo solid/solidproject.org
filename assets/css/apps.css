@@ -83,17 +83,6 @@
   box-shadow: var(--focus-ring-brand), var(--shadow-2-strong);
 }
 
-.apps-hero__cta--ghost {
-  background: transparent;
-  color: var(--color-brand);
-}
-
-.apps-hero__cta--ghost:hover,
-.apps-hero__cta--ghost:focus-visible {
-  background: var(--color-brand);
-  color: var(--color-brand-contrast);
-}
-
 .apps-hero__note {
   margin: 0;
   font-size: 0.95rem;
