@@ -161,12 +161,13 @@
   /* Logo chip stays white so upstream-app artwork reads the same in
      both themes; see the light-theme note for rationale. */
   --color-logo-chip: #ffffff;
-  --color-header-bg: #0a0c11;
-  --color-header-text: #e6e9f2;
-  --color-header-link-hover: rgba(255, 255, 255, 0.08);
-  --color-footer-bg: #0a0c11;
-  --color-footer-text: #c8cde0;
-  --color-footer-text-hover: #ffffff;
+  /* Header + footer chrome is deliberately not overridden here. The
+     light-theme values (--color-header-bg #202542, matching footer
+     tokens) are already dark enough that re-darkening them in dark
+     mode produced no visible improvement — it only widened the
+     contrast gulf between the chrome and the body surface. Letting
+     the :root values cascade means the header / footer render the
+     same in both themes; only the body surfaces swap. */
   --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4);
   --shadow-2: 0 4px 12px rgba(0, 0, 0, 0.5);
   --shadow-2-strong: 0 4px 12px rgba(0, 0, 0, 0.55);
