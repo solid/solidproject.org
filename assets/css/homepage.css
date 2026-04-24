@@ -239,3 +239,60 @@
     transform: none;
   }
 }
+
+/** Pod-service tiles (/get_a_pod).
+ *
+ * Uses the site-wide `.tiles.tile-links` pattern so each tile is a
+ * whole-card clickable link to the provider's sign-up page. The inner
+ * `.pod-tile__meta` is a one-line plain-text summary (e.g. "Hosted in
+ * the EU"); off-site reference links to the organisation and hosting
+ * jurisdiction live in a sibling `<p class="app-source">` paragraph
+ * outside the outer anchor, matching the pattern already used on the
+ * /apps page so nothing is nested inside an `<a>`.
+ */
+.pod-tile__meta {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.pod-tile__tag {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  vertical-align: middle;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-accent-warm);
+  background: var(--color-accent-warm-tint);
+  border-radius: var(--radius-pill, 999px);
+}
+
+/* `.app-source` is defined in apps.css for the /apps tiles. Re-declare
+   a compact version here so pod tiles get the same styling without
+   pulling apps.css onto every page. The selector is scoped to
+   .pod-tiles so it cannot drift with the apps page if that page
+   later specialises its own rules. */
+.pod-tiles .app-source {
+  margin: 0.4rem 1.25rem 1.25rem 1.25rem;
+  font-size: 0.9em;
+  color: var(--color-text-muted);
+}
+
+.pod-tiles .app-source a {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.pod-tiles .app-source a:hover,
+.pod-tiles .app-source a:focus-visible {
+  color: var(--color-brand-hover);
+}
+
+.pod-tiles .app-source a:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
