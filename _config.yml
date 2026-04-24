@@ -34,3 +34,4 @@ exclude:
   - docker-compose.yml
   - LICENSE.md
   - README.md
+  - KNOWN-LINT-ISSUES.md
