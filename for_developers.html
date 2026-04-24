@@ -1,12 +1,28 @@
 ---
 permalink: /for_developers
 layout: article
+hide_title: true
 title: "Solid For Developers"
 description: "Solid is a file system for the Web."
 image: "/assets/img/graphics/single-sign-on.svg"
 breadcrumbs:
 - title: "Solid For Developers"
 ---
+
+<section class="page-hero page-hero--split" aria-labelledby="for-developers-hero-heading">
+  <div class="page-hero__content">
+    <p class="page-hero__eyebrow">For developers</p>
+    <h1 id="for-developers-hero-heading" class="page-hero__headline">Build apps people actually own</h1>
+    <p class="page-hero__lede">Solid is a file system for the Web. Read and write against a standard API, and the Pod your app targets belongs to the user, not the platform.</p>
+    <div class="page-hero__actions">
+      <a class="page-hero__cta" href="https://dev.solidproject.org" rel="noopener noreferrer">Read the docs</a>
+      <a class="page-hero__cta page-hero__cta--ghost" href="/apps">See live apps</a>
+    </div>
+  </div>
+  <div class="page-hero__figure" aria-hidden="true">
+    <img src="/assets/img/graphics/single-sign-on.svg" alt="" />
+  </div>
+</section>
 
 <div datatype="rdf:HTML" property="description">
   <p>Solid is a file system for the Web.</p>
@@ -17,7 +33,7 @@ breadcrumbs:
 <section resource="#solid_developers_documentation" inlist="" rel="hasPart" class="article-section">
   <h2 id="solid_developers_documentation" property="name">Solid Developers Documentation</h2>
   <div datatype="rdf:HTML" property="description">
-    <p>The <a href="https://dev.solidproject.org">Solid Developers Documentation</a> is a central place to learn about Solid development. You can also contribute tutorials through the corresponding <a href="https://github.com/solid/dev">solid/dev repository</a>.</p>
+    <p>The <a href="https://dev.solidproject.org">Solid Developers Documentation</a> is a central place to learn about Solid development. You can also contribute tutorials through the corresponding <a href="https://github.com/solid/dev" rel="noopener noreferrer">solid/dev repository</a>.</p>
   </div>
 </section>
 
@@ -26,7 +42,7 @@ breadcrumbs:
   <div datatype="rdf:HTML" property="description">
     <p>You can find support and share your experience as a developers with the Solid Practitioners group!</p>
     <ul>
-      <li><a href="https://matrix.to/#/%23solid-practitioners%3Amatrix.org">Join the discussion on Matrix</a></li>
+      <li><a href="https://matrix.to/#/%23solid-practitioners%3Amatrix.org" rel="noopener noreferrer">Join the discussion on Matrix</a></li>
       <li><a href="http://signup.practitioners.solidproject.org/">Signup to the Solid practitioners newsletter</a></li>
     </ul>
   </div>
@@ -47,30 +63,55 @@ breadcrumbs:
   <div datatype="rdf:HTML" property="description">
     <p>The tutorials below can help you get started building a Solid app.</p>
     <ul>
-      <li><a href="https://ldo.js.org/latest/guides/solid/">Using LDO to build a Solid Application for React</a> by O.team</li>
-      <li><a href="https://virginiabalseiro.com/blogposts/tutorial-create-a-solid-to-do-app">How to Build a Solid To-Do App with React</a> tutorial by Virginia Balseiro</li>
-      <li><a href="https://github.com/solid/solidproject.org/wiki/Vocabularies-Overview">Creating Vocabularies</a> tutorial</li>
-      <li><a href="https://nextcloud.hellofuture.be/s/nYYNwGceFSNotJY">Ember Solid</a> by Aad Versteden</li>
-      <li><a href="https://docs.inrupt.com/sdk/javascript-sdk/tutorial">Javascript tutorial</a> by Inrupt</li>
-      <li><a href="https://docs.inrupt.com/sdk/java-sdk/tutorial">Java tutorial</a> by Inrupt</li>
+      <li><a href="https://ldo.js.org/latest/guides/solid/" rel="noopener noreferrer">Using LDO to build a Solid Application for React</a> by O.team</li>
+      <li><a href="https://virginiabalseiro.com/blogposts/tutorial-create-a-solid-to-do-app" rel="noopener noreferrer">How to Build a Solid To-Do App with React</a> tutorial by Virginia Balseiro</li>
+      <li><a href="https://github.com/solid/solidproject.org/wiki/Vocabularies-Overview" rel="noopener noreferrer">Creating Vocabularies</a> tutorial</li>
+      <li><a href="https://nextcloud.hellofuture.be/s/nYYNwGceFSNotJY" rel="noopener noreferrer">Ember Solid</a> by Aad Versteden</li>
+      <li><a href="https://docs.inrupt.com/sdk/javascript-sdk/tutorial" rel="noopener noreferrer">Javascript tutorial</a> by Inrupt</li>
+      <li><a href="https://docs.inrupt.com/sdk/java-sdk/tutorial" rel="noopener noreferrer">Java tutorial</a> by Inrupt</li>
     </ul>
   </div>
 </section>
 
-<section resource="#open_source_solid_apps" inlist="" rel="hasPart" class="article-section">
-  <h2 id="open_source_solid_apps" property="name">Open Source Solid Apps</h2>
+<section resource="#solid_server_implementations" inlist="" rel="hasPart" class="article-section">
+  <h2 id="solid_server_implementations" property="name">Solid Server implementations</h2>
   <div datatype="rdf:HTML" property="description">
-    <p>You can check the open source code of some existing <a href="/apps">Solid apps</a>.</p>
+    <p>Implementations of the Solid Protocol that host Pods and serve Solid apps. Pick one if you want to run your own infrastructure or integrate the protocol into an existing stack.</p>
     <ul>
-      <li>0data Hello with Solid: <a href="https://github.com/0dataapp/hello/tree/main/solid/solid-file-client">Source code</a></li>
-      <li>Booklice: <a href="https://github.com/scenaristeur/booklice/">Source code</a></li>
-      <li>dokieli: <a href="https://git.dokie.li/">Source code</a> under <a href="https://github.com/dokieli/dokieli/blob/main/LICENSE">Apache License, Version 2.0</a> © 2012-2025 by <a href="https://csarven.ca/#i">Sarven Capadisli</a></li>
-      <li>Media Kraken: <a href="https://github.com/NoelDeMartin/media-kraken">Source code</a> under <a href="https://github.com/NoelDeMartin/media-kraken/blob/main/LICENSE">GNU General Public License v3.0 © 2020</a> by <a href="https://noeldemartin.com">Noel De Martin</a> (<a href="https://github.com/NoelDeMartin/media-kraken/tree/main/docs">Documentation</a> - <a href="https://forum.solidproject.org/t/media-kraken-keep-track-of-your-media-in-your-pod/3333">Provide Feedback</a>)</li>
-      <li>Penny: <a href="https://penny.vincenttunru.com/">Source code</a> by <a href="https://vincenttunru.com/">Vincent Tunru</a></li>
-      <li>PodOS: <a href="https://github.com/pod-os/PodOS">Source code</a></li>
-      <li>Solid File Manager: <a href="https://github.com/Otto-AA/solid-filemanager">Source code</a> under <a href="https://github.com/Otto-AA/solid-filemanager/blob/master/LICENSE">MIT License Copyright © 2019</a> by <a href="https://github.com/Otto-AA">Otto AA</a></li>
-      <li>Solidflix: <a href="https://github.com/OxfordHCC/solid-media">Source code</a> by <a href="https://www.cs.ox.ac.uk/research/HCC/">Oxford Human Centred Computing Group</a> (<a href="https://www.cs.ox.ac.uk/research/HCC/">EWADA</a> Project)</li>
-      <li>Umai: <a href="https://github.com/noeldemartin/umai">Source code</a> under <a href="https://github.com/NoelDeMartin/umai/blob/main/LICENSE">GNU General Public License v3.0 © 2023</a> by <a href="https://noeldemartin.com">Noel De Martin</a></li>
+      <li><a href="https://communitysolidserver.github.io/CommunitySolidServer/latest/" class="external-link" rel="noopener noreferrer">Community Solid Server</a></li>
+      <li><a href="https://www.inrupt.com/products/enterprise-solid-server" class="external-link" rel="noopener noreferrer">Enterprise Solid Server</a></li>
+      <li><a href="https://graphmetrix.com/trinpod-server" class="external-link" rel="noopener noreferrer">Trinpod</a></li>
+      <li><a href="https://manomayam.github.io/manas/introduction.html" class="external-link" rel="noopener noreferrer">Manas</a></li>
+      <li><a href="https://github.com/nodeSolidServer/node-solid-server" class="external-link" rel="noopener noreferrer">Node Solid Server</a></li>
+      <li><a href="https://pdsinterop.org/php-solid-server/" class="external-link" rel="noopener noreferrer">PHP Solid Server</a></li>
     </ul>
+  </div>
+</section>
+
+<section resource="#apps_page_listing" inlist="" rel="hasPart" class="article-section">
+  <h2 id="apps-page-listing" property="name">Listing your app on the Solid Apps page</h2>
+  <div datatype="rdf:HTML" property="description">
+    <p>Built a Solid app and want it on the <a href="/apps">Solid Apps</a> page? To be considered Solid-compatible, your app should:</p>
+    <ul>
+      <li>Let users log in with their WebID, pointing to the Identity Provider of their choice (if the app identifies users at all)</li>
+      <li>Read data from the user&rsquo;s Solid Pod where possible</li>
+      <li>Write the data it generates back to the user&rsquo;s Solid Pod</li>
+      <li>Talk to Pods and Identity Providers in ways that follow the <a href="/TR/">Solid specifications</a></li>
+    </ul>
+    <p>Even if an app meets the criteria above, we will not list it if it:</p>
+    <ul>
+      <li>Causes harm to anyone, directly or indirectly</li>
+      <li>Has a purpose most people would consider unethical</li>
+      <li>Generates or spreads hate speech</li>
+      <li>Encourages stereotypes or violent behaviours towards any person or group</li>
+      <li>Has malicious intent, such as data theft</li>
+      <li>Exists to serve illegal purposes, such as drug trafficking, trading stolen information, or extortion</li>
+      <li>Shares user information with a third party without the user&rsquo;s consent</li>
+      <li>Has been reported to have serious technical or security issues that compromise its users&rsquo; Pods</li>
+    </ul>
+    <h3 id="how-to-submit">How to submit your app</h3>
+    <p>Open a pull request against <a href="https://github.com/solid/solidproject.org" class="external-link" rel="noopener noreferrer">solid/solidproject.org</a> on GitHub and add a new <code>&lt;li data-name&gt;</code> tile to <code>apps.html</code> in the appropriate category. Copy an existing tile as a template &mdash; each carries a link to the hosted app, a short description, a logo under <code>/assets/img/logo/</code>, and a <code>.app-source</code> line with the source-code link. Reviewers on the repo will merge once the criteria above are met.</p>
+    <p>If you prefer not to open a PR, contact the <a href="https://theodi.org/insights/projects/odi-and-solid-building-a-future-where-data-works-for-everyone/" class="external-link" rel="noopener noreferrer">Open Data Institute</a> at <a href="mailto:solid+info@theodi.org">solid+info@theodi.org</a> with a short description and the app URL.</p>
+    <p>Inclusion is not an endorsement by the Solid Project. Apps are not tested, and no security or quality guarantee is implied. The list exists to showcase the Solid community.</p>
   </div>
 </section>

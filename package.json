@@ -1,0 +1,28 @@
+{
+  "name": "solid-project-website",
+  "private": true,
+  "description": "Source of https://solidproject.org — Jekyll static site. This package.json exists only to wire up dev-time linting (htmlhint, pa11y-ci, stylelint).",
+  "scripts": {
+    "lint": "npm run lint:html && npm run lint:css",
+    "lint:html": "htmlhint --ignore \"_site/**,node_modules/**,rdfa/**,press.html,specification.html,events.html,events/archive.html,playwright-report/**,test-results/**\" \"**/*.html\"",
+    "lint:css": "stylelint \"assets/css/**/*.css\"",
+    "lint:a11y:serve": "http-server _site -p 4000 -s -c-1",
+    "lint:a11y:run": "pa11y-ci --config .pa11yci",
+    "lint:a11y:run:json": "pa11y-ci --config .pa11yci --json > pa11y-report.json",
+    "lint:a11y": "start-server-and-test lint:a11y:serve http://127.0.0.1:4000 lint:a11y:run",
+    "lint:a11y:ci": "start-server-and-test lint:a11y:serve http://127.0.0.1:4000 lint:a11y:run:json",
+    "lint:all": "npm run lint",
+    "test:e2e": "playwright test",
+    "test:e2e:ci": "playwright test --reporter=html,github"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.1",
+    "@playwright/test": "1.50.1",
+    "htmlhint": "1.9.2",
+    "http-server": "14.1.1",
+    "pa11y-ci": "4.1.0",
+    "start-server-and-test": "3.0.2",
+    "stylelint": "17.9.0",
+    "stylelint-config-standard": "40.0.0"
+  }
+}

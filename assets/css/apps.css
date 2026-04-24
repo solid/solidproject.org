@@ -1,53 +1,679 @@
-/** Apps List */
-.sort-controls {
-  margin-bottom: 1.6rem;
-  padding: .8rem 1.6rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-  border: 1px solid #e9ecef;
-  display: flex;
-  gap: 1.6rem;
-  flex-wrap: wrap;
-  align-items: flex-end;
+/** Apps page
+ *
+ * Apps-specific visual layer. All colour / radius / shadow / focus
+ * values come from the site-wide :root tokens in base.css; only
+ * apps-page chrome (hero gradient, featured tint, sort controls) lives
+ * here. The previous `--apps-*` namespace was page-scoped to avoid
+ * leaking into the rest of the site; now the tokens live on :root and
+ * apps.css just consumes them like everyone else.
+ */
+
+/** Hero */
+.apps-hero {
+  /* Mirror .page-hero in homepage.css: auto horizontal margins so the
+     hero centres within `main > *` at the ≥1280px breakpoint, matching
+     sibling sections. Previous `0 0 2rem 0` left the hero left-aligned
+     while the rest of the article centred. */
+  margin: 0 auto 2rem auto;
+  padding: 2.5rem 2rem;
+  background: linear-gradient(135deg, var(--color-brand-tint) 0%, var(--color-bg) 70%);
+  border: 1px solid var(--color-border);
+  border-radius: calc(var(--radius-md) * 1.5);
+  box-shadow: var(--shadow-hero);
 }
 
-.control-group {
+.apps-hero__content {
+  max-width: 60rem;
+}
+
+/* When the apps hero opts into the shared `.page-hero--split` flex
+   layout (see homepage.css), cap the text column so it balances
+   against the figure instead of taking the full 60rem. */
+@media (min-width: 781px) {
+  .apps-hero.page-hero--split .apps-hero__content {
+    max-width: 36rem;
+    flex: 0 1 36rem;
+    min-width: 0;
+  }
+}
+
+.apps-hero__eyebrow {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-brand);
+}
+
+.apps-hero__headline {
+  margin: 0 0 0.75rem 0;
+  font-size: clamp(1.8rem, 2.4vw + 1rem, 2.6rem);
+  line-height: 1.15;
+  color: var(--color-text);
+}
+
+.apps-hero__lede {
+  margin: 0 0 1.25rem 0;
+  font-size: 1.1rem;
+  line-height: 1.55;
+  color: var(--color-text-subtle);
+}
+
+.apps-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0 0 1rem 0;
+}
+
+.apps-hero__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0.75rem 1.4rem;
+  background: var(--color-brand);
+  color: var(--color-brand-contrast);
+  font-weight: 700;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  border: 1px solid var(--color-brand);
+  border-radius: var(--radius-sm);
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.apps-hero__cta:hover,
+.apps-hero__cta:focus-visible {
+  background: var(--color-brand-hover);
+  border-color: var(--color-brand-hover);
+  color: var(--color-brand-contrast);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-2-strong);
+}
+
+.apps-hero__cta:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring-brand), var(--shadow-2-strong);
+}
+
+/** Apps layout — side-rail TOC + grid */
+.apps-layout {
+  /* Mobile default: single column. The TOC sits above the grid,
+     scrolling horizontally as a pill bar (see .apps-categories-nav
+     rules further down). */
+  display: block;
+}
+
+@media (min-width: 1025px) {
+  /* Desktop: pin the sidebar (search + TOC) to the left of the apps
+     grid so both stay one glance away from the apps. Track width
+     ~220px matches the longest category label ("Content, Notes,
+     Blogging and Publishing") at the base font. */
+  .apps-layout {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 2rem;
+    align-items: start;
+  }
+  /* Pin the whole sidebar (search + TOC) to the viewport top as the
+     reader scrolls the apps grid. `top: 1rem` leaves a touch of room
+     below the site header; z-index stays well below the header's
+     1001 so it never eclipses the main-nav. `max-height` fits inside
+     the viewport so a very long category list scrolls inside the
+     rail rather than stretching the page. */
+  .apps-layout__sidebar {
+    position: sticky;
+    top: 1rem;
+    align-self: start;
+    z-index: 10;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+  }
+  .apps-layout__main {
+    min-width: 0; /* allow the inner grid tracks to shrink */
+  }
+}
+
+/** Category TOC */
+.apps-categories-nav {
+  margin: 0 0 1.5rem 0;
+  padding: 1rem 1.25rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+/* Desktop: the nav sits inside the sticky sidebar (.apps-layout__sidebar
+   owns the sticky + max-height + overflow-y). No per-nav sticky is
+   needed because the whole sidebar pins as one unit, which is what
+   keeps search + TOC aligned while the reader scrolls. */
+@media (min-width: 1025px) {
+  .apps-categories-nav {
+    margin: 0;
+  }
+}
+
+.apps-categories-nav__label {
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+/* Category list: a plain grid of text links — no pill chrome. The
+   earlier design wrapped each link in a grey rounded-pill card; in
+   practice that added visual weight without improving scanning, so
+   the presentation is now a simple two-column grid inside the
+   sidebar (desktop) or a single horizontally-scrolling row
+   (tablet / mobile). Hover / focus is indicated with colour + a
+   subtle brand underline, not a filled shape. */
+.apps-categories-nav__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.35rem 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Desktop rail: single-column grid so each link has a full, easy
+   hit target while the TOC stays narrow. */
+@media (min-width: 1025px) {
+  .apps-categories-nav__list {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.25rem;
+  }
+}
+
+/* Everything below the side-rail breakpoint (mobile AND tablet).
+   The TOC stays above the grid here, and the category list collapses
+   into a single horizontally-scrolling row rather than wrapping into
+   multiple rows that push the apps grid far down the viewport.
+   ≤781px refines these with narrower padding; this block is the
+   shared base. */
+@media (max-width: 1024px) {
+  .apps-categories-nav__list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .apps-categories-nav__link {
+    flex-shrink: 0;
+  }
+}
+
+.apps-categories-nav__link {
+  display: block;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.95rem;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.apps-categories-nav__link:hover {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
+
+/* Keep a real focus outline for keyboard users — the browser default
+   outline gets nuked by some UAs, so draw our own brand-coloured
+   one. Outlines (rather than box-shadow) work correctly on
+   display:block inline-text links and don't get clipped when the
+   rail has overflow-y: auto. */
+.apps-categories-nav__link:focus-visible {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+/** Category sections */
+.apps-category-sections {
   display: flex;
   flex-direction: column;
-  gap: .8rem;
+  gap: 2.25rem;
+  margin: 1.5rem 0;
 }
 
-.sort-controls select {
-  padding: .4rem;
-  border: 1px solid #ced4da;
-  border-radius: .4rem;
-  background: white;
-  min-width: 200px;
+.apps-category {
+  /* Small clearance covers the sticky site header and leaves a touch
+     of breathing room. On desktop the TOC now lives in the left
+     sidebar (see .apps-layout above), so we no longer need to budget
+     for a pinned horizontal pill bar above the heading. */
+  scroll-margin-top: 1rem;
 }
 
-.sort-controls select:focus {
+@media (min-width: 1025px) {
+  .apps-category {
+    /* Keep 1rem as the base; the sidebar doesn't occlude the
+       heading, so no extra offset is needed. Scoped to the
+       breakpoint anyway so a future in-column pinned bar can bump
+       this without touching the mobile value. */
+    scroll-margin-top: 1rem;
+  }
+}
+
+.apps-category__heading {
+  margin: 0 0 1rem 0;
+  padding: 0 0 0.4rem 0;
+  font-size: 1.35rem;
+  color: var(--color-text);
+  border-bottom: 2px solid var(--color-brand);
+  display: inline-block;
+}
+
+/* Optional one-line blurb injected under a category heading from the
+   first tile in the group carrying data-category-intro. Kept narrow so
+   it reads like a caption next to the rail of tiles rather than a
+   competing paragraph. */
+.apps-category__intro {
+  margin: 0.25rem 0 1rem;
+  max-width: 60ch;
+  color: var(--color-text-subtle);
+  font-size: 0.95rem;
+}
+
+.apps-category__grid {
+  margin: 0;
+}
+
+/* Flat grid used when the user picks a name-based sort. Inherits
+   the .tiles grid rules from base.css so spacing is consistent. */
+.apps-sorted-grid {
+  margin: 1.5rem 0;
+}
+
+.apps-no-results {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  text-align: center;
+  color: var(--color-text-subtle);
+  background: var(--color-surface-muted);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+/* Quiet meta sentence below the grid: endorsement disclaimer + a
+   pointer to the For Developers page for the full listing criteria
+   and PR instructions. Kept small and subtle so the grid itself
+   stays the primary content. */
+.apps-disclaimer {
+  margin: 2.5rem auto 0 auto;
+  max-width: 60rem;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+/* Tiles with the .hidden flag are removed from the visual grid. */
+.tiles li.hidden {
+  display: none !important;
+}
+
+/** Featured / Editor's picks row */
+.apps-featured {
+  margin: 0 0 2rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, var(--color-accent-warm-tint) 0%, var(--color-bg) 75%);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.apps-featured__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.apps-featured__heading {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.apps-featured__star {
+  color: var(--color-accent-warm);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.apps-featured__blurb {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.apps-featured__grid {
+  margin: 0;
+}
+
+/** Tile polish (apps page only) */
+/* Consistent logo slot: centred icon, soft radius, object-fit contain
+   for non-square upstream assets. Scoped to tiles inside the apps page
+   so other .tiles instances (e.g. on for_users / for_developers) are
+   untouched. */
+.apps-category__grid .tile-header img,
+.apps-sorted-grid .tile-header img,
+.apps-featured__grid .tile-header img {
+  width: 60px;
+  height: 60px;
+  padding: 0.3rem;
+  object-fit: contain;
+  background: var(--color-logo-chip);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* Wide / non-square logo fallback used by tiles that opt into a wider
+   slot (e.g. the ODI file manager wordmark-style logo). */
+.tiles .tile-logo {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  background: var(--color-logo-chip);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.tiles .tile-logo--wide {
+  width: 100px;
+}
+
+.tiles .tile-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* Cancel the generic .tile-header img rule above so the wide wrapper
+     is actually wider than 60px. */
+  border: 0;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+/* Smooth hover lift for apps-page tiles. Base.css already applies a
+   box-shadow on hover; we add a subtle translate for movement feel. */
+.apps-category__grid li,
+.apps-sorted-grid li,
+.apps-featured__grid li {
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.apps-category__grid li:hover,
+.apps-sorted-grid li:hover,
+.apps-featured__grid li:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-brand);
+}
+
+/* "Open app →" chevron hint rendered at the bottom of the tile anchor.
+   Uses ::after on the <a> so no extra markup is needed.
+   Scoped to the direct-child tile anchor (> li > a) so the pseudo-
+   element does not leak onto descendant anchors such as the
+   secondary .app-source link. */
+.apps-category__grid > li > a::after,
+.apps-sorted-grid > li > a::after,
+.apps-featured__grid > li > a::after {
+  content: "Open app \2192";
+  margin-top: auto;
+  padding-top: 1rem;
+  font-weight: 700;
+  color: var(--color-brand);
+  letter-spacing: 0.01em;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.apps-category__grid > li:hover > a::after,
+.apps-sorted-grid > li:hover > a::after,
+.apps-featured__grid > li:hover > a::after {
+  opacity: 1;
+  transform: translateX(3px);
+}
+
+/* Clear keyboard focus-visible outline using the brand accent. */
+.apps-category__grid a:focus-visible,
+.apps-sorted-grid a:focus-visible,
+.apps-featured__grid a:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* Editor's-pick pill: restyle the existing .top-app-tag <span> so it
+   reads as a pill next to the app name rather than a bare star. The
+   ★ glyph stays, with a tinted chip surface for readability. */
+.apps-category__grid .top-app-tag,
+.apps-sorted-grid .top-app-tag,
+.apps-featured__grid .top-app-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: 0.6rem;
+  font-size: 1rem;
+  color: var(--color-accent-warm);
+  background: var(--color-accent-warm-tint);
+  border-radius: 50%;
+}
+
+/* Keep inline links inside app descriptions on the same line. Selector
+   applies to both the no-JS flat list (#apps-list) and the JS-built
+   category sections (.apps-category__grid) via the shared .tiles
+   wrapper class. */
+.tiles li p a {
+  display: inline !important;
+  vertical-align: baseline;
+}
+
+/* Source-code paragraph rendered below the primary tile link so
+   its anchor is not nested inside the outer tile <a>. */
+.tiles li .app-source {
+  margin: 0 1.5rem 1.5rem 1.5rem;
+  font-size: 0.9em;
+}
+
+/* Reset the tile-level "a is a big flex block" rules (see
+   .tiles.tile-links a in base.css) for the source-code anchor so
+   it renders as a normal inline link. */
+.tiles li .app-source a {
+  display: inline !important;
+  padding: 0;
+  width: auto;
+  height: auto;
+  flex-grow: 0;
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+.tiles li .app-source a:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
+}
+
+/** Sidebar search (replacement for the retired toolbar) */
+.apps-sidebar__search {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin: 0 0 1rem 0;
+}
+
+.apps-sidebar__search-label {
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.apps-sidebar__search-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.55rem 0.8rem;
+  font: inherit;
+  line-height: 1.4;
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-input);
+  border-radius: var(--radius-sm);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.apps-sidebar__search-input:focus {
   outline: none;
-  border-color: #3273dc;
-  box-shadow: 0 0 0 2px rgba(50, 115, 220, 0.25);
+  border-color: var(--color-brand);
+  box-shadow: var(--focus-ring-brand);
 }
 
+/* "Editor's pick ★" marker on featured tiles. Retained from the old
+   toolbar block because it lives on tiles, not on the retired
+   sort/filter controls. */
 .top-app-tag {
-  color: #ff6b35;
+  color: var(--color-accent-warm);
   font-size: 1.6rem;
   margin-left: .8rem;
   flex-shrink: 0;
 }
 
-.checkbox-label {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  color: #495057;
-  gap: .8rem;
-  margin-bottom: .2rem;
+/** Responsive tail (mobile)
+ *
+ * The desktop-first base.css grid is mostly fine, but on narrow
+ * viewports we want: hero pads less, featured row lets tiles fill,
+ * category TOC loses its sticky behaviour (covered above by the
+ * media-query scope), category section grids collapse to one column.
+ */
+@media (max-width: 781px) {
+  .apps-hero {
+    padding: 1.75rem 1.25rem;
+  }
+  .apps-hero__headline {
+    font-size: 1.6rem;
+  }
+  .apps-hero__lede {
+    font-size: 1rem;
+  }
+  .apps-hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .apps-hero__cta {
+    width: 100%;
+  }
+  .apps-categories-nav {
+    padding: 0.8rem 1rem;
+  }
+  /* The horizontal-scroll pill rules used to live only inside this
+     ≤781px block, but that left 782–1024px (tablet) wrapping the
+     pills into multiple rows and pushing the grid far down the page.
+     They have moved to a broader `max-width: 1024px` block below so
+     the whole single-column range (everything before the side-rail
+     kicks in) shares one scrolling-pill-bar UX. */
+  .apps-featured {
+    padding: 1.1rem;
+  }
+  .apps-category__heading {
+    font-size: 1.2rem;
+  }
+  .tiles li.hidden {
+    /* No-op: display:none wins regardless of flex direction. */
+    display: none !important;
+  }
 }
 
-.checkbox-label input[type="checkbox"] {
-  margin: 0;
-  cursor: pointer;
+@media (max-width: 580px) {
+  /* Force single-column grid on tiny viewports so tile content gets
+     full width instead of cramming into a 300px minmax column that
+     ends up producing two 50%-width columns on 360px-wide phones.
+     Use minmax(0, 1fr) so the track cannot grow beyond the grid
+     container from a tile's intrinsic min-content width. */
+  .apps-category__grid,
+  .apps-sorted-grid,
+  .apps-featured__grid,
+  #apps-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  /* Let the tile-header (logo + title flex row) wrap onto two lines
+     when the combined min-width of the wide logo + shortest word in
+     the title exceeds the tile body width on phone-size viewports.
+     Covers both the JS-built category/sorted/featured grids and the
+     no-JS flat fallback list (#apps-list). */
+  .apps-category__grid .tile-header,
+  .apps-sorted-grid .tile-header,
+  .apps-featured__grid .tile-header,
+  #apps-list .tile-header {
+    flex-wrap: wrap;
+  }
+  /* Allow long/compound title words to break so the title itself
+     cannot push the row beyond the tile. */
+  .apps-category__grid .tile-header h3,
+  .apps-sorted-grid .tile-header h3,
+  .apps-featured__grid .tile-header h3,
+  #apps-list .tile-header h3 {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  /* Shrink the wide wordmark logo slot on phones so the 100px fixed
+     width does not squeeze the title below its min-content. */
+  .tiles .tile-logo--wide {
+    width: 72px;
+  }
 }
+
+/** Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .apps-hero__cta,
+  .apps-categories-nav__link,
+  .apps-category__grid li,
+  .apps-sorted-grid li,
+  .apps-featured__grid li,
+  .apps-category__grid > li > a::after,
+  .apps-sorted-grid > li > a::after,
+  .apps-featured__grid > li > a::after,
+  .apps-sidebar__search-input {
+    transition: none !important;
+  }
+  .apps-category__grid li:hover,
+  .apps-sorted-grid li:hover,
+  .apps-featured__grid li:hover,
+  .apps-hero__cta:hover {
+    transform: none;
+  }
+  /* The chevron hint also translates on tile hover; neutralise that. */
+  .apps-category__grid > li:hover > a::after,
+  .apps-sorted-grid > li:hover > a::after,
+  .apps-featured__grid > li:hover > a::after,
+  .apps-category__grid > li > a::after,
+  .apps-sorted-grid > li > a::after,
+  .apps-featured__grid > li > a::after {
+    transform: none;
+  }
+}
+
+/* Dark colour-scheme support now piggybacks on the site-wide tokens
+ * in base.css — every colour / border / shadow above references a
+ * --color-* / --shadow-* / --focus-ring-* variable, so switching the
+ * root theme flips the apps page along with the chrome. If a specific
+ * apps-only adjustment is ever needed for dark mode (e.g. a different
+ * hero gradient), add an override under `[data-theme="dark"] .apps-hero`
+ * below rather than hard-coding hex values here. */
