@@ -113,27 +113,29 @@
 }
 
 @media (min-width: 1025px) {
-  /* Desktop: pin the TOC to the left of the apps grid so the
-     category picker is always next to the apps, not floating above
-     them. Track width ~220px matches the longest category label
-     ("Content, Notes, Blogging and Publishing") at the base font.
-     The :has() guard keeps the grid single-column when JS hasn't run
-     (or has failed) and .apps-categories-nav is still [hidden] —
-     otherwise no-JS visitors would see an empty left rail and a
-     narrower apps column. `display: block` fallback for the ~0.1%
-     of traffic on browsers that predate :has() stays single-column
-     too, which is the safer degrade. */
+  /* Desktop: pin the sidebar (search + TOC) to the left of the apps
+     grid so both stay one glance away from the apps. Track width
+     ~220px matches the longest category label ("Content, Notes,
+     Blogging and Publishing") at the base font. */
   .apps-layout {
-    display: block;
-  }
-  .apps-layout:has(.apps-categories-nav:not([hidden])) {
     display: grid;
     grid-template-columns: 220px minmax(0, 1fr);
     gap: 2rem;
     align-items: start;
   }
+  /* Pin the whole sidebar (search + TOC) to the viewport top as the
+     reader scrolls the apps grid. `top: 1rem` leaves a touch of room
+     below the site header; z-index stays well below the header's
+     1001 so it never eclipses the main-nav. `max-height` fits inside
+     the viewport so a very long category list scrolls inside the
+     rail rather than stretching the page. */
   .apps-layout__sidebar {
+    position: sticky;
+    top: 1rem;
     align-self: start;
+    z-index: 10;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
   }
   .apps-layout__main {
     min-width: 0; /* allow the inner grid tracks to shrink */
@@ -149,27 +151,13 @@
   border-radius: var(--radius-md);
 }
 
-/* Desktop: the nav becomes a sticky side-rail inside the apps-layout
-   left column. Stacking order when everything is pinned during
-   scroll: site header (z-index 1001) on top, sticky toolbar
-   (z-index 9) below it, then this TOC rail (z-index 10 — sits ABOVE
-   the toolbar stylesheet-wise but their bounding rects never
-   overlap because TOC's `top` pushes it below the toolbar). The
-   `top` offset reads from `--apps-toolbar-sticky-offset`, which a
-   tiny script on load (see apps.html) measures from the toolbar's
-   real rendered height so it tracks font-scaling and zoom. The
-   7rem fallback covers a two-row toolbar under the default font and
-   is what no-JS / pre-measurement visitors see. `max-height` lets
-   very long category lists scroll inside the rail rather than
-   stretching the page. */
+/* Desktop: the nav sits inside the sticky sidebar (.apps-layout__sidebar
+   owns the sticky + max-height + overflow-y). No per-nav sticky is
+   needed because the whole sidebar pins as one unit, which is what
+   keeps search + TOC aligned while the reader scrolls. */
 @media (min-width: 1025px) {
   .apps-categories-nav {
     margin: 0;
-    position: sticky;
-    top: var(--apps-toolbar-sticky-offset, 7rem);
-    z-index: 10;
-    max-height: calc(100vh - var(--apps-toolbar-sticky-offset, 7rem) - 1rem);
-    overflow-y: auto;
   }
 }
 
@@ -517,60 +505,28 @@
   outline-offset: 2px;
 }
 
-/** Toolbar (search + existing sort/filter) */
-.apps-toolbar {
-  display: grid;
-  grid-template-columns: minmax(220px, 1fr) auto;
-  gap: 1.25rem 1.5rem;
-  align-items: start;
-  margin: 0 0 1.6rem 0;
-  padding: 1.25rem 1.6rem;
-  background: var(--color-surface-muted);
-  border: 1px solid var(--color-border-muted);
-  border-radius: var(--radius-md);
-  /* Stick to the top of the viewport as the reader scrolls the grid.
-     Keeps search + sort + filter one glance away without a trip back
-     up the page. `top: 0` sits it flush under the site header; the
-     site header is z-index: 1001 so the toolbar passes under it at
-     its z-index: 9, and the side-rail TOC (z-index: 10) passes under
-     the toolbar too. Opaque surface background so tile content doesn't
-     bleed through. */
-  position: sticky;
-  top: 0;
-  z-index: 9;
-}
-
-/* Shared row metrics so every label and every form control in the
-   toolbar renders on a single, predictable baseline. Heights lock in
-   a consistent vertical rhythm and line-height keeps the label text
-   boxes the same height as the inputs. */
-.apps-toolbar {
-  --apps-toolbar-label-line-height: 1.4;
-  --apps-toolbar-control-height: 2.5rem;
-  --apps-toolbar-row-gap: 0.4rem;
-}
-
-.apps-toolbar__search {
+/** Sidebar search (replacement for the retired toolbar) */
+.apps-sidebar__search {
   display: flex;
   flex-direction: column;
-  gap: var(--apps-toolbar-row-gap);
-  min-width: 0;
+  gap: 0.4rem;
+  margin: 0 0 1rem 0;
 }
 
-.apps-toolbar__label,
-.apps-toolbar .control-group > label {
+.apps-sidebar__search-label {
   margin: 0;
   font-weight: 700;
-  line-height: var(--apps-toolbar-label-line-height);
+  font-size: 0.95rem;
   color: var(--color-text);
 }
 
-.apps-toolbar__search-input {
+.apps-sidebar__search-input {
   box-sizing: border-box;
-  height: var(--apps-toolbar-control-height);
+  width: 100%;
+  height: 2.5rem;
   padding: 0.55rem 0.8rem;
   font: inherit;
-  line-height: var(--apps-toolbar-label-line-height);
+  line-height: 1.4;
   color: var(--color-text);
   background: var(--color-bg);
   border: 1px solid var(--color-border-input);
@@ -578,145 +534,25 @@
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-.apps-toolbar__search-input:focus {
+.apps-sidebar__search-input:focus {
   outline: none;
   border-color: var(--color-brand);
   box-shadow: var(--focus-ring-brand);
 }
 
-.apps-toolbar__hint {
-  font-size: 0.85rem;
+.apps-sidebar__search-hint {
+  font-size: 0.8rem;
   color: var(--color-text-muted);
 }
 
-.sort-controls {
-  margin-bottom: 1.6rem;
-  padding: .8rem 1.6rem;
-  background: var(--color-surface-muted);
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-border-muted);
-  display: flex;
-  gap: 1.6rem;
-  flex-wrap: wrap;
-  align-items: flex-end;
-}
-
-/* Reset the .sort-controls chrome when it's nested inside the new
-   toolbar: the outer .apps-toolbar already provides padding + border
-   + background, so we flatten this inner block. Selector is made more
-   specific than .sort-controls so it wins regardless of rule order.
-   Also switch align-items from flex-end to flex-start so each
-   control-group stacks its label + control from the top of the row,
-   matching the search column and letting labels + inputs share a
-   single Y baseline. */
-.apps-toolbar .apps-toolbar__controls.sort-controls {
-  margin: 0;
-  padding: 0;
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-  align-items: flex-start;
-}
-
-/* Stack the toolbar on narrow screens and let selects / search shrink
-   to fit. The desktop grid is 2 columns (search | controls); on small
-   screens each row becomes full width and the selects stretch. */
-@media (max-width: 781px) {
-  .apps-toolbar {
-    grid-template-columns: 1fr;
-    /* Sticky toolbar on a narrow phone would eat ~40% of the
-       viewport's vertical real estate as the search + controls stack
-       to 3+ rows. Drop back to static positioning here. */
-    position: static;
-  }
-  .apps-toolbar__search,
-  .apps-toolbar__controls {
-    min-width: 0;
-    width: 100%;
-  }
-  .apps-toolbar__search-input,
-  .sort-controls select {
-    width: 100%;
-    min-width: 0;
-  }
-  .apps-toolbar .apps-toolbar__controls.sort-controls {
-    gap: 1rem;
-  }
-  .control-group {
-    flex: 1 1 180px;
-  }
-}
-
-.control-group {
-  display: flex;
-  flex-direction: column;
-  gap: .4rem;
-  margin: 0;
-}
-
-.control-group > label {
-  font-weight: 700;
-  color: var(--color-text);
-}
-
-/* Inside the apps toolbar the control-group gap and label line-height
-   must match the search column so .apps-toolbar labels and inputs
-   share a single baseline at desktop. */
-.apps-toolbar .control-group {
-  gap: var(--apps-toolbar-row-gap);
-}
-
-.control-group--check {
-  justify-content: flex-end;
-}
-
-/* The checkbox control-group has no label + control pair, so with the
-   toolbar flex row set to align-items:flex-start the lone checkbox
-   would jump up to the label baseline instead of resting on the
-   input row. Pull it back down so it aligns with the bottom of the
-   selects, matching the visual rhythm of the other controls. */
-.apps-toolbar .control-group--check {
-  align-self: flex-end;
-}
-
-.sort-controls select {
-  box-sizing: border-box;
-  height: var(--apps-toolbar-control-height, 2.5rem);
-  padding: .5rem .7rem;
-  font: inherit;
-  line-height: var(--apps-toolbar-label-line-height, 1.4);
-  color: var(--color-text);
-  border: 1px solid var(--color-border-input);
-  border-radius: var(--radius-sm);
-  background: var(--color-bg);
-  min-width: 200px;
-}
-
-.sort-controls select:focus {
-  outline: none;
-  border-color: var(--color-brand);
-  box-shadow: var(--focus-ring-brand);
-}
-
+/* "Editor's pick ★" marker on featured tiles. Retained from the old
+   toolbar block because it lives on tiles, not on the retired
+   sort/filter controls. */
 .top-app-tag {
   color: var(--color-accent-warm);
   font-size: 1.6rem;
   margin-left: .8rem;
   flex-shrink: 0;
-}
-
-.checkbox-label {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  color: var(--color-text-subtle);
-  gap: .8rem;
-  margin-bottom: .2rem;
-}
-
-.checkbox-label input[type="checkbox"] {
-  margin: 0;
-  cursor: pointer;
 }
 
 /** Responsive tail (mobile)
@@ -813,8 +649,7 @@
   .apps-category__grid > li > a::after,
   .apps-sorted-grid > li > a::after,
   .apps-featured__grid > li > a::after,
-  .apps-toolbar__search-input,
-  .sort-controls select {
+  .apps-sidebar__search-input {
     transition: none !important;
   }
   .apps-category__grid li:hover,

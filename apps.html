@@ -39,64 +39,24 @@ breadcrumbs:
       </div>
       <ul class="tiles tile-links apps-featured__grid" id="apps-featured-grid"></ul>
     </section>
-    <div class="apps-toolbar" role="search" aria-label="Filter and sort Solid apps">
-      <div class="apps-toolbar__search">
-        <label for="app-search" class="apps-toolbar__label">Search apps</label>
-        <input
-          type="search"
-          id="app-search"
-          class="apps-toolbar__search-input"
-          placeholder="Search by name or category"
-          autocomplete="off"
-          aria-describedby="app-search-hint"
-        />
-        <span id="app-search-hint" class="apps-toolbar__hint">Filters the grid as you type.</span>
-      </div>
-      <div class="apps-toolbar__controls sort-controls">
-        <div class="control-group">
-          <label for="sort-select">Sort by</label>
-          <select id="sort-select">
-            <option value="">Default Order</option>
-            <option value="name-asc">Name (A-Z)</option>
-            <option value="name-desc">Name (Z-A)</option>
-            <option value="category-asc">Category (A-Z)</option>
-            <option value="category-desc">Category (Z-A)</option>
-          </select>
-        </div>
-        <div class="control-group">
-          <label for="category-filter">Category</label>
-          <select id="category-filter">
-            <option value="all">All Categories</option>
-            <option value="Chat">Chat</option>
-            <option value="Content, Notes, Blogging and Publishing">Content, Notes, Blogging and Publishing</option>
-            <option value="Cooking">Cooking</option>
-            <option value="Health">Health</option>
-            <option value="Location">Location</option>
-            <option value="Movies">Movies</option>
-            <option value="Pod Management">Pod Management</option>
-            <option value="Productivity">Productivity</option>
-            <option value="Scheduling">Scheduling</option>
-            <option value="Security">Security</option>
-            <option value="TODO List">TODO List</option>
-            <option value="Travel">Travel</option>
-          </select>
-        </div>
-        <div class="control-group control-group--check">
-          <label class="checkbox-label">
-            <input type="checkbox" id="top-apps-only">
-            <span class="checkmark"></span>
-            First-time user picks only
-          </label>
-        </div>
-      </div>
-    </div>
-
-    <!-- Side-rail TOC + grid. Desktop (≥1025px) renders a two-column
-         grid with the category TOC pinned on the left next to the
-         apps. Mobile collapses to a single column with the TOC pills
-         scrolling horizontally above the grid. -->
+    <!-- Side-rail search + TOC + grid. Desktop (≥1025px) renders a
+         two-column grid with a sticky sidebar on the left (search on
+         top, category TOC below) next to the apps. Mobile collapses to
+         a single column with the search and TOC stacked above the grid. -->
     <div class="apps-layout">
       <aside class="apps-layout__sidebar">
+        <form class="apps-sidebar__search" role="search" aria-label="Search Solid apps" onsubmit="return false;">
+          <label for="app-search" class="apps-sidebar__search-label">Search</label>
+          <input
+            type="search"
+            id="app-search"
+            class="apps-sidebar__search-input"
+            placeholder="Search apps"
+            autocomplete="off"
+            aria-describedby="app-search-hint"
+          />
+          <span id="app-search-hint" class="apps-sidebar__search-hint">Filters the grid as you type.</span>
+        </form>
         <nav class="apps-categories-nav" aria-label="Jump to a category" id="apps-categories-nav" hidden>
           <p class="apps-categories-nav__label">Jump to a category</p>
           <ul class="apps-categories-nav__list" id="apps-categories-nav-list">
@@ -473,33 +433,12 @@ breadcrumbs:
       // each tile into a per-category <section>, hide the flat list, and
       // populate the #apps-categories-nav TOC.
       document.addEventListener('DOMContentLoaded', function () {
-        const sortSelect = document.getElementById('sort-select');
-        const categoryFilter = document.getElementById('category-filter');
-        const topAppsOnlyCheckbox = document.getElementById('top-apps-only');
         const searchInput = document.getElementById('app-search');
         const flatList = document.getElementById('apps-list');
         const sectionsRoot = document.getElementById('apps-category-sections');
         const tocNav = document.getElementById('apps-categories-nav');
         const tocList = document.getElementById('apps-categories-nav-list');
         const noResultsEl = document.getElementById('apps-no-results');
-
-        // Keep the side-rail TOC's sticky top flush with the sticky
-        // toolbar's actual height. The CSS fallback is 7rem (a
-        // conservative two-row estimate), but font scaling / zoom /
-        // future toolbar additions can make that wrong. Measure on
-        // load and on resize so the two sticky bars never overlap.
-        const toolbar = document.querySelector('.apps-toolbar');
-        function syncToolbarOffset() {
-          if (!toolbar) return;
-          // Extra 0.5rem breathing room so the TOC's first link sits
-          // a hair below the toolbar edge, not kissing it.
-          const h = toolbar.getBoundingClientRect().height + 8;
-          document.documentElement.style.setProperty(
-            '--apps-toolbar-sticky-offset', h + 'px'
-          );
-        }
-        syncToolbarOffset();
-        window.addEventListener('resize', syncToolbarOffset);
         const featuredSection = document.getElementById('apps-featured');
         const featuredGrid = document.getElementById('apps-featured-grid');
         const appTiles = Array.from(flatList.querySelectorAll('li'));
@@ -525,14 +464,9 @@ breadcrumbs:
           }
         }
 
-        // Preserve the original DOM order of tiles so the "Default Order"
-        // sort mode can restore it later.
-        appTiles.forEach((tile, i) => { tile.dataset.origOrder = String(i); });
-
-        // State
-        let currentSort = '';
-        let currentFilter = 'all';
-        let showTopAppsOnly = false;
+        // Search state — everything else (sort, category-filter,
+        // top-apps-only) was retired with the old toolbar. Navigation
+        // is now "search OR jump to a category from the sidebar TOC".
         let currentSearch = '';
 
         function slugify(str) {
@@ -598,6 +532,9 @@ breadcrumbs:
         // Swap to the grouped view now that JS has populated it.
         flatList.hidden = true;
         sectionsRoot.hidden = false;
+        // Apply the (initially empty) search so the featured row gets
+        // its first visibility pass + no-results banner stays hidden.
+        // Defined further down; called at the end of setup.
 
         // Build the category TOC nav.
         if (tocNav && tocList) {
@@ -615,217 +552,56 @@ breadcrumbs:
           tocNav.hidden = false;
         }
 
-        // Name-sort flat view: when a 'name-*' sort is active we collapse
-        // all tiles into this single grid and hide the per-category
-        // sections. Built lazily the first time we need it.
-        let flatSortedGrid = null;
-        function ensureFlatSortedGrid() {
-          if (flatSortedGrid) return flatSortedGrid;
-          flatSortedGrid = document.createElement('ul');
-          flatSortedGrid.className = 'tiles tile-links apps-sorted-grid';
-          flatSortedGrid.id = 'apps-sorted-grid';
-          flatSortedGrid.hidden = true;
-          sectionsRoot.parentNode.insertBefore(flatSortedGrid, sectionsRoot);
-          return flatSortedGrid;
-        }
-
-        function tileCompare(a, b, sortValue) {
-          let aValue, bValue;
-          if (sortValue.startsWith('name')) {
-            aValue = (a.getAttribute('data-name') || '').toLowerCase();
-            bValue = (b.getAttribute('data-name') || '').toLowerCase();
-          } else if (sortValue.startsWith('category')) {
-            aValue = (a.getAttribute('data-category') || '').toLowerCase();
-            bValue = (b.getAttribute('data-category') || '').toLowerCase();
-          } else {
-            return (parseInt(a.dataset.origOrder, 10) || 0)
-              - (parseInt(b.dataset.origOrder, 10) || 0);
-          }
-          let comparison = 0;
-          if (aValue < bValue) comparison = -1;
-          if (aValue > bValue) comparison = 1;
-          return sortValue.endsWith('desc') ? -comparison : comparison;
-        }
-
-        // Apply a sort across the whole page.
-        //   '' / default       -> grouped sections in original category order,
-        //                         tiles in original encounter order.
-        //   'name-asc' / 'name-desc' -> flat alphabetical grid; sections hidden.
-        //   'category-asc' / 'category-desc' -> sections reordered by category
-        //                         name; tiles inside each section restored to
-        //                         original encounter order.
-        function sortTiles(sortValue) {
-          currentSort = sortValue || '';
-          const flat = ensureFlatSortedGrid();
-          const useFlat = currentSort.startsWith('name');
-
-          if (useFlat) {
-            // Move all tiles into the flat grid, sort, then hide sections.
-            const allTiles = appTiles.slice().sort((a, b) =>
-              tileCompare(a, b, currentSort));
-            allTiles.forEach(tile => flat.appendChild(tile));
-            flat.hidden = false;
-            sectionsRoot.hidden = true;
-          } else {
-            // Ensure every tile lives back in its category grid.
-            sectionByCategory.forEach(({ grid }, cat) => {
-              tilesByCategory.get(cat).forEach(tile => {
-                if (tile.parentNode !== grid) grid.appendChild(tile);
-              });
-            });
-            // Sort tiles within each section back to original order.
-            sectionByCategory.forEach(({ grid }) => {
-              const tiles = Array.from(grid.children);
-              tiles.sort((a, b) => tileCompare(a, b, ''));
-              tiles.forEach(tile => grid.appendChild(tile));
-            });
-            // Reorder the sections themselves if the user picked category sort.
-            if (currentSort.startsWith('category')) {
-              const sections = Array.from(sectionsRoot.children);
-              sections.sort((a, b) => {
-                const aCat = (a.dataset.category || '').toLowerCase();
-                const bCat = (b.dataset.category || '').toLowerCase();
-                if (aCat < bCat) return -1;
-                if (aCat > bCat) return 1;
-                return 0;
-              });
-              if (currentSort.endsWith('desc')) sections.reverse();
-              sections.forEach(s => sectionsRoot.appendChild(s));
-            } else {
-              // Restore original category order.
-              categoryOrder.forEach(cat => {
-                const entry = sectionByCategory.get(cat);
-                if (entry) sectionsRoot.appendChild(entry.section);
-              });
-            }
-            flat.hidden = true;
-            sectionsRoot.hidden = false;
-          }
-        }
-
-        // Apply filter, search, and top-apps toggles to all tiles; hide
-        // sections that end up empty.
-        function filterTiles(category, topAppsOnly, searchTerm) {
-          if (!category) category = 'all';
-          currentFilter = category;
-          showTopAppsOnly = !!topAppsOnly;
+        // Apply the current search to every tile: names and categories
+        // are matched as substrings. Hides non-matching tiles, collapses
+        // sections whose tiles are all hidden, hides the featured row
+        // during active searches, and toggles the empty-state banner.
+        function applySearch(searchTerm) {
           currentSearch = searchTerm || '';
           const needle = currentSearch.trim().toLowerCase();
           let totalVisible = 0;
           appTiles.forEach(tile => {
-            const tileCategory = tile.getAttribute('data-category') || '';
-            const tileName = tile.getAttribute('data-name') || '';
-            const isTopApp = tile.querySelector('.top-app-tag') !== null;
-            const matchesCategory = category === 'all' || tileCategory === category;
-            const matchesTop = !showTopAppsOnly || isTopApp;
-            const matchesSearch = !needle
-              || tileName.toLowerCase().includes(needle)
-              || tileCategory.toLowerCase().includes(needle);
-            const shouldShow = matchesCategory && matchesTop && matchesSearch;
-            tile.classList.toggle('hidden', !shouldShow);
-            if (shouldShow) totalVisible++;
+            const tileName = (tile.getAttribute('data-name') || '').toLowerCase();
+            const tileCategory = (tile.getAttribute('data-category') || '').toLowerCase();
+            const matches = !needle
+              || tileName.includes(needle)
+              || tileCategory.includes(needle);
+            tile.classList.toggle('hidden', !matches);
+            if (matches) totalVisible++;
           });
-          // In the grouped view, collapse sections that have no visible
-          // tiles. In the flat sorted view this is a no-op because tiles
-          // are not inside the section grids.
-          const groupedView = !currentSort.startsWith('name');
           sectionByCategory.forEach(({ section, grid }) => {
-            if (!groupedView) {
-              section.hidden = false;
-              return;
-            }
             const anyVisible = !!grid.querySelector('li:not(.hidden)');
             section.hidden = !anyVisible;
           });
-          // Featured row is a 'welcome' showcase only when the user is
-          // not actively searching/filtering. As soon as they narrow the
-          // view it gets out of the way to avoid contradicting the empty
-          // state or the filtered result set.
           if (featuredSection && !featuredSection.dataset.empty) {
-            const hasActiveFilter = category !== 'all'
-              || !!needle
-              || showTopAppsOnly
-              || currentSort.startsWith('name')
-              || currentSort.startsWith('category');
-            featuredSection.hidden = hasActiveFilter;
+            featuredSection.hidden = !!needle;
           }
-          // Toggle the empty-results banner.
           if (noResultsEl) {
             noResultsEl.hidden = totalVisible !== 0;
           }
         }
 
-        function applyAll() {
-          // Sort first so tiles are in their final container (either the
-          // flat grid or their category grid) before filterTiles decides
-          // which sections to collapse.
-          sortTiles(currentSort);
-          filterTiles(currentFilter, showTopAppsOnly, currentSearch);
-        }
-
-        // Wire up controls.
-        if (sortSelect) {
-          sortSelect.addEventListener('change', function () {
-            currentSort = this.value;
-            applyAll();
-          });
-          sortSelect.value = '';
-        }
-        if (categoryFilter) {
-          categoryFilter.addEventListener('change', function () {
-            currentFilter = this.value;
-            applyAll();
-          });
-        }
-        if (topAppsOnlyCheckbox) {
-          topAppsOnlyCheckbox.addEventListener('change', function () {
-            showTopAppsOnly = this.checked;
-            applyAll();
-          });
-        }
         if (searchInput) {
           searchInput.addEventListener('input', function () {
-            currentSearch = this.value;
-            applyAll();
+            applySearch(this.value);
           });
         }
-        // TOC clicks reset every filter / sort / search that could hide
-        // the target section, so the anchor is guaranteed to land on a
-        // visible heading. A name-sort collapses tiles into a flat grid
-        // with no per-category headings, and an active search or the
-        // 'first-time user picks only' toggle could also leave the
-        // target empty.
+
+        // TOC clicks clear any active search so the anchored section is
+        // guaranteed to be visible once the browser jumps to it.
         if (tocList) {
           tocList.addEventListener('click', function (e) {
             const link = e.target.closest('a[data-category]');
             if (!link) return;
-            let changed = false;
-            if (categoryFilter && categoryFilter.value !== 'all') {
-              categoryFilter.value = 'all';
-              currentFilter = 'all';
-              changed = true;
-            }
-            if (sortSelect && currentSort.startsWith('name')) {
-              sortSelect.value = '';
-              currentSort = '';
-              changed = true;
-            }
             if (searchInput && searchInput.value !== '') {
               searchInput.value = '';
-              currentSearch = '';
-              changed = true;
+              applySearch('');
             }
-            if (topAppsOnlyCheckbox && topAppsOnlyCheckbox.checked) {
-              topAppsOnlyCheckbox.checked = false;
-              showTopAppsOnly = false;
-              changed = true;
-            }
-            if (changed) applyAll();
           });
         }
 
         // Initial paint.
-        applyAll();
+        applySearch('');
       });
     </script>
   </div>

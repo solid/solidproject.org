@@ -1,4 +1,4 @@
-import { test, expect, type Locator } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import { MOBILE_VIEWPORT } from './fixtures/pages';
 
 /**
@@ -145,88 +145,39 @@ test.describe('PR-960 regression', () => {
   );
 
   // ---------------------------------------------------------------
-  // 3. toolbar-alignment
+  // 3. (retired) toolbar-alignment — .apps-toolbar was removed in
+  //    favour of a search-in-sidebar layout. Sort/filter/top-apps
+  //    controls are gone, so there is no multi-control baseline to
+  //    assert. The test is left out rather than marked .skip so it
+  //    doesn't clutter the run; see git history for the original.
+  // ---------------------------------------------------------------
+
+  // ---------------------------------------------------------------
+  // 4. sticky-sidebar-layering
   // ---------------------------------------------------------------
   test(
-    `toolbar-alignment: .apps-toolbar labels + inputs share a Y bounding-box within 1px at desktop (${FIXME_TAG})`,
+    `sticky-sidebar-layering: after scrolling, .apps-layout__sidebar (search + TOC) stays pinned above tiles and below site header, no tile is partially occluded at rest (${FIXME_TAG})`,
     async ({ page }, testInfo) => {
-      // This test is a desktop-only concern; mobile stacks the controls.
+      // The side-rail sidebar is desktop-only (see @media min-width
+      // 1025px in apps.css); on mobile it collapses to the top of
+      // the page, so the stacking-order assertion does not apply.
       test.skip(
         testInfo.project.name === 'mobile-chrome',
-        'Toolbar alignment is a desktop concern; mobile stacks the controls vertically.',
+        'Sticky sidebar is a desktop-only concern; mobile stacks it at the top of the page.',
       );
 
       await page.goto(APPS_PATH, { waitUntil: 'networkidle' });
 
-      const toolbar = page.locator('.apps-toolbar');
-      await expect(toolbar).toBeVisible();
-
-      // We expect, at desktop width, the inputs (search field + two
-      // selects) to share a consistent Y baseline.
-      const candidates: Locator[] = [
-        page.locator('#app-search'),
-        page.locator('#sort-select'),
-        page.locator('#category-filter'),
-      ];
-
-      const boxes = await Promise.all(candidates.map((c) => c.boundingBox()));
-      for (let i = 0; i < boxes.length; i++) {
-        expect(boxes[i], `input ${i} had no bounding box`).not.toBeNull();
-      }
-
-      const tops = boxes.map((b) => b!.y);
-      const minTop = Math.min(...tops);
-      const maxTop = Math.max(...tops);
-      expect(
-        maxTop - minTop,
-        `Toolbar inputs disagree on Y top by ${maxTop - minTop}px (tops=${tops.join(', ')})`,
-      ).toBeLessThanOrEqual(1);
-
-      // And the labels (the visible "Search apps" / "Sort by" /
-      // "Category" captions) must share a Y baseline too — else they
-      // visually wobble above the inputs.
-      const labelBoxes = await Promise.all([
-        page.locator('label[for="app-search"]').boundingBox(),
-        page.locator('label[for="sort-select"]').boundingBox(),
-        page.locator('label[for="category-filter"]').boundingBox(),
-      ]);
-      const labelTops = labelBoxes.map((b) => {
-        expect(b, 'a toolbar label had no bounding box').not.toBeNull();
-        return b!.y;
-      });
-      expect(
-        Math.max(...labelTops) - Math.min(...labelTops),
-        `Toolbar labels disagree on Y top by ${Math.max(...labelTops) - Math.min(...labelTops)}px`,
-      ).toBeLessThanOrEqual(1);
-    },
-  );
-
-  // ---------------------------------------------------------------
-  // 4. sticky-TOC-layering
-  // ---------------------------------------------------------------
-  test(
-    `sticky-TOC-layering: after scrolling, TOC stacks above tiles + below site header, no tile is partially occluded at rest (${FIXME_TAG})`,
-    async ({ page }, testInfo) => {
-      // Sticky TOC is desktop-only (see .apps-categories-nav @media
-      // min-width 1025px in apps.css); on mobile the pill bar scrolls
-      // with the page, so the stacking-order assertion does not apply.
-      test.skip(
-        testInfo.project.name === 'mobile-chrome',
-        'Sticky TOC is a desktop-only concern; mobile lets the pill bar scroll with content.',
-      );
-
-      await page.goto(APPS_PATH, { waitUntil: 'networkidle' });
-
-      // Scroll the #app_launcher section into view so the sticky TOC pins.
+      // Scroll the #app_launcher section into view so the sticky sidebar pins.
       await page.locator('#app_launcher').scrollIntoViewIfNeeded();
-      // Scroll a bit further to make sure the TOC is definitely pinned.
+      // Scroll a bit further to make sure the sidebar is definitely pinned.
       await page.evaluate(() => window.scrollBy(0, 600));
       await page.waitForTimeout(150); // allow sticky repaint
 
-      // Site header z-index (computed) must be > apps-categories-nav z-index > tile z-index.
+      // Site header z-index (computed) must be > sidebar z-index > tile z-index.
       const stack = await page.evaluate(() => {
         const header = document.querySelector('header, .site-header, .masthead');
-        const toc = document.querySelector('.apps-categories-nav');
+        const sidebar = document.querySelector('.apps-layout__sidebar');
         const firstTile = document.querySelector('ul.tiles.tile-links > li');
         const readZ = (el: Element | null) => {
           if (!el) return null;
@@ -235,22 +186,22 @@ test.describe('PR-960 regression', () => {
         };
         return {
           headerZ: readZ(header),
-          tocZ: readZ(toc),
+          sidebarZ: readZ(sidebar),
           tileZ: readZ(firstTile),
-          tocPosition: toc ? window.getComputedStyle(toc).position : null,
+          sidebarPosition: sidebar ? window.getComputedStyle(sidebar).position : null,
         };
       });
 
-      expect(stack.tocPosition, 'TOC should use position: sticky').toBe('sticky');
-      expect(stack.tocZ, 'TOC should define a z-index').not.toBeNull();
+      expect(stack.sidebarPosition, 'Sidebar should use position: sticky').toBe('sticky');
+      expect(stack.sidebarZ, 'Sidebar should define a z-index').not.toBeNull();
       expect(stack.headerZ, 'site header should define a z-index').not.toBeNull();
       expect(
-        (stack.headerZ ?? 0) > (stack.tocZ ?? 0),
-        `Site header z-index (${stack.headerZ}) must exceed TOC z-index (${stack.tocZ}).`,
+        (stack.headerZ ?? 0) > (stack.sidebarZ ?? 0),
+        `Site header z-index (${stack.headerZ}) must exceed sidebar z-index (${stack.sidebarZ}).`,
       ).toBeTruthy();
       expect(
-        (stack.tocZ ?? 0) >= (stack.tileZ ?? 0),
-        `TOC z-index (${stack.tocZ}) must be >= first tile z-index (${stack.tileZ}).`,
+        (stack.sidebarZ ?? 0) >= (stack.tileZ ?? 0),
+        `Sidebar z-index (${stack.sidebarZ}) must be >= first tile z-index (${stack.tileZ}).`,
       ).toBeTruthy();
 
       // At rest (no scroll in flight) no tile should be partially covered
@@ -411,12 +362,12 @@ test.describe('PR-960 regression', () => {
 test.describe('data-hygiene', () => {
   // "Browser" is a retired category — SolidFocus is a focus / notes app,
   // not a web browser, and no other tile carries that label. Guard the
-  // attribute + the filter <option> both disappear together so a future
-  // copy-paste does not silently bring the orphan category back.
+  // attribute so a future copy-paste does not silently bring the orphan
+  // category back. The original second assertion against a
+  // `#category-filter` <option> was dropped when the toolbar retired.
   test('no tile carries data-category="Browser"', async ({ page }) => {
     await page.goto(APPS_PATH, { waitUntil: 'networkidle' });
     await expect(page.locator('[data-category="Browser"]')).toHaveCount(0);
-    await expect(page.locator('#category-filter option[value="Browser"]')).toHaveCount(0);
   });
 });
 
