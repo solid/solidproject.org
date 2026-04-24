@@ -203,6 +203,16 @@ h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+/* Baseline anchor colour. Without this, unstyled inline <a> tags
+   (e.g. links inside paragraphs on /about.html) inherit the browser
+   default `#0000ee`, which fails AA contrast on the dark theme's
+   `--color-bg: #0f1115` (ratio ~2.0:1). Routing through the
+   `--color-link` token gives dark mode the lighter `#79b4ff` it
+   already defines for theme-aware link colours. */
+a {
+  color: var(--color-link);
+}
+
 /* Layout */
 main {
   background-color: var(--color-bg);

@@ -72,7 +72,11 @@
 
 /** Tim Berners-Lee Quote Styling */
 .tim-berners-lee-quote {
-  background: linear-gradient(135deg, var(--color-surface-muted) 0%, var(--color-surface-quote) 100%);
+  /* See `.page-hero` note: explicit background-color so axe-core can
+     compute text contrast against a defined colour rather than a
+     gradient. */
+  background-color: var(--color-surface-quote);
+  background-image: linear-gradient(135deg, var(--color-surface-muted) 0%, var(--color-surface-quote) 100%);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-quote);
   font-size: 1.2rem;
@@ -111,7 +115,12 @@
      on the left but not the right" asymmetry @jeswr flagged. */
   margin: 0 auto 2rem auto;
   padding: 2.5rem 2rem;
-  background: linear-gradient(135deg, var(--color-brand-tint) 0%, var(--color-bg) 70%);
+  /* Set background-color explicitly so axe-core's color-contrast rule
+     can compute text contrast. The `background` shorthand resets
+     background-color to transparent, which makes axe return
+     "incomplete" for every text node sitting on the gradient. */
+  background-color: var(--color-bg);
+  background-image: linear-gradient(135deg, var(--color-brand-tint) 0%, var(--color-bg) 70%);
   border: 1px solid var(--color-border);
   border-radius: calc(var(--radius-md) * 1.5);
   box-shadow: var(--shadow-hero);

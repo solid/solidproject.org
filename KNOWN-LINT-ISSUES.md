@@ -124,11 +124,25 @@ first time the GitHub Actions workflow runs. Expected output at that
 point: the sweeper agent should pick up axe-core issues (missing alt
 text, contrast, etc.) from the workflow summary and log them here.
 
-Ignored rules / thresholds are currently **empty** — WCAG2AA
-zero-error target. If the first real run produces >50 occurrences of
-any single axe rule, add the rule id to
-`defaults.ignore` in `.pa11yci` and document the reason in this
-section.
+### Ignored rule: `color-contrast`
+
+The first real CI run produced 79 `color-contrast` violations across
+the six sampled URLs. All were `needsFurtherReview: true` — axe could
+not actually compute the contrast (gradient backgrounds, links inside
+nested anchors, and below-the-fold elements all confuse its
+introspection). pa11y maps "incomplete" results to errors, so every
+ambiguous case shows up as a hard fail.
+
+We rely on the Playwright suite (`tests/e2e/dark-mode.spec.ts`) for
+canonical contrast coverage instead — it runs axe-core directly,
+seeds dark-mode via the no-flash bootstrap, and surfaces the actual
+foreground/background ratio. `color-contrast` is therefore added to
+`defaults.ignore` in `.pa11yci` so the structural a11y checks
+(landmarks, alt text, headings, ARIA, focus order) stay loud without
+the contrast noise drowning them out.
+
+If you re-enable `color-contrast`, expect to chase axe `incomplete`
+flags rather than real WCAG fails.
 
 ## Triage recipe for future contributors
 

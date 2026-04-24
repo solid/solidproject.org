@@ -16,7 +16,11 @@
      while the rest of the article centred. */
   margin: 0 auto 2rem auto;
   padding: 2.5rem 2rem;
-  background: linear-gradient(135deg, var(--color-brand-tint) 0%, var(--color-bg) 70%);
+  /* See note in homepage.css `.page-hero`: split background-color from
+     background-image so axe-core's color-contrast rule can compute
+     contrast against a defined colour rather than a gradient. */
+  background-color: var(--color-bg);
+  background-image: linear-gradient(135deg, var(--color-brand-tint) 0%, var(--color-bg) 70%);
   border: 1px solid var(--color-border);
   border-radius: calc(var(--radius-md) * 1.5);
   box-shadow: var(--shadow-hero);
@@ -322,7 +326,10 @@
 .apps-featured {
   margin: 0 0 2rem 0;
   padding: 1.5rem;
-  background: linear-gradient(135deg, var(--color-accent-warm-tint) 0%, var(--color-bg) 75%);
+  /* See `.apps-hero` note: split background-color from background-image
+     so axe-core can compute text contrast against a defined colour. */
+  background-color: var(--color-bg);
+  background-image: linear-gradient(135deg, var(--color-accent-warm-tint) 0%, var(--color-bg) 75%);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
 }

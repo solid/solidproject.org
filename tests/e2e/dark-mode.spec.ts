@@ -51,8 +51,13 @@ test.describe('PR-960 regression: dark-mode contrast', () => {
           'Dark mode must be active (html[data-theme=dark]) after seeding localStorage[solid-theme]=dark.',
         ).toBe('dark');
 
+        // The project's a11y target is WCAG2AA (see .pa11yci `standard`).
+        // `color-contrast` is the AA rule (4.5:1 normal, 3:1 large);
+        // `color-contrast-enhanced` is the AAA rule (7:1) which the
+        // design has not committed to. Only assert AA here so the
+        // dark-mode regression test matches the documented standard.
         const results = await new AxeBuilder({ page })
-          .withRules(['color-contrast', 'color-contrast-enhanced'])
+          .withRules(['color-contrast'])
           .analyze();
 
         expect(
