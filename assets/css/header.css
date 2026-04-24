@@ -303,7 +303,7 @@
        reads as a distinct action and doesn't crowd the secondary
        dropdown triggers that follow it. */
     .header .main-nav__cta-item {
-        margin-inline-end: var(--space-4);
+        margin-right: var(--space-4);
     }
 
     .header .main-nav a {
