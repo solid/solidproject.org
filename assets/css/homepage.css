@@ -7,44 +7,54 @@
  *  the text so the CTA row stays near the top of the viewport on
  *  mobile.
  */
-.home-hero .page-hero__figure {
+/* Figure inside a split hero — shared base used on the homepage and
+   the Get a Pod page. Mobile default centres the illustration; the
+   ≥781px `.page-hero--split` rule further down pulls it to
+   flex-end so it hugs the hero card's right padding. */
+.home-hero .page-hero__figure,
+.get-a-pod-hero .page-hero__figure {
   display: flex;
   align-items: center;
-  /* Mobile default (figure stacks above text in the column-reverse
-     flex below) keeps the illustration centred. Desktop overrides
-     to `flex-end` so the figure hugs the hero card's right padding
-     and mirrors the text column hugging the left padding. */
   justify-content: center;
 }
 
-.home-hero .page-hero__figure img {
+.home-hero .page-hero__figure img,
+.get-a-pod-hero .page-hero__figure img {
   width: 100%;
   height: auto;
   max-width: 32rem;
 }
 
 @media (min-width: 781px) {
+  /* Use flexbox (not grid) so the text and figure naturally hug the
+     opposite edges of the hero card no matter how wide the card
+     gets. With a grid 1fr/1fr the text column cell and the figure
+     column cell grow past their natural content widths on wide
+     viewports, leaving a visible asymmetric empty band between the
+     capped content and the gap. `justify-content: space-between`
+     pushes text flush to the hero's left padding and figure flush
+     to the hero's right padding, so the gap in the middle absorbs
+     the extra width instead. */
   .page-hero--split {
-    display: grid;
-    /* Equal columns so the text cell and the figure cell have
-       mirrored widths. The text inside its cell sits against the
-       left padding of the hero card; the figure inside its cell is
-       pulled to the right padding via justify-content below. */
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    display: flex;
+    flex-direction: row;
     gap: 2.5rem;
     align-items: center;
+    justify-content: space-between;
   }
   .page-hero--split .page-hero__content {
-    /* The shared .page-hero__content caps at 60rem, which is wider
-       than the text column needs when an illustration sits beside it.
-       Trim to a more readable measure so the headline + lede feel
-       balanced against the figure. */
+    /* Cap the text at a readable measure; flex keeps the remainder
+       of the row available for the figure. */
     max-width: 36rem;
+    flex: 0 1 36rem;
+    min-width: 0;
   }
-  /* Pin the figure to its cell's right edge so the trailing gap
-     between the image and the hero's right padding matches the
-     leading gap between the hero's left padding and the text. */
-  .home-hero .page-hero__figure {
+  .page-hero--split .page-hero__figure {
+    flex: 0 1 auto;
+    /* Each figure on each hero page brings its own max-width below.
+       Pull to the right end so the image's right edge sits at the
+       hero card's right padding, mirroring the text's left edge at
+       the left padding. */
     justify-content: flex-end;
   }
 }
