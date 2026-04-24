@@ -296,7 +296,14 @@
 
     .header .main-nav ul {
         flex-direction: row;
-        gap: .8rem;
+        gap: var(--space-3);
+    }
+
+    /* Extra breathing room after the primary CTA so the filled pill
+       reads as a distinct action and doesn't crowd the secondary
+       dropdown triggers that follow it. */
+    .header .main-nav__cta-item {
+        margin-inline-end: var(--space-4);
     }
 
     .header .main-nav a {
