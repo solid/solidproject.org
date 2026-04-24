@@ -16,6 +16,52 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  /* Dropdown triggers ("Learn more", "Get Involved"). Click-to-toggle
+     behaviour: on desktop the submenu floats beneath the trigger; on
+     mobile (inside the slide-out overlay) it expands as a nested
+     indented list. Either way the button's aria-expanded tracks the
+     submenu's visibility so assistive tech reports the state
+     correctly, and the matching <ul id> becomes visible. */
+  const triggers = document.querySelectorAll('.main-nav__trigger');
+  const closeAllSubmenus = (except) => {
+    triggers.forEach(t => {
+      if (t === except) return;
+      const id = t.getAttribute('aria-controls');
+      const panel = id && document.getElementById(id);
+      t.setAttribute('aria-expanded', 'false');
+      if (panel) panel.hidden = true;
+    });
+  };
+  triggers.forEach(trigger => {
+    const id = trigger.getAttribute('aria-controls');
+    const panel = id && document.getElementById(id);
+    if (!panel) return;
+    trigger.addEventListener('click', function(e) {
+      e.stopPropagation();
+      const isOpen = trigger.getAttribute('aria-expanded') === 'true';
+      closeAllSubmenus(trigger);
+      trigger.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+      panel.hidden = isOpen;
+    });
+    /* Clicking a link inside the submenu closes it (in addition to
+       navigating) so the dropdown doesn't linger open after the page
+       unloads. */
+    panel.addEventListener('click', function(e) {
+      if (e.target.closest('a')) {
+        trigger.setAttribute('aria-expanded', 'false');
+        panel.hidden = true;
+      }
+    });
+  });
+  /* Click outside any submenu / trigger closes all. */
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.main-nav__group')) closeAllSubmenus();
+  });
+  /* Escape key closes all. */
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeAllSubmenus();
+  });
+
   /* Handle viewport resize to prevent unwanted menu transitions */
   let resizeTimeout;
   window.addEventListener('resize', function() {
