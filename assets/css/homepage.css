@@ -10,6 +10,10 @@
 .home-hero .page-hero__figure {
   display: flex;
   align-items: center;
+  /* Mobile default (figure stacks above text in the column-reverse
+     flex below) keeps the illustration centred. Desktop overrides
+     to `flex-end` so the figure hugs the hero card's right padding
+     and mirrors the text column hugging the left padding. */
   justify-content: center;
 }
 
@@ -22,7 +26,11 @@
 @media (min-width: 781px) {
   .page-hero--split {
     display: grid;
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    /* Equal columns so the text cell and the figure cell have
+       mirrored widths. The text inside its cell sits against the
+       left padding of the hero card; the figure inside its cell is
+       pulled to the right padding via justify-content below. */
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 2.5rem;
     align-items: center;
   }
@@ -32,6 +40,12 @@
        Trim to a more readable measure so the headline + lede feel
        balanced against the figure. */
     max-width: 36rem;
+  }
+  /* Pin the figure to its cell's right edge so the trailing gap
+     between the image and the hero's right padding matches the
+     leading gap between the hero's left padding and the text. */
+  .home-hero .page-hero__figure {
+    justify-content: flex-end;
   }
 }
 
