@@ -482,6 +482,24 @@ breadcrumbs:
         const tocNav = document.getElementById('apps-categories-nav');
         const tocList = document.getElementById('apps-categories-nav-list');
         const noResultsEl = document.getElementById('apps-no-results');
+
+        // Keep the side-rail TOC's sticky top flush with the sticky
+        // toolbar's actual height. The CSS fallback is 7rem (a
+        // conservative two-row estimate), but font scaling / zoom /
+        // future toolbar additions can make that wrong. Measure on
+        // load and on resize so the two sticky bars never overlap.
+        const toolbar = document.querySelector('.apps-toolbar');
+        function syncToolbarOffset() {
+          if (!toolbar) return;
+          // Extra 0.5rem breathing room so the TOC's first link sits
+          // a hair below the toolbar edge, not kissing it.
+          const h = toolbar.getBoundingClientRect().height + 8;
+          document.documentElement.style.setProperty(
+            '--apps-toolbar-sticky-offset', h + 'px'
+          );
+        }
+        syncToolbarOffset();
+        window.addEventListener('resize', syncToolbarOffset);
         const featuredSection = document.getElementById('apps-featured');
         const featuredGrid = document.getElementById('apps-featured-grid');
         const appTiles = Array.from(flatList.querySelectorAll('li'));

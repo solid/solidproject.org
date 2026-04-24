@@ -149,17 +149,19 @@
   border-radius: var(--radius-md);
 }
 
-/* Desktop: nav becomes a sticky side-rail inside the apps-layout
-   left column, sitting BELOW the sticky toolbar once both are
-   pinned. The top offset budgets for the toolbar's height so the
-   TOC never slides under the toolbar; 7rem is a conservative value
-   covering a two-row toolbar under the default font. `z-index: 10`
-   keeps the rail above the grid but below both the site header
-   (z-index: 1001) and the sticky toolbar (z-index: 9 — actually
-   lower than TOC, but they live in different grid rows so their
-   rects never overlap once `top` clears the toolbar). `max-height`
-   lets very long category lists scroll inside the rail rather
-   than stretching the page. */
+/* Desktop: the nav becomes a sticky side-rail inside the apps-layout
+   left column. Stacking order when everything is pinned during
+   scroll: site header (z-index 1001) on top, sticky toolbar
+   (z-index 9) below it, then this TOC rail (z-index 10 — sits ABOVE
+   the toolbar stylesheet-wise but their bounding rects never
+   overlap because TOC's `top` pushes it below the toolbar). The
+   `top` offset reads from `--apps-toolbar-sticky-offset`, which a
+   tiny script on load (see apps.html) measures from the toolbar's
+   real rendered height so it tracks font-scaling and zoom. The
+   7rem fallback covers a two-row toolbar under the default font and
+   is what no-JS / pre-measurement visitors see. `max-height` lets
+   very long category lists scroll inside the rail rather than
+   stretching the page. */
 @media (min-width: 1025px) {
   .apps-categories-nav {
     margin: 0;
@@ -227,21 +229,28 @@
   font-size: 0.95rem;
   color: var(--color-text);
   text-decoration: none;
-  border-radius: var(--radius-sm);
-  transition: color 0.15s ease, background-color 0.15s ease;
+  transition: color 0.15s ease;
 }
 
-.apps-categories-nav__link:hover,
+.apps-categories-nav__link:hover {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
+
+/* Keep a real focus outline for keyboard users — the browser default
+   outline gets nuked by some UAs, so draw our own brand-coloured
+   one. Outlines (rather than box-shadow) work correctly on
+   display:block inline-text links and don't get clipped when the
+   rail has overflow-y: auto. */
 .apps-categories-nav__link:focus-visible {
   color: var(--color-brand);
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
-  outline: none;
-}
-
-.apps-categories-nav__link:focus-visible {
-  box-shadow: var(--focus-ring-brand);
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
 }
 
 /** Category sections */
