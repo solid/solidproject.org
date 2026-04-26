@@ -1,0 +1,113 @@
+/** Solid26 page styles */
+
+/* Make bold text more visually distinct within the page content */
+#get_involved strong {
+  color: #202542;
+  font-weight: 800;
+}
+
+/* Responsive video embed wrapper */
+.video-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Native contact form */
+.solid26-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 640px;
+  margin-top: 1.2rem;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.6rem;
+}
+
+.solid26-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.solid26-form-field label {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #202542;
+}
+
+.solid26-form-optional {
+  font-weight: normal;
+  color: #666;
+}
+
+.solid26-form-field input,
+.solid26-form-field textarea {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.solid26-form-field input:focus,
+.solid26-form-field textarea:focus {
+  border-color: #7C4DFF;
+  box-shadow: 0 0 0 3px rgba(124, 77, 255, 0.15);
+  outline: none;
+}
+
+.solid26-form-field textarea {
+  resize: vertical;
+  min-height: 6rem;
+}
+
+.solid26-form-submit {
+  align-self: flex-start;
+  background-color: #7C4DFF;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  transition: background-color 0.2s ease;
+}
+
+.solid26-form-submit:hover,
+.solid26-form-submit:focus {
+  background-color: #6535e0;
+}
+
+.solid26-form-status {
+  font-size: 0.95rem;
+  min-height: 1.4rem;
+}
+
+.solid26-form-status--success {
+  color: #1a7f37;
+}
+
+.solid26-form-status--error {
+  color: #cf222e;
+}
