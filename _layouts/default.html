@@ -35,9 +35,11 @@
         <span></span>
       </button>
     </header>
+    {% unless page.permalink == "/engagement" %}
     <div class="event-banner" role="region" aria-label="Event announcement">
-      <span aria-hidden="true">📣</span> <a href="https://sosy2026.eu/">Solid Symposium</a> (Apr 30 – May 1) · <a href="https://www.eventbrite.co.uk/e/solid26-preview-building-personal-apps-and-ai-agents-tickets-1986060301826">Solid Hackathon</a> (Apr 27 – 29) · London, 2026
+      <span aria-hidden="true">📣</span> <a href="/engagement">Get involved</a> – help shape the future of Solid
     </div>
+    {% endunless %}
     {% if page.breadcrumbs %}
     <nav class="breadcrumb" aria-label="breadcrumbs">
       <ol>
