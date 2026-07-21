@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body vocab="http://schema.org/">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header class="header">
       <address class="homepage-link">
         <a href="/"><img alt="Solid logo" src="/assets/img/solid-emblem.svg" /> Solid</a>
@@ -53,7 +54,7 @@
         {% endfor %}
       </ol>
     </nav>{% endif %}
-    <main>
+    <main id="main-content" tabindex="-1">
 {{ content }}
     </main>
     <footer class="footer">

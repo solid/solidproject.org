@@ -66,6 +66,20 @@ h2, h3, h4, h5, h6 {
 }
 
 /* Layout */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  z-index: 1001;
+  background-color: #202542;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+  left: 0;
+}
 main {
   background-color: #fff;
   color: #202542;
