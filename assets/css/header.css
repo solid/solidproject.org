@@ -46,7 +46,8 @@
 .header .main-nav {
     align-items: center;
     display: flex;
-    transition: all 0.3s ease;
+    visibility: hidden;
+    transition: all 0.3s ease, visibility 0s linear 0.3s;
     position: fixed;
     top: 0;
     left: -100%;
@@ -59,7 +60,8 @@
 
 .header .main-nav.nav-open {
     left: 0;
-    transition: left 0.3s ease;
+    visibility: visible;
+    transition: left 0.3s ease, visibility 0s linear 0s;
 }
 
 /* Disable transitions during viewport changes to prevent unwanted animations */
@@ -92,6 +94,18 @@
 
 .header .main-nav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.header .main-nav a:focus-visible {
+    background-color: rgba(255, 255, 255, 0.15);
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.header .hamburger-menu:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 4px;
+    border-radius: 2px;
 }
 
 /* Hamburger menu */
@@ -143,6 +157,7 @@
         background-color: transparent !important;
         left: 0 !important;
         display: block !important;
+        visibility: visible !important;
     }
 
     .header .main-nav ul {
