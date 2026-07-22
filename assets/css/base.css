@@ -350,3 +350,28 @@ main > article h1 {
   height: 100%;
   border: 0;
 }
+
+/** Events page - Calendar table */
+.calendar-download-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.calendar-download-table .ical-download-button {
+  width: fit-content;
+  white-space: nowrap;
+}
+
+/** Events page - embedded Open Web Calendar */
+.calendar-embed {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+.calendar-embed iframe {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  display: block;
+}
