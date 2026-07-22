@@ -1,18 +1,64 @@
 document.addEventListener('DOMContentLoaded', function() {
   const hamburgerButton = document.querySelector('.hamburger-menu');
   const nav = document.querySelector('.main-nav');
+  const navLinks = Array.from(nav.querySelectorAll('a'));
+
+  function isOpen() {
+    return nav.classList.contains('nav-open');
+  }
+
+  function openMenu() {
+    nav.classList.add('nav-open');
+    hamburgerButton.classList.add('active');
+    hamburgerButton.setAttribute('aria-expanded', 'true');
+    navLinks[0].focus();
+  }
+
+  function closeMenu(returnFocus) {
+    nav.classList.remove('nav-open');
+    hamburgerButton.classList.remove('active');
+    hamburgerButton.setAttribute('aria-expanded', 'false');
+    if (returnFocus) {
+      hamburgerButton.focus();
+    }
+  }
 
   hamburgerButton.addEventListener('click', function() {
-    nav.classList.toggle('nav-open');
-    hamburgerButton.classList.toggle('active');
+    if (isOpen()) {
+      closeMenu(true);
+    } else {
+      openMenu();
+    }
   });
 
-  /* Close menu when clicking on a link */
-  const navLinks = document.querySelectorAll('.main-nav a');
-  navLinks.forEach(link => {
+  /* Trap focus within menu while it is open, and close on Escape. */
+  document.addEventListener('keydown', function(event) {
+    if (!isOpen()) return;
+
+    if (event.key === 'Escape') {
+      closeMenu(true);
+      return;
+    }
+
+    if (event.key === 'Tab') {
+      const focusable = [...navLinks, hamburgerButton];
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+  });
+
+  /* Following a nav link navigates away; close the menu to reset state. */
+  navLinks.forEach(function(link) {
     link.addEventListener('click', function() {
-      nav.classList.remove('nav-open');
-      hamburgerButton.classList.remove('active');
+     closeMenu(false);
     });
   });
 
@@ -21,6 +67,11 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', function() {
     /* Add resizing class to disable transitions */
     nav.classList.add('resizing');
+
+    /* Reset the menu if resized up to desktop while open */
+    if (window.matchMedia('(min-width: 1025px)').matches && isOpen()) {
+      closeMenu(false);
+    }
 
     /* Clear existing timeout */
     clearTimeout(resizeTimeout);
