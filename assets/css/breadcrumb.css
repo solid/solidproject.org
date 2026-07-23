@@ -36,10 +36,10 @@
   display: flex;
 }
 
-.breadcrumb li a[href="#"] {
+.breadcrumb li [aria-current="page"] {
   color: #202542;
-  cursor: default;
-  pointer-events: none;
+  margin: 0 1rem 0 0;
+  padding: 0.3rem 0;
 }
 
 .breadcrumb li + li::before {
